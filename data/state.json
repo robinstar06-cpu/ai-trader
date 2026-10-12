@@ -185,11 +185,30 @@
         "RENDER/USD": 2.02785,
         "BTC/USD": 82585.485
       }
+    },
+    {
+      "time": "2026-10-12T16:00:49.772607+00:00",
+      "time_local": "12-10-2026 18:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "RENDER/USD": 20.0,
+        "FIL/USD": 10.0,
+        "AVAX/USD": 10.0
+      },
+      "summary": "De breedte blijft dramatisch zwak (3 van 33 groen, mediaan -2,8%) en FIL verliest nu ook op uurbasis momentum (-3,6% 1u). RENDER is de enige echte outperformer met positief 24u-momentum en RSI 60. BTC blijft de veilige haven in deze correctie.",
+      "equity": 9732.91,
+      "prices": {
+        "RENDER/USD": 2.029,
+        "AVAX/USD": 10.68357574,
+        "BTC/USD": 82630.1475,
+        "FIL/USD": 1.162
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-12T15:30:45.328305+00:00",
-    "time_local": "12-10-2026 17:30",
-    "text": "Defensieve positie behouden: 50% BTC als veilige haven terwijl de breedte instort. FIL en RENDER (elk ~20%) blijven de momentum-kern zolang ze de markt outperformen; AVAX op 10% houden. Bij verdere verslechtering van FIL/RENDER roteer ik verder naar BTC of cash. Geen nieuwe alt-risico's nemen in deze zwakke breedte."
+    "time": "2026-10-12T16:00:49.772607+00:00",
+    "time_local": "12-10-2026 18:00",
+    "text": "FIL-momentum verzwakt zichtbaar; ik halveer FIL naar 10% en verschuif naar BTC (60%) en RENDER (20%), dat structureel het sterkst is (boven SMA24h, RSI 60, positief op alle tijdsframes). AVAX blijft op 10% vanwege sterk 30d-momentum. Bij verdere verslechtering van RENDER roteer ik volledig naar BTC/cash; bij herstel van de breedte bouw ik de AI/storage-kern weer uit."
   }
 }
