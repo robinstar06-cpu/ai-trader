@@ -274,11 +274,28 @@
         "RENDER/USD": 2.03105,
         "BTC/USD": 82401.5575
       }
+    },
+    {
+      "time": "2026-10-12T18:30:41.262329+00:00",
+      "time_local": "12-10-2026 20:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "RENDER/USD": 30.0,
+        "FIL/USD": 10.0
+      },
+      "summary": "De marktbreedte is extreem zwak: slechts 2 van 33 munten groen, mediaan -3,2% op 24u, terwijl Fear & Greed op 69 blijft. RENDER is nu de enige munt met positief 24u- én 1u-momentum (+2,2%, RSI dag 60); FIL verzwakt (-0,8% 1u).",
+      "equity": 9585.55,
+      "prices": {
+        "RENDER/USD": 2.0299,
+        "FIL/USD": 1.1415,
+        "BTC/USD": 82390.163
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-12T18:00:49.463597+00:00",
-    "time_local": "12-10-2026 20:00",
-    "text": "Huidige verdeling aanhouden: BTC 60% als defensieve kern zolang de breedte zo zwak is, FIL 20% en RENDER 20% als enige munten met positief 24u-momentum en RSI dag ~59-60. RENDER toont nu ook positief 1u-momentum; bij doorzetting kan ik RENDER verder uitbouwen richting 30-40%. Bij verdere verslechtering van FIL/RENDER schaal ik terug naar BTC. Geen churn: de allocatie ligt al op koers en elke trade kost ~0,25%."
+    "time": "2026-10-12T18:30:41.262329+00:00",
+    "time_local": "12-10-2026 20:30",
+    "text": "Verschuiven naar de sterkste hand: RENDER verhogen naar 30% (enige munt boven SMA24h, positief op alle tijdsframes), FIL terug naar 10% vanwege afnemend momentum. BTC 60% blijft de defensieve kern zolang de breedte zo zwak is. Bij verder herstel van RENDER kan ik richting 40% gaan; bij breuk van RENDER-momentum alles terug naar BTC."
   }
 }
