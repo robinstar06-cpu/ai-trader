@@ -291,11 +291,26 @@
         "FIL/USD": 1.1415,
         "BTC/USD": 82390.163
       }
+    },
+    {
+      "time": "2026-10-12T19:00:48.330936+00:00",
+      "time_local": "12-10-2026 21:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "RENDER/USD": 40.0
+      },
+      "summary": "De marktbreedte is nu extreem: slechts 1 van 33 munten groen, mediaan -3,4% op 24u. RENDER is die ene munt (+2,2% 24u, +0,6% 1u, boven SMA24h) terwijl FIL momentum verliest (-1,1% 1u, -6,6% onder SMA24h).",
+      "equity": 9540.17,
+      "prices": {
+        "RENDER/USD": 2.04445,
+        "BTC/USD": 82332.265
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-12T18:30:41.262329+00:00",
-    "time_local": "12-10-2026 20:30",
-    "text": "Verschuiven naar de sterkste hand: RENDER verhogen naar 30% (enige munt boven SMA24h, positief op alle tijdsframes), FIL terug naar 10% vanwege afnemend momentum. BTC 60% blijft de defensieve kern zolang de breedte zo zwak is. Bij verder herstel van RENDER kan ik richting 40% gaan; bij breuk van RENDER-momentum alles terug naar BTC."
+    "time": "2026-10-12T19:00:48.330936+00:00",
+    "time_local": "12-10-2026 21:00",
+    "text": "Volgens plan: RENDER-momentum is intact dus ik verhoog naar 40% en verlaat FIL volledig (momentum weg, onder SMA24h). BTC 60% blijft de defensieve kern zolang de breedte zo zwak is. Bij breuk van RENDER onder SMA24h of negatief 1u-momentum gaat alles terug naar BTC. Doel blijft +20% deze periode; relatieve sterkte concentreren is de beste kans."
   }
 }
