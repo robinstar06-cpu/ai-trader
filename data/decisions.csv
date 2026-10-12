@@ -15,3 +15,7 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-12T13:00:49.414888+00:00,12-10-2026 15:00,moonshotai/kimi-k3,BTC/USD,39.2,40.0,houden,,,"Ankerpositie, stabiel boven 50d-SMA, verlaagt volatiliteit van de portefeuille"
 2026-10-12T13:00:49.414888+00:00,12-10-2026 15:00,moonshotai/kimi-k3,ETH/USD,19.6,20.0,houden,,,"Beta-exposure op breed herstel, positief 24u-momentum"
 2026-10-12T13:00:49.414888+00:00,12-10-2026 15:00,moonshotai/kimi-k3,FIL/USD,19.8,20.0,houden,,,"Sterkste momentum van de markt: +10,6% 24u, RSI 65, hoog in 7d-range"
+2026-10-12T13:30:42.316820+00:00,12-10-2026 15:30,moonshotai/kimi-k3,AVAX/USD,19.4,20.0,houden,,,"Boven alle gemiddelden, +3,3% 24u, +47% 30d, trend intact"
+2026-10-12T13:30:42.316820+00:00,12-10-2026 15:30,moonshotai/kimi-k3,BTC/USD,39.3,40.0,houden,,,"Ankerpositie, stabiel boven 50d-SMA, laagste volatiliteit"
+2026-10-12T13:30:42.316820+00:00,12-10-2026 15:30,moonshotai/kimi-k3,ETH/USD,19.6,20.0,houden,,,"Beta-blootstelling, herstelt licht (+1% 24u), dicht bij steun"
+2026-10-12T13:30:42.316820+00:00,12-10-2026 15:30,moonshotai/kimi-k3,FIL/USD,19.9,20.0,houden,,,"Sterkste momentum: +10,6% 24u, +52% 30d, RSI 65, 84% van 7d-range"
