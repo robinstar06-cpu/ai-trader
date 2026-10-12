@@ -1,8 +1,6 @@
 name: AI Trader
 
 on:
-  schedule:
-    - cron: "7,37 * * * *"   # elk half uur
   workflow_dispatch:
     inputs:
       dry_run:
