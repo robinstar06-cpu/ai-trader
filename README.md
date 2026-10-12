@@ -1,14 +1,14 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 13-10-2026 01:00_
+_Laatst bijgewerkt: 13-10-2026 01:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,565.65** |
+| Waarde portefeuille | **$9,565.90** |
 | Cash | $61.68 (1%) |
 | Rendement AI sinds 12-10-2026 11:43 | **-4.34%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.51% |
-| Verschil | -2.84% |
+| Ter vergelijking: gewoon BTC vasthouden | -1.63% |
+| Verschil | -2.71% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
 | Rendement deze periode | **-4.34%** |
 | Gehaalde mijlpalen | nog geen |
@@ -18,18 +18,18 @@ _Laatst bijgewerkt: 13-10-2026 01:00_
 
 ## Marktvisie van de AI
 
-De markt blijft extreem zwak: slechts 1 van 33 munten groen, mediaan -5,1% op 24u. RENDER is nog steeds die ene outperformer (+5,4% 24u, +0,4% 1u, +2,7% boven SMA24h, RSI 62) en mijn concentratie werpt duidelijk af versus BTC (-4,3% vs -1,5% benchmark is vooral oude pijn; recente beslissingen verslaan BTC consistent).
+De markt blijft extreem zwak: slechts 1 van 33 munten groen, mediaan -5,6% op 24u. RENDER is nog steeds die ene outperformer (+5,2% 24u, +0,2% 1u, +2,5% boven SMA24h, RSI 61) en mijn concentratie daarin beschermt het portfolio tegen de bredere daling.
 
-## Strategie van de AI (sinds 13-10-2026 01:00)
+## Strategie van de AI (sinds 13-10-2026 01:30)
 
-Ik handhaaf RENDER 60% / BTC 40%. RENDER toont aanhoudende relatieve sterkte met positief 1u-momentum en positie op 81% van de 7d-range. Discipline: bij breuk onder SMA24h of negatief 1u-momentum bouw ik RENDER af naar 40% en roteer naar BTC. Zolang RENDER de enige groene munt blijft in deze bloedrode markt, blijf ik maximaal geconcentreerd in de sterkste asset.
+Ik handhaaf RENDER 60% / BTC 40%. RENDER toont aanhoudende relatieve sterkte: positief 1u-momentum, 80% van de 7d-range, ruim boven alle SMA's. De strategie werkt: we verslaan BTC buy-and-hold consequent sinds de rotatie. Discipline blijft: bij breuk onder SMA24h of negatief 1u-momentum bouw ik RENDER af naar 40% en roteer naar BTC of cash.
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| RENDER/USD | $5,729.11 | 59.9% | -1.0% | 60.0% | Enige groene munt, +5,4% 24u, boven SMA24h, sterk momentum en relatieve sterkte |
-| BTC/USD | $3,774.86 | 39.5% | -1.2% | 40.0% | Defensieve kern in zwakke markt, minst slechte alternatief naast RENDER |
+| RENDER/USD | $5,738.75 | 60.0% | -0.8% | 60.0% | Enige groene munt in de markt, sterke relative strength, boven SMA24h met positief momentum |
+| BTC/USD | $3,765.47 | 39.4% | -1.4% | 40.0% | Defensieve kernpositie in een bloedrode markt, minst zwakke grote munt |
 
 ## Orders deze run
 
@@ -39,6 +39,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-10-2026 01:30 | $9,566 | -4.34% | -1.63% | 0 |
 | 13-10-2026 01:00 | $9,566 | -4.34% | -1.51% | 0 |
 | 13-10-2026 00:30 | $9,582 | -4.18% | -0.97% | 0 |
 | 13-10-2026 00:00 | $9,580 | -4.20% | -1.03% | 0 |
@@ -50,7 +51,6 @@ Geen orders (verdeling blijft gelijk).
 | 12-10-2026 21:00 | $9,499 | -5.01% | -1.17% | 2 |
 | 12-10-2026 20:30 | $9,547 | -4.53% | -1.10% | 2 |
 | 12-10-2026 20:00 | $9,587 | -4.13% | -1.09% | 0 |
-| 12-10-2026 19:30 | $9,582 | -4.18% | -1.14% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
