@@ -44,7 +44,20 @@ jobs:
           GOAL_DAYS: ${{ vars.GOAL_DAYS }}
           GOAL_STEP_PCT: ${{ vars.GOAL_STEP_PCT }}
           RISK_TOLERANCE_PCT: ${{ vars.RISK_TOLERANCE_PCT }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NOTIFY: ${{ vars.NOTIFY }}
         run: python bot.py
+
+      - name: Melding bij fout
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -n "$NTFY_TOPIC" ]; then
+            curl -s -H "Title: AI Trader: run mislukt" -H "Tags: warning" -H "Priority: 4" \
+              -H "Click: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+              -d "De run is mislukt. Tik om de details te bekijken." "https://ntfy.sh/$NTFY_TOPIC" > /dev/null
+          fi
 
       - name: Logboek opslaan
         if: always()
