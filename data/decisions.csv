@@ -28,3 +28,7 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-12T14:31:40.005527+00:00,12-10-2026 16:31,moonshotai/kimi-k3,BTC/USD,39.4,40.0,houden,,,Ankerpositie; stabiel boven SMA50 in een versmallende markt
 2026-10-12T14:31:40.005527+00:00,12-10-2026 16:31,moonshotai/kimi-k3,FIL/USD,19.8,20.0,houden,,,"Sterkste momentum: +9,3% 24u, RSI 65, 83% van 7d-range"
 2026-10-12T14:31:40.005527+00:00,12-10-2026 16:31,moonshotai/kimi-k3,RENDER/USD,19.6,20.0,houden,,,"+7,7% 24u, boven SMA20/50, AI-narratief intact ondanks 1u-dip"
+2026-10-12T15:00:51.424982+00:00,12-10-2026 17:00,moonshotai/kimi-k3,AVAX/USD,19.3,10.0,sell,902.89,verkocht 85.025514737,"Aflossend momentum (-1,85% 1u), positie halveren"
+2026-10-12T15:00:51.424982+00:00,12-10-2026 17:00,moonshotai/kimi-k3,BTC/USD,39.7,50.0,buy,1005.37,gekocht $1005.37,Anker bij instortende marktbreedte; relatief sterk en boven 50d-SMA
+2026-10-12T15:00:51.424982+00:00,12-10-2026 17:00,moonshotai/kimi-k3,FIL/USD,20.1,20.0,houden,,,"Sterkste munt: +7,3% 24u, +51% 30d, momentum intact"
+2026-10-12T15:00:51.424982+00:00,12-10-2026 17:00,moonshotai/kimi-k3,RENDER/USD,19.1,20.0,houden,,,"+3,8% 24u, boven SMA20/50, AI-momentum houdt vast"

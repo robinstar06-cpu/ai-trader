@@ -147,11 +147,30 @@
         "AVAX/USD": 10.8205,
         "FIL/USD": 1.21315
       }
+    },
+    {
+      "time": "2026-10-12T15:00:51.424982+00:00",
+      "time_local": "12-10-2026 17:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 50.0,
+        "FIL/USD": 20.0,
+        "RENDER/USD": 20.0,
+        "AVAX/USD": 10.0
+      },
+      "summary": "De marktbreedte is ingestort: slechts 4 van 33 munten stijgen en de mediaan is -2,7% op 24u. FIL (+7,3%) en RENDER (+3,8%) blijven opmerkelijk sterk, maar AVAX verliest momentum (-1,85% op 1u). BTC houdt stand boven zijn 50d-SMA.",
+      "equity": 9760.28,
+      "prices": {
+        "FIL/USD": 1.2074,
+        "AVAX/USD": 10.6785,
+        "RENDER/USD": 2.040175,
+        "BTC/USD": 82554.9
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-12T14:31:40.005527+00:00",
-    "time_local": "12-10-2026 16:31",
-    "text": "Ik handhaaf de huidige allocatie: BTC 40% als anker, FIL en RENDER als momentum-kern, AVAX als derde been. De marktbreedte verslechtert, dus ik monitor scherp: bij doorbreken van de zwakte naar FIL/RENDER roteer ik terug naar BTC. AVAX herstelt (+1,8% 24u) en staat boven SMA20/50, dus die behoud ik. Geen trades nu: de afwijkingen van target zijn kleiner dan 1% en churn kost alleen maar fees."
+    "time": "2026-10-12T15:00:51.424982+00:00",
+    "time_local": "12-10-2026 17:00",
+    "text": "Defensiever bij verslechterende breedte: AVAX terugbrengen van ~19% naar 10% (momentum kantelt, 1u RSI zwak) en de opbrengst naar BTC (naar 50%) als veilige haven. FIL en RENDER behouden als momentum-kern zolang ze de markt blijven outperformen. Bij verdere verslechtering van FIL/RENDER roteer ik verder naar BTC of cash."
   }
 }
