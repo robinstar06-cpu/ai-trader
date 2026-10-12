@@ -109,11 +109,30 @@
         "BTC/USD": 82462.106,
         "FIL/USD": 1.214905
       }
+    },
+    {
+      "time": "2026-10-12T14:00:51.807639+00:00",
+      "time_local": "12-10-2026 16:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 20.0,
+        "AVAX/USD": 20.0,
+        "RENDER/USD": 20.0
+      },
+      "summary": "De markt consolideert licht, maar het momentum zit duidelijk in de AI/storage-hoek: FIL (+9,6% 24u) en RENDER (+9,4% 24u) zijn de sterkste munten. ETH blijft zwak (onder 50d-SMA), dus ik roteer ETH naar RENDER.",
+      "equity": 9896.45,
+      "prices": {
+        "AVAX/USD": 10.88,
+        "RENDER/USD": 2.09416,
+        "BTC/USD": 82908.7,
+        "FIL/USD": 1.21606
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-12T13:30:42.316820+00:00",
-    "time_local": "12-10-2026 15:30",
-    "text": "Ik behoud de huidige structuur: BTC als anker (40%), ETH als beta (20%), en momentum-spelers FIL en AVAX (elk 20%). De lichte dip is consolidatie, geen trendbreuk; verkopen kost alleen fees en de posities staan dicht bij hun doelgewichten. Ik herzie bij een duidelijke trendbreuk in FIL/AVAX of als BTC onder zijn 50d-SMA zakt. RENDER (+9% 24u) is een kandidaat om ETH te vervangen als ETH zwak blijft."
+    "time": "2026-10-12T14:00:51.807639+00:00",
+    "time_local": "12-10-2026 16:00",
+    "text": "Ik vervang ETH door RENDER: RENDER heeft +9,4% 24u, RSI 67, boven SMA20/50 en +51% op 30d. BTC blijft het anker (40%), FIL en AVAX behouden wegens sterk momentum. RENDER heeft lage liquiditeit, dus ik accepteer de spread en monitor de positie nauwkeurig. Bij trendbreuk in FIL/RENDER stap ik terug naar BTC."
   }
 }
