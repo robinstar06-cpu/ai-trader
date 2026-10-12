@@ -321,11 +321,26 @@
         "RENDER/USD": 2.0505,
         "BTC/USD": 82616.2605
       }
+    },
+    {
+      "time": "2026-10-12T20:00:47.211028+00:00",
+      "time_local": "12-10-2026 22:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "RENDER/USD": 40.0
+      },
+      "summary": "De marktbreedte is nog steeds extreem zwak: slechts 1 van 33 munten groen, mediaan -3,3% op 24u. RENDER blijft die ene outperformer (+3,5% 24u, boven SMA24h, RSI dag 62) en BTC houdt stand rond 82,7k.",
+      "equity": 9527.1,
+      "prices": {
+        "BTC/USD": 82762.47,
+        "RENDER/USD": 2.07775
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-12T19:30:38.641600+00:00",
-    "time_local": "12-10-2026 21:30",
-    "text": "Huidige allocatie (60% BTC / 40% RENDER) behouden: RENDER-momentum is intact en het is de enige munt met positieve 24u- en 1u-returns. Stop-loss-discipline: bij breuk van RENDER onder SMA24h of negatief 1u-momentum alles terug naar BTC. Zodra de breedte herstelt (>10 munten groen) zoek ik een tweede relatieve-sterkte-kandidaat om de weg naar +20% te versnellen."
+    "time": "2026-10-12T20:00:47.211028+00:00",
+    "time_local": "12-10-2026 22:00",
+    "text": "Allocatie 60% BTC / 40% RENDER behouden: RENDER is de enige munt met positief momentum en mijn concentratie daar heeft de afgelopen uren outperformance opgeleverd (+0,4% vs BTC +0,2%). Stop-discipline: bij breuk van RENDER onder SMA24h of negatief 1u-momentum terug naar BTC. Zodra de breedte herstelt (>10 munten groen) zoek ik een tweede relatieve-sterkte-kandidaat om richting +20% te versnellen."
   }
 }

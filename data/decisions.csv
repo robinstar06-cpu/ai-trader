@@ -62,3 +62,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-12T19:00:48.330936+00:00,12-10-2026 21:00,moonshotai/kimi-k3,RENDER/USD,28.9,40.0,buy,956.33,gekocht $956.33,"Enige munt groen op 24u, boven SMA24h, positief momentum op alle tijdsframes"
 2026-10-12T19:30:38.641600+00:00,12-10-2026 21:30,moonshotai/kimi-k3,BTC/USD,61.0,60.0,houden,,,Defensieve kern zolang marktbreedte extreem zwak is (1 van 33 groen)
 2026-10-12T19:30:38.641600+00:00,12-10-2026 21:30,moonshotai/kimi-k3,RENDER/USD,38.7,40.0,buy,30.59,gekocht $30.59,"Enige munt met positief momentum, boven SMA24h, relatieve sterkte concentreren"
+2026-10-12T20:00:47.211028+00:00,12-10-2026 22:00,moonshotai/kimi-k3,BTC/USD,61.2,60.0,sell,110.10,verkocht 0.001329389,Veilige basis in zwakke markt; BTC houdt stand terwijl alts bloeden.
+2026-10-12T20:00:47.211028+00:00,12-10-2026 22:00,moonshotai/kimi-k3,RENDER/USD,38.8,40.0,buy,109.33,gekocht $109.33,"Enige munt met positief 24u-momentum, boven SMA24h, RSI dag 62; bewezen outperformer."
