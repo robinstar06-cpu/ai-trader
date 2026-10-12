@@ -1,0 +1,43 @@
+{
+  "goal": {
+    "period": 1,
+    "period_start": "2026-10-12T09:43:58.088080+00:00",
+    "start_equity": 10000.0,
+    "btc_start": 83308.061,
+    "target_pct": 20.0,
+    "milestones": []
+  },
+  "peak_equity": 10000.0,
+  "last_review": "2026-10-12T09:43:58.088080+00:00",
+  "start": {
+    "time": "2026-10-12T09:43:58.088080+00:00",
+    "equity": 10000.0,
+    "btc_price": 83308.061
+  },
+  "history": [
+    {
+      "time": "2026-10-12T09:43:58.088080+00:00",
+      "time_local": "12-10-2026 11:43",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ETH/USD": 20.0,
+        "AVAX/USD": 20.0,
+        "FIL/USD": 20.0
+      },
+      "summary": "De markt herstelt breed: 29 van 33 munten stijgen, Fear & Greed op 69. Momentum zit in AVAX, FIL en RENDER, terwijl BTC stabiel boven zijn 50d-SMA staat. Ik ga vanuit cash agressief inzetten op herstel.",
+      "equity": 10000.0,
+      "prices": {
+        "BTC/USD": 83308.061,
+        "ETH/USD": 2551.501,
+        "FIL/USD": 1.23989,
+        "AVAX/USD": 11.02145
+      }
+    }
+  ],
+  "plan": {
+    "time": "2026-10-12T09:43:58.088080+00:00",
+    "time_local": "12-10-2026 11:43",
+    "text": "Start met een gediversifieerde maar offensieve allocatie: BTC als anker (40%), ETH als beta (20%), en momentum-spelers AVAX (20%) en FIL (20%) die sterke 24u/30d trends tonen. Doel is +20% deze periode; ik herzie bij tekenen van omkering of als momentum uitdooft. Fees zijn ~0,25%, dus ik handel alleen bij duidelijke edge."
+  }
+}
