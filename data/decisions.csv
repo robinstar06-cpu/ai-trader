@@ -48,3 +48,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-12T17:00:50.350908+00:00,12-10-2026 19:00,moonshotai/kimi-k3,BTC/USD,60.4,60.0,houden,,,Defensieve kern bij dramatisch zwakke marktbreedte
 2026-10-12T17:00:50.350908+00:00,12-10-2026 19:00,moonshotai/kimi-k3,FIL/USD,9.9,20.0,buy,969.39,gekocht $969.39,"Positief 24u-momentum, RSI dag 59, hoog in 7d-range; AVAX vervangen"
 2026-10-12T17:00:50.350908+00:00,12-10-2026 19:00,moonshotai/kimi-k3,RENDER/USD,19.2,20.0,houden,,,"Sterkste structurele outperformer, positief 24u en 30d +45%"
+2026-10-12T17:30:39.175749+00:00,12-10-2026 19:30,moonshotai/kimi-k3,BTC/USD,60.5,60.0,houden,,,Defensieve kern bij extreem zwakke marktbreedte
+2026-10-12T17:30:39.175749+00:00,12-10-2026 19:30,moonshotai/kimi-k3,FIL/USD,19.7,20.0,houden,,,"Positief 24u-momentum, RSI dag 59, sterke 30d-trend"
+2026-10-12T17:30:39.175749+00:00,12-10-2026 19:30,moonshotai/kimi-k3,RENDER/USD,19.3,20.0,houden,,,"Sterkste munt nu: +1,7% 24u en +0,9% 1u, RSI dag 60"

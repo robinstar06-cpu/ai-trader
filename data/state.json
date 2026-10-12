@@ -240,11 +240,28 @@
         "BTC/USD": 82409.3555,
         "RENDER/USD": 2.00232
       }
+    },
+    {
+      "time": "2026-10-12T17:30:39.175749+00:00",
+      "time_local": "12-10-2026 19:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "FIL/USD": 20.0,
+        "RENDER/USD": 20.0
+      },
+      "summary": "De marktbreedte blijft dramatisch zwak (3 van 33 groen, mediaan -3,6%), maar FIL (+0,5% 24u) en RENDER (+1,7% 24u, +0,9% 1u) blijven de enige relatieve sterkte. BTC consolideert licht negatief maar boven zijn 50d-SMA.",
+      "equity": 9582.23,
+      "prices": {
+        "FIL/USD": 1.15212,
+        "RENDER/USD": 2.01895,
+        "BTC/USD": 82354.3105
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-12T17:00:50.350908+00:00",
-    "time_local": "12-10-2026 19:00",
-    "text": "AVAX volledig verkopen en die 10% naar FIL verschuiven: FIL toont de beste combinatie van positief 24u-momentum, RSI dag 59 en 62% van de 7d-range. BTC 60% blijft de defensieve kern zolang de breedte zo zwak is. Bij herstel van de breedte bouw ik RENDER/FIL verder uit; bij verdere verslechtering van FIL/RENDER schaal ik terug naar BTC."
+    "time": "2026-10-12T17:30:39.175749+00:00",
+    "time_local": "12-10-2026 19:30",
+    "text": "Huidige verdeling aanhouden: BTC 60% als defensieve kern zolang de breedte zo zwak is, FIL 20% en RENDER 20% als enige munten met positief 24u-momentum en RSI dag ~59. RENDER toont nu ook positief 1u-momentum; bij doorzetting hiervan kan ik RENDER verder uitbouwen. Bij verdere verslechtering van FIL/RENDER schaal ik terug naar BTC. Geen churn: de huidige allocatie ligt al op koers."
   }
 }
