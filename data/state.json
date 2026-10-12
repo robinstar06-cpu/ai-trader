@@ -71,11 +71,30 @@
         "FIL/USD": 1.224435,
         "AVAX/USD": 10.9075
       }
+    },
+    {
+      "time": "2026-10-12T13:00:49.414888+00:00",
+      "time_local": "12-10-2026 15:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ETH/USD": 20.0,
+        "FIL/USD": 20.0,
+        "AVAX/USD": 20.0
+      },
+      "summary": "De markt consolideert licht met een negatief 1u-momentum, maar de bredere trend blijft constructief (Fear & Greed 69, 24 van 33 munten groen). FIL blijft de uitblinker met +10,6% op 24u en sterke positie in zijn 7d-range; AVAX bevestigt zijn uptrend boven de 20d-SMA.",
+      "equity": 9895.45,
+      "prices": {
+        "BTC/USD": 82677.485,
+        "FIL/USD": 1.22027,
+        "AVAX/USD": 10.89855,
+        "ETH/USD": 2529.3755
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-12T12:55:04.408120+00:00",
-    "time_local": "12-10-2026 14:55",
-    "text": "Ik behoud de huidige structuur: BTC als anker (40%), ETH als beta (20%), en momentum-spelers AVAX/FIL (elk 20%). FIL toont het sterkste momentum van de markt en AVAX bevestigt zijn uptrend; verkopen nu zou alleen fees kosten zonder duidelijk beter alternatief. RENDER heeft te laag volume. Ik herzie pas bij duidelijke trendbreuk of als FIL-momentum uitdooft."
+    "time": "2026-10-12T13:00:49.414888+00:00",
+    "time_local": "12-10-2026 15:00",
+    "text": "Ik behoud de huidige structuur: BTC als anker (40%), ETH als beta (20%), en momentum-spelers AVAX/FIL (elk 20%). FIL's momentum is intact (RSI 65, 86% van 7d-range, +52% 30d) en AVAX staat boven alle relevante gemiddelden. De lichte 1u-dip is consolidatie, geen trendbreuk; verkopen kost alleen fees. Ik herzie bij een duidelijke trendbreuk in FIL/AVAX of als BTC onder zijn 50d-SMA zakt."
   }
 }
