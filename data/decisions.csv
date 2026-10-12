@@ -3,3 +3,7 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-12T09:43:58.088080+00:00,12-10-2026 11:43,moonshotai/kimi-k3,BTC/USD,0.0,40.0,buy,4000.00,gekocht $4000.00,"Ankerpositie, boven 50d-SMA, laagste volatiliteit"
 2026-10-12T09:43:58.088080+00:00,12-10-2026 11:43,moonshotai/kimi-k3,ETH/USD,0.0,20.0,buy,2000.00,gekocht $2000.00,"Sterk 24u herstel, RSI gezond, goede liquiditeit"
 2026-10-12T09:43:58.088080+00:00,12-10-2026 11:43,moonshotai/kimi-k3,FIL/USD,0.0,20.0,buy,1875.25,gekocht $1875.25,"+12,9% 24u, +55% 30d, dicht bij 7d-high, trendvolging"
+2026-10-12T11:09:23.592866+00:00,12-10-2026 13:09,moonshotai/kimi-k3,AVAX/USD,19.5,20.0,houden,,,"Sterk momentum: +5,8% 24u, +48,6% 30d, boven alle SMA's"
+2026-10-12T11:09:23.592866+00:00,12-10-2026 13:09,moonshotai/kimi-k3,BTC/USD,39.2,40.0,houden,,,"Ankerpositie, stabiel boven 50d-SMA, laagste volatiliteit"
+2026-10-12T11:09:23.592866+00:00,12-10-2026 13:09,moonshotai/kimi-k3,ETH/USD,19.6,20.0,houden,,,"Beta-exposure, herstelt mee met de markt"
+2026-10-12T11:09:23.592866+00:00,12-10-2026 13:09,moonshotai/kimi-k3,FIL/USD,18.5,20.0,buy,145.47,gekocht $145.47,"Beste performer: +12,9% 24u, +54,6% 30d, 93% van 7d-range"

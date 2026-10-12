@@ -33,11 +33,30 @@
         "FIL/USD": 1.23989,
         "AVAX/USD": 11.02145
       }
+    },
+    {
+      "time": "2026-10-12T11:09:23.592866+00:00",
+      "time_local": "12-10-2026 13:09",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ETH/USD": 20.0,
+        "AVAX/USD": 20.0,
+        "FIL/USD": 20.0
+      },
+      "summary": "De markt herstelt breed met 30 van 33 munten in het groen en Fear & Greed op 69. Momentum zit duidelijk in FIL (+12,9% 24u, +54,6% 30d) en AVAX (+5,8% 24u), terwijl BTC stabiel boven zijn 50d-SMA blijft.",
+      "equity": 9993.36,
+      "prices": {
+        "ETH/USD": 2549.734,
+        "AVAX/USD": 10.99465,
+        "BTC/USD": 83353.8,
+        "FIL/USD": 1.2389
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-12T09:43:58.088080+00:00",
-    "time_local": "12-10-2026 11:43",
-    "text": "Start met een gediversifieerde maar offensieve allocatie: BTC als anker (40%), ETH als beta (20%), en momentum-spelers AVAX (20%) en FIL (20%) die sterke 24u/30d trends tonen. Doel is +20% deze periode; ik herzie bij tekenen van omkering of als momentum uitdooft. Fees zijn ~0,25%, dus ik handel alleen bij duidelijke edge."
+    "time": "2026-10-12T11:09:23.592866+00:00",
+    "time_local": "12-10-2026 13:09",
+    "text": "Huidige allocatie werkt: FIL draait al +1,1% en toont het sterkste momentum van de markt, AVAX bevestigt zijn trend. Ik behoud BTC als anker (40%), ETH als beta (20%) en de momentum-spelers AVAX/FIL (elk 20%). RENDER is interessant maar volume is te laag voor een betrouwbare positie. Ik herzie pas bij duidelijke omkering of als momentum uitdooft; onnodig handelen kost alleen fees."
   }
 }

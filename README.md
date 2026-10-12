@@ -1,51 +1,49 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 12-10-2026 11:43_
+_Laatst bijgewerkt: 12-10-2026 13:09_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$10,000.47** |
-| Cash | $320.09 (3%) |
-| Rendement AI sinds 12-10-2026 11:43 | **+0.00%** |
-| Ter vergelijking: gewoon BTC vasthouden | +0.00% |
-| Verschil | +0.00% |
+| Waarde portefeuille | **$9,994.88** |
+| Cash | $177.51 (2%) |
+| Rendement AI sinds 12-10-2026 11:43 | **-0.05%** |
+| Ter vergelijking: gewoon BTC vasthouden | +0.05% |
+| Verschil | -0.11% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **+0.00%** |
+| Rendement deze periode | **-0.05%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | +0.00% |
+| Daling vanaf de top ($10,000) | -0.05% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 69 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt herstelt breed: 29 van 33 munten stijgen, Fear & Greed op 69. Momentum zit in AVAX, FIL en RENDER, terwijl BTC stabiel boven zijn 50d-SMA staat. Ik ga vanuit cash agressief inzetten op herstel.
+De markt herstelt breed met 30 van 33 munten in het groen en Fear & Greed op 69. Momentum zit duidelijk in FIL (+12,9% 24u, +54,6% 30d) en AVAX (+5,8% 24u), terwijl BTC stabiel boven zijn 50d-SMA blijft.
 
-## Strategie van de AI (sinds 12-10-2026 11:43)
+## Strategie van de AI (sinds 12-10-2026 13:09)
 
-Start met een gediversifieerde maar offensieve allocatie: BTC als anker (40%), ETH als beta (20%), en momentum-spelers AVAX (20%) en FIL (20%) die sterke 24u/30d trends tonen. Doel is +20% deze periode; ik herzie bij tekenen van omkering of als momentum uitdooft. Fees zijn ~0,25%, dus ik handel alleen bij duidelijke edge.
+Huidige allocatie werkt: FIL draait al +1,1% en toont het sterkste momentum van de markt, AVAX bevestigt zijn trend. Ik behoud BTC als anker (40%), ETH als beta (20%) en de momentum-spelers AVAX/FIL (elk 20%). RENDER is interessant maar volume is te laag voor een betrouwbare positie. Ik herzie pas bij duidelijke omkering of als momentum uitdooft; onnodig handelen kost alleen fees.
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,912.33 | 39.1% | -0.0% | 40.0% | Ankerpositie, boven 50d-SMA, laagste volatiliteit |
-| AVAX/USD | $1,958.71 | 19.6% | +0.3% | 20.0% | +6,8% 24u, +49% 30d, sterk momentum boven SMA's |
-| ETH/USD | $1,956.14 | 19.6% | -0.0% | 20.0% | Sterk 24u herstel, RSI gezond, goede liquiditeit |
-| FIL/USD | $1,853.20 | 18.5% | +1.1% | 20.0% | +12,9% 24u, +55% 30d, dicht bij 7d-high, trendvolging |
+| BTC/USD | $3,913.08 | 39.2% | -0.0% | 40.0% | Ankerpositie, stabiel boven 50d-SMA, laagste volatiliteit |
+| FIL/USD | $1,997.29 | 20.0% | +1.1% | 20.0% | Beste performer: +12,9% 24u, +54,6% 30d, 93% van 7d-range |
+| ETH/USD | $1,958.02 | 19.6% | +0.1% | 20.0% | Beta-exposure, herstelt mee met de markt |
+| AVAX/USD | $1,948.98 | 19.5% | -0.2% | 20.0% | Sterk momentum: +5,8% 24u, +48,6% 30d, boven alle SMA's |
 
 ## Orders deze run
 
 | Munt | Actie | Bedrag | Resultaat |
 |---|---|---|---|
-| BTC/USD | buy | $4,000.00 | gekocht $4000.00 |
-| AVAX/USD | buy | $2,000.00 | gekocht $2000.00 |
-| ETH/USD | buy | $2,000.00 | gekocht $2000.00 |
-| FIL/USD | buy | $1,875.25 | gekocht $1875.25 |
+| FIL/USD | buy | $145.47 | gekocht $145.47 |
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 12-10-2026 13:09 | $9,995 | -0.05% | 0.05% | 1 |
 | 12-10-2026 11:43 | $10,000 | 0.00% | 0.00% | 4 |
 
 ---
