@@ -257,11 +257,28 @@
         "RENDER/USD": 2.01895,
         "BTC/USD": 82354.3105
       }
+    },
+    {
+      "time": "2026-10-12T18:00:49.463597+00:00",
+      "time_local": "12-10-2026 20:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "FIL/USD": 20.0,
+        "RENDER/USD": 20.0
+      },
+      "summary": "De marktbreedte blijft dramatisch zwak: slechts 3 van 33 munten groen, mediaan -3,2% op 24u, terwijl Fear & Greed op 69 blijft. RENDER (+2,3% 24u, positief 1u-momentum) en FIL (+0,4% 24u) blijven de enige relatieve sterkte; BTC houdt zich defensief beter dan alts.",
+      "equity": 9586.51,
+      "prices": {
+        "FIL/USD": 1.151,
+        "RENDER/USD": 2.03105,
+        "BTC/USD": 82401.5575
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-12T17:30:39.175749+00:00",
-    "time_local": "12-10-2026 19:30",
-    "text": "Huidige verdeling aanhouden: BTC 60% als defensieve kern zolang de breedte zo zwak is, FIL 20% en RENDER 20% als enige munten met positief 24u-momentum en RSI dag ~59. RENDER toont nu ook positief 1u-momentum; bij doorzetting hiervan kan ik RENDER verder uitbouwen. Bij verdere verslechtering van FIL/RENDER schaal ik terug naar BTC. Geen churn: de huidige allocatie ligt al op koers."
+    "time": "2026-10-12T18:00:49.463597+00:00",
+    "time_local": "12-10-2026 20:00",
+    "text": "Huidige verdeling aanhouden: BTC 60% als defensieve kern zolang de breedte zo zwak is, FIL 20% en RENDER 20% als enige munten met positief 24u-momentum en RSI dag ~59-60. RENDER toont nu ook positief 1u-momentum; bij doorzetting kan ik RENDER verder uitbouwen richting 30-40%. Bij verdere verslechtering van FIL/RENDER schaal ik terug naar BTC. Geen churn: de allocatie ligt al op koers en elke trade kost ~0,25%."
   }
 }

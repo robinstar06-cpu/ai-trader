@@ -51,3 +51,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-12T17:30:39.175749+00:00,12-10-2026 19:30,moonshotai/kimi-k3,BTC/USD,60.5,60.0,houden,,,Defensieve kern bij extreem zwakke marktbreedte
 2026-10-12T17:30:39.175749+00:00,12-10-2026 19:30,moonshotai/kimi-k3,FIL/USD,19.7,20.0,houden,,,"Positief 24u-momentum, RSI dag 59, sterke 30d-trend"
 2026-10-12T17:30:39.175749+00:00,12-10-2026 19:30,moonshotai/kimi-k3,RENDER/USD,19.3,20.0,houden,,,"Sterkste munt nu: +1,7% 24u en +0,9% 1u, RSI dag 60"
+2026-10-12T18:00:49.463597+00:00,12-10-2026 20:00,moonshotai/kimi-k3,BTC/USD,60.5,60.0,houden,,,"Defensieve kern; breedte extreem zwak (3/33 groen), BTC houdt relatief stand"
+2026-10-12T18:00:49.463597+00:00,12-10-2026 20:00,moonshotai/kimi-k3,FIL/USD,19.7,20.0,houden,,,Enige alt met positief 24u-momentum en RSI dag 59; relatieve sterkte
+2026-10-12T18:00:49.463597+00:00,12-10-2026 20:00,moonshotai/kimi-k3,RENDER/USD,19.3,20.0,houden,,,"Sterkste munt: +2,3% 24u, positief 1u-momentum, RSI dag 60"

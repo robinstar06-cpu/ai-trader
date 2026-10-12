@@ -1,36 +1,36 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 12-10-2026 19:30_
+_Laatst bijgewerkt: 12-10-2026 20:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,582.23** |
+| Waarde portefeuille | **$9,586.51** |
 | Cash | $57.03 (1%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-4.18%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.14% |
-| Verschil | -3.03% |
+| Rendement AI sinds 12-10-2026 11:43 | **-4.13%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.09% |
+| Verschil | -3.05% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-4.18%** |
+| Rendement deze periode | **-4.13%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.18% |
+| Daling vanaf de top ($10,000) | -4.13% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 69 (Greed) |
 
 ## Marktvisie van de AI
 
-De marktbreedte blijft dramatisch zwak (3 van 33 groen, mediaan -3,6%), maar FIL (+0,5% 24u) en RENDER (+1,7% 24u, +0,9% 1u) blijven de enige relatieve sterkte. BTC consolideert licht negatief maar boven zijn 50d-SMA.
+De marktbreedte blijft dramatisch zwak: slechts 3 van 33 munten groen, mediaan -3,2% op 24u, terwijl Fear & Greed op 69 blijft. RENDER (+2,3% 24u, positief 1u-momentum) en FIL (+0,4% 24u) blijven de enige relatieve sterkte; BTC houdt zich defensief beter dan alts.
 
-## Strategie van de AI (sinds 12-10-2026 19:30)
+## Strategie van de AI (sinds 12-10-2026 20:00)
 
-Huidige verdeling aanhouden: BTC 60% als defensieve kern zolang de breedte zo zwak is, FIL 20% en RENDER 20% als enige munten met positief 24u-momentum en RSI dag ~59. RENDER toont nu ook positief 1u-momentum; bij doorzetting hiervan kan ik RENDER verder uitbouwen. Bij verdere verslechtering van FIL/RENDER schaal ik terug naar BTC. Geen churn: de huidige allocatie ligt al op koers.
+Huidige verdeling aanhouden: BTC 60% als defensieve kern zolang de breedte zo zwak is, FIL 20% en RENDER 20% als enige munten met positief 24u-momentum en RSI dag ~59-60. RENDER toont nu ook positief 1u-momentum; bij doorzetting kan ik RENDER verder uitbouwen richting 30-40%. Bij verdere verslechtering van FIL/RENDER schaal ik terug naar BTC. Geen churn: de allocatie ligt al op koers en elke trade kost ~0,25%.
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,795.45 | 60.5% | -0.9% | 60.0% | Defensieve kern bij extreem zwakke marktbreedte |
-| FIL/USD | $1,883.98 | 19.7% | -3.5% | 20.0% | Positief 24u-momentum, RSI dag 59, sterke 30d-trend |
-| RENDER/USD | $1,845.77 | 19.3% | -4.6% | 20.0% | Sterkste munt nu: +1,7% 24u en +0,9% 1u, RSI dag 60 |
+| BTC/USD | $5,799.74 | 60.5% | -0.8% | 60.0% | Defensieve kern; breedte extreem zwak (3/33 groen), BTC houdt relatief stand |
+| FIL/USD | $1,883.98 | 19.7% | -3.5% | 20.0% | Enige alt met positief 24u-momentum en RSI dag 59; relatieve sterkte |
+| RENDER/USD | $1,845.77 | 19.3% | -4.6% | 20.0% | Sterkste munt: +2,3% 24u, positief 1u-momentum, RSI dag 60 |
 
 ## Orders deze run
 
@@ -40,6 +40,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 12-10-2026 20:00 | $9,587 | -4.13% | -1.09% | 0 |
 | 12-10-2026 19:30 | $9,582 | -4.18% | -1.14% | 0 |
 | 12-10-2026 19:00 | $9,585 | -4.15% | -1.08% | 2 |
 | 12-10-2026 18:30 | $9,676 | -3.24% | -0.70% | 0 |
@@ -51,7 +52,6 @@ Geen orders (verdeling blijft gelijk).
 | 12-10-2026 15:30 | $9,861 | -1.39% | -1.02% | 0 |
 | 12-10-2026 15:00 | $9,895 | -1.05% | -0.76% | 0 |
 | 12-10-2026 14:55 | $9,906 | -0.94% | -0.75% | 0 |
-| 12-10-2026 13:09 | $9,995 | -0.05% | 0.05% | 1 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
