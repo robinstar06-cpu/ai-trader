@@ -74,6 +74,8 @@ AI_TIMEOUT = int(env("AI_TIMEOUT", "240"))
 HISTORY_IN_PROMPT = int(env("HISTORY_IN_PROMPT", "8"))
 REVIEW_EVERY_HOURS = float(env("REVIEW_EVERY_HOURS", "24"))
 FNG_URL = "https://api.alternative.me/fng/?limit=8"
+NTFY_TOPIC = env("NTFY_TOPIC", "")                  # meldingen op je telefoon via de ntfy-app
+NOTIFY = env("NOTIFY", "all").lower()               # all = elke run, trades = alleen bij orders/mijlpaal/fout, off
 DRY_RUN = env("DRY_RUN", "false").lower() in ("1", "true", "yes", "ja")
 
 
@@ -570,6 +572,49 @@ def render_status(now, equity, cash, start, ret, hold_ret, holdings, targets, re
     return "\n".join(lines)
 
 
+# ----------------------------- Meldingen -----------------------------------
+def post_text(url, headers, body):
+    req = urllib.request.Request(url, data=body.encode("utf-8"), headers=headers, method="POST")
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        resp.read()
+
+
+def notify(equity, ret, hold_ret, goal, period_ret, results, notes, errors, summary, model):
+    """Stuurt een pushmelding via ntfy.sh. Fouten hierin stoppen de bot nooit."""
+    if not NTFY_TOPIC or NOTIFY == "off":
+        return
+    milestone = any("Mijlpaal" in n for n in notes)
+    if NOTIFY == "trades" and not (results or milestone or errors or not model):
+        return
+    try:
+        acts = []
+        for r in results:
+            verb = {"buy": "koop", "sell": "verkoop deel", "close": "verkoop alles"}.get(r["kind"], r["kind"])
+            acts.append(f"{verb} {r['symbol'].split('/')[0]} ${r['usd']:,.0f}" + ("" if not r["result"].startswith("FOUT") else " (FOUT)"))
+        lines = [
+            f"Rendement {ret:+.2f}% | BTC vasthouden {hold_ret:+.2f}%",
+            f"Doel periode {goal['period']}: +{goal['target_pct']:.0f}% (nu {period_ret:+.2f}%)",
+            "Orders: " + ("; ".join(acts) if acts else "geen"),
+        ]
+        lines += [n for n in notes if "Mijlpaal" in n or "Periode" in n or "Noodrem" in n or "kopen gestopt" in n]
+        if not model:
+            lines.append("Geen AI-antwoord: niets gedaan.")
+        if errors:
+            lines.append(f"Meldingen: {len(errors)} (zie statuspagina)")
+        if summary:
+            lines.append(summary[:200])
+        tags = ["trophy"] if milestone else ["warning"] if (errors or not model) else \
+            ["chart_with_upwards_trend"] if ret >= 0 else ["chart_with_downwards_trend"]
+        headers = {"Title": f"AI Trader{' (proefrun)' if DRY_RUN else ''}: ${equity:,.0f} ({ret:+.1f}%)",
+                   "Tags": ",".join(tags), "Priority": "4" if milestone else "3"}
+        repo = os.getenv("GITHUB_REPOSITORY")
+        if repo:
+            headers["Click"] = f"{os.getenv('GITHUB_SERVER_URL', 'https://github.com')}/{repo}"
+        post_text(f"https://ntfy.sh/{NTFY_TOPIC}", headers, "\n".join(lines))
+    except Exception as e:
+        print(f"Melding versturen mislukt: {e}")
+
+
 # ------------------------- Context & leren ---------------------------------
 def fear_greed():
     """Crypto Fear & Greed Index (bron: alternative.me). Geeft None bij een fout."""
@@ -888,6 +933,7 @@ def main():
         shown_state["plan"] = {"time_local": local(now), "text": new_plan}
     write_status(render_status(now, equity, cash, start, ret, hold_ret, holdings, targets, reasons, summary,
                                model, results, notes, errors, shown_state, period_end, fng))
+    notify(equity, ret, hold_ret, goal, pct(equity, goal["start_equity"]), results, notes, errors, summary, model)
     print(f"Klaar. Model: {model}. Waarde ${equity:,.2f} ({ret:+.2f}%), BTC vasthouden {hold_ret:+.2f}%. "
           f"Orders: {len(results)}. Meldingen: {notes + errors}")
 
