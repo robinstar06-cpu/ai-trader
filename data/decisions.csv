@@ -118,3 +118,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-13T08:30:38.725020+00:00,13-10-2026 10:30,moonshotai/kimi-k3,BTC/USD,45.1,45.0,houden,,,"Defensieve basis in zwakke markt, stabiel en licht positief"
 2026-10-13T08:30:38.725020+00:00,13-10-2026 10:30,moonshotai/kimi-k3,RENDER/USD,39.9,40.0,houden,,,"Structurele outperformer, momentum herstelt, boven SMA24h"
 2026-10-13T08:30:38.725020+00:00,13-10-2026 10:30,moonshotai/kimi-k3,XTZ/USD,14.5,15.0,houden,,,"Sterkste 1u-momentum, 6,5% boven SMA24h, relatieve sterkte"
+2026-10-13T09:00:50.563824+00:00,13-10-2026 11:00,moonshotai/kimi-k3,BTC/USD,44.9,45.0,houden,,,"Anker in zwakke markt, stabiel en minst risicovol"
+2026-10-13T09:00:50.563824+00:00,13-10-2026 11:00,moonshotai/kimi-k3,RENDER/USD,40.0,40.0,houden,,,"Structurele outperformer, herstelt boven SMA24h, +58% op 30d"
+2026-10-13T09:00:50.563824+00:00,13-10-2026 11:00,moonshotai/kimi-k3,XTZ/USD,14.5,15.0,houden,,,"Relatieve sterkte, groen op 24u, boven alle SMA's"
