@@ -152,3 +152,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-13T15:00:54.237078+00:00,13-10-2026 17:00,moonshotai/kimi-k3,XTZ/USD,15.1,15.0,houden,,,"Vers momentum intact (1u en 24u positief, boven SMA24h)"
 2026-10-13T15:30:43.156846+00:00,13-10-2026 17:30,moonshotai/kimi-k3,BTC/USD,60.6,60.0,houden,,,"Stabiele basis in zwakke markt, werkt consistent beter dan alts"
 2026-10-13T15:30:43.156846+00:00,13-10-2026 17:30,moonshotai/kimi-k3,XTZ/USD,15.1,0.0,close,1442.88,verkocht (alles),
+2026-10-13T16:00:51.427398+00:00,13-10-2026 18:00,moonshotai/kimi-k3,BTC/USD,60.7,60.0,houden,,,Sterkste basis in zwakke markt; BTC als default werkt volgens mijn reviews
