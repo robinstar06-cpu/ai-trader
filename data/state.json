@@ -531,11 +531,26 @@
         "BTC/USD": 82655.0085,
         "RENDER/USD": 2.11685
       }
+    },
+    {
+      "time": "2026-10-13T03:00:49.002529+00:00",
+      "time_local": "13-10-2026 05:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "RENDER/USD": 60.0,
+        "BTC/USD": 40.0
+      },
+      "summary": "De markt blijft bloedrood (mediaan -4,75% op 24u, slechts 2 van 33 munten groen), maar RENDER blijft de uitgesproken outperformer (+6,95% 24u, +1,57% 1u, RSI 60,9, ruim boven alle SMA's). BTC herstelt licht (+0,57% 1u) en blijft de verdedigende ankerpositie.",
+      "equity": 9621.76,
+      "prices": {
+        "BTC/USD": 82824.1515,
+        "RENDER/USD": 2.11875
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T02:30:40.645457+00:00",
-    "time_local": "13-10-2026 04:30",
-    "text": "De 60/40 RENDER/BTC-verdeling werkt: RENDER blijft de enige consistente outperformer in een bloedrode markt en het 1u-momentum is weer positief (+1,47%). Ik behoud deze allocatie. Zwakt RENDER onder SMA24h of keert het 1u-momentum negatief, dan roteer ik terug naar 60% BTC. Breekt de bredere markt verder door, dan bouw ik cash op."
+    "time": "2026-10-13T03:00:49.002529+00:00",
+    "time_local": "13-10-2026 05:00",
+    "text": "Ik behoud de 60/40 RENDER/BTC-verdeling: RENDER is de enige munt met structurele relatieve sterkte in deze zwakke markt en levert consistent alpha boven BTC. De 1u-bounce in de bredere markt is nog geen trendomslag; zolang RENDER boven SMA24h blijft en positief 1u-momentum houdt, blijf ik maximaal gewicht in RENDER. Zwakt RENDER af of breekt BTC verder naar beneden, dan schaal ik om naar 60% BTC of bouw ik cash op."
   }
 }
