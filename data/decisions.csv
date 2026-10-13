@@ -78,3 +78,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-12T23:00:51.083878+00:00,13-10-2026 01:00,moonshotai/kimi-k3,RENDER/USD,59.9,60.0,houden,,,"Enige groene munt, +5,4% 24u, boven SMA24h, sterk momentum en relatieve sterkte"
 2026-10-12T23:30:37.560893+00:00,13-10-2026 01:30,moonshotai/kimi-k3,BTC/USD,39.4,40.0,houden,,,"Defensieve kernpositie in een bloedrode markt, minst zwakke grote munt"
 2026-10-12T23:30:37.560893+00:00,13-10-2026 01:30,moonshotai/kimi-k3,RENDER/USD,60.0,60.0,houden,,,"Enige groene munt in de markt, sterke relative strength, boven SMA24h met positief momentum"
+2026-10-13T00:00:49.970593+00:00,13-10-2026 02:00,moonshotai/kimi-k3,BTC/USD,39.3,40.0,houden,,,Defensieve kernpositie; minst zwakke grote munt in brede correctie
+2026-10-13T00:00:49.970593+00:00,13-10-2026 02:00,moonshotai/kimi-k3,RENDER/USD,60.0,60.0,houden,,,"Enige groene munt in de markt; +4,4% 24u, boven SMA24h, relatieve sterkte intact"
