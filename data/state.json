@@ -561,11 +561,26 @@
         "BTC/USD": 82869.765,
         "RENDER/USD": 2.14735
       }
+    },
+    {
+      "time": "2026-10-13T04:00:51.179824+00:00",
+      "time_local": "13-10-2026 06:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "RENDER/USD": 60.0,
+        "BTC/USD": 40.0
+      },
+      "summary": "De markt blijft zwak (mediaan -4,1% op 24u, slechts 3 van 33 munten groen), maar RENDER blijft de duidelijke outperformer (+7,8% 24u, +3,3% boven SMA24h, RSI 64). BTC herstelt licht (+0,5% 1u) en fungeert als stabiele anker. BAT is opnieuw extreem oververhit (RSI 84) en blijft een no-go op dit nivea",
+      "equity": 9749.18,
+      "prices": {
+        "BTC/USD": 83226.05,
+        "RENDER/USD": 2.135175
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T03:30:39.656657+00:00",
-    "time_local": "13-10-2026 05:30",
-    "text": "Ik behoud de 60/40 RENDER/BTC-verdeling. RENDER levert al uren consistent alpha boven BTC (+2,4% positie-P/L) en toont geen zwakte: RSI 64, positief momentum, 91% van 7d-range. BAT is een interessante nieuwe sterkte maar te oververhit (RSI 85, +15,7% boven SMA24h) — ik wacht op een pullback voordat ik daar instap. Zolang RENDER boven SMA24h blijft, blijf ik maximaal gewicht; bij afzwakkend momentum roteer ik naar BTC."
+    "time": "2026-10-13T04:00:51.179824+00:00",
+    "time_local": "13-10-2026 06:00",
+    "text": "Ik behoud de 60/40 RENDER/BTC-verdeling. RENDER levert structureel alpha boven BTC en toont geen zwakte: positief 1u-momentum, ruim boven SMA24h en 89% van de 7d-range. Zolang dit momentum aanhoudt, blijf ik maximaal gewicht in RENDER. Bij afzwakkend momentum (1u negatief + onder SMA24h) roteer ik terug naar BTC. BAT blijf ik monitoren voor een pullback-instap."
   }
 }
