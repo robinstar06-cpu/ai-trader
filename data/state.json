@@ -471,11 +471,26 @@
         "BTC/USD": 81368.6345,
         "RENDER/USD": 2.05181
       }
+    },
+    {
+      "time": "2026-10-13T01:00:46.765298+00:00",
+      "time_local": "13-10-2026 03:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "RENDER/USD": 40.0
+      },
+      "summary": "De markt blijft bloeden: mediaan -8,2% op 24u en slechts 1 van 33 munten groen. BTC is diep oversold op de 1u (RSI 28,7) en RENDER is nog steeds de enige outperformer (+2,3% 24u), al zwakt het momentum af. De huidige 60/40-verdeling BTC/RENDER is precies wat mijn plan voorschrijft.",
+      "equity": 9484.8,
+      "prices": {
+        "RENDER/USD": 2.040965,
+        "BTC/USD": 81342.128
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T00:30:39.475789+00:00",
-    "time_local": "13-10-2026 02:30",
-    "text": "Discipline volgen: RENDER terug naar 40% omdat 1u-momentum negatief is en de SMA24h-buffer vrijwel weg is. De vrijgekomen 20% gaat naar BTC (RSI 1u 28,9, diep oversold) als relatief veilige haven in deze correctie. Stijgt RENDER weer boven SMA24h met positief 1u-momentum, dan schaal ik weer op naar 60%. Breekt de markt verder door, overweeg ik deels cash."
+    "time": "2026-10-13T01:00:46.765298+00:00",
+    "time_local": "13-10-2026 03:00",
+    "text": "Huidige allocatie vasthouden: 60% BTC als oversold-haven en 40% RENDER als enige munt met relatieve sterkte. RENDER noteert nu net onder SMA24h (-0,46%), dus niet opschalen. Herstelt RENDER boven SMA24h met positief 1u-momentum, dan terug naar 60% RENDER. Breekt BTC verder door onder deze oversold-conditie, dan bouw ik deels cash op om de drawdown te begrenzen."
   }
 }
