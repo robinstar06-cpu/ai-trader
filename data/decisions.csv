@@ -109,3 +109,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-13T07:00:46.024404+00:00,13-10-2026 09:00,moonshotai/kimi-k3,BTC/USD,39.9,40.0,houden,,,"Stabiele basis in zwakke markt, minste neerwaarts risico"
 2026-10-13T07:00:46.024404+00:00,13-10-2026 09:00,moonshotai/kimi-k3,RENDER/USD,59.5,45.0,sell,1416.07,verkocht 657.996733423,"Nog steeds outperformer (+7,6% 24u, boven SMA24h) maar 1u-momentum koelt af; positie iets afbouwen"
 2026-10-13T07:00:46.024404+00:00,13-10-2026 09:00,moonshotai/kimi-k3,XTZ/USD,0.0,15.0,buy,1449.15,gekocht $1449.15,"Nieuwe momentumleider: +2,7% 24u, +0,8% 1u, RSI 66, 5% boven SMA24h"
+2026-10-13T07:30:39.332312+00:00,13-10-2026 09:30,moonshotai/kimi-k3,BTC/USD,39.9,45.0,buy,494.70,gekocht $494.70,"Defensieve basis in zwakke markt; BTC is relatief stabiel (-0,3% 24u) terwijl alts afkoelen."
+2026-10-13T07:30:39.332312+00:00,13-10-2026 09:30,moonshotai/kimi-k3,RENDER/USD,45.1,40.0,sell,495.38,verkocht 230.186329631,"Nog steeds +2,9% 24u en boven SMA24h/20d, maar 1u-momentum negatief dus verder afbouwen."
+2026-10-13T07:30:39.332312+00:00,13-10-2026 09:30,moonshotai/kimi-k3,XTZ/USD,14.5,15.0,houden,,,"Relatieve sterkte (+1,3% 24u, 4% boven SMA24h) maar 1u-momentum zwak; positie behouden, niet uitbreiden."
