@@ -1119,12 +1119,25 @@
       "prices": {
         "BTC/USD": 83385.7
       }
+    },
+    {
+      "time": "2026-10-13T23:00:49.263442+00:00",
+      "time_local": "14-10-2026 01:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0
+      },
+      "summary": "De markt verbetert gestaag: 23 van 33 groen, positieve 24u-mediaan (+1,39%) en BTC +1,72%. Het 7d-beeld blijft zwak (-8,55%) en het sentiment koelt af, dus herstel is fragiel. Altcoin-momentum (BAT +27%, UNI +9%) is al te ver opgelopen om veilig te achtervolgen.",
+      "equity": 9546.71,
+      "prices": {
+        "BTC/USD": 83460.717
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T22:30:38.795967+00:00",
-    "time_local": "14-10-2026 00:30",
-    "text": "BTC 60% aanhouden als basis, 40% cash behouden. Altcoin-momentum (BAT +31%, XTZ +7%, PEPE +6%) is al te ver opgelopen om veilig in te stappen volgens mijn lessen. Alleen instappen bij een pullback met vers 1u/24u momentum, of bij verdere bevestiging van herstel. Geen churn: de huidige opstelling volgt BTC mee omhoog."
+    "time": "2026-10-13T23:00:49.263442+00:00",
+    "time_local": "14-10-2026 01:00",
+    "text": "BTC 60% aanhouden als basis, 40% cash. Geen achtervolging van opgelopen alts (les: nooit kopen boven +10% op 24u). Alleen instappen op een altcoin bij een pullback met vers 1u/24u momentum. Als marktbreedte weer instort (<5 groen), cash verhogen. Geen churn: huidige opstelling volgt BTC mee omhoog en werkt."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",
