@@ -156,3 +156,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-13T16:30:41.739705+00:00,13-10-2026 18:30,moonshotai/kimi-k3,BTC/USD,60.7,60.0,houden,,,"BTC werkt als basis in zwakke markt; relatief sterk (+1,24% 24u) terwijl alts achterblijven"
 2026-10-13T17:00:56.749458+00:00,13-10-2026 19:00,moonshotai/kimi-k3,BTC/USD,60.7,60.0,houden,,,BTC is de sterkste in een zwakke markt en werkt als default-basis; behouden zolang breedte zwak is.
 2026-10-13T17:30:39.229395+00:00,13-10-2026 19:30,moonshotai/kimi-k3,BTC/USD,60.6,60.0,houden,,,BTC is de sterkste basis in een zwakke markt; elke verhoging naar 60% verbeterde eerder het resultaat.
+2026-10-13T18:00:53.521605+00:00,13-10-2026 20:00,moonshotai/kimi-k3,BTC/USD,60.6,60.0,houden,,,Sterkste relatieve performer in zwakke markt; bewezen basispositie volgens eigen lessen.

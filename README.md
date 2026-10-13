@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 13-10-2026 19:30_
+_Laatst bijgewerkt: 13-10-2026 20:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,523.39** |
+| Waarde portefeuille | **$9,514.60** |
 | Cash | $3,749.19 (39%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-4.77%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.19% |
-| Verschil | -4.58% |
+| Rendement AI sinds 12-10-2026 11:43 | **-4.85%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.36% |
+| Verschil | -4.49% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-4.77%** |
+| Rendement deze periode | **-4.85%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.77% |
+| Daling vanaf de top ($10,000) | -4.85% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 57 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt blijft zwak: 11 van 33 groen, negatieve mediaan op 24u en 7d (-9,2%), sentiment koelt af (57 vs 73). BTC houdt relatief stand (+0,9% 24u) en blijft de beste basis. BAT (+23% 24u) is een klassieke 'niet-de-top-kopen'-val.
+De markt blijft zwak: 11 van 33 groen, negatieve mediaan op 24u (-0,97%) en 7d (-9,34%), sentiment koelt af (57 vs 73). BTC houdt relatief stand (+0,73% 24u) en blijft de beste basis. BAT voldoet aan de +10%-regel en wordt niet gekocht; geen enkele altcoin heeft vers én betrouwbaar momentum.
 
-## Strategie van de AI (sinds 13-10-2026 19:30)
+## Strategie van de AI (sinds 13-10-2026 20:00)
 
-Plan vasthouden: BTC 60% als basis, 40% cash zolang breedte en 7d-trend zwak blijven. Geen altcoin-entries: BAT voldoet aan de +10%-regel (niet kopen), XTZ-momentum is negatief gedraaid. Alleen herbalanceren bij echte signaalverandering: breedte >20 groen met positieve mediaan, dan selectief een momentum-kandidaat met vers 1u én 24u momentum toevoegen (max 30-40%).
+Plan vasthouden: BTC 60% als basis, 40% cash zolang breedte en 7d-trend zwak blijven. Geen altcoin-entries. Alleen herbalanceren bij echte signaalverandering: breedte >20 groen met positieve mediaan, dan selectief een momentum-kandidaat met vers 1u én 24u momentum toevoegen (max 30-40%). Verwachting: zijwaarts tot licht herstel, BTC blijft defensief de beste positie.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -40,7 +40,7 @@ _Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,774.20 | 60.6% | +0.4% | 60.0% | BTC is de sterkste basis in een zwakke markt; elke verhoging naar 60% verbeterde eerder het resultaat. |
+| BTC/USD | $5,765.41 | 60.6% | +0.2% | 60.0% | Sterkste relatieve performer in zwakke markt; bewezen basispositie volgens eigen lessen. |
 
 ## Orders deze run
 
@@ -50,6 +50,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-10-2026 20:00 | $9,515 | -4.85% | -0.36% | 0 |
 | 13-10-2026 19:30 | $9,523 | -4.77% | -0.19% | 0 |
 | 13-10-2026 19:00 | $9,535 | -4.65% | -0.02% | 0 |
 | 13-10-2026 18:30 | $9,547 | -4.53% | 0.15% | 0 |
@@ -61,7 +62,6 @@ Geen orders (verdeling blijft gelijk).
 | 13-10-2026 15:30 | $9,566 | -4.34% | 0.02% | 0 |
 | 13-10-2026 15:00 | $9,558 | -4.42% | -0.06% | 0 |
 | 13-10-2026 14:30 | $9,558 | -4.42% | -0.00% | 0 |
-| 13-10-2026 14:00 | $9,558 | -4.42% | -0.07% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
