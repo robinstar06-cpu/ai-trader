@@ -1,47 +1,45 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 13-10-2026 03:30_
+_Laatst bijgewerkt: 13-10-2026 04:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,514.67** |
+| Waarde portefeuille | **$9,533.12** |
 | Cash | $61.25 (1%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-4.85%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.58% |
-| Verschil | -3.27% |
+| Rendement AI sinds 12-10-2026 11:43 | **-4.67%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.14% |
+| Verschil | -3.53% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-4.85%** |
+| Rendement deze periode | **-4.67%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.85% |
+| Daling vanaf de top ($10,000) | -4.67% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 57 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt blijft bloedrood (mediaan -6,1% op 24u, slechts 1 van 33 munten groen), maar er is een korte-termijn bounce gaande: vrijwel alle munten +1,5-2,8% op 1u. RENDER is weer boven SMA24h (+1,65%) met sterk 1u-momentum (+2,35%) en blijft de enige outperformer (+5,6% 24u).
+De markt blijft bloedrood met een mediaan van -5,4% op 24u en slechts 1 van 33 munten groen. RENDER is opnieuw die ene outperformer (+5,4% 24u, +1,5% boven SMA24h, RSI 1u 56,7) en BTC toont een oversold bounce (+1,25% 1u).
 
-## Strategie van de AI (sinds 13-10-2026 03:30)
+## Strategie van de AI (sinds 13-10-2026 04:00)
 
-Volgens plan: RENDER is hersteld boven SMA24h met positief 1u-momentum, dus terug naar 60% RENDER als enige munt met relatieve sterkte in een zwakke markt. BTC 40% als oversold-haven (RSI 1u herstelt, +0,79% 1u). Zwakt RENDER opnieuw onder SMA24h of breekt BTC verder, dan schaal ik terug naar 60% BTC en eventueel deels cash.
+Huidige verdeling 60% RENDER / 40% BTC behouden: RENDER is de enige munt met relatieve sterkte en positief momentum, BTC dient als oversold-haven tijdens de bounce. Zwakt RENDER onder SMA24h of keert het 1u-momentum negatief, dan roteer ik terug naar 60% BTC. Breekt de bredere markt verder door, dan bouw ik cash op.
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| RENDER/USD | $5,639.82 | 59.3% | -0.6% | 60.0% | Enige groene munt, weer boven SMA24h met sterk 1u-momentum; relatieve sterkte in zwakke markt |
-| BTC/USD | $3,813.60 | 40.1% | -0.7% | 40.0% | Oversold-haven, herstelt op 1u; buffer tegen verdere marktzwakte |
+| RENDER/USD | $5,639.82 | 59.2% | -0.6% | 60.0% | Enige groene munt, boven SMA24h, sterk 1u-momentum en relatieve sterkte in zwakke markt |
+| BTC/USD | $3,832.05 | 40.2% | -0.2% | 40.0% | Oversold bounce gaande, defensieve haven met minste neerwaarts risico |
 
 ## Orders deze run
 
-| Munt | Actie | Bedrag | Resultaat |
-|---|---|---|---|
-| BTC/USD | sell | $1,836.73 | verkocht 0.022424600 |
-| RENDER/USD | buy | $1,872.38 | gekocht $1872.38 |
+Geen orders (verdeling blijft gelijk).
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-10-2026 04:00 | $9,533 | -4.67% | -1.14% | 0 |
 | 13-10-2026 03:30 | $9,515 | -4.85% | -1.58% | 2 |
 | 13-10-2026 03:00 | $9,485 | -5.15% | -2.36% | 0 |
 | 13-10-2026 02:30 | $9,487 | -5.13% | -2.33% | 2 |
@@ -53,7 +51,6 @@ Volgens plan: RENDER is hersteld boven SMA24h met positief 1u-momentum, dus teru
 | 12-10-2026 23:30 | $9,595 | -4.05% | -0.58% | 0 |
 | 12-10-2026 23:00 | $9,606 | -3.94% | -0.39% | 0 |
 | 12-10-2026 22:30 | $9,388 | -6.12% | -0.39% | 2 |
-| 12-10-2026 22:00 | $9,522 | -4.78% | -0.65% | 2 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
