@@ -1,14 +1,14 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 13-10-2026 14:30_
+_Laatst bijgewerkt: 13-10-2026 15:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,558.10** |
+| Waarde portefeuille | **$9,557.94** |
 | Cash | $2,326.37 (24%) |
 | Rendement AI sinds 12-10-2026 11:43 | **-4.42%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.00% |
-| Verschil | -4.42% |
+| Ter vergelijking: gewoon BTC vasthouden | -0.06% |
+| Verschil | -4.36% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
 | Rendement deze periode | **-4.42%** |
 | Gehaalde mijlpalen | nog geen |
@@ -18,11 +18,11 @@ _Laatst bijgewerkt: 13-10-2026 14:30_
 
 ## Marktvisie van de AI
 
-De markt blijft breed zwak: slechts 4 van 33 munten groen, mediaan -4,2% op 24u en sentiment koelt af (57 vs 73 vorige week). XTZ blijft de enige echte outperformer met vers momentum (+0,8% 1u, +3,8% 24u, 4,8% boven SMA24h). BTC houdt stand en blijft de veilige basis.
+De markt blijft breed zwak: slechts 4 van 33 munten groen, mediaan -3,5% op 24u en sentiment koelt verder af (57 vs 73 vorige week). XTZ is nog steeds de enige met vers momentum (+2,4% 24u, RSI 60, boven SMA24h), BAT laat ik schieten conform mijn les.
 
-## Strategie van de AI (sinds 13-10-2026 14:30)
+## Strategie van de AI (sinds 13-10-2026 15:00)
 
-Defensieve houding vasthouden zoals gepland: BTC 60% als basis, XTZ 15% zolang het boven SMA24h blijft met positief 1u-momentum, 25% cashbuffer. BAT (+17%) laten schieten conform de les. XTZ verkopen als het onder SMA24h zakt of 1u-momentum negatief draait. Pas agressiever worden bij herstel van marktbreedte boven 10/33 groen.
+Defensieve houding vasthouden: BTC 60% als basis, XTZ 15% zolang het boven SMA24h blijft met positief momentum, 25% cashbuffer. XTZ verkopen als 1u-momentum negatief draait of het onder SMA24h zakt. Geen nieuwe altcoins kopen in deze zwakke marktbreedte; pas agressiever worden als meer dan 10 van 33 munten groen draait. Geen overbodige herbalanceringen.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -40,8 +40,8 @@ _Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,785.84 | 60.5% | +0.6% | 60.0% | Veilige basis in zwakke markt; BTC houdt stand terwijl alts bloeden |
-| XTZ/USD | $1,445.89 | 15.1% | -0.6% | 15.0% | Enige munt met vers momentum: +0,8% 1u, +3,8% 24u, boven SMA24h |
+| BTC/USD | $5,785.68 | 60.5% | +0.6% | 60.0% | Basispositie in zwakke markt; BTC werkt als default volgens mijn lessen |
+| XTZ/USD | $1,445.89 | 15.1% | -0.6% | 15.0% | Enige munt met vers momentum: +2,4% 24u, RSI 60, 3,7% boven SMA24h |
 
 ## Orders deze run
 
@@ -51,6 +51,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-10-2026 15:00 | $9,558 | -4.42% | -0.06% | 0 |
 | 13-10-2026 14:30 | $9,558 | -4.42% | -0.00% | 0 |
 | 13-10-2026 14:00 | $9,558 | -4.42% | -0.07% | 0 |
 | 13-10-2026 13:30 | $9,572 | -4.28% | 0.16% | 1 |
@@ -62,7 +63,6 @@ Geen orders (verdeling blijft gelijk).
 | 13-10-2026 10:30 | $9,733 | -2.67% | 0.62% | 0 |
 | 13-10-2026 10:00 | $9,746 | -2.54% | 0.55% | 0 |
 | 13-10-2026 09:30 | $9,740 | -2.60% | 0.39% | 2 |
-| 13-10-2026 09:00 | $9,753 | -2.47% | 0.43% | 2 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
