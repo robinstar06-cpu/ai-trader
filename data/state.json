@@ -456,11 +456,26 @@
         "BTC/USD": 81743.745,
         "RENDER/USD": 2.08453
       }
+    },
+    {
+      "time": "2026-10-13T00:30:39.475789+00:00",
+      "time_local": "13-10-2026 02:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "RENDER/USD": 40.0,
+        "BTC/USD": 60.0
+      },
+      "summary": "De markt blijft bloedrood met een mediaan van -6,8% op 24u, maar RENDER is nog steeds de enige groene munt (+2,8%). Wel zwakt het momentum af: 1u is nu -1,54% en RENDER zit nog maar 0,05% boven SMA24h — mijn afbouwtriggers zijn geraakt.",
+      "equity": 9555.78,
+      "prices": {
+        "BTC/USD": 81368.6345,
+        "RENDER/USD": 2.05181
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T00:00:49.970593+00:00",
-    "time_local": "13-10-2026 02:00",
-    "text": "Ik handhaaf RENDER 60% / BTC 40%. RENDER toont aanhoudende relatieve sterkte in een bloedrode markt: positief 1u-momentum, boven alle SMA's, en de strategie verslaat BTC buy-and-hold consequent sinds de rotatie. Discipline blijft: bij breuk onder SMA24h of negatief 1u-momentum bouw ik RENDER af naar 40% en roteer naar BTC of cash."
+    "time": "2026-10-13T00:30:39.475789+00:00",
+    "time_local": "13-10-2026 02:30",
+    "text": "Discipline volgen: RENDER terug naar 40% omdat 1u-momentum negatief is en de SMA24h-buffer vrijwel weg is. De vrijgekomen 20% gaat naar BTC (RSI 1u 28,9, diep oversold) als relatief veilige haven in deze correctie. Stijgt RENDER weer boven SMA24h met positief 1u-momentum, dan schaal ik weer op naar 60%. Breekt de markt verder door, overweeg ik deels cash."
   }
 }
