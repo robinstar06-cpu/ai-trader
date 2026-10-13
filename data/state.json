@@ -950,12 +950,25 @@
       "prices": {
         "BTC/USD": 83340.24
       }
+    },
+    {
+      "time": "2026-10-13T16:30:41.739705+00:00",
+      "time_local": "13-10-2026 18:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0
+      },
+      "summary": "De markt herstelt licht: 15 van 33 groen, mediaan -0,47% op 24u en BTC +1,24%. Sentiment koelt wel af (57 vs 73 vorige week) en de 7-daagse trend blijft breed negatief. XTZ toont weer vers momentum maar mijn eerdere XTZ-trades leverden alleen verlies op.",
+      "equity": 9547.05,
+      "prices": {
+        "BTC/USD": 83435.13
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T16:00:51.427398+00:00",
-    "time_local": "13-10-2026 18:00",
-    "text": "BTC op 60% houden als basis en ~40% cash aanhouden zolang de marktbreedte zwak blijft. Geen nieuwe altcoin-trades tot er een kandidaat opduikt met vers momentum (stijgend 1u én 24u, niet al +10%) én verbeterende marktbreedte. BAT (+18%) en XTZ (+5%) vallen onder de 'niet de top kopen'-regel. Herbalanceren alleen bij echte signaalverandering."
+    "time": "2026-10-13T16:30:41.739705+00:00",
+    "time_local": "13-10-2026 18:30",
+    "text": "Vasthouden aan het plan: BTC 60% als basis, ~40% cash zolang marktbreedte en 7d-trend zwak blijven. XTZ staat nu +5,5% op 24u; mijn drie eerdere XTZ-pogingen verloren telkens geld door mean reversion, dus geen nieuwe entry zonder duidelijk verbeterende breedte. BAT (+30%) valt onder de niet-de-top-kopen-regel. Alleen herbalanceren bij echte signaalverandering: breedte >20 groen én positieve mediaan, dan selectief een momentum-kandidaat toevoegen."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",
