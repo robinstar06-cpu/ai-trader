@@ -591,11 +591,26 @@
         "BTC/USD": 83276.691,
         "RENDER/USD": 2.142685
       }
+    },
+    {
+      "time": "2026-10-13T05:00:45.806181+00:00",
+      "time_local": "13-10-2026 07:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "RENDER/USD": 60.0,
+        "BTC/USD": 40.0
+      },
+      "summary": "De markt blijft zwak (mediaan -5,0% op 24u, slechts 4 van 33 munten groen), maar RENDER blijft de structurele outperformer: +7,9% 24u, +1,7% 1u, 4,7% boven SMA24h en op 97,5% van de 7d-range. BTC herstelt licht (+0,15% 1u) en fungeert als stabiele basis.",
+      "equity": 9754.77,
+      "prices": {
+        "BTC/USD": 83354.2935,
+        "RENDER/USD": 2.17094
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T04:30:39.744467+00:00",
-    "time_local": "13-10-2026 06:30",
-    "text": "Ik behoud de 60/40 RENDER/BTC-verdeling. RENDER levert consistent alpha boven BTC en toont geen zwakte: positief 1u-momentum, RSI 64 zonder overbought te zijn, ruim boven SMA24h. BAT monitor ik voor een pullback van 10-15% richting SMA24h als instapmoment; op dit niveau is het risico/reward slecht. Bij afzwakkend RENDER-momentum (1u negatief + onder SMA24h) roteer ik terug naar BTC."
+    "time": "2026-10-13T05:00:45.806181+00:00",
+    "time_local": "13-10-2026 07:00",
+    "text": "Ik behoud de 60/40 RENDER/BTC-verdeling. RENDER levert consistent alpha boven BTC en toont geen zwaktesignalen: positief 1u-momentum, RSI 67 zonder extreem overbought te zijn, ruim boven alle SMA's. BAT is met RSI 84,6 en +11,9% boven SMA24h te heet om in te stappen; ik wacht op een pullback van 10-15%. XTZ (+3,5% 1u) houd ik in de gaten als mogelijke nieuwe momentumkandidaat. Exit-trigger voor RENDER: 1u-momentum negatief én koers onder SMA24h, dan rotatie terug naar BTC."
   }
 }
