@@ -1,44 +1,49 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 13-10-2026 08:30_
+_Laatst bijgewerkt: 13-10-2026 09:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,766.84** |
-| Cash | $61.25 (1%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-2.33%** |
-| Ter vergelijking: gewoon BTC vasthouden | +0.36% |
-| Verschil | -2.69% |
+| Waarde portefeuille | **$9,752.95** |
+| Cash | $47.66 (0%) |
+| Rendement AI sinds 12-10-2026 11:43 | **-2.47%** |
+| Ter vergelijking: gewoon BTC vasthouden | +0.43% |
+| Verschil | -2.90% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-2.33%** |
+| Rendement deze periode | **-2.47%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -2.33% |
+| Daling vanaf de top ($10,000) | -2.47% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 57 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt blijft zwak (mediaan -3,5% op 24u, slechts 5 van 33 munten groen), maar RENDER blijft de uitgesproken outperformer: +8,8% 24u, +0,2% 1u, 4,5% boven SMA24h en op de top van de 7d-range. BTC consolideert rond $83.600 met neutrale RSI. De 60/40 RENDER/BTC-verdeling werkt en blijft alpha leveren.
+De markt blijft zwak (mediaan -3,1% op 24u, 5 van 33 groen), maar RENDER (+7,6% 24u) en XTZ (+2,7% 24u) tonen relatieve sterkte. RENDER-momentum koelt af (-0,9% 1u) terwijl XTZ juist versnelt (+0,8% 1u, RSI 66, 5% boven SMA24h).
 
-## Strategie van de AI (sinds 13-10-2026 08:30)
+## Strategie van de AI (sinds 13-10-2026 09:00)
 
-Ik behoud de 60/40 RENDER/BTC-verdeling. RENDER-momentum is positief (RSI 1u 68, boven SMA24h) en levert structureel alpha op in een rode markt. Exit-trigger blijft: bij negatief 1u-momentum én koers onder SMA24h roteer ik terug naar BTC. XTZ (+2,3% 24u, RSI 57, 4,6% boven SMA24h) is de eerste rotatiekandidaat als RENDER afkoelt. BAT (RSI 86, +13% 24u) blijft te overbought om te kopen.
+Volgens mijn exit-trigger roteer ik gedeeltelijk uit RENDER nu het 1u-momentum negatief is: 15% naar XTZ, de nieuwe momentumleider. Ik behoud 45% RENDER (nog steeds +7,6% 24u en boven SMA24h) en 40% BTC als basis. Bij verdere afkoeling van RENDER schaal ik verder over naar XTZ of BTC.
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| RENDER/USD | $5,811.82 | 59.5% | +2.4% | 60.0% | Sterkste munt in zwakke markt: +8,8% 24u, positief 1u-momentum, 4,5% boven SMA24h, top van 7d-range |
-| BTC/USD | $3,893.78 | 39.9% | +1.4% | 40.0% | Defensieve basis en benchmark-hedge; consolideert stabiel met neutrale RSI |
+| RENDER/USD | $4,395.74 | 45.1% | +2.4% | 45.0% | Nog steeds outperformer (+7,6% 24u, boven SMA24h) maar 1u-momentum koelt af; positie iets afbouwen |
+| BTC/USD | $3,895.25 | 39.9% | +1.4% | 40.0% | Stabiele basis in zwakke markt, minste neerwaarts risico |
+| XTZ/USD | $1,414.30 | 14.5% | -0.1% | 15.0% | Nieuwe momentumleider: +2,7% 24u, +0,8% 1u, RSI 66, 5% boven SMA24h |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| RENDER/USD | sell | $1,416.07 | verkocht 657.996733423 |
+| XTZ/USD | buy | $1,449.15 | gekocht $1449.15 |
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-10-2026 09:00 | $9,753 | -2.47% | 0.43% | 2 |
 | 13-10-2026 08:30 | $9,767 | -2.33% | 0.36% | 0 |
 | 13-10-2026 08:00 | $9,764 | -2.36% | 0.32% | 0 |
 | 13-10-2026 07:30 | $9,767 | -2.33% | 0.40% | 0 |
@@ -50,7 +55,6 @@ Geen orders (verdeling blijft gelijk).
 | 13-10-2026 04:30 | $9,548 | -4.52% | -0.78% | 0 |
 | 13-10-2026 04:00 | $9,533 | -4.67% | -1.14% | 0 |
 | 13-10-2026 03:30 | $9,515 | -4.85% | -1.58% | 2 |
-| 13-10-2026 03:00 | $9,485 | -5.15% | -2.36% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).

@@ -651,11 +651,28 @@
         "RENDER/USD": 2.18233,
         "BTC/USD": 83606.6
       }
+    },
+    {
+      "time": "2026-10-13T07:00:46.024404+00:00",
+      "time_local": "13-10-2026 09:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "RENDER/USD": 45.0,
+        "BTC/USD": 40.0,
+        "XTZ/USD": 15.0
+      },
+      "summary": "De markt blijft zwak (mediaan -3,1% op 24u, 5 van 33 groen), maar RENDER (+7,6% 24u) en XTZ (+2,7% 24u) tonen relatieve sterkte. RENDER-momentum koelt af (-0,9% 1u) terwijl XTZ juist versnelt (+0,8% 1u, RSI 66, 5% boven SMA24h).",
+      "equity": 9768.32,
+      "prices": {
+        "BTC/USD": 83667.687,
+        "RENDER/USD": 2.15785,
+        "XTZ/USD": 0.332035
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T06:30:39.681435+00:00",
-    "time_local": "13-10-2026 08:30",
-    "text": "Ik behoud de 60/40 RENDER/BTC-verdeling. RENDER-momentum is positief (RSI 1u 68, boven SMA24h) en levert structureel alpha op in een rode markt. Exit-trigger blijft: bij negatief 1u-momentum én koers onder SMA24h roteer ik terug naar BTC. XTZ (+2,3% 24u, RSI 57, 4,6% boven SMA24h) is de eerste rotatiekandidaat als RENDER afkoelt. BAT (RSI 86, +13% 24u) blijft te overbought om te kopen."
+    "time": "2026-10-13T07:00:46.024404+00:00",
+    "time_local": "13-10-2026 09:00",
+    "text": "Volgens mijn exit-trigger roteer ik gedeeltelijk uit RENDER nu het 1u-momentum negatief is: 15% naar XTZ, de nieuwe momentumleider. Ik behoud 45% RENDER (nog steeds +7,6% 24u en boven SMA24h) en 40% BTC als basis. Bij verdere afkoeling van RENDER schaal ik verder over naar XTZ of BTC."
   }
 }
