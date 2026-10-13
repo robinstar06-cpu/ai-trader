@@ -92,3 +92,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-13T02:30:40.645457+00:00,13-10-2026 04:30,moonshotai/kimi-k3,RENDER/USD,59.1,60.0,houden,,,"Enige munt met positief momentum en relatieve sterkte: +6,9% 24u, +1,5% 1u, boven SMA24h"
 2026-10-13T03:00:49.002529+00:00,13-10-2026 05:00,moonshotai/kimi-k3,BTC/USD,40.1,40.0,houden,,,"Defensief anker; minst zwakke grote munt, licht herstel op 1u"
 2026-10-13T03:00:49.002529+00:00,13-10-2026 05:00,moonshotai/kimi-k3,RENDER/USD,59.3,60.0,houden,,,"Enige consistente outperformer: +6,95% 24u, positief 1u-momentum, boven alle SMA's"
+2026-10-13T03:30:39.656657+00:00,13-10-2026 05:30,moonshotai/kimi-k3,BTC/USD,39.6,40.0,houden,,,"Stabiele basis in zwakke markt; herstelt licht (+0,06% 1u) en dient als buffer als RENDER afzwakt"
+2026-10-13T03:30:39.656657+00:00,13-10-2026 05:30,moonshotai/kimi-k3,RENDER/USD,59.7,60.0,houden,,,"Enige structurele outperformer: +8,4% 24u, +1,35% 1u, RSI 64, ruim boven SMA24h; blijft alpha leveren boven BTC"
