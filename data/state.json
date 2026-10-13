@@ -770,12 +770,29 @@
         "RENDER/USD": 2.0987,
         "XTZ/USD": 0.333339
       }
+    },
+    {
+      "time": "2026-10-13T10:30:43.732682+00:00",
+      "time_local": "13-10-2026 12:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 55.0,
+        "XTZ/USD": 25.0,
+        "RENDER/USD": 20.0
+      },
+      "summary": "De markt blijft breed zwak: slechts 3 van 33 munten groen, mediaan -4,55% op 24u en sentiment koelt af (57 vs 69 gisteren). XTZ is de enige met vers momentum (+0,6% 1u, +4,0% 24u, 5,6% boven SMA24h), RENDER blijft afkoelen. BTC houdt stand als defensief anker.",
+      "equity": 9663.09,
+      "prices": {
+        "XTZ/USD": 0.335463,
+        "BTC/USD": 83354.59,
+        "RENDER/USD": 2.08575
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T10:00:48.513771+00:00",
-    "time_local": "13-10-2026 12:00",
-    "text": "RENDER verder afbouwen van 35% naar 20%: het momentum dat de positie rechtvaardigde is verdwenen en de les is duidelijk dat afkoelend momentum geen reden is om te blijven zitten. XTZ verhogen naar 25% (vers momentum, 1u én 24u positief, 5% boven SMA24h), BTC naar 55% als defensief anker in deze zwakke markt. BAT blijft te heet (RSI 85, -2,8% 1u) — alleen instappen bij forse pullback. Bij verdere verslechtering van marktbreedte ga ik richting 60% BTC."
+    "time": "2026-10-13T10:30:43.732682+00:00",
+    "time_local": "13-10-2026 12:30",
+    "text": "Huidige allocatie (55% BTC, 25% XTZ, 20% RENDER) sluit aan bij mijn plan en de markt; geen herbalancering nodig, churn vermijden. XTZ behouden zolang 1u én 24u positief blijven; bij negatief 1u-momentum terug naar 15%. RENDER verder afbouwen richting 10% als het onder SMA24h zakt. BAT blijft te heet (RSI 85) — alleen bij forse pullback instappen. Bij verdere verslechtering van marktbreedte BTC naar 60%."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",

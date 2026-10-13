@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 13-10-2026 12:00_
+_Laatst bijgewerkt: 13-10-2026 12:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,674.73** |
+| Waarde portefeuille | **$9,663.09** |
 | Cash | $45.47 (0%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-3.25%** |
-| Ter vergelijking: gewoon BTC vasthouden | +0.27% |
-| Verschil | -3.52% |
+| Rendement AI sinds 12-10-2026 11:43 | **-3.37%** |
+| Ter vergelijking: gewoon BTC vasthouden | +0.06% |
+| Verschil | -3.42% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-3.25%** |
+| Rendement deze periode | **-3.37%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -3.25% |
+| Daling vanaf de top ($10,000) | -3.37% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 57 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt blijft breed zwak: slechts 4 van 33 munten groen, mediaan -4,2% op 24u en dalende sentiment. RENDER-momentum is nu echt dood (-2,9% 1u, 24u negatief gedraaid), terwijl XTZ de enige gezonde outperformer is (+2,8% 24u, boven alle SMA's).
+De markt blijft breed zwak: slechts 3 van 33 munten groen, mediaan -4,55% op 24u en sentiment koelt af (57 vs 69 gisteren). XTZ is de enige met vers momentum (+0,6% 1u, +4,0% 24u, 5,6% boven SMA24h), RENDER blijft afkoelen. BTC houdt stand als defensief anker.
 
-## Strategie van de AI (sinds 13-10-2026 12:00)
+## Strategie van de AI (sinds 13-10-2026 12:30)
 
-RENDER verder afbouwen van 35% naar 20%: het momentum dat de positie rechtvaardigde is verdwenen en de les is duidelijk dat afkoelend momentum geen reden is om te blijven zitten. XTZ verhogen naar 25% (vers momentum, 1u én 24u positief, 5% boven SMA24h), BTC naar 55% als defensief anker in deze zwakke markt. BAT blijft te heet (RSI 85, -2,8% 1u) — alleen instappen bij forse pullback. Bij verdere verslechtering van marktbreedte ga ik richting 60% BTC.
+Huidige allocatie (55% BTC, 25% XTZ, 20% RENDER) sluit aan bij mijn plan en de markt; geen herbalancering nodig, churn vermijden. XTZ behouden zolang 1u én 24u positief blijven; bij negatief 1u-momentum terug naar 15%. RENDER verder afbouwen richting 10% als het onder SMA24h zakt. BAT blijft te heet (RSI 85) — alleen bij forse pullback instappen. Bij verdere verslechtering van marktbreedte BTC naar 60%.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -40,26 +40,19 @@ _Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,324.76 | 55.0% | +0.9% | 55.0% | Defensief anker; marktbreedte instort (4/33 groen) en BTC werkt als basis volgens eerdere lessen |
-| XTZ/USD | $2,360.35 | 24.4% | -0.4% | 25.0% | Enige munt met vers momentum: +2,8% 24u, +0,1% 1u, boven alle SMA's, RSI gezond |
-| RENDER/USD | $1,944.15 | 20.1% | +2.4% | 20.0% | Momentum verdwenen (-2,9% 1u, 24u negatief); afbouwen maar klein restant houden boven SMA24h |
+| BTC/USD | $5,313.13 | 55.0% | +0.7% | 55.0% | Defensief anker in bloedrode markt; BTC als basis werkt bewezen. |
+| XTZ/USD | $2,360.35 | 24.4% | -0.4% | 25.0% | Enige munt met vers momentum: +0,6% 1u, +4,0% 24u, 5,6% boven SMA24h. |
+| RENDER/USD | $1,944.15 | 20.1% | +2.4% | 20.0% | Momentum afkoelend maar nog boven SMA20d/50d; restpositie laten lopen met strikte exit-discipline. |
 
 ## Orders deze run
 
-| Munt | Actie | Bedrag | Resultaat |
-|---|---|---|---|
-| RENDER/USD | sell | $1,460.13 | verkocht 678.5 |
-| BTC/USD | buy | $975.44 | gekocht $975.44 |
-| XTZ/USD | buy | $445.65 | gekocht $445.65 |
-
-## Meldingen
-
-- Dagelijkse evaluatie gedaan door moonshotai/kimi-k3.
+Geen orders (verdeling blijft gelijk).
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-10-2026 12:30 | $9,663 | -3.37% | 0.06% | 0 |
 | 13-10-2026 12:00 | $9,675 | -3.25% | 0.27% | 3 |
 | 13-10-2026 11:30 | $9,712 | -2.88% | 0.05% | 2 |
 | 13-10-2026 11:00 | $9,729 | -2.71% | 0.22% | 0 |
@@ -71,7 +64,6 @@ _Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top
 | 13-10-2026 08:00 | $9,764 | -2.36% | 0.32% | 0 |
 | 13-10-2026 07:30 | $9,767 | -2.33% | 0.40% | 0 |
 | 13-10-2026 07:00 | $9,755 | -2.45% | 0.06% | 0 |
-| 13-10-2026 06:30 | $9,751 | -2.49% | -0.04% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
