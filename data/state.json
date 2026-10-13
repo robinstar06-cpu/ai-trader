@@ -702,11 +702,28 @@
         "RENDER/USD": 2.13655,
         "XTZ/USD": 0.33117
       }
+    },
+    {
+      "time": "2026-10-13T08:30:38.725020+00:00",
+      "time_local": "13-10-2026 10:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 45.0,
+        "RENDER/USD": 40.0,
+        "XTZ/USD": 15.0
+      },
+      "summary": "De markt blijft zwak (mediaan -3,1% op 24u, 6 van 33 groen), maar mijn posities presteren: RENDER herstelt (+0,9% 1u, +3,9% 24u, boven SMA24h) en XTZ versnelt (+1,5% 1u, 6,5% boven SMA24h). BTC is stabiel en vormt een goede defensieve basis.",
+      "equity": 9733.3,
+      "prices": {
+        "BTC/USD": 83826.147,
+        "XTZ/USD": 0.337287,
+        "RENDER/USD": 2.15595
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T08:00:47.234151+00:00",
-    "time_local": "13-10-2026 10:00",
-    "text": "Ik handhaaf de huidige verdeling: BTC 45% als defensieve basis, RENDER 40% zolang het boven SMA24h blijft, XTZ 15% vanwege aanhoudende relatieve sterkte. RENDER-momentum op 1u is negatief (-1,0%) maar de trendstructuur is intact; bij een break onder SMA24h roteer ik volledig naar BTC. BAT blijft te oververhit (RSI 86) voor instap; ik wacht op een pullback van 10-15%. Bij verdere marktverslechtering verhoog ik BTC richting 60%."
+    "time": "2026-10-13T08:30:38.725020+00:00",
+    "time_local": "13-10-2026 10:30",
+    "text": "Huidige verdeling aanhouden: BTC 45% als anker, RENDER 40% zolang boven SMA24h, XTZ 15% vanwege toenemend momentum (RSI 1u 70, range7d 97). RENDER-momentum herstelt; bij break onder SMA24h roteer ik naar BTC. BAT blijft te oververhit (RSI 86); alleen instappen bij pullback van 10-15%. Bij marktverslechtering BTC richting 60%."
   }
 }
