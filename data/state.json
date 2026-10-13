@@ -787,12 +787,29 @@
         "BTC/USD": 83354.59,
         "RENDER/USD": 2.08575
       }
+    },
+    {
+      "time": "2026-10-13T11:00:50.531506+00:00",
+      "time_local": "13-10-2026 13:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "XTZ/USD": 15.0,
+        "RENDER/USD": 10.0
+      },
+      "summary": "De markt blijft breed zwak: slechts 3 van 33 munten groen, mediaan -4,6% op 24u en afkoelend sentiment. XTZ-momentum draait nu ook negatief op 1u en RENDER zakt onder SMA24h — beide exit-signalen uit mijn plan zijn getriggerd.",
+      "equity": 9657.94,
+      "prices": {
+        "BTC/USD": 83242.9415,
+        "RENDER/USD": 2.07461,
+        "XTZ/USD": 0.3351765
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T10:30:43.732682+00:00",
-    "time_local": "13-10-2026 12:30",
-    "text": "Huidige allocatie (55% BTC, 25% XTZ, 20% RENDER) sluit aan bij mijn plan en de markt; geen herbalancering nodig, churn vermijden. XTZ behouden zolang 1u én 24u positief blijven; bij negatief 1u-momentum terug naar 15%. RENDER verder afbouwen richting 10% als het onder SMA24h zakt. BAT blijft te heet (RSI 85) — alleen bij forse pullback instappen. Bij verdere verslechtering van marktbreedte BTC naar 60%."
+    "time": "2026-10-13T11:00:50.531506+00:00",
+    "time_local": "13-10-2026 13:00",
+    "text": "Plan uitvoeren zoals beloofd: XTZ terug naar 15% (1u-momentum negatief) en RENDER afbouwen naar 10% (onder SMA24h). BTC verhogen naar 60% als defensieve basis en 15% cash aanhouden als buffer bij deze instortende marktbreedte. Geen nieuwe altcoins kopen zolang minder dan 5 van 33 groen is; BAT blijft te heet (RSI 85)."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",

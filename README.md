@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 13-10-2026 12:30_
+_Laatst bijgewerkt: 13-10-2026 13:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,663.09** |
-| Cash | $45.47 (0%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-3.37%** |
-| Ter vergelijking: gewoon BTC vasthouden | +0.06% |
-| Verschil | -3.42% |
+| Waarde portefeuille | **$9,610.74** |
+| Cash | $1,411.79 (15%) |
+| Rendement AI sinds 12-10-2026 11:43 | **-3.89%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.08% |
+| Verschil | -3.81% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-3.37%** |
+| Rendement deze periode | **-3.89%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -3.37% |
+| Daling vanaf de top ($10,000) | -3.89% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 57 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt blijft breed zwak: slechts 3 van 33 munten groen, mediaan -4,55% op 24u en sentiment koelt af (57 vs 69 gisteren). XTZ is de enige met vers momentum (+0,6% 1u, +4,0% 24u, 5,6% boven SMA24h), RENDER blijft afkoelen. BTC houdt stand als defensief anker.
+De markt blijft breed zwak: slechts 3 van 33 munten groen, mediaan -4,6% op 24u en afkoelend sentiment. XTZ-momentum draait nu ook negatief op 1u en RENDER zakt onder SMA24h — beide exit-signalen uit mijn plan zijn getriggerd.
 
-## Strategie van de AI (sinds 13-10-2026 12:30)
+## Strategie van de AI (sinds 13-10-2026 13:00)
 
-Huidige allocatie (55% BTC, 25% XTZ, 20% RENDER) sluit aan bij mijn plan en de markt; geen herbalancering nodig, churn vermijden. XTZ behouden zolang 1u én 24u positief blijven; bij negatief 1u-momentum terug naar 15%. RENDER verder afbouwen richting 10% als het onder SMA24h zakt. BAT blijft te heet (RSI 85) — alleen bij forse pullback instappen. Bij verdere verslechtering van marktbreedte BTC naar 60%.
+Plan uitvoeren zoals beloofd: XTZ terug naar 15% (1u-momentum negatief) en RENDER afbouwen naar 10% (onder SMA24h). BTC verhogen naar 60% als defensieve basis en 15% cash aanhouden als buffer bij deze instortende marktbreedte. Geen nieuwe altcoins kopen zolang minder dan 5 van 33 groen is; BAT blijft te heet (RSI 85).
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -40,18 +40,23 @@ _Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,313.13 | 55.0% | +0.7% | 55.0% | Defensief anker in bloedrode markt; BTC als basis werkt bewezen. |
-| XTZ/USD | $2,360.35 | 24.4% | -0.4% | 25.0% | Enige munt met vers momentum: +0,6% 1u, +4,0% 24u, 5,6% boven SMA24h. |
-| RENDER/USD | $1,944.15 | 20.1% | +2.4% | 20.0% | Momentum afkoelend maar nog boven SMA20d/50d; restpositie laten lopen met strikte exit-discipline. |
+| BTC/USD | $5,784.46 | 60.2% | +0.6% | 60.0% | Defensieve basis bij instortende marktbreedte; BTC werkt als default |
+| XTZ/USD | $1,448.69 | 15.1% | -0.4% | 15.0% | 1u-momentum negatief gedraaid, positie halveren volgens plan |
+| RENDER/USD | $965.79 | 10.0% | +2.4% | 10.0% | Onder SMA24h gezakt, momentum dood — verder afbouwen |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| RENDER/USD | sell | $978.36 | verkocht 454.626394052 |
+| XTZ/USD | sell | $911.66 | verkocht 2750.096295625 |
+| BTC/USD | buy | $486.78 | gekocht $486.78 |
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-10-2026 13:00 | $9,611 | -3.89% | -0.08% | 3 |
 | 13-10-2026 12:30 | $9,663 | -3.37% | 0.06% | 0 |
 | 13-10-2026 12:00 | $9,675 | -3.25% | 0.27% | 3 |
 | 13-10-2026 11:30 | $9,712 | -2.88% | 0.05% | 2 |
@@ -63,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 13-10-2026 08:30 | $9,767 | -2.33% | 0.36% | 0 |
 | 13-10-2026 08:00 | $9,764 | -2.36% | 0.32% | 0 |
 | 13-10-2026 07:30 | $9,767 | -2.33% | 0.40% | 0 |
-| 13-10-2026 07:00 | $9,755 | -2.45% | 0.06% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
