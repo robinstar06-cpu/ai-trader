@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 13-10-2026 13:00_
+_Laatst bijgewerkt: 13-10-2026 13:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,610.74** |
-| Cash | $1,411.79 (15%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-3.89%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.08% |
-| Verschil | -3.81% |
+| Waarde portefeuille | **$9,572.13** |
+| Cash | $2,326.37 (24%) |
+| Rendement AI sinds 12-10-2026 11:43 | **-4.28%** |
+| Ter vergelijking: gewoon BTC vasthouden | +0.16% |
+| Verschil | -4.44% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-3.89%** |
+| Rendement deze periode | **-4.28%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -3.89% |
+| Daling vanaf de top ($10,000) | -4.28% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 57 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt blijft breed zwak: slechts 3 van 33 munten groen, mediaan -4,6% op 24u en afkoelend sentiment. XTZ-momentum draait nu ook negatief op 1u en RENDER zakt onder SMA24h — beide exit-signalen uit mijn plan zijn getriggerd.
+De markt blijft breed zwak: slechts 4 van 33 munten groen, mediaan -4,2% op 24u en sentiment koelt af van 69 naar 57. RENDER-momentum is definitief dood (-1,6% 1u, onder SMA24h), XTZ verliest ook 1u-momentum maar staat nog boven SMA24h.
 
-## Strategie van de AI (sinds 13-10-2026 13:00)
+## Strategie van de AI (sinds 13-10-2026 13:30)
 
-Plan uitvoeren zoals beloofd: XTZ terug naar 15% (1u-momentum negatief) en RENDER afbouwen naar 10% (onder SMA24h). BTC verhogen naar 60% als defensieve basis en 15% cash aanhouden als buffer bij deze instortende marktbreedte. Geen nieuwe altcoins kopen zolang minder dan 5 van 33 groen is; BAT blijft te heet (RSI 85).
+Defensief schakelen: RENDER volledig verkopen (momentum dood, onder SMA24h — les toegepast: exit bij dood momentum in plaats van blijven hopen). BTC op 60% houden als basis, XTZ op 15% laten zolang het boven SMA24h blijft, en de cashbuffer verhogen naar 25% zolang marktbreedte onder 5/33 blijft. Geen nieuwe altcoins kopen; pas agressiever worden bij herstel van breedte en vers 1u+24u momentum.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -40,22 +40,20 @@ _Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,784.46 | 60.2% | +0.6% | 60.0% | Defensieve basis bij instortende marktbreedte; BTC werkt als default |
-| XTZ/USD | $1,448.69 | 15.1% | -0.4% | 15.0% | 1u-momentum negatief gedraaid, positie halveren volgens plan |
-| RENDER/USD | $965.79 | 10.0% | +2.4% | 10.0% | Onder SMA24h gezakt, momentum dood — verder afbouwen |
+| BTC/USD | $5,797.07 | 60.6% | +0.8% | 60.0% | Defensieve basis in instortende markt; BTC werkt telkens als anker. |
+| XTZ/USD | $1,448.69 | 15.1% | -0.4% | 15.0% | Nog +3,8% op 24u en boven SMA24h, maar 1u-momentum zwakt af; klein houden. |
 
 ## Orders deze run
 
 | Munt | Actie | Bedrag | Resultaat |
 |---|---|---|---|
-| RENDER/USD | sell | $978.36 | verkocht 454.626394052 |
-| XTZ/USD | sell | $911.66 | verkocht 2750.096295625 |
-| BTC/USD | buy | $486.78 | gekocht $486.78 |
+| RENDER/USD | close | $965.79 | verkocht (alles) |
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-10-2026 13:30 | $9,572 | -4.28% | 0.16% | 1 |
 | 13-10-2026 13:00 | $9,611 | -3.89% | -0.08% | 3 |
 | 13-10-2026 12:30 | $9,663 | -3.37% | 0.06% | 0 |
 | 13-10-2026 12:00 | $9,675 | -3.25% | 0.27% | 3 |
@@ -67,7 +65,6 @@ _Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top
 | 13-10-2026 09:00 | $9,753 | -2.47% | 0.43% | 2 |
 | 13-10-2026 08:30 | $9,767 | -2.33% | 0.36% | 0 |
 | 13-10-2026 08:00 | $9,764 | -2.36% | 0.32% | 0 |
-| 13-10-2026 07:30 | $9,767 | -2.33% | 0.40% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).

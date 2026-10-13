@@ -804,12 +804,27 @@
         "RENDER/USD": 2.07461,
         "XTZ/USD": 0.3351765
       }
+    },
+    {
+      "time": "2026-10-13T11:30:40.521221+00:00",
+      "time_local": "13-10-2026 13:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "XTZ/USD": 15.0
+      },
+      "summary": "De markt blijft breed zwak: slechts 4 van 33 munten groen, mediaan -4,2% op 24u en sentiment koelt af van 69 naar 57. RENDER-momentum is definitief dood (-1,6% 1u, onder SMA24h), XTZ verliest ook 1u-momentum maar staat nog boven SMA24h.",
+      "equity": 9623.62,
+      "prices": {
+        "BTC/USD": 83439.789,
+        "XTZ/USD": 0.33213
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T11:00:50.531506+00:00",
-    "time_local": "13-10-2026 13:00",
-    "text": "Plan uitvoeren zoals beloofd: XTZ terug naar 15% (1u-momentum negatief) en RENDER afbouwen naar 10% (onder SMA24h). BTC verhogen naar 60% als defensieve basis en 15% cash aanhouden als buffer bij deze instortende marktbreedte. Geen nieuwe altcoins kopen zolang minder dan 5 van 33 groen is; BAT blijft te heet (RSI 85)."
+    "time": "2026-10-13T11:30:40.521221+00:00",
+    "time_local": "13-10-2026 13:30",
+    "text": "Defensief schakelen: RENDER volledig verkopen (momentum dood, onder SMA24h — les toegepast: exit bij dood momentum in plaats van blijven hopen). BTC op 60% houden als basis, XTZ op 15% laten zolang het boven SMA24h blijft, en de cashbuffer verhogen naar 25% zolang marktbreedte onder 5/33 blijft. Geen nieuwe altcoins kopen; pas agressiever worden bij herstel van breedte en vers 1u+24u momentum."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",
