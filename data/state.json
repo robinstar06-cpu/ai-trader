@@ -1080,12 +1080,25 @@
       "prices": {
         "BTC/USD": 83337.0
       }
+    },
+    {
+      "time": "2026-10-13T21:30:38.075528+00:00",
+      "time_local": "13-10-2026 23:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0
+      },
+      "summary": "De markt herstelt licht: 18 van 33 groen en de mediaan op 24u is positief (+0,54%), maar het 7d-beeld blijft zwak (-8,76%) en het sentiment koelt af. BTC houdt stand en blijft de beste defensieve basis; BAT (+25%) sla ik over volgens mijn eigen regel.",
+      "equity": 9535.97,
+      "prices": {
+        "BTC/USD": 83279.825
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T21:00:49.196037+00:00",
-    "time_local": "13-10-2026 23:00",
-    "text": "Plan ongewijzigd: BTC 60% als basis, 40% cash. Geen altcoin-entries zolang breedte <20 groen en mediaan negatief is. BAT en UNI (+5%) overslaan: nooit kopen na grote stijging. Alleen herbalanceren bij echte signaalverandering: breedte >20 met positieve mediaan, dan selectief een momentum-kandidaat met vers 1u én 24u momentum (max 30-40%). Verwachting: zijwaarts tot licht herstel; BTC blijft defensief de beste positie."
+    "time": "2026-10-13T21:30:38.075528+00:00",
+    "time_local": "13-10-2026 23:30",
+    "text": "BTC 60% aanhouden als basis, 40% cash. Breedte verbetert (18/33, positieve mediaan) maar er is nog geen altcoin met vers én sterk momentum dat niet al fors gestegen is. BAT, UNI, XTZ, PEPE, LDO en FIL staan al +4-25% op 24u: niet achteraan rennen. Pas instappen bij een pullback met vers 1u/24u momentum, of bij verdere breedteverbetering selectief een momentum-kandidaat (max 30-40%). Verwachting: zijwaarts tot licht herstel."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",
