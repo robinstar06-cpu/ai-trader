@@ -924,12 +924,25 @@
         "XTZ/USD": 0.33629,
         "BTC/USD": 83508.1795
       }
+    },
+    {
+      "time": "2026-10-13T15:30:43.156846+00:00",
+      "time_local": "13-10-2026 17:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0
+      },
+      "summary": "De markt blijft zwak: 7 van 33 groen, mediaan -1,61% op 24u en sentiment koelt af. XTZ-momentum is nu negatief gedraaid (-1,93% 1u) ondanks de nog positieve 24u-performance; volgens mijn eigen regel is dat een exit-signaal. BTC blijft de stabiele basis in deze markt.",
+      "equity": 9568.04,
+      "prices": {
+        "BTC/USD": 83455.85
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T15:00:54.237078+00:00",
-    "time_local": "13-10-2026 17:00",
-    "text": "Huidige allocatie vasthouden: BTC 60% als basis, XTZ 15% zolang 1u-momentum positief is en de koers boven SMA24h blijft, 25% cash. XTZ niet verhogen (al +7,5% op 24u, mean-reversion-risico) en verkopen zodra 1u-momentum negatief draait. Marktbreedte verbetert licht; pas bij duidelijk verdere verbetering een deel cash inzetten op een verse momentum-kandidaat. Geen overbodige herbalanceringen."
+    "time": "2026-10-13T15:30:43.156846+00:00",
+    "time_local": "13-10-2026 17:30",
+    "text": "XTZ volledig verkopen nu het 1u-momentum negatief is (mean-reversion-risico na +5% 24u). BTC op 60% houden als basis, de rest in cash parkeren tot de marktbreedte duidelijk verbetert en er een verse momentum-kandidaat opduikt (stijgend 1u én 24u, niet al +10%). Geen overhaaste nieuwe altcoin-trades in deze zwakke markt."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",
