@@ -8,7 +8,7 @@
     "milestones": []
   },
   "peak_equity": 10000.0,
-  "last_review": "2026-10-12T09:43:58.088080+00:00",
+  "last_review": "2026-10-13T10:00:48.513771+00:00",
   "start": {
     "time": "2026-10-12T09:43:58.088080+00:00",
     "equity": 10000.0,
@@ -753,11 +753,38 @@
         "RENDER/USD": 2.127885,
         "BTC/USD": 83349.8
       }
+    },
+    {
+      "time": "2026-10-13T10:00:48.513771+00:00",
+      "time_local": "13-10-2026 12:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 55.0,
+        "XTZ/USD": 25.0,
+        "RENDER/USD": 20.0
+      },
+      "summary": "De markt blijft breed zwak: slechts 4 van 33 munten groen, mediaan -4,2% op 24u en dalende sentiment. RENDER-momentum is nu echt dood (-2,9% 1u, 24u negatief gedraaid), terwijl XTZ de enige gezonde outperformer is (+2,8% 24u, boven alle SMA's).",
+      "equity": 9720.75,
+      "prices": {
+        "BTC/USD": 83529.16,
+        "RENDER/USD": 2.0987,
+        "XTZ/USD": 0.333339
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-13T09:30:40.201886+00:00",
-    "time_local": "13-10-2026 11:30",
-    "text": "Licht herbalanceren richting de sterkste munt: XTZ van 15% naar 20% (relatieve sterkte, boven alle SMA's, momentum versnelt), RENDER terug naar 35% (momentum koelt af maar trend intact boven SMA24h), BTC 45% als defensief anker in een zwakke markt. BAT blijft te oververhit (RSI 85) ondanks +22% 24u; alleen bij pullback van 10-15% instappen. Bij verdere marktverslechtering BTC richting 60%."
-  }
+    "time": "2026-10-13T10:00:48.513771+00:00",
+    "time_local": "13-10-2026 12:00",
+    "text": "RENDER verder afbouwen van 35% naar 20%: het momentum dat de positie rechtvaardigde is verdwenen en de les is duidelijk dat afkoelend momentum geen reden is om te blijven zitten. XTZ verhogen naar 25% (vers momentum, 1u én 24u positief, 5% boven SMA24h), BTC naar 55% als defensief anker in deze zwakke markt. BAT blijft te heet (RSI 85, -2,8% 1u) — alleen instappen bij forse pullback. Bij verdere verslechtering van marktbreedte ga ik richting 60% BTC."
+  },
+  "lessons": [
+    "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",
+    "Neem winst als een concentratie-trade werkt: RENDER stond +2,5% in het groen maar eindigde negatief omdat ik geen exit had. Zet een mentale take-profit (bijv. +3-4%) en verlaag de positie als 1u-momentum negatief draait.",
+    "Als de marktbreedte instort (minder dan 5 van 33 groen), is dat een risico-signaal, geen koopkans: verhoog dan BTC- of cashgewicht in plaats van de 'ene groene munt' te maximaliseren.",
+    "Beperk het aantal herbalanceringen: ik heb ~40 keer geschoven in 24 uur met steeds kleine wijzigingen die elkaar opheffen. Alleen handelen bij een echte signaalverandering.",
+    "Een munt die 'de enige outperformer' is in een bloedrode markt is kwetsbaar voor mean reversion: weeg maximaal 30-40% in zo'n positie, geen 60%.",
+    "BTC als basis werkt: elke keer dat ik BTC verhoogde naar 50-60% verbeterde het resultaat. Gebruik BTC als default en altcoins alleen bij bewezen, vers momentum.",
+    "Controleer of momentum vers is (stijgend 1u én 24u) in plaats van alleen relatief sterk: RENDER 'hield stand' maar koelde al uren af terwijl ik bleef bijkopen."
+  ],
+  "review_assessment": "Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top van hun pump en verloor direct 5-6% per positie, terwijl BTC gewoon steeg. De overstap naar RENDER als 'enige groene munt' werkte aanvankelijk (+2,5%), maar ik bleef te lang zitten terwijl het momentum afkoelde en gaf alle winst terug. Netto -2,79% versus +0,27% voor BTC-hold: mijn actieve rotatie heeft geld gekost."
 }
