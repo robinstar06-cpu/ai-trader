@@ -1,35 +1,35 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 13-10-2026 07:00_
+_Laatst bijgewerkt: 13-10-2026 07:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,754.77** |
+| Waarde portefeuille | **$9,766.54** |
 | Cash | $61.25 (1%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-2.45%** |
-| Ter vergelijking: gewoon BTC vasthouden | +0.06% |
-| Verschil | -2.51% |
+| Rendement AI sinds 12-10-2026 11:43 | **-2.33%** |
+| Ter vergelijking: gewoon BTC vasthouden | +0.40% |
+| Verschil | -2.73% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-2.45%** |
+| Rendement deze periode | **-2.33%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -2.45% |
+| Daling vanaf de top ($10,000) | -2.33% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 57 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt blijft zwak (mediaan -5,0% op 24u, slechts 4 van 33 munten groen), maar RENDER blijft de structurele outperformer: +7,9% 24u, +1,7% 1u, 4,7% boven SMA24h en op 97,5% van de 7d-range. BTC herstelt licht (+0,15% 1u) en fungeert als stabiele basis.
+De markt blijft zwak (mediaan -4,2% op 24u, slechts 5 van 33 munten groen), maar RENDER blijft de uitgesproken outperformer: +10,5% 24u, +1,9% 1u, 6,3% boven SMA24h en op de top van zijn 7d-range. BTC consolideert rond $83.6k met neutrale RSI.
 
-## Strategie van de AI (sinds 13-10-2026 07:00)
+## Strategie van de AI (sinds 13-10-2026 07:30)
 
-Ik behoud de 60/40 RENDER/BTC-verdeling. RENDER levert consistent alpha boven BTC en toont geen zwaktesignalen: positief 1u-momentum, RSI 67 zonder extreem overbought te zijn, ruim boven alle SMA's. BAT is met RSI 84,6 en +11,9% boven SMA24h te heet om in te stappen; ik wacht op een pullback van 10-15%. XTZ (+3,5% 1u) houd ik in de gaten als mogelijke nieuwe momentumkandidaat. Exit-trigger voor RENDER: 1u-momentum negatief én koers onder SMA24h, dan rotatie terug naar BTC.
+Ik behoud de 60/40 RENDER/BTC-verdeling. RENDER levert consistent alpha (+3-6% sinds instap vs BTC +0,3-2%) en het momentum is intact: positief 1u-momentum, ruim boven alle SMA's. Wel is RSI 1u nu 70,7 en range7d_pos 100, dus het wordt heet; ik volg de exit-trigger strikt: bij negatief 1u-momentum én koers onder SMA24h roteer ik terug naar BTC. XTZ (+2,4% 24u, RSI 65) blijft watchlist-kandidaat als RENDER afkoelt. BAT is met RSI 84,7 nog steeds te overbought om te kopen.
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| RENDER/USD | $5,811.82 | 59.6% | +2.4% | 60.0% | Structurele outperformer in een rode markt: +7,9% 24u, positief momentum, ruim boven SMA24h |
-| BTC/USD | $3,881.70 | 39.8% | +1.1% | 40.0% | Stabiele basis met licht herstel; hedge tegen een plotselinge RENDER-correctie |
+| RENDER/USD | $5,811.82 | 59.5% | +2.4% | 60.0% | Structurele outperformer in rode markt: +10,5% 24u, +1,9% 1u, 6,3% boven SMA24h; momentum intact ondanks hete RSI |
+| BTC/USD | $3,893.47 | 39.9% | +1.4% | 40.0% | Stabiele basis met positief 1u-momentum en RSI 59; buffer voor het geval RENDER's rally afkoelt |
 
 ## Orders deze run
 
@@ -39,6 +39,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-10-2026 07:30 | $9,767 | -2.33% | 0.40% | 0 |
 | 13-10-2026 07:00 | $9,755 | -2.45% | 0.06% | 0 |
 | 13-10-2026 06:30 | $9,751 | -2.49% | -0.04% | 0 |
 | 13-10-2026 06:00 | $9,749 | -2.51% | -0.10% | 0 |
@@ -50,7 +51,6 @@ Geen orders (verdeling blijft gelijk).
 | 13-10-2026 03:00 | $9,485 | -5.15% | -2.36% | 0 |
 | 13-10-2026 02:30 | $9,487 | -5.13% | -2.33% | 2 |
 | 13-10-2026 02:00 | $9,560 | -4.40% | -1.88% | 0 |
-| 13-10-2026 01:30 | $9,566 | -4.34% | -1.63% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
