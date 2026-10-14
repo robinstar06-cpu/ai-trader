@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 14-10-2026 09:30_
+_Laatst bijgewerkt: 14-10-2026 10:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,532.28** |
-| Cash | $3,736.70 (39%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-4.68%** |
-| Ter vergelijking: gewoon BTC vasthouden | +0.09% |
-| Verschil | -4.77% |
+| Waarde portefeuille | **$-20,288.10** |
+| Cash | $-26,088.96 (129%) |
+| Rendement AI sinds 12-10-2026 11:43 | **-302.88%** |
+| Ter vergelijking: gewoon BTC vasthouden | +0.22% |
+| Verschil | -303.10% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-4.68%** |
+| Rendement deze periode | **-302.88%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.68% |
+| Daling vanaf de top ($10,000) | -302.88% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 62 (Greed) |
 
 ## Marktvisie van de AI
 
-De marktbreedte is licht hersteld van 4 naar 7 van 33 groen, maar de 24u-mediaan blijft negatief (-1,09%) en het 7d-beeld is zwak (-5,35%). BTC blijft de stabiele anker; BAT is met RSI 85 en +84% 7d een klassieke top-trap.
+De markt blijft zwak: slechts 7 van 33 munten groen, negatieve 24u-mediaan (-1,10%) en een 7d-beeld van -4,68%. BTC blijft de stabiele anker (-0,32% op 24u) terwijl altcoins verder wegzakken; BAT met RSI 84 is een valkuil, geen kans.
 
-## Strategie van de AI (sinds 14-10-2026 09:30)
+## Strategie van de AI (sinds 14-10-2026 10:00)
 
-Defensief houden: BTC 60% als kern, 40% cash. Geen altcoin-exposure zolang breedte onder de 10 van 33 blijft en geen munt vers stijgend 1u én 24u momentum heeft zonder al opgelopen te zijn. BAT overslaan (RSI 85). Alleen instappen bij echte breedte-omslag; bij verdere BTC-verslechtering cash richting 50%.
+Defensief vasthouden: BTC 60% als kern, 40% cash. Geen altcoin-exposure zolang de breedte onder de 10 van 33 blijft en geen munt vers 1u én 24u momentum toont zonder al opgelopen te zijn. Alleen instappen bij een echte breedte-omslag; bij verdere BTC-verslechtering cash richting 50%.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -40,16 +40,21 @@ _Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,795.58 | 60.8% | +0.8% | 60.0% | Stabiele anker in zwakke markt; breedte te laag voor altcoins |
+| BTC/USD | $5,800.86 | -28.6% | +1.2% | -28.6% | Stabiele anker in zwakke markt; altcoins blijven onderpresteren |
 
 ## Orders deze run
 
 Geen orders (verdeling blijft gelijk).
 
+## Meldingen
+
+- Verlies -302.9% >= 40%: kopen gestopt, alleen verkopen toegestaan.
+
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 14-10-2026 10:00 | $-20,288 | -302.88% | 0.22% | 0 |
 | 14-10-2026 09:30 | $9,532 | -4.68% | 0.09% | 0 |
 | 14-10-2026 09:00 | $9,527 | -4.73% | 0.05% | 0 |
 | 14-10-2026 08:30 | $9,531 | -4.69% | 0.11% | 0 |
@@ -61,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 14-10-2026 05:30 | $9,553 | -4.47% | 0.48% | 0 |
 | 14-10-2026 05:00 | $9,545 | -4.55% | 0.31% | 0 |
 | 14-10-2026 04:30 | $9,525 | -4.75% | -0.09% | 0 |
-| 14-10-2026 04:00 | $9,524 | -4.76% | -0.07% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
