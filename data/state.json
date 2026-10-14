@@ -451,11 +451,30 @@
         "BCH/USD": 267.765,
         "PEPE/USD": 4.07e-06
       }
+    },
+    {
+      "time": "2026-10-14T23:00:46.249913+00:00",
+      "time_local": "15-10-2026 01:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "BCH/USD": 15.0,
+        "ETH/USD": 10.0,
+        "PEPE/USD": 10.0
+      },
+      "summary": "De markt blijft breed zwak (0 van 33 omhoog, mediaan -3.4%) maar BTC houdt stand rond $81.5k met uur-RSI 33, diep oversold. PEPE toont relatieve sterkte (+0.5% 1u, RSI 45) terwijl ETH de zwakste schakel blijft. Fear & Greed op 62 suggereert dat dit een correctie is binnen een constructieve markt, ge",
+      "equity": 9748.75,
+      "prices": {
+        "PEPE/USD": 4.08e-06,
+        "ETH/USD": 2416.1095,
+        "BCH/USD": 267.8855,
+        "BTC/USD": 81542.1365
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T22:30:40.926844+00:00",
-    "time_local": "15-10-2026 00:30",
-    "text": "ETH ruilt onder $2.350 en blijft zwak; ik roteer een deel naar BTC conform plan. BTC 60%, ETH 10%, BCH 15%, PEPE 10%, cash 5%. Verwachting: oversold-bounce vanaf deze niveaus; bij een BTC-break onder $80k verlaag ik alt-exposure."
+    "time": "2026-10-14T23:00:46.249913+00:00",
+    "time_local": "15-10-2026 01:00",
+    "text": "Huidige allocatie aanhouden: BTC 60% als kern, BCH 15%, ETH 10%, PEPE 10%, cash 5%. De oversold-conditie (BTC RSI 33, positief 1u-momentum bij meerdere munten) rechtvaardigt geduld voor een bounce. PEPE presteert beter dan verwacht en blijft. Bij een BTC-break onder $80k verlaag ik alt-exposure richting BTC/cash; bij herstel boven $83k kan ik cash inzetten voor meer exposure."
   }
 }
