@@ -1334,12 +1334,25 @@
       "prices": {
         "BTC/USD": 83388.05
       }
+    },
+    {
+      "time": "2026-10-14T06:30:39.998910+00:00",
+      "time_local": "14-10-2026 08:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0
+      },
+      "summary": "De marktbreedte is verder ingestort naar slechts 4 van 33 groen met een negatieve 24u-mediaan (-1,49%) en een zwak 7d-beeld (-5,69%). BTC blijft de stabiele anker (-0,32% 24u) terwijl alts bloeden; BAT (+4,8%) is al +86% op 7d en dus een topval, geen entry.",
+      "equity": 9531.4,
+      "prices": {
+        "BTC/USD": 83401.8
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T06:00:49.170445+00:00",
-    "time_local": "14-10-2026 08:00",
-    "text": "Defensief houden: BTC 60% als kern, 40% cash. Geen altcoin-exposure zolang de breedte onder de 10 van 33 blijft en er geen munt is met vers stijgend 1u én 24u momentum. BAT (+10%) en BCH (+1,6%) zijn de enige groene munten, maar BAT is al +86% op 7d (klassieke topval) en BCH is -1% op 1u: geen verse signalen. Alleen instappen als een munt vers momentum toont zonder al opgelopen te zijn."
+    "time": "2026-10-14T06:30:39.998910+00:00",
+    "time_local": "14-10-2026 08:30",
+    "text": "Defensief houden: BTC 60% als kern, 40% cash. Geen altcoin-exposure zolang de breedte onder de 10 van 33 blijft en er geen munt is met vers stijgend 1u én 24u momentum die niet al opgelopen is. Alleen instappen bij een echte breedte-omslag; bij verdere verslechtering van BTC zelf kan cash richting 50%."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",
