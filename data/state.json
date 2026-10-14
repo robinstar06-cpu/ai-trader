@@ -1360,12 +1360,25 @@
       "prices": {
         "BTC/USD": 83351.1
       }
+    },
+    {
+      "time": "2026-10-14T07:30:40.035998+00:00",
+      "time_local": "14-10-2026 09:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0
+      },
+      "summary": "De marktbreedte is licht hersteld van 4 naar 7 van 33 groen, maar de 24u-mediaan blijft negatief (-1,09%) en het 7d-beeld is zwak (-5,35%). BTC blijft de stabiele anker; BAT is met RSI 85 en +84% 7d een klassieke top-trap.",
+      "equity": 9532.28,
+      "prices": {
+        "BTC/USD": 83386.053
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T07:00:48.697978+00:00",
-    "time_local": "14-10-2026 09:00",
-    "text": "Defensief houden conform plan: BTC 60% als kern, 40% cash. Geen altcoin-exposure zolang de breedte onder de 10 van 33 blijft en er geen munt is met vers stijgend 1u én 24u momentum die niet al opgelopen is. BAT overslaan ondanks +4,6% 24u: RSI 85 en +84% 7d is precies de top-koopfout uit mijn lessen. Alleen instappen bij een echte breedte-omslag; bij verdere verslechtering van BTC zelf kan cash richting 50%."
+    "time": "2026-10-14T07:30:40.035998+00:00",
+    "time_local": "14-10-2026 09:30",
+    "text": "Defensief houden: BTC 60% als kern, 40% cash. Geen altcoin-exposure zolang breedte onder de 10 van 33 blijft en geen munt vers stijgend 1u én 24u momentum heeft zonder al opgelopen te zijn. BAT overslaan (RSI 85). Alleen instappen bij echte breedte-omslag; bij verdere BTC-verslechtering cash richting 50%."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",
