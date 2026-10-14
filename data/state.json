@@ -128,11 +128,30 @@
         "BCH/USD": 273.459,
         "ETH/USD": 2469.233
       }
+    },
+    {
+      "time": "2026-10-14T14:00:52.074385+00:00",
+      "time_local": "14-10-2026 16:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ETH/USD": 20.0,
+        "BCH/USD": 15.0,
+        "PEPE/USD": 10.0
+      },
+      "summary": "De markt blijft zwak: slechts 1 van 33 munten omhoog, mediaan -2.5% en BTC zakt naar $82.3k met uur-RSI 33. Greed op 62 suggereert dat dit een correctie is binnen een positief sentiment, geen paniek.",
+      "equity": 9876.99,
+      "prices": {
+        "BCH/USD": 271.26,
+        "ETH/USD": 2450.145,
+        "PEPE/USD": 4.08e-06,
+        "BTC/USD": 82282.554926108
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T13:30:45.490126+00:00",
-    "time_local": "14-10-2026 15:30",
-    "text": "Huidige allocatie vasthouden: 40% BTC, 20% ETH, 15% BCH, 10% PEPE, 15% cash. De daling is beperkt en verkopen nu zou laag verkopen zijn. Ik houd de cash klaar om agressief bij te kopen als BTC richting $81k zakt (oversold uur-RSI) of boven $84.5k uitbreekt. BAT vermijden ondanks de dip; nog steeds overbought op dagbasis. Als de zwakte doorzet onder $81k zonder herstel, heroverweeg ik de alt-exposure."
+    "time": "2026-10-14T14:00:52.074385+00:00",
+    "time_local": "14-10-2026 16:00",
+    "text": "Huidige allocatie vasthouden (40% BTC, 20% ETH, 15% BCH, 10% PEPE, 15% cash). BTC nadert mijn bijkoopzone rond $81k; als de uur-RSI verder onder 30 zakt en de prijs stabiliseert, zet ik de cash agressief in op BTC. Boven $84.5k uitbraak is ook een koopsignaal. Onder $80k zonder herstel verlaag ik alt-exposure om drawdown te beperken."
   }
 }
