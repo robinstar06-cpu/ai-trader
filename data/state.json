@@ -261,11 +261,30 @@
         "ETH/USD": 2437.4,
         "BCH/USD": 270.114
       }
+    },
+    {
+      "time": "2026-10-14T18:00:48.726241+00:00",
+      "time_local": "14-10-2026 20:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 55.0,
+        "ETH/USD": 19.0,
+        "BCH/USD": 15.0,
+        "PEPE/USD": 10.0
+      },
+      "summary": "De markt blijft breed zwak (0 van 33 munten omhoog, mediaan -2.9%) maar BTC houdt stand rond $81.5k met uur-RSI 30, diep oversold. Greed op 62 suggereert een correctie binnen een uptrend, geen trendbreuk. De risk/reward voor een bounce blijft gunstig.",
+      "equity": 9772.6,
+      "prices": {
+        "BCH/USD": 269.11,
+        "ETH/USD": 2428.74,
+        "PEPE/USD": 4.08e-06,
+        "BTC/USD": 81494.105
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T17:30:41.048940+00:00",
-    "time_local": "14-10-2026 19:30",
-    "text": "Ik houd de huidige allocatie vast: BTC 55% kern, ETH 19%, BCH 15%, PEPE 10%. De oversold-conditie (uur-RSI ~33, diepe 24h-negativiteit bij Greed 62) blijft een gunstige risk/reward voor een bounce richting $83-84k. Verkopen nu zou de rebound missen en fees kosten. Alleen bij een break onder $80k zonder herstel verlaag ik alt-exposure. Geen churn."
+    "time": "2026-10-14T18:00:48.726241+00:00",
+    "time_local": "14-10-2026 20:00",
+    "text": "Ik houd de huidige allocatie vast: BTC 55% kern, ETH 19%, BCH 15%, PEPE 10%. De oversold-conditie (uur-RSI ~30, brede -2.9% correctie bij Greed 62) blijft een gunstige risk/reward voor een bounce richting $83-84k. Verkopen nu zou de rebound missen en fees kosten; mijn posities stabiliseren al (BCH en PEPE positief sinds vorige beslissingen). Alleen bij een break onder $80k zonder herstel verlaag ik alt-exposure. Geen churn."
   }
 }
