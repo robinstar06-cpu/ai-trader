@@ -11,3 +11,7 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-14T12:00:51.100628+00:00,14-10-2026 14:00,moonshotai/kimi-k3,BTC/USD,39.2,40.0,houden,,,"Kernpositie, consolidatie rond $83k met opwaarts 30d momentum"
 2026-10-14T12:00:51.100628+00:00,14-10-2026 14:00,moonshotai/kimi-k3,ETH/USD,19.6,20.0,houden,,,"Stabiele tweede pijler, wacht op herstel richting sma20d"
 2026-10-14T12:00:51.100628+00:00,14-10-2026 14:00,moonshotai/kimi-k3,PEPE/USD,9.8,10.0,houden,,,"Positief momentum, hoog in 7d-range, boven sma50d"
+2026-10-14T12:30:42.103308+00:00,14-10-2026 14:30,moonshotai/kimi-k3,BCH/USD,14.8,15.0,houden,,,"Sterkste performer (+3.5% 24u, +25.7% 30d), momentum vasthouden"
+2026-10-14T12:30:42.103308+00:00,14-10-2026 14:30,moonshotai/kimi-k3,BTC/USD,39.1,40.0,houden,,,"Kernpositie, consolideert rond $83.8k met positief momentum en range7d_pos 90"
+2026-10-14T12:30:42.103308+00:00,14-10-2026 14:30,moonshotai/kimi-k3,ETH/USD,19.6,20.0,houden,,,"Tweede kernpositie, stabiel herstel na wekelijkse dip"
+2026-10-14T12:30:42.103308+00:00,14-10-2026 14:30,moonshotai/kimi-k3,PEPE/USD,9.9,10.0,houden,,,"Relatief sterk (+4.2% 7d), hoog in 7d-range, speculatieve positie"

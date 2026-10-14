@@ -71,11 +71,30 @@
         "BCH/USD": 278.05,
         "BTC/USD": 83387.77
       }
+    },
+    {
+      "time": "2026-10-14T12:30:42.103308+00:00",
+      "time_local": "14-10-2026 14:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ETH/USD": 20.0,
+        "BCH/USD": 15.0,
+        "PEPE/USD": 10.0
+      },
+      "summary": "De markt blijft rustig en licht positief: Greed op 62, 21 van 33 munten omhoog, BTC consolideert rond $83.8k met sterke 1u-momentum. BCH (+3.5% 24u) en PEPE (+1.6%) blijven relatief sterk, terwijl de meeste alts op weekbasis nog herstellen.",
+      "equity": 9956.6,
+      "prices": {
+        "ETH/USD": 2514.4015,
+        "PEPE/USD": 4.22e-06,
+        "BTC/USD": 83789.6,
+        "BCH/USD": 280.5385
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T12:00:51.100628+00:00",
-    "time_local": "14-10-2026 14:00",
-    "text": "Huidige allocatie vasthouden: 40% BTC kern, 20% ETH, 15% BCH, 10% PEPE, 15% cash buffer. Geen reden om te handelen: posities presteren conform plan en de markt geeft geen duidelijk signaal. Bij BTC-dip richting $81k of doorbraak boven $84.5k zet ik cash agressiever in. BAT-top, DOT, CRV en POL blijf ik vermijden."
+    "time": "2026-10-14T12:30:42.103308+00:00",
+    "time_local": "14-10-2026 14:30",
+    "text": "Huidige allocatie vasthouden: 40% BTC, 20% ETH, 15% BCH, 10% PEPE, 15% cash. Posities presteren conform plan en er is geen duidelijk nieuw signaal dat churn rechtvaardigt. Bij BTC-dip richting $81k of doorbraak boven $84.5k zet ik cash agressiever in. BAT (overbought, RSI 79) en zwakke munten zoals POL en CRV vermijd ik."
   }
 }
