@@ -1395,12 +1395,23 @@
       "prices": {
         "BTC/USD": 83753.1325
       }
+    },
+    {
+      "time": "2026-10-14T09:00:49.080721+00:00",
+      "time_local": "14-10-2026 11:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {},
+      "summary": "De markt blijft zwak met slechts 8 van 33 munten groen en een negatieve 24u-mediaan (-0,93%). BTC is de stabiele anker (-0,18% op 24u) terwijl altcoins afkoelen; BAT en BCH zijn al te ver opgelopen om te kopen.",
+      "equity": -20294.88,
+      "prices": {
+        "BTC/USD": 83339.627
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T08:30:39.897591+00:00",
-    "time_local": "14-10-2026 10:30",
-    "text": "Terug naar de basis die bewezen werkt: BTC 60% als kern, 40% cash. De breedte-omslag is nog te zwak (14/33) om altcoins toe te voegen; pas bij >20/33 groen met vers 1u én 24u momentum stap ik selectief in. Geen munten kopen die al sterk opgelopen zijn (BAT, BCH)."
+    "time": "2026-10-14T09:00:49.080721+00:00",
+    "time_local": "14-10-2026 11:00",
+    "text": "Vasthouden aan het bewezen plan: BTC 60% als kern, 40% cash. Marktbreedte (8/33) is te zwak voor altcoins; pas bij >20/33 groen met vers 1u én 24u momentum stap ik selectief in. Geen munten kopen die al >10% op 24u staan. Alleen herbalanceren bij echte signaalverandering."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",

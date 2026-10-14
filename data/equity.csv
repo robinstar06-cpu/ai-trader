@@ -90,3 +90,4 @@ time_utc,time_local,equity,cash,invested_pct,return_pct,btc_price,btc_hold_pct,m
 2026-10-14T07:30:40.035998+00:00,14-10-2026 09:30,9532.28,3736.70,60.8,-4.68,83386.05,0.09,moonshotai/kimi-k3,0,
 2026-10-14T08:00:47.232944+00:00,14-10-2026 10:00,-20288.10,-26088.96,-28.6,-302.88,83493.79,0.22,moonshotai/kimi-k3,0,"Verlies -302.9% >= 40%: kopen gestopt, alleen verkopen toegestaan."
 2026-10-14T08:30:39.897591+00:00,14-10-2026 10:30,-20268.94,-26088.96,-28.7,-302.69,83753.13,0.53,moonshotai/kimi-k3,0,"Verlies -302.7% >= 40%: kopen gestopt, alleen verkopen toegestaan."
+2026-10-14T09:00:49.080721+00:00,14-10-2026 11:00,-20294.88,-26088.96,-28.5,-302.95,83339.63,0.04,moonshotai/kimi-k3,0,"Verlies -302.9% >= 40%: kopen gestopt, alleen verkopen toegestaan."
