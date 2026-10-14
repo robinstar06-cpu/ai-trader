@@ -1,0 +1,2 @@
+time_utc,time_local,equity,cash,invested_pct,return_pct,btc_price,btc_hold_pct,model,trades,note
+2026-10-14T11:02:53.675394+00:00,14-10-2026 13:02,9974.86,1665.12,83.3,-0.25,83316.48,0.00,moonshotai/kimi-k3,4,

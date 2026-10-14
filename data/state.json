@@ -1,0 +1,43 @@
+{
+  "goal": {
+    "period": 1,
+    "period_start": "2026-10-14T11:02:53.675394+00:00",
+    "start_equity": 10000.0,
+    "btc_start": 83316.4785,
+    "target_pct": 20.0,
+    "milestones": []
+  },
+  "peak_equity": 10000.0,
+  "last_review": "2026-10-14T11:02:53.675394+00:00",
+  "start": {
+    "time": "2026-10-14T11:02:53.675394+00:00",
+    "equity": 10000.0,
+    "btc_price": 83316.4785
+  },
+  "history": [
+    {
+      "time": "2026-10-14T11:02:53.675394+00:00",
+      "time_local": "14-10-2026 13:02",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ETH/USD": 20.0,
+        "BCH/USD": 15.0,
+        "PEPE/USD": 10.0
+      },
+      "summary": "Markt is licht positief met Greed op 62; BTC consolideert rond $83k terwijl alts de afgelopen week terugvielen maar vandaag herstellen. BCH en PEPE tonen relatieve sterkte, BAT is na +90% te heet om te achterna te rennen.",
+      "equity": 10000.0,
+      "prices": {
+        "BCH/USD": 277.7705,
+        "PEPE/USD": 4.17e-06,
+        "BTC/USD": 83316.4785,
+        "ETH/USD": 2501.755
+      }
+    }
+  ],
+  "plan": {
+    "time": "2026-10-14T11:02:53.675394+00:00",
+    "time_local": "14-10-2026 13:02",
+    "text": "Start vanuit cash met een gediversifieerde maar offensieve basis: 40% BTC als kern, 20% ETH, 15% BCH (momentum +24% 30d, sterkste 24h), 10% PEPE (sterk 7d/30d, hoog in range), 15% cash als buffer voor dips. Doel is +20% deze periode; ik schaal agressiever in bij bevestigde trend of koop zwakte in sterke munten. BAT vermijd ik op deze top, DOT/CRV/POL vermijd ik vanwege zwakte."
+  }
+}

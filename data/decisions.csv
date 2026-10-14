@@ -1,0 +1,5 @@
+time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
+2026-10-14T11:02:53.675394+00:00,14-10-2026 13:02,moonshotai/kimi-k3,BCH/USD,0.0,15.0,buy,1500.00,gekocht $1500.00,Sterkste 24h (+3.5%) en +24% 30d momentum
+2026-10-14T11:02:53.675394+00:00,14-10-2026 13:02,moonshotai/kimi-k3,BTC/USD,0.0,40.0,buy,4000.00,gekocht $4000.00,"Kernpositie, stabiel boven SMA50, benchmark verslaan vereist BTC-blootstelling"
+2026-10-14T11:02:53.675394+00:00,14-10-2026 13:02,moonshotai/kimi-k3,ETH/USD,0.0,20.0,buy,2000.00,gekocht $2000.00,"Onder SMA20d, goede risk/reward bij herstel"
+2026-10-14T11:02:53.675394+00:00,14-10-2026 13:02,moonshotai/kimi-k3,PEPE/USD,0.0,10.0,buy,1000.00,gekocht $1000.00,"Positief 7d/30d, hoog in 7d-range, momentum"
