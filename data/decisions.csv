@@ -175,3 +175,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-14T01:00:49.690337+00:00,14-10-2026 03:00,moonshotai/kimi-k3,LINK/USD,14.6,15.0,houden,,,"Vers 1u/24u momentum, +4,7% onder de 10%-grens, ruimte tot 7d-high."
 2026-10-14T01:30:39.602070+00:00,14-10-2026 03:30,moonshotai/kimi-k3,BTC/USD,60.7,60.0,houden,,,Stabiele kern in breed herstel; BTC als default werkt volgens mijn reviews
 2026-10-14T01:30:39.602070+00:00,14-10-2026 03:30,moonshotai/kimi-k3,LINK/USD,14.6,15.0,houden,,,"Vers momentum (1u +0,10%, 24u +2,18%), nog geen take-profit bereikt"
+2026-10-14T02:00:46.277846+00:00,14-10-2026 04:00,moonshotai/kimi-k3,BTC/USD,60.7,60.0,houden,,,Stabiele kernpositie; BTC als basis werkt en het herstel is breed maar het 7d-beeld blijft zwak.
+2026-10-14T02:00:46.277846+00:00,14-10-2026 04:00,moonshotai/kimi-k3,LINK/USD,14.6,15.0,houden,,,Positief 24u-momentum en houdt stand; exit als 1u-momentum negatief draait.

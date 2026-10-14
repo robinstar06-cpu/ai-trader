@@ -1203,12 +1203,27 @@
         "BTC/USD": 83252.135,
         "LINK/USD": 12.955
       }
+    },
+    {
+      "time": "2026-10-14T02:00:46.277846+00:00",
+      "time_local": "14-10-2026 04:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "LINK/USD": 15.0
+      },
+      "summary": "Breed herstel houdt aan: 29 van 33 groen, mediaan +1,87% op 24u en sentiment op 62. BTC (+1,09%) blijft de stabiele kern; LINK (+1,87%) houdt stand maar het 1u-momentum vlakt af. BAT (+30%) is opnieuw een top-koopval en wordt gemeden.",
+      "equity": 9524.35,
+      "prices": {
+        "BTC/USD": 83251.45,
+        "LINK/USD": 12.915
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T01:30:39.602070+00:00",
-    "time_local": "14-10-2026 03:30",
-    "text": "Plan vasthouden zonder churn: BTC 60% als kern, LINK 15% met vers momentum (1u en 24u positief), 25% cash buffer. Mentale take-profit +3-4% op LINK en eruit als 1u-momentum negatief draait. Alleen herbalanceren bij een echte signaalverandering; BAT (+28%) is een top-koopval en wordt bewust gemeden."
+    "time": "2026-10-14T02:00:46.277846+00:00",
+    "time_local": "14-10-2026 04:00",
+    "text": "Plan vasthouden zonder churn: BTC 60% als kern, LINK 15% zolang 1u-momentum niet duidelijk negatief draait, 25% cash buffer. Mentale take-profit +3-4% op LINK. Alleen herbalanceren bij een echte signaalverandering; het 7d-beeld (-4,78% mediaan) blijft zwak dus geen extra altcoin-risico nu."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",
