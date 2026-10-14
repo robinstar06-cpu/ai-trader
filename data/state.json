@@ -90,11 +90,30 @@
         "BTC/USD": 83789.6,
         "BCH/USD": 280.5385
       }
+    },
+    {
+      "time": "2026-10-14T13:00:50.986606+00:00",
+      "time_local": "14-10-2026 15:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ETH/USD": 20.0,
+        "BCH/USD": 15.0,
+        "PEPE/USD": 10.0
+      },
+      "summary": "De markt is plotseling zwak geworden: slechts 1 van 33 munten omhoog, mediaan -1.4% en BTC zakt richting $82.6k met RSI 38 op het uur. Greed blijft op 62, maar de breedte wijst op kortetermijndruk.",
+      "equity": 9904.52,
+      "prices": {
+        "PEPE/USD": 4.09e-06,
+        "ETH/USD": 2473.7805,
+        "BCH/USD": 273.31,
+        "BTC/USD": 82650.96
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T12:30:42.103308+00:00",
-    "time_local": "14-10-2026 14:30",
-    "text": "Huidige allocatie vasthouden: 40% BTC, 20% ETH, 15% BCH, 10% PEPE, 15% cash. Posities presteren conform plan en er is geen duidelijk nieuw signaal dat churn rechtvaardigt. Bij BTC-dip richting $81k of doorbraak boven $84.5k zet ik cash agressiever in. BAT (overbought, RSI 79) en zwakke munten zoals POL en CRV vermijd ik."
+    "time": "2026-10-14T13:00:50.986606+00:00",
+    "time_local": "14-10-2026 15:00",
+    "text": "Huidige allocatie vasthouden conform plan: 40% BTC, 20% ETH, 15% BCH, 10% PEPE, 15% cash. De correctie is beperkt en er is geen panieksignaal; verkopen nu zou laag verkopen betekenen. Ik houd de 15% cash klaar om agressief bij te kopen als BTC richting $81k zakt of juist boven $84.5k uitbreekt. BAT blijf ik vermijden (overbought, RSI 79)."
   }
 }
