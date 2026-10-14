@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 14-10-2026 07:00_
+_Laatst bijgewerkt: 14-10-2026 07:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,558.22** |
-| Cash | $2,787.82 (29%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-4.42%** |
-| Ter vergelijking: gewoon BTC vasthouden | +0.44% |
-| Verschil | -4.86% |
+| Waarde portefeuille | **$9,541.66** |
+| Cash | $3,736.70 (39%) |
+| Rendement AI sinds 12-10-2026 11:43 | **-4.58%** |
+| Ter vergelijking: gewoon BTC vasthouden | +0.26% |
+| Verschil | -4.84% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-4.42%** |
+| Rendement deze periode | **-4.58%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.42% |
+| Daling vanaf de top ($10,000) | -4.58% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 62 (Greed) |
 
 ## Marktvisie van de AI
 
-Het herstel is afgekoeld: marktbreedte slechts 15 van 33 groen, 24u-mediaan rond nul en het 7d-beeld blijft negatief (-4,5%). BTC blijft de stabiele anker (+0,4% 24u), terwijl altcoin-momentum grotendeels is weggevallen. BAT (+14%) en PEPE (+4%) laat ik bewust liggen volgens mijn lessen.
+De marktbreedte is ingestort naar slechts 7 van 33 groen met een negatieve 24u-mediaan (-0,74%) en een zwak 7d-beeld (-5,11%). BTC blijft de stabiele anker terwijl LINK afkoelt met negatief 1u- en 24u-momentum. BAT is de enige grote stijger (+14,8%) maar valt onder mijn regel om geen +10%- movers te kopen.
 
-## Strategie van de AI (sinds 14-10-2026 07:00)
+## Strategie van de AI (sinds 14-10-2026 07:30)
 
-Defensieve houding vasthouden: BTC 60% als kern, LINK 10% (houdt stand maar zonder vers momentum), 30% cash als buffer. Geen nieuwe altcoins kopen zolang de breedte zwak is en er geen munt is met stijgend 1u én 24u momentum. Alleen herbalanceren bij een echte signaalverandering: breedte onder 5 van 33 -> meer cash; vers momentum ergens -> selectief instappen. Geen churn.
+Defensief schakelen nu de breedte onder de 10 van 33 is gezakt: LINK volledig verkopen (momentum weg, geen vers signaal) en naar BTC 60% / cash 40%. BTC blijft de kern die bewezen beter werkt dan altcoin-rotatie in zwakke markten. Alleen weer selectief instappen als een munt vers stijgend 1u én 24u momentum toont zonder al +10% te staan. Geen churn, alleen handelen bij echte signaalverandering.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -40,17 +40,19 @@ _Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,810.97 | 60.8% | +1.0% | 60.0% | Stabiele kern in afkoelende markt; BTC als default werkt volgens mijn reviews |
-| LINK/USD | $959.43 | 10.0% | +0.3% | 10.0% | Houdt stand, kleine positie behouden maar niet uitbreiden zonder vers momentum |
+| BTC/USD | $5,804.96 | 60.8% | +0.9% | 60.0% | Stabiele anker in instortende marktbreedte; bewezen beste basispositie |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| LINK/USD | close | $951.77 | verkocht (alles) |
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 14-10-2026 07:30 | $9,542 | -4.58% | 0.26% | 1 |
 | 14-10-2026 07:00 | $9,558 | -4.42% | 0.44% | 0 |
 | 14-10-2026 06:30 | $9,568 | -4.32% | 0.49% | 1 |
 | 14-10-2026 06:00 | $9,564 | -4.36% | 0.38% | 0 |
@@ -62,7 +64,6 @@ Geen orders (verdeling blijft gelijk).
 | 14-10-2026 03:00 | $9,532 | -4.68% | 0.06% | 0 |
 | 14-10-2026 02:30 | $9,534 | -4.66% | 0.10% | 1 |
 | 14-10-2026 02:00 | $9,525 | -4.75% | -0.25% | 0 |
-| 14-10-2026 01:30 | $9,522 | -4.78% | -0.24% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).

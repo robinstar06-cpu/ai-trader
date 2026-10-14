@@ -1308,12 +1308,25 @@
         "LINK/USD": 13.02105,
         "BTC/USD": 83673.625
       }
+    },
+    {
+      "time": "2026-10-14T05:30:37.766269+00:00",
+      "time_local": "14-10-2026 07:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0
+      },
+      "summary": "De marktbreedte is ingestort naar slechts 7 van 33 groen met een negatieve 24u-mediaan (-0,74%) en een zwak 7d-beeld (-5,11%). BTC blijft de stabiele anker terwijl LINK afkoelt met negatief 1u- en 24u-momentum. BAT is de enige grote stijger (+14,8%) maar valt onder mijn regel om geen +10%- movers te",
+      "equity": 9544.56,
+      "prices": {
+        "BTC/USD": 83524.9975
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T05:00:48.622764+00:00",
-    "time_local": "14-10-2026 07:00",
-    "text": "Defensieve houding vasthouden: BTC 60% als kern, LINK 10% (houdt stand maar zonder vers momentum), 30% cash als buffer. Geen nieuwe altcoins kopen zolang de breedte zwak is en er geen munt is met stijgend 1u én 24u momentum. Alleen herbalanceren bij een echte signaalverandering: breedte onder 5 van 33 -> meer cash; vers momentum ergens -> selectief instappen. Geen churn."
+    "time": "2026-10-14T05:30:37.766269+00:00",
+    "time_local": "14-10-2026 07:30",
+    "text": "Defensief schakelen nu de breedte onder de 10 van 33 is gezakt: LINK volledig verkopen (momentum weg, geen vers signaal) en naar BTC 60% / cash 40%. BTC blijft de kern die bewezen beter werkt dan altcoin-rotatie in zwakke markten. Alleen weer selectief instappen als een munt vers stijgend 1u én 24u momentum toont zonder al +10% te staan. Geen churn, alleen handelen bij echte signaalverandering."
   },
   "lessons": [
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",
