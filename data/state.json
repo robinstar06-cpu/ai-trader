@@ -204,11 +204,30 @@
         "ETH/USD": 2430.387,
         "BCH/USD": 267.373
       }
+    },
+    {
+      "time": "2026-10-14T16:30:42.413529+00:00",
+      "time_local": "14-10-2026 18:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 55.0,
+        "ETH/USD": 19.0,
+        "BCH/USD": 15.0,
+        "PEPE/USD": 10.0
+      },
+      "summary": "De markt bodemt: BTC stabiliseert rond $81.7k met uur-RSI 29 en vrijwel alle munten tonen positief 1u-momentum na een brede -3.3% correctie. Greed op 62 bevestigt dat dit een dip binnen een uptrend is, geen trendbreuk.",
+      "equity": 9754.98,
+      "prices": {
+        "PEPE/USD": 4.0475e-06,
+        "ETH/USD": 2431.28,
+        "BCH/USD": 268.99,
+        "BTC/USD": 81658.08
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T16:00:53.234817+00:00",
-    "time_local": "14-10-2026 18:00",
-    "text": "Ik houd de huidige allocatie volledig vast: BTC 55% als kern (bijgekocht op RSI 30), ETH 19%, BCH 15%, PEPE 10%. Uur-RSI van 26 op BTC en oversold alts wijzen op een technische rebound richting $83-84k binnen 24-48u. Verkopen in deze oversold dip zou verlies vastklikken en fees kosten. Alleen als BTC onder $80k breekt zonder herstel verlaag ik alt-exposure om drawdown te begrenzen. Geen churn nu."
+    "time": "2026-10-14T16:30:42.413529+00:00",
+    "time_local": "14-10-2026 18:30",
+    "text": "Ik houd de volledige allocatie vast: BTC 55% als kern, ETH 19%, BCH 15%, PEPE 10%. De oversold condities (uur-RSI 26-30) en positief 1u-momentum wijzen op een technische rebound richting $83-84k binnen 24-48u. Verkopen nu zou verlies vastklikken en fees kosten. Alleen bij een duidelijke break onder $80k zonder herstel verlaag ik alt-exposure om drawdown te begrenzen. Geen churn."
   }
 }
