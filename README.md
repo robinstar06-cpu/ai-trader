@@ -1,26 +1,26 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 14-10-2026 11:30_
+_Laatst bijgewerkt: 14-10-2026 12:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$-20,305.56** |
+| Waarde portefeuille | **$-20,311.31** |
 | Cash | $-26,088.96 (128%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-303.06%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.16% |
-| Verschil | -302.90% |
+| Rendement AI sinds 12-10-2026 11:43 | **-303.11%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.17% |
+| Verschil | -302.94% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-303.06%** |
+| Rendement deze periode | **-303.11%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -303.06% |
+| Daling vanaf de top ($10,000) | -303.11% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 62 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt blijft zwak: slechts 11 van 33 munten groen, negatieve 24u-mediaan (-0,56%) en een 7d-mediaan van -5,37%. BTC is de stabiele anker (-0,42% op 24u) terwijl altcoins afkoelen; BAT (+9,7%) is al te ver opgelopen om te kopen.
+De markt blijft zwak: slechts 11 van 33 munten groen, negatieve 24u-mediaan (-0,68%) en een 7d-mediaan van -4,41%. BTC blijft de stabiele anker (-0,44% op 24u) terwijl altcoins afkoelen; BAT is met +91% op 7d een mean-reversion-valkuil.
 
-## Strategie van de AI (sinds 14-10-2026 11:30)
+## Strategie van de AI (sinds 14-10-2026 12:00)
 
 Vasthouden aan het bewezen plan: BTC 60% als kern, 40% cash. Marktbreedte (11/33) is te zwak voor altcoins; pas bij >20/33 groen met vers 1u én 24u momentum stap ik selectief in. Geen munten kopen die al >10% op 24u staan. Alleen herbalanceren bij echte signaalverandering.
 
@@ -40,7 +40,7 @@ _Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,783.40 | -28.5% | +0.9% | -28.5% | Stabiele anker in zwakke markt; BTC als default werkt volgens mijn reviews het beste. |
+| BTC/USD | $5,777.65 | -28.4% | +0.8% | -28.4% | BTC is de stabiele anker in een zwakke markt; bewezen basispositie volgens plan. |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 14-10-2026 12:00 | $-20,311 | -303.11% | -0.17% | 0 |
 | 14-10-2026 11:30 | $-20,306 | -303.06% | -0.16% | 0 |
 | 14-10-2026 11:00 | $-20,295 | -302.95% | 0.04% | 0 |
 | 14-10-2026 10:30 | $-20,269 | -302.69% | 0.53% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 14-10-2026 07:30 | $9,542 | -4.58% | 0.26% | 1 |
 | 14-10-2026 07:00 | $9,558 | -4.42% | 0.44% | 0 |
 | 14-10-2026 06:30 | $9,568 | -4.32% | 0.49% | 1 |
-| 14-10-2026 06:00 | $9,564 | -4.36% | 0.38% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).

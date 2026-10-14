@@ -1417,11 +1417,22 @@
       "prices": {
         "BTC/USD": 83176.565
       }
+    },
+    {
+      "time": "2026-10-14T10:00:47.817612+00:00",
+      "time_local": "14-10-2026 12:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {},
+      "summary": "De markt blijft zwak: slechts 11 van 33 munten groen, negatieve 24u-mediaan (-0,68%) en een 7d-mediaan van -4,41%. BTC blijft de stabiele anker (-0,44% op 24u) terwijl altcoins afkoelen; BAT is met +91% op 7d een mean-reversion-valkuil.",
+      "equity": -20311.31,
+      "prices": {
+        "BTC/USD": 83162.4
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T09:30:40.416230+00:00",
-    "time_local": "14-10-2026 11:30",
+    "time": "2026-10-14T10:00:47.817612+00:00",
+    "time_local": "14-10-2026 12:00",
     "text": "Vasthouden aan het bewezen plan: BTC 60% als kern, 40% cash. Marktbreedte (11/33) is te zwak voor altcoins; pas bij >20/33 groen met vers 1u én 24u momentum stap ik selectief in. Geen munten kopen die al >10% op 24u staan. Alleen herbalanceren bij echte signaalverandering."
   },
   "lessons": [
