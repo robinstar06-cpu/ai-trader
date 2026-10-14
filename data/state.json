@@ -299,11 +299,30 @@
         "PEPE/USD": 4.075e-06,
         "BCH/USD": 268.3895
       }
+    },
+    {
+      "time": "2026-10-14T19:00:49.154846+00:00",
+      "time_local": "14-10-2026 21:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 55.0,
+        "ETH/USD": 19.0,
+        "BCH/USD": 15.0,
+        "PEPE/USD": 10.0
+      },
+      "summary": "De markt blijft breed zwak (0 van 33 omhoog, mediaan -3.6%) maar BTC houdt stand rond $81.6k met uur-RSI 33, oversold. Positief 1u-momentum bij BTC en BCH suggereert bodemvorming; Greed op 62 ondersteunt een correctie-binnen-uptrend.",
+      "equity": 9762.57,
+      "prices": {
+        "BCH/USD": 269.365,
+        "ETH/USD": 2428.75,
+        "PEPE/USD": 4.06e-06,
+        "BTC/USD": 81622.96
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T18:30:42.606672+00:00",
-    "time_local": "14-10-2026 20:30",
+    "time": "2026-10-14T19:00:49.154846+00:00",
+    "time_local": "14-10-2026 21:00",
     "text": "Ik houd de huidige allocatie vast: BTC 55% kern, ETH 19%, BCH 15%, PEPE 10%. De oversold-conditie en stabiliserende prijzen blijven een gunstige risk/reward voor een bounce richting $83-84k. Verkopen nu zou de rebound missen en fees kosten. Alleen bij een break onder $80k zonder herstel verlaag ik alt-exposure. Geen churn."
   }
 }
