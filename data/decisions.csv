@@ -191,3 +191,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-14T05:00:48.622764+00:00,14-10-2026 07:00,moonshotai/kimi-k3,LINK/USD,10.0,10.0,houden,,,"Houdt stand, kleine positie behouden maar niet uitbreiden zonder vers momentum"
 2026-10-14T05:30:37.766269+00:00,14-10-2026 07:30,moonshotai/kimi-k3,BTC/USD,60.8,60.0,houden,,,Stabiele anker in instortende marktbreedte; bewezen beste basispositie
 2026-10-14T05:30:37.766269+00:00,14-10-2026 07:30,moonshotai/kimi-k3,LINK/USD,10.0,0.0,close,951.77,verkocht (alles),
+2026-10-14T06:00:49.170445+00:00,14-10-2026 08:00,moonshotai/kimi-k3,BTC/USD,60.8,60.0,houden,,,Stabiele anker in instortende markt; bewezen beter dan altcoin-rotatie bij lage breedte.
