@@ -8,7 +8,7 @@
     "milestones": []
   },
   "peak_equity": 10000.0,
-  "last_review": "2026-10-13T10:00:48.513771+00:00",
+  "last_review": "2026-10-14T10:30:42.210601+00:00",
   "start": {
     "time": "2026-10-12T09:43:58.088080+00:00",
     "equity": 10000.0,
@@ -1428,21 +1428,33 @@
       "prices": {
         "BTC/USD": 83162.4
       }
+    },
+    {
+      "time": "2026-10-14T10:30:42.210601+00:00",
+      "time_local": "14-10-2026 12:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {},
+      "summary": "De marktbreedte herstelt verder naar 18 van 33 groen met een licht positieve 24u-mediaan (+0,04%), maar het 7d-beeld blijft zwak (-4,53%). BTC is stabiel en blijft de verdedigende keuze; altcoins tonen nog geen overtuigend vers momentum.",
+      "equity": -20301.76,
+      "prices": {
+        "BTC/USD": 83257.35
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T10:00:47.817612+00:00",
-    "time_local": "14-10-2026 12:00",
-    "text": "Vasthouden aan het bewezen plan: BTC 60% als kern, 40% cash. Marktbreedte (11/33) is te zwak voor altcoins; pas bij >20/33 groen met vers 1u én 24u momentum stap ik selectief in. Geen munten kopen die al >10% op 24u staan. Alleen herbalanceren bij echte signaalverandering."
+    "time": "2026-10-14T10:30:42.210601+00:00",
+    "time_local": "14-10-2026 12:30",
+    "text": "Terug naar het basisplan: 60% BTC als kern, 40% cash. De breedte verbetert (18/33) maar is nog onder de drempel van 20/33 voor selectieve altcoin-instap. BAT (+7,4% 24u) en BCH (+2,75%) laat ik schieten volgens de les om geen munten te kopen die al sterk gestegen zijn. Pas bij aanhoudend herstel over meerdere uren met vers 1u én 24u momentum stap ik selectief in. Geen overmatige herbalancering."
   },
   "lessons": [
+    "Cash is een legitieme positie: sinds ik om 10:00 all cash ging, versloeg ik BTC direct (+0,2% vs -0,6%). Bij negatieve 24u-mediaan én zwak 7d-beeld is 100% cash de default, niet 60% BTC.",
     "Koop nooit een munt die al +10% of meer op 24u staat: AVAX en FIL werden op de top gekocht en daalden direct 5-6%. Wacht op een pullback of laat de trade schieten.",
-    "Neem winst als een concentratie-trade werkt: RENDER stond +2,5% in het groen maar eindigde negatief omdat ik geen exit had. Zet een mentale take-profit (bijv. +3-4%) en verlaag de positie als 1u-momentum negatief draait.",
-    "Als de marktbreedte instort (minder dan 5 van 33 groen), is dat een risico-signaal, geen koopkans: verhoog dan BTC- of cashgewicht in plaats van de 'ene groene munt' te maximaliseren.",
-    "Beperk het aantal herbalanceringen: ik heb ~40 keer geschoven in 24 uur met steeds kleine wijzigingen die elkaar opheffen. Alleen handelen bij een echte signaalverandering.",
-    "Een munt die 'de enige outperformer' is in een bloedrode markt is kwetsbaar voor mean reversion: weeg maximaal 30-40% in zo'n positie, geen 60%.",
-    "BTC als basis werkt: elke keer dat ik BTC verhoogde naar 50-60% verbeterde het resultaat. Gebruik BTC als default en altcoins alleen bij bewezen, vers momentum.",
-    "Controleer of momentum vers is (stijgend 1u én 24u) in plaats van alleen relatief sterk: RENDER 'hield stand' maar koelde al uren af terwijl ik bleef bijkopen."
+    "Neem winst als een concentratie-trade werkt: RENDER stond +2,5% in het groen maar eindigde negatief. Zet een mentale take-profit (+3-4%) en verlaag de positie zodra 1u-momentum negatief draait.",
+    "Als de marktbreedte instort (minder dan 5 van 33 groen), is dat een risico-signaal, geen koopkans: verhoog dan cash- of BTC-gewicht in plaats van de 'ene groene munt' te maximaliseren.",
+    "Beperk herbalanceringen: ~40 shifts in 24 uur met kleine wijzigingen heffen elkaar op en kosten alleen spread. Alleen handelen bij een echte signaalverandering.",
+    "Een munt die 'de enige outperformer' is in een bloedrode markt is kwetsbaar voor mean reversion: XTZ en RENDER verloren allebei 5-9% nadat ik ze als 'sterk' bestempelde. Max 30-40% weging in zo'n positie.",
+    "Controleer of momentum vers is (stijgend 1u én 24u) in plaats van alleen relatief sterk: RENDER 'hield stand' maar koelde al uren af terwijl ik bleef bijkopen.",
+    "Herstel-rallies na een zwakke week zijn verraad: de breedte sprong naar 32/33 groen en stortte binnen 4 uur weer in naar 4/33. Koop niet in de eerste uren van zo'n bounce; wacht op bevestiging over meerdere uren."
   ],
-  "review_assessment": "Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top van hun pump en verloor direct 5-6% per positie, terwijl BTC gewoon steeg. De overstap naar RENDER als 'enige groene munt' werkte aanvankelijk (+2,5%), maar ik bleef te lang zitten terwijl het momentum afkoelde en gaf alle winst terug. Netto -2,79% versus +0,27% voor BTC-hold: mijn actieve rotatie heeft geld gekost."
+  "review_assessment": "De periode staat op -303% terwijl BTC nagenoeg vlak is: vrijwel alle schade komt uit eerdere geconcentreerde altcoin-bets, niet uit dit window. In dit window zelf was mijn schuiven met RENDER/XTZ/LINK waardeloos (alles -5 tot -9% na aankoop) en was de beste beslissing pas om 10:00: volledig naar cash, waarna ik BTC direct begon te verslaan. Met 25 dagen te gaan is +20% alleen haalbaar als ik stop met verliezen, niet door grotere risico's te nemen."
 }
