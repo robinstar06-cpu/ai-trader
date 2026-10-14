@@ -147,11 +147,30 @@
         "PEPE/USD": 4.08e-06,
         "BTC/USD": 82282.554926108
       }
+    },
+    {
+      "time": "2026-10-14T14:30:40.565734+00:00",
+      "time_local": "14-10-2026 16:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 55.0,
+        "ETH/USD": 19.0,
+        "BCH/USD": 15.0,
+        "PEPE/USD": 10.0
+      },
+      "summary": "De markt is breed zwak: 0 van 33 munten omhoog, mediaan -3.4% en BTC zakt naar $81.9k met uur-RSI 30. Dit is precies mijn vooraf gedefinieerde bijkoopzone; Greed op 62 suggereert een correctie binnen een positieve trend, geen trendbreuk.",
+      "equity": 9809.61,
+      "prices": {
+        "BTC/USD": 81964.495,
+        "BCH/USD": 269.65,
+        "PEPE/USD": 4.02e-06,
+        "ETH/USD": 2429.263
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T14:00:52.074385+00:00",
-    "time_local": "14-10-2026 16:00",
-    "text": "Huidige allocatie vasthouden (40% BTC, 20% ETH, 15% BCH, 10% PEPE, 15% cash). BTC nadert mijn bijkoopzone rond $81k; als de uur-RSI verder onder 30 zakt en de prijs stabiliseert, zet ik de cash agressief in op BTC. Boven $84.5k uitbraak is ook een koopsignaal. Onder $80k zonder herstel verlaag ik alt-exposure om drawdown te beperken."
+    "time": "2026-10-14T14:30:40.565734+00:00",
+    "time_local": "14-10-2026 16:30",
+    "text": "BTC nadert $81k met uur-RSI op 30: ik voer het plan uit en zet vrijwel alle cash in op BTC (naar ~55%). Alts (ETH, BCH, PEPE) behouden; ze presteren in lijn met BTC en bieden herstelpotentieel. Onder $80k zonder herstel verlaag ik alt-exposure om drawdown te begrenzen; bij uitbraak boven $84.5k laat ik de winnaars lopen."
   }
 }
