@@ -375,11 +375,30 @@
         "ETH/USD": 2424.945,
         "PEPE/USD": 4.06e-06
       }
+    },
+    {
+      "time": "2026-10-14T21:00:51.960405+00:00",
+      "time_local": "14-10-2026 23:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 55.0,
+        "ETH/USD": 19.0,
+        "BCH/USD": 15.0,
+        "PEPE/USD": 10.0
+      },
+      "summary": "De markt blijft breed zwak (0 van 33 omhoog, mediaan -4.0%) maar BTC houdt stand rond $81.7k met uur-RSI 34, oversold. ETH blijft de zwakste schakel (RSI 27, op 7d-low), terwijl BTC en BCH relatief beter standhouden.",
+      "equity": 9761.54,
+      "prices": {
+        "PEPE/USD": 4.05e-06,
+        "BTC/USD": 81676.065,
+        "ETH/USD": 2413.88,
+        "BCH/USD": 268.626
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-14T20:30:39.232962+00:00",
-    "time_local": "14-10-2026 22:30",
-    "text": "Ik houd de allocatie vast: BTC 55% kern, ETH 19%, BCH 15%, PEPE 10%. De oversold-conditie, stabiliserende prijzen en positief uur-momentum blijven gunstig voor een bounce; verkopen nu zou de rebound missen en fees kosten. Alleen bij een break onder $80k zonder herstel verlaag ik alt-exposure. Geen churn."
+    "time": "2026-10-14T21:00:51.960405+00:00",
+    "time_local": "14-10-2026 23:00",
+    "text": "Ik houd de huidige allocatie vast: BTC 55% kern, ETH 19%, BCH 15%, PEPE 10%. De oversold-conditie en stabiliserende uur-momentum blijven gunstig voor een bounce; verkopen nu zou de rebound missen en fees kosten. Wel let ik extra op ETH: bij verdere verslechtering onder $2.350 roteer ik een deel naar BTC. Alleen bij een BTC-break onder $80k zonder herstel verlaag ik alt-exposure. Geen churn."
   }
 }
