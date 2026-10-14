@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 14-10-2026 01:30_
+_Laatst bijgewerkt: 14-10-2026 02:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,522.18** |
+| Waarde portefeuille | **$9,524.75** |
 | Cash | $3,749.19 (39%) |
-| Rendement AI sinds 12-10-2026 11:43 | **-4.78%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.24% |
-| Verschil | -4.54% |
+| Rendement AI sinds 12-10-2026 11:43 | **-4.75%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.25% |
+| Verschil | -4.51% |
 | Doel periode 1 (t/m 09-11-2026) | **+20%** |
-| Rendement deze periode | **-4.78%** |
+| Rendement deze periode | **-4.75%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.78% |
+| Daling vanaf de top ($10,000) | -4.75% |
 | Model | moonshotai/kimi-k3 |
-| Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 57 (Greed) |
+| Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 62 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt herstelt verder: 28 van 33 groen, positieve 24u-mediaan (+1,83%) en BTC +1,67%. Het 7d-beeld blijft echter zwak (-8,74%) en het sentiment koelt af (57 vs 73), dus dit is herstel binnen een correctie, geen bevestigde trendomslag.
+De markt herstelt breed: 28 van 33 groen, positieve 24u-mediaan (+2,82%) en sentiment stijgt naar 62. BTC staat +1,66% maar koelt op 1u licht af; altcoin-momentum (UNI +10,5%, BAT +28%) is te ver opgelopen om te kopen.
 
-## Strategie van de AI (sinds 14-10-2026 01:30)
+## Strategie van de AI (sinds 14-10-2026 02:00)
 
-BTC 60% aanhouden als basis, 40% cash. Altmomentum (UNI +8,6%, LDO +7,5%, PEPE +7,2%, BAT +28%) is al te ver opgelopen om te kopen volgens mijn eigen regel. Alleen instappen op een altcoin bij een pullback met vers 1u/24u momentum. Bij instortende marktbreedte (<5 groen) cash verhogen. Geen churn: huidige opstelling volgt BTC mee omhoog.
+BTC 60% aanhouden als basis, 40% cash. Geen alts kopen die al >10% op 24u staan (eigen les). Alleen instappen bij een pullback met vers 1u/24u momentum, of bij een duidelijke nieuwe kans. Bij instortende marktbreedte cash verhogen. Geen churn: huidige opstelling volgt BTC mee omhoog.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -40,7 +40,7 @@ _Mijn eerste dag was een les in momentum-chasing: ik kocht AVAX en FIL op de top
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,772.99 | 60.6% | +0.4% | 60.0% | BTC leidt het herstel (+1,67% 24u) en is de beste risk/reward; alts zijn al opgelopen en 7d-trend blijft negatief. |
+| BTC/USD | $5,775.56 | 60.6% | +0.4% | 60.0% | BTC houdt stand en leidt het herstel; basispositie volgens plan, geen vers alt-momentum beschikbaar |
 
 ## Orders deze run
 
@@ -50,6 +50,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 14-10-2026 02:00 | $9,525 | -4.75% | -0.25% | 0 |
 | 14-10-2026 01:30 | $9,522 | -4.78% | -0.24% | 0 |
 | 14-10-2026 01:00 | $9,547 | -4.53% | 0.18% | 0 |
 | 14-10-2026 00:30 | $9,543 | -4.57% | 0.09% | 0 |
@@ -61,7 +62,6 @@ Geen orders (verdeling blijft gelijk).
 | 13-10-2026 21:30 | $9,523 | -4.77% | -0.18% | 0 |
 | 13-10-2026 21:00 | $9,522 | -4.78% | -0.29% | 0 |
 | 13-10-2026 20:30 | $9,516 | -4.84% | -0.39% | 0 |
-| 13-10-2026 20:00 | $9,515 | -4.85% | -0.36% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).

@@ -168,3 +168,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-13T22:30:38.795967+00:00,14-10-2026 00:30,moonshotai/kimi-k3,BTC/USD,60.7,60.0,houden,,,BTC houdt relatief stand en stijgt mee met het herstel; bewezen beste basispositie terwijl de trend nog niet bevestigd is.
 2026-10-13T23:00:49.263442+00:00,14-10-2026 01:00,moonshotai/kimi-k3,BTC/USD,60.7,60.0,houden,,,BTC houdt relatief stand en stijgt mee met herstel; bewezen basispositie volgens lessen.
 2026-10-13T23:30:41.530547+00:00,14-10-2026 01:30,moonshotai/kimi-k3,BTC/USD,60.6,60.0,houden,,,"BTC leidt het herstel (+1,67% 24u) en is de beste risk/reward; alts zijn al opgelopen en 7d-trend blijft negatief."
+2026-10-14T00:00:53.112892+00:00,14-10-2026 02:00,moonshotai/kimi-k3,BTC/USD,60.6,60.0,houden,,,"BTC houdt stand en leidt het herstel; basispositie volgens plan, geen vers alt-momentum beschikbaar"
