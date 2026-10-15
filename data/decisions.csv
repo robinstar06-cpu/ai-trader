@@ -111,3 +111,7 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-15T01:00:47.500050+00:00,15-10-2026 03:00,moonshotai/kimi-k3,BTC/USD,60.0,60.0,houden,,,"Kernpositie, oversold met bodemvorming, sterkste verdediger in zwakke markt"
 2026-10-15T01:00:47.500050+00:00,15-10-2026 03:00,moonshotai/kimi-k3,ETH/USD,10.0,10.0,houden,,,"Diep oversold (RSI 30), op 7d-low, kans op mean-reversion"
 2026-10-15T01:00:47.500050+00:00,15-10-2026 03:00,moonshotai/kimi-k3,PEPE/USD,9.8,10.0,houden,,,"Relatieve sterkte, hoogste range7d-positie, boven SMA50"
+2026-10-15T01:30:41.423978+00:00,15-10-2026 03:30,moonshotai/kimi-k3,BCH/USD,14.5,15.0,houden,,,"Sterke 30d-trend (+23.5%), beta op herstel"
+2026-10-15T01:30:41.423978+00:00,15-10-2026 03:30,moonshotai/kimi-k3,BTC/USD,59.9,60.0,houden,,,"Kernpositie, meest defensief in zwakke markt, oversold op uur-RSI"
+2026-10-15T01:30:41.423978+00:00,15-10-2026 03:30,moonshotai/kimi-k3,ETH/USD,10.0,10.0,houden,,,"Diep oversold (dag-RSI 38), rebound-kandidaat"
+2026-10-15T01:30:41.423978+00:00,15-10-2026 03:30,moonshotai/kimi-k3,PEPE/USD,9.8,10.0,houden,,,"Relatieve sterkte, hoogste range7d-positie van de alts"
