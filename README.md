@@ -1,18 +1,18 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 15-10-2026 10:00_
+_Laatst bijgewerkt: 15-10-2026 10:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,620.02** |
+| Waarde portefeuille | **$9,623.78** |
 | Cash | $2,367.57 (25%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-3.80%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.26% |
-| Verschil | -1.54% |
+| Rendement AI sinds 14-10-2026 13:02 | **-3.76%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.57% |
+| Verschil | -1.19% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-3.80%** |
+| Rendement deze periode | **-3.76%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -3.80% |
+| Daling vanaf de top ($10,000) | -3.76% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
@@ -24,9 +24,9 @@ Kernpositie BTC 60% vasthouden zolang $80k standhoudt. CRV-position vergroten va
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,820.61 | 60.5% | -1.7% | 60.5% |  |
-| CRV/USD | $762.84 | 7.9% | +0.7% | 7.9% |  |
-| BCH/USD | $669.01 | 7.0% | -5.1% | 7.0% |  |
+| BTC/USD | $5,803.27 | 60.3% | -2.0% | 60.3% |  |
+| CRV/USD | $781.43 | 8.1% | +3.2% | 8.1% |  |
+| BCH/USD | $671.50 | 7.0% | -4.7% | 7.0% |  |
 
 ## Orders deze run
 
@@ -43,6 +43,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 15-10-2026 10:30 | $9,624 | -3.76% | -2.57% | 0 |
 | 15-10-2026 10:00 | $9,620 | -3.80% | -2.26% | 0 |
 | 15-10-2026 09:30 | $9,592 | -4.08% | -2.71% | 1 |
 | 15-10-2026 09:00 | $9,573 | -4.27% | -3.04% | 1 |
@@ -54,7 +55,6 @@ Geen orders (verdeling blijft gelijk).
 | 15-10-2026 06:00 | $9,574 | -4.26% | -3.01% | 0 |
 | 15-10-2026 05:30 | $9,583 | -4.17% | -2.87% | 1 |
 | 15-10-2026 05:00 | $9,640 | -3.60% | -2.28% | 0 |
-| 15-10-2026 04:30 | $9,607 | -3.93% | -3.10% | 3 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
