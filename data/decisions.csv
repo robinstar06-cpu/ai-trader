@@ -137,3 +137,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-15T05:30:39.259329+00:00,15-10-2026 07:30,moonshotai/kimi-k3,BTC/USD,60.4,60.0,houden,,,"Kernpositie; relatief sterkste munt in zwakke markt, oversold bounce mogelijk"
 2026-10-15T06:00:47.149677+00:00,15-10-2026 08:00,moonshotai/kimi-k3,BCH/USD,7.0,7.0,houden,,,"Kleine satelliet; sterke 30d-trend, behouden zolang boven steun"
 2026-10-15T06:00:47.149677+00:00,15-10-2026 08:00,moonshotai/kimi-k3,BTC/USD,60.3,60.0,houden,,,"Kernpositie; minst zwakke munt, oversold maar boven $80k-steun"
+2026-10-15T06:30:38.863043+00:00,15-10-2026 08:30,moonshotai/kimi-k3,BCH/USD,7.0,7.0,houden,,,"Kleine satellite; relatief sterke 30d-trend (+20%), beperkt risico"
+2026-10-15T06:30:38.863043+00:00,15-10-2026 08:30,moonshotai/kimi-k3,BTC/USD,60.4,60.0,houden,,,Kernpositie; houdt $80k vast en presteert beter dan alts in deze zwakke markt
