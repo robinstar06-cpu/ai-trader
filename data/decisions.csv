@@ -219,3 +219,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-15T19:30:40.696241+00:00,15-10-2026 21:30,deepseek-ai/deepseek-v4.1-flash,CRV/USD,8.0,6.0,sell,193.03,verkocht 529.709860043,"Licht getrimd na +10% dag, winst deels veiliggesteld"
 2026-10-15T19:30:40.696241+00:00,15-10-2026 21:30,deepseek-ai/deepseek-v4.1-flash,RENDER/USD,6.0,6.0,houden,,,"Bovengemiddelde 30d kracht (+50%), 24u +3,5%"
 2026-10-15T19:30:40.696241+00:00,15-10-2026 21:30,deepseek-ai/deepseek-v4.1-flash,UNI/USD,7.0,7.0,houden,,,"Solide momentum, 24u +4,4%, boven 50d-MA"
+2026-10-15T20:00:49.770292+00:00,15-10-2026 22:00,deepseek-ai/deepseek-v4.1-flash,ARB/USD,13.9,16.0,buy,199.18,gekocht $199.18,"Sterkste momentumleider: 24u +7%, 7d +12%, boven 20d/50d-MA en hoog in de 7d-range."
+2026-10-15T20:00:49.770292+00:00,15-10-2026 22:00,deepseek-ai/deepseek-v4.1-flash,BCH/USD,7.0,7.0,houden,,,"24u +3,7%, sterk in de 7d-range (71) en boven 50d-MA; relatieve kracht vasthouden."
+2026-10-15T20:00:49.770292+00:00,15-10-2026 22:00,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Kernpositie; houdt $82k boven 50d-MA, laagste volatiliteit en beste bescherming in deze broze bounce."
+2026-10-15T20:00:49.770292+00:00,15-10-2026 22:00,deepseek-ai/deepseek-v4.1-flash,CRV/USD,6.0,5.0,sell,98.21,verkocht 269.505214050,Licht getrimd na +10% dag om winst te pakken; les leert snel winst nemen op de groene naam.
+2026-10-15T20:00:49.770292+00:00,15-10-2026 22:00,deepseek-ai/deepseek-v4.1-flash,RENDER/USD,6.0,6.0,houden,,,"7d +6,2% en boven 20d/50d-MA; AI/DePIN-momentum intact, positie klein houden."
+2026-10-15T20:00:49.770292+00:00,15-10-2026 22:00,deepseek-ai/deepseek-v4.1-flash,UNI/USD,7.0,7.0,houden,,,"Solide 24u +4,6% met herstel boven 24u-gemiddelde; meeliften op DeFi-momentum."
