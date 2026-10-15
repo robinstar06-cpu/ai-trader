@@ -131,3 +131,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-15T04:00:49.133310+00:00,15-10-2026 06:00,z-ai/glm-5.3,BTC/USD,60.3,60.0,houden,,,Relatief sterkste asset en diep oversold; kern behouden. Onder $80k verkoop ik verder.
 2026-10-15T04:30:37.445401+00:00,15-10-2026 06:30,moonshotai/kimi-k3,BCH/USD,7.0,7.0,houden,,,"Kleine satelliet; herstelt mee, geen reden om nu te verkopen"
 2026-10-15T04:30:37.445401+00:00,15-10-2026 06:30,moonshotai/kimi-k3,BTC/USD,60.5,60.0,houden,,,"Kernpositie; oversold bounce aan het vormen, wachten op bevestiging boven $83k"
+2026-10-15T05:00:48.101420+00:00,15-10-2026 07:00,moonshotai/kimi-k3,BCH/USD,7.0,7.0,houden,,,"Kleine speculatieve positie, herstelt mee, laag risico"
+2026-10-15T05:00:48.101420+00:00,15-10-2026 07:00,moonshotai/kimi-k3,BTC/USD,60.6,60.0,houden,,,"Kernpositie; sterkste munt in zwakke markt, oversold bounce gaande"
