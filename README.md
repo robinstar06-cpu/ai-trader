@@ -1,18 +1,18 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 15-10-2026 12:30_
+_Laatst bijgewerkt: 15-10-2026 13:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,591.33** |
+| Waarde portefeuille | **$9,596.36** |
 | Cash | $2,367.57 (25%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.09%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.88% |
-| Verschil | -1.21% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.04%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.86% |
+| Verschil | -1.18% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.09%** |
+| Rendement deze periode | **-4.04%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.09% |
+| Daling vanaf de top ($10,000) | -4.04% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
@@ -24,7 +24,7 @@ Plan ongewijzigd: BTC-kern 60% zolang $80k standhoudt; het zit op de 50d-MA wat 
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,784.92 | 60.3% | -2.3% | 60.3% |  |
+| BTC/USD | $5,789.96 | 60.3% | -2.2% | 60.3% |  |
 | CRV/USD | $768.78 | 8.0% | +1.5% | 8.0% |  |
 | BCH/USD | $670.06 | 7.0% | -4.9% | 7.0% |  |
 
@@ -43,6 +43,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 15-10-2026 13:00 | $9,596 | -4.04% | -2.86% | 0 |
 | 15-10-2026 12:30 | $9,591 | -4.09% | -2.88% | 0 |
 | 15-10-2026 12:00 | $9,614 | -3.86% | -2.59% | 0 |
 | 15-10-2026 11:30 | $9,611 | -3.89% | -2.56% | 0 |
@@ -54,7 +55,6 @@ Geen orders (verdeling blijft gelijk).
 | 15-10-2026 08:30 | $9,579 | -4.21% | -2.93% | 0 |
 | 15-10-2026 08:00 | $9,551 | -4.49% | -3.40% | 0 |
 | 15-10-2026 07:30 | $9,591 | -4.09% | -2.76% | 0 |
-| 15-10-2026 07:00 | $9,633 | -3.67% | -2.19% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
