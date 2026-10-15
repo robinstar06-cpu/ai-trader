@@ -755,11 +755,28 @@
         "CRV/USD": 0.346335,
         "BCH/USD": 264.46
       }
+    },
+    {
+      "time": "2026-10-15T09:30:39.938114+00:00",
+      "time_local": "15-10-2026 11:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "CRV/USD": 8.0,
+        "BCH/USD": 7.0
+      },
+      "summary": "BTC verdedigt de kritieke $80k-grens en balanceert exact op de 50d-MA ($81,2k, RSI 1u 42), maar de breadth blijft extreem zwak: slechts 2 van 33 munten groen, mediaan -5,4%, en Fear & Greed zakt van 62 naar 53. CRV is de enige crypto met echte kracht vandaag (+2,8%, boven het 24u-gemiddelde). De mar",
+      "equity": 9611.35,
+      "prices": {
+        "CRV/USD": 0.3418705,
+        "BTC/USD": 81180.313,
+        "BCH/USD": 263.92
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T09:00:47.561882+00:00",
-    "time_local": "15-10-2026 11:00",
-    "text": "Kernpositie BTC 60% vasthouden zolang $80k standhoudt; dit is de sterkste grote munt en de steun houdt. CRV op 8% laten als enige munt met positieve 24u-return en RSI 66 (relatieve sterkte in bloedende markt), maar niet verder verhogen wegens dunne volume ($453k). BCH 7% behouden. ~25% cash blijft droog poeder: bij een overtuigende break onder $80k verlaag ik BTC richting 45-50%, bij herstel boven $83k mét betere breadth (meer dan 8/33 groen) zet ik cash in voor een bounce-positie. Geen onnodige churn."
+    "time": "2026-10-15T09:30:39.938114+00:00",
+    "time_local": "15-10-2026 11:30",
+    "text": "Plan ongewijzigd: BTC-kern 60% zolang $80k standhoudt; het zit op de 50d-MA wat een technische keerpunt kan zijn. CRV 8% blijft mijn relative-strength positie (niet verhogen wegens dunne volume). BCH 7% krijgt nog de kans mee te bewegen bij een BTC-herstel; beweegt het niet mee bij groen, dan vervang ik het. ~25% cash blijft droog poeder. Triggers: overtuigende break onder $80k -> BTC naar 45-50%; herstel boven $83k met breadth >8/33 groen -> cash inzetten voor bounce. Geen churn in deze richtingloze bloedende markt."
   }
 }

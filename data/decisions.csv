@@ -154,3 +154,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-15T09:00:47.561882+00:00,15-10-2026 11:00,deepseek-ai/deepseek-v4.1-flash,BCH/USD,7.0,7.0,houden,,,"Behouden; +22% 30d maar nu zwak, wacht op herstel"
 2026-10-15T09:00:47.561882+00:00,15-10-2026 11:00,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.3,60.0,houden,,,"Sterkste grote munt, houdt $80k-steun vast, RSI herstelt vanaf oversold"
 2026-10-15T09:00:47.561882+00:00,15-10-2026 11:00,deepseek-ai/deepseek-v4.1-flash,CRV/USD,8.1,8.0,houden,,,"Enige munt met positieve 24u-return (+4,3%), RSI 66, relatieve sterkte"
+2026-10-15T09:30:39.938114+00:00,15-10-2026 11:30,z-ai/glm-5.3,BCH/USD,7.0,7.0,houden,,,Dip-positie nabij 7d-lows; laatste kans om mee te bewegen bij herstel
+2026-10-15T09:30:39.938114+00:00,15-10-2026 11:30,z-ai/glm-5.3,BTC/USD,60.4,60.0,houden,,,"Kernpositie; $80k en 50d-MA houden stand, RSI herstelt"
+2026-10-15T09:30:39.938114+00:00,15-10-2026 11:30,z-ai/glm-5.3,CRV/USD,8.0,8.0,houden,,,"Enige munt groen op 24u, relative strength; volume te dun om te verhogen"
