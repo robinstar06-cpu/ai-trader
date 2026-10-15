@@ -629,11 +629,26 @@
         "BCH/USD": 261.521,
         "BTC/USD": 80812.21
       }
+    },
+    {
+      "time": "2026-10-15T04:30:37.445401+00:00",
+      "time_local": "15-10-2026 06:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "BCH/USD": 7.0
+      },
+      "summary": "BTC herstelt licht naar $81,3k (+0,6% 1u, RSI 36) na de diep oversold dip, maar breadth blijft dramatisch (0/33 omhoog, mediaan -6,4%). Alts blijven structureel zwakker dan BTC; een echte bodem is nog niet bevestigd.",
+      "equity": 9599.61,
+      "prices": {
+        "BCH/USD": 264.69,
+        "BTC/USD": 81272.9065
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T04:00:49.133310+00:00",
-    "time_local": "15-10-2026 06:00",
-    "text": "Plan ongewijzigd: BTC 60% als kern, BCH 7%, ~33% cash. BTC is diep oversold (uur-RSI 24) dus een technische bounce is mogelijk, maar breadth (0/33 omhoog) bevestigt nog niets. Ik handel alleen bij harde triggers: break onder $80k -> cash richting 40%+; herstel boven $83k met betere breadth -> cash erin voor de rebound. Nu geen churn; alts blijven structureel zwakker dan BTC."
+    "time": "2026-10-15T04:30:37.445401+00:00",
+    "time_local": "15-10-2026 06:30",
+    "text": "Plan ongewijzigd: BTC 60% kern, BCH 7%, ~33% cash. De 1u-bounce is bemoedigend maar nog geen trigger. Koop cash erin bij herstel boven $83k met betere breadth; verlaag BTC bij break onder $80k. Geen churn nu; fees op kleine moves zijn verspilling."
   }
 }
