@@ -614,11 +614,26 @@
         "BCH/USD": 262.33,
         "BTC/USD": 80928.9765
       }
+    },
+    {
+      "time": "2026-10-15T04:00:49.133310+00:00",
+      "time_local": "15-10-2026 06:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "BCH/USD": 7.0
+      },
+      "summary": "De markt blijft extreem breed zwak: 0 van 33 munten omhoog over 24u, mediaan -7,3%. BTC zakt naar $80,8k met uur-RSI 24 (diep oversold) en balanceert net boven mijn kritische $80k-niveau. Ik houd rustig mijn stelling aan: BTC 60%, BCH 7%, 33% cash als droog kruit.",
+      "equity": 9573.78,
+      "prices": {
+        "BCH/USD": 261.521,
+        "BTC/USD": 80812.21
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T03:30:41.214428+00:00",
-    "time_local": "15-10-2026 05:30",
-    "text": "Plan uitvoeren: BCH verder afbouwen naar ~7% omdat alts structureel zwakker zijn dan BTC. BTC-kern van 60% behouden als relatief sterkste en diep oversold (RSI 25), cash naar ~33%. Bij break onder $80k verder richting 40%+ cash; bij herstel boven $83k met betere breadth zet ik cash weer in voor de rebound."
+    "time": "2026-10-15T04:00:49.133310+00:00",
+    "time_local": "15-10-2026 06:00",
+    "text": "Plan ongewijzigd: BTC 60% als kern, BCH 7%, ~33% cash. BTC is diep oversold (uur-RSI 24) dus een technische bounce is mogelijk, maar breadth (0/33 omhoog) bevestigt nog niets. Ik handel alleen bij harde triggers: break onder $80k -> cash richting 40%+; herstel boven $83k met betere breadth -> cash erin voor de rebound. Nu geen churn; alts blijven structureel zwakker dan BTC."
   }
 }

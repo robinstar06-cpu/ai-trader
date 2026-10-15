@@ -127,3 +127,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-15T03:00:49.830799+00:00,15-10-2026 05:00,,BTC/USD,60.4,60.4,houden,,,
 2026-10-15T03:30:41.214428+00:00,15-10-2026 05:30,moonshotai/kimi-k3,BCH/USD,16.9,7.0,sell,946.60,verkocht 3.611875492,"Alt blijft underperformen, afbouwen volgens plan"
 2026-10-15T03:30:41.214428+00:00,15-10-2026 05:30,moonshotai/kimi-k3,BTC/USD,60.3,60.0,houden,,,"Relatief sterkste, diep oversold, kernpositie behouden"
+2026-10-15T04:00:49.133310+00:00,15-10-2026 06:00,z-ai/glm-5.3,BCH/USD,7.0,7.0,houden,,,Kleine alt-positie volgens plan; alts bloeden harder dan BTC dus minimaal gehouden.
+2026-10-15T04:00:49.133310+00:00,15-10-2026 06:00,z-ai/glm-5.3,BTC/USD,60.3,60.0,houden,,,Relatief sterkste asset en diep oversold; kern behouden. Onder $80k verkoop ik verder.
