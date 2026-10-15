@@ -145,3 +145,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-15T07:30:40.168412+00:00,15-10-2026 09:30,moonshotai/kimi-k3,BCH/USD,7.0,7.0,houden,,,"Kleine positie behouden, volgt BTC-herstel"
 2026-10-15T07:30:40.168412+00:00,15-10-2026 09:30,moonshotai/kimi-k3,BTC/USD,60.4,60.0,houden,,,"Kernpositie; $80k houdt, oversold bounce gaande, BTC verliest minder dan alts"
 2026-10-15T07:30:40.168412+00:00,15-10-2026 09:30,moonshotai/kimi-k3,CRV/USD,4.9,8.0,buy,294.49,gekocht $294.49,"Enige munt in het groen (+2,3% 24u), RSI 62, boven SMA24h — relatieve sterkte vergroten"
+2026-10-15T08:00:46.886716+00:00,15-10-2026 10:00,,BCH/USD,7.0,7.0,houden,,,
+2026-10-15T08:00:46.886716+00:00,15-10-2026 10:00,,BTC/USD,60.5,60.5,houden,,,
+2026-10-15T08:00:46.886716+00:00,15-10-2026 10:00,,CRV/USD,7.9,7.9,houden,,,
