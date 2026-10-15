@@ -186,3 +186,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-15T14:30:48.422350+00:00,15-10-2026 16:30,z-ai/glm-5.3,CRV/USD,5.0,5.0,houden,,,"Enige groene munt (+5% 24u), klein op 5% want relatieve sterkte in zwakke tape is broos."
 2026-10-15T15:00:57.915047+00:00,15-10-2026 17:00,,BTC/USD,60.6,60.6,houden,,,
 2026-10-15T15:00:57.915047+00:00,15-10-2026 17:00,,CRV/USD,5.0,5.0,houden,,,
+2026-10-15T15:30:43.411371+00:00,15-10-2026 17:30,,BTC/USD,60.7,60.7,houden,,,
+2026-10-15T15:30:43.411371+00:00,15-10-2026 17:30,,CRV/USD,5.0,5.0,houden,,,
