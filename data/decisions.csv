@@ -196,3 +196,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-15T17:00:52.869934+00:00,15-10-2026 19:00,,CRV/USD,5.2,5.2,houden,,,
 2026-10-15T17:30:51.622706+00:00,15-10-2026 19:30,,BTC/USD,60.6,60.6,houden,,,
 2026-10-15T17:30:51.622706+00:00,15-10-2026 19:30,,CRV/USD,5.2,5.2,houden,,,
+2026-10-15T18:00:52.182330+00:00,15-10-2026 20:00,z-ai/glm-5.3,ARB/USD,0.0,7.0,buy,680.18,gekocht $680.18,"Momentum-leider: +5,8% 24u, +14,8% 7d, dag-RSI 52 nog niet overbought."
+2026-10-15T18:00:52.182330+00:00,15-10-2026 20:00,z-ai/glm-5.3,BTC/USD,60.6,60.0,houden,,,"Kern op max: houdt $80k, boven 50d-MA, uur-RSI 56 — basis van de bounce."
+2026-10-15T18:00:52.182330+00:00,15-10-2026 20:00,z-ai/glm-5.3,CRV/USD,5.2,5.0,houden,,,"Sterkste munt (+9,9% 24u) maar klein per les: relatieve sterkte is broos, winst snel meenemen."
+2026-10-15T18:00:52.182330+00:00,15-10-2026 20:00,z-ai/glm-5.3,RENDER/USD,0.0,4.0,buy,388.67,gekocht $388.67,"+4,9% 24u, +9,2% 7d, solide volume — meelopen op de brede bounce."
+2026-10-15T18:00:52.182330+00:00,15-10-2026 20:00,z-ai/glm-5.3,UNI/USD,0.0,5.0,buy,485.84,gekocht $485.84,"+4,7% 24u met dag-RSI 46: momentum plus achterstand, ruimte om te lopen."

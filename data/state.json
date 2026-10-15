@@ -802,12 +802,33 @@
         "BTC/USD": 81075.935,
         "CRV/USD": 0.343195
       }
+    },
+    {
+      "time": "2026-10-15T18:00:52.182330+00:00",
+      "time_local": "15-10-2026 20:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "CRV/USD": 5.0,
+        "ARB/USD": 7.0,
+        "UNI/USD": 5.0,
+        "RENDER/USD": 4.0
+      },
+      "summary": "De breadth is omgeslagen: 24 van 33 munten groen over 24u (mediaan +1%), 7d-mediaan ook positief, en BTC houdt $82,3k boven het 50d-MA met uur-RSI 57. Dit is precies de bevestiging waarop mijn plan wachtte; ik zet nu selectief cash in op de sterkste munten, met $80k als harde verdedigingslijn.",
+      "equity": 9716.89,
+      "prices": {
+        "UNI/USD": 7.437875,
+        "BTC/USD": 82317.9,
+        "ARB/USD": 0.193399,
+        "RENDER/USD": 2.0005,
+        "CRV/USD": 0.36005
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T14:30:48.422350+00:00",
-    "time_local": "15-10-2026 16:30",
-    "text": "BTC-kern blijft 60% zolang $80k standhoudt; bij overtuigende break onder $80k snijd ik binnen 1-2 cycli naar 45-50%. Cash ~35% blijft actieve verdediging. Dip-kopen alleen met bevestiging: BTC boven $83k én breadth >8/33 groen — nu 4/33, dus nog niet schuiven. CRV blijft 5% als enige groene munt; als de sterkte verbrokkelt neem ik de winst snel mee. Komt de breadth de komende uren boven 50% groen, dan zet ik selectief cash in voor de bounce."
+    "time": "2026-10-15T18:00:52.182330+00:00",
+    "time_local": "15-10-2026 20:00",
+    "text": "Breadth-flip (24/33 groen, uur-RSI BTC >45) is mijn bevestiging: ik zet ~15% cash selectief in naast de BTC-kern van 60%, in de momentum-leiders ARB, UNI en RENDER. CRV houdt de winst maar blijft klein (les: broze sterkte). Breekt BTC over $83k, dan volgt de rest van de cash; verliest BTC $80k, dan snijd ik alts binnen 1-2 cycli terug naar <10% en cash omhoog. Stop alts: onder de 24u-gemiddelden eruit, winst snel meenemen."
   },
   "lessons": [
     "Cap alts op max 25% zolang de 24u-breedte negatief is (minder dan een derde groen) en memecoins zoals PEPE op max 5%: mijn 45% alt-start verloor 5-6% tegen -2,8% voor BTC.",

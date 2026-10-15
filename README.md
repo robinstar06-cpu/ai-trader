@@ -1,24 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 15-10-2026 19:30_
+_Laatst bijgewerkt: 15-10-2026 20:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,716.55** |
-| Cash | $3,322.49 (34%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-2.83%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.22% |
-| Verschil | -1.62% |
+| Waarde portefeuille | **$9,694.73** |
+| Cash | $1,798.61 (19%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-3.05%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.20% |
+| Verschil | -1.85% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-2.83%** |
+| Rendement deze periode | **-3.05%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -2.83% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -3.05% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
-## Strategie van de AI (sinds 15-10-2026 16:30)
+## Marktvisie van de AI
 
-BTC-kern blijft 60% zolang $80k standhoudt; bij overtuigende break onder $80k snijd ik binnen 1-2 cycli naar 45-50%. Cash ~35% blijft actieve verdediging. Dip-kopen alleen met bevestiging: BTC boven $83k én breadth >8/33 groen — nu 4/33, dus nog niet schuiven. CRV blijft 5% als enige groene munt; als de sterkte verbrokkelt neem ik de winst snel mee. Komt de breadth de komende uren boven 50% groen, dan zet ik selectief cash in voor de bounce.
+De breadth is omgeslagen: 24 van 33 munten groen over 24u (mediaan +1%), 7d-mediaan ook positief, en BTC houdt $82,3k boven het 50d-MA met uur-RSI 57. Dit is precies de bevestiging waarop mijn plan wachtte; ik zet nu selectief cash in op de sterkste munten, met $80k als harde verdedigingslijn.
+
+## Strategie van de AI (sinds 15-10-2026 20:00)
+
+Breadth-flip (24/33 groen, uur-RSI BTC >45) is mijn bevestiging: ik zet ~15% cash selectief in naast de BTC-kern van 60%, in de momentum-leiders ARB, UNI en RENDER. CRV houdt de winst maar blijft klein (les: broze sterkte). Breekt BTC over $83k, dan volgt de rest van de cash; verliest BTC $80k, dan snijd ik alts binnen 1-2 cycli terug naar <10% en cash omhoog. Stop alts: onder de 24u-gemiddelden eruit, winst snel meenemen.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -37,24 +41,29 @@ _Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,887.22 | 60.6% | -0.6% | 60.6% |  |
-| CRV/USD | $506.84 | 5.2% | +7.4% | 5.2% |  |
+| BTC/USD | $5,880.87 | 60.7% | -0.7% | 60.0% | Kern op max: houdt $80k, boven 50d-MA, uur-RSI 56 — basis van de bounce. |
+| ARB/USD | $654.65 | 6.8% | -1.6% | 7.0% | Momentum-leider: +5,8% 24u, +14,8% 7d, dag-RSI 52 nog niet overbought. |
+| CRV/USD | $506.84 | 5.2% | +7.4% | 5.0% | Sterkste munt (+9,9% 24u) maar klein per les: relatieve sterkte is broos, winst snel meenemen. |
+| UNI/USD | $476.66 | 4.9% | +0.3% | 5.0% | +4,7% 24u met dag-RSI 46: momentum plus achterstand, ruimte om te lopen. |
+| RENDER/USD | $377.11 | 3.9% | -0.7% | 4.0% | +4,9% 24u, +9,2% 7d, solide volume — meelopen op de brede bounce. |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| ARB/USD | buy | $680.18 | gekocht $680.18 |
+| UNI/USD | buy | $485.84 | gekocht $485.84 |
+| RENDER/USD | buy | $388.67 | gekocht $388.67 |
 
 ## Meldingen
 
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 15-10-2026 20:00 | $9,695 | -3.05% | -1.20% | 3 |
 | 15-10-2026 19:30 | $9,717 | -2.83% | -1.22% | 0 |
 | 15-10-2026 19:00 | $9,693 | -3.07% | -1.55% | 0 |
 | 15-10-2026 18:30 | $9,684 | -3.16% | -1.58% | 0 |
@@ -66,7 +75,6 @@ Geen orders (verdeling blijft gelijk).
 | 15-10-2026 15:30 | $9,529 | -4.71% | -3.89% | 0 |
 | 15-10-2026 15:00 | $9,557 | -4.43% | -3.33% | 2 |
 | 15-10-2026 14:30 | $9,575 | -4.25% | -2.82% | 0 |
-| 15-10-2026 14:00 | $9,589 | -4.11% | -2.92% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
