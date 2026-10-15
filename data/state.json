@@ -704,11 +704,28 @@
         "BTC/USD": 80875.945,
         "BCH/USD": 260.68
       }
+    },
+    {
+      "time": "2026-10-15T07:00:48.164031+00:00",
+      "time_local": "15-10-2026 09:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "BCH/USD": 7.0,
+        "CRV/USD": 5.0
+      },
+      "summary": "BTC houdt de kritieke $80k-grens vast en veert licht op (RSI 35 herstellend), maar de breadth blijft dramatisch met slechts 1 van 33 munten omhoog en mediaan -6,5%. Alts bloeden structureel harder dan BTC; CRV is de enige relatieve sterkte (+1,3% 24u).",
+      "equity": 9576.01,
+      "prices": {
+        "BTC/USD": 80787.7665,
+        "CRV/USD": 0.338046,
+        "BCH/USD": 260.705
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T06:30:38.863043+00:00",
-    "time_local": "15-10-2026 08:30",
-    "text": "Plan vasthouden: BTC 60% kern, BCH 7%, ~33% cash als droog poeder. Geen churn; de laatste uren bevestigen dat BTC relatief sterk is versus alts. Trigger ongewijzigd: verlaag BTC bij een duidelijke break onder $80k, zet cash in bij herstel boven $83k met verbeterende breadth. BAT (+66% 7d) blijft op de radar maar te volatiel om nu te jagen."
+    "time": "2026-10-15T07:00:48.164031+00:00",
+    "time_local": "15-10-2026 09:00",
+    "text": "Kernpositie BTC 60% vasthouden zolang $80k standhoudt; BCH 7% behouden. Ik zet ~5% van de cash in op CRV als kleine relative-strength trade (enige munt in het groen, RSI 58, herstelt boven SMA24h). Resterende ~28% cash blijft droog poeder: bij een break onder $80k verlaag ik BTC, bij herstel boven $83k met betere breadth zet ik meer cash in."
   }
 }
