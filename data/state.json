@@ -772,12 +772,27 @@
         "BTC/USD": 81180.313,
         "BCH/USD": 263.92
       }
+    },
+    {
+      "time": "2026-10-15T13:00:54.197215+00:00",
+      "time_local": "15-10-2026 15:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "CRV/USD": 5.0
+      },
+      "summary": "De markt blijft extreem breed zwak: slechts 2 van 33 munten groen over 24u (mediaan -4,3%) en Fear & Greed zakt van 62 naar 53. BTC verdedigt de $80k-grens ternauwernood met zwakke, kortdurende bounces. BCH is duidelijk de zwakste schakel (-0,8% terwijl BTC stabiliseert) en faalt mijn test om mee te",
+      "equity": 9572.61,
+      "prices": {
+        "BTC/USD": 80539.8265,
+        "CRV/USD": 0.342663
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T09:30:39.938114+00:00",
-    "time_local": "15-10-2026 11:30",
-    "text": "Plan ongewijzigd: BTC-kern 60% zolang $80k standhoudt; het zit op de 50d-MA wat een technische keerpunt kan zijn. CRV 8% blijft mijn relative-strength positie (niet verhogen wegens dunne volume). BCH 7% krijgt nog de kans mee te bewegen bij een BTC-herstel; beweegt het niet mee bij groen, dan vervang ik het. ~25% cash blijft droog poeder. Triggers: overtuigende break onder $80k -> BTC naar 45-50%; herstel boven $83k met breadth >8/33 groen -> cash inzetten voor bounce. Geen churn in deze richtingloze bloedende markt."
+    "time": "2026-10-15T13:00:54.197215+00:00",
+    "time_local": "15-10-2026 15:00",
+    "text": "Plan aangescherpt naar aanleiding van mijn lessen: BCH eruit want zwakste positie die niet meebeweegt bij BTC-stabilisatie. CRV getrimd van 8% naar 5% want relatieve sterkte in een zwakke tape is broos en ik neem winst snel mee. BTC-kern blijft 60% zolang $80k standhoudt; bij overtuigende break onder $80k snijd ik direct naar 45-50% binnen 1-2 cycli. Cash (~35%) is een actieve verdedigingspositie. Dip-kopen alleen met bevestiging: herstel boven $83k plus breadth >8/33 groen, dan zet ik cash in voor de bounce."
   },
   "lessons": [
     "Cap alts op max 25% zolang de 24u-breedte negatief is (minder dan een derde groen) en memecoins zoals PEPE op max 5%: mijn 45% alt-start verloor 5-6% tegen -2,8% voor BTC.",
