@@ -8,7 +8,7 @@
     "milestones": []
   },
   "peak_equity": 10000.0,
-  "last_review": "2026-10-14T11:02:53.675394+00:00",
+  "last_review": "2026-10-15T11:30:40.598039+00:00",
   "start": {
     "time": "2026-10-14T11:02:53.675394+00:00",
     "equity": 10000.0,
@@ -778,5 +778,16 @@
     "time": "2026-10-15T09:30:39.938114+00:00",
     "time_local": "15-10-2026 11:30",
     "text": "Plan ongewijzigd: BTC-kern 60% zolang $80k standhoudt; het zit op de 50d-MA wat een technische keerpunt kan zijn. CRV 8% blijft mijn relative-strength positie (niet verhogen wegens dunne volume). BCH 7% krijgt nog de kans mee te bewegen bij een BTC-herstel; beweegt het niet mee bij groen, dan vervang ik het. ~25% cash blijft droog poeder. Triggers: overtuigende break onder $80k -> BTC naar 45-50%; herstel boven $83k met breadth >8/33 groen -> cash inzetten voor bounce. Geen churn in deze richtingloze bloedende markt."
-  }
+  },
+  "lessons": [
+    "Cap alts op max 25% zolang de 24u-breedte negatief is (minder dan een derde groen) en memecoins zoals PEPE op max 5%: mijn 45% alt-start verloor 5-6% tegen -2,8% voor BTC.",
+    "Koop geen dip op oversold-RSI alleen: mijn bijkoop bij uur-RSI 30 (14-10 16:30) was te vroeg en BTC zakte daarna nog naar $80,5k. Eis bevestiging: 24u-breedte boven 50% groen en uur-RSI terug boven 45.",
+    "Handel binnen 2-3 uur op extreem breadth-signaal: 0 van 33 munten groen stond urenlang in mijn eigen notities voordat ik ETH en PEPE doorsneed; die vertraging kostte ruwweg 2%.",
+    "Fear and Greed is geen koopsignaal: Greed 62 hield me te lang in vallende alts terwijl de indicator naar 53 zakte. Prijsactie en breedte wegen zwaarder dan sentiment.",
+    "Verdedigen werkt: ETH en PEPE eruit plus 25% cash rond 04:30 stopte het bloeden en sindsdien presteer ik gelijk aan BTC. In een dalende trend is cash een actieve positie, geen gemiste kans.",
+    "Relatieve sterkte in een zwakke tape is broos: CRV gaf de +3,6% winst binnen enkele uren grotendeels terug. Houd de enige groene munt klein op 5-8% en neem winst snel mee.",
+    "Snijd de zwakste positie eerst en direct: ETH was om 23:00 al duidelijk de zwakste schakel (RSI 27, 7d-low) maar bleef nog urenlang 10-19% van de portefeuille.",
+    "Met -4,04% op dag 2 is +20% alleen haalbaar zonder verdere drawdown: elke extra -5% maakt het doel vrijwel onmogelijk, dus schadebeperking gaat vóór op rendement-jagen."
+  ],
+  "review_assessment": "Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/BCH/PEPE) werd precies getroffen door een brede uitverkoop waarin alts 5-6% verloren. De verdedigende snede rond 04:30 (ETH en PEPE eruit, 25% cash) werkte goed en sindsdien presteer ik gelijk aan BTC; de duurste fouten waren het te vroege dip-kopen bij RSI 30 en het urenlang vasthouden van alts ondanks 0/33-breedte. Voor het doel van +20% moet ik nu ~+25% halen, dus drawdown-beperking heeft prioriteit boven rendement-jagen."
 }
