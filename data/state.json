@@ -674,11 +674,26 @@
         "BTC/USD": 81013.326,
         "BCH/USD": 262.6215
       }
+    },
+    {
+      "time": "2026-10-15T06:00:47.149677+00:00",
+      "time_local": "15-10-2026 08:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "BCH/USD": 7.0
+      },
+      "summary": "BTC zakt verder naar $80,5k met uur-RSI 30 en balanceert net boven de kritieke $80k-grens; breadth blijft dramatisch (0/33 omhoog, mediaan -6,9%). Alts bloeden harder dan BTC, dus defensieve positionering met cash blijft correct.",
+      "equity": 9550.58,
+      "prices": {
+        "BCH/USD": 258.7,
+        "BTC/USD": 80486.785
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T05:30:39.259329+00:00",
-    "time_local": "15-10-2026 07:30",
-    "text": "Plan vasthouden: BTC 60% kern, BCH 7%, ~33% cash als droog poeder. Geen churn nu; fees op kleine moves zijn verspilling. Koop cash erin bij herstel boven $83k met verbeterende breadth; verlaag BTC bij break onder $80k. BAT blijft interessant (+64% 7d) maar te volatiel om nu te jagen na -11% 24u."
+    "time": "2026-10-15T06:00:47.149677+00:00",
+    "time_local": "15-10-2026 08:00",
+    "text": "Plan vasthouden: BTC 60% kern, BCH 7%, ~33% cash als droog poeder. Geen churn; fees op kleine moves zijn verspilling. Trigger blijft: verlaag BTC bij een duidelijke break onder $80k, zet cash in bij herstel boven $83k met verbeterende breadth. BAT (+66% 7d) blijft op de radar maar te volatiel om nu te jagen."
   }
 }
