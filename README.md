@@ -1,37 +1,37 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 15-10-2026 02:00_
+_Laatst bijgewerkt: 15-10-2026 02:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,738.95** |
+| Waarde portefeuille | **$9,745.61** |
 | Cash | $564.36 (6%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-2.61%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.09% |
-| Verschil | -0.52% |
+| Rendement AI sinds 14-10-2026 13:02 | **-2.54%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.98% |
+| Verschil | -0.56% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-2.61%** |
+| Rendement deze periode | **-2.54%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -2.61% |
+| Daling vanaf de top ($10,000) | -2.54% |
 | Model | moonshotai/kimi-k3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
 ## Marktvisie van de AI
 
-De markt blijft breed zwak (0 van 33 omhoog, mediaan -3.1%) maar BTC houdt stand rond $81.6k met uur-RSI 34, diep oversold. Fear & Greed zakte naar 53, wat capitulatie dichterbij brengt en een bounce waarschijnlijker maakt.
+De markt blijft breed zwak (0 van 33 omhoog, mediaan -3.3%) maar BTC houdt stand rond $81.7k met uur-RSI 36, oversold. Alles toont licht positief 1u-momentum; een technische rebound blijft het meest waarschijnlijke kortetermijnscenario.
 
-## Strategie van de AI (sinds 15-10-2026 02:00)
+## Strategie van de AI (sinds 15-10-2026 02:30)
 
-Huidige allocatie vasthouden: BTC 60% kern, BCH 15%, ETH 10%, PEPE 10%, cash 5%. De oversold-conditie (BTC RSI 34, ETH RSI 30) rechtvaardigt geduld; verkopen nu zou op het dieptepunt zijn. Bij BTC-break onder $80k schaal ik alts af richting cash; bij herstel boven $83k zet ik cash in. Geen churn: de afwijkingen van target zijn <1% en fees wegen niet op.
+Huidige allocatie vasthouden: BTC 60% kern, BCH 15%, ETH 10%, PEPE 10%, cash 5%. Afwijkingen van target zijn <1%, dus geen churn en geen fee-verspilling. Oversold-conditie rechtvaardigt geduld. Bij BTC-break onder $80k schaal ik alts af richting cash; bij herstel boven $83k zet ik de cash in voor extra beta op de rebound.
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,835.20 | 59.9% | -1.5% | 60.0% | Kernpositie, oversold met bounce-potentieel, sterkste van de markt |
-| BCH/USD | $1,407.30 | 14.5% | -3.9% | 15.0% | Sterke 30d-trend (+20%), hoge range7d-positie ondanks dip |
-| ETH/USD | $975.17 | 10.0% | -3.3% | 10.0% | Diep oversold (RSI 30), mean-reversion kandidaat |
-| PEPE/USD | $956.92 | 9.8% | -2.5% | 10.0% | Relatieve sterkte, hoogste range7d-positie van mijn alts |
+| BTC/USD | $5,839.06 | 59.9% | -1.4% | 60.0% | Kernpositie, oversold en stabiel; meest robuuste rebound-kandidaat |
+| BCH/USD | $1,407.30 | 14.4% | -3.9% | 15.0% | Sterkste 1u-momentum (+0.5%) en beste RSI van mijn alts |
+| ETH/USD | $977.96 | 10.0% | -3.0% | 10.0% | Diep oversold (dag-RSI 39), hoog rebound-potentieel ondanks zwakte |
+| PEPE/USD | $956.92 | 9.8% | -2.5% | 10.0% | Relatieve sterkte, hoogste range7d-positie van de alts |
 
 ## Orders deze run
 
@@ -41,6 +41,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 15-10-2026 02:30 | $9,746 | -2.54% | -1.98% | 0 |
 | 15-10-2026 02:00 | $9,739 | -2.61% | -2.09% | 0 |
 | 15-10-2026 01:30 | $9,729 | -2.71% | -2.26% | 0 |
 | 15-10-2026 01:00 | $9,749 | -2.51% | -2.13% | 0 |
@@ -52,7 +53,6 @@ Geen orders (verdeling blijft gelijk).
 | 14-10-2026 22:00 | $9,771 | -2.29% | -1.90% | 0 |
 | 14-10-2026 21:30 | $9,775 | -2.25% | -1.94% | 0 |
 | 14-10-2026 21:00 | $9,763 | -2.37% | -2.03% | 0 |
-| 14-10-2026 20:30 | $9,765 | -2.35% | -2.12% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
