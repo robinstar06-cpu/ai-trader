@@ -565,11 +565,30 @@
         "BTC/USD": 81477.1,
         "ETH/USD": 2411.095
       }
+    },
+    {
+      "time": "2026-10-15T02:00:45.952940+00:00",
+      "time_local": "15-10-2026 04:00",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "BCH/USD": 15.0,
+        "ETH/USD": 10.0,
+        "PEPE/USD": 10.0
+      },
+      "summary": "De markt blijft breed zwak (0 van 33 omhoog, mediaan -4.3%) maar BTC houdt stand rond $81.5k met uur-RSI 33, diep oversold. Fear & Greed is gezakt naar 53, wat capitulatie nabij suggereert. Positief 1u-momentum bij vrijwel alle munten wijst op een naderende technische rebound.",
+      "equity": 9736.55,
+      "prices": {
+        "BCH/USD": 267.35,
+        "PEPE/USD": 4.03e-06,
+        "BTC/USD": 81531.89,
+        "ETH/USD": 2410.2985
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T01:30:41.423978+00:00",
-    "time_local": "15-10-2026 03:30",
+    "time": "2026-10-15T02:00:45.952940+00:00",
+    "time_local": "15-10-2026 04:00",
     "text": "Huidige allocatie vasthouden: BTC 60% kern, BCH 15%, ETH 10%, PEPE 10%, cash 5%. Afwijkingen van target zijn <1%, dus geen churn en geen fee-verspilling. Oversold-conditie rechtvaardigt geduld. Bij BTC-break onder $80k schaal ik alts af richting cash; bij herstel boven $83k zet ik de cash in voor extra beta op de rebound."
   }
 }
