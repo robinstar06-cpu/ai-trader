@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-10-2026 01:00_
+_Laatst bijgewerkt: 16-10-2026 01:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,665.61** |
-| Cash | $109.79 (1%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-3.34%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.14% |
-| Verschil | -2.20% |
+| Waarde portefeuille | **$9,652.52** |
+| Cash | $584.06 (6%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-3.47%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.41% |
+| Verschil | -2.06% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-3.34%** |
+| Rendement deze periode | **-3.47%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -3.34% |
-| Model | deepseek-ai/deepseek-v4.1-flash |
+| Daling vanaf de top ($10,000) | -3.47% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
 ## Marktvisie van de AI
 
-De markt is constructief: 29 van 33 munten groen (mediaan +1,1%), BTC houdt $82,4k boven het 50d-gemiddelde en Fear & Greed is neutraal op 53. De 7d-mediaan blijft licht negatief (-0,5%), dus het herstel is nog broos en draait vooral op momentum in ARB, FIL en CRV.
+De breedte blijft positief (25/33 groen, mediaan +0,7% over 24u) maar verzwakt licht tegenover eerder vandaag en de meeste munten staan rood op het uur; BTC consolideert rond $82,1k boven het 50d-gemiddelde, halverwege het weekbereik. Mijn momentumnamen ARB, FIL en CRV lopen nog voorop, terwijl RENDER opnieuw de zwakste schakel is. Geen van mijn triggers ($83k-break of $80k-verlies) is geraakt.
 
-## Strategie van de AI (sinds 16-10-2026 01:00)
+## Strategie van de AI (sinds 16-10-2026 01:30)
 
-BTC blijft het anker op ~44%. Ik houd de tilt naar de sterkste momentum-namen ARB (24u +8,2%, 7d +13,6%, boven alle MA's) en FIL (24u +6,8%, 7d +9,6%), met UNI, BCH en CRV op peil. RENDER is de zwakste schakel en gaat terug naar 4%. Cash ~2% als droog kruit. Breekt BTC over $83k met aanhoudende breedte, dan zet ik cash bij in de leiders; zakt BTC onder $80k of krimpt de breedte onder 50% groen, dan snijd ik de alts direct terug en verhoog ik cash. Parabolische namen zoals BAT (+206% 30d, RSI 79) mijd ik bewust.
+RENDER gaat er volledig uit (zwakste positie, bloedert al uren, onder het 20d-MA) en de opbrengst wordt droog kruit: cash naar ~6%. BTC blijft anker op 44%, met ARB (18%) en FIL (12%) als momentumkern en UNI, BCH en CRV op peil. Triggers: aanhoudende break boven $83k met brede groene breedte → cash erbij in de leiders; BTC onder $80k of breedte onder 50% groen → alts direct terugknippen. Parabolische namen zoals BAT mijd ik; CRV klein houden en winst snel meenemen.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,29 +41,28 @@ _Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $4,244.95 | 43.9% | -0.8% | 44.0% | Anker, houdt zich boven 50d-gemiddelde en boven $82k |
-| ARB/USD | $1,734.21 | 17.9% | -1.8% | 18.0% | Sterkste momentum, boven alle MA's, 7d +13,6% |
-| FIL/USD | $1,160.39 | 12.0% | +1.0% | 12.0% | Leider, 24u +6,8%, boven alle MA's |
-| UNI/USD | $681.16 | 7.0% | +0.7% | 7.0% | Solide, 24u +3,6%, boven 50d-gemiddelde |
-| BCH/USD | $675.74 | 7.0% | +0.0% | 7.0% | Positief, 24u +3,8%, in bovenste deel 7d-range |
-| CRV/USD | $580.39 | 6.0% | +4.7% | 6.0% | Sterk 24u +8,9%, maar fragiel dus klein houden |
-| RENDER/USD | $478.97 | 5.0% | -1.5% | 4.0% | Zwakste schakel, teruggeschroefd |
+| BTC/USD | $4,244.42 | 44.0% | -0.8% | 44.0% | Anker; stabiel boven 50d-MA, geen trigger geraakt |
+| ARB/USD | $1,734.21 | 18.0% | -1.8% | 18.0% | Sterkste momentum: +7,1% 24u, +12,9% 7d, boven alle MA's |
+| FIL/USD | $1,160.39 | 12.0% | +1.0% | 12.0% | Momentum +6,8% 24u en +9,3% 7d, RSI 1d nog niet oververhit |
+| BCH/USD | $675.74 | 7.0% | +0.0% | 7.0% | +3,4% 24u, houdt zich goed boven het 50d-MA |
+| UNI/USD | $673.31 | 7.0% | -0.5% | 7.0% | +3,2% 24u, +4,3% 7d; solide middenmotor |
+| CRV/USD | $580.39 | 6.0% | +4.7% | 6.0% | Beste positie (+4,7%); klein op 6% houden, winst snel meenemen |
 
 ## Orders deze run
 
 | Munt | Actie | Bedrag | Resultaat |
 |---|---|---|---|
-| CRV/USD | buy | $97.06 | gekocht $97.06 |
+| RENDER/USD | close | $478.97 | verkocht (alles) |
 
 ## Meldingen
 
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-10-2026 01:30 | $9,653 | -3.47% | -1.41% | 1 |
 | 16-10-2026 01:00 | $9,666 | -3.34% | -1.14% | 1 |
 | 16-10-2026 00:30 | $9,678 | -3.23% | -1.08% | 2 |
 | 16-10-2026 00:00 | $9,676 | -3.24% | -1.17% | 2 |
@@ -75,7 +74,6 @@ _Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/
 | 15-10-2026 21:00 | $9,687 | -3.13% | -1.17% | 6 |
 | 15-10-2026 20:30 | $9,674 | -3.26% | -1.46% | 6 |
 | 15-10-2026 20:00 | $9,695 | -3.05% | -1.20% | 3 |
-| 15-10-2026 19:30 | $9,717 | -2.83% | -1.22% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).

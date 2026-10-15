@@ -267,3 +267,10 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-15T23:00:54.624521+00:00,16-10-2026 01:00,deepseek-ai/deepseek-v4.1-flash,FIL/USD,12.0,12.0,houden,,,"Leider, 24u +6,8%, boven alle MA's"
 2026-10-15T23:00:54.624521+00:00,16-10-2026 01:00,deepseek-ai/deepseek-v4.1-flash,RENDER/USD,5.0,4.0,houden,,,"Zwakste schakel, teruggeschroefd"
 2026-10-15T23:00:54.624521+00:00,16-10-2026 01:00,deepseek-ai/deepseek-v4.1-flash,UNI/USD,7.0,7.0,houden,,,"Solide, 24u +3,6%, boven 50d-gemiddelde"
+2026-10-15T23:30:41.387469+00:00,16-10-2026 01:30,z-ai/glm-5.3,ARB/USD,18.0,18.0,houden,,,"Sterkste momentum: +7,1% 24u, +12,9% 7d, boven alle MA's"
+2026-10-15T23:30:41.387469+00:00,16-10-2026 01:30,z-ai/glm-5.3,BCH/USD,7.0,7.0,houden,,,"+3,4% 24u, houdt zich goed boven het 50d-MA"
+2026-10-15T23:30:41.387469+00:00,16-10-2026 01:30,z-ai/glm-5.3,BTC/USD,43.9,44.0,houden,,,"Anker; stabiel boven 50d-MA, geen trigger geraakt"
+2026-10-15T23:30:41.387469+00:00,16-10-2026 01:30,z-ai/glm-5.3,CRV/USD,6.0,6.0,houden,,,"Beste positie (+4,7%); klein op 6% houden, winst snel meenemen"
+2026-10-15T23:30:41.387469+00:00,16-10-2026 01:30,z-ai/glm-5.3,FIL/USD,12.0,12.0,houden,,,"Momentum +6,8% 24u en +9,3% 7d, RSI 1d nog niet oververhit"
+2026-10-15T23:30:41.387469+00:00,16-10-2026 01:30,z-ai/glm-5.3,RENDER/USD,5.0,0.0,close,478.97,verkocht (alles),
+2026-10-15T23:30:41.387469+00:00,16-10-2026 01:30,z-ai/glm-5.3,UNI/USD,7.0,7.0,houden,,,"+3,2% 24u, +4,3% 7d; solide middenmotor"
