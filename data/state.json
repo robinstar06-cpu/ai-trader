@@ -940,12 +940,37 @@
         "UNI/USD": 7.42594,
         "BCH/USD": 279.175
       }
+    },
+    {
+      "time": "2026-10-15T21:00:51.091720+00:00",
+      "time_local": "15-10-2026 23:00",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 50.0,
+        "ARB/USD": 17.0,
+        "UNI/USD": 7.0,
+        "FIL/USD": 6.0,
+        "CRV/USD": 6.0,
+        "BCH/USD": 6.0,
+        "RENDER/USD": 5.0
+      },
+      "summary": "De marktbreedte is positief (25/33 munten groen, mediaan +1,06%) en BTC houdt $82k net boven het 50d-gemiddelde, maar de 7d-mediaan blijft licht negatief (-1,04%) en Fear & Greed is neutraal op 53. De momentum-basket (ARB, CRV, FIL, UNI, BCH) doet het duidelijk beter dan BTC, terwijl de brede markt ",
+      "equity": 9642.51,
+      "prices": {
+        "RENDER/USD": 1.957225,
+        "UNI/USD": 7.44845,
+        "CRV/USD": 0.358944,
+        "BCH/USD": 277.86,
+        "FIL/USD": 1.15523,
+        "ARB/USD": 0.1931215,
+        "BTC/USD": 82022.396
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T20:30:40.560919+00:00",
-    "time_local": "15-10-2026 22:30",
-    "text": "Kern BTC 50% als anker. Momentum-basket (ARB, UNI, BCH, RENDER, CRV) plus nieuwe FIL, samen ~46%. ARB blijft de leider (24u +7%, 7d +12%, boven alle MA's) en krijgt het meest; FIL toevoegen op sterk 7d-momentum. Cash terug naar ~4% als droog kruit. Breekt BTC over $83k met aanhoudende breedte, dan zet ik meer cash in de leiders; zakt BTC onder $80k, dan snijd ik de alts direct naar <10% en verhoog ik cash. Zwakste positie eerst eruit, winst op extended namen snel nemen."
+    "time": "2026-10-15T21:00:51.091720+00:00",
+    "time_local": "15-10-2026 23:00",
+    "text": "BTC 50% als anker houden en de rest in de sterkste momentum-namen. ARB blijft de leider (24u +6,7%, 7d +11,5%, boven alle MA's) en houdt de grootste alt-positie. FIL en CRV tonen sterk 24u-momentum en blijven in de basket; UNI en BCH aanvullend. RENDER is de zwakste schakel en gaat omlaag. Cash minimaal (~3%) als droog kruit. Breekt BTC over $83k met aanhoudende breedte, dan zet ik cash bij in de leiders; zakt BTC onder $80k of krimpt de breedte onder 50% groen, dan snijd ik de alts direct terug en verhoog ik cash. Parabolische namen zoals BAT (+204% 30d, RSI 79) mijd ik bewust wegens revesrisico."
   },
   "lessons": [
     "Cap alts op max 25% zolang de 24u-breedte negatief is (minder dan een derde groen) en memecoins zoals PEPE op max 5%: mijn 45% alt-start verloor 5-6% tegen -2,8% voor BTC.",
