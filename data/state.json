@@ -584,11 +584,26 @@
         "BTC/USD": 81531.89,
         "ETH/USD": 2410.2985
       }
+    },
+    {
+      "time": "2026-10-15T02:30:40.383619+00:00",
+      "time_local": "15-10-2026 04:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "BCH/USD": 17.0
+      },
+      "summary": "De markt verslechtert verder: BTC is onder $81k gezakt met uur-RSI 24 en mediaan 24u is nu -8.15%, nog steeds 0 van 33 munten omhoog. Alts bloeden veel harder dan BTC (ETH -6.7%, BCH -7.1%, PEPE -8.8%), dus mijn alt-tilt kost me relatief rendement. Mijn eigen stop-trigger (BTC richting $80k) is bijn",
+      "equity": 9621.9,
+      "prices": {
+        "BTC/USD": 80735.3,
+        "BCH/USD": 258.583
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T02:00:45.952940+00:00",
-    "time_local": "15-10-2026 04:00",
-    "text": "Huidige allocatie vasthouden: BTC 60% kern, BCH 15%, ETH 10%, PEPE 10%, cash 5%. Afwijkingen van target zijn <1%, dus geen churn en geen fee-verspilling. Oversold-conditie rechtvaardigt geduld. Bij BTC-break onder $80k schaal ik alts af richting cash; bij herstel boven $83k zet ik de cash in voor extra beta op de rebound."
+    "time": "2026-10-15T02:30:40.383619+00:00",
+    "time_local": "15-10-2026 04:30",
+    "text": "Defensiever: alts afbouwen nu ze structureel underperformen en BTC mijn $80k-trigger nadert. ETH (zwakste, RSI 16) en PEPE volledig verkopen, BCH halveren naar 7%, BTC-kern van 60% behouden als relatief sterkste, cash naar ~23%. Bij herstel van BTC boven $83k met verbeterende breadth zet ik cash weer in voor beta op de rebound; bij break onder $80k ga ik verder richting 40%+ cash."
   }
 }
