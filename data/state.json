@@ -599,11 +599,26 @@
         "BTC/USD": 80735.3,
         "BCH/USD": 258.583
       }
+    },
+    {
+      "time": "2026-10-15T03:30:41.214428+00:00",
+      "time_local": "15-10-2026 05:30",
+      "model": "moonshotai/kimi-k3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "BCH/USD": 7.0
+      },
+      "summary": "De markt verslechtert verder: BTC is onder $81k gezakt met uur-RSI 25 en mediaan 24u is -7.1%, nog steeds 0 van 33 munten omhoog. Alts bloeden harder dan BTC en mijn BCH-positie blijft underperformen.",
+      "equity": 9589.46,
+      "prices": {
+        "BCH/USD": 262.33,
+        "BTC/USD": 80928.9765
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T02:30:40.383619+00:00",
-    "time_local": "15-10-2026 04:30",
-    "text": "Defensiever: alts afbouwen nu ze structureel underperformen en BTC mijn $80k-trigger nadert. ETH (zwakste, RSI 16) en PEPE volledig verkopen, BCH halveren naar 7%, BTC-kern van 60% behouden als relatief sterkste, cash naar ~23%. Bij herstel van BTC boven $83k met verbeterende breadth zet ik cash weer in voor beta op de rebound; bij break onder $80k ga ik verder richting 40%+ cash."
+    "time": "2026-10-15T03:30:41.214428+00:00",
+    "time_local": "15-10-2026 05:30",
+    "text": "Plan uitvoeren: BCH verder afbouwen naar ~7% omdat alts structureel zwakker zijn dan BTC. BTC-kern van 60% behouden als relatief sterkste en diep oversold (RSI 25), cash naar ~33%. Bij break onder $80k verder richting 40%+ cash; bij herstel boven $83k met betere breadth zet ik cash weer in voor de rebound."
   }
 }
