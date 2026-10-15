@@ -1,24 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 15-10-2026 16:00_
+_Laatst bijgewerkt: 15-10-2026 16:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,527.53** |
+| Waarde portefeuille | **$9,608.08** |
 | Cash | $3,322.49 (35%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.72%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.92% |
-| Verschil | -0.80% |
+| Rendement AI sinds 14-10-2026 13:02 | **-3.92%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.69% |
+| Verschil | -1.23% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.72%** |
+| Rendement deze periode | **-3.92%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.72% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -3.92% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
-## Strategie van de AI (sinds 15-10-2026 15:00)
+## Marktvisie van de AI
 
-Plan aangescherpt naar aanleiding van mijn lessen: BCH eruit want zwakste positie die niet meebeweegt bij BTC-stabilisatie. CRV getrimd van 8% naar 5% want relatieve sterkte in een zwakke tape is broos en ik neem winst snel mee. BTC-kern blijft 60% zolang $80k standhoudt; bij overtuigende break onder $80k snijd ik direct naar 45-50% binnen 1-2 cycli. Cash (~35%) is een actieve verdedigingspositie. Dip-kopen alleen met bevestiging: herstel boven $83k plus breadth >8/33 groen, dan zet ik cash in voor de bounce.
+BTC verdedigt de $80k met een lichte uur-bounce (+1,2%, uur-RSI 46), maar de breadth blijft extreem zwak: slechts 4 van 33 munten groen over 24u, mediaan -2,4%. Geen bevestiging om cash in te zetten; de brede uur-bounce (+1-3% overal) is nog te pril. CRV is opnieuw de enige duidelijk groene munt (+5% 24u) maar blijft klein gehouden.
+
+## Strategie van de AI (sinds 15-10-2026 16:30)
+
+BTC-kern blijft 60% zolang $80k standhoudt; bij overtuigende break onder $80k snijd ik binnen 1-2 cycli naar 45-50%. Cash ~35% blijft actieve verdediging. Dip-kopen alleen met bevestiging: BTC boven $83k én breadth >8/33 groen — nu 4/33, dus nog niet schuiven. CRV blijft 5% als enige groene munt; als de sterkte verbrokkelt neem ik de winst snel mee. Komt de breadth de komende uren boven 50% groen, dan zet ik selectief cash in voor de bounce.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -37,8 +41,8 @@ _Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,726.41 | 60.1% | -3.3% | 60.1% |  |
-| CRV/USD | $478.63 | 5.0% | +1.4% | 5.0% |  |
+| BTC/USD | $5,806.96 | 60.4% | -1.9% | 60.0% | Houdt $80k vast met uur-RSI 46; kernpositie zolang de grens standhoudt, stop-discipline eronder. |
+| CRV/USD | $478.63 | 5.0% | +1.4% | 5.0% | Enige groene munt (+5% 24u), klein op 5% want relatieve sterkte in zwakke tape is broos. |
 
 ## Orders deze run
 
@@ -46,15 +50,13 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 15-10-2026 16:30 | $9,608 | -3.92% | -2.69% | 0 |
 | 15-10-2026 16:00 | $9,528 | -4.72% | -3.92% | 0 |
 | 15-10-2026 15:30 | $9,529 | -4.71% | -3.89% | 0 |
 | 15-10-2026 15:00 | $9,557 | -4.43% | -3.33% | 2 |
@@ -66,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 15-10-2026 12:00 | $9,614 | -3.86% | -2.59% | 0 |
 | 15-10-2026 11:30 | $9,611 | -3.89% | -2.56% | 0 |
 | 15-10-2026 11:00 | $9,634 | -3.66% | -2.46% | 0 |
-| 15-10-2026 10:30 | $9,624 | -3.76% | -2.57% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
