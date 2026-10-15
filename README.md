@@ -1,18 +1,18 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 15-10-2026 13:30_
+_Laatst bijgewerkt: 15-10-2026 14:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,595.56** |
+| Waarde portefeuille | **$9,588.53** |
 | Cash | $2,367.57 (25%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.04%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.84% |
-| Verschil | -1.21% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.11%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.92% |
+| Verschil | -1.20% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.04%** |
+| Rendement deze periode | **-4.11%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.04% |
+| Daling vanaf de top ($10,000) | -4.11% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
@@ -37,7 +37,7 @@ _Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,790.14 | 60.3% | -2.2% | 60.3% |  |
+| BTC/USD | $5,783.11 | 60.3% | -2.3% | 60.3% |  |
 | CRV/USD | $767.79 | 8.0% | +1.4% | 8.0% |  |
 | BCH/USD | $670.06 | 7.0% | -4.9% | 7.0% |  |
 
@@ -47,7 +47,6 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Dagelijkse evaluatie gedaan door z-ai/glm-5.3.
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
 - AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
@@ -57,6 +56,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 15-10-2026 14:00 | $9,589 | -4.11% | -2.92% | 0 |
 | 15-10-2026 13:30 | $9,596 | -4.04% | -2.84% | 0 |
 | 15-10-2026 13:00 | $9,596 | -4.04% | -2.86% | 0 |
 | 15-10-2026 12:30 | $9,591 | -4.09% | -2.88% | 0 |
@@ -68,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 15-10-2026 09:30 | $9,592 | -4.08% | -2.71% | 1 |
 | 15-10-2026 09:00 | $9,573 | -4.27% | -3.04% | 1 |
 | 15-10-2026 08:30 | $9,579 | -4.21% | -2.93% | 0 |
-| 15-10-2026 08:00 | $9,551 | -4.49% | -3.40% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
