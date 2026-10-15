@@ -1,18 +1,18 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 15-10-2026 18:30_
+_Laatst bijgewerkt: 15-10-2026 19:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,683.56** |
+| Waarde portefeuille | **$9,692.65** |
 | Cash | $3,322.49 (34%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-3.16%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.58% |
-| Verschil | -1.58% |
+| Rendement AI sinds 14-10-2026 13:02 | **-3.07%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.55% |
+| Verschil | -1.52% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-3.16%** |
+| Rendement deze periode | **-3.07%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -3.16% |
+| Daling vanaf de top ($10,000) | -3.07% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
@@ -37,8 +37,8 @@ _Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,866.19 | 60.6% | -0.9% | 60.6% |  |
-| CRV/USD | $494.88 | 5.1% | +4.8% | 5.1% |  |
+| BTC/USD | $5,863.01 | 60.5% | -1.0% | 60.5% |  |
+| CRV/USD | $507.15 | 5.2% | +7.4% | 5.2% |  |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 15-10-2026 19:00 | $9,693 | -3.07% | -1.55% | 0 |
 | 15-10-2026 18:30 | $9,684 | -3.16% | -1.58% | 0 |
 | 15-10-2026 18:00 | $9,707 | -2.93% | -1.16% | 0 |
 | 15-10-2026 17:30 | $9,688 | -3.12% | -1.26% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 15-10-2026 14:30 | $9,575 | -4.25% | -2.82% | 0 |
 | 15-10-2026 14:00 | $9,589 | -4.11% | -2.92% | 0 |
 | 15-10-2026 13:30 | $9,596 | -4.04% | -2.84% | 0 |
-| 15-10-2026 13:00 | $9,596 | -4.04% | -2.86% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
