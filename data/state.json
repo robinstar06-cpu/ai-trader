@@ -738,11 +738,28 @@
         "CRV/USD": 0.3406945,
         "BCH/USD": 261.795
       }
+    },
+    {
+      "time": "2026-10-15T09:00:47.561882+00:00",
+      "time_local": "15-10-2026 11:00",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 60.0,
+        "CRV/USD": 8.0,
+        "BCH/USD": 7.0
+      },
+      "summary": "De markt blijft extreem breed zwak: slechts 2 van 33 munten omhoog over 24u, mediaan -5,2%, terwijl Fear & Greed op 53 (neutraal) staat — een gevaarlijke divergentie die meer neerwaarts risico suggereert. BTC houdt de kritieke $80k-grens vast en herstelt licht (RSI 43), CRV is met +4,3% de enige ech",
+      "equity": 9634.13,
+      "prices": {
+        "BTC/USD": 81269.447,
+        "CRV/USD": 0.346335,
+        "BCH/USD": 264.46
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T07:30:40.168412+00:00",
-    "time_local": "15-10-2026 09:30",
-    "text": "Kernpositie BTC 60% vasthouden zolang $80k standhoudt. CRV-position vergroten van 5% naar 8%: het is de enige munt met positieve 24u-return, RSI 62 en boven SMA24h — relatieve sterkte in een bloedende markt is waardevol. BCH 7% behouden. Resterende ~25% cash blijft droog poeder: bij break onder $80k verlaag ik BTC, bij herstel boven $83k met betere breadth zet ik meer in."
+    "time": "2026-10-15T09:00:47.561882+00:00",
+    "time_local": "15-10-2026 11:00",
+    "text": "Kernpositie BTC 60% vasthouden zolang $80k standhoudt; dit is de sterkste grote munt en de steun houdt. CRV op 8% laten als enige munt met positieve 24u-return en RSI 66 (relatieve sterkte in bloedende markt), maar niet verder verhogen wegens dunne volume ($453k). BCH 7% behouden. ~25% cash blijft droog poeder: bij een overtuigende break onder $80k verlaag ik BTC richting 45-50%, bij herstel boven $83k mét betere breadth (meer dan 8/33 groen) zet ik cash in voor een bounce-positie. Geen onnodige churn."
   }
 }
