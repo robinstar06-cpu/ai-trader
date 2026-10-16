@@ -45,6 +45,7 @@ DATA_DIR = ROOT / "data"
 STATE_FILE = DATA_DIR / "state.json"
 EQUITY_CSV = DATA_DIR / "equity.csv"
 DECISIONS_CSV = DATA_DIR / "decisions.csv"
+ANALYSIS_CSV = DATA_DIR / "analysis.csv"
 README = ROOT / "README.md"
 
 STABLECOINS = {"USDT", "USDC", "DAI", "PYUSD", "USDG", "TUSD", "BUSD", "USDP", "FDUSD", "EURC", "RLUSD", "USDE"}
@@ -253,10 +254,18 @@ LEARN AS YOU GO
 Look at what your recent decisions actually produced. Double down on what works, drop what doesn't, and update your
 plan whenever your view changes. Apply the lessons from your self-reviews.
 
+RUN ANALYSIS FOR THE OWNER
+Every run, also write a short analysis for the human owner of this experiment: what your recent decisions produced
+and why, and what you are doing now. Then say what you think could be improved about our strategy. That covers your
+own approach, but also the setup of this bot: the hard limits, the goal, the 30-minute rhythm, the fees, the data you
+receive or are missing. Be honest and specific, base every point on what you see in the data, and skip generic advice.
+
 Respond with ONLY one JSON object, no markdown, in exactly this shape:
 {{"summary": "<2-3 sentences market view, in Dutch>",
   "plan": "<your current strategy and what you expect over the coming hours/days, max 600 characters, in Dutch>",
-  "allocations": [{{"symbol": "BTC/USD", "target_pct": 40, "reason": "<short reason, in Dutch>"}}]}}"""
+  "allocations": [{{"symbol": "BTC/USD", "target_pct": 40, "reason": "<short reason, in Dutch>"}}],
+  "analysis": "<2-4 sentences analysis of this run: what your recent decisions produced, why, and what you do now, in Dutch>",
+  "improvements": ["<1-3 concrete suggestions for what could be better about our strategy or the bot's setup, in Dutch>"]}}"""
 
 REVIEW_PROMPT = """You are the autonomous portfolio manager of a crypto trading experiment (paper account). Once a day you
 review your own recent performance to get better. Be honest, specific and practical. Look at which decisions made or
@@ -499,7 +508,8 @@ def write_status(md):
 
 
 def render_status(now, equity, cash, start, ret, hold_ret, holdings, targets, reasons, summary,
-                  model, results, notes, errors, state=None, period_end=None, fng=None):
+                  model, results, notes, errors, state=None, period_end=None, fng=None,
+                  analysis="", improvements=()):
     sign = lambda v: "n.v.t." if v is None else f"{v:+.2f}%"
     state = state or {}
     g = state.get("goal")
@@ -534,6 +544,12 @@ def render_status(now, equity, cash, start, ret, hold_ret, holdings, targets, re
     ]
     if summary:
         lines += ["## Marktvisie van de AI", "", summary, ""]
+    if analysis or improvements:
+        lines += ["## Analyse van deze run", ""]
+        if analysis:
+            lines += [analysis, ""]
+        if improvements:
+            lines += ["**Wat kan beter aan onze strategie:**", ""] + [f"- {i}" for i in improvements] + [""]
     plan = state.get("plan")
     if plan:
         lines += [f"## Strategie van de AI (sinds {plan['time_local']})", "", plan["text"], ""]
@@ -567,7 +583,8 @@ def render_status(now, equity, cash, start, ret, hold_ret, holdings, targets, re
         lines += ["", "## Laatste runs", "", "| Tijd | Waarde | Rendement | BTC vasthouden | Orders |", "|---|---|---|---|---|"]
         for r in reversed(tail):
             lines.append(f"| {r['time_local']} | ${float(r['equity']):,.0f} | {r['return_pct']}% | {r['btc_hold_pct']}% | {r['trades']} |")
-    lines += ["", "---", "Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). "
+    lines += ["", "---", "Volledig logboek: [`data/equity.csv`](data/equity.csv), [`data/decisions.csv`](data/decisions.csv) "
+              "en [`data/analysis.csv`](data/analysis.csv). "
               "Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).", ""]
     return "\n".join(lines)
 
@@ -579,7 +596,8 @@ def post_text(url, headers, body):
         resp.read()
 
 
-def notify(equity, ret, hold_ret, goal, period_ret, results, notes, errors, summary, model):
+def notify(equity, ret, hold_ret, goal, period_ret, results, notes, errors, summary, model,
+           analysis="", improvements=()):
     """Stuurt een pushmelding via ntfy.sh. Fouten hierin stoppen de bot nooit."""
     if not NTFY_TOPIC or NOTIFY == "off":
         return
@@ -601,8 +619,11 @@ def notify(equity, ret, hold_ret, goal, period_ret, results, notes, errors, summ
             lines.append("Geen AI-antwoord: niets gedaan.")
         if errors:
             lines.append(f"Meldingen: {len(errors)} (zie statuspagina)")
-        if summary:
+        if analysis:
+            lines.append(f"Analyse: {analysis[:300]}")
+        elif summary:
             lines.append(summary[:200])
+        lines += [f"Beter: {i[:200]}" for i in improvements]
         tags = ["trophy"] if milestone else ["warning"] if (errors or not model) else \
             ["chart_with_upwards_trend"] if ret >= 0 else ["chart_with_downwards_trend"]
         headers = {"Title": f"AI Trader{' (proefrun)' if DRY_RUN else ''}: ${equity:,.0f} ({ret:+.1f}%)",
@@ -861,13 +882,17 @@ def main():
     model, parsed, ai_errors = ask_ai(nv_key, system_prompt, user_prompt)
     errors += [f"AI-fout: {e}" for e in ai_errors]
 
-    targets, reasons, summary, new_plan = None, {}, "", ""
+    targets, reasons, summary, new_plan, analysis, improvements = None, {}, "", "", "", []
     if parsed is not None:
         try:
             targets, reasons, notes2 = sanitize(parsed, universe | set(holdings))
             notes += notes2
             summary = str(parsed.get("summary", ""))[:800]
             new_plan = str(parsed.get("plan", "")).strip()[:700]
+            analysis = str(parsed.get("analysis") or "").strip()[:1000]
+            imp = parsed.get("improvements") or []
+            imp = [imp] if isinstance(imp, str) else imp if isinstance(imp, list) else []
+            improvements = [str(i).strip()[:400] for i in imp if str(i).strip()][:3]
         except Exception as e:
             errors.append(f"AI-antwoord onbruikbaar: {e}")
             targets = None
@@ -926,14 +951,19 @@ def main():
                          reasons.get(s, "")])
         append_csv(DECISIONS_CSV, ["time_utc", "time_local", "model", "symbol", "current_pct", "target_pct",
                                    "action", "usd", "result", "reason"], rows)
+        if analysis or improvements:
+            append_csv(ANALYSIS_CSV, ["time_utc", "time_local", "model", "equity", "return_pct", "analysis", "improvements"],
+                       [[now.isoformat(), local(now), model, f"{equity:.2f}", f"{ret:.2f}", analysis,
+                         " | ".join(improvements)]])
         save_state(state)
 
     shown_state = dict(state)
     if new_plan:
         shown_state["plan"] = {"time_local": local(now), "text": new_plan}
     write_status(render_status(now, equity, cash, start, ret, hold_ret, holdings, targets, reasons, summary,
-                               model, results, notes, errors, shown_state, period_end, fng))
-    notify(equity, ret, hold_ret, goal, pct(equity, goal["start_equity"]), results, notes, errors, summary, model)
+                               model, results, notes, errors, shown_state, period_end, fng, analysis, improvements))
+    notify(equity, ret, hold_ret, goal, pct(equity, goal["start_equity"]), results, notes, errors, summary, model,
+           analysis, improvements)
     print(f"Klaar. Model: {model}. Waarde ${equity:,.2f} ({ret:+.2f}%), BTC vasthouden {hold_ret:+.2f}%. "
           f"Orders: {len(results)}. Meldingen: {notes + errors}")
 
