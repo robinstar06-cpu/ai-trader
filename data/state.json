@@ -8,7 +8,7 @@
     "milestones": []
   },
   "peak_equity": 10000.0,
-  "last_review": "2026-10-15T11:30:40.598039+00:00",
+  "last_review": "2026-10-16T17:30:39.191579+00:00",
   "start": {
     "time": "2026-10-14T11:02:53.675394+00:00",
     "equity": 10000.0,
@@ -1362,14 +1362,14 @@
     "text": "Plan ongewijzigd: BTC 40% anker, ARB 25% als leider (winst pas meenemen bij RSI_1d >70 of verlies van de 24u-SMA), FIL 14%, UNI en BCH elk 7%, ~7% cash. Cash zet ik in zodra BTC boven $83k sluit of bij een bevestigde dip (breedte >50% groen én uur-RSI >45). Alts snijd ik direct terug bij BTC <$80k of breedte <50% groen. Geen churn nu: de posities wijken minder dan 1% af van de doelen en geen enkele trigger is gevonden."
   },
   "lessons": [
-    "Cap alts op max 25% zolang de 24u-breedte negatief is (minder dan een derde groen) en memecoins zoals PEPE op max 5%: mijn 45% alt-start verloor 5-6% tegen -2,8% voor BTC.",
-    "Koop geen dip op oversold-RSI alleen: mijn bijkoop bij uur-RSI 30 (14-10 16:30) was te vroeg en BTC zakte daarna nog naar $80,5k. Eis bevestiging: 24u-breedte boven 50% groen en uur-RSI terug boven 45.",
-    "Handel binnen 2-3 uur op extreem breadth-signaal: 0 van 33 munten groen stond urenlang in mijn eigen notities voordat ik ETH en PEPE doorsneed; die vertraging kostte ruwweg 2%.",
-    "Fear and Greed is geen koopsignaal: Greed 62 hield me te lang in vallende alts terwijl de indicator naar 53 zakte. Prijsactie en breedte wegen zwaarder dan sentiment.",
-    "Verdedigen werkt: ETH en PEPE eruit plus 25% cash rond 04:30 stopte het bloeden en sindsdien presteer ik gelijk aan BTC. In een dalende trend is cash een actieve positie, geen gemiste kans.",
-    "Relatieve sterkte in een zwakke tape is broos: CRV gaf de +3,6% winst binnen enkele uren grotendeels terug. Houd de enige groene munt klein op 5-8% en neem winst snel mee.",
-    "Snijd de zwakste positie eerst en direct: ETH was om 23:00 al duidelijk de zwakste schakel (RSI 27, 7d-low) maar bleef nog urenlang 10-19% van de portefeuille.",
-    "Met -4,04% op dag 2 is +20% alleen haalbaar zonder verdere drawdown: elke extra -5% maakt het doel vrijwel onmogelijk, dus schadebeperking gaat vóór op rendement-jagen."
+    "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
+    "Koop niet achter een rijpe bounce aan: bij 33/33 munten groen met een 24u-mediaan van +5% is de move al gemaakt. ARB optrekken naar 25% op dat moment leverde -4,9% op; wacht op consolidatie of een positieve 7d-mediaan.",
+    "Doe wat je zelf noteert: ik schreef herhaaldelijk 'bounce binnen een correctie' maar positioneerde als bij een trendomslag. Luidt de diagnose correctie, dan hoort daar max 25-30% alts en 15%+ cash bij.",
+    "Verhoog geen verliezende positie in een dalende markt: ARB groeide van 7% naar 25% terwijl het zelf -2% tot -5% verloor. Vergroot alléén posities die in de winst staan en kap één enkele alt op 10-15%.",
+    "Kooperkoop niet op oversold-RSI alleen: eis bevestiging via 24u-breedte boven 50% groen én uur-RSI terug boven 45 voordat je bijkoopt.",
+    "Behandel Fear & Greed als contra-signaal: Greed 63 op de top van de bounce was een reduceermoment, geen risk-on bevestiging. Prijsactie en 7d-breedte wegen zwaarder dan sentiment.",
+    "Snijd de zwakste posities direct en houd cash als actieve positie: CRV en RENDER eruit was goed, maar cash van 19% naar 7% terugbrengen midden in de correctie haalde de rem van het risico.",
+    "Met -5,52% op dag 3 vraagt het +20%-doel nog +27% in 25 dagen: alleen haalbaar zonder nieuwe drawdown, dus schadebeperking gaat vóór rendement-jagen."
   ],
-  "review_assessment": "Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/BCH/PEPE) werd precies getroffen door een brede uitverkoop waarin alts 5-6% verloren. De verdedigende snede rond 04:30 (ETH en PEPE eruit, 25% cash) werkte goed en sindsdien presteer ik gelijk aan BTC; de duurste fouten waren het te vroege dip-kopen bij RSI 30 en het urenlang vasthouden van alts ondanks 0/33-breedte. Voor het doel van +20% moet ik nu ~+25% halen, dus drawdown-beperking heeft prioriteit boven rendement-jagen."
+  "review_assessment": "Dit venster verloor ik -2,77% tegen -1,85% voor BTC, vooral doordat ik mijn altgewicht van 21% naar 53% optrok (ARB naar 25%, FIL naar 15%) tijdens een bounce waarvan ik zelf herhaaldelijk noteerde dat het geen trendomslag was. De diagnose in mijn notities was consequent juist, maar de positionering volgde niet: ARB (-4,9%) en FIL (-3,8%) waren de hoofdschuldigen. Met -5,52% op dag 3 is het +20%-doel alleen nog haalbaar als ik direct stop met risico opbouwen in een correctie."
 }
