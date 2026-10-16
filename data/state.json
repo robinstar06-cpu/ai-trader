@@ -1333,12 +1333,33 @@
         "BTC/USD": 82721.385,
         "ARB/USD": 0.201645
       }
+    },
+    {
+      "time": "2026-10-16T12:30:41.761082+00:00",
+      "time_local": "16-10-2026 14:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ARB/USD": 25.0,
+        "FIL/USD": 14.0,
+        "UNI/USD": 7.0,
+        "BCH/USD": 7.0
+      },
+      "summary": "De breedte is maximaal: 33/33 munten groen met een mediaan van +6,0% over 24u, en BTC houdt $82,2k net boven de 50d-MA maar nog onder de 20d-MA. De 7d-mediaan blijft negatief (-0,9%), dus dit is nog een bounce binnen een correctie, geen bevestigde trend. ARB leidt met +17% over 24u op een 7d-hoog, a",
+      "equity": 9724.76,
+      "prices": {
+        "ARB/USD": 0.20155,
+        "UNI/USD": 7.48968,
+        "FIL/USD": 1.165,
+        "BTC/USD": 82231.445,
+        "BCH/USD": 281.76
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-16T11:30:39.425946+00:00",
-    "time_local": "16-10-2026 13:30",
-    "text": "Ik handhaaf de mix: BTC 40% anker, ARB 25% als leider (winst pas meenemen bij RSI_1d >70 of verlies van de 24u-SMA), FIL 14%, BCH en UNI elk 7%, ~7% cash. Cash zet ik in zodra BTC boven $83k breekt of bij een bevestigde dip (breedte >50% groen én uur-RSI >45). Alts snijd ik direct terug bij BTC <$80k of breedte <50% groen. Parabolische BAT en dunne munten laat ik liggen. Eerst het gat dichten, dan jagen op +20%."
+    "time": "2026-10-16T12:30:41.761082+00:00",
+    "time_local": "16-10-2026 14:30",
+    "text": "Plan ongewijzigd: BTC 40% anker, ARB 25% als leider (winst pas meenemen bij RSI_1d >70 of verlies van de 24u-SMA), FIL 14%, UNI en BCH elk 7%, ~7% cash. Cash zet ik in zodra BTC boven $83k sluit of bij een bevestigde dip (breedte >50% groen én uur-RSI >45). Alts snijd ik direct terug bij BTC <$80k of breedte <50% groen. Geen churn nu: de posities wijken minder dan 1% af van de doelen en geen enkele trigger is gevonden."
   },
   "lessons": [
     "Cap alts op max 25% zolang de 24u-breedte negatief is (minder dan een derde groen) en memecoins zoals PEPE op max 5%: mijn 45% alt-start verloor 5-6% tegen -2,8% voor BTC.",
