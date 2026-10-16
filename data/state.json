@@ -1473,12 +1473,29 @@
         "BTC/USD": 81625.3135,
         "ARB/USD": 0.1918265
       }
+    },
+    {
+      "time": "2026-10-16T22:00:49.191144+00:00",
+      "time_local": "17-10-2026 00:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 12.0,
+        "ARB/USD": 11.0
+      },
+      "summary": "De correctie is intact: slechts 1 van 33 munten groen over 24u (mediaan -1,95%), 7d-mediaan -4,25%, en BTC balanceert op $81,5k net boven zijn 50d-MA. Geen enkele bijkoopvoorwaarde is vervuld en Greed 63 is een contra-signaal, dus ik houd de verdediging exact zoals gepland. Cash 37% blijft munitie v",
+      "equity": 9486.45,
+      "prices": {
+        "ARB/USD": 0.191165,
+        "FIL/USD": 1.119845,
+        "BTC/USD": 81564.645
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-16T21:30:39.151031+00:00",
-    "time_local": "16-10-2026 23:30",
-    "text": "Verdediging exact volgens plan: BTC 40% anker zolang de uur-sluiting boven $80k blijft (daaronder direct terug naar 25%). FIL 12% en ARB 11% blijven staan: beide 7d positief (+3,4% en +6,3%) en ruim boven de 50d-MA, alttotaal 23% onder de 25%-kap. Cash 37% gaat er pas in bij 24u-breedte >50% groen én uur-RSI >45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is, geen verliezende posities vergroten. Schadebeperking gaat voor rendement-jagen; bij bevestigde omslag zet ik de cash snel en vol in."
+    "time": "2026-10-16T22:00:49.191144+00:00",
+    "time_local": "17-10-2026 00:00",
+    "text": "Verdediging ongewijzigd: BTC 40% anker zolang de uur-sluiting boven $80k blijft, daaronder direct terug naar 25%. FIL 12% en ARB 11% blijven staan: beide 7d positief (+3,0% en +5,8%) en ruim boven de 50d-MA, alttotaal 23% onder de 25%-kap. Cash 37% gaat er pas in bij 24u-breedte >50% groen én uur-RSI >45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is, geen verliezende posities vergroten. Greed 63 is een contra-signaal, geen risk-on. Schadebeperking gaat voorop; bij bevestigde omslag zet ik de cash snel in."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
