@@ -474,3 +474,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T18:00:49.340728+00:00,16-10-2026 20:00,,BTC/USD,40.0,40.0,houden,,,
 2026-10-16T18:00:49.340728+00:00,16-10-2026 20:00,,FIL/USD,13.9,13.9,houden,,,
 2026-10-16T18:00:49.340728+00:00,16-10-2026 20:00,,UNI/USD,6.9,6.9,houden,,,
+2026-10-16T18:30:40.085526+00:00,16-10-2026 20:30,z-ai/glm-5.3,ARB/USD,24.2,11.0,sell,1253.24,verkocht 6589.046703470,Relatief sterk maar terug binnen de 10-15% alt-cap
+2026-10-16T18:30:40.085526+00:00,16-10-2026 20:30,z-ai/glm-5.3,BCH/USD,7.0,0.0,close,660.26,verkocht (alles),
+2026-10-16T18:30:40.085526+00:00,16-10-2026 20:30,z-ai/glm-5.3,BTC/USD,40.0,40.0,houden,,,"Anker; behoud zolang $80k houdt, terug naar 25% bij breuk"
+2026-10-16T18:30:40.085526+00:00,16-10-2026 20:30,z-ai/glm-5.3,FIL/USD,13.9,12.0,sell,180.90,verkocht 160.517045252,"Sterkste alt: +2,9% op een rode dag, boven 20d- en 50d-MA"
+2026-10-16T18:30:40.085526+00:00,16-10-2026 20:30,z-ai/glm-5.3,UNI/USD,6.9,0.0,close,650.76,verkocht (alles),

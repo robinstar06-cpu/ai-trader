@@ -1354,12 +1354,29 @@
         "BTC/USD": 82231.445,
         "BCH/USD": 281.76
       }
+    },
+    {
+      "time": "2026-10-16T18:30:40.085526+00:00",
+      "time_local": "16-10-2026 20:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 12.0,
+        "ARB/USD": 11.0
+      },
+      "summary": "De bounce is volledig omgeslagen: van 33/33 munten groen eerder vandaag naar slechts 3/33 groen over 24u (mediaan -1,9%), en BTC zakt terug op zijn 50d-MA rond $81,2k. De 7d-mediaan blijft negatief (-3,6%) en Fear & Greed op 63 werkt als contra-signaal: dit is een correctie, geen trendomslag. Ik sni",
+      "equity": 9461.35,
+      "prices": {
+        "BTC/USD": 81289.5485,
+        "FIL/USD": 1.133045,
+        "ARB/USD": 0.1917215
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-16T12:30:41.761082+00:00",
-    "time_local": "16-10-2026 14:30",
-    "text": "Plan ongewijzigd: BTC 40% anker, ARB 25% als leider (winst pas meenemen bij RSI_1d >70 of verlies van de 24u-SMA), FIL 14%, UNI en BCH elk 7%, ~7% cash. Cash zet ik in zodra BTC boven $83k sluit of bij een bevestigde dip (breedte >50% groen én uur-RSI >45). Alts snijd ik direct terug bij BTC <$80k of breedte <50% groen. Geen churn nu: de posities wijken minder dan 1% af van de doelen en geen enkele trigger is gevonden."
+    "time": "2026-10-16T18:30:40.085526+00:00",
+    "time_local": "16-10-2026 20:30",
+    "text": "Breedte-trigger (3/33 groen) is gevonden: alts gaan van 52% naar 23%. UNI (zwakste, onder 20d- en 50d-MA) en BCH (geen edge) eruit; ARB van 24% naar 11% binnen de 10-15% cap; FIL blijft 12% als sterkste alt (vandaag groen, boven 20d-MA). BTC blijft 40% anker zolang hij $80k houdt. Cash (37%) zet ik pas weer in bij bevestiging: breedte >50% groen én uur-RSI >45, of BTC-sluiting boven $83k. Bij BTC <$80k snijd ik ook het anker terug naar 25%."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",

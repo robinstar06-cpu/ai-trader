@@ -1,24 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-10-2026 20:00_
+_Laatst bijgewerkt: 16-10-2026 20:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,460.51** |
-| Cash | $752.24 (8%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.39%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.61% |
-| Verschil | -2.79% |
+| Waarde portefeuille | **$9,474.06** |
+| Cash | $3,502.49 (37%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.26%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.43% |
+| Verschil | -2.83% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.39%** |
+| Rendement deze periode | **-5.26%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.39% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -5.26% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
 
-## Strategie van de AI (sinds 16-10-2026 14:30)
+## Marktvisie van de AI
 
-Plan ongewijzigd: BTC 40% anker, ARB 25% als leider (winst pas meenemen bij RSI_1d >70 of verlies van de 24u-SMA), FIL 14%, UNI en BCH elk 7%, ~7% cash. Cash zet ik in zodra BTC boven $83k sluit of bij een bevestigde dip (breedte >50% groen én uur-RSI >45). Alts snijd ik direct terug bij BTC <$80k of breedte <50% groen. Geen churn nu: de posities wijken minder dan 1% af van de doelen en geen enkele trigger is gevonden.
+De bounce is volledig omgeslagen: van 33/33 munten groen eerder vandaag naar slechts 3/33 groen over 24u (mediaan -1,9%), en BTC zakt terug op zijn 50d-MA rond $81,2k. De 7d-mediaan blijft negatief (-3,6%) en Fear & Greed op 63 werkt als contra-signaal: dit is een correctie, geen trendomslag. Ik snijd het altrisico direct terug en maak cash weer een actieve positie.
+
+## Strategie van de AI (sinds 16-10-2026 20:30)
+
+Breedte-trigger (3/33 groen) is gevonden: alts gaan van 52% naar 23%. UNI (zwakste, onder 20d- en 50d-MA) en BCH (geen edge) eruit; ARB van 24% naar 11% binnen de 10-15% cap; FIL blijft 12% als sterkste alt (vandaag groen, boven 20d-MA). BTC blijft 40% anker zolang hij $80k houdt. Cash (37%) zet ik pas weer in bij bevestiging: breedte >50% groen én uur-RSI >45, of BTC-sluiting boven $83k. Bij BTC <$80k snijd ik ook het anker terug naar 25%.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -37,27 +41,28 @@ _Dit venster verloor ik -2,77% tegen -1,85% voor BTC, vooral doordat ik mijn alt
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,780.95 | 40.0% | -1.9% | 40.0% |  |
-| ARB/USD | $2,293.99 | 24.2% | -2.1% | 24.2% |  |
-| FIL/USD | $1,316.26 | 13.9% | -3.8% | 13.9% |  |
-| BCH/USD | $666.31 | 7.0% | -1.4% | 7.0% |  |
-| UNI/USD | $650.76 | 6.9% | -3.8% | 6.9% |  |
+| BTC/USD | $3,795.46 | 40.1% | -1.5% | 40.0% | Anker; behoud zolang $80k houdt, terug naar 25% bij breuk |
+| FIL/USD | $1,135.36 | 12.0% | -3.8% | 12.0% | Sterkste alt: +2,9% op een rode dag, boven 20d- en 50d-MA |
+| ARB/USD | $1,040.75 | 11.0% | -2.1% | 11.0% | Relatief sterk maar terug binnen de 10-15% alt-cap |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| ARB/USD | sell | $1,253.24 | verkocht 6589.046703470 |
+| BCH/USD | close | $660.26 | verkocht (alles) |
+| FIL/USD | sell | $180.90 | verkocht 160.517045252 |
+| UNI/USD | close | $650.76 | verkocht (alles) |
 
 ## Meldingen
 
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-10-2026 20:30 | $9,474 | -5.26% | -2.43% | 4 |
 | 16-10-2026 20:00 | $9,461 | -5.39% | -2.61% | 0 |
 | 16-10-2026 19:30 | $9,448 | -5.52% | -3.02% | 0 |
 | 16-10-2026 19:00 | $9,549 | -4.51% | -2.37% | 0 |
@@ -69,7 +74,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-10-2026 16:00 | $9,696 | -3.04% | -1.67% | 0 |
 | 16-10-2026 15:30 | $9,682 | -3.18% | -1.69% | 0 |
 | 16-10-2026 15:00 | $9,710 | -2.90% | -1.65% | 0 |
-| 16-10-2026 14:30 | $9,725 | -2.75% | -1.30% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
