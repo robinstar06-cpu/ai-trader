@@ -358,3 +358,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T06:30:40.022912+00:00,16-10-2026 08:30,deepseek-ai/deepseek-v4.1-flash,CRV/USD,4.8,4.0,houden,,,"Zwakste schakel, fragiele relatieve sterkte; afbouwen."
 2026-10-16T06:30:40.022912+00:00,16-10-2026 08:30,deepseek-ai/deepseek-v4.1-flash,FIL/USD,14.1,14.0,houden,,,"Bovengemiddeld momentum (+11% 24u, +20% vs 50d-MA), kernpositie."
 2026-10-16T06:30:40.022912+00:00,16-10-2026 08:30,deepseek-ai/deepseek-v4.1-flash,UNI/USD,7.1,8.0,houden,,,"Sterke 24u-sprong (+8,9%), klein houden met snelle winstname."
+2026-10-16T07:00:49.595762+00:00,16-10-2026 09:00,z-ai/glm-5.3,ARB/USD,23.9,24.0,houden,,,"Sterkste momentum: +13% 24u, positief op 7d/30d, boven alle gemiddelden."
+2026-10-16T07:00:49.595762+00:00,16-10-2026 09:00,z-ai/glm-5.3,BCH/USD,7.1,7.0,houden,,,Range7d 73 en boven 50d-MA; kleine positie met snelle winstname.
+2026-10-16T07:00:49.595762+00:00,16-10-2026 09:00,z-ai/glm-5.3,BTC/USD,39.9,40.0,houden,,,"Anker, houdt $82k boven 50d-MA; risico blijft aan zolang $80k standhoudt."
+2026-10-16T07:00:49.595762+00:00,16-10-2026 09:00,z-ai/glm-5.3,CRV/USD,4.8,0.0,close,461.55,verkocht (alles),
+2026-10-16T07:00:49.595762+00:00,16-10-2026 09:00,z-ai/glm-5.3,FIL/USD,14.1,14.0,houden,,,"Sterke trend: +11% 24u, +20% vs 50d-MA, midden in 7d-range."
+2026-10-16T07:00:49.595762+00:00,16-10-2026 09:00,z-ai/glm-5.3,UNI/USD,7.1,7.0,houden,,,"+9% 24u en midden in 7d-range; klein houden, winst snel mee nemen."
