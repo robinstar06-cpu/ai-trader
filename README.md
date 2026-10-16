@@ -1,18 +1,18 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-10-2026 19:30_
+_Laatst bijgewerkt: 16-10-2026 20:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,447.93** |
+| Waarde portefeuille | **$9,460.51** |
 | Cash | $752.24 (8%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.52%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.02% |
-| Verschil | -2.50% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.39%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.61% |
+| Verschil | -2.79% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.52%** |
+| Rendement deze periode | **-5.39%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.52% |
+| Daling vanaf de top ($10,000) | -5.39% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
 
@@ -37,10 +37,10 @@ _Dit venster verloor ik -2,77% tegen -1,85% voor BTC, vooral doordat ik mijn alt
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,768.36 | 39.9% | -2.2% | 39.9% |  |
-| ARB/USD | $2,293.99 | 24.3% | -2.1% | 24.3% |  |
+| BTC/USD | $3,780.95 | 40.0% | -1.9% | 40.0% |  |
+| ARB/USD | $2,293.99 | 24.2% | -2.1% | 24.2% |  |
 | FIL/USD | $1,316.26 | 13.9% | -3.8% | 13.9% |  |
-| BCH/USD | $666.31 | 7.1% | -1.4% | 7.1% |  |
+| BCH/USD | $666.31 | 7.0% | -1.4% | 7.0% |  |
 | UNI/USD | $650.76 | 6.9% | -3.8% | 6.9% |  |
 
 ## Orders deze run
@@ -49,7 +49,6 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Dagelijkse evaluatie gedaan door z-ai/glm-5.3.
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
 - AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
@@ -59,6 +58,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-10-2026 20:00 | $9,461 | -5.39% | -2.61% | 0 |
 | 16-10-2026 19:30 | $9,448 | -5.52% | -3.02% | 0 |
 | 16-10-2026 19:00 | $9,549 | -4.51% | -2.37% | 0 |
 | 16-10-2026 18:30 | $9,633 | -3.67% | -2.11% | 0 |
@@ -70,7 +70,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-10-2026 15:30 | $9,682 | -3.18% | -1.69% | 0 |
 | 16-10-2026 15:00 | $9,710 | -2.90% | -1.65% | 0 |
 | 16-10-2026 14:30 | $9,725 | -2.75% | -1.30% | 0 |
-| 16-10-2026 14:00 | $9,734 | -2.65% | -0.94% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
