@@ -404,3 +404,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T11:00:51.227877+00:00,16-10-2026 13:00,,BTC/USD,40.0,40.0,houden,,,
 2026-10-16T11:00:51.227877+00:00,16-10-2026 13:00,,FIL/USD,14.0,14.0,houden,,,
 2026-10-16T11:00:51.227877+00:00,16-10-2026 13:00,,UNI/USD,7.1,7.1,houden,,,
+2026-10-16T11:30:39.425946+00:00,16-10-2026 13:30,z-ai/glm-5.3,ARB/USD,24.9,25.0,houden,,,"Sterkste momentum, op 7d-hoog; regel: eruit bij RSI_1d >70 of verlies 24u-SMA"
+2026-10-16T11:30:39.425946+00:00,16-10-2026 13:30,z-ai/glm-5.3,BCH/USD,7.0,7.0,houden,,,"Meeloper richting 7d-hoog, staat boven de 50d-MA"
+2026-10-16T11:30:39.425946+00:00,16-10-2026 13:30,z-ai/glm-5.3,BTC/USD,39.6,40.0,houden,,,Anker boven de 50d-MA; extra cash volgt pas op breakout boven $83k
+2026-10-16T11:30:39.425946+00:00,16-10-2026 13:30,z-ai/glm-5.3,FIL/USD,13.8,14.0,houden,,,Bounce +12% in 24u boven alle SMA's; zelfde winstregel als ARB
+2026-10-16T11:30:39.425946+00:00,16-10-2026 13:30,z-ai/glm-5.3,UNI/USD,7.0,7.0,houden,,,Participeert in de bounce maar is mijn zwakste alt; eerste kandidaat om terug te snijden

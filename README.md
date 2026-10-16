@@ -1,24 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-10-2026 13:00_
+_Laatst bijgewerkt: 16-10-2026 13:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,579.06** |
+| Waarde portefeuille | **$9,741.92** |
 | Cash | $752.24 (8%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.21%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.45% |
-| Verschil | -2.76% |
+| Rendement AI sinds 14-10-2026 13:02 | **-2.58%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.71% |
+| Verschil | -1.87% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.21%** |
+| Rendement deze periode | **-2.58%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.21% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -2.58% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
 
-## Strategie van de AI (sinds 16-10-2026 10:00)
+## Marktvisie van de AI
 
-Ik handhaaf de huidige mix: BTC 40% anker, ARB 24% en FIL 14% als momentumkern, UNI en BCH elk 7%, ~8% cash. Cash zet ik pas in bij een BTC-breakout boven $83k of een bevestigde dip (breedte >50% groen én uur-RSI >45). Alts snijd ik direct terug bij BTC <$80k of breedte <50% groen. ARB-winst neem ik snel mee bij RSI_1d >70 of verlies van de 24u-SMA; FIL krijgt dezelfde regel omdat de korte fading me opvalt. BAT (RSI_1d 71, parabolisch) en dunne munten zoals XTZ laat ik liggen: broze relatieve sterkte en churn kosten rendement. Schadebeperking gaat voor: eerst het gat stoppen, dan jagen op +20%.
+De markt is maximaal breed groen (33/33 munten, mediaan +5,7% over 24u) en BTC houdt $82,7k net boven de 50d-MA, maar de 7d-mediaan blijft negatief: dit is een stevige bounce binnen een correctie, nog geen bevestigde trend. Mijn momentummix met BTC-anker en ARB als leider loopt sinds de defensieve draai duidelijk vooruit op BTC. Ik verander daarom niets tot BTC $83k breekt of de breedte knikt.
+
+## Strategie van de AI (sinds 16-10-2026 13:30)
+
+Ik handhaaf de mix: BTC 40% anker, ARB 25% als leider (winst pas meenemen bij RSI_1d >70 of verlies van de 24u-SMA), FIL 14%, BCH en UNI elk 7%, ~7% cash. Cash zet ik in zodra BTC boven $83k breekt of bij een bevestigde dip (breedte >50% groen én uur-RSI >45). Alts snijd ik direct terug bij BTC <$80k of breedte <50% groen. Parabolische BAT en dunne munten laat ik liggen. Eerst het gat dichten, dan jagen op +20%.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -37,11 +41,11 @@ _Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,829.70 | 40.0% | -0.6% | 40.0% |  |
-| ARB/USD | $2,293.99 | 23.9% | -2.1% | 23.9% |  |
-| FIL/USD | $1,340.44 | 14.0% | -2.0% | 14.0% |  |
-| BCH/USD | $685.66 | 7.2% | +1.5% | 7.2% |  |
-| UNI/USD | $677.04 | 7.1% | +0.1% | 7.1% |  |
+| BTC/USD | $3,858.50 | 39.6% | +0.1% | 40.0% | Anker boven de 50d-MA; extra cash volgt pas op breakout boven $83k |
+| ARB/USD | $2,421.83 | 24.9% | +3.4% | 25.0% | Sterkste momentum, op 7d-hoog; regel: eruit bij RSI_1d >70 of verlies 24u-SMA |
+| FIL/USD | $1,340.44 | 13.8% | -2.0% | 14.0% | Bounce +12% in 24u boven alle SMA's; zelfde winstregel als ARB |
+| BCH/USD | $685.66 | 7.0% | +1.5% | 7.0% | Meeloper richting 7d-hoog, staat boven de 50d-MA |
+| UNI/USD | $683.25 | 7.0% | +1.0% | 7.0% | Participeert in de bounce maar is mijn zwakste alt; eerste kandidaat om terug te snijden |
 
 ## Orders deze run
 
@@ -49,15 +53,13 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-10-2026 13:30 | $9,742 | -2.58% | -0.71% | 0 |
 | 16-10-2026 13:00 | $9,579 | -4.21% | -1.45% | 0 |
 | 16-10-2026 12:30 | $9,581 | -4.19% | -1.66% | 0 |
 | 16-10-2026 12:00 | $9,583 | -4.17% | -1.66% | 0 |
@@ -69,7 +71,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-10-2026 09:00 | $9,584 | -4.16% | -1.49% | 1 |
 | 16-10-2026 08:30 | $9,577 | -4.23% | -1.64% | 1 |
 | 16-10-2026 08:00 | $9,583 | -4.17% | -1.52% | 0 |
-| 16-10-2026 07:30 | $9,587 | -4.13% | -1.47% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).

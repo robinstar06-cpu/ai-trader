@@ -1312,12 +1312,33 @@
         "ARB/USD": 0.1964515,
         "BCH/USD": 279.205
       }
+    },
+    {
+      "time": "2026-10-16T11:30:39.425946+00:00",
+      "time_local": "16-10-2026 13:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ARB/USD": 25.0,
+        "FIL/USD": 14.0,
+        "BCH/USD": 7.0,
+        "UNI/USD": 7.0
+      },
+      "summary": "De markt is maximaal breed groen (33/33 munten, mediaan +5,7% over 24u) en BTC houdt $82,7k net boven de 50d-MA, maar de 7d-mediaan blijft negatief: dit is een stevige bounce binnen een correctie, nog geen bevestigde trend. Mijn momentummix met BTC-anker en ARB als leider loopt sinds de defensieve d",
+      "equity": 9741.92,
+      "prices": {
+        "FIL/USD": 1.15129,
+        "UNI/USD": 7.495215,
+        "BCH/USD": 283.465,
+        "BTC/USD": 82721.385,
+        "ARB/USD": 0.201645
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-16T08:00:50.788106+00:00",
-    "time_local": "16-10-2026 10:00",
-    "text": "Ik handhaaf de huidige mix: BTC 40% anker, ARB 24% en FIL 14% als momentumkern, UNI en BCH elk 7%, ~8% cash. Cash zet ik pas in bij een BTC-breakout boven $83k of een bevestigde dip (breedte >50% groen én uur-RSI >45). Alts snijd ik direct terug bij BTC <$80k of breedte <50% groen. ARB-winst neem ik snel mee bij RSI_1d >70 of verlies van de 24u-SMA; FIL krijgt dezelfde regel omdat de korte fading me opvalt. BAT (RSI_1d 71, parabolisch) en dunne munten zoals XTZ laat ik liggen: broze relatieve sterkte en churn kosten rendement. Schadebeperking gaat voor: eerst het gat stoppen, dan jagen op +20%."
+    "time": "2026-10-16T11:30:39.425946+00:00",
+    "time_local": "16-10-2026 13:30",
+    "text": "Ik handhaaf de mix: BTC 40% anker, ARB 25% als leider (winst pas meenemen bij RSI_1d >70 of verlies van de 24u-SMA), FIL 14%, BCH en UNI elk 7%, ~7% cash. Cash zet ik in zodra BTC boven $83k breekt of bij een bevestigde dip (breedte >50% groen én uur-RSI >45). Alts snijd ik direct terug bij BTC <$80k of breedte <50% groen. Parabolische BAT en dunne munten laat ik liggen. Eerst het gat dichten, dan jagen op +20%."
   },
   "lessons": [
     "Cap alts op max 25% zolang de 24u-breedte negatief is (minder dan een derde groen) en memecoins zoals PEPE op max 5%: mijn 45% alt-start verloor 5-6% tegen -2,8% voor BTC.",
