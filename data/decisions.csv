@@ -352,3 +352,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T06:00:47.466480+00:00,16-10-2026 08:00,,CRV/USD,4.8,4.8,houden,,,
 2026-10-16T06:00:47.466480+00:00,16-10-2026 08:00,,FIL/USD,14.1,14.1,houden,,,
 2026-10-16T06:00:47.466480+00:00,16-10-2026 08:00,,UNI/USD,7.1,7.1,houden,,,
+2026-10-16T06:30:40.022912+00:00,16-10-2026 08:30,deepseek-ai/deepseek-v4.1-flash,ARB/USD,22.9,24.0,buy,102.73,gekocht $102.73,"Sterkste momentum: +12% 24u, +10% vs 50d-MA, range7d_pos 82."
+2026-10-16T06:30:40.022912+00:00,16-10-2026 08:30,deepseek-ai/deepseek-v4.1-flash,BCH/USD,7.0,7.0,houden,,,"Degelijk (+6,9% 24u), hoge range7d_pos; kleine positie."
+2026-10-16T06:30:40.022912+00:00,16-10-2026 08:30,deepseek-ai/deepseek-v4.1-flash,BTC/USD,39.9,40.0,houden,,,"Anker, houdt $82k net boven 50d-MA; veiligste basis in een bounce."
+2026-10-16T06:30:40.022912+00:00,16-10-2026 08:30,deepseek-ai/deepseek-v4.1-flash,CRV/USD,4.8,4.0,houden,,,"Zwakste schakel, fragiele relatieve sterkte; afbouwen."
+2026-10-16T06:30:40.022912+00:00,16-10-2026 08:30,deepseek-ai/deepseek-v4.1-flash,FIL/USD,14.1,14.0,houden,,,"Bovengemiddeld momentum (+11% 24u, +20% vs 50d-MA), kernpositie."
+2026-10-16T06:30:40.022912+00:00,16-10-2026 08:30,deepseek-ai/deepseek-v4.1-flash,UNI/USD,7.1,8.0,houden,,,"Sterke 24u-sprong (+8,9%), klein houden met snelle winstname."

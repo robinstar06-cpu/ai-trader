@@ -1226,12 +1226,35 @@
         "ARB/USD": 0.1944285,
         "BTC/USD": 81982.485
       }
+    },
+    {
+      "time": "2026-10-16T06:30:40.022912+00:00",
+      "time_local": "16-10-2026 08:30",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ARB/USD": 24.0,
+        "FIL/USD": 14.0,
+        "UNI/USD": 8.0,
+        "BCH/USD": 7.0,
+        "CRV/USD": 4.0
+      },
+      "summary": "De markt is breed risk-on met 33/33 munten groen en een 24u-mediaan van +4,6%, maar de 7d-mediaan blijft negatief (-2,6%) en BTC hangt rond $82k net boven zijn 50d-gemiddelde. Dit oogt als een krachtige bounce binnen een zwakkere week, dus ik leun mee maar chase niet agressief. Fear & Greed op 63 (G",
+      "equity": 9580.54,
+      "prices": {
+        "CRV/USD": 0.3496935,
+        "FIL/USD": 1.147235,
+        "BCH/USD": 278.7085,
+        "BTC/USD": 81946.005,
+        "UNI/USD": 7.457385,
+        "ARB/USD": 0.1955835
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-16T04:30:40.802155+00:00",
-    "time_local": "16-10-2026 06:30",
-    "text": "Ik handhaaf BTC als anker op ~40% en houd de momentumkern ARB (~23%) en FIL (~15%) aan, de sterkste namen ruim boven hun 50d-MA. UNI/BCH/CRV blijven klein (7/7/4%) met snelle winstname; ~4% cash als droog kruit. De 33/33 breedte is een echt thrust-signaal, maar omdat de 7d-mediaan negatief blijft chase ik niet agressief. Ik snijd de alts direct terug zodra BTC $80k verliest of de 24u-breedte onder 50% groen zakt. Verwacht komende uren consolidatie; een doorbraak boven $83k geeft ruimte om risico op te voeren."
+    "time": "2026-10-16T06:30:40.022912+00:00",
+    "time_local": "16-10-2026 08:30",
+    "text": "Ik handhaaf BTC als anker op ~40% en houd de momentumkern ARB (~24%) en FIL (~14%) aan, de sterkste namen met positieve vs_sma50. UNI/BCH blijven klein (8/7%) met snelle winstname; CRV trim ik naar 4% omdat relatieve sterkte in een zwakke tape broos is. ~3% cash als droog kruit. Zolang de 24u-breedte boven 50% groen blijft en BTC $80k houdt, laat ik het risico staan; breekt BTC $80k of zakt de breedte onder 50% groen, dan snijd ik de alts direct terug. Verwacht consolidatie rond $82k met opwaartse bias zolang de thrust houdt."
   },
   "lessons": [
     "Cap alts op max 25% zolang de 24u-breedte negatief is (minder dan een derde groen) en memecoins zoals PEPE op max 5%: mijn 45% alt-start verloor 5-6% tegen -2,8% voor BTC.",
