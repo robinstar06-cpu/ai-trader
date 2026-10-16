@@ -310,3 +310,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T02:30:44.063021+00:00,16-10-2026 04:30,deepseek-ai/deepseek-v4.1-flash,CRV/USD,4.8,5.0,houden,,,"+8% 24u herstel; fragiel in zwakke week, daarom klein."
 2026-10-16T02:30:44.063021+00:00,16-10-2026 04:30,deepseek-ai/deepseek-v4.1-flash,FIL/USD,11.7,12.0,houden,,,"+8% 24u, +5,8% 7d, boven 20d/50d-MA; relatieve sterkte."
 2026-10-16T02:30:44.063021+00:00,16-10-2026 04:30,deepseek-ai/deepseek-v4.1-flash,UNI/USD,7.1,8.0,houden,,,"+6,3% 24u, RSI 1u 59; klein houden, snel winst nemen."
+2026-10-16T03:00:50.406618+00:00,16-10-2026 05:00,deepseek-ai/deepseek-v4.1-flash,ARB/USD,21.9,22.0,houden,,,"Sterkste momentumkern: +9,4% 24u, +8,8% 7d, +9,2% vs 50d-MA."
+2026-10-16T03:00:50.406618+00:00,16-10-2026 05:00,deepseek-ai/deepseek-v4.1-flash,BCH/USD,7.0,7.0,houden,,,"Solide +5,6% 24u en boven 50d-MA, maar beperkte upside; kleine positie."
+2026-10-16T03:00:50.406618+00:00,16-10-2026 05:00,deepseek-ai/deepseek-v4.1-flash,BTC/USD,41.0,40.0,houden,,,"Anker, houdt 50d-MA vast; kern van de portefeuille in een broze bounce."
+2026-10-16T03:00:50.406618+00:00,16-10-2026 05:00,deepseek-ai/deepseek-v4.1-flash,CRV/USD,4.8,5.0,houden,,,Groene naam maar fragiel in zwakke tape; winst snel meenemen.
+2026-10-16T03:00:50.406618+00:00,16-10-2026 05:00,deepseek-ai/deepseek-v4.1-flash,FIL/USD,11.7,13.0,buy,123.91,gekocht $123.91,"Beste relatieve kracht: +8,3% 24u, +20,9% vs 50d-MA, RSI 1d 57."
+2026-10-16T03:00:50.406618+00:00,16-10-2026 05:00,deepseek-ai/deepseek-v4.1-flash,UNI/USD,7.1,7.0,houden,,,Sterke 24u-sprong (+8%) maar zwak vs 50d-MA; klein houden.

@@ -1157,12 +1157,35 @@
         "UNI/USD": 7.4505,
         "CRV/USD": 0.350655
       }
+    },
+    {
+      "time": "2026-10-16T03:00:50.406618+00:00",
+      "time_local": "16-10-2026 05:00",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ARB/USD": 22.0,
+        "FIL/USD": 13.0,
+        "UNI/USD": 7.0,
+        "BCH/USD": 7.0,
+        "CRV/USD": 5.0
+      },
+      "summary": "De markt is sterk risk-on: 33 van 33 munten groen met een mediaan van +3,6% over 24u en Fear & Greed op 63 (Greed). Maar de 7d-mediaan blijft -2,7% en BTC hangt met +0,8% nauwelijks boven het 50d-gemiddelde, dus dit oogt als een brede bounce binnen een zwakke week eerder dan een bevestigde trendbreu",
+      "equity": 9569.1,
+      "prices": {
+        "BCH/USD": 278.3325,
+        "CRV/USD": 0.352084,
+        "FIL/USD": 1.1527,
+        "UNI/USD": 7.43335,
+        "ARB/USD": 0.19232,
+        "BTC/USD": 81936.9705
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-16T02:30:44.063021+00:00",
-    "time_local": "16-10-2026 04:30",
-    "text": "Ik blijf constructief aangelegd omdat de breedte bevestigd is (33/33 groen, 1u-RSI's boven 45), maar met schadebeperking voorop: BTC als anker ~41%, momentumkern ARB 22% en FIL 12%, UNI/BCH/CRV klein (8/7/5%) met snelle winstname op de sterkste namen. ~5% cash als droog kruit voor een bevestigde break boven $83k. Ik knip de alts direct terug zodra BTC $80k verliest of de 24u-breedte onder 50% groen zakt; met -4,3% op dag 2 gaat verdedigen vóór rendement-jagen."
+    "time": "2026-10-16T03:00:50.406618+00:00",
+    "time_local": "16-10-2026 05:00",
+    "text": "Ik handhaaf de constructieve maar verdedigende opzet: BTC als anker ~40%, momentumkern ARB 22% en FIL 13% (beide sterk vs 50d-MA), UNI/BCH/CRV klein op 7/7/5% met snelle winstname op de sterkste namen, ~6% cash als droog kruit. Ik chase de +3,6%-dag niet agressief omdat de 7d-breedte nog negatief is. Ik knip de alts direct terug zodra BTC $80k verliest of de 24u-breedte onder 50% groen zakt; met -4,3% op dag 2 gaat schadebeperking vóór rendement-jagen."
   },
   "lessons": [
     "Cap alts op max 25% zolang de 24u-breedte negatief is (minder dan een derde groen) en memecoins zoals PEPE op max 5%: mijn 45% alt-start verloor 5-6% tegen -2,8% voor BTC.",
