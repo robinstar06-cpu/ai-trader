@@ -503,3 +503,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T22:30:38.758708+00:00,17-10-2026 00:30,z-ai/glm-5.3,ARB/USD,11.0,11.0,houden,,,"Sterkste 7d van mijn alts (+5,9%) boven de 50d-MA; houden in de correctie, geen bijkoop zonder breedte-bevestiging."
 2026-10-16T22:30:38.758708+00:00,17-10-2026 00:30,z-ai/glm-5.3,BTC/USD,40.2,40.0,houden,,,Anker boven $80k en op de 50d-MA; stop-discipline: direct naar 25% bij sluiting onder $80k.
 2026-10-16T22:30:38.758708+00:00,17-10-2026 00:30,z-ai/glm-5.3,FIL/USD,12.0,12.0,houden,,,"Relatieve kracht: 7d +4,1% en 18,8% boven de 50d-MA; blijft binnen de 15%-kap, niet vergroten."
+2026-10-16T23:00:47.372879+00:00,17-10-2026 01:00,z-ai/glm-5.3,ARB/USD,11.0,11.0,houden,,,"7d +4,6% sterk vs mediaan -3,7%, maar onder 20d-MA; positie houden binnen de 10-15%-kap."
+2026-10-16T23:00:47.372879+00:00,17-10-2026 01:00,z-ai/glm-5.3,BTC/USD,40.2,40.0,houden,,,Anker zolang boven $80k; balanceert op de 50d-MA onder de 20d-MA — geen reden tot bij- of verkoop.
+2026-10-16T23:00:47.372879+00:00,17-10-2026 01:00,z-ai/glm-5.3,FIL/USD,12.0,12.0,houden,,,"Relatieve kracht intact: 7d +4,8% ver boven mediaan, boven 20d- en 50d-MA; houden, niet vergroten."
