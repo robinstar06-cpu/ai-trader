@@ -280,3 +280,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T00:00:54.113613+00:00,16-10-2026 02:00,z-ai/glm-5.3,CRV/USD,6.0,6.0,houden,,,"Winst +4,7% klein houden; snel meenemen bij stalling"
 2026-10-16T00:00:54.113613+00:00,16-10-2026 02:00,z-ai/glm-5.3,FIL/USD,12.0,12.0,houden,,,"Trend intact boven 20d- en 50d-MA, gezonde RSI 57"
 2026-10-16T00:00:54.113613+00:00,16-10-2026 02:00,z-ai/glm-5.3,UNI/USD,7.0,7.0,houden,,,"Meeloopt met +3,7% 24u, geen reden tot churnen"
+2026-10-16T00:30:42.718979+00:00,16-10-2026 02:30,deepseek-ai/deepseek-v4.1-flash,ARB/USD,18.0,22.0,buy,384.02,gekocht $384.02,"Sterkste momentum: +14% 7d, RSI 1u 70, dicht bij 7d-high"
+2026-10-16T00:30:42.718979+00:00,16-10-2026 02:30,deepseek-ai/deepseek-v4.1-flash,BCH/USD,7.0,7.0,houden,,,"Solide +3,8% 24u, hoge range7d-positie"
+2026-10-16T00:30:42.718979+00:00,16-10-2026 02:30,deepseek-ai/deepseek-v4.1-flash,BTC/USD,44.2,42.0,sell,207.46,verkocht 0.002521507,"Anker boven 50d-MA, veiligste basis in constructieve tape"
+2026-10-16T00:30:42.718979+00:00,16-10-2026 02:30,deepseek-ai/deepseek-v4.1-flash,CRV/USD,6.0,5.0,sell,98.98,verkocht 271.621783754,"Enige groene uitschieter, klein houden en winst snel nemen"
+2026-10-16T00:30:42.718979+00:00,16-10-2026 02:30,deepseek-ai/deepseek-v4.1-flash,FIL/USD,11.7,12.0,houden,,,Sterke 24u/7d-momentum met lichte terugval op het uur als instap
+2026-10-16T00:30:42.718979+00:00,16-10-2026 02:30,deepseek-ai/deepseek-v4.1-flash,UNI/USD,7.1,8.0,houden,,,"Groen op 24u en 7d, relatieve sterkte, klein houden"
