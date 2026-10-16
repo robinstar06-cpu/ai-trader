@@ -488,3 +488,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T20:00:49.666844+00:00,16-10-2026 22:00,z-ai/glm-5.3,ARB/USD,11.0,11.0,houden,,,"Sterkste alt: 7d +6,6%, range7d_pos 72; behouden, niet vergroten"
 2026-10-16T20:00:49.666844+00:00,16-10-2026 22:00,z-ai/glm-5.3,BTC/USD,40.1,40.0,houden,,,"Anker zolang $80k houdt; BTC staat op de 50d-MA, sluiting onder $80k = direct afbouwen naar 25%"
 2026-10-16T20:00:49.666844+00:00,16-10-2026 22:00,z-ai/glm-5.3,FIL/USD,12.0,12.0,houden,,,"Sterkste alt: 7d +4,4%, boven 20d- en 50d-MA; behouden, niet vergroten"
+2026-10-16T20:30:38.384827+00:00,16-10-2026 22:30,z-ai/glm-5.3,ARB/USD,11.0,11.0,houden,,,"7d +6,5%, boven 50d-MA; behouden op 11%, geen nieuwe alts"
+2026-10-16T20:30:38.384827+00:00,16-10-2026 22:30,z-ai/glm-5.3,BTC/USD,40.1,40.0,houden,,,"Anker zolang $80k houdt; $81,5k net boven 50d-MA, geen verkooptrigger"
+2026-10-16T20:30:38.384827+00:00,16-10-2026 22:30,z-ai/glm-5.3,FIL/USD,12.0,12.0,houden,,,"Sterkste alt: 7d +4,6%, +19% boven 50d-MA; behouden, niet vergroten"

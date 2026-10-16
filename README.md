@@ -1,14 +1,14 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-10-2026 22:00_
+_Laatst bijgewerkt: 16-10-2026 22:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,482.16** |
+| Waarde portefeuille | **$9,481.79** |
 | Cash | $3,502.49 (37%) |
 | Rendement AI sinds 14-10-2026 13:02 | **-5.18%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.21% |
-| Verschil | -2.97% |
+| Ter vergelijking: gewoon BTC vasthouden | -2.13% |
+| Verschil | -3.05% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
 | Rendement deze periode | **-5.18%** |
 | Gehaalde mijlpalen | nog geen |
@@ -18,11 +18,11 @@ _Laatst bijgewerkt: 16-10-2026 22:00_
 
 ## Marktvisie van de AI
 
-De correctie is intact: slechts 1/33 munten groen over 24u (mediaan -1,65%), 7d-mediaan -4,0%, en BTC balanceert op $81,5k precies op zijn 50d-MA, ruim onder de 20d-MA. Fear & Greed 63 (Greed) werkt als contra-signaal, net als op de top van de bounce. Mijn aankoopvoorwaarden (breedte >50% groen + uur-RSI >45, of BTC >$83k) zijn lang niet vervuld.
+De correctie zet door: slechts 2/33 munten groen over 24u (mediaan -1,5%), 7d-mediaan -3,8%, en BTC balanceert op $81,5k net boven zijn 50d-MA. Geen enkele cash-deployvoorwaarde is gevuld (breedte ver onder 50%, BTC onder $83k) en Greed 63 werkt als contra-signaal, dus ik handhaaf de verdediging exact.
 
-## Strategie van de AI (sinds 16-10-2026 22:00)
+## Strategie van de AI (sinds 16-10-2026 22:30)
 
-Verdediging exact handhaven: BTC 40% anker zolang $80k houdt (uur-sluiting daaronder = direct terug naar 25%), FIL 12% en ARB 11% als sterkste alts (7d +4,4% en +6,6%, beide boven de 50d-MA), cash 37% als actieve positie. Cash gaat er pas in bij 24u-breedte >50% groen én uur-RSI >45, of een BTC-sluiting boven $83k. Geen nieuwe alts, alttotaal max 25% zolang de 7d-mediaan negatief is, en verliezende posities niet vergroten. Schadebeperking gaat voor rendement-jagen: -5,2% op dag 3 vraagt om geen nieuwe drawdown.
+Verdediging exact handhaven: BTC 40% anker zolang $80k houdt (uur-sluiting daaronder = direct terug naar 25%), FIL 12% en ARB 11% als sterkste alts (7d +4,6% en +6,5%, beide ruim boven de 50d-MA), cash 37% als actieve positie. Cash gaat er pas in bij 24u-breedte >50% groen én uur-RSI >45, of een BTC-sluiting boven $83k. Geen nieuwe alts, alttotaal max 25% zolang de 7d-mediaan negatief is, verliezende posities niet vergroten. Schadebeperking gaat voor rendement-jagen: -5,2% op dag 3 vraagt om geen nieuwe drawdown.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,9 +41,9 @@ _Dit venster verloor ik -2,77% tegen -1,85% voor BTC, vooral doordat ik mijn alt
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,803.56 | 40.1% | -1.3% | 40.0% | Anker zolang $80k houdt; BTC staat op de 50d-MA, sluiting onder $80k = direct afbouwen naar 25% |
-| FIL/USD | $1,135.36 | 12.0% | -3.8% | 12.0% | Sterkste alt: 7d +4,4%, boven 20d- en 50d-MA; behouden, niet vergroten |
-| ARB/USD | $1,040.75 | 11.0% | -2.1% | 11.0% | Sterkste alt: 7d +6,6%, range7d_pos 72; behouden, niet vergroten |
+| BTC/USD | $3,803.19 | 40.1% | -1.3% | 40.0% | Anker zolang $80k houdt; $81,5k net boven 50d-MA, geen verkooptrigger |
+| FIL/USD | $1,135.36 | 12.0% | -3.8% | 12.0% | Sterkste alt: 7d +4,6%, +19% boven 50d-MA; behouden, niet vergroten |
+| ARB/USD | $1,040.75 | 11.0% | -2.1% | 11.0% | 7d +6,5%, boven 50d-MA; behouden op 11%, geen nieuwe alts |
 
 ## Orders deze run
 
@@ -57,6 +57,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-10-2026 22:30 | $9,482 | -5.18% | -2.13% | 0 |
 | 16-10-2026 22:00 | $9,482 | -5.18% | -2.21% | 0 |
 | 16-10-2026 21:30 | $9,482 | -5.17% | -2.20% | 0 |
 | 16-10-2026 21:00 | $9,455 | -5.45% | -2.74% | 0 |
@@ -68,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-10-2026 18:00 | $9,621 | -3.79% | -2.52% | 0 |
 | 16-10-2026 17:30 | $9,626 | -3.74% | -2.19% | 0 |
 | 16-10-2026 17:00 | $9,671 | -3.29% | -1.74% | 0 |
-| 16-10-2026 16:30 | $9,703 | -2.97% | -1.29% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
