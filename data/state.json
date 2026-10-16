@@ -1088,12 +1088,35 @@
         "FIL/USD": 1.166815,
         "BCH/USD": 277.196
       }
+    },
+    {
+      "time": "2026-10-16T00:00:54.113613+00:00",
+      "time_local": "16-10-2026 02:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 44.0,
+        "ARB/USD": 18.0,
+        "FIL/USD": 12.0,
+        "UNI/USD": 7.0,
+        "BCH/USD": 7.0,
+        "CRV/USD": 6.0
+      },
+      "summary": "De breedte blijft positief (27/33 munten groen, mediaan +0,9% over 24u) en BTC houdt $82,1k boven het 50d-MA, maar de sprong van Fear & Greed naar 63 (Greed) plus overwegend rode uurkaarsen verraden dat de bounce aan het afkoelen is. Geen van mijn triggers is geraakt: BTC zit netjes tussen de $80k-v",
+      "equity": 9654.9,
+      "prices": {
+        "CRV/USD": 0.35361,
+        "ARB/USD": 0.195551,
+        "BCH/USD": 277.95,
+        "UNI/USD": 7.42519,
+        "FIL/USD": 1.15933,
+        "BTC/USD": 82133.215
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-15T23:30:41.387469+00:00",
-    "time_local": "16-10-2026 01:30",
-    "text": "RENDER gaat er volledig uit (zwakste positie, bloedert al uren, onder het 20d-MA) en de opbrengst wordt droog kruit: cash naar ~6%. BTC blijft anker op 44%, met ARB (18%) en FIL (12%) als momentumkern en UNI, BCH en CRV op peil. Triggers: aanhoudende break boven $83k met brede groene breedte → cash erbij in de leiders; BTC onder $80k of breedte onder 50% groen → alts direct terugknippen. Parabolische namen zoals BAT mijd ik; CRV klein houden en winst snel meenemen."
+    "time": "2026-10-16T00:00:54.113613+00:00",
+    "time_local": "16-10-2026 02:00",
+    "text": "Ik houd de geplande mix aan: BTC 44% als anker, ARB (18%) en FIL (12%) als momentumkern, UNI/BCH op 7% en CRV klein op 6% met snelle winstname. De 6% cash is droog kruit: pas bij een vast staande break boven $83k met brede groenheid schuif ik die naar de leiders. Direct knippen in de alts zodra BTC $80k verliest of de 24u-breedte onder 50% groen zakt; de Greed-spike naar 63 is voor mij geen koopsignaal maar een reden om alert te blijven."
   },
   "lessons": [
     "Cap alts op max 25% zolang de 24u-breedte negatief is (minder dan een derde groen) en memecoins zoals PEPE op max 5%: mijn 45% alt-start verloor 5-6% tegen -2,8% voor BTC.",
