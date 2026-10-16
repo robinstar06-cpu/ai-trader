@@ -322,3 +322,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T03:30:40.842369+00:00,16-10-2026 05:30,deepseek-ai/deepseek-v4.1-flash,CRV/USD,4.8,5.0,houden,,,"Kleinste positie, broze relatieve sterkte; winst snel meenemen"
 2026-10-16T03:30:40.842369+00:00,16-10-2026 05:30,deepseek-ai/deepseek-v4.1-flash,FIL/USD,13.0,14.0,buy,100.04,gekocht $100.04,"Beste trend: +11,3% 24u, 7d +6,8%, +21% vs 50d-MA"
 2026-10-16T03:30:40.842369+00:00,16-10-2026 05:30,deepseek-ai/deepseek-v4.1-flash,UNI/USD,7.1,7.0,houden,,,"Klein, +7,9% 24u maar zwak vs 50d-MA; snel winst nemen"
+2026-10-16T04:00:47.979558+00:00,16-10-2026 06:00,,ARB/USD,21.9,21.9,houden,,,
+2026-10-16T04:00:47.979558+00:00,16-10-2026 06:00,,BCH/USD,7.0,7.0,houden,,,
+2026-10-16T04:00:47.979558+00:00,16-10-2026 06:00,,BTC/USD,41.0,41.0,houden,,,
+2026-10-16T04:00:47.979558+00:00,16-10-2026 06:00,,CRV/USD,4.8,4.8,houden,,,
+2026-10-16T04:00:47.979558+00:00,16-10-2026 06:00,,FIL/USD,14.0,14.0,houden,,,
+2026-10-16T04:00:47.979558+00:00,16-10-2026 06:00,,UNI/USD,7.1,7.1,houden,,,
