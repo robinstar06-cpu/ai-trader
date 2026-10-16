@@ -1270,12 +1270,33 @@
         "BTC/USD": 82078.15,
         "ARB/USD": 0.196892
       }
+    },
+    {
+      "time": "2026-10-16T07:30:44.401166+00:00",
+      "time_local": "16-10-2026 09:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "ARB/USD": 24.0,
+        "FIL/USD": 14.0,
+        "UNI/USD": 7.0,
+        "BCH/USD": 7.0
+      },
+      "summary": "De breedte is maximaal (33/33 munten groen, mediaan +4,6% over 24u) en BTC houdt $82,1k boven de 50d-MA, maar de 7d-mediaan blijft -2,8% en BTC staat nog onder de 20d-MA: dit is een krachtige bounce binnen een zwakke wekelijkse trend. Greed 63 is volgens mijn lessen geen koopsignaal; prijsactie en b",
+      "equity": 9592.98,
+      "prices": {
+        "BCH/USD": 279.5115,
+        "UNI/USD": 7.49146,
+        "ARB/USD": 0.1973355,
+        "BTC/USD": 82113.6275,
+        "FIL/USD": 1.153
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-16T07:00:49.595762+00:00",
-    "time_local": "16-10-2026 09:00",
-    "text": "Behoud BTC 40% als anker, ARB 24% en FIL 14% als momentumkern, UNI en BCH elk 7%. CRV wordt volledig verkocht: enige munt onder de 24u-SMA en onderpresterend in een breed groene tape; opbrengst (~5%) naar cash, totaal ~8% droog kruit. Risico blijft aan zolang breedte >50% groen en BTC $80k houdt; bij BTC-break onder $80k of breedte <50% groen snijd ik de alts direct terug. Cash zet ik alleen in met bevestiging: dip met breedte >50% groen en uur-RSI boven 45, of een BTC-breakout boven $83k."
+    "time": "2026-10-16T07:30:44.401166+00:00",
+    "time_local": "16-10-2026 09:30",
+    "text": "Ik behoud BTC 40% als anker, ARB 24% en FIL 14% als momentumkern, UNI en BCH elk 7%, plus ~8% cash. Risico blijft aan zolang breedte >50% groen is en BTC $80k houdt. Cash zet ik alleen in bij een BTC-breakout boven $83k of een bevestigde dip (breedte >50% groen, uur-RSI terug boven 45). Bij BTC onder $80k of breedte <50% groen snijd ik de alts direct terug. ARB-winst neem ik snel mee bij RSI_1d boven 70 of verlies van de 24u-SMA, want relatieve sterkte in een zwakke tape is broos."
   },
   "lessons": [
     "Cap alts op max 25% zolang de 24u-breedte negatief is (minder dan een derde groen) en memecoins zoals PEPE op max 5%: mijn 45% alt-start verloor 5-6% tegen -2,8% voor BTC.",
