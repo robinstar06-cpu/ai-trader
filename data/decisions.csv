@@ -369,3 +369,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T07:30:44.401166+00:00,16-10-2026 09:30,z-ai/glm-5.3,BTC/USD,39.9,40.0,houden,,,"Anker op $82,1k boven 50d-MA; houdt risico in toeruimte voor alts"
 2026-10-16T07:30:44.401166+00:00,16-10-2026 09:30,z-ai/glm-5.3,FIL/USD,14.1,14.0,houden,,,+11% 24u en boven 20d/50d-MA; solide tweede momentumkern
 2026-10-16T07:30:44.401166+00:00,16-10-2026 09:30,z-ai/glm-5.3,UNI/USD,7.1,7.0,houden,,,"+7,7% 24u en positief op 7d, maar onder 20d-MA dus bewust klein"
+2026-10-16T08:00:50.788106+00:00,16-10-2026 10:00,z-ai/glm-5.3,ARB/USD,23.9,24.0,houden,,,"Sterkste momentum: +11,8% 24u, +9,4% 7d, boven alle MA's; winst meenemen bij RSI_1d >70 of verlies 24u-SMA."
+2026-10-16T08:00:50.788106+00:00,16-10-2026 10:00,z-ai/glm-5.3,BCH/USD,7.1,7.0,houden,,,"Stabiel, +6,2% 24u boven de 50d-MA; kleine diversificatie naast de kern."
+2026-10-16T08:00:50.788106+00:00,16-10-2026 10:00,z-ai/glm-5.3,BTC/USD,40.0,40.0,houden,,,"Anker boven de 50d-MA, houdt $82k; cash volgt pas bij breakout boven $83k."
+2026-10-16T08:00:50.788106+00:00,16-10-2026 10:00,z-ai/glm-5.3,FIL/USD,14.1,14.0,houden,,,"Dagtrend intact (boven 20d/50d-MA, +6% 7d) ondanks korte fading; zelfde stopregels als ARB."
+2026-10-16T08:00:50.788106+00:00,16-10-2026 10:00,z-ai/glm-5.3,UNI/USD,7.1,7.0,houden,,,"Enige groene positie (+1,4% P/L), +7,1% 24u; klein houden zolang de 50d-MA niet terug is."

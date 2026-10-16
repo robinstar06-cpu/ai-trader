@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-10-2026 09:30_
+_Laatst bijgewerkt: 16-10-2026 10:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,592.98** |
+| Waarde portefeuille | **$9,596.45** |
 | Cash | $752.24 (8%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.07%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.44% |
-| Verschil | -2.63% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.04%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.36% |
+| Verschil | -2.68% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.07%** |
+| Rendement deze periode | **-4.04%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.07% |
+| Daling vanaf de top ($10,000) | -4.04% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
 
 ## Marktvisie van de AI
 
-De breedte is maximaal (33/33 munten groen, mediaan +4,6% over 24u) en BTC houdt $82,1k boven de 50d-MA, maar de 7d-mediaan blijft -2,8% en BTC staat nog onder de 20d-MA: dit is een krachtige bounce binnen een zwakke wekelijkse trend. Greed 63 is volgens mijn lessen geen koopsignaal; prijsactie en breedte wegen zwaarder. Ik handhaaf daarom de huidige mix en houd ~8% cash als droog kruit tot er een echte bevestiging komt.
+De markt staat breed groen (33/33 munten, mediaan +4,3% over 24u), maar de 7d-mediaan blijft negatief (-2,5%): dit is een bounce binnen een correctie, nog geen trendkeer. BTC houdt $82,2k net boven de 50d-MA maar moet door $83k breken voor bevestiging. Al mijn risk-on triggers (breedte >50% groen, BTC >$80k) staan aan, dus ik houd de huidige mix aan en bewaar de cash voor het bevestigde signaal.
 
-## Strategie van de AI (sinds 16-10-2026 09:30)
+## Strategie van de AI (sinds 16-10-2026 10:00)
 
-Ik behoud BTC 40% als anker, ARB 24% en FIL 14% als momentumkern, UNI en BCH elk 7%, plus ~8% cash. Risico blijft aan zolang breedte >50% groen is en BTC $80k houdt. Cash zet ik alleen in bij een BTC-breakout boven $83k of een bevestigde dip (breedte >50% groen, uur-RSI terug boven 45). Bij BTC onder $80k of breedte <50% groen snijd ik de alts direct terug. ARB-winst neem ik snel mee bij RSI_1d boven 70 of verlies van de 24u-SMA, want relatieve sterkte in een zwakke tape is broos.
+Ik handhaaf de huidige mix: BTC 40% anker, ARB 24% en FIL 14% als momentumkern, UNI en BCH elk 7%, ~8% cash. Cash zet ik pas in bij een BTC-breakout boven $83k of een bevestigde dip (breedte >50% groen én uur-RSI >45). Alts snijd ik direct terug bij BTC <$80k of breedte <50% groen. ARB-winst neem ik snel mee bij RSI_1d >70 of verlies van de 24u-SMA; FIL krijgt dezelfde regel omdat de korte fading me opvalt. BAT (RSI_1d 71, parabolisch) en dunne munten zoals XTZ laat ik liggen: broze relatieve sterkte en churn kosten rendement. Schadebeperking gaat voor: eerst het gat stoppen, dan jagen op +20%.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,11 +41,11 @@ _Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,832.11 | 39.9% | -0.8% | 40.0% | Anker op $82,1k boven 50d-MA; houdt risico in toeruimte voor alts |
-| ARB/USD | $2,293.99 | 23.9% | -2.1% | 24.0% | Sterkste momentum: +12% 24u, +10% 7d, boven alle MAs, RSI_1d 53 nog niet overbought |
-| FIL/USD | $1,349.67 | 14.1% | -1.4% | 14.0% | +11% 24u en boven 20d/50d-MA; solide tweede momentumkern |
-| UNI/USD | $685.89 | 7.1% | +1.4% | 7.0% | +7,7% 24u en positief op 7d, maar onder 20d-MA dus bewust klein |
-| BCH/USD | $679.09 | 7.1% | +0.5% | 7.0% | Participeert goed in de bounce (+6,3% 24u); kleine diversificatie |
+| BTC/USD | $3,835.58 | 40.0% | -0.5% | 40.0% | Anker boven de 50d-MA, houdt $82k; cash volgt pas bij breakout boven $83k. |
+| ARB/USD | $2,293.99 | 23.9% | -2.1% | 24.0% | Sterkste momentum: +11,8% 24u, +9,4% 7d, boven alle MA's; winst meenemen bij RSI_1d >70 of verlies 24u-SMA. |
+| FIL/USD | $1,349.67 | 14.1% | -1.4% | 14.0% | Dagtrend intact (boven 20d/50d-MA, +6% 7d) ondanks korte fading; zelfde stopregels als ARB. |
+| UNI/USD | $685.89 | 7.1% | +1.4% | 7.0% | Enige groene positie (+1,4% P/L), +7,1% 24u; klein houden zolang de 50d-MA niet terug is. |
+| BCH/USD | $679.09 | 7.1% | +0.5% | 7.0% | Stabiel, +6,2% 24u boven de 50d-MA; kleine diversificatie naast de kern. |
 
 ## Orders deze run
 
@@ -59,6 +59,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-10-2026 10:00 | $9,596 | -4.04% | -1.36% | 0 |
 | 16-10-2026 09:30 | $9,593 | -4.07% | -1.44% | 0 |
 | 16-10-2026 09:00 | $9,584 | -4.16% | -1.49% | 1 |
 | 16-10-2026 08:30 | $9,577 | -4.23% | -1.64% | 1 |
@@ -70,7 +71,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-10-2026 05:30 | $9,555 | -4.45% | -1.66% | 1 |
 | 16-10-2026 05:00 | $9,573 | -4.27% | -1.66% | 1 |
 | 16-10-2026 04:30 | $9,580 | -4.20% | -1.61% | 1 |
-| 16-10-2026 04:00 | $9,599 | -4.01% | -1.60% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
