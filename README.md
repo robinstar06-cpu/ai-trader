@@ -1,18 +1,18 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-10-2026 07:00_
+_Laatst bijgewerkt: 16-10-2026 07:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,574.46** |
+| Waarde portefeuille | **$9,586.81** |
 | Cash | $393.92 (4%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.26%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.52% |
-| Verschil | -2.74% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.13%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.47% |
+| Verschil | -2.66% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.26%** |
+| Rendement deze periode | **-4.13%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.26% |
+| Daling vanaf de top ($10,000) | -4.13% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
 
@@ -37,10 +37,10 @@ _Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,826.42 | 40.0% | -1.0% | 40.0% |  |
+| BTC/USD | $3,830.38 | 40.0% | -0.9% | 40.0% |  |
 | ARB/USD | $2,196.59 | 22.9% | -2.0% | 22.9% |  |
-| FIL/USD | $1,344.30 | 14.0% | -1.7% | 14.0% |  |
-| UNI/USD | $678.68 | 7.1% | +0.3% | 7.1% |  |
+| FIL/USD | $1,349.67 | 14.1% | -1.4% | 14.1% |  |
+| UNI/USD | $681.69 | 7.1% | +0.7% | 7.1% |  |
 | BCH/USD | $673.01 | 7.0% | -0.4% | 7.0% |  |
 | CRV/USD | $461.55 | 4.8% | +0.4% | 4.8% |  |
 
@@ -59,6 +59,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-10-2026 07:30 | $9,587 | -4.13% | -1.47% | 0 |
 | 16-10-2026 07:00 | $9,574 | -4.26% | -1.52% | 0 |
 | 16-10-2026 06:30 | $9,563 | -4.37% | -1.60% | 2 |
 | 16-10-2026 06:00 | $9,568 | -4.32% | -1.57% | 0 |
@@ -70,7 +71,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-10-2026 03:00 | $9,625 | -3.75% | -1.30% | 0 |
 | 16-10-2026 02:30 | $9,611 | -3.89% | -1.23% | 3 |
 | 16-10-2026 02:00 | $9,655 | -3.45% | -1.42% | 0 |
-| 16-10-2026 01:30 | $9,653 | -3.47% | -1.41% | 1 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
