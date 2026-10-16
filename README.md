@@ -1,24 +1,20 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-10-2026 14:30_
+_Laatst bijgewerkt: 16-10-2026 15:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,724.76** |
+| Waarde portefeuille | **$9,709.90** |
 | Cash | $752.24 (8%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-2.75%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.30% |
-| Verschil | -1.45% |
+| Rendement AI sinds 14-10-2026 13:02 | **-2.90%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.65% |
+| Verschil | -1.25% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-2.75%** |
+| Rendement deze periode | **-2.90%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -2.75% |
-| Model | z-ai/glm-5.3 |
+| Daling vanaf de top ($10,000) | -2.90% |
+| Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
-
-## Marktvisie van de AI
-
-De breedte is maximaal: 33/33 munten groen met een mediaan van +6,0% over 24u, en BTC houdt $82,2k net boven de 50d-MA maar nog onder de 20d-MA. De 7d-mediaan blijft negatief (-0,9%), dus dit is nog een bounce binnen een correctie, geen bevestigde trend. ARB leidt met +17% over 24u op een 7d-hoog, al is de uur-RSI overbought.
 
 ## Strategie van de AI (sinds 16-10-2026 14:30)
 
@@ -41,11 +37,11 @@ _Dag 2 draait op -4,04% tegen -2,84% voor BTC: mijn alt-zware start (45% in ETH/
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,835.50 | 39.4% | -0.5% | 40.0% | Anker; houdt $82,2k boven 50d-MA, wacht op breakout $83k voor extra cash |
-| ARB/USD | $2,429.07 | 25.0% | +3.7% | 25.0% | Leider op 7d-hoog (+17% 24u); stop bij verlies 24u-SMA of RSI_1d >70 |
-| FIL/USD | $1,340.44 | 13.8% | -2.0% | 14.0% | Munt sterk (+14% 24u, boven alle gemiddelden); entree was slecht maar fundament houdt |
-| UNI/USD | $683.79 | 7.0% | +1.1% | 7.0% | Solide bounce +9,5% 24u, houden |
-| BCH/USD | $683.72 | 7.0% | +1.2% | 7.0% | Nabij 7d-hoog, positief momentum, houden |
+| BTC/USD | $3,824.09 | 39.4% | -0.8% | 39.4% |  |
+| ARB/USD | $2,429.07 | 25.0% | +3.7% | 25.0% |  |
+| FIL/USD | $1,340.44 | 13.8% | -2.0% | 13.8% |  |
+| UNI/USD | $683.79 | 7.0% | +1.1% | 7.0% |  |
+| BCH/USD | $680.27 | 7.0% | +0.7% | 7.0% |  |
 
 ## Orders deze run
 
@@ -54,12 +50,16 @@ Geen orders (verdeling blijft gelijk).
 ## Meldingen
 
 - Dagelijkse evaluatie mislukt: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its e
+- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
+- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-10-2026 15:00 | $9,710 | -2.90% | -1.65% | 0 |
 | 16-10-2026 14:30 | $9,725 | -2.75% | -1.30% | 0 |
 | 16-10-2026 14:00 | $9,734 | -2.65% | -0.94% | 0 |
 | 16-10-2026 13:30 | $9,742 | -2.58% | -0.71% | 0 |
@@ -71,7 +71,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-10-2026 10:30 | $9,582 | -4.18% | -1.38% | 0 |
 | 16-10-2026 10:00 | $9,596 | -4.04% | -1.36% | 0 |
 | 16-10-2026 09:30 | $9,593 | -4.07% | -1.44% | 0 |
-| 16-10-2026 09:00 | $9,584 | -4.16% | -1.49% | 1 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).

@@ -419,3 +419,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T12:30:41.761082+00:00,16-10-2026 14:30,z-ai/glm-5.3,BTC/USD,39.4,40.0,houden,,,"Anker; houdt $82,2k boven 50d-MA, wacht op breakout $83k voor extra cash"
 2026-10-16T12:30:41.761082+00:00,16-10-2026 14:30,z-ai/glm-5.3,FIL/USD,13.8,14.0,houden,,,"Munt sterk (+14% 24u, boven alle gemiddelden); entree was slecht maar fundament houdt"
 2026-10-16T12:30:41.761082+00:00,16-10-2026 14:30,z-ai/glm-5.3,UNI/USD,7.0,7.0,houden,,,"Solide bounce +9,5% 24u, houden"
+2026-10-16T13:00:57.657725+00:00,16-10-2026 15:00,,ARB/USD,25.0,25.0,houden,,,
+2026-10-16T13:00:57.657725+00:00,16-10-2026 15:00,,BCH/USD,7.0,7.0,houden,,,
+2026-10-16T13:00:57.657725+00:00,16-10-2026 15:00,,BTC/USD,39.4,39.4,houden,,,
+2026-10-16T13:00:57.657725+00:00,16-10-2026 15:00,,FIL/USD,13.8,13.8,houden,,,
+2026-10-16T13:00:57.657725+00:00,16-10-2026 15:00,,UNI/USD,7.0,7.0,houden,,,
