@@ -16,25 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-14T17:30:41.048940+00:00",
-      "time_local": "14-10-2026 19:30",
-      "model": "moonshotai/kimi-k3",
-      "targets": {
-        "BTC/USD": 55.0,
-        "ETH/USD": 19.0,
-        "BCH/USD": 15.0,
-        "PEPE/USD": 10.0
-      },
-      "summary": "De markt blijft breed zwak (0 van 33 omhoog, mediaan -2.4%) maar BTC houdt stand rond $81.8k met uur-RSI 33, oversold. Greed op 62 wijst op een correctie binnen een uptrend, geen trendbreuk.",
-      "equity": 9807.81,
-      "prices": {
-        "PEPE/USD": 4.09e-06,
-        "BTC/USD": 81802.55,
-        "ETH/USD": 2437.4,
-        "BCH/USD": 270.114
-      }
-    },
-    {
       "time": "2026-10-14T18:00:48.726241+00:00",
       "time_local": "14-10-2026 20:00",
       "model": "moonshotai/kimi-k3",
@@ -1806,12 +1787,25 @@
       "prices": {
         "BTC/USD": 81219.463
       }
+    },
+    {
+      "time": "2026-10-17T17:00:45.907006+00:00",
+      "time_local": "17-10-2026 19:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0
+      },
+      "summary": "De correctie zet onverminderd door: 0 van 33 munten groen over 24u, mediaan -2,64%, en de 7d-mediaan zakt naar -8,16%. BTC toont opnieuw relatieve kracht rond $81,2k (-0,24% over 24u), ruim boven mijn $80k-drempel, maar geen enkel bijkoopteken (breedte >50% groen, uur-RSI >45 of sluiting boven $83k)",
+      "equity": 9414.19,
+      "prices": {
+        "BTC/USD": 81150.3925
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T16:30:39.248662+00:00",
-    "time_local": "17-10-2026 18:30",
-    "text": "BTC blijft 40% anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De ~60% cash is een actieve positie en gaat pas richting 55-60% BTC zodra de 24u-breedte >50% groen is én de uur-RSI boven 45 komt, of BTC boven $83k sluit. Geen enkele nieuwe alt zolang de 7d-mediaan negatief blijft. Schadebeperking gaat vóór rendement-jagen: het +20%-doel vraagt nog ~+27% in 25 dagen, alleen haalbaar zonder nieuwe drawdown."
+    "time": "2026-10-17T17:00:45.907006+00:00",
+    "time_local": "17-10-2026 19:00",
+    "text": "BTC blijft mijn 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De ~60% cash blijft een actieve positie en gaat pas richting 55-60% BTC zodra de 24u-breedte >50% groen is én de uur-RSI boven 45 komt, of BTC boven $83k sluit. Geen enkele nieuwe alt zolang de 7d-mediaan (-8,2%) negatief blijft. Schadebeperking gaat vóór rendement-jagen: +27% in 25 dagen is alleen haalbaar zonder nieuwe drawdown, dus ik wacht op bevestiging en koop geen rijpe bounce aan."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
