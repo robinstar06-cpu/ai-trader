@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 17-10-2026 07:00_
+_Laatst bijgewerkt: 17-10-2026 07:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,498.19** |
+| Waarde portefeuille | **$9,502.06** |
 | Cash | $4,537.14 (48%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.02%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.27% |
-| Verschil | -2.75% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.98%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.19% |
+| Verschil | -2.79% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.02%** |
+| Rendement deze periode | **-4.98%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.02% |
+| Daling vanaf de top ($10,000) | -4.98% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
 ## Marktvisie van de AI
 
-De correctie zet onverminderd door: slechts 4 van 33 munten groen over 24u (mediaan -1,43%) en de 7d-mediaan staat op -5,49%. BTC balanceert op $81,4k, exact op zijn 50d-MA en ruim boven de $80k-drempel; FIL is de enige echte sterke alt (+4,4% over 24u, 24% boven 50d-MA). Fear & Greed zakt van 63 naar 55, maar breadth geeft nog geen enkel instapsignaal.
+De correctie verdiept: slechts 3/33 munten groen over 24u (mediaan -1,49%) en de 7d-mediaan staat op -5,49%. BTC balanceert op $81,5k, exact op zijn 50d-MA en ruim boven de $80k-trigger; Fear & Greed zakt van 63 naar 55. FIL is een van de weinige groene munten (+2,7% 24u) maar koelt af van zijn hoogtes.
 
-## Strategie van de AI (sinds 17-10-2026 07:00)
+## Strategie van de AI (sinds 17-10-2026 07:30)
 
-Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt (binnen de 10-15%-cap; uur-RSI 67 is verhit, dus niet bijkopen). Cash ~48% zet ik pas in bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k — nu 4/33 groen, dus wachten. Geen nieuwe alts zolang de 7d-mediaan (-5,49%) negatief is; rijpe bounces (DOT, BAT, BCH) niet najagen. Schadebeperking gaat voor rendement-jagen.
+Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt, maar uur-RSI 62 en range7d_pos 71 betekenen geen bijkopen. Cash ~48% zet ik pas in bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k — nu 3/33 groen, dus wachten. Geen nieuwe alts zolang de 7d-mediaan (-5,49%) negatief is; rijpe bounces (DOT, BAT, WIF) niet najagen. Schadebeperking gaat vóór rendement-jagen.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,8 +41,8 @@ _Dit venster verloor ik -2,77% tegen -1,85% voor BTC, vooral doordat ik mijn alt
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,799.01 | 40.0% | -1.4% | 40.0% | Anker zolang $80k houdt; nu exact op 50d-MA, bij sluiting onder $80k direct naar 25%. |
-| FIL/USD | $1,162.04 | 12.2% | -1.5% | 12.0% | Sterkste alt: groen op rode dag, 24% boven 50d-MA; cap 10-15%, uur-RSI 67 dus niet verhogen. |
+| BTC/USD | $3,802.88 | 40.0% | -1.3% | 40.0% | Anker boven $80k; 50d-MA houdt stand. Bij uur-sluiting < $80k direct naar 25%. |
+| FIL/USD | $1,162.04 | 12.2% | -1.5% | 12.0% | Sterkste alt (+2,7% 24u, +1,9% 7d) maar verhit; vasthouden, niet bijkopen. |
 
 ## Orders deze run
 
@@ -56,6 +56,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 17-10-2026 07:30 | $9,502 | -4.98% | -2.19% | 0 |
 | 17-10-2026 07:00 | $9,498 | -5.02% | -2.27% | 0 |
 | 17-10-2026 06:30 | $9,497 | -5.03% | -2.28% | 0 |
 | 17-10-2026 06:00 | $9,499 | -5.01% | -2.25% | 0 |
@@ -67,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 17-10-2026 03:00 | $9,470 | -5.30% | -2.24% | 0 |
 | 17-10-2026 02:30 | $9,474 | -5.26% | -2.20% | 1 |
 | 17-10-2026 02:00 | $9,481 | -5.19% | -2.17% | 0 |
-| 17-10-2026 01:30 | $9,482 | -5.18% | -2.13% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
