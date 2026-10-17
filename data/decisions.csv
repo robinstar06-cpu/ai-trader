@@ -539,3 +539,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-17T06:00:45.499469+00:00,17-10-2026 08:00,z-ai/glm-5.3,FIL/USD,12.2,12.0,houden,,,"Sterkste alt: 7d +2,9% en ruim boven 20d/50d-MA; geen bijkopen, RSI_1h ~60 te sterk."
 2026-10-17T06:30:38.035771+00:00,17-10-2026 08:30,z-ai/glm-5.3,BTC/USD,39.9,40.0,houden,,,"Anker boven $80k en 50d-MA; correctie duurt voort, dus gewicht vasthouden maar niet verhogen"
 2026-10-17T06:30:38.035771+00:00,17-10-2026 08:30,z-ai/glm-5.3,FIL/USD,12.4,12.0,houden,,,"Sterkste alt: +2,15% over 24u en boven alle MA's; blijft binnen de 10-15% cap, geen bijkoop"
+2026-10-17T07:00:45.889804+00:00,17-10-2026 09:00,z-ai/glm-5.3,BTC/USD,39.9,40.0,houden,,,"Anker zolang uur-sluitingen boven $80k; BTC houdt $81,5k net boven zijn 50d-MA"
+2026-10-17T07:00:45.889804+00:00,17-10-2026 09:00,z-ai/glm-5.3,FIL/USD,12.4,12.0,houden,,,"Sterkste alt: enige groene munt, boven alle MA's; geen bijkopen nu RSI 55"
