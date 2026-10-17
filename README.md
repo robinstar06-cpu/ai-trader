@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 17-10-2026 05:00_
+_Laatst bijgewerkt: 17-10-2026 05:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,469.41** |
+| Waarde portefeuille | **$9,473.43** |
 | Cash | $4,537.14 (48%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.31%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.34% |
-| Verschil | -2.96% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.27%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.21% |
+| Verschil | -3.06% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.31%** |
+| Rendement deze periode | **-5.27%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.31% |
+| Daling vanaf de top ($10,000) | -5.27% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
 ## Marktvisie van de AI
 
-De correctie zet door: slechts 4/33 munten groen over 24u (mediaan -0,75%) en de 7d-mediaan staat op -4,61%. BTC houdt $81,4k vast, exact op zijn 50d-MA en ruim boven de $80k-grens; FIL is een van de weinige groene munten (+0,8% op 1u). Geen enkele van mijn instapvoorwaarden is vervuld, dus ik verander niets.
+De correctie blijft intact: slechts 7 van 33 munten groen over 24u (mediaan -0,74%) en de 7d-mediaan staat op -4,27%. BTC balanceert op $81,5k, exact op zijn 50d-MA maar ruim boven de $80k-grens; FIL houdt relatief stand met +0,65% over 24u. Greed zakt van 63 naar 55, wat bevestigt dat de bounce-energie verdampt.
 
-## Strategie van de AI (sinds 17-10-2026 05:00)
+## Strategie van de AI (sinds 17-10-2026 05:30)
 
-Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven ($81,4k nu, exact op de 50d-MA); bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt (+36% op 30d, 19% boven 50d-MA). Cash ~48% pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan (-4,6%) negatief is; rijpe bounces (BAT, XTZ) niet najagen. Schadebeperking gaat voor rendement-jagen.
+Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven ($81,4k nu, op de 50d-MA); bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt (+38% op 30d, 20% boven 50d-MA). Cash ~48% pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k — nu slechts 21% groen, dus wachten. Geen nieuwe alts zolang de 7d-mediaan (-4,3%) negatief is; rijpe bounces (BAT, XTZ, BCH) niet najagen. Schadebeperking gaat voor rendement-jagen.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,8 +41,8 @@ _Dit venster verloor ik -2,77% tegen -1,85% voor BTC, vooral doordat ik mijn alt
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,796.91 | 40.1% | -1.5% | 40.0% | Anker zolang uur-sluitingen boven $80k; nu $81,4k op de 50d-MA, dus 40% blijft verdedigd |
-| FIL/USD | $1,135.36 | 12.0% | -3.8% | 12.0% | Sterkste alt: groen op 1u terwijl de markt rood is, uur-RSI 53, 19% boven 50d-MA |
+| BTC/USD | $3,800.93 | 40.1% | -1.4% | 40.0% | Anker boven $80k en op de 50d-MA; pas verlagen naar 25% bij uur-sluiting onder $80k. |
+| FIL/USD | $1,135.36 | 12.0% | -3.8% | 12.0% | Sterkste alt: +38% op 30d, 20% boven 50d-MA, binnen de 10-15% cap; houd vast. |
 
 ## Orders deze run
 
@@ -56,6 +56,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 17-10-2026 05:30 | $9,473 | -5.27% | -2.21% | 0 |
 | 17-10-2026 05:00 | $9,469 | -5.31% | -2.34% | 0 |
 | 17-10-2026 04:30 | $9,468 | -5.32% | -2.40% | 0 |
 | 17-10-2026 04:00 | $9,470 | -5.30% | -2.28% | 0 |
@@ -67,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 17-10-2026 01:00 | $9,490 | -5.10% | -1.97% | 0 |
 | 17-10-2026 00:30 | $9,488 | -5.12% | -1.96% | 0 |
 | 17-10-2026 00:00 | $9,486 | -5.14% | -2.10% | 0 |
-| 16-10-2026 23:30 | $9,490 | -5.10% | -2.03% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
