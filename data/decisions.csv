@@ -575,3 +575,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-17T15:00:48.122121+00:00,17-10-2026 17:00,z-ai/glm-5.3,FIL/USD,11.9,12.0,houden,,,Sterkste 7d van het veld en boven 20d/50d-sma; geen bijkoop in verlies
 2026-10-17T15:30:38.653432+00:00,17-10-2026 17:30,,BTC/USD,40.2,40.2,houden,,,
 2026-10-17T15:30:38.653432+00:00,17-10-2026 17:30,,FIL/USD,11.8,11.8,houden,,,
+2026-10-17T16:00:46.800259+00:00,17-10-2026 18:00,z-ai/glm-5.3,BTC/USD,40.2,40.0,houden,,,"Sterkste grote actief, houdt stand ruim boven $80k-stop; anker in de correctie."
+2026-10-17T16:00:46.800259+00:00,17-10-2026 18:00,z-ai/glm-5.3,FIL/USD,11.7,0.0,close,1101.21,verkocht (alles),
