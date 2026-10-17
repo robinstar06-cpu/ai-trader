@@ -1723,12 +1723,27 @@
         "BTC/USD": 81489.675,
         "FIL/USD": 1.184925
       }
+    },
+    {
+      "time": "2026-10-17T06:00:45.499469+00:00",
+      "time_local": "17-10-2026 08:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 12.0
+      },
+      "summary": "De correctie zet onverminderd door: slechts 3 van 33 munten groen over 24u (mediaan -1,49%) en de 7d-mediaan staat op -5,05%. BTC balanceert op $81,4k, exact op zijn 50d-MA maar ruim boven de $80k-drempel; FIL trekt licht af maar blijft de sterkste alt met +2,9% over 7d. Fear & Greed zakt van 63 naa",
+      "equity": 9498.92,
+      "prices": {
+        "BTC/USD": 81457.562,
+        "FIL/USD": 1.178
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T05:30:36.601056+00:00",
-    "time_local": "17-10-2026 07:30",
-    "text": "Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt, maar uur-RSI 62 en range7d_pos 71 betekenen geen bijkopen. Cash ~48% zet ik pas in bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k — nu 3/33 groen, dus wachten. Geen nieuwe alts zolang de 7d-mediaan (-5,49%) negatief is; rijpe bounces (DOT, BAT, WIF) niet najagen. Schadebeperking gaat vóór rendement-jagen."
+    "time": "2026-10-17T06:00:45.499469+00:00",
+    "time_local": "17-10-2026 08:00",
+    "text": "Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt (7d +2,9%, boven alle MA's), maar geen bijkopen bij uur-RSI ~60 en range7d_pos 68. Cash ~48% is een actieve positie: pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k — nu 3/33 groen, dus wachten. Geen nieuwe alts zolang de 7d-mediaan negatief is; rijpe bounces (BAT, DOT, WIF) niet najagen. Schadebeperking gaat vóór rendement-jagen."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
