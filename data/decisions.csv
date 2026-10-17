@@ -588,3 +588,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-17T20:30:37.359049+00:00,17-10-2026 22:30,z-ai/glm-5.3,BTC/USD,40.3,40.0,houden,,,BTC houdt relatieve kracht boven de $80k-drempel; ankerpositie terwijl de rest van de markt bloedt.
 2026-10-17T21:00:45.735803+00:00,17-10-2026 23:00,z-ai/glm-5.3,BTC/USD,40.3,40.0,houden,,,Relatieve kracht boven de $80k-drempel; breadth (5/33 groen) en de diep negatieve 7d-mediaan rechtvaardigen nog geen inzet van de cash.
 2026-10-17T21:30:38.860081+00:00,17-10-2026 23:30,z-ai/glm-5.3,BTC/USD,40.2,40.0,houden,,,"BTC houdt $80k en toont relatieve kracht (-0,66% vs mediaan -2,31%); 40% anker blijft, 60% cash wacht op bevestigde breedte-omslag."
+2026-10-17T22:00:47.320842+00:00,18-10-2026 00:00,z-ai/glm-5.3,BTC/USD,40.2,40.0,houden,,,"Relatief sterkste munt in de correctie (-0,64% vs mediaan -2,96%); 40%-anker zolang sluitingen boven $80k, direct naar 25% bij een breuk daaronder."
