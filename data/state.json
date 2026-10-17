@@ -1813,12 +1813,27 @@
         "FIL/USD": 1.15005,
         "BTC/USD": 81609.0505
       }
+    },
+    {
+      "time": "2026-10-17T09:00:46.783780+00:00",
+      "time_local": "17-10-2026 11:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 12.0
+      },
+      "summary": "De correctie zet onverminderd door: slechts 3 van 33 munten groen over 24u (mediaan -2,49%) en de 7d-mediaan staat op -5,33%. BTC houdt stand op $81,6k, net boven zijn 50d-MA en ruim boven de $80k-drempel, dus het 40%-anker blijft gerechtvaardigd. FIL blijft de sterkste alt (groen op 24u/7d/30d, bov",
+      "equity": 9507.34,
+      "prices": {
+        "FIL/USD": 1.14851,
+        "BTC/USD": 81613.6
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T08:30:36.783235+00:00",
-    "time_local": "17-10-2026 10:30",
-    "text": "Discipline vasthouden: BTC blijft 40%-anker zolang uur-sluitingen boven $80k blijven (nu $81,6k); bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt (groen op 24u/7d/30d, boven 20d/50d-MA), geen bijkoop zonder breedte-bevestiging. Cash ~48% blijft droog kruit tot 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is. Schadebeperking gaat vóór rendement-jagen: het +20%-doel vraagt eerst kapitaalbehoud en droog kruit klaar voor de omslag."
+    "time": "2026-10-17T09:00:46.783780+00:00",
+    "time_local": "17-10-2026 11:00",
+    "text": "Discipline vasthouden: BTC blijft 40%-anker zolang uur-sluitingen boven $80k blijven; bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt, geen bijkoop zonder breedte-bevestiging. Cash ~48% blijft droog kruit tot 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is. Schadebeperking gaat vóór rendement-jagen: het +20%-doel vraagt eerst kapitaalbehoud en klaarstaan voor de omslag."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",

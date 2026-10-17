@@ -1,14 +1,14 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 17-10-2026 10:30_
+_Laatst bijgewerkt: 17-10-2026 11:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,506.55** |
+| Waarde portefeuille | **$9,507.34** |
 | Cash | $4,537.14 (48%) |
 | Rendement AI sinds 14-10-2026 13:02 | **-4.93%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.05% |
-| Verschil | -2.89% |
+| Ter vergelijking: gewoon BTC vasthouden | -2.04% |
+| Verschil | -2.88% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
 | Rendement deze periode | **-4.93%** |
 | Gehaalde mijlpalen | nog geen |
@@ -18,11 +18,11 @@ _Laatst bijgewerkt: 17-10-2026 10:30_
 
 ## Marktvisie van de AI
 
-De correctie zet onverminderd door: slechts 3 van 33 munten groen over 24u (mediaan -2,31%) en de 7d-mediaan staat op -5,10%. BTC balanceert op $81,6k, net boven zijn 50d-MA en ruim boven de $80k-drempel, en is het relatieve-sterkteanker; FIL is de enige alt die groen staat op 24u, 7d én 30d. Fear & Greed zakt van 63 naar 55: geen enkel signaal om cash nu in te zetten.
+De correctie zet onverminderd door: slechts 3 van 33 munten groen over 24u (mediaan -2,49%) en de 7d-mediaan staat op -5,33%. BTC houdt stand op $81,6k, net boven zijn 50d-MA en ruim boven de $80k-drempel, dus het 40%-anker blijft gerechtvaardigd. FIL blijft de sterkste alt (groen op 24u/7d/30d, boven 20d/50d-MA), maar breedte-bevestiging voor bijkoop ontbreekt volledig.
 
-## Strategie van de AI (sinds 17-10-2026 10:30)
+## Strategie van de AI (sinds 17-10-2026 11:00)
 
-Discipline vasthouden: BTC blijft 40%-anker zolang uur-sluitingen boven $80k blijven (nu $81,6k); bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt (groen op 24u/7d/30d, boven 20d/50d-MA), geen bijkoop zonder breedte-bevestiging. Cash ~48% blijft droog kruit tot 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is. Schadebeperking gaat vóór rendement-jagen: het +20%-doel vraagt eerst kapitaalbehoud en droog kruit klaar voor de omslag.
+Discipline vasthouden: BTC blijft 40%-anker zolang uur-sluitingen boven $80k blijven; bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt, geen bijkoop zonder breedte-bevestiging. Cash ~48% blijft droog kruit tot 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is. Schadebeperking gaat vóór rendement-jagen: het +20%-doel vraagt eerst kapitaalbehoud en klaarstaan voor de omslag.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,8 +41,8 @@ _Dit venster verloor ik -2,77% tegen -1,85% voor BTC, vooral doordat ik mijn alt
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,807.37 | 40.0% | -1.1% | 40.0% | Relatieve sterkte: $81,6k boven 50d-MA en $80k-drempel; anker zolang de correctie aanhoudt. |
-| FIL/USD | $1,162.04 | 12.2% | -1.7% | 12.0% | Sterkste alt: groen op 24u/7d/30d en boven 20d/50d-MA; binnen 10-15%-kap, geen bijkoop zonder bevestiging. |
+| BTC/USD | $3,808.16 | 40.1% | -1.1% | 40.0% | Anker boven $80k en 50d-MA; uur-sluitingen houden stand, dus 40% blijft verdedigd |
+| FIL/USD | $1,162.04 | 12.2% | -1.7% | 12.0% | Sterkste alt: groen op 24u/7d/30d en boven 20d/50d-MA; geen bijkoop zonder breedte |
 
 ## Orders deze run
 
@@ -56,6 +56,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 17-10-2026 11:00 | $9,507 | -4.93% | -2.04% | 0 |
 | 17-10-2026 10:30 | $9,507 | -4.93% | -2.05% | 0 |
 | 17-10-2026 10:00 | $9,521 | -4.79% | -2.03% | 0 |
 | 17-10-2026 09:30 | $9,520 | -4.80% | -2.12% | 0 |
@@ -67,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 17-10-2026 06:30 | $9,497 | -5.03% | -2.28% | 0 |
 | 17-10-2026 06:00 | $9,499 | -5.01% | -2.25% | 0 |
 | 17-10-2026 05:30 | $9,473 | -5.27% | -2.21% | 0 |
-| 17-10-2026 05:00 | $9,469 | -5.31% | -2.34% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
