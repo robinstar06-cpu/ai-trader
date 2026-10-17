@@ -1558,12 +1558,27 @@
         "FIL/USD": 1.154065,
         "ARB/USD": 0.1910675
       }
+    },
+    {
+      "time": "2026-10-17T00:30:40.414575+00:00",
+      "time_local": "17-10-2026 02:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 12.0
+      },
+      "summary": "De correctie zet door: slechts 4 van 33 munten groen over 24u (mediaan -1,36%) en de 7d-mediaan staat op -3,95%. BTC houdt stand op $81,5k, boven de $80k-grens en zijn 50d-MA, maar breadth geeft geen enkel instapsignaal. ARB faalt mijn proef met uur-RSI 42 en gaat eruit; FIL blijft staan op 7d-relat",
+      "equity": 9479.78,
+      "prices": {
+        "BTC/USD": 81482.876,
+        "FIL/USD": 1.135315
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T00:00:49.650490+00:00",
-    "time_local": "17-10-2026 02:00",
-    "text": "BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; daaronder direct afbouwen naar 25%. FIL 12% blijft staan op 7d-relatieve kracht (+6,8%, boven alle MA's). ARB 11% staat op proef: uur-RSI 44.45 net onder mijn 45-grens; bij blijvend RSI<45 of 7d-verlies gaat hij eruit. Cash 37% zet ik pas in bij 24u-breedte >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is; schadebeperking gaat voor rendement-jagen."
+    "time": "2026-10-17T00:30:40.414575+00:00",
+    "time_local": "17-10-2026 02:30",
+    "text": "BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; daaronder direct naar 25%. ARB eruit: uur-RSI 42 persistend onder mijn 45-grens en de zwakste positie in de portefeuille. FIL 12% behouden: 7d +5,1%, ruim boven 20d- en 50d-MA. Cash naar ~48% als droog kruit; pas inzetten bij 24u-breedte >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is; schadebeperking gaat voor rendement-jagen."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
