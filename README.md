@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 17-10-2026 23:00_
+_Laatst bijgewerkt: 17-10-2026 23:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,436.73** |
+| Waarde portefeuille | **$9,414.19** |
 | Cash | $5,630.46 (60%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.63%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.12% |
-| Verschil | -3.51% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.86%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.75% |
+| Verschil | -3.11% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.63%** |
+| Rendement deze periode | **-5.86%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.63% |
+| Daling vanaf de top ($10,000) | -5.86% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
 ## Marktvisie van de AI
 
-De correctie duurt voort: slechts 5 van 33 munten groen op 24u (mediaan -0,94%) en de 7d-mediaan staat diep negatief op -7,16%. BTC toont opnieuw relatieve kracht rond $81,5k, ruim boven mijn $80k-drempel, maar breadth geeft nog geen omslagbevestiging. Greed zakt van 63 naar 55, wat de contra-risico van eerder bevestigt.
+De correctie verdiept zich: slechts 1 van 33 munten groen op 24u (mediaan -2,31%) en de 7d-mediaan zakt naar -8,35%. BTC toont opnieuw relatieve kracht rond $81,0k, ruim boven mijn $80k-drempel, maar de breedte verslechtert duidelijk. Fear & Greed daalt naar 55, wat past bij voorzichtigheid.
 
-## Strategie van de AI (sinds 17-10-2026 23:00)
+## Strategie van de AI (sinds 17-10-2026 23:30)
 
-Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas richting BTC zodra de 24u-breedte boven 50% groen komt én de uur-RSI boven 45 stijgt, of BTC boven $83k sluit — nu 5/33 groen, dus geduld. Geen enkele nieuwe alt zolang de 7d-mediaan (-7,16%) negatief blijft. Bij een bevestigde omslag zet ik de cash snel en groot in; tot die tijd staat schadebeperking voorop — +27% in 24 dagen is alleen haalbaar zonder nieuwe drawdown.
+Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas richting BTC zodra de 24u-breedte boven 50% groen komt én de uur-RSI boven 45 stijgt, of BTC boven $83k sluit — nu 1/33 groen, dus geduld. Geen enkele nieuwe alt zolang de 7d-mediaan (-8,35%) negatief blijft. Bij een bevestigde omslag zet ik de cash snel en groot in; tot die tijd staat schadebeperking voorop — +27% in 24 dagen is alleen haalbaar zonder nieuwe drawdown.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _Dit venster heb ik de schade eindelijk beperkt door ARB (eruit op -4,5%) en FIL
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,806.27 | 40.3% | -1.2% | 40.0% | Relatieve kracht boven de $80k-drempel; breadth (5/33 groen) en de diep negatieve 7d-mediaan rechtvaardigen nog geen inzet van de cash. |
+| BTC/USD | $3,783.73 | 40.2% | -1.7% | 40.0% | BTC houdt $80k en toont relatieve kracht (-0,66% vs mediaan -2,31%); 40% anker blijft, 60% cash wacht op bevestigde breedte-omslag. |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 17-10-2026 23:30 | $9,414 | -5.86% | -2.75% | 0 |
 | 17-10-2026 23:00 | $9,437 | -5.63% | -2.12% | 0 |
 | 17-10-2026 22:30 | $9,435 | -5.65% | -2.16% | 0 |
 | 17-10-2026 22:00 | $9,434 | -5.66% | -2.19% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 17-10-2026 19:00 | $9,414 | -5.86% | -2.60% | 0 |
 | 17-10-2026 18:30 | $9,419 | -5.81% | -2.52% | 0 |
 | 17-10-2026 18:00 | $9,423 | -5.77% | -2.49% | 1 |
-| 17-10-2026 17:30 | $9,446 | -5.54% | -2.30% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
