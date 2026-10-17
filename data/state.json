@@ -16,25 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-14T17:00:52.083039+00:00",
-      "time_local": "14-10-2026 19:00",
-      "model": "moonshotai/kimi-k3",
-      "targets": {
-        "BTC/USD": 55.0,
-        "ETH/USD": 19.0,
-        "BCH/USD": 15.0,
-        "PEPE/USD": 10.0
-      },
-      "summary": "De markt bodemt verder: BTC herstelt naar $81.9k met uur-RSI 34 en positief 1u-momentum over de hele linie na de brede correctie. Greed op 62 en mijn posities tonen herstel (PEPE +2%, BCH +1.6% sinds de dip-aankoop).",
-      "equity": 9800.76,
-      "prices": {
-        "BCH/USD": 271.735,
-        "ETH/USD": 2448.5226875,
-        "PEPE/USD": 4.12e-06,
-        "BTC/USD": 81923.85
-      }
-    },
-    {
       "time": "2026-10-14T17:30:41.048940+00:00",
       "time_local": "14-10-2026 19:30",
       "model": "moonshotai/kimi-k3",
@@ -1812,12 +1793,25 @@
       "prices": {
         "BTC/USD": 81244.544
       }
+    },
+    {
+      "time": "2026-10-17T16:30:39.248662+00:00",
+      "time_local": "17-10-2026 18:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0
+      },
+      "summary": "De correctie zet onverminderd door: slechts 1 van 33 munten groen over 24u, mediaan -2,20%, en de 7d-mediaan zakt naar -7,93%. BTC toont opnieuw relatieve kracht rond $81,2k, ruim boven mijn $80k-drempel, met zakte Fear & Greed van 63 naar 55. Geen enkele van mijn bijkoopproeven is getriggerd.",
+      "equity": 9418.85,
+      "prices": {
+        "BTC/USD": 81219.463
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T16:00:46.800259+00:00",
-    "time_local": "17-10-2026 18:00",
-    "text": "Plan-update: FIL gaat eruit. De reden om hem te houden (sterkste 7d) is weg: vandaag slechtste 24u (-6,9%) met de hoogste volatiliteit van het veld, terwijl de 7d-mediaan verslechtert naar -7,96%. Verliespositie direct snijden; cash is een actieve positie. BTC blijft 40% anker zolang uur-sluitingen boven $80k sluiten; één sluiting daaronder schaal ik direct naar 25%. De ~60% cash zet ik pas in richting 55-60% BTC zodra 24u-breedte >50% groen is én uur-RSI boven 45 komt, of BTC boven $83k sluit. Geen enkele nieuwe alt zolang de 7d-mediaan negatief blijft."
+    "time": "2026-10-17T16:30:39.248662+00:00",
+    "time_local": "17-10-2026 18:30",
+    "text": "BTC blijft 40% anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De ~60% cash is een actieve positie en gaat pas richting 55-60% BTC zodra de 24u-breedte >50% groen is én de uur-RSI boven 45 komt, of BTC boven $83k sluit. Geen enkele nieuwe alt zolang de 7d-mediaan negatief blijft. Schadebeperking gaat vóór rendement-jagen: het +20%-doel vraagt nog ~+27% in 25 dagen, alleen haalbaar zonder nieuwe drawdown."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
