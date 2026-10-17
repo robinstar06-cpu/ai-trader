@@ -1603,12 +1603,27 @@
         "FIL/USD": 1.137355,
         "BTC/USD": 81420.9645
       }
+    },
+    {
+      "time": "2026-10-17T02:00:44.075944+00:00",
+      "time_local": "17-10-2026 04:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 12.0
+      },
+      "summary": "De correctie blijft intact: slechts 7 van 33 munten groen over 24u (mediaan -1,02%) en de 7d-mediaan staat op -5,02%. BTC houdt $81,4k vast, net boven zijn 50d-MA en ruim boven de $80k-grens, maar breadth (21% groen) en uur-RSI 44,6 geven geen enkel bijkoopsignaal. Fear & Greed zakt van 63 naar 55; ",
+      "equity": 9469.99,
+      "prices": {
+        "BTC/USD": 81420.25,
+        "FIL/USD": 1.13735
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T01:30:36.714146+00:00",
-    "time_local": "17-10-2026 03:30",
-    "text": "Plan ongewijzigd: schadebeperking gaat voor rendement-jagen, want -5,3% op dag 3 vraagt nog +27% zonder nieuwe drawdown. BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; daaronder direct naar 25%. FIL 12% behouden als sterkste alt. Cash ~48% pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is; rijpe bounces (BAT, XTZ) niet najagen."
+    "time": "2026-10-17T02:00:44.075944+00:00",
+    "time_local": "17-10-2026 04:00",
+    "text": "Plan ongewijzigd: schadebeperking gaat voor rendement-jagen, want -5,3% op dag 3 vraagt nog ~+27% zonder nieuwe drawdown. BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; daaronder direct naar 25%. FIL 12% behouden als sterkste alt (+35% op 30d, 18% boven 50d-MA). Cash ~48% pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is; rijpe bounces (BAT, XTZ) niet najagen."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
