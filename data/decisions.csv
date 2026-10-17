@@ -571,3 +571,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-17T14:00:46.995831+00:00,17-10-2026 16:00,z-ai/glm-5.3,FIL/USD,11.9,12.0,houden,,,"Relatief sterkste alt (7d -0,15% vs mediaan -7,56%, boven 20d/50d-sma); geen bijkoop want positie staat in verlies."
 2026-10-17T14:30:39.767869+00:00,17-10-2026 16:30,z-ai/glm-5.3,BTC/USD,40.1,40.0,houden,,,Anker zolang uur-sluitingen boven $80k; relatief sterkste grote munt in de correctie
 2026-10-17T14:30:39.767869+00:00,17-10-2026 16:30,z-ai/glm-5.3,FIL/USD,11.9,12.0,houden,,,"Relatief sterkst op 7d en boven 20d/50d-sma; binnen alt-cap, geen bijkoop in verlies"
+2026-10-17T15:00:48.122121+00:00,17-10-2026 17:00,z-ai/glm-5.3,BTC/USD,40.1,40.0,houden,,,"Ankerpositie; houdt $81,5k ruim boven $80k-drempel en 50d-sma, relatief sterkst vs mediaan"
+2026-10-17T15:00:48.122121+00:00,17-10-2026 17:00,z-ai/glm-5.3,FIL/USD,11.9,12.0,houden,,,Sterkste 7d van het veld en boven 20d/50d-sma; geen bijkoop in verlies
