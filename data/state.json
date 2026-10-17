@@ -8,32 +8,13 @@
     "milestones": []
   },
   "peak_equity": 10000.0,
-  "last_review": "2026-10-16T17:30:39.191579+00:00",
+  "last_review": "2026-10-17T19:00:45.433036+00:00",
   "start": {
     "time": "2026-10-14T11:02:53.675394+00:00",
     "equity": 10000.0,
     "btc_price": 83316.4785
   },
   "history": [
-    {
-      "time": "2026-10-14T19:30:41.074826+00:00",
-      "time_local": "14-10-2026 21:30",
-      "model": "moonshotai/kimi-k3",
-      "targets": {
-        "BTC/USD": 55.0,
-        "ETH/USD": 19.0,
-        "BCH/USD": 15.0,
-        "PEPE/USD": 10.0
-      },
-      "summary": "De markt blijft breed zwak (0 van 33 omhoog, mediaan -3.6%) maar BTC houdt stand rond $81.7k met uur-RSI 34, oversold. Positief 1u-momentum bij vrijwel alle munten suggereert bodemvorming; Greed op 62 ondersteunt een correctie-binnen-uptrend.",
-      "equity": 9774.89,
-      "prices": {
-        "PEPE/USD": 4.065e-06,
-        "BTC/USD": 81702.5145,
-        "ETH/USD": 2430.25,
-        "BCH/USD": 269.869
-      }
-    },
     {
       "time": "2026-10-14T20:00:48.063364+00:00",
       "time_local": "14-10-2026 22:00",
@@ -1782,22 +1763,35 @@
       "prices": {
         "BTC/USD": 81445.4905
       }
+    },
+    {
+      "time": "2026-10-17T19:00:45.433036+00:00",
+      "time_local": "17-10-2026 21:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0
+      },
+      "summary": "De correctie verzwakt maar is nog niet voorbij: 9 van 33 munten groen op 24u (mediaan -1,19%) en de 7d-mediaan staat nog steeds diep negatief op -7,30%. BTC toont opnieuw relatieve kracht rond $81,4k, ruim boven mijn $80k-drempel, maar de breedte-bevestiging voor meer risico ontbreekt. Ik blijf in m",
+      "equity": 9428.19,
+      "prices": {
+        "BTC/USD": 81397.65
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T18:30:40.282333+00:00",
-    "time_local": "17-10-2026 20:30",
-    "text": "Ik volg mijn plan strikt: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De ~60% cash gaat pas richting 55-60% BTC zodra de 24u-breedte boven 50% groen komt én de uur-RSI boven 45 stijgt, of BTC boven $83k sluit. De lichte groene uurtjes (+0,3-1,6% op 1u breed) zijn nog geen bevestiging — dit is nog steeds een bounce binnen een correctie. Geen enkele nieuwe alt zolang de 7d-mediaan negatief blijft; de rijpe BAT-bounce (+44% 7d, -4,7% op 24u) koop ik zeker niet achteraan. Schadebeperking gaat voorop: +27% in 25 dagen is alleen haalbaar zonder nieuwe drawdown."
+    "time": "2026-10-17T19:00:45.433036+00:00",
+    "time_local": "17-10-2026 21:00",
+    "text": "Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas de markt in (richting 55-60% BTC) zodra de 24u-breedte boven 50% groen komt én de uur-RSI boven 45 stijgt, of BTC boven $83k sluit — nu is dat 9/33 groen, dus wachten. Geen enkele nieuwe alt zolang de 7d-mediaan (-7,30%) negatief blijft; de rijpe BAT-bounce (+42% 7d, -5,2% op 24u) koop ik niet achteraan. Schadebeperking gaat voorop: +27% in 24 dagen is alleen haalbaar zonder nieuwe drawdown."
   },
   "lessons": [
-    "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
-    "Koop niet achter een rijpe bounce aan: bij 33/33 munten groen met een 24u-mediaan van +5% is de move al gemaakt. ARB optrekken naar 25% op dat moment leverde -4,9% op; wacht op consolidatie of een positieve 7d-mediaan.",
-    "Doe wat je zelf noteert: ik schreef herhaaldelijk 'bounce binnen een correctie' maar positioneerde als bij een trendomslag. Luidt de diagnose correctie, dan hoort daar max 25-30% alts en 15%+ cash bij.",
-    "Verhoog geen verliezende positie in een dalende markt: ARB groeide van 7% naar 25% terwijl het zelf -2% tot -5% verloor. Vergroot alléén posities die in de winst staan en kap één enkele alt op 10-15%.",
-    "Kooperkoop niet op oversold-RSI alleen: eis bevestiging via 24u-breedte boven 50% groen én uur-RSI terug boven 45 voordat je bijkoopt.",
-    "Behandel Fear & Greed als contra-signaal: Greed 63 op de top van de bounce was een reduceermoment, geen risk-on bevestiging. Prijsactie en 7d-breedte wegen zwaarder dan sentiment.",
-    "Snijd de zwakste posities direct en houd cash als actieve positie: CRV en RENDER eruit was goed, maar cash van 19% naar 7% terugbrengen midden in de correctie haalde de rem van het risico.",
-    "Met -5,52% op dag 3 vraagt het +20%-doel nog +27% in 25 dagen: alleen haalbaar zonder nieuwe drawdown, dus schadebeperking gaat vóór rendement-jagen."
+    "Schaal alts naar 0-10% zodra de 7d-mediaan -5% of dieper staat: 'onder 25%' was dit venster niet genoeg — FIL en ARB (samen 23%) bleven verliezen (-3% tot -10%) terwijl BTC vlak bleef. De diepte van de correctie bepaalt het alt-plafond, niet alleen h",
+    "Koop niet achter een rijpe bounce en vergroot nooit een verliezende positie: ARB optrekken naar 25% bij 33/33 munten groen leverde -4,9% op; vergroot alleen posities die in de winst staan en kap één alt af op 10-15%.",
+    "Handel dezelfde dag nog naar je eigen diagnose: ik schreef ruim 12 uur 'correctie zet door' voor ik ARB en FIL eruit deed, en FIL zakte ondertussen van -5% naar -10%. Luidt de diagnose correctie, dan snijd je direct naar max 25-30% alts.",
+    "Verkoop verliezers in stabilisatie, niet in een flush: FIL eruit op -2,9% na de -10%-dip was een goede exit. Wacht bij een hard zakkende positie op een bounce richting de 24u-grens, maar zet de verkoop dan ook echt door.",
+    "Koop niet terug op oversold-RSI alleen: eis 24u-breedte boven 50% groen én een 7d-mediaan die zichtbaar richting 0 klomt voordat cash weer de markt ingaat.",
+    "Behandel Fear & Greed als contra-signaal: Greed 63 op de bouncetop was een reduceermoment, geen risk-on-bevestiging; prijsactie en 7d-breedte wegen zwaarder dan sentiment.",
+    "Cash is een actieve positie: de verhoging naar 60% cash door ARB en FIL te snijden stopte het bloeden. Houd cash hoog zolang 0/33 munten groen staan en laat het alleen los bij een bevestigde omslag.",
+    "Met -5,72% op dag 4 vraagt het +20%-doel ~+27% in 24 dagen: alleen haalbaar zonder nieuwe drawdown én door de omslag vroeg te pakken — schadebeperking gaat vóór rendement-jagen tot de 7d-mediaan positief draait."
   ],
-  "review_assessment": "Dit venster verloor ik -2,77% tegen -1,85% voor BTC, vooral doordat ik mijn altgewicht van 21% naar 53% optrok (ARB naar 25%, FIL naar 15%) tijdens een bounce waarvan ik zelf herhaaldelijk noteerde dat het geen trendomslag was. De diagnose in mijn notities was consequent juist, maar de positionering volgde niet: ARB (-4,9%) en FIL (-3,8%) waren de hoofdschuldigen. Met -5,52% op dag 3 is het +20%-doel alleen nog haalbaar als ik direct stop met risico opbouwen in een correctie."
+  "review_assessment": "Dit venster heb ik de schade eindelijk beperkt door ARB (eruit op -4,5%) en FIL (eruit op -2,9% na een dip naar -10%) te knippen naar 40% BTC + 60% cash, maar het duurde te lang: ik noteerde ruim twaalf uur 'correctie zet door' voor ik doorschoot. Het vensterresultaat (-0,35% vs BTC +0,13%) is dus vooral een gemiste kans geweest, geen ramp. Met -5,72% op dag 4 tegen BTC -2,30% is het +20%-doel ver weg (~+27% in 24 dagen); het enige realistische pad is eerst geen nieuwe drawdown en daarna een trendomslag vroeg vangen."
 }
