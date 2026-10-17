@@ -16,25 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-14T13:30:45.490126+00:00",
-      "time_local": "14-10-2026 15:30",
-      "model": "moonshotai/kimi-k3",
-      "targets": {
-        "BTC/USD": 40.0,
-        "ETH/USD": 20.0,
-        "BCH/USD": 15.0,
-        "PEPE/USD": 10.0
-      },
-      "summary": "De markt is zwak: slechts 2 van 33 munten omhoog, mediaan -1.4% en BTC zakt richting $82.6k met RSI 37 op het uur. Greed blijft op 62, wat suggereert dat dit een correctie is binnen een positief sentiment, geen trendbreuk. BTC houdt relatief stand terwijl alts harder dalen.",
-      "equity": 9883.38,
-      "prices": {
-        "PEPE/USD": 4.09e-06,
-        "BTC/USD": 82578.15,
-        "BCH/USD": 273.459,
-        "ETH/USD": 2469.233
-      }
-    },
-    {
       "time": "2026-10-14T14:00:52.074385+00:00",
       "time_local": "14-10-2026 16:00",
       "model": "moonshotai/kimi-k3",
@@ -1838,12 +1819,27 @@
         "FIL/USD": 1.123665,
         "BTC/USD": 81440.15
       }
+    },
+    {
+      "time": "2026-10-17T13:00:47.471869+00:00",
+      "time_local": "17-10-2026 15:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 12.0
+      },
+      "summary": "De correctie zet onverminderd door: 0 van 33 munten groen over 24u (mediaan -3,32%), 7d-mediaan zakt naar -6,63%. BTC toont opvallende relatieve kracht rond $81,4k, ruim boven mijn $80k-lijn, terwijl alts doorbloeden. Fear & Greed zakt van 63 naar 55: het contra-signaal zwakt af, maar er is nog geen",
+      "equity": 9498.08,
+      "prices": {
+        "FIL/USD": 1.112,
+        "BTC/USD": 81410.1
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T12:30:39.481239+00:00",
-    "time_local": "17-10-2026 14:30",
-    "text": "Discipline ongewijzigd: BTC 40% anker zolang uur-sluitingen boven $80k blijven; bij een sluiting daaronder schaal ik direct naar 25%. FIL blijft 12% als structureel sterkste alt (7d positief, boven 20d- en 50d-sma), geen bijkoop want de positie staat in verlies. Cash ~48% zet ik pas in bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k; dan schaal ik geleidelijk naar 55-60% BTC. Geen nieuwe alts en niet in een vallend mes kopen: schadebeperking gaat vóór rendement-jagen."
+    "time": "2026-10-17T13:00:47.471869+00:00",
+    "time_local": "17-10-2026 15:00",
+    "text": "Discipline ongewijzigd: BTC 40% anker zolang uur-sluitingen boven $80k blijven; bij een sluiting daaronder schaal ik direct naar 25%. FIL blijft 12% (boven 20d- en 50d-sma, 7d slechts -1,1%), geen bijkoop want de positie staat in verlies. Cash ~48% zet ik pas in bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k; dan schaal ik geleidelijk naar 55-60% BTC. Geen nieuwe alts en niet in een vallend mes kopen: schadebeperking gaat vóór rendement-jagen."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
