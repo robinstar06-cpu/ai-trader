@@ -1618,12 +1618,27 @@
         "BTC/USD": 81420.25,
         "FIL/USD": 1.13735
       }
+    },
+    {
+      "time": "2026-10-17T02:30:39.133357+00:00",
+      "time_local": "17-10-2026 04:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 12.0
+      },
+      "summary": "De correctie zet door: slechts 4/33 munten groen over 24u en de 7d-mediaan staat op -5,13%. BTC balanceert op $81,3k, exact op zijn 50d-MA; $80k blijft de beslissende grens. Geen bevestiging voor cash-inzet: breedte ver onder 50% groen en uur-RSI 42,8 onder mijn drempel.",
+      "equity": 9467.53,
+      "prices": {
+        "BTC/USD": 81319.5445,
+        "FIL/USD": 1.1481
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T02:00:44.075944+00:00",
-    "time_local": "17-10-2026 04:00",
-    "text": "Plan ongewijzigd: schadebeperking gaat voor rendement-jagen, want -5,3% op dag 3 vraagt nog ~+27% zonder nieuwe drawdown. BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; daaronder direct naar 25%. FIL 12% behouden als sterkste alt (+35% op 30d, 18% boven 50d-MA). Cash ~48% pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is; rijpe bounces (BAT, XTZ) niet najagen."
+    "time": "2026-10-17T02:30:39.133357+00:00",
+    "time_local": "17-10-2026 04:30",
+    "text": "Plan ongewijzigd: schadebeperking gaat voor rendement-jagen, want -5,3% op dag 3 vraagt nog ~+27% zonder nieuwe drawdown. BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven ($81,3k nu); daaronder direct naar 25%. FIL blijft 12% als sterkste alt (+37% op 30d, 19% boven 50d-MA). Cash ~48% pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is; rijpe bounces (BAT, XTZ) niet najagen."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
