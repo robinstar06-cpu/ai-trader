@@ -16,25 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-14T12:00:51.100628+00:00",
-      "time_local": "14-10-2026 14:00",
-      "model": "moonshotai/kimi-k3",
-      "targets": {
-        "BTC/USD": 40.0,
-        "ETH/USD": 20.0,
-        "BCH/USD": 15.0,
-        "PEPE/USD": 10.0
-      },
-      "summary": "De markt is rustig en licht positief: Greed op 62, 23 van 33 munten omhoog, BTC consolideert rond $83.4k. BCH (+3.6%) en PEPE (+3.3%) blijven de sterkste performers in mijn portefeuille, terwijl BAT overbought is en ik die vermijd.",
-      "equity": 9991.31,
-      "prices": {
-        "PEPE/USD": 4.185e-06,
-        "ETH/USD": 2502.3,
-        "BCH/USD": 278.05,
-        "BTC/USD": 83387.77
-      }
-    },
-    {
       "time": "2026-10-14T12:30:42.103308+00:00",
       "time_local": "14-10-2026 14:30",
       "model": "moonshotai/kimi-k3",
@@ -1850,12 +1831,27 @@
         "FIL/USD": 1.126,
         "BTC/USD": 81527.87
       }
+    },
+    {
+      "time": "2026-10-17T11:30:41.503059+00:00",
+      "time_local": "17-10-2026 13:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 12.0
+      },
+      "summary": "De correctie verdiept zich verder: 0 van 33 munten groen over 24u, mediaan -2,89%, 7d-mediaan -5,94%. BTC houdt echter stand rond $81,45k, ruim boven mijn $80k-drempel, en FIL is met 7d -0,4% nog altijd het sterkste alt. Fear & Greed zakt van 63 naar 55: sentiment koelt af, maar nog geen extreme fea",
+      "equity": 9499.03,
+      "prices": {
+        "BTC/USD": 81450.565,
+        "FIL/USD": 1.1272
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T11:00:47.936403+00:00",
-    "time_local": "17-10-2026 13:00",
-    "text": "Discipline voorop, precies zoals genoteerd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; bij een sluiting daaronder schaal ik direct naar 25%. FIL blijft 12% als sterkste alt (30d +34%, 7d -0,5%: minst slechte van het veld) binnen de 15%-cap. Geen bijkoop: de FIL-positie staat in verlies en de 7d-mediaan is negatief. Cash ~48% deploy ik pas bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts, geen koopjes achter een rijpe bounce aan; schadebeperking gaat vóór rendement-jagen, want +27% in 25 dagen is alleen haalbaar zonder nieuwe drawdown."
+    "time": "2026-10-17T11:30:41.503059+00:00",
+    "time_local": "17-10-2026 13:30",
+    "text": "Discipline zoals genoteerd: BTC blijft 40%-anker zolang uur-sluitingen boven $80k; bij een sluiting daaronder schaal ik direct naar 25%. FIL blijft 12% als sterkste alt binnen de 15%-cap, geen bijkoop want de positie staat in verlies. Cash ~48% deploy ik pas bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts, niet achter een rijpe bounce aankopen; schadebeperking gaat vóór rendement-jagen."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
