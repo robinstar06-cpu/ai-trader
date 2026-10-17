@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 17-10-2026 20:00_
+_Laatst bijgewerkt: 17-10-2026 20:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,419.96** |
+| Waarde portefeuille | **$9,430.02** |
 | Cash | $5,630.46 (60%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.80%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.45% |
-| Verschil | -3.35% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.70%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.25% |
+| Verschil | -3.45% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.80%** |
+| Rendement deze periode | **-5.70%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.80% |
+| Daling vanaf de top ($10,000) | -5.70% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
 ## Marktvisie van de AI
 
-De correctie zet onverminderd door: slechts 2 van 33 munten groen over 24u (mediaan -1,68%) en de 7d-mediaan staat op -7,53%. BTC toont opnieuw relatieve kracht rond $81,3k (+0,22% op 24u, ruim boven mijn $80k-drempel), maar de bevestigingssignalen voor bijkopen (24u-breedte boven 50% groen, uur-RSI boven 45, of sluiting boven $83k) ontbreken allemaal: uur-RSI is 42,9 en de breedte blijft extreem zwak.
+De correctie verzwakt wat maar is niet voorbij: 8 van 33 munten groen op 24u (mediaan -0,71%) en de 7d-mediaan blijft diep negatief (-7,15%). BTC toont opnieuw relatieve kracht rond $81,4k, ruim boven mijn $80k-drempel, maar de bevestigingsvoorwaarden voor bijkoop (breedte boven 50% groen of sluiting boven $83k) zijn nog lang niet vervuld. Sentiment zakt van Greed 63 naar 55, passend bij een voortdurende correctie.
 
-## Strategie van de AI (sinds 17-10-2026 20:00)
+## Strategie van de AI (sinds 17-10-2026 20:30)
 
-Ik volg mijn plan strikt: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De ~60% cash gaat pas richting 55-60% BTC zodra de 24u-breedte boven 50% groen komt én de uur-RSI boven 45 stijgt, of BTC boven $83k sluit. De lichte groene uurtjes (+0,3-0,9% op 1u bij veel munten) zijn nog geen bevestiging — dit is naar alle waarschijnlijkheid een bounce binnen een correctie. Geen enkele nieuwe alt zolang de 7d-mediaan negatief blijft; de rijpe BAT-bounce (+43% 7d, -5,5% op 24u) koop ik niet achteraan. Schadebeperking gaat voorop: +27% in 25 dagen is alleen haalbaar zonder nieuwe drawdown.
+Ik volg mijn plan strikt: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De ~60% cash gaat pas richting 55-60% BTC zodra de 24u-breedte boven 50% groen komt én de uur-RSI boven 45 stijgt, of BTC boven $83k sluit. De lichte groene uurtjes (+0,3-1,6% op 1u breed) zijn nog geen bevestiging — dit is nog steeds een bounce binnen een correctie. Geen enkele nieuwe alt zolang de 7d-mediaan negatief blijft; de rijpe BAT-bounce (+44% 7d, -4,7% op 24u) koop ik zeker niet achteraan. Schadebeperking gaat voorop: +27% in 25 dagen is alleen haalbaar zonder nieuwe drawdown.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _Dit venster verloor ik -2,77% tegen -1,85% voor BTC, vooral doordat ik mijn alt
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,789.50 | 40.2% | -1.6% | 40.0% | Ankerpositie: BTC houdt $80k met relatieve kracht; bevestiging voor bijkopen ontbreekt, dus 60% cash blijft actieve positie |
+| BTC/USD | $3,799.56 | 40.3% | -1.3% | 40.0% | Ankerpositie: BTC houdt boven $80k met relatieve kracht; geen bevestiging voor bijkoop of verlaging. |
 
 ## Orders deze run
 
@@ -56,6 +56,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 17-10-2026 20:30 | $9,430 | -5.70% | -2.25% | 0 |
 | 17-10-2026 20:00 | $9,420 | -5.80% | -2.45% | 0 |
 | 17-10-2026 19:30 | $9,417 | -5.83% | -2.58% | 0 |
 | 17-10-2026 19:00 | $9,414 | -5.86% | -2.60% | 0 |
@@ -67,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 17-10-2026 16:00 | $9,466 | -5.34% | -2.32% | 0 |
 | 17-10-2026 15:30 | $9,458 | -5.42% | -2.27% | 0 |
 | 17-10-2026 15:00 | $9,498 | -5.02% | -2.29% | 0 |
-| 17-10-2026 14:30 | $9,499 | -5.01% | -2.25% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
