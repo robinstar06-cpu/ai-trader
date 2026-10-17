@@ -1588,12 +1588,27 @@
         "BTC/USD": 81451.2505,
         "FIL/USD": 1.14097
       }
+    },
+    {
+      "time": "2026-10-17T01:30:36.714146+00:00",
+      "time_local": "17-10-2026 03:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 12.0
+      },
+      "summary": "De correctie zet door: 8/33 munten groen over 24u (mediaan -0,95%) en de 7d-mediaan staat op -4,79%. BTC houdt $81,4k vast, net boven zijn 50d-MA en ruim boven de $80k-grens; Greed zakt van 63 naar 55. FIL blijft de sterkste alt met 7d +4,2% ruim boven zijn 20d- en 50d-MA.",
+      "equity": 9472.81,
+      "prices": {
+        "FIL/USD": 1.137355,
+        "BTC/USD": 81420.9645
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T01:00:47.650230+00:00",
-    "time_local": "17-10-2026 03:00",
-    "text": "BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; daaronder direct naar 25%. FIL 12% behouden: 7d +4,5%, ruim boven 20d- en 50d-MA, sterkste alt in het veld. Cash ~48% blijft droog kruit; pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is (-4,5%); schadebeperking gaat voor rendement-jagen."
+    "time": "2026-10-17T01:30:36.714146+00:00",
+    "time_local": "17-10-2026 03:30",
+    "text": "Plan ongewijzigd: schadebeperking gaat voor rendement-jagen, want -5,3% op dag 3 vraagt nog +27% zonder nieuwe drawdown. BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; daaronder direct naar 25%. FIL 12% behouden als sterkste alt. Cash ~48% pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is; rijpe bounces (BAT, XTZ) niet najagen."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",

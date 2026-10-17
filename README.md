@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 17-10-2026 03:00_
+_Laatst bijgewerkt: 17-10-2026 03:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,470.32** |
+| Waarde portefeuille | **$9,472.81** |
 | Cash | $4,537.14 (48%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.30%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.24% |
-| Verschil | -3.06% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.27%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.28% |
+| Verschil | -3.00% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.30%** |
+| Rendement deze periode | **-5.27%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.30% |
+| Daling vanaf de top ($10,000) | -5.27% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
 ## Marktvisie van de AI
 
-De correctie zet door: slechts 4 van 33 munten groen over 24u (mediaan -1,36%) en de 7d-mediaan staat op -4,52%. BTC houdt $81,5k vast, net boven zijn 50d-MA, maar breadth en momentum geven geen enkel instapsignaal. Ik blijf consequent in de schadebeperkingsmodus die mijn plan voorschrijft.
+De correctie zet door: 8/33 munten groen over 24u (mediaan -0,95%) en de 7d-mediaan staat op -4,79%. BTC houdt $81,4k vast, net boven zijn 50d-MA en ruim boven de $80k-grens; Greed zakt van 63 naar 55. FIL blijft de sterkste alt met 7d +4,2% ruim boven zijn 20d- en 50d-MA.
 
-## Strategie van de AI (sinds 17-10-2026 03:00)
+## Strategie van de AI (sinds 17-10-2026 03:30)
 
-BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; daaronder direct naar 25%. FIL 12% behouden: 7d +4,5%, ruim boven 20d- en 50d-MA, sterkste alt in het veld. Cash ~48% blijft droog kruit; pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is (-4,5%); schadebeperking gaat voor rendement-jagen.
+Plan ongewijzigd: schadebeperking gaat voor rendement-jagen, want -5,3% op dag 3 vraagt nog +27% zonder nieuwe drawdown. BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; daaronder direct naar 25%. FIL 12% behouden als sterkste alt. Cash ~48% pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan negatief is; rijpe bounces (BAT, XTZ) niet najagen.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,8 +41,8 @@ _Dit venster verloor ik -2,77% tegen -1,85% voor BTC, vooral doordat ik mijn alt
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,797.82 | 40.1% | -1.5% | 40.0% | Anker boven $80k; trend intact zolang de 50d-MA houdt |
-| FIL/USD | $1,135.36 | 12.0% | -3.8% | 12.0% | Sterkste alt: 7d +4,5%, boven 20d/50d-MA, binnen 15%-plafond |
+| BTC/USD | $3,800.31 | 40.1% | -1.4% | 40.0% | Anker zolang >$80k; nu $81,4k, net boven 50d-MA, onder de 20d-MA |
+| FIL/USD | $1,135.36 | 12.0% | -3.8% | 12.0% | Sterkste alt: 7d +4,2%, boven 20d/50d-MA; behoud binnen 10-15%-kap |
 
 ## Orders deze run
 
@@ -56,6 +56,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 17-10-2026 03:30 | $9,473 | -5.27% | -2.28% | 0 |
 | 17-10-2026 03:00 | $9,470 | -5.30% | -2.24% | 0 |
 | 17-10-2026 02:30 | $9,474 | -5.26% | -2.20% | 1 |
 | 17-10-2026 02:00 | $9,481 | -5.19% | -2.17% | 0 |
@@ -67,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-10-2026 23:00 | $9,487 | -5.13% | -2.04% | 0 |
 | 16-10-2026 22:30 | $9,482 | -5.18% | -2.13% | 0 |
 | 16-10-2026 22:00 | $9,482 | -5.18% | -2.21% | 0 |
-| 16-10-2026 21:30 | $9,482 | -5.17% | -2.20% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).

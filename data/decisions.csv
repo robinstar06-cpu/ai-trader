@@ -517,3 +517,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-17T00:30:40.414575+00:00,17-10-2026 02:30,z-ai/glm-5.3,FIL/USD,12.0,12.0,houden,,,"Sterkste 7d-momentum (+5,1%) boven 20d/50d-MA; enige alt die de proef doorstaat."
 2026-10-17T01:00:47.650230+00:00,17-10-2026 03:00,z-ai/glm-5.3,BTC/USD,40.1,40.0,houden,,,Anker boven $80k; trend intact zolang de 50d-MA houdt
 2026-10-17T01:00:47.650230+00:00,17-10-2026 03:00,z-ai/glm-5.3,FIL/USD,12.0,12.0,houden,,,"Sterkste alt: 7d +4,5%, boven 20d/50d-MA, binnen 15%-plafond"
+2026-10-17T01:30:36.714146+00:00,17-10-2026 03:30,z-ai/glm-5.3,BTC/USD,40.1,40.0,houden,,,"Anker zolang >$80k; nu $81,4k, net boven 50d-MA, onder de 20d-MA"
+2026-10-17T01:30:36.714146+00:00,17-10-2026 03:30,z-ai/glm-5.3,FIL/USD,12.0,12.0,houden,,,"Sterkste alt: 7d +4,2%, boven 20d/50d-MA; behoud binnen 10-15%-kap"
