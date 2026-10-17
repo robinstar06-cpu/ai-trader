@@ -1768,12 +1768,27 @@
         "FIL/USD": 1.16554,
         "BTC/USD": 81518.52
       }
+    },
+    {
+      "time": "2026-10-17T07:30:38.537904+00:00",
+      "time_local": "17-10-2026 09:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0,
+        "FIL/USD": 12.0
+      },
+      "summary": "De correctie zet onverminderd door: slechts 4/33 munten groen over 24u (mediaan -2,31%) en de 7d-mediaan staat op -5,00%. BTC balanceert op $81,5k, net boven zijn 50d-MA en ruim boven de $80k-trigger; FIL is met +1,9% op 24u een van de weinige groene munten. Geen enkele inzet-trigger voor de cashpos",
+      "equity": 9520.02,
+      "prices": {
+        "BTC/USD": 81550.1,
+        "FIL/USD": 1.16455
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-17T07:00:45.889804+00:00",
-    "time_local": "17-10-2026 09:00",
-    "text": "Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt, maar geen bijkopen bij uur-RSI 55 en range7d_pos 63. Cash ~48% is een actieve positie: pas inzetten bij 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k — nu 3/33 groen, dus wachten. Geen nieuwe alts zolang de 7d-mediaan (-5,25%) negatief is; rijpe bounces (BAT +170% op 30d) niet najagen. Schadebeperking gaat vóór rendement-jagen: het +20%-doel vraagt eerst kapitaalbehoud en droog kruit voor de omslag."
+    "time": "2026-10-17T07:30:38.537904+00:00",
+    "time_local": "17-10-2026 09:30",
+    "text": "Plan ongewijzigd en disciplin vasthouden: BTC blijft 40%-anker zolang uur-sluitingen boven $80k blijven; bij een sluiting daaronder direct naar 25%. FIL blijft 12% als sterkste alt, geen bijkoop bij uur-RSI 55 en range7d_pos 63. Cash ~48% blijft droog kruit tot 24u-breadth >50% groen én uur-RSI>45, of een BTC-sluiting boven $83k. Geen nieuwe alts zolang de 7d-mediaan (-5,00%) negatief is; rijpe bounces (BAT +174% op 30d) niet najagen. Schadebeperking gaat vóór rendement-jagen: het +20%-doel vraagt eerst kapitaalbehoud en droog kruit voor de omslag."
   },
   "lessons": [
     "Houd alts onder de 25% zolang de 7d-mediaan negatief is, hoe groen de 24u-breedte ook staat: dit venster groeide mijn altgewicht naar 53% en kostte ~1% extra verlies versus BTC.",
