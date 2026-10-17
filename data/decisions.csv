@@ -509,3 +509,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-16T23:30:37.691090+00:00,17-10-2026 01:30,z-ai/glm-5.3,ARB/USD,11.0,11.0,houden,,,"7d nog ruim positief (+4,5%) ondanks zwakke 24u; laatste kans, eruit bij 7d-verlies of uur-RSI <45."
 2026-10-16T23:30:37.691090+00:00,17-10-2026 01:30,z-ai/glm-5.3,BTC/USD,40.1,40.0,houden,,,Anker boven $80k en de 50d-MA; direct terug naar 25% bij uur-sluiting onder $80k.
 2026-10-16T23:30:37.691090+00:00,17-10-2026 01:30,z-ai/glm-5.3,FIL/USD,12.0,12.0,houden,,,"Sterkste 7d-relatieve kracht (+5,9% vs mediaan -3,7%), uur-RSI 54; vasthouden onder de 15% kap."
+2026-10-17T00:00:49.650490+00:00,17-10-2026 02:00,z-ai/glm-5.3,ARB/USD,11.0,11.0,houden,,,"7d nog positief (+3,1%) maar uur-RSI 44.45 op de grens; op proef, bij bevestigde zwakte eruit"
+2026-10-17T00:00:49.650490+00:00,17-10-2026 02:00,z-ai/glm-5.3,BTC/USD,40.1,40.0,houden,,,Anker zolang BTC boven $80k en zijn 50d-MA blijft; daaronder direct naar 25%
+2026-10-17T00:00:49.650490+00:00,17-10-2026 02:00,z-ai/glm-5.3,FIL/USD,12.0,12.0,houden,,,"Sterkste 7d-relatieve kracht (+6,8%), boven alle MA's; kernalt in de correctie"
