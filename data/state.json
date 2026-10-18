@@ -16,27 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-16T12:30:41.761082+00:00",
-      "time_local": "16-10-2026 14:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0,
-        "ARB/USD": 25.0,
-        "FIL/USD": 14.0,
-        "UNI/USD": 7.0,
-        "BCH/USD": 7.0
-      },
-      "summary": "De breedte is maximaal: 33/33 munten groen met een mediaan van +6,0% over 24u, en BTC houdt $82,2k net boven de 50d-MA maar nog onder de 20d-MA. De 7d-mediaan blijft negatief (-0,9%), dus dit is nog een bounce binnen een correctie, geen bevestigde trend. ARB leidt met +17% over 24u op een 7d-hoog, a",
-      "equity": 9724.76,
-      "prices": {
-        "ARB/USD": 0.20155,
-        "UNI/USD": 7.48968,
-        "FIL/USD": 1.165,
-        "BTC/USD": 82231.445,
-        "BCH/USD": 281.76
-      }
-    },
-    {
       "time": "2026-10-16T18:30:40.085526+00:00",
       "time_local": "16-10-2026 20:30",
       "model": "z-ai/glm-5.3",
@@ -1430,12 +1409,25 @@
       "prices": {
         "BTC/USD": 80894.118
       }
+    },
+    {
+      "time": "2026-10-18T22:00:47.165908+00:00",
+      "time_local": "19-10-2026 00:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0
+      },
+      "summary": "De breedte herstelt licht uit het capitulatie-extreem: 4 van 33 munten groen op 24u (mediaan -1,76%) en de 7d-mediaan kluiert omhoog van -12,55% naar -11,21%. BTC toont opnieuw relatieve kracht rond $81,1k en houdt $80k ruim vast. Ladder-stap 1 (>30% groene breedte) is nog niet bereikt, dus de 40/60",
+      "equity": 9422.75,
+      "prices": {
+        "BTC/USD": 81119.5705
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-18T21:30:40.180161+00:00",
-    "time_local": "18-10-2026 23:30",
-    "text": "Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder snijd ik direct naar 25%. Cash gaat er alleen in via de ladder: stap 1 BTC 55% bij 24u-breedte >30% groen én $80k 12u+ vastgehouden; stap 2 BTC 70% plus eerste alts bij 7d-mediaan > -5%; volledig risico pas bij 7d-mediaan > 0. Alts blijven 0%. Zodra de breedte omslaat moet ik de omslag snel en vol meenemen, niet aarzelen."
+    "time": "2026-10-18T22:00:47.165908+00:00",
+    "time_local": "19-10-2026 00:00",
+    "text": "Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder snijd ik direct naar 25%. Cash gaat er alleen in via de ladder: stap 1 BTC 55% bij 24u-breedte >30% groen én $80k 12u+ vastgehouden; stap 2 BTC 70% plus eerste alts bij 7d-mediaan > -5%; volledig risico pas bij 7d-mediaan > 0. Alts blijven 0%. De breedte kluiert omhoog (0→4/33 groen) — zodra de omslag komt moet ik die snel en vol meenemen, niet aarzelen."
   },
   "lessons": [
     "Alts blijven op 0% zolang de 7d-mediaan ≤ -5% is; eerste alt pas weer bij 7d-mediaan > -5% én 24u-breedte >50% groen — de diepte van de correctie bepaalt het alt-plafond (FIL/ARB -3% tot -10% was het bewijs).",
