@@ -610,3 +610,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-18T07:30:43.714329+00:00,18-10-2026 09:30,z-ai/glm-5.3,BTC/USD,40.3,40.0,houden,,,"Ankerpositie: BTC houdt $81,6k boven de $80k-grens met RSI 52,9, maar 0/33 groen en 7d-mediaan -7,20% rechtvaardigen geen herinzet van cash."
 2026-10-18T08:00:46.302097+00:00,18-10-2026 10:00,z-ai/glm-5.3,BTC/USD,40.3,40.0,houden,,,Ankerpositie: BTC houdt staand boven $80k terwijl alts doorbloeden; 60% cash wacht op bevestigde breedte-omslag of $83k-uitbraak.
 2026-10-18T08:30:39.297841+00:00,18-10-2026 10:30,z-ai/glm-5.3,BTC/USD,40.3,40.0,houden,,,"BTC toont relatieve kracht (7d -1,7% vs mediaan -7,5%) en houdt $81,6k; 40%-anker zolang sluitingen boven $80k blijven."
+2026-10-18T09:00:46.397588+00:00,18-10-2026 11:00,z-ai/glm-5.3,BTC/USD,40.3,40.0,houden,,,"Sterkste grote munt, houdt $80k-anker terwijl rest doodbloedt; cash wacht op breedte- of $83k-bevestiging."
