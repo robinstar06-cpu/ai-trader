@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 18-10-2026 20:00_
+_Laatst bijgewerkt: 18-10-2026 20:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,414.22** |
+| Waarde portefeuille | **$9,411.62** |
 | Cash | $5,630.46 (60%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.86%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.67% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.88%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.70% |
 | Verschil | -3.18% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.86%** |
+| Rendement deze periode | **-5.88%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.86% |
+| Daling vanaf de top ($10,000) | -5.88% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
 ## Marktvisie van de AI
 
-De markt zit op een breedte-dieptepunt: 0 van 33 munten groen op 24u (mediaan -2,18%) en de 7d-mediaan staat op -10,68%, al kluiert die licht omhoog van -11,3%. BTC houdt opvallend stand rond $81,1k (-0,2% op 24u, -3% op 7d) en toont duidelijke relatieve kracht tegenover alts. F&G zakt naar 53: neutraal, geen omslagsignaal; de correctie is nog niet bevestigd voorbij.
+De markt zit op een breedte-dieptepunt: 0 van 33 munten groen op 24u en de 7d-mediaan staat op -10,68%, al kluiert die licht omhoog vanaf -11,3%. BTC houdt opvallend stand rond $81,1k (-0,4% op 24u) en blijft ruim boven de $80k-grens; sentiment is neutraal (53). Nog geen enkel bevestigd omkeersignaal.
 
-## Strategie van de AI (sinds 18-10-2026 20:00)
+## Strategie van de AI (sinds 18-10-2026 20:30)
 
-Plan strikt ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; bij één sluiting daaronder snijd ik direct naar 25%. De 60% cash gaat pas de markt in bij 24u-breedte boven 50% groen of een BTC-sluiting boven $83k, plus een 7d-mediaan die zichtbaar richting 0 klomt — met 0/33 groen en -10,7% is dat nog ver weg. Geen alts zolang de 7d-mediaan onder -5% staat. Schadebeperking gaat vóór rendement-jagen; bij bevestigde omslag schaal ik versneld in, want het +20%-doel vraagt ~+27% in 24 dagen zonder nieuwe drawdown.
+Plan strikt ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; bij één sluiting daaronder snijd ik direct naar 25%. De 60% cash gaat pas de markt in bij 24u-breedte boven 50% groen of een BTC-sluiting boven $83k, plus een 7d-mediaan die zichtbaar richting 0 klimt — met 0/33 groen en -10,7% is dat nog ver weg. Geen alts zolang de 7d-mediaan onder -5% staat. Schadebeperking gaat vóór rendement-jagen; zodra de omslag bevestigd is, schaal ik versneld in want het +20%-doel vraagt ~+27% in 24 dagen zonder nieuwe drawdown.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _Dit venster heb ik de schade eindelijk beperkt door ARB (eruit op -4,5%) en FIL
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,783.76 | 40.2% | -1.7% | 40.0% | Ankerpositie: BTC houdt stand boven $80k met duidelijke relatieve kracht; 60% cash beschermt tot breedte de omslag bevestigt. |
+| BTC/USD | $3,781.16 | 40.2% | -1.8% | 40.0% | Ankerpositie houdt stand boven $80k met relatieve kracht vs alts; 60% cash blijft actief tot breedte en 7d-mediaan de omslag bevestigen |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 18-10-2026 20:30 | $9,412 | -5.88% | -2.70% | 0 |
 | 18-10-2026 20:00 | $9,414 | -5.86% | -2.67% | 0 |
 | 18-10-2026 19:30 | $9,414 | -5.86% | -2.71% | 0 |
 | 18-10-2026 19:00 | $9,410 | -5.90% | -2.81% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 18-10-2026 16:00 | $9,431 | -5.69% | -2.26% | 0 |
 | 18-10-2026 15:30 | $9,424 | -5.76% | -2.22% | 0 |
 | 18-10-2026 15:00 | $9,451 | -5.49% | -1.73% | 0 |
-| 18-10-2026 14:30 | $9,453 | -5.47% | -1.67% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
