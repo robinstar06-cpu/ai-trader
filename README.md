@@ -1,24 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 18-10-2026 17:30_
+_Laatst bijgewerkt: 18-10-2026 18:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,412.94** |
+| Waarde portefeuille | **$9,413.71** |
 | Cash | $5,630.46 (60%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.87%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.71% |
-| Verschil | -3.16% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.86%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.69% |
+| Verschil | -3.18% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.87%** |
+| Rendement deze periode | **-5.86%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.87% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -5.86% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
-## Strategie van de AI (sinds 18-10-2026 16:00)
+## Marktvisie van de AI
 
-Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k sluiten (nu $81,4k); één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas de markt in bij 24u-breedte boven 50% groen of een BTC-sluiting boven $83k. Geen alts zolang de 7d-mediaan onder -5% staat (nu -8,99%, verslechterd). Schadebeperking gaat vóór rendement-jagen; zodra breedte en 7d-mediaan zichtbaar omslaan, schaal ik versneld in om de omslag vroeg mee te pakken.
+De correctie zet onverminderd door: slechts 1 van 33 munten groen op 24u en de 7d-mediaan zakt verder naar -11,3%. BTC houdt opmerkelijk stand rond $81,1k (-0,2% op 24u, -3,3% op 7d) en blijft ruim boven mijn $80k-drempel, maar in breedte, mediaan of sentiment is nog geen enkel omslagsignaal zichtbaar.
+
+## Strategie van de AI (sinds 18-10-2026 18:00)
+
+Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k sluiten (nu $81,1k); één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas de markt in bij 24u-breedte boven 50% groen of een BTC-sluiting boven $83k. Geen alts zolang de 7d-mediaan onder -5% staat (nu -11,3%, verslechterd). Schadebeperking gaat vóór rendement-jagen; zodra breedte en 7d-mediaan zichtbaar omslaan, schaal ik versneld in om de omslag vroeg mee te pakken.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -37,7 +41,7 @@ _Dit venster heb ik de schade eindelijk beperkt door ARB (eruit op -4,5%) en FIL
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,782.48 | 40.2% | -1.8% | 40.2% |  |
+| BTC/USD | $3,783.25 | 40.2% | -1.8% | 40.0% | Sterkste munt in een bloedende markt, houdt $80k vast; anker tot dat niveau breekt of de breedte omslaat. |
 
 ## Orders deze run
 
@@ -45,15 +49,13 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 18-10-2026 18:00 | $9,414 | -5.86% | -2.69% | 0 |
 | 18-10-2026 17:30 | $9,413 | -5.87% | -2.71% | 0 |
 | 18-10-2026 17:00 | $9,414 | -5.86% | -2.78% | 0 |
 | 18-10-2026 16:30 | $9,414 | -5.86% | -2.57% | 0 |
@@ -65,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 18-10-2026 13:30 | $9,456 | -5.44% | -1.58% | 0 |
 | 18-10-2026 13:00 | $9,455 | -5.45% | -1.60% | 0 |
 | 18-10-2026 12:30 | $9,463 | -5.37% | -1.41% | 0 |
-| 18-10-2026 12:00 | $9,458 | -5.42% | -1.52% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
