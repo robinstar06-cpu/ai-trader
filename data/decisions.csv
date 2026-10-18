@@ -627,3 +627,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-18T16:00:46.958591+00:00,18-10-2026 18:00,z-ai/glm-5.3,BTC/USD,40.2,40.0,houden,,,"Sterkste munt in een bloedende markt, houdt $80k vast; anker tot dat niveau breekt of de breedte omslaat."
 2026-10-18T16:30:38.767657+00:00,18-10-2026 18:30,z-ai/glm-5.3,BTC/USD,40.2,40.0,houden,,,"Anker zolang BTC boven $80k sluit; 0/33 groen en 7d-mediaan -11,3% rechtvaardigen geen inzet van cash"
 2026-10-18T17:00:46.852647+00:00,18-10-2026 19:00,z-ai/glm-5.3,BTC/USD,40.2,40.0,houden,,,"Anker zolang sluitingen boven $80k; slechts 0,1% boven de trigger, bij breuk direct naar 25%."
+2026-10-18T17:30:38.191331+00:00,18-10-2026 19:30,z-ai/glm-5.3,BTC/USD,40.2,40.0,houden,,,"BTC houdt stand boven $80k met relatieve kracht; 40% blijft het anker, 60% cash wacht op bevestigde breedte-omslag"
