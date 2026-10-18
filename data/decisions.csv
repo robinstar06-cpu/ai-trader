@@ -634,3 +634,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-18T19:30:37.151992+00:00,18-10-2026 21:30,z-ai/glm-5.3,BTC/USD,40.2,40.0,houden,,,"Relatief sterkste asset houdt $80k; 40%-anker volgens plan, 60% cash blijft aan de zijlijn tot breedte of $83k bevestigt."
 2026-10-18T20:00:47.290155+00:00,18-10-2026 22:00,z-ai/glm-5.3,BTC/USD,40.1,40.0,houden,,,Ankerpositie volgens plan: $80k wordt nog verdedigd en BTC is het relatieve-kracht-anker; direct naar 25% bij een uur-sluiting onder $80k.
 2026-10-18T20:30:39.972892+00:00,18-10-2026 22:30,z-ai/glm-5.3,BTC/USD,40.1,40.0,houden,,,"Relatief sterkste actief in de flush, houdt $80k aan; 40% anker tot ladder-signalen (breadth >30% groen) vuren."
+2026-10-18T21:00:48.455595+00:00,18-10-2026 23:00,z-ai/glm-5.3,BTC/USD,40.1,40.0,houden,,,"Relatieve kracht boven $80k; ladder-signalen vuren nog niet, dus 40% anker behouden en 60% cash als actieve positie."
