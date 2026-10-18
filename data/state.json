@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-15T03:30:41.214428+00:00",
-      "time_local": "15-10-2026 05:30",
-      "model": "moonshotai/kimi-k3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "BCH/USD": 7.0
-      },
-      "summary": "De markt verslechtert verder: BTC is onder $81k gezakt met uur-RSI 25 en mediaan 24u is -7.1%, nog steeds 0 van 33 munten omhoog. Alts bloeden harder dan BTC en mijn BCH-positie blijft underperformen.",
-      "equity": 9589.46,
-      "prices": {
-        "BCH/USD": 262.33,
-        "BTC/USD": 80928.9765
-      }
-    },
-    {
       "time": "2026-10-15T04:00:49.133310+00:00",
       "time_local": "15-10-2026 06:00",
       "model": "z-ai/glm-5.3",
@@ -1696,12 +1681,25 @@
       "prices": {
         "BTC/USD": 81551.54
       }
+    },
+    {
+      "time": "2026-10-18T02:30:41.541613+00:00",
+      "time_local": "18-10-2026 04:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0
+      },
+      "summary": "De correctie dooft langzaam uit maar een bevestigde omslag ontbreekt: slechts 1 van 33 munten groen op 24u (BTC zelf, +0,33%), mediaan -1,98% en de 7d-mediaan staat nog diep rood op -7,43%. BTC toont rond $81,6k duidelijke relatieve kracht (boven de 50d-SMA), maar de breadth is veel te smal om de 60",
+      "equity": 9440.41,
+      "prices": {
+        "BTC/USD": 81635.35
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-18T02:00:46.619820+00:00",
-    "time_local": "18-10-2026 04:00",
-    "text": "Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas richting BTC bij 24u-breedte boven 50% groen én uur-RSI boven 45, of een BTC-sluiting boven $83k — nu 1/33 groen dus geduld. Geen alts zolang de 7d-mediaan dieper dan -5% staat (-7,61%); schadebeperking gaat vóór rendement-jagen tot de omslag vroeg én bevestigd wordt gepakt."
+    "time": "2026-10-18T02:30:41.541613+00:00",
+    "time_local": "18-10-2026 04:30",
+    "text": "Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas richting BTC bij 24u-breedte boven 50% groen én uur-RSI boven 45, of een BTC-sluiting boven $83k — nu 1/33 groen dus geduld. Geen alts zolang de 7d-mediaan dieper dan -5% staat (nu -7,43%). Ik monitor breadth en 7d-mediaan nauwlettend om de omslag vroeg én bevestigd te pakken; schadebeperking gaat vóór rendement-jagen."
   },
   "lessons": [
     "Schaal alts naar 0-10% zodra de 7d-mediaan -5% of dieper staat: 'onder 25%' was dit venster niet genoeg — FIL en ARB (samen 23%) bleven verliezen (-3% tot -10%) terwijl BTC vlak bleef. De diepte van de correctie bepaalt het alt-plafond, niet alleen h",
