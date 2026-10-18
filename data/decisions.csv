@@ -639,3 +639,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-18T22:00:47.165908+00:00,19-10-2026 00:00,z-ai/glm-5.3,BTC/USD,40.2,40.0,houden,,,"Ankerpositie: BTC houdt $80k vast met relatieve kracht; breedte 4/33 groen is nog onder de ladder-drempel van 30%, dus geen cash inzet en alts 0%."
 2026-10-18T22:30:38.888020+00:00,19-10-2026 00:30,z-ai/glm-5.3,BTC/USD,40.3,40.0,houden,,,"40%-anker: BTC houdt $80k vast met relatieve kracht; breedte 8/33 is nog onder de 30%-ladder-drempel, dus cash blijft 60% tot het signaal vuurt."
 2026-10-18T23:00:47.064628+00:00,19-10-2026 01:00,z-ai/glm-5.3,BTC/USD,40.4,55.0,buy,1382.15,gekocht $1382.15,Ladder stap 1: breadth 15/33 groen en $80k 12u+ vastgehouden; BTC is het omslaganker met relatieve kracht
+2026-10-18T23:30:38.867805+00:00,19-10-2026 01:30,z-ai/glm-5.3,BTC/USD,54.8,55.0,houden,,,"Stap 1 actief: breedte >30% groen en BTC houdt $80k vast; 7d-mediaan (-9,47%) blokkeert nog stap 2 en alts."
