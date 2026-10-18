@@ -601,3 +601,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-18T03:00:47.355708+00:00,18-10-2026 05:00,z-ai/glm-5.3,BTC/USD,40.4,40.0,houden,,,Relatief sterkste munt en houdt $80k; ankerpositie tot de omslag breed bevestigd is.
 2026-10-18T03:30:38.517956+00:00,18-10-2026 05:30,z-ai/glm-5.3,BTC/USD,40.4,40.0,houden,,,Relatieve kracht boven $80k-anker; breadth en 7d-mediaan rechtvaardigen nog geen inzet van cash of alts
 2026-10-18T04:00:47.715694+00:00,18-10-2026 06:00,z-ai/glm-5.3,BTC/USD,40.4,40.0,houden,,,Relatieve kracht boven $80k-anker; geen bevestigde breedte-omslag dus 60% cash blijft staan
+2026-10-18T04:30:38.576754+00:00,18-10-2026 06:30,z-ai/glm-5.3,BTC/USD,40.4,40.0,houden,,,"Relatief sterkste munt, boven $80k-anker; cash blijft hoog tot breedte en 7d-mediaan een bevestigde omslag tonen."
