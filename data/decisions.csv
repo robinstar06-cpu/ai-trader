@@ -604,3 +604,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-18T04:30:38.576754+00:00,18-10-2026 06:30,z-ai/glm-5.3,BTC/USD,40.4,40.0,houden,,,"Relatief sterkste munt, boven $80k-anker; cash blijft hoog tot breedte en 7d-mediaan een bevestigde omslag tonen."
 2026-10-18T05:00:44.167806+00:00,18-10-2026 07:00,z-ai/glm-5.3,BTC/USD,40.4,40.0,houden,,,"Ankerpositie: BTC enige munt groen op 24u en houdt $80k; schalen pas bij bevestigde omslag, snijden bij sluiting onder $80k."
 2026-10-18T05:30:38.891585+00:00,18-10-2026 07:30,z-ai/glm-5.3,BTC/USD,40.3,40.0,houden,,,Ankerpositie: BTC verdedigt $80k met relatieve kracht; stop staat klaar op uur-sluiting onder $80k. Cash blijft hoog tot de breedte de omslag bevestigt.
+2026-10-18T06:00:47.267777+00:00,18-10-2026 08:00,z-ai/glm-5.3,BTC/USD,40.3,40.0,houden,,,"Ankerpositie: BTC de enige munt met relatieve kracht (+0,21% 24u) en boven $80k; geen bevestigde omslag dus cash blijft hoog."

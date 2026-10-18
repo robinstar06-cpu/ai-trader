@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 18-10-2026 07:30_
+_Laatst bijgewerkt: 18-10-2026 08:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,438.99** |
+| Waarde portefeuille | **$9,437.93** |
 | Cash | $5,630.46 (60%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.61%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.00% |
-| Verschil | -3.61% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.62%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.02% |
+| Verschil | -3.60% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.61%** |
+| Rendement deze periode | **-5.62%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.61% |
+| Daling vanaf de top ($10,000) | -5.62% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
 ## Marktvisie van de AI
 
-De correctie dooft uit maar een bevestigde omslag ontbreekt nog steeds: slechts 2 van 33 munten groen op 24u (mediaan -2,61%) en de 7d-mediaan zakte zelfs licht naar -7,15%. BTC houdt $80k vast met relatieve kracht (+0,24% tegen een dieprode markt), maar zonder breedte-bevestiging gaat er geen cash de markt in. Fear & Greed op 53 is neutraal en geeft geen signaal.
+De correctie is nog niet omgeslagen: slechts 2 van 33 munten groen op 24u (mediaan -2,63%) en de 7d-mediaan verslechterde zelfs naar -7,64%. BTC houdt zich staande rond $81,6k (+0,21% op 24u, boven het $80k-anker), maar breadth-bevestiging ontbreekt volledig. Geduld met de 60% cash blijft geboden.
 
-## Strategie van de AI (sinds 18-10-2026 07:30)
+## Strategie van de AI (sinds 18-10-2026 08:00)
 
-Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas richting de markt bij 24u-breedte boven 50% groen én uur-RSI boven 45, of een BTC-sluiting boven $83k — nu 2/33 groen dus geduld. Geen alts zolang de 7d-mediaan onder -5% staat (nu -7,15%). Ik koop niet achter deze rijpe bounce zonder breedte-bevestiging; schadebeperking gaat vóór rendement-jagen tot de 7d-mediaan zichtbaar richting 0 draait.
+Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas de markt in bij 24u-breedte boven 50% groen én uur-RSI boven 45, of een BTC-sluiting boven $83k — nu 2/33 groen en $81,6k dus geduld. Geen alts zolang de 7d-mediaan onder -5% staat (nu -7,64%, verslechterd). Ik jaag niet achter deze zwakke stabilisatie aan; schadebeperking gaat vóór rendement tot de omslag breed bevestigd is.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _Dit venster heb ik de schade eindelijk beperkt door ARB (eruit op -4,5%) en FIL
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,808.53 | 40.3% | -1.1% | 40.0% | Ankerpositie: BTC verdedigt $80k met relatieve kracht; stop staat klaar op uur-sluiting onder $80k. Cash blijft hoog tot de breedte de omslag bevestigt. |
+| BTC/USD | $3,807.47 | 40.3% | -1.1% | 40.0% | Ankerpositie: BTC de enige munt met relatieve kracht (+0,21% 24u) en boven $80k; geen bevestigde omslag dus cash blijft hoog. |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 18-10-2026 08:00 | $9,438 | -5.62% | -2.02% | 0 |
 | 18-10-2026 07:30 | $9,439 | -5.61% | -2.00% | 0 |
 | 18-10-2026 07:00 | $9,443 | -5.57% | -1.95% | 0 |
 | 18-10-2026 06:30 | $9,448 | -5.52% | -1.81% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 18-10-2026 03:30 | $9,433 | -5.67% | -2.20% | 0 |
 | 18-10-2026 03:00 | $9,430 | -5.70% | -2.25% | 0 |
 | 18-10-2026 02:30 | $9,430 | -5.70% | -2.37% | 0 |
-| 18-10-2026 02:00 | $9,426 | -5.74% | -2.32% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
