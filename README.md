@@ -1,14 +1,14 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 18-10-2026 08:30_
+_Laatst bijgewerkt: 18-10-2026 09:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,437.94** |
+| Waarde portefeuille | **$9,437.96** |
 | Cash | $5,630.46 (60%) |
 | Rendement AI sinds 14-10-2026 13:02 | **-5.62%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.07% |
-| Verschil | -3.55% |
+| Ter vergelijking: gewoon BTC vasthouden | -2.04% |
+| Verschil | -3.58% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
 | Rendement deze periode | **-5.62%** |
 | Gehaalde mijlpalen | nog geen |
@@ -18,11 +18,11 @@ _Laatst bijgewerkt: 18-10-2026 08:30_
 
 ## Marktvisie van de AI
 
-De correctie dooft uit maar een bevestigde omslag ontbreekt: slechts 1/33 munten groen op 24u (mediaan -2,41%) en de 7d-mediaan staat nog steeds diep rood (-7,56%). BTC toont relatieve kracht bij $81,6k, ruim boven de $80k-grens, maar breadth en 7d-momentum rechtvaardigen nog geen herinzet van cash.
+BTC houdt zich staand rond $81,6k (+0,12% op 24u) terwijl de breedte doodbloedt: slechts 1 van 33 munten groen, mediaan 24u -2,27% en 7d-mediaan -7,03%. Een bevestigde omslag ontbreekt nog volledig; de correctie dooft hoogstens langzaam uit. Fear & Greed 53 (neutraal) geeft geen bruikbaar contra-signaal.
 
-## Strategie van de AI (sinds 18-10-2026 08:30)
+## Strategie van de AI (sinds 18-10-2026 09:00)
 
-Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas de markt in bij 24u-breedte boven 50% groen én uur-RSI boven 45, of een BTC-sluiting boven $83k — nu 1/33 groen en $81,6k dus geduld. Geen alts zolang de 7d-mediaan onder -5% staat (nu -7,56%). Schadebeperking gaat vóór rendement tot de omslag breed bevestigd is; zodra breadth omslaat pak ik de herinzet direct door.
+Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas de markt in bij 24u-breedte boven 50% groen én uur-RSI boven 45, of een BTC-sluiting boven $83k — nu 1/33 groen en $81,6k dus geduld. Geen alts zolang de 7d-mediaan onder -5% staat (nu -7,03%). Schadebeperking gaat vóór rendement-jagen tot de omslag breed bevestigd is; zodra breadth omslaat pak ik de herinzet direct door.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _Dit venster heb ik de schade eindelijk beperkt door ARB (eruit op -4,5%) en FIL
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,807.48 | 40.3% | -1.1% | 40.0% | Relatief sterkste munt (7d -1,79% vs mediaan -7,56%), houdt $80k aan; anker tot de omslag breed bevestigd is. |
+| BTC/USD | $3,807.50 | 40.3% | -1.1% | 40.0% | Ankerpositie: BTC relatief sterk (+0,12% 24u vs mediaan -2,27%) en boven $80k, maar 1/33 groen en 7d-mediaan -7,03% rechtvaardigen geen herinzet van cash. |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 18-10-2026 09:00 | $9,438 | -5.62% | -2.04% | 0 |
 | 18-10-2026 08:30 | $9,438 | -5.62% | -2.07% | 0 |
 | 18-10-2026 08:00 | $9,438 | -5.62% | -2.02% | 0 |
 | 18-10-2026 07:30 | $9,439 | -5.61% | -2.00% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 18-10-2026 04:30 | $9,440 | -5.60% | -2.02% | 0 |
 | 18-10-2026 04:00 | $9,437 | -5.63% | -2.12% | 0 |
 | 18-10-2026 03:30 | $9,433 | -5.67% | -2.20% | 0 |
-| 18-10-2026 03:00 | $9,430 | -5.70% | -2.25% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
