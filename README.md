@@ -1,18 +1,18 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 18-10-2026 17:00_
+_Laatst bijgewerkt: 18-10-2026 17:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,413.81** |
+| Waarde portefeuille | **$9,412.94** |
 | Cash | $5,630.46 (60%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.86%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.78% |
-| Verschil | -3.08% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.87%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.71% |
+| Verschil | -3.16% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.86%** |
+| Rendement deze periode | **-5.87%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.86% |
+| Daling vanaf de top ($10,000) | -5.87% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
@@ -37,7 +37,7 @@ _Dit venster heb ik de schade eindelijk beperkt door ARB (eruit op -4,5%) en FIL
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,783.35 | 40.2% | -1.8% | 40.2% |  |
+| BTC/USD | $3,782.48 | 40.2% | -1.8% | 40.2% |  |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 18-10-2026 17:30 | $9,413 | -5.87% | -2.71% | 0 |
 | 18-10-2026 17:00 | $9,414 | -5.86% | -2.78% | 0 |
 | 18-10-2026 16:30 | $9,414 | -5.86% | -2.57% | 0 |
 | 18-10-2026 16:00 | $9,431 | -5.69% | -2.26% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 18-10-2026 13:00 | $9,455 | -5.45% | -1.60% | 0 |
 | 18-10-2026 12:30 | $9,463 | -5.37% | -1.41% | 0 |
 | 18-10-2026 12:00 | $9,458 | -5.42% | -1.52% | 0 |
-| 18-10-2026 11:30 | $9,455 | -5.45% | -1.69% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
