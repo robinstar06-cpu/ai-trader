@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-15T09:30:39.938114+00:00",
-      "time_local": "15-10-2026 11:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "CRV/USD": 8.0,
-        "BCH/USD": 7.0
-      },
-      "summary": "BTC verdedigt de kritieke $80k-grens en balanceert exact op de 50d-MA ($81,2k, RSI 1u 42), maar de breadth blijft extreem zwak: slechts 2 van 33 munten groen, mediaan -5,4%, en Fear & Greed zakt van 62 naar 53. CRV is de enige crypto met echte kracht vandaag (+2,8%, boven het 24u-gemiddelde). De mar",
-      "equity": 9611.35,
-      "prices": {
-        "CRV/USD": 0.3418705,
-        "BTC/USD": 81180.313,
-        "BCH/USD": 263.92
-      }
-    },
-    {
       "time": "2026-10-15T13:00:54.197215+00:00",
       "time_local": "15-10-2026 15:00",
       "model": "z-ai/glm-5.3",
@@ -1670,12 +1653,25 @@
       "prices": {
         "BTC/USD": 81620.295
       }
+    },
+    {
+      "time": "2026-10-18T07:30:43.714329+00:00",
+      "time_local": "18-10-2026 09:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 40.0
+      },
+      "summary": "De markt bloedt nog steeds dood: 0 van 33 munten groen op 24u (mediaan -2,36%) en de 7d-mediaan zakte naar -7,20%. BTC houdt zich opmerkelijk staand rond $81,6k (-0,01% op 24u, RSI 52,9) en blijft ruim boven de kritieke $80k-grens. Een bevestigde omslag ontbreekt volledig, dus cash blijft een actiev",
+      "equity": 9437.73,
+      "prices": {
+        "BTC/USD": 81616.72
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-18T07:00:45.129036+00:00",
-    "time_local": "18-10-2026 09:00",
-    "text": "Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas de markt in bij 24u-breedte boven 50% groen én uur-RSI boven 45, of een BTC-sluiting boven $83k — nu 1/33 groen en $81,6k dus geduld. Geen alts zolang de 7d-mediaan onder -5% staat (nu -7,03%). Schadebeperking gaat vóór rendement-jagen tot de omslag breed bevestigd is; zodra breadth omslaat pak ik de herinzet direct door."
+    "time": "2026-10-18T07:30:43.714329+00:00",
+    "time_local": "18-10-2026 09:30",
+    "text": "Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder schaal ik direct naar 25%. De 60% cash gaat pas de markt in bij 24u-breedte boven 50% groen (nu 0/33) of een BTC-sluiting boven $83k (nu $81,6k). Geen alts zolang de 7d-mediaan onder -5% staat (nu -7,20%). Schadebeperking gaat vóór rendement-jagen; zodra de breedte breed omslaat pak ik de herinzet direct door."
   },
   "lessons": [
     "Schaal alts naar 0-10% zodra de 7d-mediaan -5% of dieper staat: 'onder 25%' was dit venster niet genoeg — FIL en ARB (samen 23%) bleven verliezen (-3% tot -10%) terwijl BTC vlak bleef. De diepte van de correctie bepaalt het alt-plafond, niet alleen h",
