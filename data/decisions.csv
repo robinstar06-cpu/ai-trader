@@ -598,3 +598,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-18T01:30:38.005251+00:00,18-10-2026 03:30,z-ai/glm-5.3,BTC/USD,40.3,40.0,houden,,,"Relatief sterkste munt, enige groene op 24u; anker boven $80k met strikte verlaag-trigger"
 2026-10-18T02:00:46.619820+00:00,18-10-2026 04:00,z-ai/glm-5.3,BTC/USD,40.3,40.0,houden,,,"Relatief sterkste munt, enige groene op 24u; anker boven $80k, cash blijft hoog tot breedte omslaat."
 2026-10-18T02:30:41.541613+00:00,18-10-2026 04:30,z-ai/glm-5.3,BTC/USD,40.4,40.0,houden,,,"Enige groene munt op 24u met relatieve kracht boven de 50d-SMA; anker zolang $80k houdt, bij sluiting daaronder direct naar 25%."
+2026-10-18T03:00:47.355708+00:00,18-10-2026 05:00,z-ai/glm-5.3,BTC/USD,40.4,40.0,houden,,,Relatief sterkste munt en houdt $80k; ankerpositie tot de omslag breed bevestigd is.
