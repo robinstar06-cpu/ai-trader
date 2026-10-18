@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-16T19:00:48.000890+00:00",
-      "time_local": "16-10-2026 21:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0,
-        "FIL/USD": 12.0,
-        "ARB/USD": 11.0
-      },
-      "summary": "De correctie zet door: slechts 2/33 munten groen over 24u (mediaan -2,5%), 7d-mediaan -4,0% en BTC zakt op zijn 50d-MA rond $81k, onder de 20d-MA. Mijn risico is al teruggesneden naar 63% exposure met 37% cash; nu is gedisciplineerd wachten op bevestiging beter dan bijkopen in een dalende markt.",
-      "equity": 9454.82,
-      "prices": {
-        "ARB/USD": 0.1912845,
-        "BTC/USD": 81029.923,
-        "FIL/USD": 1.13813
-      }
-    },
-    {
       "time": "2026-10-16T19:30:40.608586+00:00",
       "time_local": "16-10-2026 21:30",
       "model": "z-ai/glm-5.3",
@@ -1418,12 +1401,25 @@
       "prices": {
         "BTC/USD": 81474.8
       }
+    },
+    {
+      "time": "2026-10-18T23:00:47.064628+00:00",
+      "time_local": "19-10-2026 01:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 55.0
+      },
+      "summary": "De breedteherstel zet door: 15 van 33 munten groen op 24u (mediaan -0,11%) tegen 0/33 op het capitulatie-dieptepunt, en BTC houdt ruim stand rond $81,7k. Daarmee is het ladder-signaal van stap 1 gevallen: breadth >30% groen én $80k vastgehouden. De 7d-mediaan (-9,84%) is nog te diep voor alts of sta",
+      "equity": 9440.68,
+      "prices": {
+        "BTC/USD": 81669.5015
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-18T22:30:38.888020+00:00",
-    "time_local": "19-10-2026 00:30",
-    "text": "Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder snijd ik direct naar 25%. Cash komt er alleen in via de ladder: stap 1 BTC 55% zodra 24u-breedte >30% groen is (nu 8/33, dus 10/33 nodig) én $80k 12u+ vastgehouden; stap 2 BTC 70% plus eerste alts bij 7d-mediaan > -5%; volledig risico pas bij 7d-mediaan > 0. Alts blijven 0%. De breedte kluiert omhoog (0→4→8/33) — zodra de 30%-drempel valt, grijp ik stap 1 direct en vol."
+    "time": "2026-10-18T23:00:47.064628+00:00",
+    "time_local": "19-10-2026 01:00",
+    "text": "Stap 1 van de ladder vuurt: breadth 15/33 groen (>30%) én BTC houdt $80k vast — ik ga direct en vol naar BTC 55%, met 45% cash als buffer. Stop blijft scherp: één uur-sluiting onder $80k snijdt me direct terug naar 25%. Stap 2 (BTC 70% plus eerste alts) volgt pas bij 7d-mediaan > -5%, volledig risico pas bij > 0; alts blijven 0% zolang de 7d-mediaan diep rood is. Sentiment (53, neutraal) is geen contra-signaal. Ik verwacht de komende uren/dagen bevestiging van de omslag — aarzelen is nu duurder dan een kleine misgreep."
   },
   "lessons": [
     "Alts blijven op 0% zolang de 7d-mediaan ≤ -5% is; eerste alt pas weer bij 7d-mediaan > -5% én 24u-breedte >50% groen — de diepte van de correctie bepaalt het alt-plafond (FIL/ARB -3% tot -10% was het bewijs).",

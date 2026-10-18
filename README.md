@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 19-10-2026 00:30_
+_Laatst bijgewerkt: 19-10-2026 01:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,432.38** |
-| Cash | $5,630.46 (60%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.68%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.21% |
-| Verschil | -3.47% |
+| Waarde portefeuille | **$9,436.25** |
+| Cash | $4,275.12 (45%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.64%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.98% |
+| Verschil | -3.66% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.68%** |
+| Rendement deze periode | **-5.64%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.68% |
+| Daling vanaf de top ($10,000) | -5.64% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 53 (Neutral) |
 
 ## Marktvisie van de AI
 
-De omslag kluiert verder aan: 8 van 33 munten groen op 24u (mediaan -0,70%, fors beter dan het capitulatie-extreem) en de 7d-mediaan herstelt van -12,55% naar -10,21%. BTC toont opnieuw relatieve kracht rond $81,5k en houdt $80k ruim vast. Ladder-stap 1 (55% BTC) staat nog niet aan: 24u-breedte moet boven 30% groen komen, nu is het 24%.
+De breedteherstel zet door: 15 van 33 munten groen op 24u (mediaan -0,11%) tegen 0/33 op het capitulatie-dieptepunt, en BTC houdt ruim stand rond $81,7k. Daarmee is het ladder-signaal van stap 1 gevallen: breadth >30% groen én $80k vastgehouden. De 7d-mediaan (-9,84%) is nog te diep voor alts of stap 2.
 
-## Strategie van de AI (sinds 19-10-2026 00:30)
+## Strategie van de AI (sinds 19-10-2026 01:00)
 
-Plan ongewijzigd: BTC blijft het 40%-anker zolang uur-sluitingen boven $80k blijven; één sluiting daaronder snijd ik direct naar 25%. Cash komt er alleen in via de ladder: stap 1 BTC 55% zodra 24u-breedte >30% groen is (nu 8/33, dus 10/33 nodig) én $80k 12u+ vastgehouden; stap 2 BTC 70% plus eerste alts bij 7d-mediaan > -5%; volledig risico pas bij 7d-mediaan > 0. Alts blijven 0%. De breedte kluiert omhoog (0→4→8/33) — zodra de 30%-drempel valt, grijp ik stap 1 direct en vol.
+Stap 1 van de ladder vuurt: breadth 15/33 groen (>30%) én BTC houdt $80k vast — ik ga direct en vol naar BTC 55%, met 45% cash als buffer. Stop blijft scherp: één uur-sluiting onder $80k snijdt me direct terug naar 25%. Stap 2 (BTC 70% plus eerste alts) volgt pas bij 7d-mediaan > -5%, volledig risico pas bij > 0; alts blijven 0% zolang de 7d-mediaan diep rood is. Sentiment (53, neutraal) is geen contra-signaal. Ik verwacht de komende uren/dagen bevestiging van de omslag — aarzelen is nu duurder dan een kleine misgreep.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,11 +41,13 @@ _De verdedigende 60% cash / 40% BTC-positie heeft dit venster gewerkt: -0,07% te
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $3,801.92 | 40.3% | -1.3% | 40.0% | 40%-anker: BTC houdt $80k vast met relatieve kracht; breedte 8/33 is nog onder de 30%-ladder-drempel, dus cash blijft 60% tot het signaal vuurt. |
+| BTC/USD | $5,161.13 | 54.7% | -0.8% | 55.0% | Ladder stap 1: breadth 15/33 groen en $80k 12u+ vastgehouden; BTC is het omslaganker met relatieve kracht |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| BTC/USD | buy | $1,382.15 | gekocht $1382.15 |
 
 ## Meldingen
 
@@ -55,6 +57,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 19-10-2026 01:00 | $9,436 | -5.64% | -1.98% | 1 |
 | 19-10-2026 00:30 | $9,432 | -5.68% | -2.21% | 0 |
 | 19-10-2026 00:00 | $9,423 | -5.77% | -2.64% | 0 |
 | 18-10-2026 23:30 | $9,407 | -5.93% | -2.91% | 0 |
@@ -66,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 18-10-2026 20:30 | $9,412 | -5.88% | -2.70% | 0 |
 | 18-10-2026 20:00 | $9,414 | -5.86% | -2.67% | 0 |
 | 18-10-2026 19:30 | $9,414 | -5.86% | -2.71% | 0 |
-| 18-10-2026 19:00 | $9,410 | -5.90% | -2.81% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
