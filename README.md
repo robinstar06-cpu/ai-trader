@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 19-10-2026 21:30_
+_Laatst bijgewerkt: 19-10-2026 22:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,444.63** |
+| Waarde portefeuille | **$9,437.62** |
 | Cash | $4,287.49 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.55%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.73% |
-| Verschil | -3.83% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.62%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.84% |
+| Verschil | -3.78% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.55%** |
+| Rendement deze periode | **-5.62%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.55% |
+| Daling vanaf de top ($10,000) | -5.62% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 59 (Greed) |
 
 ## Marktvisie van de AI
 
-De 24u-bounce staat nog breed (32/33 groen, mediaan +3,74%), maar het 1u-momentum is vlak tot licht rood en de 7d-mediaan blijft met -6,55% ruim onder de -5%-drempel voor stap 2. BTC toont rond $81,9k duidelijke relatieve kracht ruim boven de $80k-stop; F&G op 59 nadert de reduceerdrempel van 60 maar triggert nog niet. Ik handhaaf de ladder-status quo: 55% BTC, 45% cash, alts 0%.
+De 24u-bounce staat nog breed (32/33 groen, mediaan +3,57%), maar het 1u-momentum is vlak tot licht rood en de 7d-mediaan verslechtert naar -6,66%. BTC toont met $81,8k en 7d -1,45% duidelijke relatieve kracht ruim boven de $80k-stop; F&G 59 zit net onder de reduceerdrempel van 60. Stap 2 blijft geblokkeerd: geen alts zolang de 7d-mediaan onder -5% blijft.
 
-## Strategie van de AI (sinds 19-10-2026 21:30)
+## Strategie van de AI (sinds 19-10-2026 22:00)
 
-Ladder ongewijzigd: BTC 55%, cash 45%, alts 0%. Stap 2 (BTC 70% plus eerste alt, uitsluitend in de winst, plafond 10-15%) pas bij 7d-mediaan > -5% én 24u-breedte >50% groen — nu -6,55%, dus nog niet; de rijpe 24u-bounce (+3,74%) achterna kopen is precies de ARB-fout. Harde stop: uurslot BTC <$80k → terug naar 25%. F&G >60 mét stokkende prijsactie is een reduceermoment; nu 59, nog niet getriggerd. Zodra de 7d-mediaan boven -5% kruipt, neem ik stap 2 snel en vol mee.
+Ladder ongewijzigd: BTC 55%, cash 45%, alts 0%. Stap 2 (BTC 70% plus eerste alt, uitsluitend in de winst, plafond 10-15%) pas bij 7d-mediaan > -5% én 24u-breedte >50% groen — nu -6,66%, dus nog niet; de rijpe 24u-bounce achterna kopen is de ARB-fout. Harde stop: uurslot BTC <$80k → terug naar 25%. F&G >60 mét stokkende prijsactie is een reduceermoment; nu 59, nog niet getriggerd. Zodra de 7d-mediaan boven -5% kruipt, neem ik stap 2 snel en vol mee.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _De verdedigende 60% cash / 40% BTC-positie heeft dit venster gewerkt: -0,07% te
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,157.14 | 54.6% | -0.6% | 55.0% | BTC houdt $80k met relatieve kracht; 7d-mediaan -6,55% blokkeert stap 2, dus ladder-status quo. |
+| BTC/USD | $5,150.13 | 54.6% | -0.8% | 55.0% | Relatieve kracht: BTC houdt $81,8k ruim boven de $80k-stop met 7d -1,45% vs mediaan -6,66%; ladder-holding, geen stap 2 zolang 7d-mediaan < -5%. |
 
 ## Orders deze run
 
@@ -56,6 +56,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 19-10-2026 22:00 | $9,438 | -5.62% | -1.84% | 0 |
 | 19-10-2026 21:30 | $9,445 | -5.55% | -1.73% | 0 |
 | 19-10-2026 21:00 | $9,447 | -5.53% | -1.75% | 0 |
 | 19-10-2026 20:30 | $9,436 | -5.64% | -1.91% | 0 |
@@ -67,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 19-10-2026 17:30 | $9,474 | -5.26% | -1.24% | 0 |
 | 19-10-2026 17:00 | $9,468 | -5.32% | -1.34% | 0 |
 | 19-10-2026 16:30 | $9,451 | -5.49% | -1.53% | 0 |
-| 19-10-2026 16:00 | $9,455 | -5.45% | -1.56% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
