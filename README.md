@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 19-10-2026 12:30_
+_Laatst bijgewerkt: 19-10-2026 13:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,473.35** |
+| Waarde portefeuille | **$9,480.69** |
 | Cash | $5,223.53 (55%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.27%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.28% |
-| Verschil | -3.98% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.19%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.18% |
+| Verschil | -4.01% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.27%** |
+| Rendement deze periode | **-5.19%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.27% |
+| Daling vanaf de top ($10,000) | -5.19% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 59 (Greed) |
 
 ## Marktvisie van de AI
 
-De 24u-bounce blijft doodbloeden: breedte zakt naar 20/33 groen met een mediaan van slechts +0,32%, en de 7d-mediaan staat met -9,26% zelfs dieper in het rood dan een uur geleden. F&G op 59 zit tegen mijn reduceerdrempel, maar BTC houdt rond $82,2k ruim boven de $80k-stop met duidelijke relatieve kracht (7d -1,41% vs mediaan -9,26%). Geen laddersignalen: stap 2 vereist 7d-mediaan > -5%.
+De 24u-bounce bloedt verder dood: breedte zakt naar 20/33 groen en de mediaan naar +0,42%, terwijl de 7d-mediaan met -8,83% diep rood blijft. F&G 59 (Greed) op een afrijpende bouncetop is een contra-signaal, geen risk-on. BTC houdt $82,3k vast met duidelijke relatieve kracht, maar de ladder-signalen voor heropbouw vuren niet.
 
-## Strategie van de AI (sinds 19-10-2026 12:30)
+## Strategie van de AI (sinds 19-10-2026 13:00)
 
-Ik handhaaf 45% BTC / 55% actieve cash zoals om 12:00 getrimd: de rijpe, verzwakkende bounce en F&G 59 rechtvaardigen geen heropbouw naar 55% — niet kopen achter een afrijpende bounce. Harde stop blijft één uurslot onder $80k → direct 25%. Stap 2 (BTC 70% + eerste alt) pas bij 7d-mediaan > -5% én 24u-breedte >50% groen; vuurt dat signaal, dan grijp ik snel en vol mee in de omslag. Geen alts zolang de 7d-mediaan ≤ -5% blijft; BTC-relatieve kracht is het anker.
+Ik handhaaf 45% BTC / 55% actieve cash: geen heropbouw achter een rijpe, verzwakkende bounce. Harde stop blijft één uurslot onder $80k → direct 25% BTC. Stap 2 (BTC 70% + eerste alt) pas bij 7d-mediaan > -5% én 24u-breedte >50% groen; nu is de 7d-mediaan -8,83%, dus alts blijven op 0%. Cash is een actieve positie: zodra de omslagsignalen vuren grijp ik snel en vol mee, maar nu is wachten goedkoper dan een misgreep.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _De verdedigende 60% cash / 40% BTC-positie heeft dit venster gewerkt: -0,07% te
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $4,249.82 | 44.9% | -0.2% | 45.0% | Relatieve kracht ruim boven de $80k-stop; 45% zet schadebeperking voorop zolang de 7d-mediaan (-9,26%) diep rood staat en de bounce doodbloedt. |
+| BTC/USD | $4,257.16 | 44.9% | +0.0% | 45.0% | BTC houdt $82,3k met relatieve kracht (7d -1,18% vs mediaan -8,83%); bounce te rijp voor heropbouw, stop $80k beschermt downside |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 19-10-2026 13:00 | $9,481 | -5.19% | -1.18% | 0 |
 | 19-10-2026 12:30 | $9,473 | -5.27% | -1.28% | 0 |
 | 19-10-2026 12:00 | $9,500 | -5.00% | -0.76% | 1 |
 | 19-10-2026 11:30 | $9,514 | -4.86% | -0.51% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 19-10-2026 08:30 | $9,495 | -5.05% | -0.80% | 0 |
 | 19-10-2026 08:00 | $9,498 | -5.02% | -0.78% | 0 |
 | 19-10-2026 07:30 | $9,493 | -5.07% | -0.88% | 0 |
-| 19-10-2026 07:00 | $9,501 | -4.99% | -0.76% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
