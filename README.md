@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 19-10-2026 13:30_
+_Laatst bijgewerkt: 19-10-2026 14:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,471.00** |
+| Waarde portefeuille | **$9,473.20** |
 | Cash | $5,223.53 (55%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.29%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.41% |
-| Verschil | -3.88% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.27%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.26% |
+| Verschil | -4.01% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.29%** |
+| Rendement deze periode | **-5.27%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.29% |
+| Daling vanaf de top ($10,000) | -5.27% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 59 (Greed) |
 
 ## Marktvisie van de AI
 
-De 24u-bounce is volledig uitgedoofd: breedte zakt naar 16/33 groen, de mediaan staat op -0,05% en de 7d-mediaan verdiept zelfs naar -9,38%. BTC toont met $82,1k (-1,41% op 7d) opvallende relatieve kracht en houdt $80k ruim vast, maar F&G 59 (Greed) op een dovende bounce is geen risk-on-bevestiging. Ik verander daarom niets aan de positie: 45% BTC met de harde stop als begrenzing, 55% actieve cash.
+De doodbloeding van de bounce is bevestigd: breedte zakt naar 17/33 groen met een 24u-mediaan van +0,01%, terwijl de 7d-mediaan diep rood blijft op -8,01%. BTC toont relatieve kracht rond $82,3k, ruim boven de $80k-stop, maar F&G 59 (Greed) op een dode bounce is een contra-signaal, geen risk-on. Geen enkel laddersignaal vuurt, dus cash blijft een actieve positie.
 
-## Strategie van de AI (sinds 19-10-2026 13:30)
+## Strategie van de AI (sinds 19-10-2026 14:00)
 
-Ik handhaaf 45% BTC / 55% actieve cash: geen heropbouw achter een uitgestorven bounce; alts blijven 0% zolang de 7d-mediaan ≤ -5% is (nu -9,38%). Harde stop blijft één uurslot onder $80k → direct 25% BTC. Ladder omhoog: BTC naar 55% pas bij vers breedteherstel (>60% groen én stijgende 24u-mediaan) met BTC boven $80k; BTC 70% plus eerste alt pas bij 7d-mediaan > -5% én >50% groen. Cash is een actieve positie: zodra de omslagsignalen vuren grijp ik snel en vol mee, nu is wachten nog steeds goedkoper dan een misgreep.
+Ik handhaaf 45% BTC / 55% cash: geen heropbouw achter een uitgestorven bounce. Harde stop blijft één uurslot onder $80k → direct 25% BTC. Ladder omhoog: BTC naar 55% pas bij vers breedteherstel (>60% groen én stijgende 24u-mediaan) met BTC boven $80k; BTC 70% plus eerste alt pas bij 7d-mediaan > -5% én >50% groen. Zodra de omslagsignalen vuren grijp ik snel en vol mee; nu is wachten nog steeds goedkoper dan een misgreep.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _De verdedigende 60% cash / 40% BTC-positie heeft dit venster gewerkt: -0,07% te
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $4,247.47 | 44.8% | -0.2% | 45.0% | BTC houdt $82k met duidelijke relatieve kracht; stop op $80k begrenst het risico tot ~1% equity, alts blijven 0% bij 7d-mediaan -9,38% |
+| BTC/USD | $4,249.67 | 44.9% | -0.2% | 45.0% | BTC houdt $82,3k met duidelijke relatieve kracht (7d -0,5% vs mediaan -8%), maar breedte 17/33 en 7d-mediaan -8% geven geen laddersignaal: 45% BTC, 55% actieve cash. |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 19-10-2026 14:00 | $9,473 | -5.27% | -1.26% | 0 |
 | 19-10-2026 13:30 | $9,471 | -5.29% | -1.41% | 0 |
 | 19-10-2026 13:00 | $9,481 | -5.19% | -1.18% | 0 |
 | 19-10-2026 12:30 | $9,473 | -5.27% | -1.28% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 19-10-2026 09:30 | $9,508 | -4.92% | -0.62% | 0 |
 | 19-10-2026 09:00 | $9,506 | -4.94% | -0.67% | 0 |
 | 19-10-2026 08:30 | $9,495 | -5.05% | -0.80% | 0 |
-| 19-10-2026 08:00 | $9,498 | -5.02% | -0.78% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
