@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 19-10-2026 21:00_
+_Laatst bijgewerkt: 19-10-2026 21:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,447.44** |
+| Waarde portefeuille | **$9,444.63** |
 | Cash | $4,287.49 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.53%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.75% |
-| Verschil | -3.78% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.55%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.73% |
+| Verschil | -3.83% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.53%** |
+| Rendement deze periode | **-5.55%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.53% |
+| Daling vanaf de top ($10,000) | -5.55% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 59 (Greed) |
 
 ## Marktvisie van de AI
 
-De 24u-bounce staat breed (31/33 groen, mediaan +3,54%) maar het 1u-momentum is vlak tot licht rood; de 7d-mediaan blijft met -6,55% ruim onder de -5%-drempel voor stap 2. BTC toont met $81,9k en 7d -1,09% duidelijke relatieve kracht boven de $80k-stop, terwijl F&G met 59 de reduceerzone nadert.
+De 24u-bounce staat nog breed (32/33 groen, mediaan +3,74%), maar het 1u-momentum is vlak tot licht rood en de 7d-mediaan blijft met -6,55% ruim onder de -5%-drempel voor stap 2. BTC toont rond $81,9k duidelijke relatieve kracht ruim boven de $80k-stop; F&G op 59 nadert de reduceerdrempel van 60 maar triggert nog niet. Ik handhaaf de ladder-status quo: 55% BTC, 45% cash, alts 0%.
 
-## Strategie van de AI (sinds 19-10-2026 21:00)
+## Strategie van de AI (sinds 19-10-2026 21:30)
 
-Ladder ongewijzigd: BTC 55%, cash 45%, alts 0%. Stap 2 (BTC 70% plus eerste alt, uitsluitend in de winst, plafond 10-15%) pas bij 7d-mediaan > -5% én 24u-breedte >50% groen — nu -6,55%, dus nog niet. Harde stop: uurslot BTC <$80k → terug naar 25%. F&G >60 mét stokkende prijsactie is een reduceermoment; nu 59, nog niet getriggerd. Geen trade: 54,6%→55% zit onder de 1%-drempel. Zodra de ladder-signalen vuren neem ik de omslag snel en vol mee.
+Ladder ongewijzigd: BTC 55%, cash 45%, alts 0%. Stap 2 (BTC 70% plus eerste alt, uitsluitend in de winst, plafond 10-15%) pas bij 7d-mediaan > -5% én 24u-breedte >50% groen — nu -6,55%, dus nog niet; de rijpe 24u-bounce (+3,74%) achterna kopen is precies de ARB-fout. Harde stop: uurslot BTC <$80k → terug naar 25%. F&G >60 mét stokkende prijsactie is een reduceermoment; nu 59, nog niet getriggerd. Zodra de 7d-mediaan boven -5% kruipt, neem ik stap 2 snel en vol mee.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _De verdedigende 60% cash / 40% BTC-positie heeft dit venster gewerkt: -0,07% te
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,159.95 | 54.6% | -0.6% | 55.0% | Stap 1 van de ladder: BTC houdt $80k met relatieve kracht (7d -1,09% vs mediaan -6,55%); stap 2 en alts wachten op 7d-herstel boven -5%. |
+| BTC/USD | $5,157.14 | 54.6% | -0.6% | 55.0% | BTC houdt $80k met relatieve kracht; 7d-mediaan -6,55% blokkeert stap 2, dus ladder-status quo. |
 
 ## Orders deze run
 
@@ -49,12 +49,14 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
+- Dagelijkse evaluatie mislukt: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its e
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 19-10-2026 21:30 | $9,445 | -5.55% | -1.73% | 0 |
 | 19-10-2026 21:00 | $9,447 | -5.53% | -1.75% | 0 |
 | 19-10-2026 20:30 | $9,436 | -5.64% | -1.91% | 0 |
 | 19-10-2026 20:00 | $9,441 | -5.59% | -1.79% | 0 |
@@ -66,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 19-10-2026 17:00 | $9,468 | -5.32% | -1.34% | 0 |
 | 19-10-2026 16:30 | $9,451 | -5.49% | -1.53% | 0 |
 | 19-10-2026 16:00 | $9,455 | -5.45% | -1.56% | 0 |
-| 19-10-2026 15:30 | $9,480 | -5.20% | -1.09% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
