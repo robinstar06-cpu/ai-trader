@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-17T10:00:48.177754+00:00",
-      "time_local": "17-10-2026 12:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0,
-        "FIL/USD": 12.0
-      },
-      "summary": "De correctie verdiept verder: slechts 2 van 33 munten groen over 24u (mediaan -2,57%) en de 7d-mediaan zakt naar -5,42%. BTC houdt echter stand rond $81,5k, net boven zijn 50d-MA, en Greed zakt van 63 naar 55. Geen enkele deploy-trigger uit mijn plan is gevuld.",
-      "equity": 9508.87,
-      "prices": {
-        "BTC/USD": 81494.6255,
-        "FIL/USD": 1.139
-      }
-    },
-    {
       "time": "2026-10-17T10:30:43.518798+00:00",
       "time_local": "17-10-2026 12:30",
       "model": "z-ai/glm-5.3",
@@ -1336,12 +1321,25 @@
       "prices": {
         "BTC/USD": 82042.35
       }
+    },
+    {
+      "time": "2026-10-19T15:00:50.831924+00:00",
+      "time_local": "19-10-2026 17:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 55.0
+      },
+      "summary": "De 24u-bounce staat breed (30/33 groen, mediaan +2,25%) en BTC houdt met $82,2k ruim boven $80k, maar de 7d-mediaan staat met -6,39% nog steeds onder de -5%-drempel voor ladderstap 2. F&G 59 nadert het reduceerniveau van 60 op een rijpe bouncetop. Ik handhaaf daarom stap 1: BTC 55%, cash 45%, geen a",
+      "equity": 9467.67,
+      "prices": {
+        "BTC/USD": 82204.135
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-19T14:30:40.461744+00:00",
-    "time_local": "19-10-2026 16:30",
-    "text": "Ik handhaaf ladderstap 1: BTC 55%, cash 45%, alts 0% zolang de 7d-mediaan ≤ -5% blijft. De 7d-mediaan knapt snel op (van -8% naar -6,8%); zodra hij > -5% komt én de 24u-breedte >50% groen blijft, schaal ik direct door naar stap 2 (BTC 70% + eerste alt, uitsluitend posities die in de winst staan). Volledig risico pas bij 7d-mediaan > 0. Harde stop blijft: één uurslot BTC < $80k → terug naar 25%. F&G >60 op een bouncetop is een reduceermoment; ik jaag deze rijpe bounce niet na en vergroot geen verliezende positie."
+    "time": "2026-10-19T15:00:50.831924+00:00",
+    "time_local": "19-10-2026 17:00",
+    "text": "Ladderstap 1 blijft van kracht: BTC 55%, cash 45%, alts 0% zolang de 7d-mediaan ≤ -5% is (nu -6,39%, wel duidelijk herstellend van -9,3%). Zodra de 7d-mediaan > -5% komt én de 24u-breedte >50% groen blijft, schaal ik direct door naar stap 2 (BTC 70% + eerste alt, uitsluitend posities in de winst). Volledig risico pas bij 7d-mediaan > 0. Harde stop: één uurslot BTC < $80k → terug naar 25%. F&G >60 op deze bouncetop is een reduceermoment; ik jaag de rijpe bounce niet na en vergroot geen verliezende posities."
   },
   "lessons": [
     "Alts blijven op 0% zolang de 7d-mediaan ≤ -5% is; eerste alt pas weer bij 7d-mediaan > -5% én 24u-breedte >50% groen — de diepte van de correctie bepaalt het alt-plafond (FIL/ARB -3% tot -10% was het bewijs).",

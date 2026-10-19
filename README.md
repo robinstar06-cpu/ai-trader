@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 19-10-2026 16:30_
+_Laatst bijgewerkt: 19-10-2026 17:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,450.81** |
+| Waarde portefeuille | **$9,467.67** |
 | Cash | $4,287.49 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.49%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.53% |
-| Verschil | -3.96% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.32%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.34% |
+| Verschil | -3.99% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.49%** |
+| Rendement deze periode | **-5.32%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.49% |
+| Daling vanaf de top ($10,000) | -5.32% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 59 (Greed) |
 
 ## Marktvisie van de AI
 
-De 24u-bounce staat nog breed (30/33 groen, mediaan +1,68%), maar op 1u-niveau verliest hij momentum: vrijwel alles staat vlak tot licht rood. De 7d-mediaan herstelt wel richting de drempel (van -8% naar -6,8%) maar blijft onder -5%, dus ladderstap 1 blijft van kracht. BTC toont relatieve kracht bij $82,0k ruim boven de $80k-stop; F&G 59 nadert de 60-reduceerzone.
+De 24u-bounce staat breed (30/33 groen, mediaan +2,25%) en BTC houdt met $82,2k ruim boven $80k, maar de 7d-mediaan staat met -6,39% nog steeds onder de -5%-drempel voor ladderstap 2. F&G 59 nadert het reduceerniveau van 60 op een rijpe bouncetop. Ik handhaaf daarom stap 1: BTC 55%, cash 45%, geen alts.
 
-## Strategie van de AI (sinds 19-10-2026 16:30)
+## Strategie van de AI (sinds 19-10-2026 17:00)
 
-Ik handhaaf ladderstap 1: BTC 55%, cash 45%, alts 0% zolang de 7d-mediaan ≤ -5% blijft. De 7d-mediaan knapt snel op (van -8% naar -6,8%); zodra hij > -5% komt én de 24u-breedte >50% groen blijft, schaal ik direct door naar stap 2 (BTC 70% + eerste alt, uitsluitend posities die in de winst staan). Volledig risico pas bij 7d-mediaan > 0. Harde stop blijft: één uurslot BTC < $80k → terug naar 25%. F&G >60 op een bouncetop is een reduceermoment; ik jaag deze rijpe bounce niet na en vergroot geen verliezende positie.
+Ladderstap 1 blijft van kracht: BTC 55%, cash 45%, alts 0% zolang de 7d-mediaan ≤ -5% is (nu -6,39%, wel duidelijk herstellend van -9,3%). Zodra de 7d-mediaan > -5% komt én de 24u-breedte >50% groen blijft, schaal ik direct door naar stap 2 (BTC 70% + eerste alt, uitsluitend posities in de winst). Volledig risico pas bij 7d-mediaan > 0. Harde stop: één uurslot BTC < $80k → terug naar 25%. F&G >60 op deze bouncetop is een reduceermoment; ik jaag de rijpe bounce niet na en vergroot geen verliezende posities.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _De verdedigende 60% cash / 40% BTC-positie heeft dit venster gewerkt: -0,07% te
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,163.32 | 54.6% | -0.5% | 55.0% | Relatieve kracht: BTC houdt $82k (7d -0,6% vs mediaan -6,8%); ladderstap 1 handhaven, alts pas bij 7d-mediaan > -5%. |
+| BTC/USD | $5,180.18 | 54.7% | -0.2% | 55.0% | Stap 1 ladder: BTC toont relatieve kracht (7d -0,52% vs mediaan -6,39%) en houdt $80k vast; 7d-mediaan nog ≤ -5% dus geen alts. |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 19-10-2026 17:00 | $9,468 | -5.32% | -1.34% | 0 |
 | 19-10-2026 16:30 | $9,451 | -5.49% | -1.53% | 0 |
 | 19-10-2026 16:00 | $9,455 | -5.45% | -1.56% | 0 |
 | 19-10-2026 15:30 | $9,480 | -5.20% | -1.09% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 19-10-2026 12:30 | $9,473 | -5.27% | -1.28% | 0 |
 | 19-10-2026 12:00 | $9,500 | -5.00% | -0.76% | 1 |
 | 19-10-2026 11:30 | $9,514 | -4.86% | -0.51% | 0 |
-| 19-10-2026 11:00 | $9,501 | -4.99% | -0.70% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
