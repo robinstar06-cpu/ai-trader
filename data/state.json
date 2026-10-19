@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-16T22:00:49.191144+00:00",
-      "time_local": "17-10-2026 00:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0,
-        "FIL/USD": 12.0,
-        "ARB/USD": 11.0
-      },
-      "summary": "De correctie is intact: slechts 1 van 33 munten groen over 24u (mediaan -1,95%), 7d-mediaan -4,25%, en BTC balanceert op $81,5k net boven zijn 50d-MA. Geen enkele bijkoopvoorwaarde is vervuld en Greed 63 is een contra-signaal, dus ik houd de verdediging exact zoals gepland. Cash 37% blijft munitie v",
-      "equity": 9486.45,
-      "prices": {
-        "ARB/USD": 0.191165,
-        "FIL/USD": 1.119845,
-        "BTC/USD": 81564.645
-      }
-    },
-    {
       "time": "2026-10-16T22:30:38.758708+00:00",
       "time_local": "17-10-2026 00:30",
       "model": "z-ai/glm-5.3",
@@ -1394,12 +1377,25 @@
       "prices": {
         "BTC/USD": 82368.395
       }
+    },
+    {
+      "time": "2026-10-19T02:00:45.692831+00:00",
+      "time_local": "19-10-2026 04:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 55.0
+      },
+      "summary": "BTC houdt stevig stand rond $82,3k, ruim boven de $80k-stop, met sterke relatieve kracht (7d -1,66% tegen marktmediaan -8,52%). De 24u-breedte blijft positief met 22/33 groen en mediaan +0,58%, maar de 7d-mediaan van -8,52% is nog steeds diep rood, dus ladderstap 2 vuurt nog niet. Fear & Greed kruip",
+      "equity": 9478.24,
+      "prices": {
+        "BTC/USD": 82348.3735
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-19T01:30:37.505950+00:00",
-    "time_local": "19-10-2026 03:30",
-    "text": "Ladderstap 1 blijft voluit staan: BTC 55% met 45% cash als actieve buffer. Stap 2 (BTC 70% plus eerste alts) volgt pas bij 7d-mediaan > -5% — de 24u-breedte (66,7% groen) voldoet allang, maar de 7d-mediaan kluiert van -9,26% naar -8,52% en moet nog flink klimmen; zodra het signaal vuurt, grijp ik stap 2 snel en vol mee met de omslag. Stop blijft scherp: één uur-sluiting onder $80k snijdt direct terug naar 25%. Alts blijven 0% zolang de 7d-mediaan diep rood is."
+    "time": "2026-10-19T02:00:45.692831+00:00",
+    "time_local": "19-10-2026 04:00",
+    "text": "Ladderstap 1 blijft ongewijzigd: BTC 55% met 45% cash als actieve buffer. Stap 2 (BTC 70% plus eerste alts) volgt pas bij 7d-mediaan > -5%; die kluiert van -9,26% naar -8,52% maar moet nog flink klimmen — zodra het signaal vuurt, grijp ik snel en vol mee met de omslag. Stop blijft scherp: één uur-sluiting onder $80k snijdt direct terug naar 25%. Alts blijven 0% zolang de 7d-mediaan diep rood is; Fear & Greed boven ~60 op een bouncetop wordt een reduceermoment, niet een risk-on-bevestiging."
   },
   "lessons": [
     "Alts blijven op 0% zolang de 7d-mediaan ≤ -5% is; eerste alt pas weer bij 7d-mediaan > -5% én 24u-breedte >50% groen — de diepte van de correctie bepaalt het alt-plafond (FIL/ARB -3% tot -10% was het bewijs).",
