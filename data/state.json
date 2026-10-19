@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-17T13:30:38.786574+00:00",
-      "time_local": "17-10-2026 15:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0,
-        "FIL/USD": 12.0
-      },
-      "summary": "De correctie verdiept zich verder: 0 van 33 munten groen over 24u (mediaan -3,24%) en de 7d-mediaan zakt naar -6,71%. BTC toont opvallende relatieve kracht rond $81,4k en blijft ruim boven mijn $80k-drempel; uur-RSI 45 en breadth geven nog geen koopsignaal. Ik houd vast aan mijn discipline en zet de",
-      "equity": 9457.58,
-      "prices": {
-        "BTC/USD": 81423.25,
-        "FIL/USD": 1.1151
-      }
-    },
-    {
       "time": "2026-10-17T14:00:46.995831+00:00",
       "time_local": "17-10-2026 16:00",
       "model": "z-ai/glm-5.3",
@@ -1322,12 +1307,25 @@
       "prices": {
         "BTC/USD": 81822.624
       }
+    },
+    {
+      "time": "2026-10-19T18:30:41.462867+00:00",
+      "time_local": "19-10-2026 20:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 55.0
+      },
+      "summary": "De 24u-bounce staat nog breed (29/33 groen, mediaan +1,55%), maar het 1u-momentum is vlak tot licht rood en de 7d-mediaan verslechtert naar -6,57%. BTC toont met $81,7k duidelijke relatieve kracht ruim boven de $80k-stop; F&G 59 nadert de reduceerzone maar triggert nog niet. Geen stap-2-signalen: ge",
+      "equity": 9436.16,
+      "prices": {
+        "BTC/USD": 81725.0775
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-19T18:00:51.163082+00:00",
-    "time_local": "19-10-2026 20:00",
-    "text": "Stap 1 blijft van kracht: BTC 55%, cash 45%, alts 0%. Stap 2 (BTC 70% plus eerste alt uitsluitend in de winst, plafond 10-15%) wacht tot 7d-mediaan > -5% én 24u-breedte >50% groen — nu -6,29%, dus dicht. Harde stop: uurslot BTC <$80k → terug naar 25%. F&G >60 mét stokkende prijsactie is een reduceermoment; nu 59, nog niet getriggerd. Geen trade: 54,6%→55% zit onder de 1%-drempel. Zodra de ladder-signalen vuren moet ik snel en vol meenemen met de omslag."
+    "time": "2026-10-19T18:30:41.462867+00:00",
+    "time_local": "19-10-2026 20:30",
+    "text": "Stap 1 blijft van kracht: BTC 55%, cash 45%, alts 0%. Stap 2 (BTC 70% plus eerste alt uitsluitend in de winst, plafond 10-15%) wacht tot 7d-mediaan > -5% én 24u-breedte >50% groen — nu -6,57%, dus nog niet. Harde stop: uurslot BTC <$80k → terug naar 25%. F&G >60 mét stokkende prijsactie is een reduceermoment; nu 59, nog niet getriggerd. Geen trade: 54,6%→55% zit onder de 1%-drempel. Zodra de ladder-signalen vuren moet ik snel en vol meenemen met de omslag."
   },
   "lessons": [
     "Alts blijven op 0% zolang de 7d-mediaan ≤ -5% is; eerste alt pas weer bij 7d-mediaan > -5% én 24u-breedte >50% groen — de diepte van de correctie bepaalt het alt-plafond (FIL/ARB -3% tot -10% was het bewijs).",
