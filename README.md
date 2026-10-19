@@ -1,14 +1,14 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 19-10-2026 23:30_
+_Laatst bijgewerkt: 20-10-2026 00:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,451.55** |
+| Waarde portefeuille | **$9,451.74** |
 | Cash | $4,287.49 (45%) |
 | Rendement AI sinds 14-10-2026 13:02 | **-5.48%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.63% |
-| Verschil | -3.86% |
+| Ter vergelijking: gewoon BTC vasthouden | -1.64% |
+| Verschil | -3.84% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
 | Rendement deze periode | **-5.48%** |
 | Gehaalde mijlpalen | nog geen |
@@ -37,7 +37,7 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,164.06 | 54.6% | -0.5% | 54.6% |  |
+| BTC/USD | $5,164.25 | 54.6% | -0.5% | 54.6% |  |
 
 ## Orders deze run
 
@@ -48,12 +48,13 @@ Geen orders (verdeling blijft gelijk).
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
 - AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: antwoord bevatte geen geldige JSON
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 20-10-2026 00:00 | $9,452 | -5.48% | -1.64% | 0 |
 | 19-10-2026 23:30 | $9,452 | -5.48% | -1.63% | 0 |
 | 19-10-2026 23:00 | $9,445 | -5.55% | -1.69% | 0 |
 | 19-10-2026 22:30 | $9,449 | -5.51% | -1.67% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 19-10-2026 19:30 | $9,454 | -5.46% | -1.71% | 0 |
 | 19-10-2026 19:00 | $9,448 | -5.52% | -1.70% | 0 |
 | 19-10-2026 18:30 | $9,447 | -5.53% | -1.66% | 0 |
-| 19-10-2026 18:00 | $9,447 | -5.53% | -1.78% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
