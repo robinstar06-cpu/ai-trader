@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 19-10-2026 04:30_
+_Laatst bijgewerkt: 19-10-2026 05:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,477.30** |
+| Waarde portefeuille | **$9,494.52** |
 | Cash | $4,275.12 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.23%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.25% |
-| Verschil | -3.98% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.05%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.84% |
+| Verschil | -4.21% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.23%** |
+| Rendement deze periode | **-5.05%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.23% |
+| Daling vanaf de top ($10,000) | -5.05% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 59 (Greed) |
 
 ## Marktvisie van de AI
 
-De breedte vlakt af: 17/33 munten groen op 24u (mediaan +0,04%) en de 7d-mediaan blijft diep rood op -8,78%, zelfs iets slechter dan daarnet. BTC houdt stand rond $82,3k met sterke relatieve kracht (7d -1,75% tegen marktmediaan -8,78%), ruim boven de $80k-stop. Fear & Greed kruipt met 59 gevaarlijk dicht naar de reduceergrens van ~60.
+BTC houdt stevig stand rond $82,6k, ruim boven de $80k-stop, met mild positieve 24u-breedte (18/33 groen, mediaan +0,40%) en sterke relatieve kracht (7d -1,07% tegen mediaan -8,49%). De 7d-mediaan herstelt echter nog niet richting -5% en Fear & Greed kruipt met 59 op naar mijn reduceerdrempel, dus de ladder geeft geen signaal voor meer risico.
 
-## Strategie van de AI (sinds 19-10-2026 04:30)
+## Strategie van de AI (sinds 19-10-2026 05:00)
 
-Ladderstap 1 blijft staan: BTC 55% met 45% actieve cash. Stap 2 (BTC 70% plus eerste alts) volgt pas bij 7d-mediaan > -5%; die staat nu op -8,78% en beweegt van me vandaan, dus geen vervroegde risicopump. Stop blijft scherp: één uur-sluiting onder $80k snijdt direct terug naar 25%. Fear & Greed boven ~60 op deze bouncetop wordt een reduceermoment, geen risk-on-signaal. Alts blijven 0% zolang de 7d-mediaan diep rood is; zodra het ladder-signaal vuurt, grijp ik snel en vol mee.
+Ladderstap 1 blijft staan: BTC 55% met 45% actieve cash. Stap 2 (BTC 70% plus eerste alts) volgt pas bij 7d-mediaan > -5%; die staat op -8,49% en beweegt nog niet mijn kant op, dus geen vervroegde risicopump achter een rijpe bounce. Stop blijft scherp: één uur-sluiting onder $80k snijdt direct terug naar 25%. Fear & Greed boven ~60 op deze bouncetop wordt een reduceermoment; bij 59 blijf ik alert maar verkoop niet voorlopig. Zodra de ladder-signalen vuren, grijp ik snel en vol mee richting de +20%-doelstelling.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _De verdedigende 60% cash / 40% BTC-positie heeft dit venster gewerkt: -0,07% te
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,202.18 | 54.9% | -0.0% | 55.0% | Sterke relatieve kracht (7d -1,75% vs mediaan -8,78%), houdt $82,3k vast boven de $80k-stop; ladderstap 1, cash blijft actieve buffer tot 7d-mediaan > -5%. |
+| BTC/USD | $5,219.40 | 55.0% | +0.3% | 55.0% | BTC toont relatieve kracht en houdt $80k ruim vast; 7d-mediaan -8,49% blokkeert stap 2 en alts, dus 45% cash blijft de actieve defensieve positie. |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 19-10-2026 05:00 | $9,495 | -5.05% | -0.84% | 0 |
 | 19-10-2026 04:30 | $9,477 | -5.23% | -1.25% | 0 |
 | 19-10-2026 04:00 | $9,478 | -5.22% | -1.16% | 0 |
 | 19-10-2026 03:30 | $9,482 | -5.18% | -1.14% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 19-10-2026 00:30 | $9,432 | -5.68% | -2.21% | 0 |
 | 19-10-2026 00:00 | $9,423 | -5.77% | -2.64% | 0 |
 | 18-10-2026 23:30 | $9,407 | -5.93% | -2.91% | 0 |
-| 18-10-2026 23:00 | $9,406 | -5.94% | -2.94% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).

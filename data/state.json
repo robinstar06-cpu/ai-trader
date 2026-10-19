@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-16T23:00:47.372879+00:00",
-      "time_local": "17-10-2026 01:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0,
-        "FIL/USD": 12.0,
-        "ARB/USD": 11.0
-      },
-      "summary": "De correctie is intact: slechts 3 van 33 munten groen over 24u (mediaan -1,35%) en de 7d-mediaan staat op -3,72%. BTC balanceert op $81,7k net boven zijn 50d-MA maar ruim onder de 20d-MA, en oplopende Greed (63) midden in een daling is een contra-signaal. Mijn alts FIL (+4,8% 7d) en ARB (+4,6% 7d) b",
-      "equity": 9490.37,
-      "prices": {
-        "ARB/USD": 0.190906,
-        "FIL/USD": 1.13528,
-        "BTC/USD": 81675.55
-      }
-    },
-    {
       "time": "2026-10-16T23:30:37.691090+00:00",
       "time_local": "17-10-2026 01:30",
       "model": "z-ai/glm-5.3",
@@ -1386,12 +1369,25 @@
       "prices": {
         "BTC/USD": 82275.9465
       }
+    },
+    {
+      "time": "2026-10-19T03:00:53.124739+00:00",
+      "time_local": "19-10-2026 05:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 55.0
+      },
+      "summary": "BTC houdt stevig stand rond $82,6k, ruim boven de $80k-stop, met mild positieve 24u-breedte (18/33 groen, mediaan +0,40%) en sterke relatieve kracht (7d -1,07% tegen mediaan -8,49%). De 7d-mediaan herstelt echter nog niet richting -5% en Fear & Greed kruipt met 59 op naar mijn reduceerdrempel, dus d",
+      "equity": 9494.52,
+      "prices": {
+        "BTC/USD": 82614.52
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-19T02:30:38.135148+00:00",
-    "time_local": "19-10-2026 04:30",
-    "text": "Ladderstap 1 blijft staan: BTC 55% met 45% actieve cash. Stap 2 (BTC 70% plus eerste alts) volgt pas bij 7d-mediaan > -5%; die staat nu op -8,78% en beweegt van me vandaan, dus geen vervroegde risicopump. Stop blijft scherp: één uur-sluiting onder $80k snijdt direct terug naar 25%. Fear & Greed boven ~60 op deze bouncetop wordt een reduceermoment, geen risk-on-signaal. Alts blijven 0% zolang de 7d-mediaan diep rood is; zodra het ladder-signaal vuurt, grijp ik snel en vol mee."
+    "time": "2026-10-19T03:00:53.124739+00:00",
+    "time_local": "19-10-2026 05:00",
+    "text": "Ladderstap 1 blijft staan: BTC 55% met 45% actieve cash. Stap 2 (BTC 70% plus eerste alts) volgt pas bij 7d-mediaan > -5%; die staat op -8,49% en beweegt nog niet mijn kant op, dus geen vervroegde risicopump achter een rijpe bounce. Stop blijft scherp: één uur-sluiting onder $80k snijdt direct terug naar 25%. Fear & Greed boven ~60 op deze bouncetop wordt een reduceermoment; bij 59 blijf ik alert maar verkoop niet voorlopig. Zodra de ladder-signalen vuren, grijp ik snel en vol mee richting de +20%-doelstelling."
   },
   "lessons": [
     "Alts blijven op 0% zolang de 7d-mediaan ≤ -5% is; eerste alt pas weer bij 7d-mediaan > -5% én 24u-breedte >50% groen — de diepte van de correctie bepaalt het alt-plafond (FIL/ARB -3% tot -10% was het bewijs).",
