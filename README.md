@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 19-10-2026 11:30_
+_Laatst bijgewerkt: 19-10-2026 12:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,513.79** |
-| Cash | $4,275.12 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.86%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.51% |
-| Verschil | -4.35% |
+| Waarde portefeuille | **$9,500.25** |
+| Cash | $5,223.53 (55%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.00%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.76% |
+| Verschil | -4.24% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.86%** |
+| Rendement deze periode | **-5.00%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.86% |
+| Daling vanaf de top ($10,000) | -5.00% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 59 (Greed) |
 
 ## Marktvisie van de AI
 
-De 24u-bounce verliest aan de randen momentum (23/33 groen, mediaan +0,67% tegen eerder +1,42%), maar BTC houdt stevig vast rond $82,9k met duidelijke relatieve kracht. De 7d-mediaan herstelt langzaam naar -7,96% maar blijft ruim onder de -5%-drempel voor ladderstap 2. F&G op 59 nadert de ~60-reduceerzone; geen risico-opbouw achter deze rijpe bounce.
+De 24u-bounce verliest duidelijk momentum: breedte zakt van 30/33 naar 21/33 groen en de mediaan van +1,42% naar +0,36%, terwijl de 7d-mediaan nog diep rood staat op -8,61%. F&G kruipt met 59 richting de greed-zone — op deze rijpe bouncetop een contra-signaal. BTC houdt $82,7k met sterke relatieve kracht (7d -0,89% vs mediaan -8,61%), maar zonder breedteherstel is een structurele omslag uitgesloten.
 
-## Strategie van de AI (sinds 19-10-2026 11:30)
+## Strategie van de AI (sinds 19-10-2026 12:00)
 
-Ladderstap 1 blijft staan: BTC 55% met 45% actieve cash. Geen alts zolang de 7d-mediaan ≤ -5% blijft; de breedtevoorwaarde (23/33 groen) geldt, maar de 7d-mediaan (-7,96%) nog niet. Harde stop: één uurslot onder $80k → direct 25%. F&G boven ~60 op deze top wordt een reduceermoment. Zodra de 7d-mediaan door -5% breekt, grijp ik snel en vol richting stap 2 (BTC 70% + eerste alt) voor het +20%-doel.
+Ik trim BTC van 55% naar 45% en parkeer 55% in actieve cash: de bounce rijpt af (breedte 30/33→21/33) en F&G op 59 raakt mijn reduceerdrempel van ~60 op deze top. Schadebeperking gaat vóór rendement-jagen tot de 7d-mediaan herstelt. Harde stop blijft: één uurslot onder $80k → direct 25%. Zodra de 7d-mediaan door -5% breekt én 24u-breedte >50% groen is, grijp ik snel en vol naar ladderstap 2: BTC 70% plus eerste alt. Geen alts zolang de 7d-mediaan ≤ -5% blijft.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,11 +41,13 @@ _De verdedigende 60% cash / 40% BTC-positie heeft dit venster gewerkt: -0,07% te
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,238.67 | 55.1% | +0.7% | 55.0% | Stap 1 ladder: BTC houdt $80k ruim vast met relatieve kracht; 7d-mediaan -7,96% blokkeert alts en verdere opbouw achter deze rijpe, dovende bounce. |
+| BTC/USD | $4,276.72 | 45.0% | +0.5% | 45.0% | Trim naar 45% als reduceermoment: F&G 59 bij rijpe bounce en krimpende breedte; BTC zelf sterk (7d -0,89%), stop uurslot <$80k → 25%. |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| BTC/USD | sell | $950.70 | verkocht 0.011495737 |
 
 ## Meldingen
 
@@ -55,6 +57,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 19-10-2026 12:00 | $9,500 | -5.00% | -0.76% | 1 |
 | 19-10-2026 11:30 | $9,514 | -4.86% | -0.51% | 0 |
 | 19-10-2026 11:00 | $9,501 | -4.99% | -0.70% | 0 |
 | 19-10-2026 10:30 | $9,502 | -4.98% | -0.73% | 0 |
@@ -66,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 19-10-2026 07:30 | $9,493 | -5.07% | -0.88% | 0 |
 | 19-10-2026 07:00 | $9,501 | -4.99% | -0.76% | 0 |
 | 19-10-2026 06:30 | $9,483 | -5.17% | -1.09% | 0 |
-| 19-10-2026 06:00 | $9,484 | -5.16% | -1.07% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
