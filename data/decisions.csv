@@ -676,3 +676,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-19T16:30:44.050963+00:00,19-10-2026 18:30,z-ai/glm-5.3,BTC/USD,54.6,55.0,houden,,,Ladderstap 1: BTC houdt $80k 12u+ vast met relatieve kracht; 7d-mediaan nog ≤ -5% dus geen alts en geen uitbreiding tot het signaal vuurt.
 2026-10-19T17:00:49.550441+00:00,19-10-2026 19:00,z-ai/glm-5.3,BTC/USD,54.6,55.0,houden,,,"Sterkste groot asset (7d -0,61% vs mediaan -6,10%), houdt $80k 12u+ vast; ladder-stap 1, alts pas bij 7d-mediaan > -5%."
 2026-10-19T17:30:44.645162+00:00,19-10-2026 19:30,z-ai/glm-5.3,BTC/USD,54.6,55.0,houden,,,"Relatieve kracht (7d -0,62% vs mediaan -6,38%) ruim boven $80k-stop; 7d-mediaan nog te zwak voor stap 2, alts blijven 0%."
+2026-10-19T18:00:51.163082+00:00,19-10-2026 20:00,z-ai/glm-5.3,BTC/USD,54.6,55.0,houden,,,"Relatieve kracht ruim boven $80k-stop; 7d-mediaan -6,29% houdt stap 2 dicht, cash blijft actieve positie"
