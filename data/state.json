@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-17T08:00:45.598805+00:00",
-      "time_local": "17-10-2026 10:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0,
-        "FIL/USD": 12.0
-      },
-      "summary": "De correctie zet onverminderd door: slechts 4 van 33 munten groen over 24u (mediaan -2,21%) en de 7d-mediaan staat op -5,31%. BTC balanceert op $81,6k, net boven zijn 50d-MA; FIL is met +1,86% op 24u en +2,84% op 7d een van de weinige groene munten. Geen enkel signaal voor risico-opbouw is bevestigd",
-      "equity": 9521.23,
-      "prices": {
-        "BTC/USD": 81625.915,
-        "FIL/USD": 1.16395
-      }
-    },
-    {
       "time": "2026-10-17T08:30:36.783235+00:00",
       "time_local": "17-10-2026 10:30",
       "model": "z-ai/glm-5.3",
@@ -1344,12 +1329,25 @@
       "prices": {
         "BTC/USD": 82270.405
       }
+    },
+    {
+      "time": "2026-10-19T13:00:48.620659+00:00",
+      "time_local": "19-10-2026 15:00",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 55.0
+      },
+      "summary": "De marktbreedte is sterk hersteld naar 27/33 groen met een 24u-mediaan van +0,89%, en BTC houdt met $82,5k stevig boven de $80k. De 7d-mediaan blijft echter diep rood op -7,11%, dus een structurele omslag is nog niet bevestigd; F&G 59 (Greed) op een bouncetop vraagt waakzaamheid.",
+      "equity": 9487.12,
+      "prices": {
+        "BTC/USD": 82504.8
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-19T12:00:50.686474+00:00",
-    "time_local": "19-10-2026 14:00",
-    "text": "Ik handhaaf 45% BTC / 55% cash: geen heropbouw achter een uitgestorven bounce. Harde stop blijft één uurslot onder $80k → direct 25% BTC. Ladder omhoog: BTC naar 55% pas bij vers breedteherstel (>60% groen én stijgende 24u-mediaan) met BTC boven $80k; BTC 70% plus eerste alt pas bij 7d-mediaan > -5% én >50% groen. Zodra de omslagsignalen vuren grijp ik snel en vol mee; nu is wachten nog steeds goedkoper dan een misgreep."
+    "time": "2026-10-19T13:00:48.620659+00:00",
+    "time_local": "19-10-2026 15:00",
+    "text": "Ik voer ladderstap 1 uit: BTC van 45% naar 55%, want de voorwaarden (breedte >60% groen, stijgende 24u-mediaan, BTC houdt $80k) zijn gehaald. Alts blijven op 0% zolang de 7d-mediaan ≤ -5% is. Stap 2 (BTC 70% + eerste alt) pas bij 7d-mediaan > -5%; volledig risico bij 7d-mediaan > 0. Harde stop: één uurslot onder $80k → terug naar 25% BTC. Ik bouw blootheid stapsgewijs via BTC op en grijp vol mee zodra de omslag breder bevestigd wordt."
   },
   "lessons": [
     "Alts blijven op 0% zolang de 7d-mediaan ≤ -5% is; eerste alt pas weer bij 7d-mediaan > -5% én 24u-breedte >50% groen — de diepte van de correctie bepaalt het alt-plafond (FIL/ARB -3% tot -10% was het bewijs).",
