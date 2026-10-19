@@ -1,24 +1,20 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 19-10-2026 07:00_
+_Laatst bijgewerkt: 19-10-2026 07:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,501.48** |
+| Waarde portefeuille | **$9,493.19** |
 | Cash | $4,275.12 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.99%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.76% |
-| Verschil | -4.23% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.07%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.88% |
+| Verschil | -4.19% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.99%** |
+| Rendement deze periode | **-5.07%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.99% |
-| Model | z-ai/glm-5.3 |
+| Daling vanaf de top ($10,000) | -5.07% |
+| Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 59 (Greed) |
-
-## Marktvisie van de AI
-
-BTC houdt stevig stand rond $82,7k met sterke relatieve kracht (7d -1,47% tegen marktmediaan -9,18%). De 24u-breedte is mild positief (21/33 groen, mediaan +0,51%), maar de 7d-mediaan blijft diep rood, dus laddertap 2 (BTC 70% plus alts) blijft geblokkeerd. F&G op 59 nadert de ~60-reduceerzone op deze rijpende bouncetop.
 
 ## Strategie van de AI (sinds 19-10-2026 07:00)
 
@@ -41,7 +37,7 @@ _De verdedigende 60% cash / 40% BTC-positie heeft dit venster gewerkt: -0,07% te
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,226.36 | 55.0% | +0.4% | 55.0% | Ladderstap 1: BTC houdt $80k ruim vast met de sterkste relatieve kracht; cash blijft actief tot 7d-mediaan > -5% |
+| BTC/USD | $5,218.07 | 55.0% | +0.3% | 55.0% |  |
 
 ## Orders deze run
 
@@ -49,12 +45,16 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
+- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
+- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 19-10-2026 07:30 | $9,493 | -5.07% | -0.88% | 0 |
 | 19-10-2026 07:00 | $9,501 | -4.99% | -0.76% | 0 |
 | 19-10-2026 06:30 | $9,483 | -5.17% | -1.09% | 0 |
 | 19-10-2026 06:00 | $9,484 | -5.16% | -1.07% | 0 |
@@ -66,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 19-10-2026 03:00 | $9,471 | -5.29% | -1.33% | 0 |
 | 19-10-2026 02:30 | $9,465 | -5.35% | -1.48% | 0 |
 | 19-10-2026 02:00 | $9,459 | -5.41% | -1.57% | 0 |
-| 19-10-2026 01:30 | $9,460 | -5.40% | -1.50% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
