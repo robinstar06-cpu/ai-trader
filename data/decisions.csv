@@ -737,3 +737,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-20T19:00:51.336118+00:00,20-10-2026 21:00,,SOL/USD,14.7,14.7,houden,,,
 2026-10-20T19:30:40.117419+00:00,20-10-2026 21:30,,BTC/USD,59.9,59.9,houden,,,
 2026-10-20T19:30:40.117419+00:00,20-10-2026 21:30,,SOL/USD,14.7,14.7,houden,,,
+2026-10-20T20:00:49.156938+00:00,20-10-2026 22:00,z-ai/glm-5.3,BTC/USD,59.9,60.0,houden,,,"Anker houdt ($82,5k) met relatieve kracht; stap-2-trigger bevestigd, dus verhoging naar 70%."
+2026-10-20T20:00:49.156938+00:00,20-10-2026 22:00,z-ai/glm-5.3,SOL/USD,14.7,15.0,houden,,,"Eerste alt per ladder: sterkste kracht na BTC, hoge liquiditeit, nog niet rijp."
