@@ -1,18 +1,18 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 20-10-2026 02:00_
+_Laatst bijgewerkt: 20-10-2026 02:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,443.74** |
-| Cash | $4,287.49 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.56%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.78% |
-| Verschil | -3.79% |
+| Waarde portefeuille | **$9,422.74** |
+| Cash | $4,287.49 (46%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.77%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.22% |
+| Verschil | -3.55% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.56%** |
+| Rendement deze periode | **-5.77%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.56% |
+| Daling vanaf de top ($10,000) | -5.77% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
@@ -37,7 +37,7 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,156.25 | 54.6% | -0.7% | 54.6% |  |
+| BTC/USD | $5,135.25 | 54.5% | -1.1% | 54.5% |  |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 20-10-2026 02:30 | $9,423 | -5.77% | -2.22% | 0 |
 | 20-10-2026 02:00 | $9,444 | -5.56% | -1.78% | 0 |
 | 20-10-2026 01:30 | $9,451 | -5.49% | -1.67% | 0 |
 | 20-10-2026 01:00 | $9,453 | -5.47% | -1.63% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 19-10-2026 22:00 | $9,438 | -5.62% | -1.84% | 0 |
 | 19-10-2026 21:30 | $9,445 | -5.55% | -1.73% | 0 |
 | 19-10-2026 21:00 | $9,447 | -5.53% | -1.75% | 0 |
-| 19-10-2026 20:30 | $9,436 | -5.64% | -1.91% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
