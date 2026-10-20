@@ -1,14 +1,14 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 20-10-2026 10:00_
+_Laatst bijgewerkt: 20-10-2026 10:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,417.14** |
+| Waarde portefeuille | **$9,416.70** |
 | Cash | $4,287.49 (46%) |
 | Rendement AI sinds 14-10-2026 13:02 | **-5.83%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.24% |
-| Verschil | -3.59% |
+| Ter vergelijking: gewoon BTC vasthouden | -2.26% |
+| Verschil | -3.57% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
 | Rendement deze periode | **-5.83%** |
 | Gehaalde mijlpalen | nog geen |
@@ -18,11 +18,11 @@ _Laatst bijgewerkt: 20-10-2026 10:00_
 
 ## Marktvisie van de AI
 
-Marktbreedte blijft zeer zwak: slechts 6/33 munten groen over 24u (mediaan -1,26%) en de 7d-mediaan staat met -6,06% ruim onder de -5%-drempel. BTC toont relatieve kracht (7d -2,44% vs mediaan -6,06%) en houdt $81,4k, boven het $80k-anker; F&G zakt naar 55, onder de reduceerdrempel. Geen stap-2-trigger, geen de-risk-trigger: de ladder blijft op stap 1.
+Marktbreedte blijft zeer zwak: slechts 6/33 munten groen over 24u (mediaan -1,33%) en de 7d-mediaan staat met -6,28% diep in het rood. BTC houdt met $81,4k het $80k-anker ruim vast en toont sterke relatieve kracht (7d -2,47% vs mediaan -6,28%). F&G zakt naar 55, ruim onder de reduceerdrempel van 60.
 
-## Strategie van de AI (sinds 20-10-2026 10:00)
+## Strategie van de AI (sinds 20-10-2026 10:30)
 
-Stap 1 blijft staan: BTC 55%, cash 45%, alts 0%. Stap-2 vuurt niet (breedte 6/33, 7d-mediaan -6,06%) en de-risk-triggers evenmin (BTC $81,4k > $80k, F&G 55 < 60). Cash drag geaccepteerd zolang het structurele beeld rood is; rijpe alt-bounces (BAT, CRV, PEPE, ARB) niet achterna. De-risk alleen bij uurslot BTC <$80k of F&G >60 mét stokkende prijs. Zodra breedte >50% groen én 7d-mediaan >-5%: direct en vol naar BTC 70% plus eerste alt op relatieve kracht (plafond 10-15%).
+Stap 1 blijft staan: BTC 55%, cash 45%, alts 0%. Stap-2 vuurt niet (breedte 6/33 groen, 7d-mediaan -6,28% ruim onder -5%) en de-risk-triggers evenmin (BTC $81,4k > $80k-anker, F&G 55 < 60). Cash drag geaccepteerd zolang het structurele beeld rood is; rijpe alt-bounces (BAT +10%, PEPE, CRV op 7d-hoog) niet achterna. De-risk alleen bij uurslot BTC <$80k of F&G >60 mét stokkende prijs. Zodra breedte >50% groen én 7d-mediaan >-5%: direct en vol naar BTC 70% plus eerste alt op relatieve kracht (plafond 10-15%).
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,129.65 | 54.5% | -1.0% | 55.0% | Anker intact: $81,4k boven $80k met relatieve kracht (7d -2,44% vs mediaan -6,06%); stap-2-trigger vuurt niet, dus 55% vasthouden en 45% cash als actieve bescherming. |
+| BTC/USD | $5,129.21 | 54.5% | -1.0% | 55.0% | Stap 1 actief: $80k-anker houdt stand en BTC toont relatieve kracht; stap-2- en de-risk-triggers vuuren niet, dus geen zwaai op ruis. |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 20-10-2026 10:30 | $9,417 | -5.83% | -2.26% | 0 |
 | 20-10-2026 10:00 | $9,417 | -5.83% | -2.24% | 0 |
 | 20-10-2026 09:30 | $9,426 | -5.74% | -2.15% | 0 |
 | 20-10-2026 09:00 | $9,437 | -5.63% | -1.93% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 20-10-2026 06:00 | $9,456 | -5.44% | -1.55% | 0 |
 | 20-10-2026 05:30 | $9,441 | -5.59% | -1.86% | 0 |
 | 20-10-2026 05:00 | $9,435 | -5.65% | -1.96% | 0 |
-| 20-10-2026 04:30 | $9,428 | -5.72% | -2.06% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
