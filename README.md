@@ -1,18 +1,18 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 20-10-2026 19:30_
+_Laatst bijgewerkt: 20-10-2026 20:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,508.58** |
+| Waarde portefeuille | **$9,517.37** |
 | Cash | $2,408.56 (25%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.91%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.79% |
-| Verschil | -4.13% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.83%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.70% |
+| Verschil | -4.12% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.91%** |
+| Rendement deze periode | **-4.83%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.91% |
+| Daling vanaf de top ($10,000) | -4.83% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
@@ -37,7 +37,7 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,695.61 | 59.9% | +0.6% | 59.9% |  |
+| BTC/USD | $5,704.40 | 59.9% | +0.7% | 59.9% |  |
 | SOL/USD | $1,404.41 | 14.8% | +1.0% | 14.8% |  |
 
 ## Orders deze run
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 20-10-2026 20:00 | $9,517 | -4.83% | -0.70% | 0 |
 | 20-10-2026 19:30 | $9,509 | -4.91% | -0.79% | 0 |
 | 20-10-2026 19:00 | $9,513 | -4.87% | -0.75% | 0 |
 | 20-10-2026 18:30 | $9,479 | -5.21% | -1.11% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 20-10-2026 15:30 | $9,413 | -5.87% | -2.42% | 0 |
 | 20-10-2026 15:00 | $9,424 | -5.76% | -2.19% | 0 |
 | 20-10-2026 14:30 | $9,420 | -5.80% | -2.25% | 0 |
-| 20-10-2026 14:00 | $9,417 | -5.83% | -2.31% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
