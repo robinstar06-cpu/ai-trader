@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-18T07:00:45.129036+00:00",
-      "time_local": "18-10-2026 09:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0
-      },
-      "summary": "BTC houdt zich staand rond $81,6k (+0,12% op 24u) terwijl de breedte doodbloedt: slechts 1 van 33 munten groen, mediaan 24u -2,27% en 7d-mediaan -7,03%. Een bevestigde omslag ontbreekt nog volledig; de correctie dooft hoogstens langzaam uit. Fear & Greed 53 (neutraal) geeft geen bruikbaar contra-sig",
-      "equity": 9437.96,
-      "prices": {
-        "BTC/USD": 81620.295
-      }
-    },
-    {
       "time": "2026-10-18T07:30:43.714329+00:00",
       "time_local": "18-10-2026 09:30",
       "model": "z-ai/glm-5.3",
@@ -1332,12 +1319,29 @@
         "BTC/USD": 82959.42,
         "BCH/USD": 283.5785
       }
+    },
+    {
+      "time": "2026-10-20T23:00:48.192104+00:00",
+      "time_local": "21-10-2026 01:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 15.0,
+        "BCH/USD": 10.0
+      },
+      "summary": "Breed herstel zet door: 30/33 munten groen (24u-mediaan +2,59%) en de 7d-mediaan herstelt verder naar -2,04%. BTC houdt $83k ruim boven het $80k-anker met duidelijke relatieve kracht; F&G koelt af naar 55, onder de reduceerdrempel. De stap-3-trigger (7d-mediaan positief of BTC >$84k) is nog niet gev",
+      "equity": 9539.69,
+      "prices": {
+        "BTC/USD": 83017.705,
+        "BCH/USD": 283.1415,
+        "SOL/USD": 106.765
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-20T22:30:38.699915+00:00",
-    "time_local": "21-10-2026 00:30",
-    "text": "Stap 2 staat er goed: BTC +1,0%, SOL +1,6%, alleen BCH licht rood. De laatste 15% cash blijft munitie voor stap 3 en stroomt vol en direct zodra de 7d-mediaan positief draait of BTC $84k breekt — bij dit hersteltempo mogelijk binnen enkele uren. Niets aankopen achter de rijpe 24u-bounce (mediaan +2,5%, BCH op zijn 7d-hoog). De-risico alleen bij uurslot BTC <$80k of F&G >60 met stokkende prijs; verliezende posities niet aanvullen."
+    "time": "2026-10-20T23:00:48.192104+00:00",
+    "time_local": "21-10-2026 01:00",
+    "text": "Stap 2 vasthouden: BTC 60%, SOL 15%, BCH 10%, 15% cash. Die laatste 15% stroomt vol en direct in zodra de 7d-mediaan positief draait of BTC $84k breekt — bij dit hersteltempo mogelijk binnen enkele uren. Niets aankopen achter de rijpe bounce (24u-mediaan +2,5%, BCH op zijn 7d-hoog, veel alts ver in het bovenkwart van hun 7d-range). De-risico alleen bij uurslot BTC <$80k of F&G >60 met stokkende prijs; verliezende posities niet aanvullen."
   },
   "lessons": [
     "Speelboek blijft de ladder met BTC-relatieve kracht als anker: stap 1 (BTC 55% bij breadth >30% groen én $80k 12u+ vasthouden) ving deze bounce van $81k naar $82k; stap 2 (BTC 70% plus eerste alts) vuurt zodra de 7d-mediaan boven -5% sluit, volledig ",
