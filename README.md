@@ -1,24 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 20-10-2026 09:00_
+_Laatst bijgewerkt: 20-10-2026 09:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,436.84** |
+| Waarde portefeuille | **$9,426.42** |
 | Cash | $4,287.49 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.63%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.93% |
-| Verschil | -3.70% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.74%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.15% |
+| Verschil | -3.59% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.63%** |
+| Rendement deze periode | **-5.74%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.63% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -5.74% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
-## Strategie van de AI (sinds 20-10-2026 08:30)
+## Marktvisie van de AI
 
-Stap 1 blijft staan: BTC 55%, cash 45%, alts 0%. De stap-2-trigger (24u-breedte >50% groen én 7d-mediaan > -5%) vuurt niet: 6/33 groen en 7d-mediaan -6,80%, het herstel kantelde terug. Geen zwaaien op breedte-ruis; de-risico alleen bij uurslot BTC <$80k of F&G >60 mét stokkende prijs (nu 55). Rijpe bounces (BAT, ARB, CRV, PEPE op/nabij hun 7d-hoog) niet achterna. Cash drag accepteren zolang de 7d-mediaan rood is; zodra de trigger vuurt, snel en vol meenemen naar BTC 70% plus eerste alt (plafond 10-15%, uitsluitend relatieve kracht).
+Marktbreedte blijft zeer zwak: slechts 6/33 munten groen over 24u (mediaan -1,14%) en de 7d-mediaan staat met -6,62% diep in het rood; het korte herstel van eerder vandaag is definitief gekanteld. BTC toont duidelijke relatieve kracht (7d -2,67% vs mediaan -6,62%) en houdt $81,5k vast, ruim boven het $80k-anker; F&G zakt naar 55. Geen enkele ladder-trigger vuurt.
+
+## Strategie van de AI (sinds 20-10-2026 09:30)
+
+Stap 1 blijft staan: BTC 55%, cash 45%, alts 0%. De stap-2-trigger (24u-breedte >50% groen én 7d-mediaan >-5%) vuurt niet: 6/33 groen en -6,62%, dus cash drag geaccepteerd zolang het structurele beeld rood is. De-risico alleen bij uurslot BTC <$80k (nu $81,5k) of F&G >60 mét stokkende prijs (nu 55). Rijpe alt-bounces (BAT, CRV, PEPE, ARB op/nabij hun 7d-hoog) niet achterna. Zodra de trigger vuurt, direct en vol meenemen naar BTC 70% plus eerste alt op relatieve kracht (plafond 10-15%).
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -37,7 +41,7 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,149.35 | 54.6% | -0.8% | 54.6% |  |
+| BTC/USD | $5,138.93 | 54.5% | -1.0% | 55.0% | Anker met relatieve kracht (7d -2,67% vs mediaan -6,62%) boven het $80k-de-riskniveau; stap 1 van de ladder, geen trigger voor meer of minder risico. |
 
 ## Orders deze run
 
@@ -45,15 +49,13 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 20-10-2026 09:30 | $9,426 | -5.74% | -2.15% | 0 |
 | 20-10-2026 09:00 | $9,437 | -5.63% | -1.93% | 0 |
 | 20-10-2026 08:30 | $9,434 | -5.66% | -1.96% | 0 |
 | 20-10-2026 08:00 | $9,430 | -5.70% | -2.04% | 0 |
@@ -65,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 20-10-2026 05:00 | $9,435 | -5.65% | -1.96% | 0 |
 | 20-10-2026 04:30 | $9,428 | -5.72% | -2.06% | 0 |
 | 20-10-2026 04:00 | $9,427 | -5.73% | -1.95% | 0 |
-| 20-10-2026 03:30 | $9,418 | -5.82% | -2.36% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
