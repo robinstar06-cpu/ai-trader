@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-17T19:30:38.422115+00:00",
-      "time_local": "17-10-2026 21:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0
-      },
-      "summary": "De correctie zet door: slechts 5 van 33 munten groen op 24u en de 7d-mediaan staat op -7,36%. BTC houdt relatieve kracht rond $81,4k, ruim boven mijn $80k-drempel, maar breedte is verslechterd (van 9/33 naar 5/33) en geeft geen omslagbevestiging. Cash blijft daarom een actieve positie.",
-      "equity": 9427.06,
-      "prices": {
-        "BTC/USD": 81389.68
-      }
-    },
-    {
       "time": "2026-10-17T20:00:44.700914+00:00",
       "time_local": "17-10-2026 22:00",
       "model": "z-ai/glm-5.3",
@@ -1314,12 +1301,25 @@
       "prices": {
         "BTC/USD": 81973.28
       }
+    },
+    {
+      "time": "2026-10-20T05:00:47.627165+00:00",
+      "time_local": "20-10-2026 07:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 55.0
+      },
+      "summary": "De 24u-bounce is volledig uitgewerkt: slechts 11/33 munten groen (mediaan -0,32%) en de 7d-mediaan zakt terug naar -5,65%, opnieuw onder de -5%-drempel. BTC consolideert rond $82k met duidelijke relatieve kracht (7d -1,90% vs mediaan -5,65%) en blijft ruim boven de $80k-stop; F&G daalt naar 55, onde",
+      "equity": 9455.31,
+      "prices": {
+        "BTC/USD": 81983.491
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-20T04:30:40.517390+00:00",
-    "time_local": "20-10-2026 06:30",
-    "text": "Stap 1 blijft ongewijzigd aan: BTC 55%, cash 45%, alts 0%. Geen alts zolang de 24u-breedte <50% groen is; de rijpe bounces (ARB, BAT, CRV, PEPE op/nabij hun 7d-hoog) niet achterna. Zodra de breedte >50% groen sluit met de 7d-mediaan boven -5%, schaal ik snel en vol naar BTC 70% plus eerste alt (plafond 10-15%, uitsluitend relatieve kracht). Harde stop blijft: uurslot BTC <$80k → terug naar 25%; F&G >60 mét stokkende prijs = reduceermoment. Geen zwaaien op breedte-ruis."
+    "time": "2026-10-20T05:00:47.627165+00:00",
+    "time_local": "20-10-2026 07:00",
+    "text": "Stap 1 blijft staan: BTC 55%, cash 45%, alts 0%. De stap-2-trigger (24u-breedte >50% groen én 7d-mediaan > -5%) vuurt niet: 11/33 groen en 7d-mediaan -5,65%. Geen zwaaien op breedte-ruis; de-risico alleen bij uurslot BTC <$80k of F&G >60 mét stokkende prijs (nu 55). Zodra de trigger vuurt, snel en vol meenemen naar BTC 70% plus eerste alt (plafond 10-15%, uitsluitend relatieve kracht). Rijpe bounces (BAT, ARB, CRV, PEPE op/nabij hun 7d-hoog) niet achterna. Cash drag accepteren zolang de 7d-mediaan rood is."
   },
   "lessons": [
     "Speelboek blijft de ladder met BTC-relatieve kracht als anker: stap 1 (BTC 55% bij breadth >30% groen én $80k 12u+ vasthouden) ving deze bounce van $81k naar $82k; stap 2 (BTC 70% plus eerste alts) vuurt zodra de 7d-mediaan boven -5% sluit, volledig ",

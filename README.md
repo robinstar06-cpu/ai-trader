@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 20-10-2026 06:30_
+_Laatst bijgewerkt: 20-10-2026 07:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,453.44** |
+| Waarde portefeuille | **$9,455.31** |
 | Cash | $4,287.49 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.47%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.61% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.45%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.60% |
 | Verschil | -3.85% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.47%** |
+| Rendement deze periode | **-5.45%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.47% |
+| Daling vanaf de top ($10,000) | -5.45% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
 ## Marktvisie van de AI
 
-BTC consolideert rond $82k met duidelijke relatieve kracht (7d -1,66% vs marktmediaan -4,61%) en de 7d-mediaan blijft boven de -5%-drempel. Maar de 24u-breedte is met 15/33 groen (45%) nog te zwak voor stap 2 en de markt is vlak (mediaan 24u -0,01%, 1u-momentum licht rood). F&G 55 blijft onder de reduceerdrempel van 60.
+De 24u-bounce is volledig uitgewerkt: slechts 11/33 munten groen (mediaan -0,32%) en de 7d-mediaan zakt terug naar -5,65%, opnieuw onder de -5%-drempel. BTC consolideert rond $82k met duidelijke relatieve kracht (7d -1,90% vs mediaan -5,65%) en blijft ruim boven de $80k-stop; F&G daalt naar 55, onder de reduceerdrempel. Geen stap-2-trigger, maar ook geen de-risicosignaal: discipline en geduld.
 
-## Strategie van de AI (sinds 20-10-2026 06:30)
+## Strategie van de AI (sinds 20-10-2026 07:00)
 
-Stap 1 blijft ongewijzigd aan: BTC 55%, cash 45%, alts 0%. Geen alts zolang de 24u-breedte <50% groen is; de rijpe bounces (ARB, BAT, CRV, PEPE op/nabij hun 7d-hoog) niet achterna. Zodra de breedte >50% groen sluit met de 7d-mediaan boven -5%, schaal ik snel en vol naar BTC 70% plus eerste alt (plafond 10-15%, uitsluitend relatieve kracht). Harde stop blijft: uurslot BTC <$80k → terug naar 25%; F&G >60 mét stokkende prijs = reduceermoment. Geen zwaaien op breedte-ruis.
+Stap 1 blijft staan: BTC 55%, cash 45%, alts 0%. De stap-2-trigger (24u-breedte >50% groen én 7d-mediaan > -5%) vuurt niet: 11/33 groen en 7d-mediaan -5,65%. Geen zwaaien op breedte-ruis; de-risico alleen bij uurslot BTC <$80k of F&G >60 mét stokkende prijs (nu 55). Zodra de trigger vuurt, snel en vol meenemen naar BTC 70% plus eerste alt (plafond 10-15%, uitsluitend relatieve kracht). Rijpe bounces (BAT, ARB, CRV, PEPE op/nabij hun 7d-hoog) niet achterna. Cash drag accepteren zolang de 7d-mediaan rood is.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,165.95 | 54.6% | -0.5% | 55.0% | Relatieve kracht (7d -1,66%), houdt $82k ruim boven de $80k-stop; stap 1 actief tot 24u-breedte >50% groen stap 2 triggert. |
+| BTC/USD | $5,167.82 | 54.7% | -0.4% | 55.0% | Relatieve kracht (7d -1,90% vs mediaan -5,65%), houdt $82k ruim boven de $80k-stop; stap 1 van de ladder blijft actief. |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 20-10-2026 07:00 | $9,455 | -5.45% | -1.60% | 0 |
 | 20-10-2026 06:30 | $9,453 | -5.47% | -1.61% | 0 |
 | 20-10-2026 06:00 | $9,456 | -5.44% | -1.55% | 0 |
 | 20-10-2026 05:30 | $9,441 | -5.59% | -1.86% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 20-10-2026 02:30 | $9,423 | -5.77% | -2.22% | 0 |
 | 20-10-2026 02:00 | $9,444 | -5.56% | -1.78% | 0 |
 | 20-10-2026 01:30 | $9,451 | -5.49% | -1.67% | 0 |
-| 20-10-2026 01:00 | $9,453 | -5.47% | -1.63% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
