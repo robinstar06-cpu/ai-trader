@@ -741,3 +741,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-20T20:00:49.156938+00:00,20-10-2026 22:00,z-ai/glm-5.3,SOL/USD,14.7,15.0,houden,,,"Eerste alt per ladder: sterkste kracht na BTC, hoge liquiditeit, nog niet rijp."
 2026-10-20T20:30:40.713259+00:00,20-10-2026 22:30,,BTC/USD,59.9,59.9,houden,,,
 2026-10-20T20:30:40.713259+00:00,20-10-2026 22:30,,SOL/USD,14.7,14.7,houden,,,
+2026-10-20T21:00:53.056945+00:00,20-10-2026 23:00,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.9,60.0,houden,,,"Anker met relatieve kracht, houdt $82,7k ruim boven $80k; stap-2-trigger bevestigd"
+2026-10-20T21:00:53.056945+00:00,20-10-2026 23:00,deepseek-ai/deepseek-v4.1-flash,SOL/USD,14.7,15.0,houden,,,"Sterkste alt op 7d (-0,40% vs mediaan -2,54%), goede liquiditeit, geen rijpe bounce"
