@@ -1,20 +1,20 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 20-10-2026 01:30_
+_Laatst bijgewerkt: 20-10-2026 02:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,450.86** |
+| Waarde portefeuille | **$9,443.74** |
 | Cash | $4,287.49 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.49%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.67% |
-| Verschil | -3.82% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.56%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.78% |
+| Verschil | -3.79% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.49%** |
+| Rendement deze periode | **-5.56%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.49% |
+| Daling vanaf de top ($10,000) | -5.56% |
 | Model | geen (AI niet bereikbaar) |
-| Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 59 (Greed) |
+| Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
 ## Strategie van de AI (sinds 19-10-2026 22:30)
 
@@ -37,7 +37,7 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,163.37 | 54.6% | -0.5% | 54.6% |  |
+| BTC/USD | $5,156.25 | 54.6% | -0.7% | 54.6% |  |
 
 ## Orders deze run
 
@@ -48,12 +48,13 @@ Geen orders (verdeling blijft gelijk).
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
 - AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: antwoord bevatte geen geldige JSON
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 20-10-2026 02:00 | $9,444 | -5.56% | -1.78% | 0 |
 | 20-10-2026 01:30 | $9,451 | -5.49% | -1.67% | 0 |
 | 20-10-2026 01:00 | $9,453 | -5.47% | -1.63% | 0 |
 | 20-10-2026 00:30 | $9,458 | -5.42% | -1.56% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 19-10-2026 21:30 | $9,445 | -5.55% | -1.73% | 0 |
 | 19-10-2026 21:00 | $9,447 | -5.53% | -1.75% | 0 |
 | 19-10-2026 20:30 | $9,436 | -5.64% | -1.91% | 0 |
-| 19-10-2026 20:00 | $9,441 | -5.59% | -1.79% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
