@@ -743,3 +743,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-20T20:30:40.713259+00:00,20-10-2026 22:30,,SOL/USD,14.7,14.7,houden,,,
 2026-10-20T21:00:53.056945+00:00,20-10-2026 23:00,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.9,60.0,houden,,,"Anker met relatieve kracht, houdt $82,7k ruim boven $80k; stap-2-trigger bevestigd"
 2026-10-20T21:00:53.056945+00:00,20-10-2026 23:00,deepseek-ai/deepseek-v4.1-flash,SOL/USD,14.7,15.0,houden,,,"Sterkste alt op 7d (-0,40% vs mediaan -2,54%), goede liquiditeit, geen rijpe bounce"
+2026-10-20T21:30:43.058149+00:00,20-10-2026 23:30,deepseek-ai/deepseek-v4.1-flash,BCH/USD,0.0,10.0,buy,952.43,gekocht $952.43,"Tweede alt met beste 7d relatieve kracht (+2,70%), RSI nog niet overbought."
+2026-10-20T21:30:43.058149+00:00,20-10-2026 23:30,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.9,60.0,houden,,,"Kernpositie op het 60%-plafond; relatieve kracht en $82,8k boven het $80k-anker."
+2026-10-20T21:30:43.058149+00:00,20-10-2026 23:30,deepseek-ai/deepseek-v4.1-flash,SOL/USD,14.8,15.0,houden,,,"Sterkste alt (7d -0,38%), staat in de winst; aanhouden."
