@@ -693,3 +693,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-20T01:00:48.582704+00:00,20-10-2026 03:00,z-ai/glm-5.3,BTC/USD,54.5,55.0,houden,,,"Anker houdt: $81,6k boven de $80k-stop met 7d -0,88% relatieve kracht; geen stap 2 tot de 24u-breedte >50% groen sluit."
 2026-10-20T01:30:42.086265+00:00,20-10-2026 03:30,,BTC/USD,54.5,54.5,houden,,,
 2026-10-20T02:00:47.055870+00:00,20-10-2026 04:00,z-ai/glm-5.3,BTC/USD,54.5,55.0,houden,,,"Anker houdt ($81,7k > $80k) en 7d-mediaan boven -5%; stap 2 pas bij breedte >50% groen."
+2026-10-20T02:30:43.379960+00:00,20-10-2026 04:30,z-ai/glm-5.3,BTC/USD,54.5,55.0,houden,,,Anker $80k houdt ruim stand met relatieve kracht; stap 1 intact tot 24u-breedte >50% groen sluit.

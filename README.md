@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 20-10-2026 04:00_
+_Laatst bijgewerkt: 20-10-2026 04:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,427.08** |
+| Waarde portefeuille | **$9,427.89** |
 | Cash | $4,287.49 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.73%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.95% |
-| Verschil | -3.78% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.72%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.06% |
+| Verschil | -3.66% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.73%** |
+| Rendement deze periode | **-5.72%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.73% |
+| Daling vanaf de top ($10,000) | -5.72% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
 ## Marktvisie van de AI
 
-De 24u-bounce is uitgewerkt (12/33 groen, mediaan -0,50%), maar de 7d-mediaan herstelt structureel naar -4,22%, ruim boven de -5%-drempel. BTC houdt $81,7k, ruim boven het $80k-anker, met duidelijke relatieve kracht (7d -1,36% vs mediaan -4,22%); F&G zakt naar 55, dus geen reduceer-signaal. Stap 2 wacht alleen nog op 24u-breedte >50% groen.
+De 24u-bounce is volledig uitgewerkt (10/33 groen, mediaan -0,55%), maar het structurele herstel zet door: de 7d-mediaan klom naar -4,06%, ruim boven de -5%-drempel. BTC toont met $81,6k en 7d -1,48% duidelijke relatieve kracht tegenover de marktmediaan en houdt het $80k-anker ruim vast; F&G koelde af naar 55, onder de reduceerdrempel van 60.
 
-## Strategie van de AI (sinds 20-10-2026 04:00)
+## Strategie van de AI (sinds 20-10-2026 04:30)
 
-Stap 1 blijft aan: BTC 55%, cash 45%, alts 0%. De eerste stap-2-conditie (7d-mediaan -4,22% > -5%) is groen, maar de 24u-breedte (36% groen) is te zwak — de rijpe bounce achterna kopen is de ARB-fout. Zodra breedte >50% groen sluit, schaal ik snel en vol naar BTC 70% plus eerste alt (plafond 10-15%, uitsluitend in de winst). Harde stop: uurslot BTC <$80k → terug naar 25%; F&G >60 mét stokkende prijs = reduceermoment.
+Stap 1 blijft aan: BTC 55%, cash 45%, alts 0%. De eerste stap-2-conditie (7d-mediaan -4,06% > -5%) is groen, maar de 24u-breedte (30% groen) is te zwak — de rijpe bounce achterna kopen blijft de ARB-fout. Zodra de breedte >50% groen sluit, schaal ik snel en vol naar BTC 70% plus eerste alt (plafond 10-15%, uitsluitend een munt met relatieve kracht). Harde stop: uurslot BTC <$80k → terug naar 25%; F&G >60 mét stokkende prijs = reduceermoment. Niet schommelen op 24u-breedte-ruis zolang het anker houdt.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,139.59 | 54.5% | -1.0% | 55.0% | Anker houdt ($81,7k > $80k) en 7d-mediaan boven -5%; stap 2 pas bij breedte >50% groen. |
+| BTC/USD | $5,140.40 | 54.5% | -1.0% | 55.0% | Anker $80k houdt ruim stand met relatieve kracht; stap 1 intact tot 24u-breedte >50% groen sluit. |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 20-10-2026 04:30 | $9,428 | -5.72% | -2.06% | 0 |
 | 20-10-2026 04:00 | $9,427 | -5.73% | -1.95% | 0 |
 | 20-10-2026 03:30 | $9,418 | -5.82% | -2.36% | 0 |
 | 20-10-2026 03:00 | $9,430 | -5.70% | -2.03% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 20-10-2026 00:00 | $9,452 | -5.48% | -1.64% | 0 |
 | 19-10-2026 23:30 | $9,452 | -5.48% | -1.63% | 0 |
 | 19-10-2026 23:00 | $9,445 | -5.55% | -1.69% | 0 |
-| 19-10-2026 22:30 | $9,449 | -5.51% | -1.67% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
