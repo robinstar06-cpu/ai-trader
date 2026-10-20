@@ -718,3 +718,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-20T13:30:42.577487+00:00,20-10-2026 15:30,z-ai/glm-5.3,BTC/USD,54.5,55.0,houden,,,"Stap 1: $80k-anker houdt en 7d-mediaan boven -5%, maar breedte 15/33 nog onder 50%; cash wacht op stap-2-bevestiging."
 2026-10-20T14:00:51.572848+00:00,20-10-2026 16:00,,BTC/USD,54.7,54.7,houden,,,
 2026-10-20T14:30:42.584250+00:00,20-10-2026 16:30,,BTC/USD,54.9,54.9,houden,,,
+2026-10-20T15:00:54.367892+00:00,20-10-2026 17:00,,BTC/USD,55.0,55.0,houden,,,

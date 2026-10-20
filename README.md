@@ -1,18 +1,18 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 20-10-2026 16:30_
+_Laatst bijgewerkt: 20-10-2026 17:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,513.41** |
+| Waarde portefeuille | **$9,530.69** |
 | Cash | $4,287.49 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.87%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.51% |
-| Verschil | -4.35% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.69%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.25% |
+| Verschil | -4.44% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.87%** |
+| Rendement deze periode | **-4.69%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.87% |
+| Daling vanaf de top ($10,000) | -4.69% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
@@ -37,7 +37,7 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,225.92 | 54.9% | +0.9% | 54.9% |  |
+| BTC/USD | $5,243.20 | 55.0% | +1.2% | 55.0% |  |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 20-10-2026 17:00 | $9,531 | -4.69% | -0.25% | 0 |
 | 20-10-2026 16:30 | $9,513 | -4.87% | -0.51% | 0 |
 | 20-10-2026 16:00 | $9,458 | -5.42% | -1.54% | 0 |
 | 20-10-2026 15:30 | $9,413 | -5.87% | -2.42% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 20-10-2026 12:30 | $9,423 | -5.77% | -2.17% | 0 |
 | 20-10-2026 12:00 | $9,417 | -5.83% | -2.33% | 0 |
 | 20-10-2026 11:30 | $9,414 | -5.86% | -2.37% | 0 |
-| 20-10-2026 11:00 | $9,417 | -5.83% | -2.27% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
