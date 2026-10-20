@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 20-10-2026 07:30_
+_Laatst bijgewerkt: 20-10-2026 08:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,448.54** |
+| Waarde portefeuille | **$9,430.26** |
 | Cash | $4,287.49 (45%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.51%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.72% |
-| Verschil | -3.79% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.70%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.04% |
+| Verschil | -3.65% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.51%** |
+| Rendement deze periode | **-5.70%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.51% |
+| Daling vanaf de top ($10,000) | -5.70% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
 ## Marktvisie van de AI
 
-De marktbreedte is zwak (8/33 groen, 24u-mediaan -0,79%) en het structurele herstel kantelt terug: de 7d-mediaan zakt naar -6,09%, ruim onder de -5%-drempel. BTC toont duidelijke relatieve kracht (7d -2,02% vs mediaan -6,09%) en houdt $81,9k, ruim boven de $80k-stop; F&G 55 blijft onder de de-risico-drempel. De stap-2-trigger vuurt niet, dus de ladder blijft op stap 1.
+De breedte blijft zwak: slechts 6/33 munten groen over 24u (mediaan -0,93%) en de 7d-mediaan verslechtert verder naar -6,94%, ruim onder de -5%-drempel. BTC toont relatieve kracht (7d -2,46% vs mediaan -6,94%) en houdt $81,6k, ruim boven het $80k-anker; F&G op 55 staat onder de reduceer-drempel van 60. Geen enkele ladder-trigger vuurt, dus stap 1 blijft ongewijzigd.
 
-## Strategie van de AI (sinds 20-10-2026 07:30)
+## Strategie van de AI (sinds 20-10-2026 08:00)
 
-Stap 1 blijft staan: BTC 55%, cash 45%, alts 0%. De stap-2-trigger (24u-breedte >50% groen én 7d-mediaan > -5%) vuurt niet: 8/33 groen en 7d-mediaan -6,09%, zelfs dalend. Geen zwaaien op breedte-ruis; de-risico alleen bij uurslot BTC <$80k of F&G >60 mét stokkende prijs (nu 55). Zodra de trigger vuurt, snel en vol meenemen naar BTC 70% plus eerste alt (plafond 10-15%, uitsluitend relatieve kracht). Rijpe bounces (BAT, ARB, CRV, PEPE op/nabij hun 7d-hoog) niet achterna. Cash drag accepteren zolang de 7d-mediaan rood is.
+Stap 1 blijft staan: BTC 55%, cash 45%, alts 0%. De stap-2-trigger (24u-breedte >50% groen én 7d-mediaan > -5%) vuurt niet: 6/33 groen en 7d-mediaan -6,94%, zelfs dalend. Geen zwaaien op breedte-ruis; de-risico alleen bij uurslot BTC <$80k of F&G >60 mét stokkende prijs (nu 55). Rijpe bounces (BAT, ARB, CRV, PEPE op/nabij hun 7d-hoog) niet achterna. Cash drag accepteren zolang de 7d-mediaan rood is; zodra de trigger vuurt, snel en vol meenemen naar BTC 70% plus eerste alt (plafond 10-15%, uitsluitend relatieve kracht).
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,7 +41,7 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,161.05 | 54.6% | -0.6% | 55.0% | Anker houdt $81,9k met relatieve kracht (7d -2,02% vs mediaan -6,09%); stap-2-trigger vuurt niet (8/33 groen, 7d-mediaan -6,09%), dus ladder blijft op stap 1. |
+| BTC/USD | $5,142.77 | 54.5% | -0.9% | 55.0% | Relatieve kracht (7d -2,46% vs mediaan -6,94%) en $81,6k boven het $80k-anker; geen stap-2-trigger, dus 55% aanhouden. |
 
 ## Orders deze run
 
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 20-10-2026 08:00 | $9,430 | -5.70% | -2.04% | 0 |
 | 20-10-2026 07:30 | $9,449 | -5.51% | -1.72% | 0 |
 | 20-10-2026 07:00 | $9,455 | -5.45% | -1.60% | 0 |
 | 20-10-2026 06:30 | $9,453 | -5.47% | -1.61% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 20-10-2026 03:30 | $9,418 | -5.82% | -2.36% | 0 |
 | 20-10-2026 03:00 | $9,430 | -5.70% | -2.03% | 0 |
 | 20-10-2026 02:30 | $9,423 | -5.77% | -2.22% | 0 |
-| 20-10-2026 02:00 | $9,444 | -5.56% | -1.78% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
