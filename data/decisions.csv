@@ -719,3 +719,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-20T14:00:51.572848+00:00,20-10-2026 16:00,,BTC/USD,54.7,54.7,houden,,,
 2026-10-20T14:30:42.584250+00:00,20-10-2026 16:30,,BTC/USD,54.9,54.9,houden,,,
 2026-10-20T15:00:54.367892+00:00,20-10-2026 17:00,,BTC/USD,55.0,55.0,houden,,,
+2026-10-20T15:30:41.293476+00:00,20-10-2026 17:30,z-ai/glm-5.3,BTC/USD,54.8,60.0,buy,493.79,gekocht $493.79,"Anker houdt $82,4k ruim vast; stap-2-trigger vuurt, ladder van 55% naar 70%"
+2026-10-20T15:30:41.293476+00:00,20-10-2026 17:30,z-ai/glm-5.3,SOL/USD,0.0,15.0,buy,1422.63,gekocht $1422.63,"Eerste alt: beste 7d-kracht na BTC (-1,98%), hoogste liquiditeit, range7d 62 dus geen rijpe bounce"
