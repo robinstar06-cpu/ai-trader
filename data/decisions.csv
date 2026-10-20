@@ -704,3 +704,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-20T06:30:40.252605+00:00,20-10-2026 08:30,z-ai/glm-5.3,BTC/USD,54.6,55.0,houden,,,"Anker houdt ($81,7k > $80k) met sterke relatieve kracht; stap-1-allocatie volgens ladder, geen trigger voor stap 2 of de-risico."
 2026-10-20T07:00:48.659109+00:00,20-10-2026 09:00,,BTC/USD,54.6,54.6,houden,,,
 2026-10-20T07:30:40.915452+00:00,20-10-2026 09:30,z-ai/glm-5.3,BTC/USD,54.5,55.0,houden,,,"Anker met relatieve kracht (7d -2,67% vs mediaan -6,62%) boven het $80k-de-riskniveau; stap 1 van de ladder, geen trigger voor meer of minder risico."
+2026-10-20T08:00:47.388320+00:00,20-10-2026 10:00,z-ai/glm-5.3,BTC/USD,54.5,55.0,houden,,,"Anker intact: $81,4k boven $80k met relatieve kracht (7d -2,44% vs mediaan -6,06%); stap-2-trigger vuurt niet, dus 55% vasthouden en 45% cash als actieve bescherming."
