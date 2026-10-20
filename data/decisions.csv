@@ -755,3 +755,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-20T23:00:48.192104+00:00,21-10-2026 01:00,z-ai/glm-5.3,BCH/USD,9.8,10.0,houden,,,"In de winst (+0,4%) maar op zijn 7d-hoog; houden, niet aanvullen tot er een dip richting steun komt"
 2026-10-20T23:00:48.192104+00:00,21-10-2026 01:00,z-ai/glm-5.3,BTC/USD,59.9,60.0,houden,,,"Anker met relatieve kracht (7d -0,1% vs mediaan -2,0%), houdt $83k; kernpositie zolang $80k standhoudt"
 2026-10-20T23:00:48.192104+00:00,21-10-2026 01:00,z-ai/glm-5.3,SOL/USD,14.8,15.0,houden,,,"Sterkste grote alt, in de winst (+1,6%), 24u +1,6%; houden zonder uit te breiden achter de rijpe bounce"
+2026-10-20T23:30:40.544668+00:00,21-10-2026 01:30,z-ai/glm-5.3,BCH/USD,9.8,10.0,houden,,,"In de winst (+0,4%) maar op 97 van zijn 7d-range; houden op 10%, niet verhogen."
+2026-10-20T23:30:40.544668+00:00,21-10-2026 01:30,z-ai/glm-5.3,BTC/USD,59.9,60.0,houden,,,"Anker sterk: $82,8k ruim boven $80k, 7d -0,32% ver boven de mediaan; kernpositie van stap 2."
+2026-10-20T23:30:40.544668+00:00,21-10-2026 01:30,z-ai/glm-5.3,SOL/USD,14.8,15.0,houden,,,"Sterkste grote alt met BTC-gelijke 7d-kracht (-0,38%); houden op 15%, niet aanvullen achter de bounce."

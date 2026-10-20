@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 21-10-2026 01:00_
+_Laatst bijgewerkt: 21-10-2026 01:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,539.69** |
-| Cash | $1,476.24 (15%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.60%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.36% |
-| Verschil | -4.24% |
+| Waarde portefeuille | **$9,520.18** |
+| Cash | $1,476.24 (16%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.80%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.57% |
+| Verschil | -4.23% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.60%** |
+| Rendement deze periode | **-4.80%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.60% |
+| Daling vanaf de top ($10,000) | -4.80% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 55 (Greed) |
 
 ## Marktvisie van de AI
 
-Breed herstel zet door: 30/33 munten groen (24u-mediaan +2,59%) en de 7d-mediaan herstelt verder naar -2,04%. BTC houdt $83k ruim boven het $80k-anker met duidelijke relatieve kracht; F&G koelt af naar 55, onder de reduceerdrempel. De stap-3-trigger (7d-mediaan positief of BTC >$84k) is nog niet gevallen en de 24u-bounce wordt rijp.
+Het brede herstel zet door: 30/33 munten groen over 24u en de 7d-mediaan herstelt verder naar -2,23%, ruim boven de -5%-drempel. De bounce is echter rijp: BTC stagneert rond $82,8k, F&G koelt af naar 55 en de meeste munten zitten in het bovenkwart van hun 7d-range. De stap-3-triggers (7d-mediaan positief of BTC >$84k) zijn nog niet gevallen.
 
-## Strategie van de AI (sinds 21-10-2026 01:00)
+## Strategie van de AI (sinds 21-10-2026 01:30)
 
-Stap 2 vasthouden: BTC 60%, SOL 15%, BCH 10%, 15% cash. Die laatste 15% stroomt vol en direct in zodra de 7d-mediaan positief draait of BTC $84k breekt — bij dit hersteltempo mogelijk binnen enkele uren. Niets aankopen achter de rijpe bounce (24u-mediaan +2,5%, BCH op zijn 7d-hoog, veel alts ver in het bovenkwart van hun 7d-range). De-risico alleen bij uurslot BTC <$80k of F&G >60 met stokkende prijs; verliezende posities niet aanvullen.
+Stap 2 vasthouden: BTC 60%, SOL 15%, BCH 10%, 15% cash. De laatste 15% cash stroomt vol en direct in zodra de 7d-mediaan positief sluit of BTC $84k breekt. Niets aankopen achter deze rijpe bounce (24u-mediaan +2,3%, BCH op 97 van zijn 7d-range). De-risico alleen bij uurslot BTC <$80k of F&G >60 met stokkende prijs; verliezende posities niet aanvullen en winnaars niet trimmen zolang het anker houdt.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,9 +41,9 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,717.25 | 59.9% | +1.0% | 60.0% | Anker met relatieve kracht (7d -0,1% vs mediaan -2,0%), houdt $83k; kernpositie zolang $80k standhoudt |
-| SOL/USD | $1,412.74 | 14.8% | +1.6% | 15.0% | Sterkste grote alt, in de winst (+1,6%), 24u +1,6%; houden zonder uit te breiden achter de rijpe bounce |
-| BCH/USD | $933.47 | 9.8% | +0.4% | 10.0% | In de winst (+0,4%) maar op zijn 7d-hoog; houden, niet aanvullen tot er een dip richting steun komt |
+| BTC/USD | $5,705.67 | 59.9% | +0.8% | 60.0% | Anker sterk: $82,8k ruim boven $80k, 7d -0,32% ver boven de mediaan; kernpositie van stap 2. |
+| SOL/USD | $1,404.81 | 14.8% | +1.0% | 15.0% | Sterkste grote alt met BTC-gelijke 7d-kracht (-0,38%); houden op 15%, niet aanvullen achter de bounce. |
+| BCH/USD | $933.47 | 9.8% | +0.4% | 10.0% | In de winst (+0,4%) maar op 97 van zijn 7d-range; houden op 10%, niet verhogen. |
 
 ## Orders deze run
 
@@ -58,6 +58,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 21-10-2026 01:30 | $9,520 | -4.80% | -0.57% | 0 |
 | 21-10-2026 01:00 | $9,540 | -4.60% | -0.36% | 0 |
 | 21-10-2026 00:30 | $9,530 | -4.70% | -0.43% | 0 |
 | 21-10-2026 00:00 | $9,523 | -4.77% | -0.52% | 0 |
@@ -69,7 +70,6 @@ Geen orders (verdeling blijft gelijk).
 | 20-10-2026 21:00 | $9,486 | -5.14% | -1.05% | 0 |
 | 20-10-2026 20:30 | $9,493 | -5.07% | -1.04% | 0 |
 | 20-10-2026 20:00 | $9,517 | -4.83% | -0.70% | 0 |
-| 20-10-2026 19:30 | $9,509 | -4.91% | -0.79% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
