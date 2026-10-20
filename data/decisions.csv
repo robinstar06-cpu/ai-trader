@@ -746,3 +746,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-20T21:30:43.058149+00:00,20-10-2026 23:30,deepseek-ai/deepseek-v4.1-flash,BCH/USD,0.0,10.0,buy,952.43,gekocht $952.43,"Tweede alt met beste 7d relatieve kracht (+2,70%), RSI nog niet overbought."
 2026-10-20T21:30:43.058149+00:00,20-10-2026 23:30,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.9,60.0,houden,,,"Kernpositie op het 60%-plafond; relatieve kracht en $82,8k boven het $80k-anker."
 2026-10-20T21:30:43.058149+00:00,20-10-2026 23:30,deepseek-ai/deepseek-v4.1-flash,SOL/USD,14.8,15.0,houden,,,"Sterkste alt (7d -0,38%), staat in de winst; aanhouden."
+2026-10-20T22:00:50.196074+00:00,21-10-2026 00:00,z-ai/glm-5.3,BCH/USD,9.7,10.0,houden,,,"Beste 7d van de majors (+2,46%) met RSI 49; blijft op 10%, niet aanvullen"
+2026-10-20T22:00:50.196074+00:00,21-10-2026 00:00,z-ai/glm-5.3,BTC/USD,60.0,60.0,houden,,,"Houdt $82,9k stevig boven het $80k-anker met relatieve kracht; 60% is het harde plafond"
+2026-10-20T22:00:50.196074+00:00,21-10-2026 00:00,z-ai/glm-5.3,SOL/USD,14.8,15.0,houden,,,"Sterkste alt (7d -0,28% vs mediaan -2,79%), positie in de winst, niet overbought"
