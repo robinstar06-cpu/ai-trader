@@ -714,3 +714,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-20T11:30:40.347162+00:00,20-10-2026 13:30,z-ai/glm-5.3,BTC/USD,54.5,55.0,houden,,,"Stap 1 van de ladder: BTC houdt het $80k-anker met relatieve kracht; breedte en 7d-mediaan te zwak voor stap 2, cash blijft munitie."
 2026-10-20T12:00:50.933941+00:00,20-10-2026 14:00,z-ai/glm-5.3,BTC/USD,54.5,55.0,houden,,,"Stap 1 actief: $80k-anker houdt stand, BTC relatief sterk, geen de-risico-trigger; stap 2 wacht op breedte >50% groen."
 2026-10-20T12:30:41.023877+00:00,20-10-2026 14:30,z-ai/glm-5.3,BTC/USD,54.5,55.0,houden,,,"Relatieve kracht en $80k-anker intact; breedte (7/33) te zwak voor stap 2, dus 55% aanhouden en 45% cash als munitie."
+2026-10-20T13:00:50.470969+00:00,20-10-2026 15:00,z-ai/glm-5.3,BTC/USD,54.5,55.0,houden,,,"Anker $80k houdt stand met relatieve kracht; breedte-trigger voor stap 2 (16+/33 groen) vuurt nog niet, dus ladder stap 1 blijft."
