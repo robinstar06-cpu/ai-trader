@@ -881,3 +881,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T20:31:22.154187+00:00,21-10-2026 22:31,z-ai/glm-5.3,BCH/USD,11.8,12.0,houden,,,"Beste 7d-momentum onder alts (+7%); houd 12%, stop blijft staan."
 2026-10-21T20:31:22.154187+00:00,21-10-2026 22:31,z-ai/glm-5.3,BTC/USD,60.3,60.0,houden,,,"Houdt $84k-breakout vast met 30/33 groen; kernpositie, geen add op 7d-hoog met RSI-1u 73."
 2026-10-21T20:31:22.154187+00:00,21-10-2026 22:31,z-ai/glm-5.3,SOL/USD,11.9,12.0,houden,,,"Sterke breedte en 7d +3,8%; blijft in kern, stop 10-15% onder entry."
+2026-10-21T21:01:26.746544+00:00,21-10-2026 23:01,z-ai/glm-5.3,BCH/USD,11.8,12.0,houden,,,"Sterkste 7d-momentum van het boek (+7,2%); stop op -10/15% blijft staan"
+2026-10-21T21:01:26.746544+00:00,21-10-2026 23:01,z-ai/glm-5.3,BTC/USD,60.3,60.0,houden,,,Kernpositie: houdt $84k-breakout vast met 32/33 groen; geen adds op de top
+2026-10-21T21:01:26.746544+00:00,21-10-2026 23:01,z-ai/glm-5.3,SOL/USD,11.9,12.0,houden,,,"Sterke alt (+2,3% P/L), 7d +3,2%; stop op -10/15% blijft staan"
