@@ -857,3 +857,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T16:31:14.969500+00:00,21-10-2026 18:31,z-ai/glm-5.3,BCH/USD,11.9,12.0,houden,,,"Sterkste momentum (7d +6,2%, 30d +8,0%); winst laten lopen, stop blijft staan"
 2026-10-21T16:31:14.969500+00:00,21-10-2026 18:31,z-ai/glm-5.3,BTC/USD,60.3,60.0,houden,,,"Breakout $84k houdt stand, breedte 32/33 groen; trend volgen zolang anker $80k intact is"
 2026-10-21T16:31:14.969500+00:00,21-10-2026 18:31,z-ai/glm-5.3,SOL/USD,11.9,12.0,houden,,,"7d-momentum +3,4% op 7d-hoog; stop 10-15% blijft staan, geen add op top"
+2026-10-21T17:01:26.703975+00:00,21-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,11.9,12.0,houden,,,"Beste 7d/30d momentum (+7%), positie licht groen; aanhouden."
+2026-10-21T17:01:26.703975+00:00,21-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.2,60.0,houden,,,"Op plafond, trend en breedte sterk; aanhouden, niet bijkopen op 7d-hoog."
+2026-10-21T17:01:26.703975+00:00,21-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,11.9,12.0,houden,,,"Sterk herstel, binnen 10-15% alt-limiet; aanhouden met harde stop."
