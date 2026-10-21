@@ -1,24 +1,20 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 21-10-2026 02:30_
+_Laatst bijgewerkt: 21-10-2026 03:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,542.88** |
+| Waarde portefeuille | **$9,532.77** |
 | Cash | $1,476.24 (15%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.57%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.27% |
-| Verschil | -4.31% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.67%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.45% |
+| Verschil | -4.22% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.57%** |
+| Rendement deze periode | **-4.67%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.57% |
-| Model | z-ai/glm-5.3 |
+| Daling vanaf de top ($10,000) | -4.67% |
+| Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
-
-## Marktvisie van de AI
-
-Breed herstel zet door: 31/33 munten groen, 7d-mediaan herstelt naar -2,4% en BTC houdt $83k ruim boven het $80k-anker. Fear & Greed sprong naar 63 (Greed) — een contra-waarschuwing, maar de prijs stokt nog niet dus vuurt de de-risico-trigger niet. De bounce is rijp (BCH op zijn 7d-hoog): niets aankopen, de laatste 15% cash wacht op zijn triggers.
 
 ## Strategie van de AI (sinds 21-10-2026 02:30)
 
@@ -41,9 +37,9 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,723.08 | 60.0% | +1.1% | 60.0% | Anker houdt ($83k > $80k), kern van stap 2; niet trimmen zolang het anker standhoudt. |
-| SOL/USD | $1,410.09 | 14.8% | +1.4% | 15.0% | Stap-2 alt, licht in de winst (+1,4%); houden zolang BTC boven $80k blijft. |
-| BCH/USD | $933.47 | 9.8% | +0.4% | 10.0% | Winnaar op 7d-hoog; plan zegt winnaars niet trimmen zolang het anker houdt. |
+| BTC/USD | $5,711.65 | 59.9% | +0.9% | 59.9% |  |
+| SOL/USD | $1,411.42 | 14.8% | +1.5% | 14.8% |  |
+| BCH/USD | $933.47 | 9.8% | +0.4% | 9.8% |  |
 
 ## Orders deze run
 
@@ -52,12 +48,16 @@ Geen orders (verdeling blijft gelijk).
 ## Meldingen
 
 - Dagelijkse evaluatie mislukt: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its e
+- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
+- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 21-10-2026 03:00 | $9,533 | -4.67% | -0.45% | 0 |
 | 21-10-2026 02:30 | $9,543 | -4.57% | -0.27% | 0 |
 | 21-10-2026 02:00 | $9,528 | -4.72% | -0.45% | 0 |
 | 21-10-2026 01:30 | $9,520 | -4.80% | -0.57% | 0 |
@@ -69,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 20-10-2026 22:30 | $9,497 | -5.03% | -0.91% | 0 |
 | 20-10-2026 22:00 | $9,483 | -5.17% | -0.98% | 0 |
 | 20-10-2026 21:30 | $9,468 | -5.32% | -1.18% | 0 |
-| 20-10-2026 21:00 | $9,486 | -5.14% | -1.05% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
