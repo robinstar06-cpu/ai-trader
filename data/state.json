@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-18T10:30:37.741277+00:00",
-      "time_local": "18-10-2026 12:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0
-      },
-      "summary": "BTC houdt stand rond $82,1k (+0,75% op 24u) en loopt ver vooruit op de rest van de markt, maar de breedte blijft dood: slechts 2/33 munten groen op 24u en de 7d-mediaan staat op -6,55% (licht klommend). Een bevestigde omslag ontbreekt: noch de 50%-breedte noch de $83k-sluiting is gehaald, dus de 60%",
-      "equity": 9463.17,
-      "prices": {
-        "BTC/USD": 82141.33
-      }
-    },
-    {
       "time": "2026-10-18T11:00:46.914240+00:00",
       "time_local": "18-10-2026 13:00",
       "model": "z-ai/glm-5.3",
@@ -1360,11 +1347,28 @@
         "SOL/USD": 105.75,
         "BTC/USD": 82676.42
       }
+    },
+    {
+      "time": "2026-10-21T04:30:41.354017+00:00",
+      "time_local": "21-10-2026 06:30",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 10.0,
+        "BCH/USD": 10.0
+      },
+      "summary": "Het herstel blijft breed (30/33 munten groen, 24u-mediaan +2,36%) maar de bounce is rijp: BTC stokt rond $82,7k, Fear & Greed staat op 63 (Greed) als contra-waarschuwing en de 7d-mediaan staat nog steeds rood (-3,13%). Het $80k-anker houdt stand, dus de kernpositie blijft zitten en het kruit blijft ",
+      "equity": 9510.01,
+      "prices": {
+        "BTC/USD": 82727.687,
+        "BCH/USD": 283.9735,
+        "SOL/USD": 105.76
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-21T04:00:47.346074+00:00",
-    "time_local": "21-10-2026 06:00",
+    "time": "2026-10-21T04:30:41.354017+00:00",
+    "time_local": "21-10-2026 06:30",
     "text": "Anker houdt stand: BTC 60% zolang het uurslot boven $80k blijft; SOL 10% en BCH 10% lopen mee in het brede herstel. Geen adds bij F&G 63 op deze rijpe bounce — kruit pas inzetten bij BTC >$84k, een positieve 7d-mediaan, of een pullback onder $82k. De-risico bij uurslot <$80k: eerst alts naar cash. Elke alt kappen op -10/15%, verliezers nooit aanvullen. Verwacht consolidatie rond $82-83k; geduld boven actie, de cash drag is acceptabel zolang de 7d-mediaan rood staat."
   },
   "lessons": [
