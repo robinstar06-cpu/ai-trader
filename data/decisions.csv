@@ -833,3 +833,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T12:31:17.052321+00:00,21-10-2026 14:31,z-ai/glm-5.3,BCH/USD,9.9,10.0,houden,,,"Sterkste 7d van de majors (+4,2%); houden, geen churn zolang anker houdt"
 2026-10-21T12:31:17.052321+00:00,21-10-2026 14:31,z-ai/glm-5.3,BTC/USD,60.0,60.0,houden,,,"Anker houdt ($83,4k op 7d-hoog); wacht op $84k-breakout of pullback <$82k voor cash-inzet"
 2026-10-21T12:31:17.052321+00:00,21-10-2026 14:31,z-ai/glm-5.3,SOL/USD,10.0,10.0,houden,,,"Loopt mee in het brede herstel (+2,3% 24u); stop 10-15% blijft staan"
+2026-10-21T13:01:21.101387+00:00,21-10-2026 15:01,,BCH/USD,9.9,9.9,houden,,,
+2026-10-21T13:01:21.101387+00:00,21-10-2026 15:01,,BTC/USD,60.0,60.0,houden,,,
+2026-10-21T13:01:21.101387+00:00,21-10-2026 15:01,,SOL/USD,10.0,10.0,houden,,,
