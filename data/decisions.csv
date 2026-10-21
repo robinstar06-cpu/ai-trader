@@ -866,3 +866,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T18:01:21.454348+00:00,21-10-2026 20:01,z-ai/glm-5.3,BCH/USD,11.9,12.0,houden,,,"Beste 7d-rendement (+6,5%) met lagere RSI (56); behouden, stop 10-15%."
 2026-10-21T18:01:21.454348+00:00,21-10-2026 20:01,z-ai/glm-5.3,BTC/USD,60.3,60.0,houden,,,"Anker houdt boven de $84k-breakout met breedste herstelbevestiging; plafond 60%, geen chase op 7d-hoog."
 2026-10-21T18:01:21.454348+00:00,21-10-2026 20:01,z-ai/glm-5.3,SOL/USD,11.9,12.0,houden,,,"Sterk 7d-momentum (+4%), behouden zolang het $80k-anker standhoudt; stop 10-15%."
+2026-10-21T18:31:19.481277+00:00,21-10-2026 20:31,z-ai/glm-5.3,BCH/USD,11.9,12.0,houden,,,"Positief 30d-momentum (+7,7%), houdt stand, licht groen sinds entry"
+2026-10-21T18:31:19.481277+00:00,21-10-2026 20:31,z-ai/glm-5.3,BTC/USD,60.3,60.0,houden,,,"Kernpositie; houdt $84k-breakout vast, anker $80k, geen adds bij RSI-1u 81"
+2026-10-21T18:31:19.481277+00:00,21-10-2026 20:31,z-ai/glm-5.3,SOL/USD,12.0,12.0,houden,,,"Sterkste grote alt (+4,6% 7d), positie licht groen, binnen stop-regime"

@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 21-10-2026 20:01_
+_Laatst bijgewerkt: 21-10-2026 20:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,666.31** |
+| Waarde portefeuille | **$9,683.23** |
 | Cash | $1,538.80 (16%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-3.34%** |
-| Ter vergelijking: gewoon BTC vasthouden | +1.53% |
-| Verschil | -4.86% |
+| Rendement AI sinds 14-10-2026 13:02 | **-3.17%** |
+| Ter vergelijking: gewoon BTC vasthouden | +1.67% |
+| Verschil | -4.84% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-3.34%** |
+| Rendement deze periode | **-3.17%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -3.34% |
+| Daling vanaf de top ($10,000) | -3.17% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
-| Kronos-voorspelling | 33 munten in 187s; richting op 4u goed: 35% (n=195, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 20:01); richting op 4u goed: 35% (n=195, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-BTC verdedigt de $84k-breakout op het 7d-hoog ($84,6k) met uitzonderlijke breedte (32/33 groen, 7d-mediaan +3,1%), maar RSI-1u 79 en Greed 63 maken bijkopen op deze niveaus onaanlokkelijk. Kronos is bearish, maar met 35% hitrate is dat pure ruis. Ik verwacht consolidatie rond $84-85k en houd de kern staan; het droog kruit wacht op een pullback.
+BTC verdedigt de $84k-breakout op $84,7k (7d-hoog) met uitzonderlijke breedte (32/33 groen, 7d-mediaan +3,7%), maar RSI-1u 81 en Greed 63 maken bijkopen op deze niveaus onverstandig. Kronos voorspelt een dip, maar is met 35% raak de afgelopen 48u vaker fout dan goed, dus weegt nauwelijks. Ik houd de kern intact en bewaar de cash als droog kruit voor een pullback.
 
-## Strategie van de AI (sinds 21-10-2026 20:01)
+## Strategie van de AI (sinds 21-10-2026 20:31)
 
-Kern ongewijzigd: BTC 60%, SOL en BCH elk 12%, ~16% cash als droog kruit. Geen adds op 7d-hoogten met RSI-1u ~79 en Greed 63 — dat is het patroon dat eerder rode entries gaf. Vuur pas bij een pullback richting <$82k of een gezonde terugtest van $84k, in twee tranches. Breekt $85k met volume, dan schuif ik cash geleidelijk naar ETH/XRP op pullbacks. De-risico bij uurslot <$80k: eerst alts, dan BTC; alt-stops op 10-15% verlies blijven staan.
+Kern ongewijzigd: BTC 60%, SOL/BCH elk 12%, ~16% cash. Geen adds op 7d-hoogten met RSI-1u 81 en Greed 63 — dat patroon gaf eerder rode entries. Vuur de cash in twee tranches bij een pullback richting <$82k of een gezonde terugtest van $84k. Breekt $85k met volume, dan schuif ik cash geleidelijk naar ETH/XRP op pullbacks. De-risico bij uurslot <$80k: eerst alts, dan BTC; alt-stops op 10-15% verlies blijven staan.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,9 +42,9 @@ _De discipline werkte dit venster: 55% vasthouden door de zwakke breedte-uren en
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,827.42 | 60.3% | +2.9% | 60.0% | -1.1% (0% omhoog) | Anker houdt boven de $84k-breakout met breedste herstelbevestiging; plafond 60%, geen chase op 7d-hoog. |
-| SOL/USD | $1,154.38 | 11.9% | +2.5% | 12.0% | -0.8% (33% omhoog) | Sterk 7d-momentum (+4%), behouden zolang het $80k-anker standhoudt; stop 10-15%. |
-| BCH/USD | $1,145.71 | 11.9% | +1.0% | 12.0% | -0.8% (0% omhoog) | Beste 7d-rendement (+6,5%) met lagere RSI (56); behouden, stop 10-15%. |
+| BTC/USD | $5,834.70 | 60.3% | +3.1% | 60.0% | -1.1% (0% omhoog) | Kernpositie; houdt $84k-breakout vast, anker $80k, geen adds bij RSI-1u 81 |
+| SOL/USD | $1,157.25 | 12.0% | +2.8% | 12.0% | -0.8% (33% omhoog) | Sterkste grote alt (+4,6% 7d), positie licht groen, binnen stop-regime |
+| BCH/USD | $1,152.48 | 11.9% | +1.6% | 12.0% | -0.8% (0% omhoog) | Positief 30d-momentum (+7,7%), houdt stand, licht groen sinds entry |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 21-10-2026 20:31 | $9,683 | -3.17% | 1.67% | 0 |
 | 21-10-2026 20:01 | $9,666 | -3.34% | 1.53% | 0 |
 | 21-10-2026 19:31 | $9,664 | -3.36% | 1.45% | 0 |
 | 21-10-2026 19:01 | $9,668 | -3.32% | 1.43% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 21-10-2026 16:01 | $9,584 | -4.16% | 0.38% | 0 |
 | 21-10-2026 15:31 | $9,582 | -4.18% | 0.21% | 0 |
 | 21-10-2026 15:01 | $9,577 | -4.23% | 0.24% | 0 |
-| 21-10-2026 14:31 | $9,582 | -4.18% | 0.10% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
