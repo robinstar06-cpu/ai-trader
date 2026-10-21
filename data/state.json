@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-18T21:00:48.455595+00:00",
-      "time_local": "18-10-2026 23:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0
-      },
-      "summary": "Capitulatie-extreem houdt aan: 0 van 33 munten groen op 24u (mediaan -4,56%) en de 7d-mediaan zakt naar -11,88%. BTC toont opnieuw relatieve kracht rond $80,9k, ruim boven de $80k-grens, maar de ladder-signalen (breadth >30% groen, 7d-mediaan > -5%) vuren nog lang niet. Ik houd het 40%-anker en de 6",
-      "equity": 9406.12,
-      "prices": {
-        "BTC/USD": 80865.128
-      }
-    },
-    {
       "time": "2026-10-18T21:30:40.180161+00:00",
       "time_local": "18-10-2026 23:30",
       "model": "z-ai/glm-5.3",
@@ -1432,12 +1419,29 @@
         "BTC/USD": 83636.475,
         "BCH/USD": 285.007
       }
+    },
+    {
+      "time": "2026-10-21T14:31:25.022274+00:00",
+      "time_local": "21-10-2026 16:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 10.0,
+        "BCH/USD": 10.0
+      },
+      "summary": "BTC houdt stand op het 7d-hoogtepunt ($83,9k) maar de breedte verzwakt duidelijk (13/33 groen, mediaan -0,08%) terwijl Greed op 63 staat — een divergentie die vaak op een korte pullback wijst. Mijn kern blijft 60% BTC met kleine alt-posities en 20% droog kruit; ik wacht op een uurslot boven $84k of ",
+      "equity": 9599.06,
+      "prices": {
+        "SOL/USD": 106.85,
+        "BCH/USD": 286.45,
+        "BTC/USD": 83920.4
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-21T14:01:27.144738+00:00",
-    "time_local": "21-10-2026 16:01",
-    "text": "Kern blijft 60% BTC / 10% SOL / 10% BCH met 20% cash. Geen adds op de top: BTC stagneert onder $84k en Greed 63 waarschuwt. Droog kruit vuurt bij uurslot BTC >$84k (halve inzet) of een pullback <$82k (volledige inzet op breakout-niveau). De-risico pas bij uurslot <$80k: eerst alts, dan BTC. Alt-stops op 10-15% verlies blijven staan; geen churn op 24u-breedte-ruis. Kronos (44% accuraat, licht negatief op 12u) is geen zelfstandige reden om te handelen."
+    "time": "2026-10-21T14:31:25.022274+00:00",
+    "time_local": "21-10-2026 16:31",
+    "text": "Kern 60% BTC / 10% SOL / 10% BCH / 20% cash, ongewijzigd. BTC zit op het 7d-hoog net onder de $84k-trigger terwijl de 24u-breedte terugviel naar 13/33 — geen adds op de top. Droog kruit vuurt bij uurslot >$84k (halve inzet) of een pullback <$82k (volledige inzet). De-risico pas bij uurslot <$80k: eerst alts, dan BTC. Alt-stops op 10-15% verlies blijven staan. Kronos is licht negatief op 12u voor al mijn posities, dus geen zelfstandige reden om te handelen."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: stap 1 (BTC 55% bij breadth >30% groen én $80k 12u+ vasthouden) ving de bounce; stap 2 vuurde correct op 17:30 bij 7d-mediaan > -5% én 24u-breedte 28/33 groen → BTC 60% + SOL 15% + BCH 10% (85% inzet). Stap 3 (volledi",

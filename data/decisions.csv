@@ -842,3 +842,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T14:01:27.144738+00:00,21-10-2026 16:01,z-ai/glm-5.3,BCH/USD,9.8,10.0,houden,,,"Sterkste 7d-munt in portefeuille (+5,9%) met positieve P/L; houd 10%, stop blijft staan."
 2026-10-21T14:01:27.144738+00:00,21-10-2026 16:01,z-ai/glm-5.3,BTC/USD,60.2,60.0,houden,,,"Anker houdt ($83,6k > $80k) en 7d-mediaan positief; kernpositie blijft, maar geen add onder de $84k-trigger met Greed 63."
 2026-10-21T14:01:27.144738+00:00,21-10-2026 16:01,z-ai/glm-5.3,SOL/USD,10.0,10.0,houden,,,"Licht rood op 24u maar ruim boven stop en het anker houdt; geen churn, 10% blijft staan."
+2026-10-21T14:31:25.022274+00:00,21-10-2026 16:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,9.8,10.0,houden,,,"Sterkste alt met 7d +6,4% en 30d +7,2%; kleine positie, stop op 10-15% verlies."
+2026-10-21T14:31:25.022274+00:00,21-10-2026 16:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.2,60.0,houden,,,"Sterkste anker, op 7d-hoog en ruim boven het $80k-de-risico-niveau; max inzet binnen de limiet."
+2026-10-21T14:31:25.022274+00:00,21-10-2026 16:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,9.9,10.0,houden,,,"Zwakste alt (24u -0,75%, onder SMA20) maar nabij breakeven; aanhouden tot stop of ankerbreuk."
