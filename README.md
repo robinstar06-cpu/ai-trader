@@ -1,25 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 21-10-2026 17:01_
+_Laatst bijgewerkt: 21-10-2026 17:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,662.51** |
-| Cash | $1,926.40 (20%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-3.37%** |
-| Ter vergelijking: gewoon BTC vasthouden | +1.45% |
-| Verschil | -4.82% |
+| Waarde portefeuille | **$9,674.70** |
+| Cash | $1,538.80 (16%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-3.25%** |
+| Ter vergelijking: gewoon BTC vasthouden | +1.33% |
+| Verschil | -4.58% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-3.37%** |
+| Rendement deze periode | **-3.25%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -3.37% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -3.25% |
+| Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
-| Kronos-voorspelling | 33 munten in 240s; richting op 4u goed: 38% (n=99, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 17:01); richting op 4u goed: 38% (n=99, 50% = gokken) |
 
-## Strategie van de AI (sinds 21-10-2026 16:31)
+## Marktvisie van de AI
 
-Kern 60% BTC / 10% SOL / 10% BCH / 20% cash, ongewijzigd. BTC zit op het 7d-hoog net onder de $84k-trigger terwijl de 24u-breedte terugviel naar 13/33 — geen adds op de top. Droog kruit vuurt bij uurslot >$84k (halve inzet) of een pullback <$82k (volledige inzet). De-risico pas bij uurslot <$80k: eerst alts, dan BTC. Alt-stops op 10-15% verlies blijven staan. Kronos is licht negatief op 12u voor al mijn posities, dus geen zelfstandige reden om te handelen.
+BTC is met $84,4k door het $84k-niveau gebroken en de breedte is zeer sterk (32/33 groen, 24u-mediaan +3,2%, 7d-mediaan nu +2,8% positief). Tegelijk staat RSI-1u op 77 en Greed op 63, dus ik chase de top niet agressief maar schaal alts voorzichtig bij. Het $80k-anker houdt en blijft mijn de-risico-lijn.
+
+## Strategie van de AI (sinds 21-10-2026 17:31)
+
+Kern blijft 60% BTC (op het plafond, niet verder bijkopen op de top). De breakout >$84k is een trigger, maar BTC zit al op 60% cap, dus ik zet een deel van het droge kruit in de alts: SOL en BCH van ~10% naar 12% (halve inzet nu, rest op een pullback). Ik houd ~16% cash voor een terugval <$82k (volledige inzet) en de-risico pas bij uurslot <$80k: eerst alts, dan BTC. Alt-stops op 10-15% verlies blijven staan. Kronos is kortetermijn negatief op vrijwel alles, maar met 38% hitrate weeg ik dat nauwelijks; prijsactie en breedte wegen zwaarder.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -38,24 +42,26 @@ _De discipline werkte dit venster: 55% vasthouden door de zwakke breedte-uren en
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,823.25 | 60.3% | +2.8% | 60.3% | -1.0% (0% omhoog) |  |
-| SOL/USD | $965.21 | 10.0% | +2.3% | 10.0% | -0.7% (33% omhoog) |  |
-| BCH/USD | $947.64 | 9.8% | +1.9% | 9.8% | -1.6% (0% omhoog) |  |
+| BTC/USD | $5,824.21 | 60.2% | +2.9% | 60.0% | -1.0% (0% omhoog) | Op het 60%-plafond; doorbrak $84k maar RSI-1u 77 en Greed 63 maken bijkopen op de top onaantrekkelijk. |
+| SOL/USD | $1,157.90 | 12.0% | +2.8% | 12.0% | -0.7% (33% omhoog) | Sterke breedte en 7d-mediaan positief; voorzichtig bijschalen richting 12%, stop op 10-15% verlies. |
+| BCH/USD | $1,153.80 | 11.9% | +1.7% | 12.0% | -1.6% (0% omhoog) | Beste momentum (7d +8%, 30d +8%); bijschalen naar 12% zolang het anker houdt. |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| BCH/USD | buy | $208.94 | gekocht $208.94 |
+| SOL/USD | buy | $186.60 | gekocht $186.60 |
 
 ## Meldingen
 
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 21-10-2026 17:31 | $9,675 | -3.25% | 1.33% | 2 |
 | 21-10-2026 17:01 | $9,663 | -3.37% | 1.45% | 0 |
 | 21-10-2026 16:31 | $9,599 | -4.01% | 0.72% | 0 |
 | 21-10-2026 16:01 | $9,584 | -4.16% | 0.38% | 0 |
@@ -67,7 +73,6 @@ Geen orders (verdeling blijft gelijk).
 | 21-10-2026 12:31 | $9,555 | -4.45% | -0.16% | 0 |
 | 21-10-2026 12:01 | $9,569 | -4.31% | 0.05% | 0 |
 | 21-10-2026 11:31 | $9,579 | -4.21% | 0.21% | 0 |
-| 21-10-2026 11:00 | $9,563 | -4.37% | -0.21% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).

@@ -848,3 +848,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T15:01:26.841518+00:00,21-10-2026 17:01,,BCH/USD,9.8,9.8,houden,,,
 2026-10-21T15:01:26.841518+00:00,21-10-2026 17:01,,BTC/USD,60.3,60.3,houden,,,
 2026-10-21T15:01:26.841518+00:00,21-10-2026 17:01,,SOL/USD,10.0,10.0,houden,,,
+2026-10-21T15:31:18.480029+00:00,21-10-2026 17:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,9.8,12.0,buy,208.94,gekocht $208.94,"Beste momentum (7d +8%, 30d +8%); bijschalen naar 12% zolang het anker houdt."
+2026-10-21T15:31:18.480029+00:00,21-10-2026 17:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.2,60.0,houden,,,Op het 60%-plafond; doorbrak $84k maar RSI-1u 77 en Greed 63 maken bijkopen op de top onaantrekkelijk.
+2026-10-21T15:31:18.480029+00:00,21-10-2026 17:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,10.1,12.0,buy,186.60,gekocht $186.60,"Sterke breedte en 7d-mediaan positief; voorzichtig bijschalen richting 12%, stop op 10-15% verlies."

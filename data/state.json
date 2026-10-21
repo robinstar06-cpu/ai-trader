@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-18T21:30:40.180161+00:00",
-      "time_local": "18-10-2026 23:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0
-      },
-      "summary": "Capitulatie-extreem houdt grotendeels aan: slechts 1 van 33 munten groen op 24u en de 7d-mediaan staat op -11,70%, al kluiert die licht omhoog. BTC toont opnieuw relatieve kracht rond $80,9k, ruim boven de $80k-grens, en de 1u-returns kleuren bijna overal licht groen — mogelijk de eerste voorbode va",
-      "equity": 9407.07,
-      "prices": {
-        "BTC/USD": 80894.118
-      }
-    },
-    {
       "time": "2026-10-18T22:00:47.165908+00:00",
       "time_local": "19-10-2026 00:00",
       "model": "z-ai/glm-5.3",
@@ -1436,12 +1423,29 @@
         "BCH/USD": 286.45,
         "BTC/USD": 83920.4
       }
+    },
+    {
+      "time": "2026-10-21T15:31:18.480029+00:00",
+      "time_local": "21-10-2026 17:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 12.0,
+        "BCH/USD": 12.0
+      },
+      "summary": "BTC is met $84,4k door het $84k-niveau gebroken en de breedte is zeer sterk (32/33 groen, 24u-mediaan +3,2%, 7d-mediaan nu +2,8% positief). Tegelijk staat RSI-1u op 77 en Greed op 63, dus ik chase de top niet agressief maar schaal alts voorzichtig bij. Het $80k-anker houdt en blijft mijn de-risico-l",
+      "equity": 9665.72,
+      "prices": {
+        "BCH/USD": 288.78,
+        "BTC/USD": 84423.0225,
+        "SOL/USD": 108.471
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-21T14:31:25.022274+00:00",
-    "time_local": "21-10-2026 16:31",
-    "text": "Kern 60% BTC / 10% SOL / 10% BCH / 20% cash, ongewijzigd. BTC zit op het 7d-hoog net onder de $84k-trigger terwijl de 24u-breedte terugviel naar 13/33 — geen adds op de top. Droog kruit vuurt bij uurslot >$84k (halve inzet) of een pullback <$82k (volledige inzet). De-risico pas bij uurslot <$80k: eerst alts, dan BTC. Alt-stops op 10-15% verlies blijven staan. Kronos is licht negatief op 12u voor al mijn posities, dus geen zelfstandige reden om te handelen."
+    "time": "2026-10-21T15:31:18.480029+00:00",
+    "time_local": "21-10-2026 17:31",
+    "text": "Kern blijft 60% BTC (op het plafond, niet verder bijkopen op de top). De breakout >$84k is een trigger, maar BTC zit al op 60% cap, dus ik zet een deel van het droge kruit in de alts: SOL en BCH van ~10% naar 12% (halve inzet nu, rest op een pullback). Ik houd ~16% cash voor een terugval <$82k (volledige inzet) en de-risico pas bij uurslot <$80k: eerst alts, dan BTC. Alt-stops op 10-15% verlies blijven staan. Kronos is kortetermijn negatief op vrijwel alles, maar met 38% hitrate weeg ik dat nauwelijks; prijsactie en breedte wegen zwaarder."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: stap 1 (BTC 55% bij breadth >30% groen én $80k 12u+ vasthouden) ving de bounce; stap 2 vuurde correct op 17:30 bij 7d-mediaan > -5% én 24u-breedte 28/33 groen → BTC 60% + SOL 15% + BCH 10% (85% inzet). Stap 3 (volledi",
