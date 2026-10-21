@@ -836,3 +836,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T13:01:21.101387+00:00,21-10-2026 15:01,,BCH/USD,9.9,9.9,houden,,,
 2026-10-21T13:01:21.101387+00:00,21-10-2026 15:01,,BTC/USD,60.0,60.0,houden,,,
 2026-10-21T13:01:21.101387+00:00,21-10-2026 15:01,,SOL/USD,10.0,10.0,houden,,,
+2026-10-21T13:31:22.598942+00:00,21-10-2026 15:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,9.9,10.0,houden,,,"Beste 7d/30d-momentum van de kern (7d +5,30%), positie behouden met stop."
+2026-10-21T13:31:22.598942+00:00,21-10-2026 15:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.0,60.0,houden,,,"Anker houdt ruim boven $80k; 7d-hoogte maar stagnatie onder $84k-trigger, dus niet bijkopen op de top."
+2026-10-21T13:31:22.598942+00:00,21-10-2026 15:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,10.0,10.0,houden,,,"Sterk herstel (24u +1,48%, 7d +1,84%), kleine positie met harde stop op 10-15% verlies."
