@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 21-10-2026 11:04 - PROEFRUN, geen orders geplaatst_
+_Laatst bijgewerkt: 21-10-2026 11:13 - PROEFRUN, geen orders geplaatst_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,562.65** |
+| Waarde portefeuille | **$9,568.76** |
 | Cash | $1,926.40 (20%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.37%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.18% |
-| Verschil | -4.19% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.31%** |
+| Ter vergelijking: gewoon BTC vasthouden | +0.10% |
+| Verschil | -4.41% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.37%** |
+| Rendement deze periode | **-4.31%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.37% |
+| Daling vanaf de top ($10,000) | -4.31% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
-| Kronos-voorspelling | 16 munten in 260s (17 overgeslagen: te weinig handel of tijdslimiet); trefzekerheid nog niet gemeten |
+| Kronos-voorspelling | 33 munten in 140s; trefzekerheid nog niet gemeten |
 
 ## Marktvisie van de AI
 
-Het herstel verbreedt zich verder (31/33 groen, mediaan 24u +4,0%) en BTC kruipt naar $83,2k, maar de $84k-trigger is nog niet gevallen en de 7d-mediaan staat nog negatief (-1,4%). Greed 63 op een bouncetop blijft een contra-signaal: geen nieuwe adds op een top. Kronos bevestigt mild positief maar heeft nog geen track record en weegt daarom nauwelijks.
+Het herstel verbreedt zich verder: 32/33 munten groen, mediaan 24u +4,33%, en BTC kruipt naar $83,4k op een 7d-hoog terwijl de 7d-mediaan opknapt naar -1,02%. Greed 63 op deze bouncetop plus een licht negatieve Kronos-hint (nog ongemeten track record) weerhouden me van bij kopen op deze prijzen; de harde triggers ($84k-uurslot of positieve 7d-mediaan) zijn dichtbij maar nog niet gevallen.
 
-## Strategie van de AI (sinds 21-10-2026 11:04)
+## Strategie van de AI (sinds 21-10-2026 11:13)
 
-Anker houdt stand: BTC 60% zolang het uurslot boven $80k sluit, SOL 10% en BCH 10% lopen mee in het brede herstel. De 20% cash is droog kruit en gaat er alléén in bij een harde trigger: uurslot BTC >$84k, een positieve 7d-mediaan, of juist een pullback onder $82k — niet bij Greed 63 op een top. De-risico bij uurslot <$80k: eerst alts naar cash, dan BTC. Geen churn; de breakout bepaalt de volgende zet.
+Anker blijft staan: BTC 60% zolang het uurslot boven $80k sluit, SOL 10% en BCH 10% lopen mee in het brede herstel. De 20% cash is droog kruit en gaat er alléén in op een harde trigger: uurslot BTC >$84k, een positieve 7d-mediaan (nu -1,02%, knapt snel op), of juist een pullback onder $82k voor een betere entry — niet op Greed 63. De-risico bij uurslot <$80k: eerst alts naar cash, dan BTC. Geen churn; geduld tot het signaal komt, dan volledige participatie.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,9 +42,9 @@ _De discipline werkte dit venster: 55% vasthouden door de zwakke breedte-uren en
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,732.96 | 60.0% | +1.3% | 60.0% | +0.4% (75% omhoog) | Anker >$80k intact; breakout boven $84k of positieve 7d-mediaan opent de resterende cash |
-| SOL/USD | $954.65 | 10.0% | +1.2% | 10.0% | +0.6% (88% omhoog) | Meeloper in breed herstel volgens plan; stop volgt het $80k-anker |
-| BCH/USD | $948.63 | 9.9% | +2.0% | 10.0% | +0.9% (75% omhoog) | Sterkste positie (7d +3,6%, bij 7d-hoog); 10% aanhouden, geen churn |
+| BTC/USD | $5,739.07 | 60.0% | +1.4% | 60.0% | -0.3% (33% omhoog) | Anker boven $80k; cash pas in bij uurslot >$84k of positieve 7d-mediaan |
+| SOL/USD | $954.65 | 10.0% | +1.2% | 10.0% | -0.2% (50% omhoog) | Loopt mee in breed herstel; stop volgt het $80k-anker |
+| BCH/USD | $948.63 | 9.9% | +2.0% | 10.0% | -1.8% (0% omhoog) | Sterkste positie (+5,6% 24u, 7d-hoog); blijft zitten tot anker breekt |
 
 ## Orders deze run
 
