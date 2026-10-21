@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 21-10-2026 07:00_
+_Laatst bijgewerkt: 21-10-2026 07:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,510.45** |
+| Waarde portefeuille | **$9,516.72** |
 | Cash | $1,926.40 (20%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.90%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.73% |
-| Verschil | -4.17% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.83%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.63% |
+| Verschil | -4.20% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.90%** |
+| Rendement deze periode | **-4.83%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.90% |
+| Daling vanaf de top ($10,000) | -4.83% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
 
 ## Marktvisie van de AI
 
-Het herstel blijft breed (30/33 munten groen, 24u-mediaan +2,39%) maar de bounce is rijp: BTC stokt al uren rond $82,7k en Fear & Greed op 63 (Greed) is een contra-waarschuwing. De 7d-mediaan staat nog rood (-2,35%), dus volledige risk-on is niet aan de orde. Het $80k-anker houdt stand; consolidatie rond $82-83k is de basis.
+Het herstel blijft breed (31/33 munten groen, 24u-mediaan +2,82%) maar de bounce is rijp: BTC stokt al uren rond $82,8k en Fear & Greed op 63 (Greed) werkt als contra-signaal. De 7d-mediaan staat nog negatief (-2,24%), dus geen van mijn inzet-triggers (BTC >$84k, positieve 7d-mediaan of pullback onder $82k) is gevallen. Geduld boven actie: het anker blijft staan.
 
-## Strategie van de AI (sinds 21-10-2026 07:00)
+## Strategie van de AI (sinds 21-10-2026 07:30)
 
-Anker houdt stand: BTC 60% zolang het uurslot boven $80k blijft; SOL 10% en BCH 10% lopen mee in het brede herstel. Geen nieuwe adds bij F&G 63 op deze rijpe bounce — de 20% cash is droog kruit dat pas inzet bij BTC >$84k, een positieve 7d-mediaan, of een pullback onder $82k. De-risico bij uurslot <$80k: eerst alts naar cash. Verwacht consolidatie rond $82-83k; geduld boven actie, geen churn.
+Anker houdt stand: BTC 60% zolang het uurslot boven $80k sluit; SOL 10% en BCH 10% lopen mee in het brede herstel. De 20% cash blijft droog kruit en zet pas in bij BTC >$84k, een positieve 7d-mediaan, of een pullback onder $82k — niet bij een rijpe bounce met F&G 63. De-risico bij uurslot <$80k: eerst alts naar cash, dan BTC. Verwacht consolidatie rond $82-83k; geen churn, alleen handelen bij een echte trigger.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,9 +41,9 @@ _De discipline werkte dit venster: 55% vasthouden door de zwakke breedte-uren en
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,697.56 | 59.9% | +0.6% | 60.0% | Anker boven $80k intact, kernpositie tijdens consolidatie $82-83k |
-| SOL/USD | $949.08 | 10.0% | +0.6% | 10.0% | Meelopen in breed herstel, gekappt op -10/15%, geen adds bij rijpe bounce |
-| BCH/USD | $937.41 | 9.9% | +0.8% | 10.0% | Sterkste positie (7d +2,44%), houdt aan zolang herstel breed blijft |
+| BTC/USD | $5,698.91 | 59.9% | +0.7% | 60.0% | Anker boven $80k; breedte sterk, wachten op trigger voor meer inzet |
+| SOL/USD | $949.98 | 10.0% | +0.7% | 10.0% | Mee in herstel; 7d-mediaan nog negatief dus niet verhogen |
+| BCH/USD | $941.43 | 9.9% | +1.2% | 10.0% | Sterkste positie (+2,6% 7d) maar range7d_pos 91, geen add |
 
 ## Orders deze run
 
@@ -57,6 +57,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 21-10-2026 07:30 | $9,517 | -4.83% | -0.63% | 0 |
 | 21-10-2026 07:00 | $9,510 | -4.90% | -0.73% | 0 |
 | 21-10-2026 06:30 | $9,510 | -4.90% | -0.71% | 0 |
 | 21-10-2026 06:00 | $9,505 | -4.95% | -0.77% | 0 |
@@ -68,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 21-10-2026 03:00 | $9,533 | -4.67% | -0.45% | 0 |
 | 21-10-2026 02:30 | $9,543 | -4.57% | -0.27% | 0 |
 | 21-10-2026 02:00 | $9,528 | -4.72% | -0.45% | 0 |
-| 21-10-2026 01:30 | $9,520 | -4.80% | -0.57% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
