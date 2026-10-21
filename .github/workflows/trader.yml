@@ -18,13 +18,38 @@ concurrency:
 jobs:
   trade:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      # Kronos (voorspelmodel, MIT-licentie): code op een vaste versie, niet in deze repo opgeslagen
+      - name: Kronos-code ophalen
+        if: vars.KRONOS != 'off'
+        uses: actions/checkout@v4
+        with:
+          repository: shiyu-coder/Kronos
+          ref: 67b630e67f6a18c9e9be918d9b4337c960db1e9a
+          path: .kronos
+          persist-credentials: false
+
+      - name: Kronos-model bewaren tussen runs
+        if: vars.KRONOS != 'off'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: kronos-${{ vars.KRONOS_MODEL || 'NeoQuasar/Kronos-small' }}-v1
+
+      # Mislukt dit, dan draait de bot gewoon zonder Kronos
+      - name: Kronos-pakketten installeren
+        if: vars.KRONOS != 'off'
+        continue-on-error: true
+        run: pip install -r requirements.txt
 
       - name: Bot draaien
         env:
@@ -44,6 +69,10 @@ jobs:
           RISK_TOLERANCE_PCT: ${{ vars.RISK_TOLERANCE_PCT }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NOTIFY: ${{ vars.NOTIFY }}
+          KRONOS: ${{ vars.KRONOS }}
+          KRONOS_MODEL: ${{ vars.KRONOS_MODEL }}
+          KRONOS_LOOKBACK: ${{ vars.KRONOS_LOOKBACK }}
+          KRONOS_SAMPLES: ${{ vars.KRONOS_SAMPLES }}
         run: python bot.py
 
       - name: Melding bij fout
