@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-18T17:00:46.852647+00:00",
-      "time_local": "18-10-2026 19:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0
-      },
-      "summary": "De breedte staat op een dieptepunt: 0 van 33 munten groen op 24u en de 7d-mediaan zakt verder naar -10,9%. BTC houdt opmerkelijk stand rond $81,0k (-0,2% op 24u) maar zit met $80.976 slechts 0,1% boven mijn $80k-trigger. Er is nog geen enkel omkeersignaal, dus cash blijft een actieve positie en scha",
-      "equity": 9409.89,
-      "prices": {
-        "BTC/USD": 80976.33
-      }
-    },
-    {
       "time": "2026-10-18T17:30:38.191331+00:00",
       "time_local": "18-10-2026 19:30",
       "model": "z-ai/glm-5.3",
@@ -1400,12 +1387,29 @@
         "SOL/USD": 106.5,
         "BCH/USD": 287.88
       }
+    },
+    {
+      "time": "2026-10-21T09:31:06.928767+00:00",
+      "time_local": "21-10-2026 11:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 10.0,
+        "BCH/USD": 10.0
+      },
+      "summary": "Het herstel verbreedt zich verder: 32/33 munten groen, mediaan 24u +4,34%, BTC kruipt op een 7d-hoog van $83,5k richting de $84k-trigger. Maar de 7d-mediaan staat nog negatief (-1,09%) en Greed 63 werkt als contra-signaal op deze rijpe bounce. Kronos is neutraal op BTC en licht negatief voor SOL/BCH",
+      "equity": 9578.8,
+      "prices": {
+        "BTC/USD": 83493.012,
+        "BCH/USD": 287.405,
+        "SOL/USD": 106.945
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-21T09:00:49.885839+00:00",
-    "time_local": "21-10-2026 11:00",
-    "text": "Anker ongewijzigd: BTC 60% zolang het uurslot boven $80k sluit, SOL 10% en BCH 10% rijden mee op het brede herstel. De 20% cash gaat er alléén in bij een harde trigger: uurslot BTC >$84k, een positieve 7d-mediaan (nu -1,32%, bijna zover) of een pullback onder $82k — niet bij Greed 63 op een top. De-risico bij uurslot <$80k: eerst alts naar cash, dan BTC. Geen churn; het $84k-niveau bepaalt de volgende zet."
+    "time": "2026-10-21T09:31:06.928767+00:00",
+    "time_local": "21-10-2026 11:31",
+    "text": "Discipline boven haast: geen enkele trigger is vuur. BTC $83,5k zit tussen de $82k pullback-zone en de $84k breakout-trigger, en de 7d-mediaan is nog rood (-1,09%, knapt snel op). Houd 60/10/10 aan met 20% cash als droog kruit; zet de cash pas in bij uurslot BTC >$84k, een positieve 7d-mediaan of een pullback onder $82k — niet bij Greed 63 op een top. De-risico bij uurslot <$80k: eerst alts, dan BTC. Geen churn, het $84k-niveau bepaalt de volgende zet."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: stap 1 (BTC 55% bij breadth >30% groen én $80k 12u+ vasthouden) ving de bounce; stap 2 vuurde correct op 17:30 bij 7d-mediaan > -5% én 24u-breedte 28/33 groen → BTC 60% + SOL 15% + BCH 10% (85% inzet). Stap 3 (volledi",
@@ -1417,5 +1421,249 @@
     "Cash is een actieve positie mét prijs: dit venster kostte de cash drag ~0,36% versus BTC (+0,92% vs +1,28%) — acceptabel zolang de 7d-mediaan rood is. De resterende 15% cash is droog kruit voor pullback-adds onder $82k, niet voor het kopen van tops.",
     "Met -4,83% op dag 7 vraagt +20% nog ~+26% in 21 dagen (~1,1%/dag): alleen haalbaar via volledige participatie zodra het herstel bevestigt, maar zonder roekeloosheid — bescherm eerst tegen nieuw verlies via het $80k-anker en harde alt-stops; onderexpo"
   ],
-  "review_assessment": "De discipline werkte dit venster: 55% vasthouden door de zwakke breedte-uren en pas opscha­len om 17:30 toen de stap-2-triggers overtuigend vuurden, leverde +0,92% tegen +1,28% voor BTC — de cash drag is de prijs van het playbook, geen fout. Echter: de adds in SOL en BCH kwamen achter een al ~2% gevorderde bounce en staan sindsdien licht rood, en met Fear & Greed op 63 (Greed) op een lokale top is dit geen moment voor extra risico. Met -4,83% op dag 7 vraagt de +20%-doelstelling nog ~+26% in 21 dagen: alleen haalbaar via volledige participatie in het brede herstel, met de laatste 15% cash op p"
+  "review_assessment": "De discipline werkte dit venster: 55% vasthouden door de zwakke breedte-uren en pas opscha­len om 17:30 toen de stap-2-triggers overtuigend vuurden, leverde +0,92% tegen +1,28% voor BTC — de cash drag is de prijs van het playbook, geen fout. Echter: de adds in SOL en BCH kwamen achter een al ~2% gevorderde bounce en staan sindsdien licht rood, en met Fear & Greed op 63 (Greed) op een lokale top is dit geen moment voor extra risico. Met -4,83% op dag 7 vraagt de +20%-doelstelling nog ~+26% in 21 dagen: alleen haalbaar via volledige participatie in het brede herstel, met de laatste 15% cash op p",
+  "kronos_log": [
+    {
+      "t": "2026-10-21T08:00:00+00:00",
+      "f": {
+        "BTC/USD": 0.03,
+        "SOL/USD": -0.13,
+        "BCH/USD": -0.65,
+        "ETH/USD": 0.02,
+        "RENDER/USD": -0.32,
+        "XRP/USD": 0.44,
+        "LINK/USD": -0.15,
+        "LTC/USD": -0.52,
+        "PAXG/USD": 0.09,
+        "BAT/USD": 0.53,
+        "DOGE/USD": -0.1,
+        "GRT/USD": -0.95,
+        "UNI/USD": 0.79,
+        "AVAX/USD": -0.28,
+        "AAVE/USD": -0.87,
+        "CRV/USD": -0.75,
+        "DOT/USD": -0.06,
+        "PEPE/USD": 5.12,
+        "ARB/USD": -0.78,
+        "ADA/USD": -0.96,
+        "ONDO/USD": 0.16,
+        "FIL/USD": -0.11,
+        "SUSHI/USD": -0.4,
+        "TRUMP/USD": -0.48,
+        "SHIB/USD": 6.51,
+        "XTZ/USD": -0.87,
+        "HYPE/USD": 0.31,
+        "YFI/USD": 0.04,
+        "SKY/USD": -0.16,
+        "LDO/USD": 0.67,
+        "BONK/USD": 27.71,
+        "POL/USD": -0.8,
+        "WIF/USD": -0.04
+      }
+    }
+  ],
+  "kronos_last": {
+    "bar_t": "2026-10-21T08:00:00+00:00",
+    "time": "2026-10-21T09:31:06.928767+00:00",
+    "fc": {
+      "BTC/USD": {
+        "k4h": 0.025,
+        "up4h": 50,
+        "k12h": -0.176,
+        "up12h": 50
+      },
+      "SOL/USD": {
+        "k4h": -0.133,
+        "up4h": 33,
+        "k12h": -0.48,
+        "up12h": 33
+      },
+      "BCH/USD": {
+        "k4h": -0.652,
+        "up4h": 33,
+        "k12h": -2.404,
+        "up12h": 0
+      },
+      "ETH/USD": {
+        "k4h": 0.021,
+        "up4h": 50,
+        "k12h": -0.691,
+        "up12h": 33
+      },
+      "RENDER/USD": {
+        "k4h": -0.322,
+        "up4h": 33,
+        "k12h": -0.902,
+        "up12h": 17
+      },
+      "XRP/USD": {
+        "k4h": 0.44,
+        "up4h": 83,
+        "k12h": 0.658,
+        "up12h": 83
+      },
+      "LINK/USD": {
+        "k4h": -0.147,
+        "up4h": 33,
+        "k12h": -1.248,
+        "up12h": 17
+      },
+      "LTC/USD": {
+        "k4h": -0.521,
+        "up4h": 17,
+        "k12h": -1.57,
+        "up12h": 17
+      },
+      "PAXG/USD": {
+        "k4h": 0.088,
+        "up4h": 67,
+        "k12h": 0.267,
+        "up12h": 100
+      },
+      "BAT/USD": {
+        "k4h": 0.534,
+        "up4h": 50,
+        "k12h": 0.588,
+        "up12h": 50
+      },
+      "DOGE/USD": {
+        "k4h": -0.105,
+        "up4h": 33,
+        "k12h": -0.941,
+        "up12h": 17
+      },
+      "GRT/USD": {
+        "k4h": -0.954,
+        "up4h": 0,
+        "k12h": -2.134,
+        "up12h": 0
+      },
+      "UNI/USD": {
+        "k4h": 0.793,
+        "up4h": 83,
+        "k12h": -0.362,
+        "up12h": 67
+      },
+      "AVAX/USD": {
+        "k4h": -0.28,
+        "up4h": 33,
+        "k12h": -0.596,
+        "up12h": 17
+      },
+      "AAVE/USD": {
+        "k4h": -0.867,
+        "up4h": 17,
+        "k12h": -2.064,
+        "up12h": 33
+      },
+      "CRV/USD": {
+        "k4h": -0.753,
+        "up4h": 17,
+        "k12h": -4.751,
+        "up12h": 0
+      },
+      "DOT/USD": {
+        "k4h": -0.055,
+        "up4h": 50,
+        "k12h": -1.084,
+        "up12h": 17
+      },
+      "PEPE/USD": {
+        "k4h": 5.124,
+        "up4h": 83,
+        "k12h": -4.131,
+        "up12h": 67
+      },
+      "ARB/USD": {
+        "k4h": -0.782,
+        "up4h": 17,
+        "k12h": -2.189,
+        "up12h": 0
+      },
+      "ADA/USD": {
+        "k4h": -0.964,
+        "up4h": 17,
+        "k12h": -1.549,
+        "up12h": 33
+      },
+      "ONDO/USD": {
+        "k4h": 0.163,
+        "up4h": 50,
+        "k12h": -0.867,
+        "up12h": 17
+      },
+      "FIL/USD": {
+        "k4h": -0.107,
+        "up4h": 67,
+        "k12h": -0.511,
+        "up12h": 33
+      },
+      "SUSHI/USD": {
+        "k4h": -0.397,
+        "up4h": 33,
+        "k12h": -2.003,
+        "up12h": 17
+      },
+      "TRUMP/USD": {
+        "k4h": -0.479,
+        "up4h": 17,
+        "k12h": -2.408,
+        "up12h": 0
+      },
+      "SHIB/USD": {
+        "k4h": 6.512,
+        "up4h": 83,
+        "k12h": 1.439,
+        "up12h": 50
+      },
+      "XTZ/USD": {
+        "k4h": -0.87,
+        "up4h": 17,
+        "k12h": -2.45,
+        "up12h": 0
+      },
+      "HYPE/USD": {
+        "k4h": 0.312,
+        "up4h": 33,
+        "k12h": -0.392,
+        "up12h": 33
+      },
+      "YFI/USD": {
+        "k4h": 0.041,
+        "up4h": 50,
+        "k12h": -0.604,
+        "up12h": 33
+      },
+      "SKY/USD": {
+        "k4h": -0.164,
+        "up4h": 33,
+        "k12h": -0.634,
+        "up12h": 33
+      },
+      "LDO/USD": {
+        "k4h": 0.665,
+        "up4h": 67,
+        "k12h": 0.584,
+        "up12h": 50
+      },
+      "BONK/USD": {
+        "k4h": 27.708,
+        "up4h": 100,
+        "k12h": 22.343,
+        "up12h": 83
+      },
+      "POL/USD": {
+        "k4h": -0.804,
+        "up4h": 0,
+        "k12h": -1.441,
+        "up12h": 0
+      },
+      "WIF/USD": {
+        "k4h": -0.042,
+        "up4h": 33,
+        "k12h": -0.599,
+        "up12h": 17
+      }
+    }
+  }
 }
