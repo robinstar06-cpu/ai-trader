@@ -7,7 +7,7 @@ Elke run:
   2. Kronos (voorspelmodel voor candles) laten voorspellen hoe elke munt de komende uren beweegt
   3. je demo-portefeuille ophalen en de voortgang richting het doel bijhouden
   4. eens per dag: de AI evalueert zichzelf en werkt zijn lessen bij
-  5. de AI (NVIDIA NIM, standaard Kimi K3) vragen om een doelverdeling, met zijn plan,
+  5. de AI (NVIDIA NIM, standaard GLM-5.3) vragen om een doelverdeling, met zijn plan,
      lessen, de Kronos-voorspelling en de uitkomst van zijn eerdere beslissingen
   6. veiligheidsregels toepassen en orders plaatsen op het PAPER-account
   7. logboek + statuspagina (README.md) bijwerken
@@ -59,7 +59,7 @@ def env(name, default):
 
 
 # ---------------------------- Instellingen ---------------------------------
-MODELS = [m.strip() for m in env("MODELS", "moonshotai/kimi-k3,z-ai/glm-5.3,deepseek-ai/deepseek-v4.1-flash").split(",") if m.strip()]
+MODELS = [m.strip() for m in env("MODELS", "z-ai/glm-5.3,deepseek-ai/deepseek-v4.1-flash").split(",") if m.strip()]
 SYMBOLS = env("SYMBOLS", "ALL")                      # "ALL" of bv. "BTC/USD,ETH/USD"
 MAX_PER_COIN_PCT = float(env("MAX_PER_COIN_PCT", "60"))
 MIN_CASH_PCT = float(env("MIN_CASH_PCT", "0"))
@@ -595,8 +595,7 @@ def render_status(now, equity, cash, start, ret, hold_ret, holdings, targets, re
         lines += ["", "## Laatste runs", "", "| Tijd | Waarde | Rendement | BTC vasthouden | Orders |", "|---|---|---|---|---|"]
         for r in reversed(tail):
             lines.append(f"| {r['time_local']} | ${float(r['equity']):,.0f} | {r['return_pct']}% | {r['btc_hold_pct']}% | {r['trades']} |")
-    lines += ["", "---", "Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). "
-              "Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).", ""]
+    lines += ["", "---", "Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).", ""]
     return "\n".join(lines)
 
 
