@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-18T16:30:38.767657+00:00",
-      "time_local": "18-10-2026 18:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0
-      },
-      "summary": "De correctie zet onverminderd door: 0 van 33 munten groen op 24u en de 7d-mediaan zakt verder naar -11,3%. BTC houdt opmerkelijk stand rond $81,0k (-0,15% op 24u) en blijft net boven de $80k-drempel uit mijn plan, maar breadth geeft geen enkel omkeersignaal. Cash blijft daarom een actieve, verdedige",
-      "equity": 9413.66,
-      "prices": {
-        "BTC/USD": 81029.377
-      }
-    },
-    {
       "time": "2026-10-18T17:00:46.852647+00:00",
       "time_local": "18-10-2026 19:00",
       "model": "z-ai/glm-5.3",
@@ -1396,12 +1383,29 @@
         "SOL/USD": 106.625,
         "BCH/USD": 288.083
       }
+    },
+    {
+      "time": "2026-10-21T09:00:49.885839+00:00",
+      "time_local": "21-10-2026 11:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 10.0,
+        "BCH/USD": 10.0
+      },
+      "summary": "Het herstel verbreedt zich verder (31/33 munten groen, mediaan 24u +4,11%) en de 7d-mediaan knapt op naar -1,32%, maar BTC stagneert al uren rond $83,1k onder de $84k-trigger en Greed 63 werkt als contra-signaal. Geen enkele harde trigger is gevierd, dus het anker houdt stand en de 20% cash blijft d",
+      "equity": 9562.72,
+      "prices": {
+        "BTC/USD": 83137.662,
+        "SOL/USD": 106.5,
+        "BCH/USD": 287.88
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-21T08:30:40.396483+00:00",
-    "time_local": "21-10-2026 10:30",
-    "text": "Anker houdt stand: BTC 60% zolang het uurslot boven $80k sluit, SOL 10% en BCH 10% lopen mee in het brede herstel. De 20% cash gaat er alléén in bij een harde trigger: uurslot BTC >$84k, een positieve 7d-mediaan (nu -1,69%, opknepend), of een pullback onder $82k — niet bij Greed 63 op een top. De-risico bij uurslot <$80k: eerst alts naar cash, dan BTC. Geen churn; de breakout rond $84k bepaalt de volgende zet."
+    "time": "2026-10-21T09:00:49.885839+00:00",
+    "time_local": "21-10-2026 11:00",
+    "text": "Anker ongewijzigd: BTC 60% zolang het uurslot boven $80k sluit, SOL 10% en BCH 10% rijden mee op het brede herstel. De 20% cash gaat er alléén in bij een harde trigger: uurslot BTC >$84k, een positieve 7d-mediaan (nu -1,32%, bijna zover) of een pullback onder $82k — niet bij Greed 63 op een top. De-risico bij uurslot <$80k: eerst alts naar cash, dan BTC. Geen churn; het $84k-niveau bepaalt de volgende zet."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: stap 1 (BTC 55% bij breadth >30% groen én $80k 12u+ vasthouden) ving de bounce; stap 2 vuurde correct op 17:30 bij 7d-mediaan > -5% én 24u-breedte 28/33 groen → BTC 60% + SOL 15% + BCH 10% (85% inzet). Stap 3 (volledi",

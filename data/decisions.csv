@@ -812,3 +812,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T08:30:40.396483+00:00,21-10-2026 10:30,z-ai/glm-5.3,BCH/USD,9.9,10.0,houden,,,"Sterkste positie (+1,9%, op 7d-hoog); meelopen, geen churn bij Greed 63"
 2026-10-21T08:30:40.396483+00:00,21-10-2026 10:30,z-ai/glm-5.3,BTC/USD,59.9,60.0,houden,,,"Anker zolang uurslot >$80k; BTC op de 20d-MA, de breakout bepaalt de volgende zet"
 2026-10-21T08:30:40.396483+00:00,21-10-2026 10:30,z-ai/glm-5.3,SOL/USD,10.0,10.0,houden,,,Mee in het brede herstel (85% van 7d-range); kap onder het $80k-anker
+2026-10-21T09:00:49.885839+00:00,21-10-2026 11:00,z-ai/glm-5.3,BCH/USD,9.9,10.0,houden,,,"Sterkste positie (P/L +2,0%, 7d +3,7%); rijdt mee tot anker breekt"
+2026-10-21T09:00:49.885839+00:00,21-10-2026 11:00,z-ai/glm-5.3,BTC/USD,60.0,60.0,houden,,,Anker boven $80k; cash-inzet pas bij uurslot >$84k of positieve 7d-mediaan
+2026-10-21T09:00:49.885839+00:00,21-10-2026 11:00,z-ai/glm-5.3,SOL/USD,10.0,10.0,houden,,,Meeloper in breed herstel; stop volgt het $80k-anker
