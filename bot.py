@@ -83,8 +83,8 @@ KRONOS = env("KRONOS", "on").lower() not in ("0", "off", "false", "no", "nee", "
 KRONOS_MODEL = env("KRONOS_MODEL", "NeoQuasar/Kronos-small")
 KRONOS_TOKENIZER = env("KRONOS_TOKENIZER", "NeoQuasar/Kronos-Tokenizer-base")
 KRONOS_DIR = env("KRONOS_DIR", str(ROOT / ".kronos"))      # map met de Kronos-code (workflow haalt die op)
-KRONOS_LOOKBACK = int(env("KRONOS_LOOKBACK", "400"))       # aantal uurcandles dat Kronos per munt ziet (max 512)
-KRONOS_SAMPLES = int(env("KRONOS_SAMPLES", "8"))           # voorspellingen per munt (voor de kans op stijging)
+KRONOS_LOOKBACK = int(env("KRONOS_LOOKBACK", "256"))       # aantal uurcandles dat Kronos per munt ziet (max 512)
+KRONOS_SAMPLES = int(env("KRONOS_SAMPLES", "6"))           # voorspellingen per munt (voor de kans op stijging)
 KRONOS_BUDGET_S = int(env("KRONOS_BUDGET_S", "240"))       # rekentijd; daarna vallen de minst belangrijke munten af
 
 
@@ -678,6 +678,12 @@ def run_kronos(state, hourly, now, feats, holdings):
     Geeft (voorspellingen of None, trefzekerheid (goed, totaal), statustekst voor de statuspagina)."""
     import kronos_signal as ks
     record = ks.track_record(state, hourly, now)
+    # Kronos rekent op uurcandles: binnen hetzelfde uur verandert de voorspelling niet, dus hergebruiken
+    bar_t = ks.last_closed_hour(now).isoformat()
+    last = state.get("kronos_last") or {}
+    if last.get("bar_t") == bar_t and last.get("fc"):
+        fc = {s: v for s, v in last["fc"].items() if s in feats}
+        return fc, record, f"{len(fc)} munten (berekend om {local(datetime.fromisoformat(last['time']))[-5:]})"
     order = sorted(feats, key=lambda s: (s not in holdings, -feats[s]["usd_vol_24h"]))
     try:
         fc, info = ks.forecast(hourly, now, order, KRONOS_DIR, KRONOS_MODEL, KRONOS_TOKENIZER,
@@ -687,9 +693,12 @@ def run_kronos(state, hourly, now, feats, holdings):
     if not fc:
         return None, record, "geen munten met genoeg koersdata"
     ks.log_forecast(state, info["bar_t"], fc)
-    status = f"{len(fc)} munten in {info['secs']:.0f}s"
-    if info["skipped"]:
-        status += f" ({len(info['skipped'])} overgeslagen: te weinig handel of tijdslimiet)"
+    state["kronos_last"] = {"bar_t": info["bar_t"], "time": now.isoformat(), "fc": fc}
+    status = f"{len(fc)} munten in {info['secs']}s"
+    if info["thin"]:
+        status += f", {len(info['thin'])} overgeslagen (te weinig handel)"
+    if info["late"]:
+        status += f", {len(info['late'])} overgeslagen (tijdslimiet)"
     return fc, record, status
 
 

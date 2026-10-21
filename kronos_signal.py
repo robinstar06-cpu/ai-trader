@@ -79,28 +79,28 @@ def forecast(hourly, now, symbols, kronos_dir, model_name, tokenizer_name, lookb
     """Voorspelt per munt de koersverandering over HORIZONS uur.
     'symbols' in volgorde van belangrijkheid: bij tijdgebrek vallen de laatste munten af.
     Geeft ({munt: {"k4h", "k12h", "up4h", "up12h"}}, info)."""
-    started = time.time()
     import pandas as pd
 
     predictor = _load(kronos_dir, model_name, tokenizer_name, max_context=512)
+    started = time.time()
     end = last_closed_hour(now)
     pred_len = max(HORIZONS)
     naive_end = end.replace(tzinfo=None)
     x_ts = pd.Series(pd.date_range(end=naive_end, periods=lookback, freq="h"))
     y_ts = pd.Series(pd.date_range(start=naive_end + timedelta(hours=1), periods=pred_len, freq="h"))
 
-    series, skipped = [], []
+    series, thin, late = [], [], []
     for sym in symbols:
         rows, real = _grid(hourly.get(sym, []), end, lookback)
         if rows is None or real * 100 < MIN_REAL_PCT * lookback:
-            skipped.append(sym)
+            thin.append(sym)
             continue
         series.append((sym, pd.DataFrame(rows, columns=["open", "high", "low", "close", "volume", "amount"])))
 
     out, per_chunk = {}, max(1, BATCH // samples)
     for i in range(0, len(series), per_chunk):
         if time.time() - started > budget_s:
-            skipped += [s for s, _ in series[i:]]
+            late = [s for s, _ in series[i:]]
             break
         chunk = series[i:i + per_chunk]
         dfs = [df for _, df in chunk for _ in range(samples)]
@@ -112,10 +112,10 @@ def forecast(hourly, now, symbols, kronos_dir, model_name, tokenizer_name, lookb
             res = {}
             for h in HORIZONS:
                 ch = [(float(p["close"].iloc[h - 1]) / base - 1) * 100 for p in paths]
-                res[f"k{h}h"] = sum(ch) / len(ch)
-                res[f"up{h}h"] = sum(1 for c in ch if c > 0) * 100 / len(ch)
+                res[f"k{h}h"] = round(sum(ch) / len(ch), 3)
+                res[f"up{h}h"] = round(sum(1 for c in ch if c > 0) * 100 / len(ch))
             out[sym] = res
-    return out, {"bar_t": end.isoformat(), "secs": time.time() - started, "skipped": skipped}
+    return out, {"bar_t": end.isoformat(), "secs": round(time.time() - started), "thin": thin, "late": late}
 
 
 def log_forecast(state, bar_t, fc):
