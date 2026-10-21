@@ -4,14 +4,16 @@ AI Crypto Trader - experiment met demogeld (Alpaca Paper).
 
 Elke run:
   1. koersen + indicatoren ophalen voor alle crypto/USD-munten op Alpaca (+ Fear & Greed Index)
-  2. je demo-portefeuille ophalen en de voortgang richting het doel bijhouden
-  3. eens per dag: de AI evalueert zichzelf en werkt zijn lessen bij
-  4. de AI (NVIDIA NIM, standaard Kimi K3) vragen om een doelverdeling, met zijn plan,
-     lessen en de uitkomst van zijn eerdere beslissingen
-  5. veiligheidsregels toepassen en orders plaatsen op het PAPER-account
-  6. logboek + statuspagina (README.md) bijwerken
+  2. Kronos (voorspelmodel voor candles) laten voorspellen hoe elke munt de komende uren beweegt
+  3. je demo-portefeuille ophalen en de voortgang richting het doel bijhouden
+  4. eens per dag: de AI evalueert zichzelf en werkt zijn lessen bij
+  5. de AI (NVIDIA NIM, standaard Kimi K3) vragen om een doelverdeling, met zijn plan,
+     lessen, de Kronos-voorspelling en de uitkomst van zijn eerdere beslissingen
+  6. veiligheidsregels toepassen en orders plaatsen op het PAPER-account
+  7. logboek + statuspagina (README.md) bijwerken
 
-Alleen standaard Python 3.10+, geen extra pakketten nodig.
+bot.py zelf gebruikt alleen standaard Python 3.10+. Kronos heeft PyTorch nodig (requirements.txt);
+ontbreekt dat, dan draait de bot gewoon zonder Kronos.
 """
 import csv
 import json
@@ -77,6 +79,13 @@ FNG_URL = "https://api.alternative.me/fng/?limit=8"
 NTFY_TOPIC = env("NTFY_TOPIC", "")                  # meldingen op je telefoon via de ntfy-app
 NOTIFY = env("NOTIFY", "all").lower()               # all = elke run, trades = alleen bij orders/mijlpaal/fout, off
 DRY_RUN = env("DRY_RUN", "false").lower() in ("1", "true", "yes", "ja")
+KRONOS = env("KRONOS", "on").lower() not in ("0", "off", "false", "no", "nee", "uit")
+KRONOS_MODEL = env("KRONOS_MODEL", "NeoQuasar/Kronos-small")
+KRONOS_TOKENIZER = env("KRONOS_TOKENIZER", "NeoQuasar/Kronos-Tokenizer-base")
+KRONOS_DIR = env("KRONOS_DIR", str(ROOT / ".kronos"))      # map met de Kronos-code (workflow haalt die op)
+KRONOS_LOOKBACK = int(env("KRONOS_LOOKBACK", "400"))       # aantal uurcandles dat Kronos per munt ziet (max 512)
+KRONOS_SAMPLES = int(env("KRONOS_SAMPLES", "8"))           # voorspellingen per munt (voor de kans op stijging)
+KRONOS_BUDGET_S = int(env("KRONOS_BUDGET_S", "240"))       # rekentijd; daarna vallen de minst belangrijke munten af
 
 
 # ------------------------------- HTTP --------------------------------------
@@ -252,11 +261,20 @@ HARD LIMITS (enforced by code)
 LEARN AS YOU GO
 Look at what your recent decisions actually produced. Double down on what works, drop what doesn't, and update your
 plan whenever your view changes. Apply the lessons from your self-reviews.
-
+{kronos}
 Respond with ONLY one JSON object, no markdown, in exactly this shape:
 {{"summary": "<2-3 sentences market view, in Dutch>",
   "plan": "<your current strategy and what you expect over the coming hours/days, max 600 characters, in Dutch>",
   "allocations": [{{"symbol": "BTC/USD", "target_pct": 40, "reason": "<short reason, in Dutch>"}}]}}"""
+
+KRONOS_RULES = """
+KRONOS FORECASTS
+You also receive price forecasts from Kronos, an open-source time-series model for candlesticks. Treat them as a hint,
+never as truth: the model is often wrong and knows nothing about news, sentiment or the wider market. Weigh it by its
+measured track record (around 50% means it is no better than a coin flip). Never trade on a Kronos forecast alone. It may
+tip the balance when it agrees with price action and your plan; a strong disagreement is a reason to double-check your
+view, not to flip it.
+"""
 
 REVIEW_PROMPT = """You are the autonomous portfolio manager of a crypto trading experiment (paper account). Once a day you
 review your own recent performance to get better. Be honest, specific and practical. Look at which decisions made or
@@ -499,8 +517,15 @@ def write_status(md):
 
 
 def render_status(now, equity, cash, start, ret, hold_ret, holdings, targets, reasons, summary,
-                  model, results, notes, errors, state=None, period_end=None, fng=None):
+                  model, results, notes, errors, state=None, period_end=None, fng=None,
+                  kronos=None, kronos_rec=(0, 0), kronos_status=""):
     sign = lambda v: "n.v.t." if v is None else f"{v:+.2f}%"
+    kronos = kronos or {}
+    kronos_row = []
+    if KRONOS:
+        hits, total = kronos_rec
+        rec = f"richting op 4u goed: {hits / total * 100:.0f}% (n={total}, 50% = gokken)" if total else "trefzekerheid nog niet gemeten"
+        kronos_row = [f"| Kronos-voorspelling | {kronos_status}; {rec} |"]
     state = state or {}
     g = state.get("goal")
     goal_rows = []
@@ -530,6 +555,7 @@ def render_status(now, equity, cash, start, ret, hold_ret, holdings, targets, re
         f"| Model | {model or 'geen (AI niet bereikbaar)'} |",
         *([f"| Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | "
            f"{fng['value']} ({fng['label']}) |"] if fng else []),
+        *kronos_row,
         "",
     ]
     if summary:
@@ -544,10 +570,12 @@ def render_status(now, equity, cash, start, ret, hold_ret, holdings, targets, re
         lines += [f"- {l}" for l in state["lessons"]] + [""]
     lines += ["## Posities", ""]
     if holdings:
-        lines += ["| Munt | Waarde | % | Winst/verlies | Doel | Reden AI |", "|---|---|---|---|---|---|"]
+        lines += ["| Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |", "|---|---|---|---|---|---|---|"]
         for sym, h in sorted(holdings.items(), key=lambda x: -x[1]["value"]):
+            k = kronos.get(sym)
+            kt = f"{k['k12h']:+.1f}% ({k['up12h']:.0f}% omhoog)" if k else "-"
             lines.append(f"| {sym} | ${h['value']:,.2f} | {h['value'] / equity * 100:.1f}% | {h.get('pl_pct', 0):+.1f}% "
-                         f"| {targets.get(sym, 0):.1f}% | {reasons.get(sym, '').replace('|', '/')} |")
+                         f"| {targets.get(sym, 0):.1f}% | {kt} | {reasons.get(sym, '').replace('|', '/')} |")
     else:
         lines.append("Geen posities (alles in cash).")
     new_targets = {s: p for s, p in targets.items() if s not in holdings and p >= 0.05}
@@ -645,6 +673,35 @@ def breadth(feats):
             f"median 7d change {median([f['ch_7d'] for f in feats.values()]):+.2f}%") if ch24 else "na"
 
 
+def run_kronos(state, hourly, now, feats, holdings):
+    """Kronos-voorspelling per munt + trefzekerheid. Gaat er iets mis, dan gaat de bot gewoon door zonder.
+    Geeft (voorspellingen of None, trefzekerheid (goed, totaal), statustekst voor de statuspagina)."""
+    import kronos_signal as ks
+    record = ks.track_record(state, hourly, now)
+    order = sorted(feats, key=lambda s: (s not in holdings, -feats[s]["usd_vol_24h"]))
+    try:
+        fc, info = ks.forecast(hourly, now, order, KRONOS_DIR, KRONOS_MODEL, KRONOS_TOKENIZER,
+                               KRONOS_LOOKBACK, KRONOS_SAMPLES, KRONOS_BUDGET_S)
+    except Exception as e:
+        return None, record, f"niet beschikbaar: {type(e).__name__}: {str(e)[:150]}"
+    if not fc:
+        return None, record, "geen munten met genoeg koersdata"
+    ks.log_forecast(state, info["bar_t"], fc)
+    status = f"{len(fc)} munten in {info['secs']:.0f}s"
+    if info["skipped"]:
+        status += f" ({len(info['skipped'])} overgeslagen: te weinig handel of tijdslimiet)"
+    return fc, record, status
+
+
+def kronos_record_line(record):
+    import kronos_signal as ks
+    hits, total = record
+    if not total:
+        return f"Kronos track record: not measured yet (first result about {ks.EVAL_HORIZON + 1}h after enabling)."
+    return (f"Kronos track record: over the last {ks.EVAL_WINDOW_H}h its {ks.EVAL_HORIZON}h direction was right in "
+            f"{hits / total * 100:.1f}% of {total} coin forecasts (50% = coin flip).")
+
+
 def new_period(n, now, equity, btc):
     return {"period": n, "period_start": now.isoformat(), "start_equity": equity, "btc_start": btc,
             "target_pct": GOAL_PCT, "milestones": []}
@@ -689,7 +746,7 @@ def feedback_lines(history, equity, prices):
     return lines
 
 
-def maybe_review(state, now, nv_key, equity, prices, goal_line):
+def maybe_review(state, now, nv_key, equity, prices, goal_line, extra=""):
     """Eens per REVIEW_EVERY_HOURS: de AI evalueert zichzelf en werkt zijn lessen bij."""
     last = state.get("last_review")
     if not last:
@@ -708,6 +765,7 @@ def maybe_review(state, now, nv_key, equity, prices, goal_line):
         goal_line,
         f"Portfolio over this review window: {pct(equity, first.get('equity')):+.2f}% | "
         f"BTC buy-and-hold same window: {pct(prices.get('BTC/USD'), first.get('prices', {}).get('BTC/USD')):+.2f}%",
+        *([extra] if extra else []),
         "",
         "YOUR DECISIONS IN THIS WINDOW AND WHAT THEY PRODUCED (oldest first):",
         *feedback_lines(hist, equity, prices),
@@ -778,11 +836,14 @@ def main():
 
     # 3. Marktdata
     symbols = sorted(set(assets) | {s for s in holdings if s in assets})
-    hourly = alpaca.bars(symbols, "1Hour", (now - timedelta(days=7, hours=1)).strftime("%Y-%m-%dT%H:%M:%SZ"))
+    week_ago = now - timedelta(days=7, hours=1)
+    hours = max(7 * 24 + 1, KRONOS_LOOKBACK + 2) if KRONOS else 7 * 24 + 1   # Kronos wil een langere geschiedenis
+    hourly = alpaca.bars(symbols, "1Hour", (now - timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%SZ"))
     daily = alpaca.bars(symbols, "1Day", (now - timedelta(days=61)).strftime("%Y-%m-%d"))
     feats = {}
     for s in symbols:
-        f = features(hourly.get(s, []), daily.get(s, []))
+        last_week = [b for b in hourly.get(s, []) if datetime.fromisoformat(b["t"].replace("Z", "+00:00")) >= week_ago]
+        f = features(last_week, daily.get(s, []))
         if f:
             feats[s] = f
     prices = {s: f["price"] for s, f in feats.items()}
@@ -811,9 +872,17 @@ def main():
         goal_line += (f" Milestones already reached this period: {', '.join(f'+{m:.0f}%' for m in reached)}. "
                       f"The bar has been raised to +{goal['target_pct']:.0f}%. Stay sharp; do not coast.")
 
+    # Kronos-voorspelling (extra informatiebron voor de AI, geen beslisser)
+    kronos, kronos_rec, kronos_status = None, (0, 0), ""
+    if KRONOS:
+        kronos, kronos_rec, kronos_status = run_kronos(state, hourly, now, feats, holdings)
+        if kronos is None:
+            notes.append(f"Kronos {kronos_status}")
+
     # Dagelijkse zelfevaluatie (bijwerken van lessen)
     if not DRY_RUN:
-        msg = maybe_review(state, now, nv_key, equity, prices, goal_line)
+        msg = maybe_review(state, now, nv_key, equity, prices, goal_line,
+                           kronos_record_line(kronos_rec) if KRONOS else "")
         if msg:
             notes.append(msg)
 
@@ -827,6 +896,20 @@ def main():
     fng = fear_greed()
     fng_line = (f"Crypto Fear & Greed Index (0 = extreme fear, 100 = extreme greed): {fng['value']} ({fng['label']}), "
                 f"yesterday {fng['prev']}, 7 days ago {fng['week']}") if fng else "Crypto Fear & Greed Index: unavailable"
+    kronos_lines = []
+    if KRONOS:
+        kronos_lines = ["", "KRONOS FORECAST (hint, not truth)", kronos_record_line(kronos_rec)]
+        if kronos:
+            kronos_lines += [
+                f"Kronos only sees each coin's own last {KRONOS_LOOKBACK} hourly candles: no news, no other coins.",
+                f"k4h/k12h = mean forecast % change vs the last closed hourly candle; up4h/up12h = % of "
+                f"{KRONOS_SAMPLES} sampled forecast paths that end higher.",
+                "symbol,k4h,k12h,up4h,up12h",
+                *[f"{s},{v['k4h']:+.2f},{v['k12h']:+.2f},{v['up4h']:.0f},{v['up12h']:.0f}"
+                  for s, v in sorted(kronos.items(), key=lambda x: -feats[x[0]]["usd_vol_24h"])],
+            ]
+        else:
+            kronos_lines.append("No forecast available this run.")
     plan = state.get("plan")
     user_prompt = "\n".join([
         f"Time (UTC): {now.strftime('%Y-%m-%d %H:%M')}",
@@ -855,9 +938,11 @@ def main():
         "MARKET DATA (ch_ = % change, rsi = RSI14, vs_sma = % above/below moving average, "
         "range7d_pos = 0 at 7d low / 100 at 7d high, vol_1h = stdev of hourly returns %, usd_vol_24h = 24h volume in USD):",
         *table,
+        *kronos_lines,
     ])
     system_prompt = SYSTEM_PROMPT.format(max_coin=MAX_PER_COIN_PCT, min_cash=MIN_CASH_PCT, fee=FEE_PCT,
-                                         band=REBALANCE_BAND_PCT, risk=RISK_TOLERANCE_PCT)
+                                         band=REBALANCE_BAND_PCT, risk=RISK_TOLERANCE_PCT,
+                                         kronos=KRONOS_RULES if KRONOS else "")
     model, parsed, ai_errors = ask_ai(nv_key, system_prompt, user_prompt)
     errors += [f"AI-fout: {e}" for e in ai_errors]
 
@@ -932,7 +1017,8 @@ def main():
     if new_plan:
         shown_state["plan"] = {"time_local": local(now), "text": new_plan}
     write_status(render_status(now, equity, cash, start, ret, hold_ret, holdings, targets, reasons, summary,
-                               model, results, notes, errors, shown_state, period_end, fng))
+                               model, results, notes, errors, shown_state, period_end, fng,
+                               kronos, kronos_rec, kronos_status))
     notify(equity, ret, hold_ret, goal, pct(equity, goal["start_equity"]), results, notes, errors, summary, model)
     print(f"Klaar. Model: {model}. Waarde ${equity:,.2f} ({ret:+.2f}%), BTC vasthouden {hold_ret:+.2f}%. "
           f"Orders: {len(results)}. Meldingen: {notes + errors}")

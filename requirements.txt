@@ -1,0 +1,10 @@
+# Alleen nodig voor de Kronos-voorspelling. bot.py zelf gebruikt alleen standaard Python.
+# PyTorch zonder GPU-onderdelen: veel kleiner en sneller te installeren.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.8.0+cpu
+numpy==2.2.6
+pandas==2.2.3
+einops==0.8.1
+huggingface_hub==0.33.1
+safetensors==0.6.2
+tqdm==4.67.1
