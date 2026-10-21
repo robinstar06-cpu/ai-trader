@@ -1,18 +1,18 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 21-10-2026 03:00_
+_Laatst bijgewerkt: 21-10-2026 03:30_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,532.77** |
+| Waarde portefeuille | **$9,534.72** |
 | Cash | $1,476.24 (15%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.67%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.45% |
-| Verschil | -4.22% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.65%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.54% |
+| Verschil | -4.11% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.67%** |
+| Rendement deze periode | **-4.65%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.67% |
+| Daling vanaf de top ($10,000) | -4.65% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
 
@@ -37,9 +37,9 @@ _De ladder-discipline werkte dit venster: BTC 40% naar 55% op de capitulatie-oms
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,711.65 | 59.9% | +0.9% | 59.9% |  |
-| SOL/USD | $1,411.42 | 14.8% | +1.5% | 14.8% |  |
-| BCH/USD | $933.47 | 9.8% | +0.4% | 9.8% |  |
+| BTC/USD | $5,709.13 | 59.9% | +0.8% | 59.9% |  |
+| SOL/USD | $1,408.77 | 14.8% | +1.3% | 14.8% |  |
+| BCH/USD | $940.58 | 9.9% | +1.1% | 9.9% |  |
 
 ## Orders deze run
 
@@ -57,6 +57,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 21-10-2026 03:30 | $9,535 | -4.65% | -0.54% | 0 |
 | 21-10-2026 03:00 | $9,533 | -4.67% | -0.45% | 0 |
 | 21-10-2026 02:30 | $9,543 | -4.57% | -0.27% | 0 |
 | 21-10-2026 02:00 | $9,528 | -4.72% | -0.45% | 0 |
@@ -68,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 20-10-2026 23:00 | $9,509 | -4.91% | -0.68% | 0 |
 | 20-10-2026 22:30 | $9,497 | -5.03% | -0.91% | 0 |
 | 20-10-2026 22:00 | $9,483 | -5.17% | -0.98% | 0 |
-| 20-10-2026 21:30 | $9,468 | -5.32% | -1.18% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
