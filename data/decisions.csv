@@ -806,3 +806,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T07:30:40.200459+00:00,21-10-2026 09:30,z-ai/glm-5.3,BCH/USD,9.9,10.0,houden,,,"Sterkste positie (7d-hoog, +4,9% 24u); laten lopen op 10%."
 2026-10-21T07:30:40.200459+00:00,21-10-2026 09:30,z-ai/glm-5.3,BTC/USD,59.9,60.0,houden,,,"Anker boven $80k intact; kernpositie in het brede herstel, max 60%."
 2026-10-21T07:30:40.200459+00:00,21-10-2026 09:30,z-ai/glm-5.3,SOL/USD,10.0,10.0,houden,,,"Mee in herstel (+2,3% 24u); 10% meeloper, risico via $80k-ladder."
+2026-10-21T08:00:46.868666+00:00,21-10-2026 10:00,z-ai/glm-5.3,BCH/USD,9.9,10.0,houden,,,"Sterkste momentum (100% 7d-range-pos, +4,8% 24u); houd 10% aan"
+2026-10-21T08:00:46.868666+00:00,21-10-2026 10:00,z-ai/glm-5.3,BTC/USD,59.9,60.0,houden,,,"Ankerpositie; $80k houdt stand, wacht op $84k-slot voor inzet van de cash"
+2026-10-21T08:00:46.868666+00:00,21-10-2026 10:00,z-ai/glm-5.3,SOL/USD,10.0,10.0,houden,,,"Meeloper in breed herstel, 86% van 7d-range; kleine positie met stop"
