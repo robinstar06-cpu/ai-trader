@@ -776,3 +776,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T02:30:41.458643+00:00,21-10-2026 04:30,deepseek-ai/deepseek-v4.1-flash,BCH/USD,9.9,10.0,houden,,,"Sterkste alt (+2,45% 7d) maar extended (range7d_pos 94); aanhouden"
 2026-10-21T02:30:41.458643+00:00,21-10-2026 04:30,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.8,60.0,houden,,,Kernpositie; houdt $80k-anker en is relatief sterkste grote munt
 2026-10-21T02:30:41.458643+00:00,21-10-2026 04:30,deepseek-ai/deepseek-v4.1-flash,SOL/USD,14.7,10.0,sell,451.67,verkocht 4.253459393,"Zwakste alt (rsi_1d 43,8, -10,8% 30d); trim voor droog kruit"
+2026-10-21T03:00:51.067447+00:00,21-10-2026 05:00,z-ai/glm-5.3,BCH/USD,10.0,10.0,houden,,,Sterkste alt maar extended op 7d-hoog; geen add hier
+2026-10-21T03:00:51.067447+00:00,21-10-2026 05:00,z-ai/glm-5.3,BTC/USD,59.8,60.0,houden,,,"Anker $80k houdt stand; sterkste grote munt, kernpositie"
+2026-10-21T03:00:51.067447+00:00,21-10-2026 05:00,z-ai/glm-5.3,SOL/USD,10.0,10.0,houden,,,"Zwakste alt, al teruggeschaald; meelopen met strakke stop"

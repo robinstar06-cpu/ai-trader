@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 21-10-2026 04:30_
+_Laatst bijgewerkt: 21-10-2026 05:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,518.15** |
+| Waarde portefeuille | **$9,528.60** |
 | Cash | $1,926.40 (20%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.82%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.78% |
-| Verschil | -4.04% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.71%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.73% |
+| Verschil | -3.99% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.82%** |
+| Rendement deze periode | **-4.71%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.82% |
-| Model | deepseek-ai/deepseek-v4.1-flash |
+| Daling vanaf de top ($10,000) | -4.71% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt herstelt breed (30/33 munten groen, 24u-mediaan +2,6%) maar de bounce is rijp: Fear & Greed op 63 (Greed) en BTC stokt rond $82,7k terwijl de 7d-mediaan licht terugzakt naar -2,66%. Ik houd de BTC-kern vast, maar trim de zwakste alt (SOL) voor droog kruit en laat het $80k-anker de risicogrens bepalen.
+Het herstel blijft breed (30/33 munten groen, 24u-mediaan +2,76%), maar de bounce is rijp: Fear & Greed sprong naar 63 (Greed) en BTC stokt rond $82,7k terwijl de 7d-mediaan nog rood is (-2,58%). Geen nieuwe adds op deze top; ik houd de huidige stance aan met 20% cash als droog kruit.
 
-## Strategie van de AI (sinds 21-10-2026 04:30)
+## Strategie van de AI (sinds 21-10-2026 05:00)
 
-Kern blijft BTC 60% — het anker ($80k) houdt stand en BTC is de sterkste grote munt (vs_sma50d +1,2%). SOL terug naar 10% (zwakste alt: rsi_1d 43,8, -10,8% 30d) en BCH op 10% (sterkste, maar range7d_pos 94 = extended). Cash naar ~20% als droog kruit. Geen nieuwe adds achter deze rijpe bounce met F&G 63. Adds pas bij: 7d-mediaan positief of BTC >$84k. De-risico: uurslot BTC <$80k of F&G >60 mét rode uren → alts eerst naar cash. Verliezers niet aanvullen; elke alt kappen op -10/15%.
+Anker houdt stand: BTC 60% zolang $80k niet breekt. SOL 10% (zwakste alt, rsi_1d 44) en BCH 10% (sterkste, maar range7d_pos 100 = extended) blijven meelopen; 20% cash als droog kruit. Geen adds op deze rijpe bounce met F&G 63. Adds pas bij 7d-mediaan positief of BTC >$84k; pullback-adds onder $82k met de cashbuffer. De-risico bij uurslot BTC <$80k of F&G >60 mét aanhoudend rode uren: alts eerst naar cash. Elke alt kappen op -10/15%; verliezers nooit aanvullen.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,26 +41,23 @@ _De discipline werkte dit venster: 55% vasthouden door de zwakke breedte-uren en
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,696.42 | 59.8% | +0.6% | 60.0% | Kernpositie; houdt $80k-anker en is relatief sterkste grote munt |
-| SOL/USD | $951.25 | 10.0% | +0.8% | 10.0% | Zwakste alt (rsi_1d 43,8, -10,8% 30d); trim voor droog kruit |
-| BCH/USD | $944.08 | 9.9% | +1.5% | 10.0% | Sterkste alt (+2,45% 7d) maar extended (range7d_pos 94); aanhouden |
+| BTC/USD | $5,697.66 | 59.8% | +0.6% | 60.0% | Anker $80k houdt stand; sterkste grote munt, kernpositie |
+| BCH/USD | $953.31 | 10.0% | +2.5% | 10.0% | Sterkste alt maar extended op 7d-hoog; geen add hier |
+| SOL/USD | $951.23 | 10.0% | +0.8% | 10.0% | Zwakste alt, al teruggeschaald; meelopen met strakke stop |
 
 ## Orders deze run
 
-| Munt | Actie | Bedrag | Resultaat |
-|---|---|---|---|
-| SOL/USD | sell | $451.67 | verkocht 4.253459393 |
+Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Dagelijkse evaluatie gedaan door z-ai/glm-5.3.
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 21-10-2026 05:00 | $9,529 | -4.71% | -0.73% | 0 |
 | 21-10-2026 04:30 | $9,518 | -4.82% | -0.78% | 1 |
 | 21-10-2026 04:00 | $9,544 | -4.56% | -0.48% | 0 |
 | 21-10-2026 03:30 | $9,535 | -4.65% | -0.54% | 0 |
@@ -72,7 +69,6 @@ _De discipline werkte dit venster: 55% vasthouden door de zwakke breedte-uren en
 | 21-10-2026 00:30 | $9,530 | -4.70% | -0.43% | 0 |
 | 21-10-2026 00:00 | $9,523 | -4.77% | -0.52% | 0 |
 | 20-10-2026 23:30 | $9,515 | -4.85% | -0.58% | 1 |
-| 20-10-2026 23:00 | $9,509 | -4.91% | -0.68% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
