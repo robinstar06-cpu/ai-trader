@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-18T11:00:46.914240+00:00",
-      "time_local": "18-10-2026 13:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0
-      },
-      "summary": "De markt bloedt onverminderd door: slechts 1 van 33 munten groen op 24u (mediaan -1,97%) en de 7d-mediaan staat diep rood (-7,00%). BTC houdt zich opmerkelijk staand rond $82,0k (+0,56% op 24u) en loopt ver vooruit op de rest van het veld. Een bevestigde omslag ontbreekt nog volledig, dus schadebepe",
-      "equity": 9455.0,
-      "prices": {
-        "BTC/USD": 81986.9
-      }
-    },
-    {
       "time": "2026-10-18T11:30:38.323746+00:00",
       "time_local": "18-10-2026 13:30",
       "model": "z-ai/glm-5.3",
@@ -1364,12 +1351,29 @@
         "BCH/USD": 283.9735,
         "SOL/USD": 105.76
       }
+    },
+    {
+      "time": "2026-10-21T05:00:49.456341+00:00",
+      "time_local": "21-10-2026 07:00",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 10.0,
+        "BCH/USD": 10.0
+      },
+      "summary": "Het herstel blijft breed (30/33 munten groen, 24u-mediaan +2,39%) maar de bounce is rijp: BTC stokt al uren rond $82,7k en Fear & Greed op 63 (Greed) is een contra-waarschuwing. De 7d-mediaan staat nog rood (-2,35%), dus volledige risk-on is niet aan de orde. Het $80k-anker houdt stand; consolidatie",
+      "equity": 9510.45,
+      "prices": {
+        "BTC/USD": 82711.119,
+        "SOL/USD": 105.75,
+        "BCH/USD": 284.544
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-21T04:30:41.354017+00:00",
-    "time_local": "21-10-2026 06:30",
-    "text": "Anker houdt stand: BTC 60% zolang het uurslot boven $80k blijft; SOL 10% en BCH 10% lopen mee in het brede herstel. Geen adds bij F&G 63 op deze rijpe bounce — kruit pas inzetten bij BTC >$84k, een positieve 7d-mediaan, of een pullback onder $82k. De-risico bij uurslot <$80k: eerst alts naar cash. Elke alt kappen op -10/15%, verliezers nooit aanvullen. Verwacht consolidatie rond $82-83k; geduld boven actie, de cash drag is acceptabel zolang de 7d-mediaan rood staat."
+    "time": "2026-10-21T05:00:49.456341+00:00",
+    "time_local": "21-10-2026 07:00",
+    "text": "Anker houdt stand: BTC 60% zolang het uurslot boven $80k blijft; SOL 10% en BCH 10% lopen mee in het brede herstel. Geen nieuwe adds bij F&G 63 op deze rijpe bounce — de 20% cash is droog kruit dat pas inzet bij BTC >$84k, een positieve 7d-mediaan, of een pullback onder $82k. De-risico bij uurslot <$80k: eerst alts naar cash. Verwacht consolidatie rond $82-83k; geduld boven actie, geen churn."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: stap 1 (BTC 55% bij breadth >30% groen én $80k 12u+ vasthouden) ving de bounce; stap 2 vuurde correct op 17:30 bij 7d-mediaan > -5% én 24u-breedte 28/33 groen → BTC 60% + SOL 15% + BCH 10% (85% inzet). Stap 3 (volledi",
