@@ -797,3 +797,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T06:00:50.708520+00:00,21-10-2026 08:00,z-ai/glm-5.3,BCH/USD,9.9,10.0,houden,,,"Sterkste momentum (7d +2,4%, 30d +6,6%) maar bij 7d-high: vasthouden, niet verhogen."
 2026-10-21T06:00:50.708520+00:00,21-10-2026 08:00,z-ai/glm-5.3,BTC/USD,59.8,60.0,houden,,,"Anker >$80k houdt stand; kernpositie in brede herstelfase, geen reden te churnen."
 2026-10-21T06:00:50.708520+00:00,21-10-2026 08:00,z-ai/glm-5.3,SOL/USD,10.0,10.0,houden,,,"Loopt mee in het herstel; 10% met stop-discipline, geen add bij rijpe bounce en Greed 63."
+2026-10-21T06:30:41.532209+00:00,21-10-2026 08:30,z-ai/glm-5.3,BCH/USD,9.9,10.0,houden,,,"Sterkste munt (7d +2,4%) maar op zijn 7d-high: vasthouden, niet verhogen"
+2026-10-21T06:30:41.532209+00:00,21-10-2026 08:30,z-ai/glm-5.3,BTC/USD,59.9,60.0,houden,,,"Anker boven $80k intact; kernpositie in breed herstel, de-risico pas bij uurslot <$80k"
+2026-10-21T06:30:41.532209+00:00,21-10-2026 08:30,z-ai/glm-5.3,SOL/USD,9.9,10.0,houden,,,Loopt mee in het brede herstel; klein gehouden met harde stop bij ankerbreuk
