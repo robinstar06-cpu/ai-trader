@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-18T19:30:37.151992+00:00",
-      "time_local": "18-10-2026 21:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 40.0
-      },
-      "summary": "De breedte zit op een dieptepunt: 0 van 33 munten groen op 24u (mediaan -3,67%) en de 7d-mediaan zakt naar -11,87%. BTC toont opvallende relatieve kracht rond $81,0k (-0,65% op 24u tegen -3,67% mediaan) en blijft ruim boven de $80k-lijn. Geen enkel ladder-signaal heeft gevuurd.",
-      "equity": 9410.21,
-      "prices": {
-        "BTC/USD": 80963.798
-      }
-    },
-    {
       "time": "2026-10-18T20:00:47.290155+00:00",
       "time_local": "18-10-2026 22:00",
       "model": "z-ai/glm-5.3",
@@ -1420,12 +1407,29 @@
         "BTC/USD": 83364.593,
         "BCH/USD": 286.208
       }
+    },
+    {
+      "time": "2026-10-21T12:31:17.052321+00:00",
+      "time_local": "21-10-2026 14:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 10.0,
+        "BCH/USD": 10.0
+      },
+      "summary": "BTC stagneert op het 7d-hoogtepunt ($83,4k) net onder de $84k-trigger, terwijl het herstel breed blijft (32/33 groen, mediaan 24u +3,8%) en de 7d-mediaan net positief is (+0,63%). Greed 63 op een bouncetop is een contra-signaal: geen nieuwe adds. Kronos hint licht neerwaarts op de korte termijn (BTC",
+      "equity": 9582.23,
+      "prices": {
+        "BTC/USD": 83403.78,
+        "BCH/USD": 284.785,
+        "SOL/USD": 106.785
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-21T12:01:29.295758+00:00",
-    "time_local": "21-10-2026 14:01",
-    "text": "Kern ongewijzigd: 60% BTC / 10% SOL / 10% BCH met 20% cash. De 7d-mediaan flip (+0,74%) is nog maar één meting — nog niet 'duurzaam' — en Greed 63 op een 7d-top betekent geen adds. Cash gaat in bij: uurslot BTC >$84k, een bevestigd positieve 7d-mediaan, of een pullback <$82k (halve inzet op breakout-niveau). De-risico bij uurslot <$80k: eerst alts, dan BTC. Alt-stops op 10-15% verlies blijven staan; geen churn zolang het anker houdt."
+    "time": "2026-10-21T12:31:17.052321+00:00",
+    "time_local": "21-10-2026 14:31",
+    "text": "Kern blijft 60% BTC / 10% SOL / 10% BCH met 20% cash. Geen adds nu: Greed 63 op een 7d-top is een contra-signaal en BTC stagneert urenlang onder de $84k-trigger; de 7d-mediaan (+0,63%) is positief maar nog niet duurzaam bevestigd. Cash (droog kruit) gaat in bij uurslot BTC >$84k, een bevestigd positieve 7d-mediaan, of een pullback <$82k (halve inzet op breakout-niveau). De-risico bij uurslot <$80k: eerst alts, dan BTC. Alt-stops op 10-15% verlies blijven staan; geen churn zolang het anker houdt."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: stap 1 (BTC 55% bij breadth >30% groen én $80k 12u+ vasthouden) ving de bounce; stap 2 vuurde correct op 17:30 bij 7d-mediaan > -5% én 24u-breedte 28/33 groen → BTC 60% + SOL 15% + BCH 10% (85% inzet). Stap 3 (volledi",
