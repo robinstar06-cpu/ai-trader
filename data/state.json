@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-19T04:00:47.275197+00:00",
-      "time_local": "19-10-2026 06:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 55.0
-      },
-      "summary": "De bounce verliest momentum: 17/33 munten groen op 24u (mediaan +0,01%) en de 7d-mediaan verslechtert verder naar -9,58%. BTC houdt echter stevig stand rond $82,4k (+0,70% op 24u) met forse relatieve kracht (7d -1,9% tegen -9,6% mediaan), ruim boven de $80k-stop. F&G kruipt met 59 richting mijn redu",
-      "equity": 9483.74,
-      "prices": {
-        "BTC/USD": 82421.31
-      }
-    },
-    {
       "time": "2026-10-19T04:30:38.136572+00:00",
       "time_local": "19-10-2026 06:30",
       "model": "z-ai/glm-5.3",
@@ -1488,12 +1475,29 @@
         "BTC/USD": 84681.833,
         "SOL/USD": 107.95
       }
+    },
+    {
+      "time": "2026-10-21T22:31:06.524733+00:00",
+      "time_local": "22-10-2026 00:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 12.0,
+        "BCH/USD": 12.0
+      },
+      "summary": "BTC verdedigt de $84k-breakout op het 7d-hoog ($84,6k) met brede kracht (29/33 groen, 7d-mediaan +2,0%), maar RSI-1u 70 en Greed 63 blijven contra-signalen tegen bijkopen op de top. Kronos wijst neer (0% up-paden op BTC 4u/12u), maar met een trackrecord van 43% weegt dat nauwelijks. Ik houd de kern ",
+      "equity": 9653.53,
+      "prices": {
+        "BCH/USD": 288.445,
+        "SOL/USD": 107.65,
+        "BTC/USD": 84591.885
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-21T22:01:23.254228+00:00",
-    "time_local": "22-10-2026 00:01",
-    "text": "Kern ongewijzigd: BTC 60%, SOL/BCH elk 12%, ~16% cash als droog kruit. Geen adds op de top (RSI-1u 73, Greed 63, vrijwel alles op 7d-hoog); zet de cash in twee tranches in bij een gezonde terugtest richting $82-84k, bij voorkeur ETH of XRP. De-risico pas bij uurslot <$80k: eerst alts, dan BTC; alt-stops op 10-15% verlies blijven staan. Kronos neer, maar prijsactie, 7d-breedte en het $80k-anker prevaleren boven het model."
+    "time": "2026-10-21T22:31:06.524733+00:00",
+    "time_local": "22-10-2026 00:31",
+    "text": "Kern ongewijzigd: BTC 60%, SOL/BCH elk 12%, ~16% cash als droog kruit. Geen adds op de top (RSI-1u 70, Greed 63, vrijwel alles op 7d-hoog); zet de cash in twee tranches in bij een gezonde terugtest richting $82-84k, bij voorkeur ETH of XRP. De-risico pas bij uurslot <$80k: eerst alts, dan BTC; alt-stops op 10-15% verlies blijven staan. Kronos neer, maar prijsactie, 7d-breedte en het $80k-anker prevaleren boven het model."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: stap 1 (BTC 55% bij breadth >30% groen én $80k 12u+ vasthouden) ving de bounce; stap 2 vuurde correct op 17:30 bij 7d-mediaan > -5% én 24u-breedte 28/33 groen → BTC 60% + SOL 15% + BCH 10% (85% inzet). Stap 3 (volledi",

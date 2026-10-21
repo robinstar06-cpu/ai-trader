@@ -890,3 +890,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T22:01:23.254228+00:00,22-10-2026 00:01,z-ai/glm-5.3,BCH/USD,11.8,12.0,houden,,,"Sterkste 7d (+7,7%) maar op 7d-hoog; behouden, stop blijft staan"
 2026-10-21T22:01:23.254228+00:00,22-10-2026 00:01,z-ai/glm-5.3,BTC/USD,60.4,60.0,houden,,,Houdt $84k-breakout vast met brede kracht; kernpositie zolang het $80k-anker standhoudt
 2026-10-21T22:01:23.254228+00:00,22-10-2026 00:01,z-ai/glm-5.3,SOL/USD,11.9,12.0,houden,,,"Alt-momentum bevestigd (7d +3,3%), stop blijft staan; geen add op 7d-hoog"
+2026-10-21T22:31:06.524733+00:00,22-10-2026 00:31,z-ai/glm-5.3,BCH/USD,11.8,12.0,houden,,,"Sterkste 7d-momentum van het boek (+7,7%) maar op 7d-hoog (range 96); behoud, stop blijft staan."
+2026-10-21T22:31:06.524733+00:00,22-10-2026 00:31,z-ai/glm-5.3,BTC/USD,60.3,60.0,houden,,,"Houdt $84k-breakout vast met brede kracht (29/33 groen, 7d-mediaan +2,0%); kernpositie zolang uurslot >$80k."
+2026-10-21T22:31:06.524733+00:00,22-10-2026 00:31,z-ai/glm-5.3,SOL/USD,11.9,12.0,houden,,,"Solide 7d (+3,1%) en boven SMA24; behoud met stop op -10/15%, geen add op 7d-hoog."
