@@ -7,6 +7,8 @@ on:
         description: "Proefrun (geen orders plaatsen)"
         type: boolean
         default: false
+  push:
+    branches: [kronos]   # TIJDELIJK: proefrun van de Kronos-branch
 
 permissions:
   contents: write
@@ -56,7 +58,7 @@ jobs:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
-          DRY_RUN: ${{ inputs.dry_run && 'true' || 'false' }}
+          DRY_RUN: ${{ (inputs.dry_run || github.event_name == 'push') && 'true' || 'false' }}
           MODELS: ${{ vars.MODELS }}
           SYMBOLS: ${{ vars.SYMBOLS }}
           MAX_PER_COIN_PCT: ${{ vars.MAX_PER_COIN_PCT }}
