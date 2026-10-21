@@ -860,3 +860,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T17:01:26.703975+00:00,21-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,11.9,12.0,houden,,,"Beste 7d/30d momentum (+7%), positie licht groen; aanhouden."
 2026-10-21T17:01:26.703975+00:00,21-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.2,60.0,houden,,,"Op plafond, trend en breedte sterk; aanhouden, niet bijkopen op 7d-hoog."
 2026-10-21T17:01:26.703975+00:00,21-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,11.9,12.0,houden,,,"Sterk herstel, binnen 10-15% alt-limiet; aanhouden met harde stop."
+2026-10-21T17:31:13.239200+00:00,21-10-2026 19:31,,BCH/USD,11.9,11.9,houden,,,
+2026-10-21T17:31:13.239200+00:00,21-10-2026 19:31,,BTC/USD,60.3,60.3,houden,,,
+2026-10-21T17:31:13.239200+00:00,21-10-2026 19:31,,SOL/USD,11.9,11.9,houden,,,
