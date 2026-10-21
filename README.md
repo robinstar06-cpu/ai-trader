@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 21-10-2026 12:31_
+_Laatst bijgewerkt: 21-10-2026 13:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,554.55** |
+| Waarde portefeuille | **$9,562.43** |
 | Cash | $1,926.40 (20%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.45%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.16% |
-| Verschil | -4.30% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.38%** |
+| Ter vergelijking: gewoon BTC vasthouden | +0.01% |
+| Verschil | -4.39% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.45%** |
+| Rendement deze periode | **-4.38%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.45% |
-| Model | z-ai/glm-5.3 |
+| Daling vanaf de top ($10,000) | -4.38% |
+| Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
-| Kronos-voorspelling | 33 munten (berekend om 12:01); trefzekerheid nog niet gemeten |
+| Kronos-voorspelling | 33 munten in 254s; trefzekerheid nog niet gemeten |
 
 ## Marktvisie van de AI
 
-BTC stagneert rond $83,2k op het 7d-hoogtepunt, net onder de $84k-trigger, terwijl het herstel breed blijft (31/33 groen, 24u-mediaan +3,7%). De 7d-mediaan staat nog negatief (-1,8%) en Greed 63 werkt als contra-signaal: geen adds op een top. Kronos 12h licht negatief past bij korte consolidatie; geen enkele inzet-trigger is gevonden dus ik houd de huidige stance aan.
+BTC stagneert op het 7d-hoogtepunt net onder $84k terwijl het herstel breed blijft (32/33 munten groen, 24u-mediaan +4,3%), maar de 7d-mediaan is nog steeds negatief (-1,55%) en Fear & Greed op 63 (Greed) werkt als contra-signaal. Kronos is overwegend neutraal tot licht negatief, dus geen reden om nu extra risico te nemen.
 
-## Strategie van de AI (sinds 21-10-2026 12:31)
+## Strategie van de AI (sinds 21-10-2026 13:01)
 
-Discipline boven haast: houd 60% BTC / 10% SOL / 10% BCH met 20% cash als droog kruit. Geen adds op een 7d-top met Greed 63; cash pas inzetten bij uurslot BTC >$84k, positieve 7d-mediaan of pullback <$82k (dan halve inzet op het breakout-niveau). De-risico bij uurslot <$80k: eerst alts, dan BTC. Alt-stops op 10-15% verlies blijven staan; geen churn zolang het $80k-anker houdt.
+Handhaaf de kern: 60% BTC / 10% SOL / 10% BCH met 20% cash als droog kruit. Geen adds op een 7d-top met Greed 63; de $84k-trigger is nog niet gevuurd (BTC $83,3k) en de 7d-mediaan is nog rood. Cash pas inzetten bij een uurslot BTC >$84k, een duurzaam positieve 7d-mediaan, of een pullback <$82k (dan halve inzet op het breakout-niveau). De-risico bij uurslot <$80k: eerst alts, dan BTC. Alt-stops op 10-15% verlies blijven staan; geen churn zolang het $80k-anker houdt. Met -4,4% op dag 7 vraagt +20% nog ~+26%, dus zodra het herstel bevestigt schakel ik op naar volledige participatie.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,9 +42,9 @@ _De discipline werkte dit venster: 55% vasthouden door de zwakke breedte-uren en
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,731.52 | 60.0% | +1.2% | 60.0% | -0.5% (17% omhoog) | Kernpositie; $80k-anker houdt stand, maar geen add onder de $84k-trigger met Greed 63 op een 7d-top. |
-| SOL/USD | $949.98 | 9.9% | +0.7% | 10.0% | -0.8% (17% omhoog) | Alt-diversificatie binnen de 10-15% limiet; positie licht groen, stop blijft staan. |
-| BCH/USD | $946.65 | 9.9% | +1.8% | 10.0% | -1.6% (0% omhoog) | Sterkste alt (7d +2,7%) binnen limiet; positie groen, stop blijft staan. |
+| BTC/USD | $5,739.40 | 60.0% | +1.4% | 60.0% | -0.1% (17% omhoog) | Kernpositie; herstel breed maar BTC stagneert net onder $84k-trigger, dus vasthouden zonder bij te kopen. |
+| SOL/USD | $949.98 | 9.9% | +0.7% | 10.0% | +0.4% (67% omhoog) | Alt met sterkste 7d-positie in range (83) en lichte Kronos-steun op 12u; kleine positie aanhouden. |
+| BCH/USD | $946.65 | 9.9% | +1.8% | 10.0% | -2.1% (0% omhoog) | Beste 7d-momentum (+3,4%) en op 7d-hoog; positie aanhouden, stop op 10-15% verlies. |
 
 ## Orders deze run
 
@@ -53,11 +53,13 @@ Geen orders (verdeling blijft gelijk).
 ## Meldingen
 
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
+- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 21-10-2026 13:01 | $9,562 | -4.38% | 0.01% | 0 |
 | 21-10-2026 12:31 | $9,555 | -4.45% | -0.16% | 0 |
 | 21-10-2026 12:01 | $9,569 | -4.31% | 0.05% | 0 |
 | 21-10-2026 11:31 | $9,579 | -4.21% | 0.21% | 0 |
@@ -69,7 +71,6 @@ Geen orders (verdeling blijft gelijk).
 | 21-10-2026 08:30 | $9,504 | -4.96% | -0.82% | 0 |
 | 21-10-2026 08:00 | $9,503 | -4.97% | -0.89% | 0 |
 | 21-10-2026 07:30 | $9,517 | -4.83% | -0.63% | 0 |
-| 21-10-2026 07:00 | $9,510 | -4.90% | -0.73% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).

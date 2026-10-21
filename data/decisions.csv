@@ -824,3 +824,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T10:31:24.988615+00:00,21-10-2026 12:31,z-ai/glm-5.3,BCH/USD,9.9,10.0,houden,,,"Sterkste alt (7d +2,7%) binnen limiet; positie groen, stop blijft staan."
 2026-10-21T10:31:24.988615+00:00,21-10-2026 12:31,z-ai/glm-5.3,BTC/USD,60.0,60.0,houden,,,"Kernpositie; $80k-anker houdt stand, maar geen add onder de $84k-trigger met Greed 63 op een 7d-top."
 2026-10-21T10:31:24.988615+00:00,21-10-2026 12:31,z-ai/glm-5.3,SOL/USD,9.9,10.0,houden,,,"Alt-diversificatie binnen de 10-15% limiet; positie licht groen, stop blijft staan."
+2026-10-21T11:01:27.279299+00:00,21-10-2026 13:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,9.9,10.0,houden,,,"Beste 7d-momentum (+3,4%) en op 7d-hoog; positie aanhouden, stop op 10-15% verlies."
+2026-10-21T11:01:27.279299+00:00,21-10-2026 13:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.0,60.0,houden,,,"Kernpositie; herstel breed maar BTC stagneert net onder $84k-trigger, dus vasthouden zonder bij te kopen."
+2026-10-21T11:01:27.279299+00:00,21-10-2026 13:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,9.9,10.0,houden,,,Alt met sterkste 7d-positie in range (83) en lichte Kronos-steun op 12u; kleine positie aanhouden.
