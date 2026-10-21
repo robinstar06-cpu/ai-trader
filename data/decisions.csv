@@ -896,3 +896,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T23:01:21.345528+00:00,22-10-2026 01:01,z-ai/glm-5.3,BCH/USD,12.0,12.0,houden,,,"Sterkste 7d-momentum (+7,2%) en in winst; stop blijft 10-15% onder entry."
 2026-10-21T23:01:21.345528+00:00,22-10-2026 01:01,z-ai/glm-5.3,BTC/USD,60.2,60.0,houden,,,Anker sterk: $84k-breakout verdedigd met brede kracht; kernpositie blijft zolang uurslot >$80k.
 2026-10-21T23:01:21.345528+00:00,22-10-2026 01:01,z-ai/glm-5.3,SOL/USD,11.8,12.0,houden,,,"In winst (+1,6%), binnen 10-15% limiet; houden zolang het $80k-anker standhoudt."
+2026-10-21T23:31:20.140732+00:00,22-10-2026 01:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,12.0,12.0,houden,,,"Sterkste alt op 7d (+6,8%) maar uitgeput op 7d-hoog; aanhouden met strakke stop."
+2026-10-21T23:31:20.140732+00:00,22-10-2026 01:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.2,60.0,houden,,,"Verdedigt $84k-breakout op 7d-hoog, breedte ok; max-positie aanhouden, geen adds op de top."
+2026-10-21T23:31:20.140732+00:00,22-10-2026 01:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,11.8,12.0,houden,,,Licht achterblijvend maar boven steun; kleine positie met harde stop op 10-15% verlies.
