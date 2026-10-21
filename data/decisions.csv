@@ -872,3 +872,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-21T19:01:18.388547+00:00,21-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,11.9,12.0,houden,,,"Sterkste 7d/30d van mijn alts (+6,3%/+7,1%); aanhouden binnen 10-15% regel."
 2026-10-21T19:01:18.388547+00:00,21-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.2,60.0,houden,,,"Houdt $84k-breakout vast op 7d-hoog; max positie, niet bijkopen op RSI 70/Greed 63."
 2026-10-21T19:01:18.388547+00:00,21-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,12.0,12.0,houden,,,"Licht achter, breedte sterk; aanhouden, geen add op de top."
+2026-10-21T19:31:20.991614+00:00,21-10-2026 21:31,z-ai/glm-5.3,BCH/USD,11.9,12.0,houden,,,"Solide meeloper (+6,6% 7d), licht groen; stop -10/15%"
+2026-10-21T19:31:20.991614+00:00,21-10-2026 21:31,z-ai/glm-5.3,BTC/USD,60.3,60.0,houden,,,"Anker houdt stand op 7d-hoog; max inzet, geen adds op de top"
+2026-10-21T19:31:20.991614+00:00,21-10-2026 21:31,z-ai/glm-5.3,SOL/USD,11.9,12.0,houden,,,"Sterkste alt (+3,8% 7d), positieve P/L; stop -10/15%"
