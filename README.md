@@ -1,28 +1,28 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 21-10-2026 05:30_
+_Laatst bijgewerkt: 21-10-2026 06:00_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,523.22** |
+| Waarde portefeuille | **$9,505.25** |
 | Cash | $1,926.40 (20%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-4.77%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.75% |
-| Verschil | -4.02% |
+| Rendement AI sinds 14-10-2026 13:02 | **-4.95%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.77% |
+| Verschil | -4.18% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-4.77%** |
+| Rendement deze periode | **-4.95%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -4.77% |
-| Model | deepseek-ai/deepseek-v4.1-flash |
+| Daling vanaf de top ($10,000) | -4.95% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 63 (Greed) |
 
 ## Marktvisie van de AI
 
-De markt blijft breed herstellen (30/33 munten groen, 24u-mediaan +2,06%) maar de bounce raakt uitgeput: BTC stokt rond $82,7k en Fear & Greed staat op 63 (Greed). De 7d-mediaan blijft met -2,63% nog steeds negatief, dus het herstel is nog niet duurzaam bevestigd.
+Het herstel blijft breed (30/33 munten groen, 24u-mediaan +1,93%) maar de bounce is rijp: BTC stokt rond $82,7k en Fear & Greed staat op 63 (Greed), een contra-signaal voor nieuwe adds. De 7d-mediaan (-3,14%) herstelt maar is nog negatief, dus geen enkele add-trigger is actief. Ik houd de huidige mix aan en bewaar de 20% cash als droog kruit.
 
-## Strategie van de AI (sinds 21-10-2026 05:30)
+## Strategie van de AI (sinds 21-10-2026 06:00)
 
-Anker houdt stand: BTC 60% zolang $80k niet breekt op uurbasis. SOL 10% en BCH 10% laten meelopen; 20% cash blijft droog kruit. Geen nieuwe adds op deze rijpe bounce met F&G 63 — ik koop geen tops. Adds pas bij BTC >$84k of een 7d-mediaan die positief draait; pullback-adds onder $82k met de cashbuffer. De-risico bij uurslot BTC <$80k: dan alts eerst naar cash. Elke alt kappen op -10/15%; verliezers nooit aanvullen. Verwacht komende uren consolidatie rond $82-83k.
+Anker houdt stand: BTC 60% zolang het uurslot boven $80k blijft; SOL 10% en BCH 10% lopen mee in het brede herstel. Geen adds bij F&G 63 op deze rijpe bounce — kruit pas inzetten bij BTC >$84k, een positieve 7d-mediaan, of een pullback onder $82k. De-risico bij uurslot <$80k: eerst alts naar cash. Elke alt kappen op -10/15%, verliezers nooit aanvullen. Verwacht consolidatie rond $82-83k; geduld boven actie, de cash drag is acceptabel zolang de 7d-mediaan rood staat.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -41,9 +41,9 @@ _De discipline werkte dit venster: 55% vasthouden door de zwakke breedte-uren en
 
 | Munt | Waarde | % | Winst/verlies | Doel | Reden AI |
 |---|---|---|---|---|---|
-| BTC/USD | $5,693.53 | 59.8% | +0.6% | 60.0% | Anker boven $80k, houdt stand; kernpositie zolang steun niet breekt |
-| BCH/USD | $953.31 | 10.0% | +2.5% | 10.0% | Sterkste alt (ch_7d +2%, boven SMA's) maar extended op range7d_pos 91, dus niet vergroten |
-| SOL/USD | $949.98 | 10.0% | +0.7% | 10.0% | Zwakste alt (rsi_1d 44, onder SMA20d), klein houden en kappen bij -10% |
+| BTC/USD | $5,693.79 | 59.9% | +0.6% | 60.0% | Anker boven $80k; kernpositie in het brede herstel, geen add bij Greed 63 |
+| SOL/USD | $947.65 | 10.0% | +0.5% | 10.0% | Meelopen met herstel; harde stop -10/15% |
+| BCH/USD | $937.41 | 9.9% | +0.8% | 10.0% | Sterkste positieve 7d (+1,26%) van de alts; stop -10/15% |
 
 ## Orders deze run
 
@@ -52,12 +52,12 @@ Geen orders (verdeling blijft gelijk).
 ## Meldingen
 
 - AI-fout: moonshotai/kimi-k3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'moonshotai/kimi-k3' has reached its end of life on 2026-1
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 21-10-2026 06:00 | $9,505 | -4.95% | -0.77% | 0 |
 | 21-10-2026 05:30 | $9,523 | -4.77% | -0.75% | 0 |
 | 21-10-2026 05:00 | $9,529 | -4.71% | -0.73% | 0 |
 | 21-10-2026 04:30 | $9,518 | -4.82% | -0.78% | 1 |
@@ -69,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 21-10-2026 01:30 | $9,520 | -4.80% | -0.57% | 0 |
 | 21-10-2026 01:00 | $9,540 | -4.60% | -0.36% | 0 |
 | 21-10-2026 00:30 | $9,530 | -4.70% | -0.43% | 0 |
-| 21-10-2026 00:00 | $9,523 | -4.77% | -0.52% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv). Installatie en instellingen: [`INSTALLATIE.md`](INSTALLATIE.md).
