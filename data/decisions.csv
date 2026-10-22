@@ -1004,3 +1004,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-22T17:01:26.052729+00:00,22-10-2026 19:01,,BCH/USD,6.0,6.0,houden,,,
 2026-10-22T17:01:26.052729+00:00,22-10-2026 19:01,,BTC/USD,59.9,59.9,houden,,,
 2026-10-22T17:01:26.052729+00:00,22-10-2026 19:01,,SOL/USD,6.0,6.0,houden,,,
+2026-10-22T17:31:22.347480+00:00,22-10-2026 19:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,6.0,6.0,houden,,,"Basisgewicht; houdt zich redelijk, wacht op herstelbreedte voor actie."
+2026-10-22T17:31:22.347480+00:00,22-10-2026 19:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.9,60.0,houden,,,"Verdedigt $80k-anker, RSI-1u oversold, relatieve sterkhouder; op maximum aanhouden."
+2026-10-22T17:31:22.347480+00:00,22-10-2026 19:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,6.0,6.0,houden,,,"Basisgewicht; niet trimmen midden in flush, geen adds zonder breedtebevestiging."
