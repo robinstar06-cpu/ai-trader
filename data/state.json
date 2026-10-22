@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-19T17:30:44.645162+00:00",
-      "time_local": "19-10-2026 19:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 55.0
-      },
-      "summary": "De 24u-bounce staat nog breed (30/33 groen, mediaan +1,93%), maar de 7d-mediaan is verslechterd naar -6,38% en blijft ruim onder de -5%-drempel voor stap 2. BTC toont met $81,9k en 7d -0,62% duidelijke relatieve kracht ver boven de $80k-stop; F&G op 59 nadert het reduceerniveau van 60. Ik blijf daar",
-      "equity": 9453.93,
-      "prices": {
-        "BTC/USD": 81888.9525
-      }
-    },
-    {
       "time": "2026-10-19T18:00:51.163082+00:00",
       "time_local": "19-10-2026 20:00",
       "model": "z-ai/glm-5.3",
@@ -1588,12 +1575,29 @@
         "BCH/USD": 276.675,
         "BTC/USD": 81742.345
       }
+    },
+    {
+      "time": "2026-10-22T14:31:18.693857+00:00",
+      "time_local": "22-10-2026 16:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 6.0,
+        "BCH/USD": 6.0
+      },
+      "summary": "De marktbrede flush zet door: 0/33 munten groen over 24u (mediaan -4,9%) en Greed 68, maar BTC verdedigt $81,6k ruim boven het $80k-anker met RSI-1u ~28 (oversold). Kronos duidt licht neerwaarts maar is met 55% te zwak om te volgen; het anker en de discipline prevaleren boven breedte-ruis.",
+      "equity": 9365.83,
+      "prices": {
+        "BTC/USD": 81588.695,
+        "SOL/USD": 104.5515,
+        "BCH/USD": 274.505
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-22T14:01:20.295073+00:00",
-    "time_local": "22-10-2026 16:01",
-    "text": "Discipline-hold volgens het speelboek: BTC 60% zolang het uurslot boven het $80k-anker sluit, SOL/BCH op 6% basisgewicht (binnen de stop), ~28% cash als droog kruit. Herdeploy naar stap 2/3 pas bij structurele breedte >50% groen of Greed <40 in de $80-82k-zone; de-risico naar ~45% bij uurslot <$80k. Verwacht een stabilisatie-/bounce-poging uit de oversold-zone, maar geen top-chasing en geen alt-lek: eerst het gat versus BTC stoppen."
+    "time": "2026-10-22T14:31:18.693857+00:00",
+    "time_local": "22-10-2026 16:31",
+    "text": "Discipline-hold volgens het speelboek: BTC 60% zolang het uurslot boven het $80k-anker sluit; SOL/BCH blijven op 6% basisgewicht, ruim binnen de 10-15% stop, en niet trimmen midden in een flush. ~28% cash blijft droog kruit. Herdeploy naar stap 2/3 pas bij structurele breedte >50% groen of Greed <40 in de $80-82k-zone; de-risico naar ~45% bij uurslot <$80k. Verwacht een bounce-poging uit de oversold-zone, maar geen adds of top-chasing zolang 0/33 groen is."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: BTC 55-60% zolang het $80k-anker 12u+ houdt (stap 1), alts erbij pas bij 7d-mediaan > -5% én 24u-breedte >50% groen (stap 2, vuurde correct om 17:30), volledige participatie (stap 3) alleen na meerdaagse bevestiging.",
