@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-19T11:30:38.694158+00:00",
-      "time_local": "19-10-2026 13:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 45.0
-      },
-      "summary": "De 24u-bounce is volledig uitgedoofd: breedte zakt naar 16/33 groen, de mediaan staat op -0,05% en de 7d-mediaan verdiept zelfs naar -9,38%. BTC toont met $82,1k (-1,41% op 7d) opvallende relatieve kracht en houdt $80k ruim vast, maar F&G 59 (Greed) op een dovende bounce is geen risk-on-bevestiging.",
-      "equity": 9471.0,
-      "prices": {
-        "BTC/USD": 82141.27
-      }
-    },
-    {
       "time": "2026-10-19T12:00:50.686474+00:00",
       "time_local": "19-10-2026 14:00",
       "model": "z-ai/glm-5.3",
@@ -1544,12 +1531,29 @@
         "SOL/USD": 104.2535,
         "BCH/USD": 276.068
       }
+    },
+    {
+      "time": "2026-10-22T08:31:23.441659+00:00",
+      "time_local": "22-10-2026 10:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 6.0,
+        "BCH/USD": 6.0
+      },
+      "summary": "Marktbrede flush zet door: 0/33 munten groen over 24u (mediaan -3,4%), maar BTC verdedigt $81,9k ruim boven het $80k-anker en is relatief de sterkste munt. Greed 68 en de ingestorte breedte blokkeren nieuwe buys; de ~28% cash blijft droog kruit tot er structurele bevestiging van een bounce komt.",
+      "equity": 9384.32,
+      "prices": {
+        "BCH/USD": 274.923,
+        "SOL/USD": 103.928,
+        "BTC/USD": 81922.3
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-22T08:01:20.918329+00:00",
-    "time_local": "22-10-2026 10:01",
-    "text": "BTC 60% zolang het $80k-anker houdt (nu $82,1k, sterkste munt in zwakke markt). SOL/BCH terug naar basisgewicht 6% elk: breedte 0/33 groen = instapconditie weg na twee lekkende vensters; rest bouw ik af in een echte bounce richting $83,5k. Resterende ~28% cash is droog kruit voor herdeploy bij breedte structureel >50% groen of Greed <40 in de $80-82k-zone. Harde triggers: BTC-uurslot <$80k → de-risico naar ~45%; alt-stops 10-15% blijven hard; geen adds op Greed 68; Kronos (54,5%) negeren."
+    "time": "2026-10-22T08:31:23.441659+00:00",
+    "time_local": "22-10-2026 10:31",
+    "text": "BTC 60% zolang het $80k-anker houdt (nu $81,9k, sterkste munt in de flush). SOL/BCH blijven op basisgewicht 6%: breedte 0/33 groen, instapconditie ver weg. ~28% cash is droog kruit voor herdeploy bij breedte structureel >50% groen of Greed <40 in de $80-82k-zone. Harde triggers: BTC-uurslot <$80k → de-risico naar ~45%; alt-stops 10-15% blijven hard; geen adds op Greed 68; Kronos (54,5%) negeren. RSI-1u ~28 wijst op stabilisatie, maar ik koop geen flush zonder bevestiging."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: BTC 55-60% zolang het $80k-anker 12u+ houdt (stap 1), alts erbij pas bij 7d-mediaan > -5% én 24u-breedte >50% groen (stap 2, vuurde correct om 17:30), volledige participatie (stap 3) alleen na meerdaagse bevestiging.",

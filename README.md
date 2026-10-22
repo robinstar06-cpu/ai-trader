@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 22-10-2026 10:01_
+_Laatst bijgewerkt: 22-10-2026 10:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,397.99** |
+| Waarde portefeuille | **$9,384.32** |
 | Cash | $2,619.58 (28%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-6.02%** |
-| Ter vergelijking: gewoon BTC vasthouden | -1.46% |
-| Verschil | -4.56% |
+| Rendement AI sinds 14-10-2026 13:02 | **-6.16%** |
+| Ter vergelijking: gewoon BTC vasthouden | -1.67% |
+| Verschil | -4.48% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-6.02%** |
+| Rendement deze periode | **-6.16%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -6.02% |
+| Daling vanaf de top ($10,000) | -6.16% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 68 (Greed) |
-| Kronos-voorspelling | 33 munten in 226s; richting op 4u goed: 54% (n=646, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 10:01); richting op 4u goed: 54% (n=646, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-Marktbrede flush: 0/33 munten groen over 24u (mediaan -3,0%), maar BTC verdedigt $82,1k ruim boven het $80k-anker en RSI-1u ~30 wijst op stabilisatie na de flush. Greed 68 plus instortende breedte betekent dat de tactische alt-instapconditie (>50% groen) volledig weg is gevallen: ik trim SOL/BCH terug naar basisgewicht 6% elk en houd ~28% cash als droog kruit.
+Marktbrede flush zet door: 0/33 munten groen over 24u (mediaan -3,4%), maar BTC verdedigt $81,9k ruim boven het $80k-anker en is relatief de sterkste munt. Greed 68 en de ingestorte breedte blokkeren nieuwe buys; de ~28% cash blijft droog kruit tot er structurele bevestiging van een bounce komt.
 
-## Strategie van de AI (sinds 22-10-2026 10:01)
+## Strategie van de AI (sinds 22-10-2026 10:31)
 
-BTC 60% zolang het $80k-anker houdt (nu $82,1k, sterkste munt in zwakke markt). SOL/BCH terug naar basisgewicht 6% elk: breedte 0/33 groen = instapconditie weg na twee lekkende vensters; rest bouw ik af in een echte bounce richting $83,5k. Resterende ~28% cash is droog kruit voor herdeploy bij breedte structureel >50% groen of Greed <40 in de $80-82k-zone. Harde triggers: BTC-uurslot <$80k → de-risico naar ~45%; alt-stops 10-15% blijven hard; geen adds op Greed 68; Kronos (54,5%) negeren.
+BTC 60% zolang het $80k-anker houdt (nu $81,9k, sterkste munt in de flush). SOL/BCH blijven op basisgewicht 6%: breedte 0/33 groen, instapconditie ver weg. ~28% cash is droog kruit voor herdeploy bij breedte structureel >50% groen of Greed <40 in de $80-82k-zone. Harde triggers: BTC-uurslot <$80k → de-risico naar ~45%; alt-stops 10-15% blijven hard; geen adds op Greed 68; Kronos (54,5%) negeren. RSI-1u ~28 wijst op stabilisatie, maar ik koop geen flush zonder bevestiging.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,21 +42,19 @@ _Onderpresteerde dit venster licht versus BTC (-0,26% vs +0,24%) en dat was grot
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,652.04 | 60.1% | -0.2% | 60.0% | +0.3% (67% omhoog) | Anker $80k houdt ruim ($82,1k); sterkste munt in zwakke breedte; kernpositie stap 1 blijft intact |
-| BCH/USD | $564.69 | 6.0% | -2.5% | 6.0% | -2.3% (17% omhoog) | Idem: -4,1% over 24u, trim naar basisgewicht; harde stop 10-15% blijft gelden |
-| SOL/USD | $561.68 | 6.0% | -1.8% | 6.0% | +0.0% (50% omhoog) | Breedte 0/33 groen: tactische instapconditie weg, trim naar basisgewicht; rest afbouwen in bounce |
+| BTC/USD | $5,641.44 | 60.1% | -0.4% | 60.0% | +0.3% (67% omhoog) | Verdedigt $81,9k ruim boven het $80k-anker, relatief sterkste in zwakke markt; kernpositie zolang anker houdt. |
+| SOL/USD | $561.78 | 6.0% | -1.8% | 6.0% | +0.0% (50% omhoog) | Basisgewicht na trim; breedte 0/33 groen = geen herdeploy, stop 10-15% blijft hard. |
+| BCH/USD | $561.52 | 6.0% | -3.0% | 6.0% | -2.3% (17% omhoog) | Idem basisgewicht; verlies -3% binnen stop, wacht op breedte >50% groen. |
 
 ## Orders deze run
 
-| Munt | Actie | Bedrag | Resultaat |
-|---|---|---|---|
-| BCH/USD | sell | $541.05 | verkocht 1.959624215 |
-| SOL/USD | sell | $547.19 | verkocht 5.237430673 |
+Geen orders (verdeling blijft gelijk).
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 22-10-2026 10:31 | $9,384 | -6.16% | -1.67% | 0 |
 | 22-10-2026 10:01 | $9,398 | -6.02% | -1.46% | 2 |
 | 22-10-2026 09:31 | $9,414 | -5.86% | -1.36% | 0 |
 | 22-10-2026 09:01 | $9,439 | -5.61% | -1.07% | 0 |
@@ -68,7 +66,6 @@ _Onderpresteerde dit venster licht versus BTC (-0,26% vs +0,24%) en dat was grot
 | 22-10-2026 06:01 | $9,492 | -5.08% | -0.54% | 0 |
 | 22-10-2026 05:31 | $9,477 | -5.23% | -0.83% | 0 |
 | 22-10-2026 05:01 | $9,491 | -5.09% | -0.51% | 0 |
-| 22-10-2026 04:31 | $9,511 | -4.89% | -0.50% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
