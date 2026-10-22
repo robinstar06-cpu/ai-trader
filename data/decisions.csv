@@ -920,3 +920,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-22T03:01:24.761619+00:00,22-10-2026 05:01,z-ai/glm-5.3,BCH/USD,11.8,12.0,houden,,,"Sterkste 7d van het boek (+7,39%), licht verlies binnen stop; vasthouden tot trigger of stop."
 2026-10-22T03:01:24.761619+00:00,22-10-2026 05:01,z-ai/glm-5.3,BTC/USD,60.1,60.0,houden,,,"Houdt $82,9k vast boven het $80k-anker met 7d-mediaan positief; kernpositie in het herstel."
 2026-10-22T03:01:24.761619+00:00,22-10-2026 05:01,z-ai/glm-5.3,SOL/USD,11.8,12.0,houden,,,"7d +3,17%, verlies klein (-0,3%) en ruim binnen de 10-15% stop; geen reden te verkopen."
+2026-10-22T03:31:13.067515+00:00,22-10-2026 05:31,z-ai/glm-5.3,BCH/USD,11.9,12.0,houden,,,"Sterkste 7d-momentum onder de alts (+6,9%); stop 10-15% blijft gelden."
+2026-10-22T03:31:13.067515+00:00,22-10-2026 05:31,z-ai/glm-5.3,BTC/USD,60.1,60.0,houden,,,"Kernpositie; $80k-anker houdt stand, geen adds bij Greed 68 op een afkoelende top."
+2026-10-22T03:31:13.067515+00:00,22-10-2026 05:31,z-ai/glm-5.3,SOL/USD,11.8,12.0,houden,,,"Blijft binnen playbook; adds pas bij breedte >50% groen, stop 15% actief."
