@@ -1016,3 +1016,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-22T19:01:24.968076+00:00,22-10-2026 21:01,z-ai/glm-5.3,BCH/USD,6.0,6.0,houden,,,"Basisgewicht; -2,8% ruim binnen stop, geen trim midden in de flush"
 2026-10-22T19:01:24.968076+00:00,22-10-2026 21:01,z-ai/glm-5.3,BTC/USD,60.0,60.0,houden,,,"Anker $80k houdt stand, RSI-1u oververkocht; kernpositie behouden zolang uurslot boven $80k"
 2026-10-22T19:01:24.968076+00:00,22-10-2026 21:01,z-ai/glm-5.3,SOL/USD,6.0,6.0,houden,,,"Basisgewicht; -2,1% ruim binnen stop, geen trim midden in de flush"
+2026-10-22T19:31:21.424309+00:00,22-10-2026 21:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,6.0,6.0,houden,,,"Basisgewicht; kleine positie, verlies binnen tolerantie, wachten op breedteherstel."
+2026-10-22T19:31:21.424309+00:00,22-10-2026 21:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.0,60.0,houden,,,"Sterkste van de markt, verdedigt $80k-anker; basisgewicht handhaven zolang uurslot boven $80k sluit."
+2026-10-22T19:31:21.424309+00:00,22-10-2026 21:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,6.0,6.0,houden,,,"Basisgewicht; verlies -2% ruim binnen stop, geen trim midden in flush."
