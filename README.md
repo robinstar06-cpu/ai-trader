@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 22-10-2026 07:01_
+_Laatst bijgewerkt: 22-10-2026 07:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,491.28** |
+| Waarde portefeuille | **$9,483.27** |
 | Cash | $1,538.80 (16%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.09%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.59% |
-| Verschil | -4.50% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.17%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.61% |
+| Verschil | -4.56% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.09%** |
+| Rendement deze periode | **-5.17%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.09% |
+| Daling vanaf de top ($10,000) | -5.17% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 68 (Greed) |
-| Kronos-voorspelling | 30 munten in 290s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 51% (n=552, 50% = gokken) |
+| Kronos-voorspelling | 30 munten (berekend om 07:01); richting op 4u goed: 51% (n=552, 50% = gokken) |
 
 ## Strategie van de AI (sinds 22-10-2026 06:01)
 
@@ -38,9 +38,9 @@ _Onderpresteerde dit venster licht versus BTC (-0,26% vs +0,24%) en dat was grot
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,705.19 | 60.1% | +0.8% | 60.1% | -0.8% (17% omhoog) |  |
-| BCH/USD | $1,126.35 | 11.9% | -0.7% | 11.9% | -1.1% (17% omhoog) |  |
+| BTC/USD | $5,710.19 | 60.2% | +0.9% | 60.2% | -0.8% (17% omhoog) |  |
 | SOL/USD | $1,120.93 | 11.8% | -0.5% | 11.8% | -0.5% (33% omhoog) |  |
+| BCH/USD | $1,113.34 | 11.7% | -1.8% | 11.7% | -1.1% (17% omhoog) |  |
 
 ## Orders deze run
 
@@ -49,13 +49,14 @@ Geen orders (verdeling blijft gelijk).
 ## Meldingen
 
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+- AI-fout: z-ai/glm-5.3: antwoord bevatte geen geldige JSON
 - AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 22-10-2026 07:31 | $9,483 | -5.17% | -0.61% | 0 |
 | 22-10-2026 07:01 | $9,491 | -5.09% | -0.59% | 0 |
 | 22-10-2026 06:31 | $9,493 | -5.07% | -0.61% | 0 |
 | 22-10-2026 06:01 | $9,492 | -5.08% | -0.54% | 0 |
@@ -67,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 22-10-2026 03:01 | $9,630 | -3.70% | 0.96% | 0 |
 | 22-10-2026 02:31 | $9,634 | -3.66% | 1.01% | 0 |
 | 22-10-2026 02:01 | $9,623 | -3.77% | 0.86% | 0 |
-| 22-10-2026 01:31 | $9,642 | -3.58% | 1.16% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
