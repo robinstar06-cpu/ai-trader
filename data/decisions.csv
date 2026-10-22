@@ -944,3 +944,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-22T07:01:16.142133+00:00,22-10-2026 09:01,,BCH/USD,11.8,11.8,houden,,,
 2026-10-22T07:01:16.142133+00:00,22-10-2026 09:01,,BTC/USD,60.2,60.2,houden,,,
 2026-10-22T07:01:16.142133+00:00,22-10-2026 09:01,,SOL/USD,11.8,11.8,houden,,,
+2026-10-22T07:31:14.059081+00:00,22-10-2026 09:31,z-ai/glm-5.3,BCH/USD,11.7,12.0,houden,,,"7d nog sterk (+5,3%); wacht op bounce richting 24u-niveau om te trimmen; stop 10-15%."
+2026-10-22T07:31:14.059081+00:00,22-10-2026 09:31,z-ai/glm-5.3,BTC/USD,60.1,60.0,houden,,,"Anker $80k houdt ($82,2k) en 7d-mediaan positief; kerngewicht zolang de trigger niet valt."
+2026-10-22T07:31:14.059081+00:00,22-10-2026 09:31,z-ai/glm-5.3,SOL/USD,11.8,12.0,houden,,,"Tactische positie, klein verlies (-1,5%); alleen in een bounce trimmen, nooit mid-flush; stop 10-15%."
