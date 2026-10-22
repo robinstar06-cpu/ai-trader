@@ -1,25 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 22-10-2026 06:01_
+_Laatst bijgewerkt: 22-10-2026 06:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,492.30** |
+| Waarde portefeuille | **$9,492.71** |
 | Cash | $1,538.80 (16%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-5.08%** |
-| Ter vergelijking: gewoon BTC vasthouden | -0.54% |
-| Verschil | -4.54% |
+| Rendement AI sinds 14-10-2026 13:02 | **-5.07%** |
+| Ter vergelijking: gewoon BTC vasthouden | -0.61% |
+| Verschil | -4.47% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-5.08%** |
+| Rendement deze periode | **-5.07%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -5.08% |
-| Model | z-ai/glm-5.3 |
+| Daling vanaf de top ($10,000) | -5.07% |
+| Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 68 (Greed) |
-| Kronos-voorspelling | 33 munten in 156s; richting op 4u goed: 51% (n=522, 50% = gokken) |
-
-## Marktvisie van de AI
-
-BTC verdedigt $82,9k ruim boven het $80k-anker en de 7d-mediaan blijft positief (+1,71%), maar de breedte blijft zwak (8/33 groen) en Greed 68 blokkeert nieuwe adds. De kortetermijn-RSI's zijn gewassen (BTC ~39) en het laatste venster draaide licht positief: dit lijkt digestie van de uitbraak, geen breakdown. Kronos (50,8% = muntworp) negeer ik.
+| Kronos-voorspelling | 33 munten (berekend om 06:01); richting op 4u goed: 51% (n=522, 50% = gokken) |
 
 ## Strategie van de AI (sinds 22-10-2026 06:01)
 
@@ -42,9 +38,9 @@ _Onderpresteerde dit venster licht versus BTC (-0,26% vs +0,24%) en dat was grot
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,706.18 | 60.1% | +0.8% | 60.0% | -1.0% (0% omhoog) | Anker $80k houdt stand; kerngewicht, de-risico pas bij uurslot onder $80k. |
-| BCH/USD | $1,126.68 | 11.9% | -0.6% | 12.0% | -0.8% (17% omhoog) | Sterkste 7d van het boek (+5,7%); behouden, verliezer pas verkopen in stabilisatie/bounce. |
-| SOL/USD | $1,120.64 | 11.8% | -0.5% | 12.0% | -1.1% (0% omhoog) | Volgt BTC (7d +1,7%), RSI gewassen; stop 10-15%, trim alleen in bounce. |
+| BTC/USD | $5,705.03 | 60.1% | +0.8% | 60.1% | -1.0% (0% omhoog) |  |
+| BCH/USD | $1,126.35 | 11.9% | -0.7% | 11.9% | -0.8% (17% omhoog) |  |
+| SOL/USD | $1,122.53 | 11.8% | -0.3% | 11.8% | -1.1% (0% omhoog) |  |
 
 ## Orders deze run
 
@@ -52,12 +48,15 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Dagelijkse evaluatie gedaan door z-ai/glm-5.3.
+- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
+- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 22-10-2026 06:31 | $9,493 | -5.07% | -0.61% | 0 |
 | 22-10-2026 06:01 | $9,492 | -5.08% | -0.54% | 0 |
 | 22-10-2026 05:31 | $9,477 | -5.23% | -0.83% | 0 |
 | 22-10-2026 05:01 | $9,491 | -5.09% | -0.51% | 0 |
@@ -69,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 22-10-2026 02:01 | $9,623 | -3.77% | 0.86% | 0 |
 | 22-10-2026 01:31 | $9,642 | -3.58% | 1.16% | 0 |
 | 22-10-2026 01:01 | $9,653 | -3.47% | 1.34% | 0 |
-| 22-10-2026 00:31 | $9,654 | -3.46% | 1.53% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).

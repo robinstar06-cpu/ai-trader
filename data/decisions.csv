@@ -926,3 +926,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-22T04:01:19.333305+00:00,22-10-2026 06:01,z-ai/glm-5.3,BCH/USD,11.9,12.0,houden,,,"Sterkste 7d van het boek (+5,7%); behouden, verliezer pas verkopen in stabilisatie/bounce."
 2026-10-22T04:01:19.333305+00:00,22-10-2026 06:01,z-ai/glm-5.3,BTC/USD,60.1,60.0,houden,,,"Anker $80k houdt stand; kerngewicht, de-risico pas bij uurslot onder $80k."
 2026-10-22T04:01:19.333305+00:00,22-10-2026 06:01,z-ai/glm-5.3,SOL/USD,11.8,12.0,houden,,,"Volgt BTC (7d +1,7%), RSI gewassen; stop 10-15%, trim alleen in bounce."
+2026-10-22T04:31:12.171937+00:00,22-10-2026 06:31,,BCH/USD,11.9,11.9,houden,,,
+2026-10-22T04:31:12.171937+00:00,22-10-2026 06:31,,BTC/USD,60.1,60.1,houden,,,
+2026-10-22T04:31:12.171937+00:00,22-10-2026 06:31,,SOL/USD,11.8,11.8,houden,,,
