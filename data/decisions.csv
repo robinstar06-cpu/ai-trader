@@ -902,3 +902,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-22T00:01:30.970880+00:00,22-10-2026 02:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,12.0,12.0,houden,,,"Sterk op 7d (+6,6%) maar bijna op 7d-hoog; aanhouden met stop, niet vergroten."
 2026-10-22T00:01:30.970880+00:00,22-10-2026 02:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.2,60.0,houden,,,"Houdt $84k-breakout vast, maar Greed 68 en afkoelende breedte weerhouden me van adds; anker $80k."
 2026-10-22T00:01:30.970880+00:00,22-10-2026 02:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,11.8,12.0,houden,,,"Licht groen, Kronos enige positieve alt-hint; kleine positie met harde stop."
+2026-10-22T00:31:09.400301+00:00,22-10-2026 02:31,z-ai/glm-5.3,BCH/USD,12.0,12.0,houden,,,"Sterkste 7d-momentum (+7,4%) maar bijna op 7d-hoog en Greed 68: vasthouden, niet verhogen"
+2026-10-22T00:31:09.400301+00:00,22-10-2026 02:31,z-ai/glm-5.3,BTC/USD,60.2,60.0,houden,,,"Kernpositie: breakout $84k houdt stand, $80k-anker intact, RSI-1u gezond gedaald naar 59"
+2026-10-22T00:31:09.400301+00:00,22-10-2026 02:31,z-ai/glm-5.3,SOL/USD,11.8,12.0,houden,,,"Alt met breedte en +2,8% 7d; stop 10-15% blijft staan, geen add op de top"
