@@ -983,3 +983,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-22T13:31:15.855572+00:00,22-10-2026 15:31,z-ai/glm-5.3,BCH/USD,6.0,6.0,houden,,,"Basisgewicht, zwakste 24u (-3,5%) maar binnen stop; trim/verkoop bij een bounce richting de 24u-grens."
 2026-10-22T13:31:15.855572+00:00,22-10-2026 15:31,z-ai/glm-5.3,BTC/USD,60.0,60.0,houden,,,"Anker $80k houdt ($81,7k), RSI-1u ~30 oversold; kernpositie zolang uurslot boven anker, relatief de sterkste in de flush."
 2026-10-22T13:31:15.855572+00:00,22-10-2026 15:31,z-ai/glm-5.3,SOL/USD,6.0,6.0,houden,,,"Basisgewicht; breedte structureel <50% groen dus geen extra, stop 10-15% niet in gevaar."
+2026-10-22T14:01:20.295073+00:00,22-10-2026 16:01,z-ai/glm-5.3,BCH/USD,6.0,6.0,houden,,,Basisgewicht; binnen stop; geen alt-lek bij 1/33 groen
+2026-10-22T14:01:20.295073+00:00,22-10-2026 16:01,z-ai/glm-5.3,BTC/USD,60.0,60.0,houden,,,"Anker $80k houdt; BTC relatief sterkst in de flush, RSI-1u oversold"
+2026-10-22T14:01:20.295073+00:00,22-10-2026 16:01,z-ai/glm-5.3,SOL/USD,6.1,6.0,houden,,,Basisgewicht; verlies klein en binnen stop; breedte te zwak voor adds
