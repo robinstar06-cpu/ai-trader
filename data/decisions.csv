@@ -974,3 +974,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-22T12:01:25.109044+00:00,22-10-2026 14:01,,BCH/USD,6.0,6.0,houden,,,
 2026-10-22T12:01:25.109044+00:00,22-10-2026 14:01,,BTC/USD,60.0,60.0,houden,,,
 2026-10-22T12:01:25.109044+00:00,22-10-2026 14:01,,SOL/USD,6.0,6.0,houden,,,
+2026-10-22T12:31:11.776632+00:00,22-10-2026 14:31,z-ai/glm-5.3,BCH/USD,6.0,6.0,houden,,,"Basisgewicht; verlies -2,9% ruim binnen de 10-15% stop, geen reden tot trimmen."
+2026-10-22T12:31:11.776632+00:00,22-10-2026 14:31,z-ai/glm-5.3,BTC/USD,60.0,60.0,houden,,,"Anker $80k houdt ($81,7k), relatief sterkste munt in de flush; kerngewicht handhaven."
+2026-10-22T12:31:11.776632+00:00,22-10-2026 14:31,z-ai/glm-5.3,SOL/USD,6.0,6.0,houden,,,"Basisgewicht; geen stap-2 signaal (breedte 0/33 groen), stop-afstand ruim."
