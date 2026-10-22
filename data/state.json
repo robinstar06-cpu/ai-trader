@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-20T03:00:51.834664+00:00",
-      "time_local": "20-10-2026 05:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 55.0
-      },
-      "summary": "De 24u-bounce is volledig uitgewerkt (11/33 groen, mediaan -0,34%), maar het structurele herstel houdt aan: de 7d-mediaan staat met -4,75% voor het eerst duurzaam boven de -5%-drempel. BTC houdt $81,7k ruim boven het $80k-anker met lage 1u-volatiliteit; F&G zakt naar 55, onder de reduceerdrempel van",
-      "equity": 9435.32,
-      "prices": {
-        "BTC/USD": 81683.5085
-      }
-    },
-    {
       "time": "2026-10-20T03:30:39.086378+00:00",
       "time_local": "20-10-2026 05:30",
       "model": "z-ai/glm-5.3",
@@ -1628,11 +1615,28 @@
         "BCH/USD": 273.6545,
         "SOL/USD": 103.4935
       }
+    },
+    {
+      "time": "2026-10-22T20:31:09.981090+00:00",
+      "time_local": "22-10-2026 22:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 6.0,
+        "BCH/USD": 6.0
+      },
+      "summary": "De marktbrede flush zet door: 0/33 munten groen over 24u (mediaan -6,0%) en de 7d-mediaan -4,5%, terwijl Greed verder oploopt naar 68 — complacency bij dalende prijzen. BTC verdedigt echter $81,2k ruim boven het $80k-anker en de portefeuille lekt nauwelijks. Geduld en droog kruit zijn nu de beste po",
+      "equity": 9339.53,
+      "prices": {
+        "BCH/USD": 273.355,
+        "BTC/USD": 81235.048,
+        "SOL/USD": 103.345
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-22T20:01:20.067410+00:00",
-    "time_local": "22-10-2026 22:01",
+    "time": "2026-10-22T20:31:09.981090+00:00",
+    "time_local": "22-10-2026 22:31",
     "text": "Plan ongewijzigd: BTC 60% zolang het uurslot boven $80k sluit; de-risico naar ~45% alleen bij een uurslot <$80k. SOL/BCH blijven op 6% basisgewicht — verliezen (-2 a -3%) zitten ruim binnen de 10-15% stop, geen paniektrims midden in de flush. De 28% cash blijft droog kruit: adds pas bij structurele breedte >50% groen of Greed <40 in de $80-82k-zone, nooit op een 7d-hoog. Volledige participatie pas na meerdaagse herstelbevestiging; eerst het gat versus BTC stoppen. Geen churn."
   },
   "lessons": [
