@@ -992,3 +992,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-22T15:01:29.735749+00:00,22-10-2026 17:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,6.0,6.0,houden,,,"Basisgewicht binnen stop; instapconditie (breedte >50% groen) niet gehaald, dus geen uitbreiding."
 2026-10-22T15:01:29.735749+00:00,22-10-2026 17:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.0,60.0,houden,,,"Verdedigt $80k-anker met oversold RSI-1u; kernpositie volgens speelboek stap 1, niet trimmen in de flush."
 2026-10-22T15:01:29.735749+00:00,22-10-2026 17:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,6.0,6.0,houden,,,"Basisgewicht, ruim binnen stop; breedte te zwak voor adds, niet midden in flush verkopen."
+2026-10-22T15:31:21.346579+00:00,22-10-2026 17:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,6.0,6.0,houden,,,"Basisgewicht binnen stop; verlies beperkt, wacht op stabilisatie voor heroverweging."
+2026-10-22T15:31:21.346579+00:00,22-10-2026 17:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.0,60.0,houden,,,"Verdedigt $81,4k ruim boven het $80k-anker; RSI-1u oversold, relatief de sterkste. Houden zolang anker houdt."
+2026-10-22T15:31:21.346579+00:00,22-10-2026 17:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,6.0,6.0,houden,,,"Basisgewicht binnen stop; niet trimmen midden in de flush, geen adds bij 0/33 breedte."
