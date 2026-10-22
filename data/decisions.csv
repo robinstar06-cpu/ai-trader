@@ -914,3 +914,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-22T02:01:21.213946+00:00,22-10-2026 04:01,z-ai/glm-5.3,BCH/USD,11.9,12.0,houden,,,"Beste 7d-momentum (+7,4%) ondanks 24u-dip; behouden, stop 10-15%"
 2026-10-22T02:01:21.213946+00:00,22-10-2026 04:01,z-ai/glm-5.3,BTC/USD,60.1,60.0,houden,,,"Anker $80k houdt ruim stand; kernpositie in de sterkste trend, geen adds bij Greed 68"
 2026-10-22T02:01:21.213946+00:00,22-10-2026 04:01,z-ai/glm-5.3,SOL/USD,11.8,12.0,houden,,,"Sterke 7d (+2,8%) en hoog in 7d-bereik; behouden, stop 10-15%"
+2026-10-22T02:31:19.481908+00:00,22-10-2026 04:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,12.0,12.0,houden,,,"Zwakste alt (-2,07% 24u) maar rond breakeven; aanhouden, stop op 10-15%"
+2026-10-22T02:31:19.481908+00:00,22-10-2026 04:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.1,60.0,houden,,,"Anker $80k houdt, 7d-mediaan positief; kernpositie blijft, geen adds bij Greed 68"
+2026-10-22T02:31:19.481908+00:00,22-10-2026 04:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,11.8,12.0,houden,,,"Licht rood maar boven stop, geen flush; aanhouden binnen 10-15% band"

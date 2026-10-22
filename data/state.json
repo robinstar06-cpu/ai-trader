@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-19T08:30:41.115425+00:00",
-      "time_local": "19-10-2026 10:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 55.0
-      },
-      "summary": "De 24u-bounce blijft breed (30/33 groen, mediaan +1,24%) maar de 7d-mediaan staat nog steeds diep rood op -8,65%, dus van een structurele omslag is geen sprake. BTC toont duidelijke relatieve kracht rond $82,7k (7d -0,86% tegen mediaan -8,65%) en houdt ruim boven de $80k-stop. F&G op 59 nadert de re",
-      "equity": 9502.22,
-      "prices": {
-        "BTC/USD": 82704.85
-      }
-    },
-    {
       "time": "2026-10-19T09:00:50.613130+00:00",
       "time_local": "19-10-2026 11:00",
       "model": "z-ai/glm-5.3",
@@ -1520,12 +1507,29 @@
         "BCH/USD": 283.07,
         "SOL/USD": 106.14
       }
+    },
+    {
+      "time": "2026-10-22T02:31:19.481908+00:00",
+      "time_local": "22-10-2026 04:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 12.0,
+        "BCH/USD": 12.0
+      },
+      "summary": "BTC verdedigt de $82,9k ruim boven het $80k-anker, maar de markt koelt duidelijk af: breedte is ingestort naar 6/33 groen en de 24u-mediaan staat op -1,16%, terwijl de 7d-mediaan (+2,07%) en Greed 68 (contra-signaal) tegen elkaar in werken. Mijn anker- en 7d-regels zijn niet gebroken, dus ik houd de",
+      "equity": 9511.41,
+      "prices": {
+        "SOL/USD": 105.355,
+        "BCH/USD": 281.5065,
+        "BTC/USD": 82896.235
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-22T02:01:21.213946+00:00",
-    "time_local": "22-10-2026 04:01",
-    "text": "Kern ongewijzigd: BTC 60%, SOL 12%, BCH 12%, 16% cash. Greed 68 op de bouncetop = geen adds; de cash is droog kruit voor een pullback richting $82k (dan liefst ETH/XRP in tranches, nooit de top kopen). De-risico pas bij een uurslot onder $80k of een duurzaam negatieve 7d-mediaan; alt-stops blijven 10-15%. Breedte-afkoeling is ruis zolang het anker houdt — niet schommelen op 24u-ruis."
+    "time": "2026-10-22T02:31:19.481908+00:00",
+    "time_local": "22-10-2026 04:31",
+    "text": "Kern ongewijzigd: BTC 60%, SOL 12%, BCH 12%, 16% cash. Het $80k-anker houdt ($82,9k) en de 7d-mediaan blijft positief (+2,07%), dus geen de-risico op 24u-breedteruis — de breedte floepte eerder binnen enkele uren van 6/33 naar 31/33. Greed 68 op een afkoelende top = geen nieuwe adds, geen toppen kopen. De 16% cash blijft droog kruit voor tranches in ETH/XRP bij een echte pullback richting $80-82k. De-risico pas bij een uurslot onder $80k of een duurzaam negatieve 7d-mediaan; alt-stops blijven 10-15%."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: stap 1 (BTC 55% bij breadth >30% groen én $80k 12u+ vasthouden) ving de bounce; stap 2 vuurde correct op 17:30 bij 7d-mediaan > -5% én 24u-breedte 28/33 groen → BTC 60% + SOL 15% + BCH 10% (85% inzet). Stap 3 (volledi",
