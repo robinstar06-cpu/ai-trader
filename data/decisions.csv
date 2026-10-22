@@ -947,3 +947,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-22T07:31:14.059081+00:00,22-10-2026 09:31,z-ai/glm-5.3,BCH/USD,11.7,12.0,houden,,,"7d nog sterk (+5,3%); wacht op bounce richting 24u-niveau om te trimmen; stop 10-15%."
 2026-10-22T07:31:14.059081+00:00,22-10-2026 09:31,z-ai/glm-5.3,BTC/USD,60.1,60.0,houden,,,"Anker $80k houdt ($82,2k) en 7d-mediaan positief; kerngewicht zolang de trigger niet valt."
 2026-10-22T07:31:14.059081+00:00,22-10-2026 09:31,z-ai/glm-5.3,SOL/USD,11.8,12.0,houden,,,"Tactische positie, klein verlies (-1,5%); alleen in een bounce trimmen, nooit mid-flush; stop 10-15%."
+2026-10-22T08:01:20.918329+00:00,22-10-2026 10:01,z-ai/glm-5.3,BCH/USD,11.7,6.0,sell,541.05,verkocht 1.959624215,"Idem: -4,1% over 24u, trim naar basisgewicht; harde stop 10-15% blijft gelden"
+2026-10-22T08:01:20.918329+00:00,22-10-2026 10:01,z-ai/glm-5.3,BTC/USD,60.1,60.0,houden,,,"Anker $80k houdt ruim ($82,1k); sterkste munt in zwakke breedte; kernpositie stap 1 blijft intact"
+2026-10-22T08:01:20.918329+00:00,22-10-2026 10:01,z-ai/glm-5.3,SOL/USD,11.8,6.0,sell,547.19,verkocht 5.237430673,"Breedte 0/33 groen: tactische instapconditie weg, trim naar basisgewicht; rest afbouwen in bounce"
