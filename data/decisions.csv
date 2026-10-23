@@ -1229,3 +1229,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T19:01:18.503388+00:00,23-10-2026 21:01,z-ai/glm-5.3,LINK/USD,4.9,5.0,houden,,,"Light herstel (24u +0,1%); gewicht behouden, geen add."
 2026-10-23T19:01:18.503388+00:00,23-10-2026 21:01,z-ai/glm-5.3,SOL/USD,8.0,8.0,houden,,,"Outperformt BTC licht (24u +0,4% vs -0,1%); stap-1 gewicht behouden."
 2026-10-23T19:01:18.503388+00:00,23-10-2026 21:01,z-ai/glm-5.3,XRP/USD,4.8,5.0,houden,,,"7d +0,9% positief; gewicht behouden, geen add zolang 7d-mediaan negatief."
+2026-10-23T19:31:17.592999+00:00,23-10-2026 21:31,,BCH/USD,6.2,6.2,houden,,,
+2026-10-23T19:31:17.592999+00:00,23-10-2026 21:31,,BTC/USD,58.1,58.1,houden,,,
+2026-10-23T19:31:17.592999+00:00,23-10-2026 21:31,,ETH/USD,5.9,5.9,houden,,,
+2026-10-23T19:31:17.592999+00:00,23-10-2026 21:31,,LINK/USD,4.9,4.9,houden,,,
+2026-10-23T19:31:17.592999+00:00,23-10-2026 21:31,,SOL/USD,8.0,8.0,houden,,,
+2026-10-23T19:31:17.592999+00:00,23-10-2026 21:31,,XRP/USD,4.8,4.8,houden,,,
