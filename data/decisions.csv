@@ -1259,3 +1259,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T21:31:11.897492+00:00,23-10-2026 23:31,,LINK/USD,4.8,4.8,houden,,,
 2026-10-23T21:31:11.897492+00:00,23-10-2026 23:31,,SOL/USD,8.0,8.0,houden,,,
 2026-10-23T21:31:11.897492+00:00,23-10-2026 23:31,,XRP/USD,4.8,4.8,houden,,,
+2026-10-23T22:01:20.603320+00:00,24-10-2026 00:01,z-ai/glm-5.3,BCH/USD,6.2,6.0,houden,,,"Sterkste alt (+3,6% 24u) maar range7d 77: houden, niet verhogen"
+2026-10-23T22:01:20.603320+00:00,24-10-2026 00:01,z-ai/glm-5.3,BTC/USD,58.1,58.0,houden,,,"Anker $80k houdt ~24u; kernpositie, range7d 13 geeft herstelruimte"
+2026-10-23T22:01:20.603320+00:00,24-10-2026 00:01,z-ai/glm-5.3,ETH/USD,5.9,6.0,houden,,,"Range7d 36, herstelt mee met breedte; op doelgewicht"
+2026-10-23T22:01:20.603320+00:00,24-10-2026 00:01,z-ai/glm-5.3,LINK/USD,4.8,5.0,houden,,,Op doelgewicht; herweging pas bij bevestigd herstel of duidelijk lek
+2026-10-23T22:01:20.603320+00:00,24-10-2026 00:01,z-ai/glm-5.3,SOL/USD,8.0,8.0,houden,,,Na eerdere halvering nu in lijn met BTC; gewicht handhaven
+2026-10-23T22:01:20.603320+00:00,24-10-2026 00:01,z-ai/glm-5.3,XRP/USD,4.8,5.0,houden,,,"Licht lekkend maar binnen tolerantie; geen churn, wachten op bevestiging"
