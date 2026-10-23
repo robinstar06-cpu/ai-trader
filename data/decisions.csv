@@ -1145,3 +1145,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T12:01:30.862200+00:00,23-10-2026 14:01,,LINK/USD,4.8,4.8,houden,,,
 2026-10-23T12:01:30.862200+00:00,23-10-2026 14:01,,SOL/USD,8.0,8.0,houden,,,
 2026-10-23T12:01:30.862200+00:00,23-10-2026 14:01,,XRP/USD,4.9,4.9,houden,,,
+2026-10-23T12:31:21.414981+00:00,23-10-2026 14:31,z-ai/glm-5.3,BCH/USD,6.2,6.0,houden,,,"Sterkste alt van het boek, maar range7d 81: houden op 6%, geen add op 7d-hoog."
+2026-10-23T12:31:21.414981+00:00,23-10-2026 14:31,z-ai/glm-5.3,BTC/USD,58.2,58.0,houden,,,"Anker $80k ~24u verdedigd op $81,6k; kern van de ladder zolang dat houdt."
+2026-10-23T12:31:21.414981+00:00,23-10-2026 14:31,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,"Stabiel, vlak tegen BTC; 6% in de ladder behouden."
+2026-10-23T12:31:21.414981+00:00,23-10-2026 14:31,z-ai/glm-5.3,LINK/USD,4.8,5.0,houden,,,"Herstelt licht (+0,5% 24u); 5% in de ladder."
+2026-10-23T12:31:21.414981+00:00,23-10-2026 14:31,z-ai/glm-5.3,SOL/USD,8.0,8.0,houden,,,Relatief sterk en stabiel tegen BTC; houdt 8% stap-2 gewicht.
+2026-10-23T12:31:21.414981+00:00,23-10-2026 14:31,z-ai/glm-5.3,XRP/USD,4.9,5.0,houden,,,"Licht lekkend (-0,3% 24u) maar binnen tolerantie; 5% behouden."
