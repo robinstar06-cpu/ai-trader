@@ -1115,3 +1115,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T09:31:12.156960+00:00,23-10-2026 11:31,,LINK/USD,4.8,4.8,houden,,,
 2026-10-23T09:31:12.156960+00:00,23-10-2026 11:31,,SOL/USD,8.0,8.0,houden,,,
 2026-10-23T09:31:12.156960+00:00,23-10-2026 11:31,,XRP/USD,4.9,4.9,houden,,,
+2026-10-23T10:01:27.322528+00:00,23-10-2026 12:01,z-ai/glm-5.3,BCH/USD,6.2,6.0,houden,,,"Sterkste alt (+3,8% 24u) maar op 7d-hoog (87): houden, niet vergroten"
+2026-10-23T10:01:27.322528+00:00,23-10-2026 12:01,z-ai/glm-5.3,BTC/USD,58.1,58.0,houden,,,"Anker $80k houdt ~24u stand op $81,5k; kernpositie zolang dat intact is"
+2026-10-23T10:01:27.322528+00:00,23-10-2026 12:01,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,Participatie in herstel; licht outperform vs BTC over 24u
+2026-10-23T10:01:27.322528+00:00,23-10-2026 12:01,z-ai/glm-5.3,LINK/USD,4.8,5.0,houden,,,"Groen vs BTC over 24u (+0,3%); houden, trimmen alleen bij duurzaam lek"
+2026-10-23T10:01:27.322528+00:00,23-10-2026 12:01,z-ai/glm-5.3,SOL/USD,7.9,8.0,houden,,,"Participatie in herstel; mid-range, geen significant lek vs BTC over 24u"
+2026-10-23T10:01:27.322528+00:00,23-10-2026 12:01,z-ai/glm-5.3,XRP/USD,4.9,5.0,houden,,,"Kleine participatiepositie; zwakker dan BTC, eerste kandidaat voor trim bij aanhoudend lek"
