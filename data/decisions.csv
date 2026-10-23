@@ -1076,3 +1076,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T05:01:29.043754+00:00,23-10-2026 07:01,z-ai/glm-5.3,BCH/USD,6.2,6.0,houden,,,"Uitzonderlijke relatieve kracht (+2,9% 24u bij mediaan -1,0%), gewicht behouden maar geen add nabij 7d-hoog/RSI-1u ~72"
 2026-10-23T05:01:29.043754+00:00,23-10-2026 07:01,z-ai/glm-5.3,BTC/USD,59.9,60.0,houden,,,"Anker $80k 24u+ verdedigd op $81,5k; kerngewicht zolang uurslot >$80k, anders de-risico naar ~45%"
 2026-10-23T05:01:29.043754+00:00,23-10-2026 07:01,z-ai/glm-5.3,SOL/USD,6.0,6.0,houden,,,"Basisgewicht; presteert op 24u gelijk aan BTC (-1,0% vs -1,5%), geen lek-reason om te trimmen"
+2026-10-23T05:31:13.028507+00:00,23-10-2026 07:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,6.2,6.0,houden,,,"Enige alt met relatieve kracht (+2,6% 24u); geen add op 7d-hoog."
+2026-10-23T05:31:13.028507+00:00,23-10-2026 07:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.9,60.0,houden,,,Anker $80k houdt al ~24u; kernpositie zolang uurslot erboven sluit.
+2026-10-23T05:31:13.028507+00:00,23-10-2026 07:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,6.0,6.0,houden,,,"Basisgewicht, lekt niet versus BTC op 24u."
