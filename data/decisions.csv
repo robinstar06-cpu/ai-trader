@@ -1079,3 +1079,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T05:31:13.028507+00:00,23-10-2026 07:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,6.2,6.0,houden,,,"Enige alt met relatieve kracht (+2,6% 24u); geen add op 7d-hoog."
 2026-10-23T05:31:13.028507+00:00,23-10-2026 07:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.9,60.0,houden,,,Anker $80k houdt al ~24u; kernpositie zolang uurslot erboven sluit.
 2026-10-23T05:31:13.028507+00:00,23-10-2026 07:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,6.0,6.0,houden,,,"Basisgewicht, lekt niet versus BTC op 24u."
+2026-10-23T06:01:31.364920+00:00,23-10-2026 08:01,,BCH/USD,6.2,6.2,houden,,,
+2026-10-23T06:01:31.364920+00:00,23-10-2026 08:01,,BTC/USD,59.9,59.9,houden,,,
+2026-10-23T06:01:31.364920+00:00,23-10-2026 08:01,,SOL/USD,6.0,6.0,houden,,,
