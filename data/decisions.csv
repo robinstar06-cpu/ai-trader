@@ -1103,3 +1103,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T08:31:18.787747+00:00,23-10-2026 10:31,,LINK/USD,4.9,4.9,houden,,,
 2026-10-23T08:31:18.787747+00:00,23-10-2026 10:31,,SOL/USD,8.0,8.0,houden,,,
 2026-10-23T08:31:18.787747+00:00,23-10-2026 10:31,,XRP/USD,4.9,4.9,houden,,,
+2026-10-23T09:01:26.952082+00:00,23-10-2026 11:01,z-ai/glm-5.3,BCH/USD,6.3,6.0,houden,,,"Uitzonderlijke relatieve kracht (+4,1% 24u), maar 88% van 7d-range = geen add"
+2026-10-23T09:01:26.952082+00:00,23-10-2026 11:01,z-ai/glm-5.3,BTC/USD,58.0,58.0,houden,,,"Anker $80k houdt ~24u stand op $81,6k; kernpositie zolang dat zo blijft"
+2026-10-23T09:01:26.952082+00:00,23-10-2026 11:01,z-ai/glm-5.3,ETH/USD,5.9,6.0,houden,,,"Mid-range alt (37% van range) met kracht; stap-2-deploy, geen top-chasing"
+2026-10-23T09:01:26.952082+00:00,23-10-2026 11:01,z-ai/glm-5.3,LINK/USD,4.9,5.0,houden,,,"Mid-range (55%) met +1,1% over 24u; participatie in herstel"
+2026-10-23T09:01:26.952082+00:00,23-10-2026 11:01,z-ai/glm-5.3,SOL/USD,8.0,8.0,houden,,,Mid-range (48% van 7d-range) met herstellende breedte; verhoogd per stap-2-plan
+2026-10-23T09:01:26.952082+00:00,23-10-2026 11:01,z-ai/glm-5.3,XRP/USD,4.9,5.0,houden,,,"Mid-range (49%) en vlakke 7d (-1,0%); participatie in herstel"
