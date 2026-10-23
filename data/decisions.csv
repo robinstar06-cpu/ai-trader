@@ -1091,3 +1091,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T07:31:15.299504+00:00,23-10-2026 09:31,z-ai/glm-5.3,BCH/USD,6.2,6.0,houden,,,"Sterkste munt 24u (+3,5%); houden, geen add nabij 7d-hoog"
 2026-10-23T07:31:15.299504+00:00,23-10-2026 09:31,z-ai/glm-5.3,BTC/USD,59.9,60.0,houden,,,Anker $80k ~24u verdedigd; kernpositie zolang uurslot boven anker
 2026-10-23T07:31:15.299504+00:00,23-10-2026 09:31,z-ai/glm-5.3,SOL/USD,6.0,6.0,houden,,,"Basisgewicht; mid-range, geen lek versus BTC"
+2026-10-23T08:01:17.360882+00:00,23-10-2026 10:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,6.2,6.0,houden,,,"Uitzonderlijke relatieve kracht (+4,3% 24u) maar te dicht bij 7d-hoog (range 82, RSI-1u 66): houden, geen add."
+2026-10-23T08:01:17.360882+00:00,23-10-2026 10:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.8,58.0,sell,171.88,verkocht 0.002110929,"Anker $80k houdt al ~24u; kernpositie binnen 55-60% band, licht getrimd om cash voor alts vrij te maken."
+2026-10-23T08:01:17.360882+00:00,23-10-2026 10:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,0.0,6.0,buy,562.41,gekocht $562.41,"Nieuwe positie: diep onder SMA50 (-5,9%), range 35, RSI-1d 39 — goed instapmoment in mid-range."
+2026-10-23T08:01:17.360882+00:00,23-10-2026 10:01,deepseek-ai/deepseek-v4.1-flash,LINK/USD,0.0,5.0,buy,468.68,gekocht $468.68,"Nieuwe positie: sterkste mid-range alt (+1,05% 24u, range 52, RSI-1u 52), toont kracht zonder top-chasing."
+2026-10-23T08:01:17.360882+00:00,23-10-2026 10:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,6.0,8.0,buy,186.69,gekocht $186.69,"Basisgewicht verhoogd: +0,5% 24u, mid-range (44), RSI-1u 48 met ruimte; step-2 alt."
+2026-10-23T08:01:17.360882+00:00,23-10-2026 10:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,0.0,5.0,buy,468.68,gekocht $468.68,"Nieuwe positie: neutraal mid-range (49), RSI-1u 50, relatieve kracht in herstel."
