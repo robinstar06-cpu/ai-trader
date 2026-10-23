@@ -1058,3 +1058,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T02:01:20.913768+00:00,23-10-2026 04:01,z-ai/glm-5.3,BCH/USD,6.0,6.0,houden,,,"Basisgewicht; relatieve sterkte in de flush (24u -0,8%, 7u +0%), stop ruim intact."
 2026-10-23T02:01:20.913768+00:00,23-10-2026 04:01,z-ai/glm-5.3,BTC/USD,59.9,60.0,houden,,,"Anker $80k houdt al uren stand op $81,2k; 60%-cap zolang het uurslot boven $80k sluit."
 2026-10-23T02:01:20.913768+00:00,23-10-2026 04:01,z-ai/glm-5.3,SOL/USD,6.0,6.0,houden,,,"Basisgewicht; verlies -1,6% ruim binnen stopband, geen add zolang breedte structureel <50% groen."
+2026-10-23T02:31:20.398011+00:00,23-10-2026 04:31,,BCH/USD,6.1,6.1,houden,,,
+2026-10-23T02:31:20.398011+00:00,23-10-2026 04:31,,BTC/USD,59.9,59.9,houden,,,
+2026-10-23T02:31:20.398011+00:00,23-10-2026 04:31,,SOL/USD,6.0,6.0,houden,,,
