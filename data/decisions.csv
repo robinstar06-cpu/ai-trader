@@ -1163,3 +1163,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T13:31:12.336745+00:00,23-10-2026 15:31,,LINK/USD,4.8,4.8,houden,,,
 2026-10-23T13:31:12.336745+00:00,23-10-2026 15:31,,SOL/USD,8.0,8.0,houden,,,
 2026-10-23T13:31:12.336745+00:00,23-10-2026 15:31,,XRP/USD,4.9,4.9,houden,,,
+2026-10-23T14:01:31.293608+00:00,23-10-2026 16:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,6.2,6.0,houden,,,"Enige alt met groene 7d (+2,2%) en +3,9% 24u: uitzonderlijke kracht, maar te dicht bij 7d-hoog voor adds."
+2026-10-23T14:01:31.293608+00:00,23-10-2026 16:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,58.2,58.0,houden,,,"Anker $80k houdt al ~24u stand; kernpositie, geen reden tot wijzigen."
+2026-10-23T14:01:31.293608+00:00,23-10-2026 16:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.9,6.0,houden,,,"Vlak, in lijn met markt; positie aanhouden zonder bijstorten."
+2026-10-23T14:01:31.293608+00:00,23-10-2026 16:01,deepseek-ai/deepseek-v4.1-flash,LINK/USD,4.8,5.0,houden,,,Licht achterblijvend maar binnen marge; geen churn.
+2026-10-23T14:01:31.293608+00:00,23-10-2026 16:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,8.0,8.0,houden,,,"Relatief sterk (+0,38% 24u, range7d 55), tactische alt-positie handhaven."
+2026-10-23T14:01:31.293608+00:00,23-10-2026 16:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,4.9,5.0,houden,,,"Neutraal, geen lek versus BTC; handhaven."
