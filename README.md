@@ -1,25 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 23-10-2026 22:31_
+_Laatst bijgewerkt: 23-10-2026 23:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,332.54** |
+| Waarde portefeuille | **$9,339.23** |
 | Cash | $1,138.09 (12%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-6.67%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.37% |
-| Verschil | -4.31% |
+| Rendement AI sinds 14-10-2026 13:02 | **-6.61%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.35% |
+| Verschil | -4.26% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-6.67%** |
+| Rendement deze periode | **-6.61%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -6.67% |
-| Model | z-ai/glm-5.3 |
+| Daling vanaf de top ($10,000) | -6.61% |
+| Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 50 (Neutral) |
-| Kronos-voorspelling | 33 munten (berekend om 22:01); richting op 4u goed: 56% (n=1543, 50% = gokken) |
-
-## Marktvisie van de AI
-
-BTC verdedigt het $80k-anker op $81,3k (range7d 14), breedte herstelt naar 23/33 groen en 24u-mediaan is positief (+0,47%), maar de 7d-mediaan blijft negatief (-3,1%) zodat de stap-2-trigger nog niet vuurt. Greed zakte van 68 naar 50: de flush dooft uit, maar bevestiging ontbreekt. Het portfolio volgt BTC op de voet zonder noemenswaardig alt-lek.
+| Kronos-voorspelling | 33 munten in 226s; richting op 4u goed: 55% (n=1543, 50% = gokken) |
 
 ## Strategie van de AI (sinds 23-10-2026 22:31)
 
@@ -42,21 +38,28 @@ _Relatief was dit venster een kleine winst (-1,56% vs BTC -1,91%) dankzij de cas
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,429.88 | 58.2% | -1.1% | 58.0% | +0.2% (83% omhoog) | Anker $80k houdt ($81,3k, range7d 14): kern van de ladder zolang geen breuk. |
-| SOL/USD | $740.06 | 7.9% | -2.3% | 8.0% | +0.6% (83% omhoog) | Volgt BTC (7d -0,3%), lekt niet meer; positie in de ladder handhaven. |
-| BCH/USD | $580.85 | 6.2% | -0.2% | 6.0% | -0.2% (17% omhoog) | Sterkste alt (7d +3,1%) maar range7d 73: houden, niet verhogen op 7d-hoogte. |
-| ETH/USD | $546.36 | 5.9% | -0.7% | 6.0% | -0.3% (17% omhoog) | Stabiliseert (24u +0,7%, range7d 35); blijft in de ladder. |
-| XRP/USD | $449.23 | 4.8% | -1.9% | 5.0% | -0.7% (0% omhoog) | 7d licht positief (+0,2%); neutrale ladderpositie. |
-| LINK/USD | $448.06 | 4.8% | -2.4% | 5.0% | +0.2% (83% omhoog) | Zwakste alt (7d -3,1%) maar bounceert licht; trimmen alleen bij nieuw lek versus BTC. |
+| BTC/USD | $5,433.20 | 58.2% | -1.0% | 58.2% | +0.1% (67% omhoog) |  |
+| SOL/USD | $740.06 | 7.9% | -2.3% | 7.9% | -0.2% (17% omhoog) |  |
+| BCH/USD | $580.85 | 6.2% | -0.2% | 6.2% | -1.2% (33% omhoog) |  |
+| ETH/USD | $547.66 | 5.9% | -0.4% | 5.9% | -0.2% (33% omhoog) |  |
+| XRP/USD | $451.30 | 4.8% | -1.4% | 4.8% | +0.3% (50% omhoog) |  |
+| LINK/USD | $448.06 | 4.8% | -2.4% | 4.8% | -0.7% (33% omhoog) |  |
 
 ## Orders deze run
 
 Geen orders (verdeling blijft gelijk).
 
+## Meldingen
+
+- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
+- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 23-10-2026 23:01 | $9,339 | -6.61% | -2.35% | 0 |
 | 23-10-2026 22:31 | $9,333 | -6.67% | -2.37% | 0 |
 | 23-10-2026 22:01 | $9,331 | -6.69% | -2.57% | 0 |
 | 23-10-2026 21:31 | $9,341 | -6.59% | -2.52% | 0 |
@@ -68,7 +71,6 @@ Geen orders (verdeling blijft gelijk).
 | 23-10-2026 18:31 | $9,354 | -6.46% | -2.13% | 0 |
 | 23-10-2026 18:01 | $9,365 | -6.35% | -2.14% | 0 |
 | 23-10-2026 17:31 | $9,349 | -6.51% | -2.16% | 0 |
-| 23-10-2026 17:01 | $9,365 | -6.35% | -2.01% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
