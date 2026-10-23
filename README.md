@@ -1,25 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 23-10-2026 19:01_
+_Laatst bijgewerkt: 23-10-2026 19:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,387.14** |
+| Waarde portefeuille | **$9,373.42** |
 | Cash | $1,138.09 (12%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-6.13%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.01% |
-| Verschil | -4.12% |
+| Rendement AI sinds 14-10-2026 13:02 | **-6.27%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.19% |
+| Verschil | -4.08% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-6.13%** |
+| Rendement deze periode | **-6.27%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -6.13% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -6.27% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 50 (Neutral) |
-| Kronos-voorspelling | 33 munten in 192s; richting op 4u goed: 55% (n=1543, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 19:01); richting op 4u goed: 55% (n=1543, 50% = gokken) |
 
-## Strategie van de AI (sinds 23-10-2026 16:01)
+## Marktvisie van de AI
 
-Ladder ongewijzigd handhaven: BTC 58% zolang het $80k-anker houdt, alts 30% (SOL 8, BCH 6, ETH 6, XRP 5, LINK 5), 12% cash. De laatste cash gaat er pas in bij 7d-mediaan >0 én breedte >50% groen gedurende 24u — nu 23/33 en -3,47%, dus wachten. Geen adds op 7d-hoogten (PEPE RSI-1u 86, BONK range7d 100), geen churn op breedte-ruis. De-risico alleen bij ankerbreuk <$80k of duurzaam negatieve 7d-mediaan. Kronos 53,3%: richting negeren.
+Flush-einde nadert: breedte 27/33 groen, 24u-mediaan +1,17% en de 7d-mediaan herstelt snel van -3,5% naar -1,8%. BTC verdedigt het $80k-anker op $81,5k en Greed staat neutraal op 50 na de kapitulatie. Herstel is nog niet bevestigd (7d-mediaan nog negatief), dus ladder aanhouden en de laatste cash pas inzetten na bevestiging.
+
+## Strategie van de AI (sinds 23-10-2026 19:31)
+
+Ladder ongewijzigd: BTC 58% zolang het $80k-anker houdt, alts 30% (SOL 8, BCH 6, ETH 6, XRP 5, LINK 5), 12% cash. Stap-2-deploy van de laatste cash pas bij 7d-mediaan >0 én breedte >50% groen gedurende 24u — de 7d-mediaan verbetert hard maar is nog negatief, dus wachten op bevestiging in plaats van anticiperen. Geen adds op 7d-hoogten (BCH pos 87, PEPE/BONK extended). De-risico alleen bij ankerbreuk <$80k of duurzaam negatieve 7d-mediaan. Kronos 54,5%: richting negeren.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -38,27 +42,22 @@ _Relatief was dit venster een kleine winst (-1,56% vs BTC -1,91%) dankzij de cas
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,457.78 | 58.1% | -0.6% | 58.1% | -0.3% (17% omhoog) |  |
-| SOL/USD | $749.72 | 8.0% | -1.0% | 8.0% | +0.3% (50% omhoog) |  |
-| BCH/USD | $586.16 | 6.2% | +0.7% | 6.2% | -0.8% (17% omhoog) |  |
-| ETH/USD | $549.13 | 5.8% | -0.2% | 5.8% | -0.7% (17% omhoog) |  |
-| LINK/USD | $453.58 | 4.8% | -1.2% | 4.8% | -0.9% (17% omhoog) |  |
-| XRP/USD | $452.68 | 4.8% | -1.1% | 4.8% | -0.5% (33% omhoog) |  |
+| BTC/USD | $5,443.32 | 58.1% | -0.8% | 58.0% | -0.3% (17% omhoog) | Anker $80k houdt ~24u stand op $81,5k; kernpositie zolang dat geldt |
+| SOL/USD | $749.72 | 8.0% | -1.0% | 8.0% | +0.3% (50% omhoog) | Stap-1 alt, mid-range 7d (pos 47); 8% houden ondank licht lek |
+| BCH/USD | $586.16 | 6.3% | +0.7% | 6.0% | -0.8% (17% omhoog) | Sterkste alt (+4,7% 24u); 6% houden, geen add op 7d-hoog (pos 87) |
+| ETH/USD | $549.88 | 5.9% | -0.0% | 6.0% | -0.7% (17% omhoog) | Stap-1 alt; herstelt mee met breedte, 6% aanhouden |
+| LINK/USD | $453.58 | 4.8% | -1.2% | 5.0% | -0.9% (17% omhoog) | Stap-1 alt; 5% houden; trim alleen bij echte flush, niet op ruis |
+| XRP/USD | $452.68 | 4.8% | -1.1% | 5.0% | -0.5% (33% omhoog) | Stap-1 alt; 5% houden, lek te klein om te churnen (<1% equity) |
 
 ## Orders deze run
 
 Geen orders (verdeling blijft gelijk).
 
-## Meldingen
-
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 23-10-2026 19:31 | $9,373 | -6.27% | -2.19% | 0 |
 | 23-10-2026 19:01 | $9,387 | -6.13% | -2.01% | 0 |
 | 23-10-2026 18:31 | $9,354 | -6.46% | -2.13% | 0 |
 | 23-10-2026 18:01 | $9,365 | -6.35% | -2.14% | 0 |
@@ -70,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 23-10-2026 15:01 | $9,372 | -6.28% | -2.05% | 0 |
 | 23-10-2026 14:31 | $9,373 | -6.27% | -2.02% | 0 |
 | 23-10-2026 14:01 | $9,371 | -6.29% | -2.12% | 0 |
-| 23-10-2026 13:31 | $9,368 | -6.32% | -2.10% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
