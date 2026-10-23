@@ -433,3 +433,4 @@ time_utc,time_local,equity,cash,invested_pct,return_pct,btc_price,btc_hold_pct,m
 2026-10-23T11:31:19.460456+00:00,23-10-2026 13:31,9367.95,1138.09,87.9,-6.32,81569.21,-2.10,z-ai/glm-5.3,0,
 2026-10-23T12:01:30.862200+00:00,23-10-2026 14:01,9370.69,1138.09,87.9,-6.29,81548.64,-2.12,,0,Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).; AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out; AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 2026-10-23T12:31:21.414981+00:00,23-10-2026 14:31,9372.80,1138.09,87.9,-6.27,81632.56,-2.02,z-ai/glm-5.3,0,
+2026-10-23T13:01:35.784355+00:00,23-10-2026 15:01,9371.55,1138.09,87.9,-6.28,81609.90,-2.05,z-ai/glm-5.3,0,
