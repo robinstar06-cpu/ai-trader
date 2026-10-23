@@ -1085,3 +1085,6 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T06:31:30.708879+00:00,23-10-2026 08:31,z-ai/glm-5.3,BCH/USD,6.2,6.0,houden,,,"Uitzonderlijke relatieve kracht (+2,6% 24u); houden, geen add nabij 7d-hoog"
 2026-10-23T06:31:30.708879+00:00,23-10-2026 08:31,z-ai/glm-5.3,BTC/USD,59.9,60.0,houden,,,"Anker $80k ~24u verdedigd op $81,8k; kerngewicht zolang het slot boven $80k blijft"
 2026-10-23T06:31:30.708879+00:00,23-10-2026 08:31,z-ai/glm-5.3,SOL/USD,6.0,6.0,houden,,,Basisgewicht; mid-range (48/100) en stabiel versus BTC
+2026-10-23T07:01:24.028242+00:00,23-10-2026 09:01,,BCH/USD,6.2,6.2,houden,,,
+2026-10-23T07:01:24.028242+00:00,23-10-2026 09:01,,BTC/USD,59.9,59.9,houden,,,
+2026-10-23T07:01:24.028242+00:00,23-10-2026 09:01,,SOL/USD,6.0,6.0,houden,,,
