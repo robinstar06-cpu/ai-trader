@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-20T10:00:51.982592+00:00",
-      "time_local": "20-10-2026 12:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 55.0
-      },
-      "summary": "De 7d-mediaan herstelt met -4,93% voor het eerst sinds dagen nét boven de -5%-drempel, maar de 24u-breedte blijft zeer zwak: slechts 6/33 munten groen (mediaan -1,42%). BTC houdt $81,4k ruim boven het $80k-anker en toont duidelijke relatieve kracht (7d -2,24% vs mediaan -4,93%). Stap 2 vuurt nog nie",
-      "equity": 9416.65,
-      "prices": {
-        "BTC/USD": 81376.8195
-      }
-    },
-    {
       "time": "2026-10-20T10:30:41.177975+00:00",
       "time_local": "20-10-2026 12:30",
       "model": "z-ai/glm-5.3",
@@ -1676,12 +1663,29 @@
         "SOL/USD": 103.7575,
         "BCH/USD": 278.372
       }
+    },
+    {
+      "time": "2026-10-23T03:31:21.516911+00:00",
+      "time_local": "23-10-2026 05:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 6.0,
+        "BCH/USD": 6.0
+      },
+      "summary": "De flush verliest kracht: de 24u-mediaan herstelt naar -1,3% en BTC verdedigt het $80k-anker al uren op $81,7k, terwijl Greed in één dag van 68 naar 50 zakt — capitulatie nadert. Maar mijn add-triggers (Greed <40 of structurele breedte >50% groen) zijn nog niet vervuld, dus ik houd de ladder intact ",
+      "equity": 9386.53,
+      "prices": {
+        "BCH/USD": 282.8275,
+        "SOL/USD": 104.1375,
+        "BTC/USD": 81739.1045
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-23T02:01:20.913768+00:00",
-    "time_local": "23-10-2026 04:01",
-    "text": "Speelboek ongewijzigd: BTC blijft op de 60%-cap zolang het uurslot boven $80k sluit; alleen bij een slot <$80k de-risico ik naar ~45%. SOL/BCH blijven op 6% basisgewicht, stops ruim intact. De ~28% cash zet ik in zodra Greed <40 in de $80-82k-zone of bij structurele breedte >50% groen plus 7d-mediaan > -5% — het capitulatie-sentiment (68→50) komt dichterbij, dus ik blijf scherp om dan in twee stappen te adden zonder top-chasing. Kronos (54%, muntopworp) knikt voorzichtig op voor BTC maar weegt niet mee."
+    "time": "2026-10-23T03:31:21.516911+00:00",
+    "time_local": "23-10-2026 05:31",
+    "text": "Speelboek ongewijzigd: BTC 60% zolang het uurslot boven $80k sluit, bij een slot <$80k de-risico naar ~45%. SOL/BCH blijven op 6% basisgewicht, stops ruim intact. De ~28% cash zet ik in twee stappen in zodra Greed <40 in de $80-82k-zone of bij structurele breedte >50% groen plus 7d-mediaan > -5%; geen top-chasing, geen alt-lek. Kronos (54%, muntworp) knikt negatief maar weegt niet mee."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: BTC 55-60% zolang het $80k-anker 12u+ houdt (stap 1), alts erbij pas bij 7d-mediaan > -5% én 24u-breedte >50% groen (stap 2, vuurde correct om 17:30), volledige participatie (stap 3) alleen na meerdaagse bevestiging.",
