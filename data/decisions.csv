@@ -1133,3 +1133,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T11:01:30.192376+00:00,23-10-2026 13:01,z-ai/glm-5.3,LINK/USD,4.9,5.0,houden,,,"24u vlak, zwakste 7d maar geen verkoop midden in stabilisatie"
 2026-10-23T11:01:30.192376+00:00,23-10-2026 13:01,z-ai/glm-5.3,SOL/USD,7.9,8.0,houden,,,Kleine lekkage vs BTC maar midden in 7d-bereik; geen churn op ruis
 2026-10-23T11:01:30.192376+00:00,23-10-2026 13:01,z-ai/glm-5.3,XRP/USD,4.8,5.0,houden,,,"Lichte lekkage, houdt in de alt-mix; geen top-chase"
+2026-10-23T11:31:19.460456+00:00,23-10-2026 13:31,z-ai/glm-5.3,BCH/USD,6.2,6.0,houden,,,"Sterkste alt in flush, maar op 7d-hoog (pos 78): geen add"
+2026-10-23T11:31:19.460456+00:00,23-10-2026 13:31,z-ai/glm-5.3,BTC/USD,58.2,58.0,houden,,,"Anker $80k houdt ~24u stand op $81,6k; kern van de ladder"
+2026-10-23T11:31:19.460456+00:00,23-10-2026 13:31,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,Volgt BTC; houden
+2026-10-23T11:31:19.460456+00:00,23-10-2026 13:31,z-ai/glm-5.3,LINK/USD,4.8,5.0,houden,,,Stabiel; houden
+2026-10-23T11:31:19.460456+00:00,23-10-2026 13:31,z-ai/glm-5.3,SOL/USD,7.9,8.0,houden,,,Grootste alt met relatieve kracht; houden
+2026-10-23T11:31:19.460456+00:00,23-10-2026 13:31,z-ai/glm-5.3,XRP/USD,4.9,5.0,houden,,,Stabiel; houden

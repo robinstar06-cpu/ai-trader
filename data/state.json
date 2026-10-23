@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-20T22:00:50.196074+00:00",
-      "time_local": "21-10-2026 00:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 15.0,
-        "BCH/USD": 10.0
-      },
-      "summary": "Het brede herstel zet door: 31/33 munten groen over 24u, de 7d-mediaan herstelt naar -2,79% en BTC houdt $82,9k ruim boven het $80k-anker. Fear & Greed zakt naar 55, ruim onder de reduceerdrempel van 60, dus geen contra-signaal. De stap-3-triggers (7d-mediaan positief of BTC boven $84k) zijn nog nie",
-      "equity": 9523.02,
-      "prices": {
-        "BCH/USD": 281.5995,
-        "SOL/USD": 106.65,
-        "BTC/USD": 82886.26
-      }
-    },
-    {
       "time": "2026-10-20T22:30:38.699915+00:00",
       "time_local": "21-10-2026 00:30",
       "model": "z-ai/glm-5.3",
@@ -1744,12 +1727,35 @@
         "XRP/USD": 1.31695,
         "LINK/USD": 12.02665
       }
+    },
+    {
+      "time": "2026-10-23T11:31:19.460456+00:00",
+      "time_local": "23-10-2026 13:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 58.0,
+        "SOL/USD": 8.0,
+        "BCH/USD": 6.0,
+        "ETH/USD": 6.0,
+        "XRP/USD": 5.0,
+        "LINK/USD": 5.0
+      },
+      "summary": "BTC verdedigt het $80k-anker al ~24u op $81,6k, maar het herstel stagneert: breedte 16/33 groen, 7d-mediaan -4,03% en Greed neutraal op 50. De flush dooft uit zonder bevestigde doorbraak; geduld tot de deploy-triggers vuren.",
+      "equity": 9367.95,
+      "prices": {
+        "BCH/USD": 284.144,
+        "BTC/USD": 81569.2055,
+        "LINK/USD": 12.06995,
+        "ETH/USD": 2395.514,
+        "XRP/USD": 1.3205,
+        "SOL/USD": 104.2235
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-23T11:01:30.192376+00:00",
-    "time_local": "23-10-2026 13:01",
-    "text": "Stap-2 ladder handhaven: BTC 58% zolang het $80k-anker houdt, alts 30% (SOL 8, BCH 6, ETH 6, XRP 5, LINK 5), ~12% cash buffer. Deploy-triggers (breedte >24u boven 50% groen én 7d-mediaan positief) zijn nog niet gevierd: breedte 13/33, 7d-mediaan -4,68%. Geen adds op 7d-hoogten (BCH 78, PEPE, DOT, BONK) en geen churn op breedte-ruis. De-risico alleen bij ankerbreuk <$80k of duurzaam negatieve 7d-mediaan. Kronos (53,0%) onder de 55%-drempel: richting negeren."
+    "time": "2026-10-23T11:31:19.460456+00:00",
+    "time_local": "23-10-2026 13:31",
+    "text": "Stap-2 ladder handhaven: BTC 58% zolang het $80k-anker houdt, alts 30% (SOL 8, BCH 6, ETH 6, XRP 5, LINK 5), ~12% cash. Deploy-triggers (breedte >24u boven 50% groen én 7d-mediaan positief) zijn nog niet gevierd: 16/33 groen, 7d-mediaan -4,03%. Geen adds op 7d-hoogten (PEPE, BONK, DOT, BCH pos 78) en geen churn op breedte-ruis. De-risico alleen bij ankerbreuk <$80k of duurzaam negatieve 7d-mediaan. Kronos 53,0% onder drempel: richting negeren."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: BTC 55-60% zolang het $80k-anker 12u+ houdt (dit venster ~24u lang correct), alts erbij pas bij 7d-mediaan > -5% én 24u-breedte >50% groen, volledige participatie alleen na meerdaagse bevestiging.",
