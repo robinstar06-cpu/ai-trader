@@ -1235,3 +1235,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T19:31:17.592999+00:00,23-10-2026 21:31,,LINK/USD,4.9,4.9,houden,,,
 2026-10-23T19:31:17.592999+00:00,23-10-2026 21:31,,SOL/USD,8.0,8.0,houden,,,
 2026-10-23T19:31:17.592999+00:00,23-10-2026 21:31,,XRP/USD,4.8,4.8,houden,,,
+2026-10-23T20:01:30.465875+00:00,23-10-2026 22:01,z-ai/glm-5.3,BCH/USD,6.2,6.0,houden,,,"Sterkste alt (+3,7% 24u), maar range7d 74 = geen add op 7d-hoog"
+2026-10-23T20:01:30.465875+00:00,23-10-2026 22:01,z-ai/glm-5.3,BTC/USD,58.1,58.0,houden,,,"Anker $80k houdt ~24u+; kern van de ladder, range7d_pos 10 geeft herstelruimte"
+2026-10-23T20:01:30.465875+00:00,23-10-2026 22:01,z-ai/glm-5.3,ETH/USD,5.9,6.0,houden,,,"Stabiliseert, behouden; vergroten pas bij 7d-mediaan >0"
+2026-10-23T20:01:30.465875+00:00,23-10-2026 22:01,z-ai/glm-5.3,LINK/USD,4.9,5.0,houden,,,Idem: pas vergroten na bevestigd herstel
+2026-10-23T20:01:30.465875+00:00,23-10-2026 22:01,z-ai/glm-5.3,SOL/USD,7.9,8.0,houden,,,"Alt-kern, stabiliseert met de markt; pas vergroten na stap-2-trigger"
+2026-10-23T20:01:30.465875+00:00,23-10-2026 22:01,z-ai/glm-5.3,XRP/USD,4.8,5.0,houden,,,Stabiel maar wacht op bevestiging; klein houden
