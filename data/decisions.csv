@@ -1211,3 +1211,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T17:31:14.045886+00:00,23-10-2026 19:31,z-ai/glm-5.3,LINK/USD,4.8,5.0,houden,,,"Stap-1 alt; 5% houden; trim alleen bij echte flush, niet op ruis"
 2026-10-23T17:31:14.045886+00:00,23-10-2026 19:31,z-ai/glm-5.3,SOL/USD,8.0,8.0,houden,,,"Stap-1 alt, mid-range 7d (pos 47); 8% houden ondank licht lek"
 2026-10-23T17:31:14.045886+00:00,23-10-2026 19:31,z-ai/glm-5.3,XRP/USD,4.8,5.0,houden,,,"Stap-1 alt; 5% houden, lek te klein om te churnen (<1% equity)"
+2026-10-23T18:01:25.378961+00:00,23-10-2026 20:01,,BCH/USD,6.2,6.2,houden,,,
+2026-10-23T18:01:25.378961+00:00,23-10-2026 20:01,,BTC/USD,58.1,58.1,houden,,,
+2026-10-23T18:01:25.378961+00:00,23-10-2026 20:01,,ETH/USD,5.9,5.9,houden,,,
+2026-10-23T18:01:25.378961+00:00,23-10-2026 20:01,,LINK/USD,4.8,4.8,houden,,,
+2026-10-23T18:01:25.378961+00:00,23-10-2026 20:01,,SOL/USD,8.0,8.0,houden,,,
+2026-10-23T18:01:25.378961+00:00,23-10-2026 20:01,,XRP/USD,4.8,4.8,houden,,,
