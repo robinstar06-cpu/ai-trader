@@ -1271,3 +1271,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T22:31:22.371981+00:00,24-10-2026 00:31,z-ai/glm-5.3,LINK/USD,4.8,5.0,houden,,,"Zwakste 7d (-3,84%) maar geen actief lek vandaag; geen churn waard"
 2026-10-23T22:31:22.371981+00:00,24-10-2026 00:31,z-ai/glm-5.3,SOL/USD,7.9,8.0,houden,,,"24u in lijn met BTC, geen actief lek; houdt gewicht"
 2026-10-23T22:31:22.371981+00:00,24-10-2026 00:31,z-ai/glm-5.3,XRP/USD,4.8,5.0,houden,,,7d gelijk aan BTC; geen reden tot trim
+2026-10-23T23:01:33.059706+00:00,24-10-2026 01:01,,BCH/USD,6.2,6.2,houden,,,
+2026-10-23T23:01:33.059706+00:00,24-10-2026 01:01,,BTC/USD,58.2,58.2,houden,,,
+2026-10-23T23:01:33.059706+00:00,24-10-2026 01:01,,ETH/USD,5.8,5.8,houden,,,
+2026-10-23T23:01:33.059706+00:00,24-10-2026 01:01,,LINK/USD,4.8,4.8,houden,,,
+2026-10-23T23:01:33.059706+00:00,24-10-2026 01:01,,SOL/USD,7.9,7.9,houden,,,
+2026-10-23T23:01:33.059706+00:00,24-10-2026 01:01,,XRP/USD,4.8,4.8,houden,,,
