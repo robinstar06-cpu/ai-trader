@@ -1241,3 +1241,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-23T20:01:30.465875+00:00,23-10-2026 22:01,z-ai/glm-5.3,LINK/USD,4.9,5.0,houden,,,Idem: pas vergroten na bevestigd herstel
 2026-10-23T20:01:30.465875+00:00,23-10-2026 22:01,z-ai/glm-5.3,SOL/USD,7.9,8.0,houden,,,"Alt-kern, stabiliseert met de markt; pas vergroten na stap-2-trigger"
 2026-10-23T20:01:30.465875+00:00,23-10-2026 22:01,z-ai/glm-5.3,XRP/USD,4.8,5.0,houden,,,Stabiel maar wacht op bevestiging; klein houden
+2026-10-23T20:31:18.702217+00:00,23-10-2026 22:31,z-ai/glm-5.3,BCH/USD,6.2,6.0,houden,,,"Sterkste alt (7d +3,1%) maar range7d 73: houden, niet verhogen op 7d-hoogte."
+2026-10-23T20:31:18.702217+00:00,23-10-2026 22:31,z-ai/glm-5.3,BTC/USD,58.2,58.0,houden,,,"Anker $80k houdt ($81,3k, range7d 14): kern van de ladder zolang geen breuk."
+2026-10-23T20:31:18.702217+00:00,23-10-2026 22:31,z-ai/glm-5.3,ETH/USD,5.9,6.0,houden,,,"Stabiliseert (24u +0,7%, range7d 35); blijft in de ladder."
+2026-10-23T20:31:18.702217+00:00,23-10-2026 22:31,z-ai/glm-5.3,LINK/USD,4.8,5.0,houden,,,"Zwakste alt (7d -3,1%) maar bounceert licht; trimmen alleen bij nieuw lek versus BTC."
+2026-10-23T20:31:18.702217+00:00,23-10-2026 22:31,z-ai/glm-5.3,SOL/USD,7.9,8.0,houden,,,"Volgt BTC (7d -0,3%), lekt niet meer; positie in de ladder handhaven."
+2026-10-23T20:31:18.702217+00:00,23-10-2026 22:31,z-ai/glm-5.3,XRP/USD,4.8,5.0,houden,,,"7d licht positief (+0,2%); neutrale ladderpositie."

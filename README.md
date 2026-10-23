@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 23-10-2026 22:01_
+_Laatst bijgewerkt: 23-10-2026 22:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,330.81** |
+| Waarde portefeuille | **$9,332.54** |
 | Cash | $1,138.09 (12%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-6.69%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.57% |
-| Verschil | -4.12% |
+| Rendement AI sinds 14-10-2026 13:02 | **-6.67%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.37% |
+| Verschil | -4.31% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-6.69%** |
+| Rendement deze periode | **-6.67%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -6.69% |
+| Daling vanaf de top ($10,000) | -6.67% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 50 (Neutral) |
-| Kronos-voorspelling | 33 munten in 248s; richting op 4u goed: 56% (n=1543, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 22:01); richting op 4u goed: 56% (n=1543, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-BTC verdedigt het $80k-anker op $81,2k (range7d_pos 10, dus veel herstelruimte), breedte 21/33 groen en 24u-mediaan licht positief (+0,34%). De 7d-mediaan verslechtert echter naar -3,2%, dus de stap-2-triggers vuren nog niet; Greed 68→50 past bij een flush-einde. Geduld: ladder vasthouden, cash pas deployen bij bevestiging.
+BTC verdedigt het $80k-anker op $81,3k (range7d 14), breedte herstelt naar 23/33 groen en 24u-mediaan is positief (+0,47%), maar de 7d-mediaan blijft negatief (-3,1%) zodat de stap-2-trigger nog niet vuurt. Greed zakte van 68 naar 50: de flush dooft uit, maar bevestiging ontbreekt. Het portfolio volgt BTC op de voet zonder noemenswaardig alt-lek.
 
-## Strategie van de AI (sinds 23-10-2026 22:01)
+## Strategie van de AI (sinds 23-10-2026 22:31)
 
-Ladder ongewijzigd: BTC 58% zolang het $80k-anker houdt (nu $81,2k), alts 30% (SOL 8, BCH 6, ETH 6, XRP 5, LINK 5), 12% cash. Stap-2-deploy van de cash pas bij 7d-mediaan >0 én breedte >50% groen gedurende 24u — nu -3,2%, dus wachten op bevestiging in plaats van anticiperen. Geen adds op 7d-hoogten (BCH range7d 74, PEPE/BONK extended na +7-8% 24u). De-risico alleen bij ankerbreuk <$80k of duurzaam negatieve 7d-mediaan. Kronos 55,7% is marginaal: richting negeren.
+Ladder ongewijzigd: BTC 58% zolang het $80k-anker houdt, alts 30% (SOL 8, BCH 6, ETH 6, XRP 5, LINK 5), 12% cash. Cash deployen pas bij 7d-mediaan >0 én breedte >50% groen gedurende 24u — nu -3,1%, dus wachten op bevestiging. Geen adds op 7d-hoogten (BCH range7d 73, PEPE/BONK extended na +7-8% 24u). De-risico alleen bij ankerbreuk <$80k of duurzaam negatieve 7d-mediaan. Kronos 55,7% is marginaal: richting negeren. Prioriteit: gat versus BTC dichten zonder alt-lek of top-chasing.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,12 +42,12 @@ _Relatief was dit venster een kleine winst (-1,56% vs BTC -1,91%) dankzij de cas
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,422.11 | 58.1% | -1.2% | 58.0% | +0.2% (83% omhoog) | Anker $80k houdt ~24u+; kern van de ladder, range7d_pos 10 geeft herstelruimte |
-| SOL/USD | $740.06 | 7.9% | -2.3% | 8.0% | +0.6% (83% omhoog) | Alt-kern, stabiliseert met de markt; pas vergroten na stap-2-trigger |
-| BCH/USD | $580.85 | 6.2% | -0.2% | 6.0% | -0.2% (17% omhoog) | Sterkste alt (+3,7% 24u), maar range7d 74 = geen add op 7d-hoog |
-| ETH/USD | $547.19 | 5.9% | -0.5% | 6.0% | -0.3% (17% omhoog) | Stabiliseert, behouden; vergroten pas bij 7d-mediaan >0 |
-| LINK/USD | $453.58 | 4.9% | -1.2% | 5.0% | +0.2% (83% omhoog) | Idem: pas vergroten na bevestigd herstel |
-| XRP/USD | $448.91 | 4.8% | -1.9% | 5.0% | -0.7% (0% omhoog) | Stabiel maar wacht op bevestiging; klein houden |
+| BTC/USD | $5,429.88 | 58.2% | -1.1% | 58.0% | +0.2% (83% omhoog) | Anker $80k houdt ($81,3k, range7d 14): kern van de ladder zolang geen breuk. |
+| SOL/USD | $740.06 | 7.9% | -2.3% | 8.0% | +0.6% (83% omhoog) | Volgt BTC (7d -0,3%), lekt niet meer; positie in de ladder handhaven. |
+| BCH/USD | $580.85 | 6.2% | -0.2% | 6.0% | -0.2% (17% omhoog) | Sterkste alt (7d +3,1%) maar range7d 73: houden, niet verhogen op 7d-hoogte. |
+| ETH/USD | $546.36 | 5.9% | -0.7% | 6.0% | -0.3% (17% omhoog) | Stabiliseert (24u +0,7%, range7d 35); blijft in de ladder. |
+| XRP/USD | $449.23 | 4.8% | -1.9% | 5.0% | -0.7% (0% omhoog) | 7d licht positief (+0,2%); neutrale ladderpositie. |
+| LINK/USD | $448.06 | 4.8% | -2.4% | 5.0% | +0.2% (83% omhoog) | Zwakste alt (7d -3,1%) maar bounceert licht; trimmen alleen bij nieuw lek versus BTC. |
 
 ## Orders deze run
 
@@ -57,6 +57,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 23-10-2026 22:31 | $9,333 | -6.67% | -2.37% | 0 |
 | 23-10-2026 22:01 | $9,331 | -6.69% | -2.57% | 0 |
 | 23-10-2026 21:31 | $9,341 | -6.59% | -2.52% | 0 |
 | 23-10-2026 21:01 | $9,350 | -6.49% | -2.39% | 0 |
@@ -68,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 23-10-2026 18:01 | $9,365 | -6.35% | -2.14% | 0 |
 | 23-10-2026 17:31 | $9,349 | -6.51% | -2.16% | 0 |
 | 23-10-2026 17:01 | $9,365 | -6.35% | -2.01% | 0 |
-| 23-10-2026 16:31 | $9,328 | -6.72% | -2.45% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
