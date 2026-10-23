@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 23-10-2026 06:31_
+_Laatst bijgewerkt: 23-10-2026 07:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,385.47** |
+| Waarde portefeuille | **$9,378.83** |
 | Cash | $2,619.58 (28%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-6.15%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.07% |
-| Verschil | -4.07% |
+| Rendement AI sinds 14-10-2026 13:02 | **-6.21%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.15% |
+| Verschil | -4.06% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-6.15%** |
+| Rendement deze periode | **-6.21%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -6.15% |
+| Daling vanaf de top ($10,000) | -6.21% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 50 (Neutral) |
-| Kronos-voorspelling | 33 munten (berekend om 06:01); richting op 4u goed: 53% (n=1287, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 257s; richting op 4u goed: 53% (n=1320, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-De flush verliest kracht maar is nog niet voorbij: slechts 3/33 munten groen over 24u (mediaan -1,6%) en de 7d-mediaan staat op -3,6%. BTC verdedigt het $80k-anker al uren op $81,6k en Greed zakte in één dag van 68 naar 50 — een capitulatie-signaal, maar de stap-2-triggers (Greed <40 of breedte >50% groen) zijn nog niet gevallen. Kronos (53,2%, onder drempel) weegt niet mee.
+De flush verliest kracht: BTC verdedigt het $80k-anker al ~24 uur op $81,5k, Greed zakte in één dag van 68 naar 50 (capitulatie-signaal) en de breedte verbetert naar 7/33 groen met een herstellende 24u-mediaan van -1,0%. Het herstel is echter nog niet bevestigd: de 7d-mediaan staat op -3,6% en BTC noteert onder zijn 20d/50d-gemiddelden, dus ik houd de ladder aan en wacht op de stap-2-triggers.
 
-## Strategie van de AI (sinds 23-10-2026 06:31)
+## Strategie van de AI (sinds 23-10-2026 07:01)
 
-Speelboek ongewijzigd: BTC 60% zolang het uurslot boven $80k sluit, bij een slot <$80k de-risico naar ~45%. BCH en SOL blijven op 6% basisgewicht; BCH behoudt zijn gewicht dankzij uitzonderlijke relatieve kracht (+1,4% 24u tegen 3/33 groen). De ~28% cash blijft actieve positie tot stap-2 vuurt: Greed <40 in de $80-82k-zone, óf breedte >50% groen plus 7d-mediaan > -5%. Geen top-chasing (DOT +4,2% op 7d-hoog genegeerd), geen adds op overboughte toppen. Volledige participatie pas na meerdaagse bevestiging om het gat versus BTC te dichten.
+Speelboek ongewijzigd: BTC 60% zolang het uurslot boven $80k sluit (nu $81,5k, ~24u verdedigd), de-risico naar ~45% bij ankerbreuk. BCH 6% vanwege uitzonderlijke relatieve kracht (+2,9% 24u), maar geen add nabij het 7d-hoog met RSI-1u ~72; SOL 6% basisgewicht (lekt niet vs BTC op 24u). Cash ~28% blijft actieve positie tot stap-2 vuurt: breedte >50% groen (nu 7/33) met 7d-mediaan >-5% (al voldaan), óf Greed <40 in de $80-82k-zone. Geen top-chasing op DOT/PEPE/BONK; volledige participatie pas na meerdaagse bevestiging om het gat versus BTC te dichten.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,9 +42,9 @@ _Relatief was dit venster een kleine winst (-1,56% vs BTC -1,91%) dankzij de cas
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,620.78 | 59.9% | -0.7% | 60.0% | -0.3% (50% omhoog) | Anker $80k houdt stand op $81,6k; kerngewicht volgens speelboek |
-| BCH/USD | $583.11 | 6.2% | +0.7% | 6.0% | -0.4% (33% omhoog) | Uitzonderlijke relatieve kracht (+1,4% 24u, +2,1% 7d); basisgewicht behouden |
-| SOL/USD | $562.01 | 6.0% | -1.7% | 6.0% | -0.4% (33% omhoog) | Basisgewicht na eerdere halvering; lekt licht versus BTC maar binnen tolerantie |
+| BTC/USD | $5,615.71 | 59.9% | -0.8% | 60.0% | +0.2% (83% omhoog) | Anker $80k 24u+ verdedigd op $81,5k; kerngewicht zolang uurslot >$80k, anders de-risico naar ~45% |
+| BCH/USD | $582.28 | 6.2% | +0.5% | 6.0% | -1.8% (0% omhoog) | Uitzonderlijke relatieve kracht (+2,9% 24u bij mediaan -1,0%), gewicht behouden maar geen add nabij 7d-hoog/RSI-1u ~72 |
+| SOL/USD | $561.27 | 6.0% | -1.9% | 6.0% | -0.3% (50% omhoog) | Basisgewicht; presteert op 24u gelijk aan BTC (-1,0% vs -1,5%), geen lek-reason om te trimmen |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 23-10-2026 07:01 | $9,379 | -6.21% | -2.15% | 0 |
 | 23-10-2026 06:31 | $9,385 | -6.15% | -2.07% | 0 |
 | 23-10-2026 06:01 | $9,398 | -6.02% | -1.90% | 0 |
 | 23-10-2026 05:31 | $9,387 | -6.13% | -1.89% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 23-10-2026 02:31 | $9,327 | -6.73% | -2.57% | 0 |
 | 23-10-2026 02:01 | $9,336 | -6.64% | -2.51% | 0 |
 | 23-10-2026 01:31 | $9,336 | -6.64% | -2.52% | 0 |
-| 23-10-2026 01:01 | $9,332 | -6.67% | -2.49% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
