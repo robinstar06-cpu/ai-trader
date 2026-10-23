@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-20T08:00:47.388320+00:00",
-      "time_local": "20-10-2026 10:00",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 55.0
-      },
-      "summary": "Marktbreedte blijft zeer zwak: slechts 6/33 munten groen over 24u (mediaan -1,26%) en de 7d-mediaan staat met -6,06% ruim onder de -5%-drempel. BTC toont relatieve kracht (7d -2,44% vs mediaan -6,06%) en houdt $81,4k, boven het $80k-anker; F&G zakt naar 55, onder de reduceerdrempel. Geen stap-2-trig",
-      "equity": 9417.14,
-      "prices": {
-        "BTC/USD": 81451.965
-      }
-    },
-    {
       "time": "2026-10-20T08:30:41.680014+00:00",
       "time_local": "20-10-2026 10:30",
       "model": "z-ai/glm-5.3",
@@ -1660,12 +1647,29 @@
         "BTC/USD": 81229.2615,
         "SOL/USD": 103.455
       }
+    },
+    {
+      "time": "2026-10-23T00:31:29.099466+00:00",
+      "time_local": "23-10-2026 02:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 60.0,
+        "SOL/USD": 6.0,
+        "BCH/USD": 6.0
+      },
+      "summary": "De marktbrede flush houdt aan: 0/33 munten groen over 24u (mediaan -4,76%) en de 7d-mediaan -4,20%, maar BTC verdedigt het $80k-anker op $81,2k vlak boven het 7d-laag. Opvallend is de sentiment-reset: Greed zakte van 68 naar 50, wat ruimte maakt voor een bodem, maar nog geen bevestiging geeft.",
+      "equity": 9327.11,
+      "prices": {
+        "SOL/USD": 103.725,
+        "BTC/USD": 81175.2695,
+        "BCH/USD": 275.3487075
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-23T00:01:36.470355+00:00",
-    "time_local": "23-10-2026 02:01",
-    "text": "Speelboek ongewijzigd, geen churn: BTC 60% zolang het uurslot boven $80k sluit; direct de-risico naar ~45% bij een slot <$80k. SOL/BCH blijven op 6% basisgewicht — verliezen (-2 a -3%) ruim binnen de 10-15% stop, verkoop alleen in een bounce, nooit midden in de flush. De 28% cash blijft droog kruit: add zodra Greed <40 in de $80-82k-zone of bij structurele breadth >50% groen, nooit op een 7d-hoog. Volledige participatie pas na meerdaagse herstelbevestiging; eerst het gat versus BTC stoppen."
+    "time": "2026-10-23T00:31:29.099466+00:00",
+    "time_local": "23-10-2026 02:31",
+    "text": "Speelboek ongewijzigd, geen churn. BTC blijft 60% zolang het uurslot boven $80k sluit; alleen bij een slot <$80k de-risico ik naar ~45%. SOL/BCH blijven op 6% basisgewicht — verliezen (-2 a -3%) ruim binnen de 10-15% stop, geen verkoop midden in de flush. De ~28% cash blijft droog kruit: ik add pas bij Greed <40 in de $80-82k-zone of bij structurele breadth >50% groen, nooit op een 7d-hoog. Volledige participatie pas na meerdaagse herstelbevestiging; eerst het gat versus BTC (-4,2pp) dichten."
   },
   "lessons": [
     "Speelboek-ladder blijft de kern: BTC 55-60% zolang het $80k-anker 12u+ houdt (stap 1), alts erbij pas bij 7d-mediaan > -5% én 24u-breedte >50% groen (stap 2, vuurde correct om 17:30), volledige participatie (stap 3) alleen na meerdaagse bevestiging.",

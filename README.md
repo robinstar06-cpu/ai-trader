@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 23-10-2026 02:01_
+_Laatst bijgewerkt: 23-10-2026 02:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,336.25** |
+| Waarde portefeuille | **$9,327.11** |
 | Cash | $2,619.58 (28%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-6.64%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.51% |
-| Verschil | -4.13% |
+| Rendement AI sinds 14-10-2026 13:02 | **-6.73%** |
+| Ter vergelijking: gewoon BTC vasthouden | -2.57% |
+| Verschil | -4.16% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-6.64%** |
+| Rendement deze periode | **-6.73%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -6.64% |
-| Model | z-ai/glm-5.3 |
+| Daling vanaf de top ($10,000) | -6.73% |
+| Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 50 (Neutral) |
-| Kronos-voorspelling | 33 munten in 251s; richting op 4u goed: 54% (n=1155, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 02:01); richting op 4u goed: 54% (n=1155, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-De marktbrede flush houdt aan (0/33 munten groen, mediaan -4,9%), maar BTC verdedigt het $80k-anker op $81,2k vlak boven het 7d-laag. Opvallend: Greed zakte in één dag van 68 naar 50 — de complacency wordt uitgewassen en mijn add-zone (<40) komt dichterbij. Kronos (53,7%, vrijwel muntworp) wijkt niet structureel af van mijn ankerbeeld; geen reden tot churn.
+De marktbrede flush houdt aan: 0/33 munten groen over 24u (mediaan -4,76%) en de 7d-mediaan -4,20%, maar BTC verdedigt het $80k-anker op $81,2k vlak boven het 7d-laag. Opvallend is de sentiment-reset: Greed zakte van 68 naar 50, wat ruimte maakt voor een bodem, maar nog geen bevestiging geeft.
 
-## Strategie van de AI (sinds 23-10-2026 02:01)
+## Strategie van de AI (sinds 23-10-2026 02:31)
 
-Speelboek ongewijzigd, geen churn: BTC 60% zolang het uurslot boven $80k sluit; direct de-risico naar ~45% bij een slot <$80k. SOL/BCH blijven op 6% basisgewicht — verliezen (-2 a -3%) ruim binnen de 10-15% stop, verkoop alleen in een bounce, nooit midden in de flush. De 28% cash blijft droog kruit: add zodra Greed <40 in de $80-82k-zone of bij structurele breadth >50% groen, nooit op een 7d-hoog. Volledige participatie pas na meerdaagse herstelbevestiging; eerst het gat versus BTC stoppen.
+Speelboek ongewijzigd, geen churn. BTC blijft 60% zolang het uurslot boven $80k sluit; alleen bij een slot <$80k de-risico ik naar ~45%. SOL/BCH blijven op 6% basisgewicht — verliezen (-2 a -3%) ruim binnen de 10-15% stop, geen verkoop midden in de flush. De ~28% cash blijft droog kruit: ik add pas bij Greed <40 in de $80-82k-zone of bij structurele breadth >50% groen, nooit op een 7d-hoog. Volledige participatie pas na meerdaagse herstelbevestiging; eerst het gat versus BTC (-4,2pp) dichten.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,18 +42,23 @@ _Onderpresteerde dit venster licht versus BTC (-0,26% vs +0,24%) en dat was grot
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,594.80 | 59.9% | -1.2% | 60.0% | -0.1% (50% omhoog) | Anker $80k houdt ($81,2k, RSI-1u 34): kernpositie zolang slot >$80k |
-| BCH/USD | $562.13 | 6.0% | -2.9% | 6.0% | -1.7% (0% omhoog) | Idem: basisgewicht houden, trimmen alleen in een bounce bij zwakke breedte |
-| SOL/USD | $559.74 | 6.0% | -2.1% | 6.0% | -0.1% (67% omhoog) | Basisgewicht; verlies binnen stop, geen verkoop midden in de flush |
+| BTC/USD | $5,586.75 | 59.9% | -1.3% | 60.0% | -0.1% (50% omhoog) | Anker $80k houdt stand op $81,2k; 60% basisgewicht aanhouden, de-risico pas bij slot <$80k. |
+| BCH/USD | $562.13 | 6.0% | -2.9% | 6.0% | -1.7% (0% omhoog) | Basisgewicht, verlies -2,9% binnen stop; wacht op stabilisatie voor actie. |
+| SOL/USD | $558.65 | 6.0% | -2.3% | 6.0% | -0.1% (67% omhoog) | Basisgewicht, verlies -2,3% binnen stop; geen verkoop midden in de flush. |
 
 ## Orders deze run
 
 Geen orders (verdeling blijft gelijk).
 
+## Meldingen
+
+- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 23-10-2026 02:31 | $9,327 | -6.73% | -2.57% | 0 |
 | 23-10-2026 02:01 | $9,336 | -6.64% | -2.51% | 0 |
 | 23-10-2026 01:31 | $9,336 | -6.64% | -2.52% | 0 |
 | 23-10-2026 01:01 | $9,332 | -6.67% | -2.49% | 0 |
@@ -65,7 +70,6 @@ Geen orders (verdeling blijft gelijk).
 | 22-10-2026 22:01 | $9,343 | -6.57% | -2.37% | 0 |
 | 22-10-2026 21:31 | $9,347 | -6.53% | -2.29% | 0 |
 | 22-10-2026 21:01 | $9,347 | -6.53% | -2.40% | 0 |
-| 22-10-2026 20:31 | $9,323 | -6.77% | -2.69% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
