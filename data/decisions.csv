@@ -1533,3 +1533,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-24T22:31:15.385884+00:00,25-10-2026 00:31,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,Kleine alt-positie; geen adds zonder breedte-bevestiging
 2026-10-24T22:31:15.385884+00:00,25-10-2026 00:31,z-ai/glm-5.3,SOL/USD,5.0,5.0,houden,,,"Relatief stevig vs peers, klein houden tot herstel bevestigd is"
 2026-10-24T22:31:15.385884+00:00,25-10-2026 00:31,z-ai/glm-5.3,XRP/USD,3.0,3.0,houden,,,Enige positie die groen is op 24u; klein houden
+2026-10-24T23:01:28.534188+00:00,25-10-2026 01:01,z-ai/glm-5.3,BCH/USD,4.0,4.0,houden,,,"24u-lek vs BTC maar 7d nog licht positief; klein houden, geen flush-verkoop"
+2026-10-24T23:01:28.534188+00:00,25-10-2026 01:01,z-ai/glm-5.3,BTC/USD,52.0,52.0,houden,,,"Anker $80k houdt (nu $80,5k, krap); 52% zolang dat standhoudt, bij breuk direct naar 35%"
+2026-10-24T23:01:28.534188+00:00,25-10-2026 01:01,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,"Klein houden; lekt licht vs BTC op 24u, trimmen alleen in bevestigde bounce"
+2026-10-24T23:01:28.534188+00:00,25-10-2026 01:01,z-ai/glm-5.3,SOL/USD,5.0,5.0,houden,,,"Klein; presteert dicht bij BTC, wacht op breedtebevestiging voor herdeploy"
+2026-10-24T23:01:28.534188+00:00,25-10-2026 01:01,z-ai/glm-5.3,XRP/USD,3.0,3.0,houden,,,"Enige positie groen op 24u (+0,28%); klein houden"
