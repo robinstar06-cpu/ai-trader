@@ -1508,3 +1508,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-24T20:01:22.139229+00:00,24-10-2026 22:01,,ETH/USD,5.8,5.8,houden,,,
 2026-10-24T20:01:22.139229+00:00,24-10-2026 22:01,,SOL/USD,5.0,5.0,houden,,,
 2026-10-24T20:01:22.139229+00:00,24-10-2026 22:01,,XRP/USD,3.0,3.0,houden,,,
+2026-10-24T20:31:19.360728+00:00,24-10-2026 22:31,z-ai/glm-5.3,BCH/USD,4.0,4.0,houden,,,"Relatief sterk op 7d (-0,8%); houden zolang anker houdt"
+2026-10-24T20:31:19.360728+00:00,24-10-2026 22:31,z-ai/glm-5.3,BTC/USD,48.0,48.0,houden,,,"Anker houdt op $80,4k; kernpositie zolang $80k niet breekt"
+2026-10-24T20:31:19.360728+00:00,24-10-2026 22:31,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,"Kleine positie; lekt vs BTC, trimmen alleen in bevestigde bounce"
+2026-10-24T20:31:19.360728+00:00,24-10-2026 22:31,z-ai/glm-5.3,SOL/USD,5.0,5.0,houden,,,Kleine positie; wacht op bounce richting 24u-grens voor eventuele exit
+2026-10-24T20:31:19.360728+00:00,24-10-2026 22:31,z-ai/glm-5.3,XRP/USD,3.0,3.0,houden,,,"Sterkste 7d van het pakket (-0,85% vs BTC -1,36%); houden"
