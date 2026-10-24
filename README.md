@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 24-10-2026 07:31_
+_Laatst bijgewerkt: 24-10-2026 08:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,255.69** |
+| Waarde portefeuille | **$9,253.66** |
 | Cash | $1,138.09 (12%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-7.44%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.18% |
-| Verschil | -4.26% |
+| Rendement AI sinds 14-10-2026 13:02 | **-7.46%** |
+| Ter vergelijking: gewoon BTC vasthouden | -3.19% |
+| Verschil | -4.27% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-7.44%** |
+| Rendement deze periode | **-7.46%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -7.44% |
+| Daling vanaf de top ($10,000) | -7.46% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 51 (Neutral) |
-| Kronos-voorspelling | 33 munten (berekend om 07:01); richting op 4u goed: 54% (n=1547, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 247s; richting op 4u goed: 54% (n=1543, 50% = gokken) |
 
 ## Strategie van de AI (sinds 24-10-2026 00:31)
 
@@ -23,27 +23,27 @@ Ladder ongewijzigd: BTC 58% zolang het $80k-anker houdt (nu $81,2k, range7d 9 = 
 
 ## Lessen uit de dagelijkse evaluatie
 
-_Relatief was dit venster een kleine winst (-1,56% vs BTC -1,91%) dankzij de cashbuffer en de BCH-houder, maar absoluut nog steeds verlies: het perioderendement zakte naar -6,02% op dag 9 en het gat versus BTC bedraagt ~4,1pp. De ladder hield stand — BTC 60% terwijl het $80k-anker urenlang op $81,2-81,7k verdedigd werd — al lekte SOL licht en gaf de mechanische trim van BCH (de enige groene munt bij 0/33 rood) upside weg. De flush verliest kracht (24u-mediaan -6% → -2,5%, Greed in één dag 68 → 50): kapitulatie stapelt zich op, dus de stap-2-deployment moet nu concreet klaarstaan zodra breedte >_
+_De BTC-kern was correct (het $80k-anker ~24u verdedigd, BTC was de beste holding), maar mijn stap-2-altinzet bij de eerste breedte-piek was prematuur: alle vijf alts lekten vervolgens versus BTC en kostten ~0,3pp extra onderprestatie. Ruim 20 uur lang bestempelde ik het flush-einde als 'naderend' terwijl de 7d-mediaan terugverslechterde naar -4,2% — het herstel is nog steeds niet bevestigd. Met -7,46% op dag 10 en ~4,3pp achter op BTC is het +20%-doel alleen haalbaar als ik het alt-lek stop en volledig meeneem in een écht bevestigd herstel._
 
-- Speelboek-ladder blijft de kern: BTC 55-60% zolang het $80k-anker 12u+ houdt (dit venster ~24u lang correct), alts erbij pas bij 7d-mediaan > -5% én 24u-breedte >50% groen, volledige participatie alleen na meerdaagse bevestiging.
-- Schommel niet op 24u-breedte-ruis zodra stap 1 actief is: breedte stond ~18u op 0/33 groen terwijl BTC het anker verdedigde en het portfolio BTC versloeg. De-risico het BTC-gewicht alleen bij ankerbreuk (<$80k) of duurzaam negatieve 7d-mediaan.
-- Onderscheid alts op relatieve kracht in een flush: trim alts die lekken versus BTC meteen (SOL, correct gehalveerd), maar een alt die als enige groen blijft tegen 0/33 rood (BCH: +2,5% → +4% na de trim) toont uitzonderlijke kracht en mag zijn tactisc
+- Speelboek-ladder: BTC 55-60% zolang het $80k-anker houdt (dit venster ~24u correct), maar verscherp stap 2: alts pas als 24u-breedte >50% groen staat op 2-3 opeenvolgende metingen én de 7d-mediaan daadwerkelijk verbetert — de enkele piek van 24/33 gr
+- Schommel niet op 24u-breedte-ruis zodra stap 1 actief is: breedte zwierf dit venster tussen 13/33 en 27/33 groen zonder ankerbreuk. De-risico het BTC-gewicht alleen bij ankerbreuk (<$80k) of een duurzaam verslechterende 7d-mediaan.
+- Relative strength van alts in een flush is vergankelijk: BCH ging van uitzonderlijk sterk (+4%) naar -1,4%/-3,2% dit venster. Trim elke alt — ook de 'sterkste' — zodra hij 12u+ lekt vs BTC; oude kracht is geen reden om te blijven houden.
 - Nooit adds op een overboughte top (7d-hoog + RSI-1u >75 + Greed >=60) en nooit een verliezende positie vergroten; verkoop verliezers richting de 24u-grens in een stabilisatie of bounce, nooit midden in een flush.
-- Kapitulatie-signalen herkennen en erop anticiperen: Greed 68 → 50 in één dag plus herstellende 24u-mediaan (-6% → -2,5%) wijst op een flush-einde. Zet nu een concreet deployment-plan klaar (limiet-orders onder het breakout-niveau, stap-2 alts zodra b
-- Cash is een actieve positie mét prijs (~0,3-0,4% per stijgend venster versus BTC, dit venster juist een voordeel): houd ~25-30% aan tot de stap-2-triggers vuren en gebruik het nooit voor het kopen van 7d-hoogten.
-- Kronos scoorde 53,2% over 48u — nog altijd onder de 55%-drempel: negeer zijn richtingvoorspellingen zolang de rolling accuracy niet structureel >55% is en vertrouw op anker-, breedte- en 7d-mediane-signalen.
-- Doelrekenkunst: -6,02% op dag 9 vraagt ~+28% in 19 dagen — alleen haalbaar bij volledige participatie in een bevestigd herstel. Prioriteit nu: het gat versus BTC dichten (~4,1pp achter) door geen alt-lek en geen top-chasing; elke beslissing moet eers
+- Kapitulatie (Greed 68→50) markeert het einde van de daling, niet het begin van de rally: dit venster stagneerde het herstel ~20u en de 7d-mediaan verslechterde weer naar -4,2%. Deploy stap 2 daarom in twee tranches: helft bij de trigger, rest pas na 
+- Cash is een actieve positie mét prijs: dit venster was cash opnieuw een voordeel (~0,3-0,4% per stijgend venster). Houd een cashvloer van ~15% tot het herstel meerdaags bevestigd is en gebruik het nooit voor het kopen van 7d-hoogten.
+- Kronos scoorde 53,9% over 48h — onder de 55%-drempel en vrijwel een coin flip: negeer zijn richtingvoorspellingen zolang de rolling accuracy niet structureel >55% is en vertrouw op anker-, breedte- en 7d-mediane-signalen.
+- Doelrekenkunst: -7,46% op dag 10 vraagt ~+30% in 18 dagen — alleen haalbaar bij volledige participatie in een méérdaags bevestigd herstel. Sluit eerst het gat versus BTC (~4,3pp) door geen alt-lek bij onbevestigd herstel en geen top-chasing; elke bes
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,385.14 | 58.2% | -1.9% | 58.2% | +0.4% (83% omhoog) |  |
-| SOL/USD | $730.64 | 7.9% | -3.5% | 7.9% | +0.4% (67% omhoog) |  |
-| BCH/USD | $566.90 | 6.1% | -2.6% | 6.1% | -0.1% (50% omhoog) |  |
-| ETH/USD | $542.43 | 5.9% | -1.4% | 5.9% | -0.6% (17% omhoog) |  |
-| LINK/USD | $447.31 | 4.8% | -2.5% | 4.8% | +0.0% (67% omhoog) |  |
-| XRP/USD | $445.19 | 4.8% | -2.8% | 4.8% | +0.2% (50% omhoog) |  |
+| BTC/USD | $5,386.39 | 58.2% | -1.9% | 58.2% | +0.6% (83% omhoog) |  |
+| SOL/USD | $731.34 | 7.9% | -3.4% | 7.9% | +0.0% (50% omhoog) |  |
+| BCH/USD | $566.90 | 6.1% | -2.6% | 6.1% | +0.8% (83% omhoog) |  |
+| ETH/USD | $542.69 | 5.9% | -1.3% | 5.9% | +0.2% (67% omhoog) |  |
+| LINK/USD | $444.20 | 4.8% | -3.2% | 4.8% | +0.3% (67% omhoog) |  |
+| XRP/USD | $444.05 | 4.8% | -3.0% | 4.8% | -0.0% (67% omhoog) |  |
 
 ## Orders deze run
 
@@ -51,15 +51,16 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Dagelijkse evaluatie mislukt: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out; deepseek-ai/deepseek-v4.1-flash: overgeslagen (tijdslimiet)
+- Dagelijkse evaluatie gedaan door z-ai/glm-5.3.
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+- AI-fout: z-ai/glm-5.3: HTTP 500 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"urn:nvcf-worker-service:problem-details:internal-server-error","title":"Internal Server Error","status":500,"detail":"I
 - AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 24-10-2026 08:01 | $9,254 | -7.46% | -3.19% | 0 |
 | 24-10-2026 07:31 | $9,256 | -7.44% | -3.18% | 0 |
 | 24-10-2026 07:01 | $9,271 | -7.29% | -3.04% | 0 |
 | 24-10-2026 06:31 | $9,267 | -7.33% | -3.05% | 0 |
@@ -71,7 +72,6 @@ Geen orders (verdeling blijft gelijk).
 | 24-10-2026 03:31 | $9,260 | -7.40% | -3.18% | 0 |
 | 24-10-2026 03:01 | $9,247 | -7.53% | -3.25% | 0 |
 | 24-10-2026 02:31 | $9,274 | -7.26% | -3.10% | 0 |
-| 24-10-2026 02:01 | $9,298 | -7.02% | -2.72% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
