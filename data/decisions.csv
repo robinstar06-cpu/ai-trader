@@ -1493,3 +1493,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-24T18:31:18.964460+00:00,24-10-2026 20:31,,ETH/USD,5.8,5.8,houden,,,
 2026-10-24T18:31:18.964460+00:00,24-10-2026 20:31,,SOL/USD,5.0,5.0,houden,,,
 2026-10-24T18:31:18.964460+00:00,24-10-2026 20:31,,XRP/USD,3.0,3.0,houden,,,
+2026-10-24T19:01:28.032194+00:00,24-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,3.9,4.0,houden,,,"Relatief sterk (7d -1%), klein laten tot bounce"
+2026-10-24T19:01:28.032194+00:00,24-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,48.1,48.0,houden,,,"Ankerpositie; $80k houdt net, geen ankerbreuk dus niet afbouwen"
+2026-10-24T19:01:28.032194+00:00,24-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.8,6.0,houden,,,"Klein houden; sterkste alt maar lekt licht, niet midden in flush verkopen"
+2026-10-24T19:01:28.032194+00:00,24-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,5.0,houden,,,Kleine positie aanhouden tot stabilisatie voor trim
+2026-10-24T19:01:28.032194+00:00,24-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,3.0,3.0,houden,,,"Klein, houdt redelijk stand; wacht op stabilisatie om te trimmen"
