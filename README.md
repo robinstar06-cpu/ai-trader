@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 24-10-2026 11:31_
+_Laatst bijgewerkt: 24-10-2026 12:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,206.30** |
+| Waarde portefeuille | **$9,216.10** |
 | Cash | $3,139.62 (34%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-7.94%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.36% |
-| Verschil | -4.58% |
+| Rendement AI sinds 14-10-2026 13:02 | **-7.84%** |
+| Ter vergelijking: gewoon BTC vasthouden | -3.33% |
+| Verschil | -4.51% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-7.94%** |
+| Rendement deze periode | **-7.84%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -7.94% |
+| Daling vanaf de top ($10,000) | -7.84% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 51 (Neutral) |
-| Kronos-voorspelling | 33 munten (berekend om 11:01); richting op 4u goed: 52% (n=1550, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 226s; richting op 4u goed: 51% (n=1550, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-Markt in volledige flush: 0/33 munten groen op 24u (mediaan -3,99%) en de 7d-mediaan verslechterd naar -5,52%. BTC test het $80k-anker op $80,5k, op zijn 7d-laag, terwijl alle alts op 24u vs BTC lekken. De systematische de-risktrigger (duurzaam verslechterende 7d-mediaan) is geraakt; Greed 51 betekent geen sentiment-capitulatie, dus voorzichtig blijven.
+Volledige flush gaat door: 0/33 munten groen op 24u (mediaan -3,73%) en BTC test het $80k-anker op $80,5k met RSI-1u 36 en range7d_pos 0,75. De 7d-mediaan stabiliseert licht (-5,52%→-5,42%) en het laatste uur is de bloeding gestopt (ch_1h ~0%), maar nergens is herstel bevestigd. Cash blijft dus een actieve positie tot de herdeploytriggers afgaan.
 
-## Strategie van de AI (sinds 24-10-2026 11:31)
+## Strategie van de AI (sinds 24-10-2026 12:01)
 
-De-risktrigger geraakt: 7d-mediaan -4,2%→-5,5%, breedte 0/33 groen. BTC 58→48% (anker $80k op scherp), LINK volledig uit (12u+ lek vs BTC, slechtste P/L), SOL/BCH/XRP getrimd, ETH aangehouden (lekt nauwelijks vs BTC). Cash ~34% als actieve positie. Herdeploy in twee tranches bij bevestigd herstel: breedte >50% groen op 2-3 opeenvolgende metingen én verbeterende 7d-mediaan. Bij ankerbreuk <$80k BTC verder naar ~35%.
+Geen extra de-risico: anker houdt ($80,5k > $80k) en de 7d-mediaan verslechtert niet meer. BTC 48% ankerpositie; ETH aangehouden (enige alt die niet lekt vs BTC); SOL/BCH/XRP blijven klein — die verkoop ik richting de 24u-grens bij de eerstvolgende stabilisatie of bounce, nooit midden in de flush. Herdeploy in twee tranches zodra breedte >50% groen staat op 2-3 opeenvolgende metingen én de 7d-mediaan verbetert. Bij ankerbreuk <$80k BTC direct naar ~35%. Kronos (50,8%) negeren.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,26 +42,21 @@ _De BTC-kern was correct (het $80k-anker ~24u verdedigd, BTC was de beste holdin
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,422.86 | 48.0% | -2.1% | 48.0% | +0.5% (100% omhoog) | Anker $80k op scherp (7d-laag); 7d-mediaan-trigger geraakt dus gewicht omlaag, herstel-exposure behouden |
-| ETH/USD | $539.62 | 5.9% | -1.9% | 6.0% | +0.3% (83% omhoog) | Sterkste major: lekt nauwelijks vs BTC (-0,2pp 24u); behouden |
-| SOL/USD | $460.71 | 5.0% | -4.4% | 5.0% | +1.6% (100% omhoog) | Trim: lek vs BTC en op 7d-laag; klein houden voor bounce |
-| BCH/USD | $366.65 | 4.0% | -3.3% | 4.0% | -0.2% (67% omhoog) | 7d-relatieve kracht erodeert (24u -3,7%); trim naar middenpositie |
-| XRP/USD | $276.84 | 3.0% | -3.5% | 3.0% | +0.5% (83% omhoog) | Mild lek vs BTC; trimmen, kleine positie |
+| BTC/USD | $4,431.20 | 48.1% | -1.9% | 48.0% | +0.1% (50% omhoog) | Anker $80k houdt nog; kernpositie, alleen naar ~35% trimmen bij breuk <$80k. |
+| ETH/USD | $540.61 | 5.9% | -1.7% | 6.0% | -0.2% (50% omhoog) | Enige alt die niet lekt vs BTC (24u -1,23% vs -1,28%); aangehouden. |
+| SOL/USD | $461.40 | 5.0% | -4.2% | 5.0% | +1.6% (100% omhoog) | Klein restant dat lekt vs BTC; verkopen bij bounce richting 24u-grens, niet in de flush. |
+| BCH/USD | $366.65 | 4.0% | -3.3% | 4.0% | +0.3% (83% omhoog) | Relatieve kracht verdwijnt; wachten op bounce om te trimmen, geen adds op verliezer. |
+| XRP/USD | $276.62 | 3.0% | -3.6% | 3.0% | +0.8% (100% omhoog) | Klein restant; zelfde regime — pas actie bij stabilisatie, niet midden in de flush. |
 
 ## Orders deze run
 
-| Munt | Actie | Bedrag | Resultaat |
-|---|---|---|---|
-| BCH/USD | sell | $197.01 | verkocht 0.712427493 |
-| BTC/USD | sell | $947.87 | verkocht 0.011784320 |
-| LINK/USD | close | $435.27 | verkocht (alles) |
-| SOL/USD | sell | $263.61 | verkocht 2.602301967 |
-| XRP/USD | sell | $164.72 | verkocht 128.927047589 |
+Geen orders (verdeling blijft gelijk).
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 24-10-2026 12:01 | $9,216 | -7.84% | -3.33% | 0 |
 | 24-10-2026 11:31 | $9,206 | -7.94% | -3.36% | 5 |
 | 24-10-2026 11:01 | $9,238 | -7.62% | -3.25% | 0 |
 | 24-10-2026 10:31 | $9,238 | -7.62% | -3.13% | 0 |
@@ -73,7 +68,6 @@ _De BTC-kern was correct (het $80k-anker ~24u verdedigd, BTC was de beste holdin
 | 24-10-2026 07:31 | $9,256 | -7.44% | -3.18% | 0 |
 | 24-10-2026 07:01 | $9,271 | -7.29% | -3.04% | 0 |
 | 24-10-2026 06:31 | $9,267 | -7.33% | -3.05% | 0 |
-| 24-10-2026 06:01 | $9,281 | -7.19% | -2.86% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
