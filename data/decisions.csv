@@ -1518,3 +1518,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-24T21:01:28.257199+00:00,24-10-2026 23:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.8,6.0,houden,,,"Kleine positie, verkoop pas in bevestigde bounce richting 24u-grens."
 2026-10-24T21:01:28.257199+00:00,24-10-2026 23:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,5.0,houden,,,"Lekt licht vs BTC; vasthouden tot stabilisatie, niet midden in flush verkopen."
 2026-10-24T21:01:28.257199+00:00,24-10-2026 23:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,3.0,3.0,houden,,,"Sterkste alt in het venster (+0,4% 7d); kleine kern behouden."
+2026-10-24T21:31:06.326197+00:00,24-10-2026 23:31,z-ai/glm-5.3,BCH/USD,4.0,4.0,houden,,,Oude relatieve kracht is vergankelijk; klein houden
+2026-10-24T21:31:06.326197+00:00,24-10-2026 23:31,z-ai/glm-5.3,BTC/USD,48.0,48.0,houden,,,"Anker houdt ($80,4k); gewicht pas omlaag bij breuk <$80k"
+2026-10-24T21:31:06.326197+00:00,24-10-2026 23:31,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,"Lekt vs BTC maar verkoop alleen in bevestigde bounce, niet midden in flush"
+2026-10-24T21:31:06.326197+00:00,24-10-2026 23:31,z-ai/glm-5.3,SOL/USD,5.0,5.0,houden,,,"Zelfde regel: houden tot bounce, geen add zonder breedte-bevestiging"
+2026-10-24T21:31:06.326197+00:00,24-10-2026 23:31,z-ai/glm-5.3,XRP/USD,3.0,3.0,houden,,,"Sterkste alt op 7d (+0,4%) maar geen add zonder bevestiging"
