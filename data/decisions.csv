@@ -1513,3 +1513,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-24T20:31:19.360728+00:00,24-10-2026 22:31,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,"Kleine positie; lekt vs BTC, trimmen alleen in bevestigde bounce"
 2026-10-24T20:31:19.360728+00:00,24-10-2026 22:31,z-ai/glm-5.3,SOL/USD,5.0,5.0,houden,,,Kleine positie; wacht op bounce richting 24u-grens voor eventuele exit
 2026-10-24T20:31:19.360728+00:00,24-10-2026 22:31,z-ai/glm-5.3,XRP/USD,3.0,3.0,houden,,,"Sterkste 7d van het pakket (-0,85% vs BTC -1,36%); houden"
+2026-10-24T21:01:28.257199+00:00,24-10-2026 23:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,4.0,4.0,houden,,,"Relatief sterk op 7d (+0,9%); kleine positie aanhouden."
+2026-10-24T21:01:28.257199+00:00,24-10-2026 23:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,48.0,48.0,houden,,,"Anker houdt $80k; niet verhogen midden in de flush, niet verlagen zonder ankerbreuk."
+2026-10-24T21:01:28.257199+00:00,24-10-2026 23:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.8,6.0,houden,,,"Kleine positie, verkoop pas in bevestigde bounce richting 24u-grens."
+2026-10-24T21:01:28.257199+00:00,24-10-2026 23:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,5.0,houden,,,"Lekt licht vs BTC; vasthouden tot stabilisatie, niet midden in flush verkopen."
+2026-10-24T21:01:28.257199+00:00,24-10-2026 23:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,3.0,3.0,houden,,,"Sterkste alt in het venster (+0,4% 7d); kleine kern behouden."
