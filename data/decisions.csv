@@ -1408,3 +1408,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-24T10:01:23.267204+00:00,24-10-2026 12:01,z-ai/glm-5.3,ETH/USD,5.9,6.0,houden,,,"Enige alt die niet lekt vs BTC (24u -1,23% vs -1,28%); aangehouden."
 2026-10-24T10:01:23.267204+00:00,24-10-2026 12:01,z-ai/glm-5.3,SOL/USD,5.0,5.0,houden,,,"Klein restant dat lekt vs BTC; verkopen bij bounce richting 24u-grens, niet in de flush."
 2026-10-24T10:01:23.267204+00:00,24-10-2026 12:01,z-ai/glm-5.3,XRP/USD,3.0,3.0,houden,,,"Klein restant; zelfde regime — pas actie bij stabilisatie, niet midden in de flush."
+2026-10-24T10:31:18.439647+00:00,24-10-2026 12:31,,BCH/USD,4.0,4.0,houden,,,
+2026-10-24T10:31:18.439647+00:00,24-10-2026 12:31,,BTC/USD,48.1,48.1,houden,,,
+2026-10-24T10:31:18.439647+00:00,24-10-2026 12:31,,ETH/USD,5.9,5.9,houden,,,
+2026-10-24T10:31:18.439647+00:00,24-10-2026 12:31,,SOL/USD,5.0,5.0,houden,,,
+2026-10-24T10:31:18.439647+00:00,24-10-2026 12:31,,XRP/USD,3.0,3.0,houden,,,
