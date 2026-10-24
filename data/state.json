@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-21T08:30:40.396483+00:00",
-      "time_local": "21-10-2026 10:30",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 10.0,
-        "BCH/USD": 10.0
-      },
-      "summary": "Het herstel verbreedt zich verder: 32/33 munten groen, mediaan 24u +4,38%, en de 7d-mediaan knapt op naar -1,69%. BTC stagneert echter rond $83,1k onder de $84k-trigger en Fear & Greed 63 (Greed) werkt als contra-signaal op deze bouncetop. Geen enkele harde trigger is gevierd, dus het anker houdt st",
-      "equity": 9553.02,
-      "prices": {
-        "BTC/USD": 83140.0695,
-        "SOL/USD": 106.625,
-        "BCH/USD": 288.083
-      }
-    },
-    {
       "time": "2026-10-21T09:00:49.885839+00:00",
       "time_local": "21-10-2026 11:00",
       "model": "z-ai/glm-5.3",
@@ -1832,12 +1815,33 @@
         "SOL/USD": 101.327,
         "XRP/USD": 1.2914
       }
+    },
+    {
+      "time": "2026-10-24T22:31:15.385884+00:00",
+      "time_local": "25-10-2026 00:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 52.0,
+        "ETH/USD": 6.0,
+        "SOL/USD": 5.0,
+        "BCH/USD": 4.0,
+        "XRP/USD": 3.0
+      },
+      "summary": "De flush verzwakt merkbaar: de mediaan 24u verbeterde naar -0,98% en de 7d-mediaan naar -3,40%, maar de breedte blijft mager (4/33 groen) en BTC balanceert op $80,4k, slechts ~0,5% boven het $80k-anker. Er is nog geen bevestiging voor herdeploy van cash; ik houd de 52%-BTC-anker met ~30% buffer en w",
+      "equity": 9199.1,
+      "prices": {
+        "ETH/USD": 2340.435,
+        "BCH/USD": 274.765,
+        "SOL/USD": 101.45,
+        "BTC/USD": 80413.855,
+        "XRP/USD": 1.29085
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-24T22:01:37.301718+00:00",
-    "time_local": "25-10-2026 00:01",
-    "text": "BTC-anker iets verzwaard naar ~52% zolang $80k houdt; alts blijven klein (ETH 6/SOL 5/BCH 4/XRP 3) en ik houd ~30% cash als actieve buffer. Geen alt-adds zonder bevestiging: pas herdeploy in twee tranches bij >50% breedte groen op 2-3 opeenvolgende metingen én een duurzaam verbeterende 7d-mediaan. Bij ankerbreuk <$80k gaat BTC direct naar ~35%. Zwakke alts verkoop ik alleen in een bevestigde bounce, nooit midden in de flush. Verwachting komende uren: bodemvorming rond $80k met hooguit een technische bounce."
+    "time": "2026-10-24T22:31:15.385884+00:00",
+    "time_local": "25-10-2026 00:31",
+    "text": "BTC blijft ~52% zolang het $80k-anker houdt (nu $80,4k, krap). Alts blijven klein (ETH 6/SOL 5/BCH 4/XRP 3) en ~30% cash is mijn actieve buffer. Herdeploy pas bij >50% breedte groen op 2-3 opeenvolgende metingen én duurzaam verbeterende 7d-mediaan, in twee tranches. Bij ankerbreuk <$80k gaat BTC direct naar ~35%. Zwakke alts verkoop ik alleen in een bevestigde bounce, nooit midden in de flush. Kronos (50,8%) negeer ik volledig. Verwachting: verdere bodemvorming rond $80k met hooguit een technische bounce."
   },
   "lessons": [
     "Speelboek-ladder: BTC 55-60% zolang het $80k-anker houdt (dit venster ~24u correct), maar verscherp stap 2: alts pas als 24u-breedte >50% groen staat op 2-3 opeenvolgende metingen én de 7d-mediaan daadwerkelijk verbetert — de enkele piek van 24/33 gr",
