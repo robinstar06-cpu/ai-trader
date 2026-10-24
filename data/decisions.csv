@@ -1523,3 +1523,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-24T21:31:06.326197+00:00,24-10-2026 23:31,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,"Lekt vs BTC maar verkoop alleen in bevestigde bounce, niet midden in flush"
 2026-10-24T21:31:06.326197+00:00,24-10-2026 23:31,z-ai/glm-5.3,SOL/USD,5.0,5.0,houden,,,"Zelfde regel: houden tot bounce, geen add zonder breedte-bevestiging"
 2026-10-24T21:31:06.326197+00:00,24-10-2026 23:31,z-ai/glm-5.3,XRP/USD,3.0,3.0,houden,,,"Sterkste alt op 7d (+0,4%) maar geen add zonder bevestiging"
+2026-10-24T22:01:37.301718+00:00,25-10-2026 00:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,4.0,4.0,houden,,,Relatief sterk (range7d_pos 36) maar klein houden
+2026-10-24T22:01:37.301718+00:00,25-10-2026 00:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,48.0,52.0,buy,366.87,gekocht $366.87,"Anker houdt $80k, veiligste exposure; licht verhoogd volgens speelboek-ladder"
+2026-10-24T22:01:37.301718+00:00,25-10-2026 00:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.8,6.0,houden,,,"Klein houden, lekt maar niet midden in flush verkopen"
+2026-10-24T22:01:37.301718+00:00,25-10-2026 00:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,5.0,houden,,,"Klein, wacht op bevestigde bounce voor trim"
+2026-10-24T22:01:37.301718+00:00,25-10-2026 00:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,3.0,3.0,houden,,,"Vlakste 7d (0,03%), kleine positie behouden"
