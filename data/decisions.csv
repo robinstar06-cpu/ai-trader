@@ -1538,3 +1538,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-24T23:01:28.534188+00:00,25-10-2026 01:01,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,"Klein houden; lekt licht vs BTC op 24u, trimmen alleen in bevestigde bounce"
 2026-10-24T23:01:28.534188+00:00,25-10-2026 01:01,z-ai/glm-5.3,SOL/USD,5.0,5.0,houden,,,"Klein; presteert dicht bij BTC, wacht op breedtebevestiging voor herdeploy"
 2026-10-24T23:01:28.534188+00:00,25-10-2026 01:01,z-ai/glm-5.3,XRP/USD,3.0,3.0,houden,,,"Enige positie groen op 24u (+0,28%); klein houden"
+2026-10-24T23:31:14.458433+00:00,25-10-2026 01:31,z-ai/glm-5.3,BCH/USD,4.0,4.0,houden,,,Houd 4% tot bevestigde bounce; lekt vs BTC maar flush-verkoop is verboden
+2026-10-24T23:31:14.458433+00:00,25-10-2026 01:31,z-ai/glm-5.3,BTC/USD,52.0,52.0,houden,,,"Anker $80k houdt ($80,6k); kernpositie blijft 52% volgens de ladder"
+2026-10-24T23:31:14.458433+00:00,25-10-2026 01:31,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,"Kleine alt-houding; pas trimmen in bevestigde bounce, niet midden in flush"
+2026-10-24T23:31:14.458433+00:00,25-10-2026 01:31,z-ai/glm-5.3,SOL/USD,5.0,5.0,houden,,,Idem: houden tot bounce of 12u+ lek vs BTC
+2026-10-24T23:31:14.458433+00:00,25-10-2026 01:31,z-ai/glm-5.3,XRP/USD,3.0,3.0,houden,,,"Relatief sterkste alt (24u -0,06%); kleine houding"
