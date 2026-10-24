@@ -1397,3 +1397,9 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-24T09:01:23.138289+00:00,24-10-2026 11:01,,LINK/USD,4.8,4.8,houden,,,
 2026-10-24T09:01:23.138289+00:00,24-10-2026 11:01,,SOL/USD,7.9,7.9,houden,,,
 2026-10-24T09:01:23.138289+00:00,24-10-2026 11:01,,XRP/USD,4.8,4.8,houden,,,
+2026-10-24T09:31:13.813769+00:00,24-10-2026 11:31,z-ai/glm-5.3,BCH/USD,6.1,4.0,sell,197.01,verkocht 0.712427493,"7d-relatieve kracht erodeert (24u -3,7%); trim naar middenpositie"
+2026-10-24T09:31:13.813769+00:00,24-10-2026 11:31,z-ai/glm-5.3,BTC/USD,58.3,48.0,sell,947.87,verkocht 0.011784320,"Anker $80k op scherp (7d-laag); 7d-mediaan-trigger geraakt dus gewicht omlaag, herstel-exposure behouden"
+2026-10-24T09:31:13.813769+00:00,24-10-2026 11:31,z-ai/glm-5.3,ETH/USD,5.9,6.0,houden,,,"Sterkste major: lekt nauwelijks vs BTC (-0,2pp 24u); behouden"
+2026-10-24T09:31:13.813769+00:00,24-10-2026 11:31,z-ai/glm-5.3,LINK/USD,4.7,0.0,close,435.27,verkocht (alles),
+2026-10-24T09:31:13.813769+00:00,24-10-2026 11:31,z-ai/glm-5.3,SOL/USD,7.9,5.0,sell,263.61,verkocht 2.602301967,Trim: lek vs BTC en op 7d-laag; klein houden voor bounce
+2026-10-24T09:31:13.813769+00:00,24-10-2026 11:31,z-ai/glm-5.3,XRP/USD,4.8,3.0,sell,164.72,verkocht 128.927047589,"Mild lek vs BTC; trimmen, kleine positie"
