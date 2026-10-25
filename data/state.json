@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-21T18:31:19.481277+00:00",
-      "time_local": "21-10-2026 20:31",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 12.0,
-        "BCH/USD": 12.0
-      },
-      "summary": "BTC verdedigt de $84k-breakout op $84,7k (7d-hoog) met uitzonderlijke breedte (32/33 groen, 7d-mediaan +3,7%), maar RSI-1u 81 en Greed 63 maken bijkopen op deze niveaus onverstandig. Kronos voorspelt een dip, maar is met 35% raak de afgelopen 48u vaker fout dan goed, dus weegt nauwelijks. Ik houd de",
-      "equity": 9683.23,
-      "prices": {
-        "SOL/USD": 109.065,
-        "BCH/USD": 287.75,
-        "BTC/USD": 84709.995
-      }
-    },
-    {
       "time": "2026-10-21T19:01:18.388547+00:00",
       "time_local": "21-10-2026 21:01",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1896,12 +1879,33 @@
         "BCH/USD": 279.5155,
         "XRP/USD": 1.29955
       }
+    },
+    {
+      "time": "2026-10-25T21:31:15.124360+00:00",
+      "time_local": "25-10-2026 22:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 55.0,
+        "XRP/USD": 5.0,
+        "BCH/USD": 5.0,
+        "SOL/USD": 3.0,
+        "ETH/USD": 3.0
+      },
+      "summary": "BTC verdedigt het $80k-anker rond $80,4k, maar de marktbreedte blijft zwak (16/33 groen, mediaan 24u -0,18%) en de 7d-mediaan is negatief (-1,56%). F&G neutraal op 54; geen bevestigd herstel, dus ik handhaaf de defensieve opstelling met een stevige cashbuffer.",
+      "equity": 9199.9,
+      "prices": {
+        "BTC/USD": 80396.685,
+        "ETH/USD": 2339.611,
+        "BCH/USD": 280.0,
+        "SOL/USD": 101.4385,
+        "XRP/USD": 1.29766
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-25T21:01:30.328275+00:00",
-    "time_local": "25-10-2026 22:01",
-    "text": "Geen bevestigd herstel: breedte <50% groen en 7d-mediaan negatief, dus stap 2 (alt-uitbreiding) blijft uit. Ik handhaaf BTC ~55% zolang $80k houdt en verhoog naar ~35% alleen bij een sluiting <$80k. De alt-mouw blijft klein: BCH (relatieve sterkte, +4,1% 7d) en XRP op ~5%, SOL en ETH terug naar ~3%. Cashvloer ~29% als actieve positie. Pas bij 2-3 opeenvolgende metingen >50% groen én een verbeterende 7d-mediaan deploy ik in twee tranches. Kronos (~50%) negeer ik als richting. Verwacht verdere consolidatie rond het anker."
+    "time": "2026-10-25T21:31:15.124360+00:00",
+    "time_local": "25-10-2026 22:31",
+    "text": "Geen bevestigde recovery: breedte <50% groen en 7d-mediaan negatief, dus stap 2 (alt-uitbreiding) blijft uit. Ik houd BTC ~55% zolang $80k houdt en verhoog alleen bij een sluiting <$80k. De alt-mouw blijft klein: BCH (relatieve sterkte, +4,3% 7d) en XRP op ~5%, SOL en ETH terug naar ~3%. Cashvloer ~29% als actieve positie. Pas bij 2-3 opeenvolgende metingen >50% groen én een verbeterende 7d-mediaan deploy ik in twee tranches. Kronos (~50%) negeer ik als richting. Verwacht verdere consolidatie rond het anker."
   },
   "lessons": [
     "Speelboek-ladder: houd BTC 55-60% zolang het $80k-anker houdt (dit venster ~24u correct, anker verdedigd op $80,4-80,8k). Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een daadwerkelijk verbeterende 7d-mediaan — dit ve",
