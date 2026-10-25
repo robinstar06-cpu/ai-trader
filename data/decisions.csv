@@ -1773,3 +1773,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-25T22:31:14.469359+00:00,25-10-2026 23:31,z-ai/glm-5.3,ETH/USD,3.9,3.0,houden,,,"7d-lek vs BTC; kleine positie, trim in deze stabilisatie."
 2026-10-25T22:31:14.469359+00:00,25-10-2026 23:31,z-ai/glm-5.3,SOL/USD,4.0,3.0,houden,,,"7d-lek vs BTC; kleine positie, trim in deze stabilisatie."
 2026-10-25T22:31:14.469359+00:00,25-10-2026 23:31,z-ai/glm-5.3,XRP/USD,5.9,5.0,houden,,,"Relatieve sterkte: 24u +0,53%, 7d -0,07% vs BTC -1,54%."
+2026-10-25T23:01:28.297377+00:00,26-10-2026 00:01,,BCH/USD,5.0,5.0,houden,,,
+2026-10-25T23:01:28.297377+00:00,26-10-2026 00:01,,BTC/USD,55.0,55.0,houden,,,
+2026-10-25T23:01:28.297377+00:00,26-10-2026 00:01,,ETH/USD,3.9,3.9,houden,,,
+2026-10-25T23:01:28.297377+00:00,26-10-2026 00:01,,SOL/USD,4.0,4.0,houden,,,
+2026-10-25T23:01:28.297377+00:00,26-10-2026 00:01,,XRP/USD,5.9,5.9,houden,,,
