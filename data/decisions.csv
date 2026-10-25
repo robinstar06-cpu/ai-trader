@@ -1743,3 +1743,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-25T19:31:08.372352+00:00,25-10-2026 20:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,4.0,3.0,houden,,,"Zwakkere alt, getrimd zolang breedte <50% groen"
 2026-10-25T19:31:08.372352+00:00,25-10-2026 20:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,4.0,3.0,houden,,,"Zwakkere alt, getrimd richting cashvloer"
 2026-10-25T19:31:08.372352+00:00,25-10-2026 20:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,5.9,5.0,houden,,,"Tweede sterkste naam (+3,2% 7d), houdt zich staande"
+2026-10-25T20:01:33.361501+00:00,25-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,5.0,5.0,houden,,,"Sterkste alt op 7d (+5,5%), houd aan"
+2026-10-25T20:01:33.361501+00:00,25-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,53.9,55.0,buy,100.16,gekocht $100.16,Anker houdt $80k; kernpositie zolang geen ankerbreuk
+2026-10-25T20:01:33.361501+00:00,25-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,3.9,3.0,houden,,,"Lekt vs BTC, trim richting minimum"
+2026-10-25T20:01:33.361501+00:00,25-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,4.0,3.0,houden,,,"Zwakker vs BTC, trim richting minimum"
+2026-10-25T20:01:33.361501+00:00,25-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,5.9,5.0,houden,,,"Tweede sterkste naam (7d +3,0%), licht getrimd"
