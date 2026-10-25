@@ -1728,3 +1728,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-25T18:01:22.172455+00:00,25-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,4.0,4.0,houden,,,"Bodemherstel, RSI 1d laag (36); kleine positie aanhouden."
 2026-10-25T18:01:22.172455+00:00,25-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,5.0,houden,,,"Herstelt vanaf bodem, +0,6% 24u; klein houden tot bevestiging."
 2026-10-25T18:01:22.172455+00:00,25-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,5.9,6.0,houden,,,"Relatieve sterkte: +2,4% op 7d, beste alt-momentum."
+2026-10-25T18:31:19.259849+00:00,25-10-2026 19:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,5.0,6.0,buy,94.40,gekocht $94.40,"Sterkste 7d (+3,6%), boven 20d/50d SMA; lichte tilt naar relatieve sterkte."
+2026-10-25T18:31:19.259849+00:00,25-10-2026 19:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,54.0,54.0,houden,,,Anker houdt $80k; kernpositie zolang geen ankerbreuk.
+2026-10-25T18:31:19.259849+00:00,25-10-2026 19:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,4.0,3.0,houden,,,Zwakste relatieve naam in de mouw; trimmen.
+2026-10-25T18:31:19.259849+00:00,25-10-2026 19:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,4.0,sell,93.13,verkocht 0.913044470,Lekte licht vs BTC; afbouwen richting kern.
+2026-10-25T18:31:19.259849+00:00,25-10-2026 19:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,5.9,5.0,houden,,,"Positieve 7d (+2,2%) en 24u (+1,2%); houdt relatieve sterkte."
