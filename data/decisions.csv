@@ -1718,3 +1718,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-25T17:01:28.949822+00:00,25-10-2026 18:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,2.0,4.0,buy,185.09,gekocht $185.09,"Bodemberstel (RSI 36), meebewegend met de brede groene breedte"
 2026-10-25T17:01:28.949822+00:00,25-10-2026 18:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,6.0,houden,,,"Herstelt vanaf bodem (RSI 37), breedte draagt; Kronos licht positief"
 2026-10-25T17:01:28.949822+00:00,25-10-2026 18:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,3.1,6.0,buy,271.87,gekocht $271.87,"Sterkste relatieve kracht: +2,3% 24u en +2,6% op 7d, RSI 40 niet overbought"
+2026-10-25T17:31:04.451123+00:00,25-10-2026 18:31,,BCH/USD,5.0,5.0,houden,,,
+2026-10-25T17:31:04.451123+00:00,25-10-2026 18:31,,BTC/USD,54.0,54.0,houden,,,
+2026-10-25T17:31:04.451123+00:00,25-10-2026 18:31,,ETH/USD,4.0,4.0,houden,,,
+2026-10-25T17:31:04.451123+00:00,25-10-2026 18:31,,SOL/USD,5.0,5.0,houden,,,
+2026-10-25T17:31:04.451123+00:00,25-10-2026 18:31,,XRP/USD,5.9,5.9,houden,,,
