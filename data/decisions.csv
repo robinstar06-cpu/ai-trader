@@ -1703,3 +1703,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-25T15:31:16.003053+00:00,25-10-2026 16:31,,ETH/USD,2.0,2.0,houden,,,
 2026-10-25T15:31:16.003053+00:00,25-10-2026 16:31,,SOL/USD,4.0,4.0,houden,,,
 2026-10-25T15:31:16.003053+00:00,25-10-2026 16:31,,XRP/USD,3.1,3.1,houden,,,
+2026-10-25T16:01:13.778173+00:00,25-10-2026 17:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,3.0,4.0,buy,92.82,gekocht $92.82,"7d +2,77%, houdt zich goed in de flush"
+2026-10-25T16:01:13.778173+00:00,25-10-2026 17:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,54.9,56.0,buy,100.27,gekocht $100.27,Anker houdt $80k; kernpositie in herstel
+2026-10-25T16:01:13.778173+00:00,25-10-2026 17:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,2.0,2.0,houden,,,"Zwakste alt, klein houden tot bevestiging"
+2026-10-25T16:01:13.778173+00:00,25-10-2026 17:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,4.0,5.0,buy,94.88,gekocht $94.88,"Eerste tranche, +1,07% 24u, hoge beta in herstel"
+2026-10-25T16:01:13.778173+00:00,25-10-2026 17:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,3.0,4.0,houden,,,"Sterkste 7d (+2,19%) met positieve 24u-momentum"
