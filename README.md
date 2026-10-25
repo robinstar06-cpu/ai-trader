@@ -1,25 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 25-10-2026 06:01_
+_Laatst bijgewerkt: 25-10-2026 06:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,242.32** |
-| Cash | $2,864.35 (31%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-7.58%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.00% |
-| Verschil | -4.58% |
+| Waarde portefeuille | **$9,228.17** |
+| Cash | $3,048.30 (33%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-7.72%** |
+| Ter vergelijking: gewoon BTC vasthouden | -3.11% |
+| Verschil | -4.61% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-7.58%** |
+| Rendement deze periode | **-7.72%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -7.58% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -7.72% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 54 (Neutral) |
-| Kronos-voorspelling | 33 munten in 250s; richting op 4u goed: 53% (n=1563, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 06:01); richting op 4u goed: 53% (n=1563, 50% = gokken) |
 
-## Strategie van de AI (sinds 25-10-2026 05:31)
+## Marktvisie van de AI
 
-Ankerdiscipline: BTC boven $80k, dus geen grote verschuivingen. Ik handhaaf BTC ~55% en trim de zwakste alt (ETH, lekt 7d -2,1% vs BTC -1,1%) licht richting cash. Cashvloer ~30% blijft actief; herdeploy in twee tranches pas zodra >50% van de munten groen staat op 2-3 opeenvolgende metingen én de 7d-mediaan duurzaam verbetert. Bij ankerbreuk (<$80k) schaal ik direct terug naar ~35% BTC. Kronos (52,3% accuracy) negeer ik. Verwachting: verdere bodemvorming rond $80k; volle participatie pas bij bevestigd herstel.
+De brede flush stabiliseert licht maar is niet voorbij: 5/33 munten groen op 24u (mediaan -1,23%, verbeterend), 7d-mediaan -3,64%. BTC verdedigt het $80k-anker op $80,7k; sentiment neutraal (Greed 54). Nog geen bevestiging voor herdeploy, dus ik volg strikt het anker-speelboek.
+
+## Strategie van de AI (sinds 25-10-2026 06:31)
+
+Ankerdiscipline: BTC ~55% zolang $80k houdt. Ik trim ETH (zwakste alt, 7d -1,97% vs BTC -1,11%) licht van 4% naar 2% richting cash. Cashvloer ~30% blijft actief; herdeploy in twee tranches pas bij >50% breedte groen op 2-3 opeenvolgende metingen én duurzaam verbeterende 7d-mediaan. Bij ankerbreuk (<$80k) direct terug naar ~35% BTC. Kronos (52,6%) negeer ik.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -38,26 +42,23 @@ _De BTC-kern was correct (het $80k-anker ~24u verdedigd, BTC was de beste holdin
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,076.70 | 54.9% | -1.4% | 54.9% | -0.0% (33% omhoog) |  |
-| SOL/USD | $370.67 | 4.0% | -3.1% | 4.0% | +0.3% (50% omhoog) |  |
-| ETH/USD | $370.27 | 4.0% | -1.7% | 4.0% | +0.2% (83% omhoog) |  |
-| XRP/USD | $284.57 | 3.1% | -0.8% | 3.1% | -0.7% (0% omhoog) |  |
-| BCH/USD | $275.75 | 3.0% | -2.8% | 3.0% | -0.6% (50% omhoog) |  |
+| BTC/USD | $5,066.19 | 54.9% | -1.6% | 55.0% | -0.0% (33% omhoog) | Anker $80,7k houdt stand; kernpositie volgens speelboek |
+| SOL/USD | $370.10 | 4.0% | -3.3% | 4.0% | +0.3% (50% omhoog) | Volgt BTC 1-op-1 op 7d; lichte beta voor eventueel herstel |
+| XRP/USD | $282.36 | 3.1% | -1.6% | 3.0% | -0.7% (0% omhoog) | Relatieve sterkte (24u +1,6%, 7d +1,1%); klein houden |
+| BCH/USD | $276.76 | 3.0% | -2.5% | 3.0% | -0.6% (50% omhoog) | Lichte 7d-kracht vs BTC; kleine positie behouden |
+| ETH/USD | $184.47 | 2.0% | -2.0% | 2.0% | +0.2% (83% omhoog) | Zwakste alt, lekt 7d vs BTC; lichte trim richting cash |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
-
-## Meldingen
-
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
-- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| ETH/USD | sell | $185.07 | verkocht 0.078311888 |
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 25-10-2026 06:31 | $9,228 | -7.72% | -3.11% | 1 |
 | 25-10-2026 06:01 | $9,242 | -7.58% | -3.00% | 0 |
 | 25-10-2026 05:31 | $9,246 | -7.54% | -3.05% | 1 |
 | 25-10-2026 05:01 | $9,235 | -7.65% | -3.07% | 0 |
@@ -69,7 +70,6 @@ Geen orders (verdeling blijft gelijk).
 | 25-10-2026 02:01 | $9,240 | -7.60% | -3.10% | 0 |
 | 25-10-2026 02:31 | $9,231 | -7.69% | -3.07% | 0 |
 | 25-10-2026 02:01 | $9,230 | -7.70% | -3.08% | 0 |
-| 25-10-2026 01:31 | $9,208 | -7.92% | -3.31% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
