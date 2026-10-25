@@ -1738,3 +1738,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-25T19:01:24.143531+00:00,25-10-2026 20:01,,ETH/USD,4.0,4.0,houden,,,
 2026-10-25T19:01:24.143531+00:00,25-10-2026 20:01,,SOL/USD,4.0,4.0,houden,,,
 2026-10-25T19:01:24.143531+00:00,25-10-2026 20:01,,XRP/USD,5.9,5.9,houden,,,
+2026-10-25T19:31:08.372352+00:00,25-10-2026 20:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,6.1,5.0,sell,98.69,verkocht 0.350648113,"Sterkste alt (+5,9% 7d), maar RSI-1u warm: niet vergroten"
+2026-10-25T19:31:08.372352+00:00,25-10-2026 20:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,53.9,54.0,houden,,,Anker houdt $80k; kernpositie zolang geen ankerbreuk
+2026-10-25T19:31:08.372352+00:00,25-10-2026 20:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,4.0,3.0,houden,,,"Zwakkere alt, getrimd zolang breedte <50% groen"
+2026-10-25T19:31:08.372352+00:00,25-10-2026 20:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,4.0,3.0,houden,,,"Zwakkere alt, getrimd richting cashvloer"
+2026-10-25T19:31:08.372352+00:00,25-10-2026 20:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,5.9,5.0,houden,,,"Tweede sterkste naam (+3,2% 7d), houdt zich staande"
