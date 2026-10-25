@@ -1563,3 +1563,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-25T01:31:19.078365+00:00,25-10-2026 02:31,z-ai/glm-5.3,ETH/USD,5.8,6.0,houden,,,"Kleine alt-positie; alleen trimmen in bevestigde bounce, niet midden in flush"
 2026-10-25T01:31:19.078365+00:00,25-10-2026 02:31,z-ai/glm-5.3,SOL/USD,5.0,5.0,houden,,,Klein houden; geen adds zolang herstel onbevestigd is
 2026-10-25T01:31:19.078365+00:00,25-10-2026 02:31,z-ai/glm-5.3,XRP/USD,3.0,3.0,houden,,,"Sterkste alt (24u +0,79%); klein houden tot breedte verbetert"
+2026-10-25T02:01:23.833123+00:00,25-10-2026 03:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,4.0,3.0,sell,93.24,verkocht 0.335480206,"Eerder sterk, nu vlak/lekkend; oude kracht is geen reden om te houden."
+2026-10-25T02:01:23.833123+00:00,25-10-2026 03:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,52.0,55.0,buy,278.58,gekocht $278.58,"Anker boven $80k houdt stand; sterkste relatieve kracht, licht opgevoerd binnen de playbook-ladder 55-60%."
+2026-10-25T02:01:23.833123+00:00,25-10-2026 03:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.8,5.0,houden,,,"Lekt 24u vs BTC (-0,88% vs -0,12%); positie verkleind tot kernniveau."
+2026-10-25T02:01:23.833123+00:00,25-10-2026 03:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,4.0,sell,95.67,verkocht 0.935286771,Zwakker dan BTC op 24u en 7d; trim richting cash.
+2026-10-25T02:01:23.833123+00:00,25-10-2026 03:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,3.1,3.0,houden,,,"Enige alt die groen staat op 24u (+1,0%) en 7d (+0,7%); klein houden als relatieve sterkte."
