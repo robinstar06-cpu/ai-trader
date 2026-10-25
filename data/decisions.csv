@@ -1723,3 +1723,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-25T17:31:04.451123+00:00,25-10-2026 18:31,,ETH/USD,4.0,4.0,houden,,,
 2026-10-25T17:31:04.451123+00:00,25-10-2026 18:31,,SOL/USD,5.0,5.0,houden,,,
 2026-10-25T17:31:04.451123+00:00,25-10-2026 18:31,,XRP/USD,5.9,5.9,houden,,,
+2026-10-25T18:01:22.172455+00:00,25-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,5.0,5.0,houden,,,"+3,8% 7d sterkste munt, maar extended; niet vergroten."
+2026-10-25T18:01:22.172455+00:00,25-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,54.0,54.0,houden,,,Anker houdt $80k; kernpositie binnen defensieve band 55-60%.
+2026-10-25T18:01:22.172455+00:00,25-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,4.0,4.0,houden,,,"Bodemherstel, RSI 1d laag (36); kleine positie aanhouden."
+2026-10-25T18:01:22.172455+00:00,25-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,5.0,houden,,,"Herstelt vanaf bodem, +0,6% 24u; klein houden tot bevestiging."
+2026-10-25T18:01:22.172455+00:00,25-10-2026 19:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,5.9,6.0,houden,,,"Relatieve sterkte: +2,4% op 7d, beste alt-momentum."
