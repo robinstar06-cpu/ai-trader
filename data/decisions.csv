@@ -1568,3 +1568,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-25T02:01:23.833123+00:00,25-10-2026 03:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.8,5.0,houden,,,"Lekt 24u vs BTC (-0,88% vs -0,12%); positie verkleind tot kernniveau."
 2026-10-25T02:01:23.833123+00:00,25-10-2026 03:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,4.0,sell,95.67,verkocht 0.935286771,Zwakker dan BTC op 24u en 7d; trim richting cash.
 2026-10-25T02:01:23.833123+00:00,25-10-2026 03:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,3.1,3.0,houden,,,"Enige alt die groen staat op 24u (+1,0%) en 7d (+0,7%); klein houden als relatieve sterkte."
+2026-10-25T02:31:06.856312+00:00,25-10-2026 03:31,,BCH/USD,3.0,3.0,houden,,,
+2026-10-25T02:31:06.856312+00:00,25-10-2026 03:31,,BTC/USD,54.9,54.9,houden,,,
+2026-10-25T02:31:06.856312+00:00,25-10-2026 03:31,,ETH/USD,5.8,5.8,houden,,,
+2026-10-25T02:31:06.856312+00:00,25-10-2026 03:31,,SOL/USD,4.0,4.0,houden,,,
+2026-10-25T02:31:06.856312+00:00,25-10-2026 03:31,,XRP/USD,3.1,3.1,houden,,,

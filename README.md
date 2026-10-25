@@ -1,25 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 25-10-2026 03:01_
+_Laatst bijgewerkt: 25-10-2026 03:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,232.95** |
+| Waarde portefeuille | **$9,234.23** |
 | Cash | $2,694.47 (29%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-7.67%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.04% |
-| Verschil | -4.63% |
+| Rendement AI sinds 14-10-2026 13:02 | **-7.66%** |
+| Ter vergelijking: gewoon BTC vasthouden | -3.05% |
+| Verschil | -4.61% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-7.67%** |
+| Rendement deze periode | **-7.66%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -7.67% |
-| Model | deepseek-ai/deepseek-v4.1-flash |
+| Daling vanaf de top ($10,000) | -7.66% |
+| Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 54 (Neutral) |
-| Kronos-voorspelling | 33 munten in 224s; richting op 4u goed: 52% (n=1563, 50% = gokken) |
-
-## Marktvisie van de AI
-
-De brede flush houdt aan: slechts 2/33 munten groen op 24u (mediaan -1,36%) en de 7d-mediaan blijft negatief op -3,31%, terwijl BTC het $80k-anker op $80,8k verdedigt. Fear & Greed is neutraal (54) en er is nog geen meerdaagse bevestiging van herstel, dus ik blijf defensief met een stevige cashbuffer.
+| Kronos-voorspelling | 33 munten (berekend om 03:01); richting op 4u goed: 52% (n=1563, 50% = gokken) |
 
 ## Strategie van de AI (sinds 25-10-2026 03:01)
 
@@ -42,28 +38,27 @@ _De BTC-kern was correct (het $80k-anker ~24u verdedigd, BTC was de beste holdin
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,070.84 | 54.9% | -1.5% | 55.0% | +0.1% (67% omhoog) | Anker boven $80k houdt stand; sterkste relatieve kracht, licht opgevoerd binnen de playbook-ladder 55-60%. |
-| ETH/USD | $539.34 | 5.8% | -2.0% | 5.0% | -0.0% (50% omhoog) | Lekt 24u vs BTC (-0,88% vs -0,12%); positie verkleind tot kernniveau. |
-| SOL/USD | $369.57 | 4.0% | -3.4% | 4.0% | +0.0% (50% omhoog) | Zwakker dan BTC op 24u en 7d; trim richting cash. |
-| XRP/USD | $281.56 | 3.0% | -1.8% | 3.0% | -0.1% (67% omhoog) | Enige alt die groen staat op 24u (+1,0%) en 7d (+0,7%); klein houden als relatieve sterkte. |
-| BCH/USD | $277.17 | 3.0% | -2.3% | 3.0% | -0.1% (50% omhoog) | Eerder sterk, nu vlak/lekkend; oude kracht is geen reden om te houden. |
+| BTC/USD | $5,071.11 | 54.9% | -1.5% | 54.9% | +0.1% (67% omhoog) |  |
+| ETH/USD | $539.34 | 5.8% | -2.0% | 5.8% | -0.0% (50% omhoog) |  |
+| SOL/USD | $369.57 | 4.0% | -3.4% | 4.0% | +0.0% (50% omhoog) |  |
+| XRP/USD | $282.57 | 3.1% | -1.5% | 3.1% | -0.1% (67% omhoog) |  |
+| BCH/USD | $277.17 | 3.0% | -2.3% | 3.0% | -0.1% (50% omhoog) |  |
 
 ## Orders deze run
 
-| Munt | Actie | Bedrag | Resultaat |
-|---|---|---|---|
-| BCH/USD | sell | $93.24 | verkocht 0.335480206 |
-| SOL/USD | sell | $95.67 | verkocht 0.935286771 |
-| BTC/USD | buy | $278.58 | gekocht $278.58 |
+Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
+- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 25-10-2026 03:31 | $9,234 | -7.66% | -3.05% | 0 |
 | 25-10-2026 03:01 | $9,233 | -7.67% | -3.04% | 3 |
 | 25-10-2026 02:31 | $9,233 | -7.67% | -3.15% | 0 |
 | 25-10-2026 02:01 | $9,240 | -7.60% | -3.10% | 0 |
@@ -75,7 +70,6 @@ _De BTC-kern was correct (het $80k-anker ~24u verdedigd, BTC was de beste holdin
 | 25-10-2026 00:01 | $9,200 | -8.00% | -3.59% | 1 |
 | 24-10-2026 23:31 | $9,199 | -8.01% | -3.55% | 0 |
 | 24-10-2026 23:01 | $9,205 | -7.95% | -3.49% | 0 |
-| 24-10-2026 22:31 | $9,205 | -7.95% | -3.45% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
