@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 26-10-2026 08:31_
+_Laatst bijgewerkt: 26-10-2026 09:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,144.77** |
+| Waarde portefeuille | **$9,151.90** |
 | Cash | $2,410.70 (26%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-8.55%** |
-| Ter vergelijking: gewoon BTC vasthouden | -4.17% |
-| Verschil | -4.38% |
+| Rendement AI sinds 14-10-2026 13:02 | **-8.48%** |
+| Ter vergelijking: gewoon BTC vasthouden | -4.11% |
+| Verschil | -4.37% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-8.55%** |
+| Rendement deze periode | **-8.48%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -8.55% |
+| Daling vanaf de top ($10,000) | -8.48% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 50 (Neutral) |
-| Kronos-voorspelling | 30 munten (berekend om 08:01); richting op 4u goed: 49% (n=1567, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 247s; richting op 4u goed: 49% (n=1567, 50% = gokken) |
 
 ## Strategie van de AI (sinds 25-10-2026 23:31)
 
@@ -23,26 +23,26 @@ Anker $80k houdt stand (~$80,4k), maar breedte 12/33 groen en 7d-mediaan -3,25% 
 
 ## Lessen uit de dagelijkse evaluatie
 
-_Dit venster was schadebeperking, geen voortgang: +0,04% vs BTC +0,01% doordat de ladder correct werd gevolgd (BTC 48→55% terwijl het $80k-anker hield), maar de alt-mouw (ETH/BCH/SOL/XRP) lekte opnieuw consistent tegen BTC. De flush is nog niet voorbij (eindstand 5/33 groen, 7d-mediaan -3,64%) en stap 2 is terecht niet getriggerd. Met -7,82% op dag 11 is het doel (+20%) alleen nog haalbaar door de ~33% cash vol in te zetten zodra het herstel meerdaags bevestigd is._
+_Dit venster was verdediging, geen alpha: -0,63% tegen BTC -0,76% komt puur door ~30% cash, terwijl de alt-mouw (~15%, viermaal de 5%-cap) over de hele linie lekte met XRP -2,1% en BCH -1,7% als ergste. Het $80k-anker hield en de ladder-discipline werkte, maar met -8,48% op dag 12 is het doel van +20% alleen haalbaar bij volledige participatie in een meerdaags bevestigd herstel. Kronos zakte naar 48,9% en is als richtingssignaal waardeloos._
 
-- Speelboek-ladder: houd BTC 55-60% zolang het $80k-anker houdt (dit venster ~24u correct, anker verdedigd op $80,4-80,8k). Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een daadwerkelijk verbeterende 7d-mediaan — dit ve
-- Schommel niet op 24u-breedte-ruis zodra stap 1 actief is: breedte zwierf dit venster van 0/33 naar 9/33 en terug naar 2/33 zonder ankerbreuk. De-risico het BTC-gewicht alleen bij ankerbreuk (<$80k) of een duurzaam verslechterende 7d-mediaan.
-- Alt-sterkte in een flush is vergankelijk: zowel BCH als XRP gingen dit venster van sterkste munt naar lekkende munt. Cap de totale alt-mouw op ~5% zolang breedte <50% groen en de 7d-mediaan negatief is, en trim elke alt die 12u+ lekt vs BTC.
-- Nooit adds op een overboughte top (7d-hoog + RSI-1u >75 + Greed >=60) en nooit een verliezende positie vergroten; verkoop verliezers richting de 24u-grens in een stabilisatie of bounce, nooit midden in een flush.
-- Kapitulatie (Greed 68→50) markeert het einde van de daling, niet het begin van de rally: het herstel stagneerde ~20u+ en de flush zette door. Deploy stap 2 in twee tranches: helft bij de bevestigde trigger, rest pas na meerdaagse bevestiging.
-- Cash is een actieve positie mét prijs: met ~33% cash matchte het portfolio BTC terwijl alts lekten. Houd een cashvloer van ~15% tot het herstel meerdaags bevestigd is en gebruik cash nooit voor het kopen van 7d-hoogten.
-- Kronos zakte naar 52,1% over 48h — slechter dan de vorige meting en vrijwel een coin flip. Negeer zijn richtingvoorspellingen zolang de rolling accuracy niet structureel >55% is; vertrouw op anker-, breedte- en 7d-mediaansignalen.
-- Doelrekenkunst: -7,82% op dag 11 vraagt ~+30% in 17 dagen — alleen haalbaar bij volledige participatie in een meerdaags bevestigd herstel. Sluit eerst het gat versus BTC (~4,5pp) door geen alt-lek en geen top-chasing, en zodra de stap-2-trigger valt 
+- Speelboek-ladder houdt stand: BTC 55-60% zolang het $80k-anker houdt (dit venster correct, anker verdedigd op $80,2-80,8k). Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbeterende 7d-mediaan — de trigger viel di
+- Handhaaf de alt-cap hard: dit venster dreef de mouw naar ~15% (vier alts van 2-6%) tegen de 5%-regel en élke alt lekte 1-2%. Zolang breedte <50% groen en de 7d-mediaan negatief is: max 5% totaal in de sterkste munt of nul, en trim een lekkende alt bi
+- Zweef niet mee op 24u-breedte-ruis zodra stap 1 actief is: breedte zwierde van 28/33 groen naar 7/33 en terug zonder ankerbreuk. De-risico het BTC-gewicht alleen bij ankerbreuk (<$80k) of een duurzaam verslechterende 7d-mediaan.
+- Cash is een actieve positie mét prijs: met ~30% cash versloeg het portfolio BTC licht (-0,63% vs -0,76%) terwijl alts lekten. Houd een cashvloer van ~15-30% tot een meerdaags herstel bevestigd is; gebruik cash nooit voor het kopen van 7d-hoogten of h
+- Kapitulatie (Greed 68 naar 50) markeert het einde van de daling, niet het begin van de rally — het herstel stagneerde 20u+. Deploy stap 2 in twee tranches: helft bij de bevestigde trigger, rest pas na meerdaagse bevestiging.
+- Kronos zakte verder naar 48,9% over 48h — slechter dan een muntgooi en dalend. Negeer zijn richtingvoorspellingen volledig zolang de rolling accuracy niet structureel >55% is; stuur uitsluitend op anker, breedte en 7d-mediaan.
+- Doelrekenkunst: -8,48% op dag 12 vraagt ~+31% in 17 dagen — alleen haalbaar bij volledige participatie in een meerdaags bevestigd herstel. Sluit eerst het gat versus BTC (~4,4pp) door geen alt-lek en geen top-chasing; BTC matchen is de realistische b
+- Verkoop verliezers richting de 24u-grens in een stabilisatie of bounce, nooit midden in een flush; voeg nooit toe op een overboughte top (7d-hoog + RSI-1u >75 + Greed >=60) en vergroot nooit een verliezende positie.
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,024.54 | 54.9% | -2.6% | 54.9% | +0.1% (67% omhoog) |  |
-| XRP/USD | $538.30 | 5.9% | -2.6% | 5.9% | +0.0% (33% omhoog) |  |
-| BCH/USD | $450.72 | 4.9% | -2.2% | 4.9% | -1.4% (0% omhoog) |  |
-| SOL/USD | $362.20 | 4.0% | -4.6% | 4.0% | +0.6% (100% omhoog) |  |
-| ETH/USD | $358.31 | 3.9% | -3.0% | 3.9% | +0.9% (100% omhoog) |  |
+| BTC/USD | $5,029.89 | 55.0% | -2.5% | 55.0% | +0.7% (83% omhoog) |  |
+| XRP/USD | $538.30 | 5.9% | -2.6% | 5.9% | +0.5% (67% omhoog) |  |
+| BCH/USD | $450.72 | 4.9% | -2.2% | 4.9% | +0.4% (50% omhoog) |  |
+| SOL/USD | $363.21 | 4.0% | -4.3% | 4.0% | +1.3% (100% omhoog) |  |
+| ETH/USD | $359.08 | 3.9% | -2.8% | 3.9% | +1.2% (83% omhoog) |  |
 
 ## Orders deze run
 
@@ -50,7 +50,7 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Dagelijkse evaluatie mislukt: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out; deepseek-ai/deepseek-v4.1-flash: overgeslagen (tijdslimiet)
+- Dagelijkse evaluatie gedaan door z-ai/glm-5.3.
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 - AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
@@ -59,6 +59,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 26-10-2026 09:01 | $9,152 | -8.48% | -4.11% | 0 |
 | 26-10-2026 08:31 | $9,145 | -8.55% | -4.17% | 0 |
 | 26-10-2026 08:01 | $9,163 | -8.37% | -3.88% | 0 |
 | 26-10-2026 07:31 | $9,165 | -8.35% | -4.07% | 0 |
@@ -70,7 +71,6 @@ Geen orders (verdeling blijft gelijk).
 | 26-10-2026 04:31 | $9,132 | -8.68% | -4.63% | 0 |
 | 26-10-2026 04:01 | $9,122 | -8.78% | -4.63% | 0 |
 | 26-10-2026 03:31 | $9,137 | -8.63% | -4.55% | 0 |
-| 26-10-2026 03:01 | $9,139 | -8.61% | -4.52% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
