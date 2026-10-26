@@ -1939,3 +1939,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-26T22:01:31.621154+00:00,26-10-2026 23:01,z-ai/glm-5.3,BTC/USD,45.1,45.0,houden,,,"Anker gebroken maar prijs op 7d-laag; geen flush-verkoop, wacht op bevestiging boven $80k"
 2026-10-26T22:31:18.116892+00:00,26-10-2026 23:31,z-ai/glm-5.3,BCH/USD,5.0,5.0,houden,,,"Sterkste grote munt (7d -0,5% vs mediaan -5,5%); binnen de harde 5% alt-cap"
 2026-10-26T22:31:18.116892+00:00,26-10-2026 23:31,z-ai/glm-5.3,BTC/USD,45.0,45.0,houden,,,"Anker gebroken maar prijs op 7d-laag; kern houden, geen flush-verkoop, wachten op >$80k plus breedte-bevestiging"
+2026-10-26T23:01:25.535597+00:00,27-10-2026 00:01,z-ai/glm-5.3,BCH/USD,5.0,5.0,houden,,,"Sterkste alt (7d -0,71%, RSI-1d 47) binnen de harde 5%-cap; geen swap naar 24u-stijgers in zwakke breedte"
+2026-10-26T23:01:25.535597+00:00,27-10-2026 00:01,z-ai/glm-5.3,BTC/USD,45.1,45.0,houden,,,"Kernpositie op het 7d-laag onder het gebroken anker; flush niet verkopen, hersteltriggers (>$80k, breedte >50%, 7d-mediaan) nog lang niet vervuld"
