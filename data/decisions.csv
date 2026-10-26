@@ -1895,3 +1895,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-26T10:31:17.269078+00:00,26-10-2026 11:31,z-ai/glm-5.3,XRP/USD,5.9,0.0,close,541.03,verkocht (alles),
 2026-10-26T11:01:28.578212+00:00,26-10-2026 12:01,z-ai/glm-5.3,BCH/USD,4.9,5.0,houden,,,"Enige munt positief op 7d (+0,78%) en boven 20d-SMA; alt-mouw hard gecapt op 5% zolang breedte zwak is."
 2026-10-26T11:01:28.578212+00:00,26-10-2026 12:01,z-ai/glm-5.3,BTC/USD,55.0,55.0,houden,,,"Anker $80k houdt stand op $80,2k; kernpositie in de ladder, de-risico alleen bij sluiten onder $80k."
+2026-10-26T11:31:17.385228+00:00,26-10-2026 12:31,,BCH/USD,5.0,5.0,houden,,,
+2026-10-26T11:31:17.385228+00:00,26-10-2026 12:31,,BTC/USD,55.0,55.0,houden,,,
