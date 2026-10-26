@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-21T22:01:23.254228+00:00",
-      "time_local": "22-10-2026 00:01",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 12.0,
-        "BCH/USD": 12.0
-      },
-      "summary": "BTC verdedigt de $84k-breakout op het 7d-hoog ($84,7k) met uitzonderlijke breedte (32/33 groen, 7d-mediaan +2,5%), maar RSI-1u 73 en Greed 63 (gisteren 55) blijven contra-signalen tegen bijkopen op de top. Kronos wijst neer (0% paden omhoog voor BTC op 4u) maar weegt weinig bij 43% treffers. Het $80",
-      "equity": 9667.62,
-      "prices": {
-        "BCH/USD": 288.62,
-        "BTC/USD": 84681.833,
-        "SOL/USD": 107.95
-      }
-    },
-    {
       "time": "2026-10-21T22:31:06.524733+00:00",
       "time_local": "22-10-2026 00:31",
       "model": "z-ai/glm-5.3",
@@ -1900,12 +1883,27 @@
         "BCH/USD": 280.866,
         "BTC/USD": 80228.855
       }
+    },
+    {
+      "time": "2026-10-26T20:31:23.829751+00:00",
+      "time_local": "26-10-2026 21:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 45.0,
+        "BCH/USD": 5.0
+      },
+      "summary": "BTC heeft het $80k-anker gebroken ($79,7k, nabij het 7d-laag met range-positie 4,7%) terwijl de breedte zwak blijft (10/33 groen, 7d-mediaan -4,16%) en F&G verder zakt naar 50. Dit is een trage bleeder, geen crash, maar mijn ankerregel is geraakt. Ik verlaag het BTC-gewicht en houd meer cash droog.",
+      "equity": 9148.13,
+      "prices": {
+        "BTC/USD": 79721.85,
+        "BCH/USD": 277.75
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-26T18:01:34.403658+00:00",
-    "time_local": "26-10-2026 19:01",
-    "text": "Discipline boven daadkracht: zolang BTC boven $80k sluit, houd ik 55% BTC. De 7d-mediaan verbetert (-4,63% -> -3,17%) maar blijft diep negatief en de breedte is 48% groen — dat is nog geen bevestiging, dus geen tranche naar 60%. Cash ~40% blijft droog kruit voor een écht bevestigd herstel. Alt-mouw hard gecapt op 5% (alleen BCH, sterkste major boven 20d-SMA). De-risico alleen bij sluiting <$80k; bijkopen pas bij 2-3 metingen breedte >50% groen én verder dalende 7d-negativiteit. Kronos (53,6%) weegt licht mee maar is geen trigger."
+    "time": "2026-10-26T20:31:23.829751+00:00",
+    "time_local": "26-10-2026 21:31",
+    "text": "De sluiting onder $80k is mijn de-risico-trigger: ik trim BTC van ~55% naar 45% en houd ~50% cash. Alts blijven hard gecapt op 5% totaal (alleen BCH, de sterkste major met vlakke 7d en vs_sma20d ~0). Ik koop pas terug bij een sluiting boven $80k én 2-3 opeenvolgende metingen met breedte >50% groen en een verbeterende 7d-mediaan. Kronos (52,7% accuraat, licht bullish op BTC) is te zwak om de ankerregel te overrulen. Verwachting komende uren/dagen: verdere zijwaartse tot dalende beweging tot een echte bevestiging; cash is nu een actieve positie."
   },
   "lessons": [
     "Speelboek-ladder houdt stand: BTC 55-60% zolang het $80k-anker houdt (dit venster correct, anker verdedigd op $80,2-80,8k). Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbeterende 7d-mediaan — de trigger viel di",

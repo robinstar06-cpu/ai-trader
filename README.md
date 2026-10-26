@@ -1,25 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 26-10-2026 21:01_
+_Laatst bijgewerkt: 26-10-2026 21:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,158.90** |
-| Cash | $3,676.88 (40%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-8.41%** |
-| Ter vergelijking: gewoon BTC vasthouden | -4.20% |
-| Verschil | -4.21% |
+| Waarde portefeuille | **$9,149.48** |
+| Cash | $4,575.90 (50%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-8.51%** |
+| Ter vergelijking: gewoon BTC vasthouden | -4.31% |
+| Verschil | -4.19% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-8.41%** |
+| Rendement deze periode | **-8.51%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -8.41% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -8.51% |
+| Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 50 (Neutral) |
-| Kronos-voorspelling | 30 munten in 260s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 53% (n=1556, 50% = gokken) |
+| Kronos-voorspelling | 30 munten (berekend om 21:01); richting op 4u goed: 53% (n=1556, 50% = gokken) |
 
-## Strategie van de AI (sinds 26-10-2026 19:01)
+## Marktvisie van de AI
 
-Discipline boven daadkracht: zolang BTC boven $80k sluit, houd ik 55% BTC. De 7d-mediaan verbetert (-4,63% -> -3,17%) maar blijft diep negatief en de breedte is 48% groen — dat is nog geen bevestiging, dus geen tranche naar 60%. Cash ~40% blijft droog kruit voor een écht bevestigd herstel. Alt-mouw hard gecapt op 5% (alleen BCH, sterkste major boven 20d-SMA). De-risico alleen bij sluiting <$80k; bijkopen pas bij 2-3 metingen breedte >50% groen én verder dalende 7d-negativiteit. Kronos (53,6%) weegt licht mee maar is geen trigger.
+BTC heeft het $80k-anker gebroken ($79,7k, nabij het 7d-laag met range-positie 4,7%) terwijl de breedte zwak blijft (10/33 groen, 7d-mediaan -4,16%) en F&G verder zakt naar 50. Dit is een trage bleeder, geen crash, maar mijn ankerregel is geraakt. Ik verlaag het BTC-gewicht en houd meer cash droog.
+
+## Strategie van de AI (sinds 26-10-2026 21:31)
+
+De sluiting onder $80k is mijn de-risico-trigger: ik trim BTC van ~55% naar 45% en houd ~50% cash. Alts blijven hard gecapt op 5% totaal (alleen BCH, de sterkste major met vlakke 7d en vs_sma20d ~0). Ik koop pas terug bij een sluiting boven $80k én 2-3 opeenvolgende metingen met breedte >50% groen en een verbeterende 7d-mediaan. Kronos (52,7% accuraat, licht bullish op BTC) is te zwak om de ankerregel te overrulen. Verwachting komende uren/dagen: verdere zijwaartse tot dalende beweging tot een echte bevestiging; cash is nu een actieve positie.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -38,23 +42,24 @@ _Dit venster was verdediging, geen alpha: -0,63% tegen BTC -0,76% komt puur door
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,028.36 | 54.9% | -2.5% | 54.9% | +0.7% (100% omhoog) |  |
-| BCH/USD | $453.66 | 5.0% | -1.5% | 5.0% | +0.9% (67% omhoog) |  |
+| BTC/USD | $4,119.92 | 45.0% | -2.6% | 45.0% | +0.7% (100% omhoog) | Anker <$80k gebroken; conform plan de-risico van 55% naar 45%. |
+| BCH/USD | $453.66 | 5.0% | -1.5% | 5.0% | +0.9% (67% omhoog) | Sterkste major (7d ~vlak, boven 20d-SMA); harde alt-cap van 5%. |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| BTC/USD | sell | $900.93 | verkocht 0.011304042 |
 
 ## Meldingen
 
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 26-10-2026 21:31 | $9,149 | -8.51% | -4.31% | 1 |
 | 26-10-2026 21:01 | $9,159 | -8.41% | -4.20% | 0 |
 | 26-10-2026 20:31 | $9,157 | -8.43% | -4.21% | 0 |
 | 26-10-2026 20:01 | $9,157 | -8.43% | -4.25% | 0 |
@@ -66,7 +71,6 @@ Geen orders (verdeling blijft gelijk).
 | 26-10-2026 17:01 | $9,183 | -8.17% | -3.69% | 0 |
 | 26-10-2026 16:31 | $9,200 | -8.00% | -3.49% | 0 |
 | 26-10-2026 16:05 | $9,188 | -8.12% | -3.58% | 0 |
-| 26-10-2026 15:11 | $9,148 | -8.52% | -4.15% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
