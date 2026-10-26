@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-22T00:01:30.970880+00:00",
-      "time_local": "22-10-2026 02:01",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 12.0,
-        "BCH/USD": 12.0
-      },
-      "summary": "BTC houdt de $84k-breakout vast net onder het 7d-hoog, maar de markt koelt af: breedte zakte van 32/33 naar 21/33 groen en de 7d-mediaan daalde naar +1,78%. Fear & Greed steeg naar 68 (Greed), een contra-signaal op een bouncetop; RSI-1u is afgekoeld naar ~57.",
-      "equity": 9623.11,
-      "prices": {
-        "SOL/USD": 106.9515,
-        "BTC/USD": 84037.045,
-        "BCH/USD": 285.942
-      }
-    },
-    {
       "time": "2026-10-22T00:31:09.400301+00:00",
       "time_local": "22-10-2026 02:31",
       "model": "z-ai/glm-5.3",
@@ -1892,12 +1875,27 @@
         "BTC/USD": 79909.73,
         "BCH/USD": 278.355
       }
+    },
+    {
+      "time": "2026-10-26T22:31:18.116892+00:00",
+      "time_local": "26-10-2026 23:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 45.0,
+        "BCH/USD": 5.0
+      },
+      "summary": "BTC balanceert op het 7d-laag net onder het $80k-anker ($79,8k, range-positie 6%, RSI-1d 40) terwijl de breedte verder instort naar 7/33 groen en de 7d-mediaan verslechtert naar -5,54%. F&G zakt naar 50 — capitulatie-achtig, historisch het einde van de daling, maar er is nog geen bevestigd herstel. ",
+      "equity": 9151.39,
+      "prices": {
+        "BCH/USD": 277.75,
+        "BTC/USD": 79806.33
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-26T22:01:31.621154+00:00",
-    "time_local": "26-10-2026 23:01",
-    "text": "Handhaven: 45% BTC, 5% BCH, ~50% cash als actieve positie. BTC zit op het 7d-laag — nooit verkopen midden in een flush; de trim van 55% naar 45% na de ankerbreuk is voldoende de-risico. Hersteltriggers blijven ongewijzigd: sluiting boven $80k én 2-3 opeenvolgende metingen breedte >50% groen én een verbeterende 7d-mediaan; dan pas eerste tranche, rest na meerdaagse bevestiging. Bij een diepere flush geen paniekverkoop. Kronos (51,5%) negeren."
+    "time": "2026-10-26T22:31:18.116892+00:00",
+    "time_local": "26-10-2026 23:31",
+    "text": "Handhaven: 45% BTC, 5% BCH, 50% cash als actieve positie. BTC zit op het 7d-laag — nooit verkopen midden in een flush; de trim van 55% naar 45% na de ankerbreuk is voldoende de-risico. Hersteltriggers: sluiting boven $80k én 2-3 opeenvolgende metingen breedte >50% groen én een verbeterende 7d-mediaan; dan pas eerste tranche (+10-15pp BTC), rest na meerdaagse bevestiging. Kapitulatie (F&G 50) betekent stagnatie van 20u+, geen rally. Kronos (51,5%) negeren; alt-cap van 5% hard handhaven."
   },
   "lessons": [
     "Speelboek-ladder houdt stand: BTC 55-60% zolang het $80k-anker houdt (dit venster correct, anker verdedigd op $80,2-80,8k). Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbeterende 7d-mediaan — de trigger viel di",
