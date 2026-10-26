@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 26-10-2026 06:01_
+_Laatst bijgewerkt: 26-10-2026 06:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,158.27** |
+| Waarde portefeuille | **$9,175.82** |
 | Cash | $2,410.70 (26%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-8.42%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.95% |
-| Verschil | -4.46% |
+| Rendement AI sinds 14-10-2026 13:02 | **-8.24%** |
+| Ter vergelijking: gewoon BTC vasthouden | -3.96% |
+| Verschil | -4.29% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-8.42%** |
+| Rendement deze periode | **-8.24%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -8.42% |
+| Daling vanaf de top ($10,000) | -8.24% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 50 (Neutral) |
-| Kronos-voorspelling | 33 munten in 248s; richting op 4u goed: 48% (n=1562, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 06:01); richting op 4u goed: 48% (n=1562, 50% = gokken) |
 
 ## Strategie van de AI (sinds 25-10-2026 23:31)
 
@@ -38,10 +38,10 @@ _Dit venster was schadebeperking, geen voortgang: +0,04% vs BTC +0,01% doordat d
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,032.22 | 54.9% | -2.4% | 54.9% | +0.3% (83% omhoog) |  |
-| XRP/USD | $538.19 | 5.9% | -2.6% | 5.9% | +0.2% (33% omhoog) |  |
-| BCH/USD | $453.28 | 4.9% | -1.6% | 4.9% | -0.4% (50% omhoog) |  |
-| SOL/USD | $365.09 | 4.0% | -3.8% | 4.0% | +1.3% (100% omhoog) |  |
+| BTC/USD | $5,037.30 | 54.9% | -2.3% | 54.9% | +0.3% (83% omhoog) |  |
+| XRP/USD | $540.82 | 5.9% | -2.2% | 5.9% | +0.2% (33% omhoog) |  |
+| BCH/USD | $461.95 | 5.0% | +0.3% | 5.0% | -0.4% (50% omhoog) |  |
+| SOL/USD | $366.26 | 4.0% | -3.5% | 4.0% | +1.3% (100% omhoog) |  |
 | ETH/USD | $358.78 | 3.9% | -2.8% | 3.9% | +0.7% (83% omhoog) |  |
 
 ## Orders deze run
@@ -51,13 +51,14 @@ Geen orders (verdeling blijft gelijk).
 ## Meldingen
 
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
-- AI-fout: z-ai/glm-5.3: antwoord bevatte geen geldige JSON
+- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 - AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 26-10-2026 06:31 | $9,176 | -8.24% | -3.96% | 0 |
 | 26-10-2026 06:01 | $9,158 | -8.42% | -3.95% | 0 |
 | 26-10-2026 05:31 | $9,145 | -8.55% | -4.17% | 0 |
 | 26-10-2026 05:01 | $9,124 | -8.76% | -4.61% | 0 |
@@ -69,7 +70,6 @@ Geen orders (verdeling blijft gelijk).
 | 26-10-2026 02:01 | $9,176 | -8.24% | -3.86% | 0 |
 | 26-10-2026 01:31 | $9,184 | -8.16% | -3.78% | 0 |
 | 26-10-2026 01:01 | $9,177 | -8.23% | -3.92% | 0 |
-| 26-10-2026 00:31 | $9,156 | -8.44% | -4.18% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
