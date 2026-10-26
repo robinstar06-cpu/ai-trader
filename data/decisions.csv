@@ -1901,3 +1901,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-26T12:01:28.546555+00:00,26-10-2026 13:01,z-ai/glm-5.3,BTC/USD,55.0,55.0,houden,,,"Anker $80k houdt (nog); kernpositie zolang sluitingen >$80k, de-risico alleen bij ankerbreuk."
 2026-10-26T12:31:28.129032+00:00,26-10-2026 13:31,,BCH/USD,5.0,5.0,houden,,,
 2026-10-26T12:31:28.129032+00:00,26-10-2026 13:31,,BTC/USD,55.0,55.0,houden,,,
+2026-10-26T13:07:05.937957+00:00,26-10-2026 14:07,,BCH/USD,5.0,5.0,houden,,,
+2026-10-26T13:07:05.937957+00:00,26-10-2026 14:07,,BTC/USD,55.0,55.0,houden,,,
