@@ -1888,3 +1888,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-26T10:01:21.734844+00:00,26-10-2026 11:01,,ETH/USD,3.9,3.9,houden,,,
 2026-10-26T10:01:21.734844+00:00,26-10-2026 11:01,,SOL/USD,4.0,4.0,houden,,,
 2026-10-26T10:01:21.734844+00:00,26-10-2026 11:01,,XRP/USD,5.9,5.9,houden,,,
+2026-10-26T10:31:17.269078+00:00,26-10-2026 11:31,z-ai/glm-5.3,BCH/USD,4.9,5.0,houden,,,"Sterkste alt: enige munt positief op 7d (+0,49%) en boven de 20d-SMA; houd 5% als relative-strength slot."
+2026-10-26T10:31:17.269078+00:00,26-10-2026 11:31,z-ai/glm-5.3,BTC/USD,55.0,55.0,houden,,,"Anker $80k houdt stand (~$80,3k); kernpositie 55% zolang dat zo blijft, geen top-jacht (RSI 1u 52, range7d laag)."
+2026-10-26T10:31:17.269078+00:00,26-10-2026 11:31,z-ai/glm-5.3,ETH/USD,3.9,0.0,close,361.11,verkocht (alles),
+2026-10-26T10:31:17.269078+00:00,26-10-2026 11:31,z-ai/glm-5.3,SOL/USD,4.0,0.0,close,366.90,verkocht (alles),
+2026-10-26T10:31:17.269078+00:00,26-10-2026 11:31,z-ai/glm-5.3,XRP/USD,5.9,0.0,close,541.03,verkocht (alles),

@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-21T20:01:20.580795+00:00",
-      "time_local": "21-10-2026 22:01",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 12.0,
-        "BCH/USD": 12.0
-      },
-      "summary": "BTC verdedigt de $84k-breakout op het 7d-hoog ($84,4k) met brede kracht (29/33 groen, 7d-mediaan +3,0%), maar RSI-1u 72 en Greed 63 blijven contra-signalen voor bijkopen op de top. Kronos (raak 37,9%) neigt naar een lichte dip (-0,9% op 12u), wat past bij een gezonde terugtest — geen reden om te ver",
-      "equity": 9641.8,
-      "prices": {
-        "BCH/USD": 286.87,
-        "BTC/USD": 84419.759,
-        "SOL/USD": 108.165
-      }
-    },
-    {
       "time": "2026-10-21T20:31:22.154187+00:00",
       "time_local": "21-10-2026 22:31",
       "model": "z-ai/glm-5.3",
@@ -1908,12 +1891,27 @@
         "SOL/USD": 101.583,
         "ETH/USD": 2341.9125
       }
+    },
+    {
+      "time": "2026-10-26T10:31:17.269078+00:00",
+      "time_local": "26-10-2026 11:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 55.0,
+        "BCH/USD": 5.0
+      },
+      "summary": "Brede bounce: 27/33 munten groen op 24u (mediaan +0,93%) en BTC verdedigt het $80k-anker op ~$80,3k. Maar de 7d-mediaan verslechtert verder naar -4,81% en dit is pas de eerste meting >50% groen, dus de hersteltrigger (2-3 opeenvolgende metingen + verbeterende 7d-mediaan) is nog niet bevestigd. Ik ge",
+      "equity": 9186.46,
+      "prices": {
+        "BCH/USD": 278.907,
+        "BTC/USD": 80310.661
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-25T22:31:14.469359+00:00",
-    "time_local": "25-10-2026 23:31",
-    "text": "Anker $80k houdt stand (~$80,4k), maar breedte 12/33 groen en 7d-mediaan -3,25% geven geen stap-2-trigger. Ik houd BTC 55% zolang het anker sluit; de-risk alleen bij sluiting <$80k of duurzaam verslechterende 7d-mediaan. Alt-mouw klein: BCH en XRP 5% (relatieve sterkte), SOL en ETH terug naar 3% (7d-lek vs BTC). Cash ~29% blijft actieve positie. Deploy in twee tranches pas bij 2-3 opeenvolgende metingen >50% groen én verbeterende 7d-mediaan; Kronos (49,6%) negeer ik als richting."
+    "time": "2026-10-26T10:31:17.269078+00:00",
+    "time_local": "26-10-2026 11:31",
+    "text": "Stap 1 blijft actief: BTC 55% zolang het $80k-anker sluit. Alt-mouw hard terug naar max 5%, alleen in BCH (enige munt positief op 7d, boven 20d-SMA); XRP/SOL/ETH verkocht in de bounce — verliezers richting de 24u-grens, nooit midden in een flush. Cash ~40% is droog kruit: tranche 1 (BTC richting 60% + sterkste alts) pas bij 2-3 opeenvolgende metingen >50% groen én een verbeterende 7d-mediaan, tranche 2 pas na meerdaagse bevestiging. Kronos (50%) volledig negeren. De-risico alleen bij ankerbreuk <$80k."
   },
   "lessons": [
     "Speelboek-ladder houdt stand: BTC 55-60% zolang het $80k-anker houdt (dit venster correct, anker verdedigd op $80,2-80,8k). Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbeterende 7d-mediaan — de trigger viel di",
