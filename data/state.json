@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-22T11:31:16.785034+00:00",
-      "time_local": "22-10-2026 13:31",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 6.0,
-        "BCH/USD": 6.0
-      },
-      "summary": "De marktbrede flush zet door: 0/33 munten groen over 24u (mediaan -3,5%) en Greed 68, maar BTC verdedigt $81,8k ruim boven het $80k-anker en is relatief de sterkste munt; RSI-1u ~30 wijst op korte-termijn stabilisatie. De 7d-mediaan blijft positief (+0,8%), dus stap 1 van het playbook blijft intact ",
-      "equity": 9378.16,
-      "prices": {
-        "BCH/USD": 276.61,
-        "BTC/USD": 81809.1,
-        "SOL/USD": 104.4405
-      }
-    },
-    {
       "time": "2026-10-22T12:31:11.776632+00:00",
       "time_local": "22-10-2026 14:31",
       "model": "z-ai/glm-5.3",
@@ -1858,12 +1841,27 @@
         "BCH/USD": 280.47,
         "BTC/USD": 79853.659
       }
+    },
+    {
+      "time": "2026-10-27T11:31:15.309539+00:00",
+      "time_local": "27-10-2026 12:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 45.0,
+        "BCH/USD": 5.0
+      },
+      "summary": "BTC balanceert al ~15 uur rond $79,8k: onder het $80k-anker maar boven het de-risico-niveau van $79,5k, zonder versnelling in welke richting dan ook. Breedte blijft zwak (7/33 groen) en Kronos zit op muntgooi-niveau, dus geen enkele trigger is actief. De ladder blijft ongewijzigd; geen churn, cash b",
+      "equity": 9159.71,
+      "prices": {
+        "BCH/USD": 279.785,
+        "BTC/USD": 79812.845
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-27T11:01:24.688632+00:00",
-    "time_local": "27-10-2026 12:01",
-    "text": "Ladder blijft 45% BTC / 5% BCH / 50% cash. Trim naar 35% BTC alléén bij 2-3 uursloten duidelijk onder $79,5k of een echte flush met versnelling. Opwaarderen in twee tranches (cashvloer 15-30%) pas bij uurslot >$80k plus 2-3 opeenvolgende breedtemetingen >50% groen. BCH hard gecapt op 5% zolang breedte <50% groen. Stuur op anker, breedte en 7d-mediaan, niet op Kronos of 24u-ruis. Eerst het gat versus BTC dichten; de jacht op +20% start pas bij een meerdaags bevestigd herstel."
+    "time": "2026-10-27T11:31:15.309539+00:00",
+    "time_local": "27-10-2026 12:31",
+    "text": "Mechanisch de ladder uitvoeren: 45% BTC / 5% BCH / 50% cash. Trim naar 35% BTC alléén bij 2-3 uursloten duidelijk onder $79,5k of een echte flush met versnelling. Opwaarderen in twee tranches (cashvloer 15-30%) pas bij uurslot >$80k plus 2-3 opeenvolgende breedtemetingen >50% groen. BCH hard gecapt op 5% zolang breedte <50% groen. Stuur op anker, breedte en 7d-mediaan, niet op Kronos of 24u-ruis. Eerst het gat versus BTC dichten; de jacht op +20% start pas bij een meerdaags bevestigd herstel."
   },
   "lessons": [
     "Speelboek-ladder mechanisch uitvoeren: 55% zolang het $80k-anker houdt, direct 45% bij ankerbreuk — dit venster correct, BTC zakte na de breuk verder naar $79,5k. Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbe",

@@ -1989,3 +1989,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-27T10:31:19.815221+00:00,27-10-2026 11:31,z-ai/glm-5.3,BTC/USD,44.9,45.0,houden,,,"Anker niet duurzaam gebroken, geen flush: houd 45%, trim pas bij duidelijke uursloten <$79,5k of versnelling."
 2026-10-27T11:01:24.688632+00:00,27-10-2026 12:01,z-ai/glm-5.3,BCH/USD,5.0,5.0,houden,,,"Sterkste munt (7d +2,5%, range7d 54); harde 5%-cap zolang breedte <50% groen."
 2026-10-27T11:01:24.688632+00:00,27-10-2026 12:01,z-ai/glm-5.3,BTC/USD,45.0,45.0,houden,,,"Ladder correct na ankerbreuk; geen extra trim zonder 2-3 slots < $79,5k of flush — koers balanceert zonder versnelling."
+2026-10-27T11:31:15.309539+00:00,27-10-2026 12:31,z-ai/glm-5.3,BCH/USD,5.0,5.0,houden,,,"Sterkste munt (+2,3% 7d, range7d op 50); harde cap van 5% zolang breedte <50% groen."
+2026-10-27T11:31:15.309539+00:00,27-10-2026 12:31,z-ai/glm-5.3,BTC/USD,45.0,45.0,houden,,,"Balanceert boven $79,5k zonder versnelling: geen trim-trigger, maar ook geen uurslot >$80k voor upgrade. Houd 45%."
