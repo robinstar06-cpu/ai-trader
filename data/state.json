@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-22T09:01:28.675124+00:00",
-      "time_local": "22-10-2026 11:01",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 6.0,
-        "BCH/USD": 6.0
-      },
-      "summary": "De marktbrede flush zet door: 0/33 munten groen over 24u (mediaan -3,7%) en de 7d-mediaan krimpt naar +0,25%, maar BTC verdedigt $81,7k ruim boven het $80k-anker en is relatief de sterkste munt in de flush. Greed 68 blokkeert nieuwe adds; RSI-1u ~26 suggereert stabilisatie, maar zonder bevestiging k",
-      "equity": 9370.27,
-      "prices": {
-        "BCH/USD": 272.976,
-        "BTC/USD": 81709.05,
-        "SOL/USD": 103.62
-      }
-    },
-    {
       "time": "2026-10-22T09:31:07.650299+00:00",
       "time_local": "22-10-2026 11:31",
       "model": "z-ai/glm-5.3",
@@ -1868,12 +1851,27 @@
         "BCH/USD": 281.0335,
         "BTC/USD": 79664.0565
       }
+    },
+    {
+      "time": "2026-10-27T09:01:29.118700+00:00",
+      "time_local": "27-10-2026 10:01",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 45.0,
+        "BCH/USD": 5.0
+      },
+      "summary": "BTC balanceert al ~14 uur op het 7d-laag rond $79,7k: boven mijn de-risico-niveau van $79,5k maar onder het $80k-anker, zonder versnelling of duurzame breuk. Breedte is zeer zwak (7/33 groen, 7d-mediaan -4,8%), dus geen opwaardeer-trigger; Kronos (51,8%) negeer ik volledig.",
+      "equity": 9155.53,
+      "prices": {
+        "BCH/USD": 281.634,
+        "BTC/USD": 79732.6275
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-27T08:31:12.680035+00:00",
-    "time_local": "27-10-2026 09:31",
-    "text": "Handhaaf de ladder 45% BTC / 5% BCH / 50% cash zolang BTC tussen $79,5k en $80k balanceert. Trim BTC naar ~35% alleen bij meerdere uursloten duidelijk onder $79,5k of een echte flush. Opwaarderen pas bij uurslot >$80k plus 2-3 opeenvolgende breedtemetingen >50% groen én verbeterende 7d-mediaan; deploy dan in twee tranches met cashvloer 15-30%. BCH-cap hard op 5%, geen top-chasing, geen verliezers bijkopen. Eerst het gat versus BTC (~4pp) dichten; de jacht op +20% start pas bij een meerdaags bevestigd herstel."
+    "time": "2026-10-27T09:01:29.118700+00:00",
+    "time_local": "27-10-2026 10:01",
+    "text": "Handhaaf de ladder 45% BTC / 5% BCH / 50% cash. Trim BTC naar ~35% alleen bij meerdere uursloten duidelijk onder $79,5k of een echte flush. Opwaarderen pas bij uurslot >$80k plus 2-3 opeenvolgende breedtemetingen >50% groen en een verbeterende 7d-mediaan; deploy dan in twee tranches met cashvloer 15-30%. BCH-cap hard op 5%, geen top-chasing. Eerst het gat versus BTC (~4pp) dichten; de jacht op +20% start pas bij een meerdaags bevestigd herstel."
   },
   "lessons": [
     "Speelboek-ladder houdt stand: BTC 55-60% zolang het $80k-anker houdt (dit venster correct, anker verdedigd op $80,2-80,8k). Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbeterende 7d-mediaan — de trigger viel di",
@@ -1887,44 +1885,6 @@
   ],
   "review_assessment": "Dit venster was verdediging, geen alpha: -0,63% tegen BTC -0,76% komt puur door ~30% cash, terwijl de alt-mouw (~15%, viermaal de 5%-cap) over de hele linie lekte met XRP -2,1% en BCH -1,7% als ergste. Het $80k-anker hield en de ladder-discipline werkte, maar met -8,48% op dag 12 is het doel van +20% alleen haalbaar bij volledige participatie in een meerdaags bevestigd herstel. Kronos zakte naar 48,9% en is als richtingssignaal waardeloos.",
   "kronos_log": [
-    {
-      "t": "2026-10-24T20:00:00+00:00",
-      "f": {
-        "BTC/USD": 0.26,
-        "SOL/USD": -0.01,
-        "ETH/USD": -0.14,
-        "XRP/USD": -0.36,
-        "BCH/USD": -0.03,
-        "PEPE/USD": -14.88,
-        "PAXG/USD": 0.23,
-        "AAVE/USD": 1.11,
-        "LINK/USD": 0.32,
-        "DOT/USD": 1.16,
-        "DOGE/USD": -0.08,
-        "AVAX/USD": 0.14,
-        "ONDO/USD": 0.8,
-        "UNI/USD": 0.43,
-        "ADA/USD": 0.09,
-        "HYPE/USD": -0.24,
-        "LTC/USD": 0.58,
-        "GRT/USD": 0.78,
-        "SHIB/USD": -29.5,
-        "RENDER/USD": 0.43,
-        "CRV/USD": 1.12,
-        "YFI/USD": 0.2,
-        "SUSHI/USD": 0.27,
-        "FIL/USD": 0.55,
-        "BONK/USD": 13.52,
-        "BAT/USD": -1.12,
-        "POL/USD": 0.5,
-        "LDO/USD": -0.13,
-        "ARB/USD": -0.19,
-        "WIF/USD": 0.79,
-        "SKY/USD": 0.48,
-        "TRUMP/USD": 0.28,
-        "XTZ/USD": -0.33
-      }
-    },
     {
       "t": "2026-10-24T21:00:00+00:00",
       "f": {
@@ -4154,209 +4114,247 @@
         "WIF/USD": 0.73,
         "YFI/USD": 0.51
       }
+    },
+    {
+      "t": "2026-10-27T08:00:00+00:00",
+      "f": {
+        "BTC/USD": 0.18,
+        "BCH/USD": -0.87,
+        "ETH/USD": 0.46,
+        "XRP/USD": 0.31,
+        "SOL/USD": 0.12,
+        "PAXG/USD": 0.31,
+        "LTC/USD": 0.23,
+        "UNI/USD": 0.28,
+        "LINK/USD": 0.52,
+        "AAVE/USD": 0.4,
+        "DOGE/USD": -0.29,
+        "DOT/USD": 0.3,
+        "ADA/USD": 0.03,
+        "SKY/USD": 0.69,
+        "ONDO/USD": -0.08,
+        "HYPE/USD": -0.26,
+        "AVAX/USD": 0.32,
+        "SHIB/USD": -9.5,
+        "FIL/USD": 0.04,
+        "SUSHI/USD": 0.12,
+        "RENDER/USD": -0.2,
+        "TRUMP/USD": 0.18,
+        "BAT/USD": -1.2,
+        "GRT/USD": 0.03,
+        "CRV/USD": 0.57,
+        "XTZ/USD": 1.04,
+        "BONK/USD": 19.9,
+        "PEPE/USD": 16.67,
+        "ARB/USD": 0.44,
+        "POL/USD": 0.31,
+        "LDO/USD": 1.1,
+        "WIF/USD": 0.42,
+        "YFI/USD": 0.03
+      }
     }
   ],
   "kronos_last": {
-    "bar_t": "2026-10-27T07:00:00+00:00",
-    "time": "2026-10-27T08:01:22.081903+00:00",
+    "bar_t": "2026-10-27T08:00:00+00:00",
+    "time": "2026-10-27T09:01:29.118700+00:00",
     "fc": {
       "BTC/USD": {
-        "k4h": 0.328,
-        "up4h": 83,
-        "k12h": 0.664,
-        "up12h": 83
+        "k4h": 0.177,
+        "up4h": 67,
+        "k12h": 0.526,
+        "up12h": 100
       },
       "BCH/USD": {
-        "k4h": -0.377,
-        "up4h": 17,
-        "k12h": -0.051,
-        "up12h": 67
+        "k4h": -0.871,
+        "up4h": 0,
+        "k12h": -1.437,
+        "up12h": 0
       },
       "ETH/USD": {
-        "k4h": 0.272,
+        "k4h": 0.458,
         "up4h": 83,
-        "k12h": 0.491,
-        "up12h": 67
+        "k12h": 0.634,
+        "up12h": 100
       },
       "XRP/USD": {
-        "k4h": 0.443,
-        "up4h": 67,
-        "k12h": 0.975,
-        "up12h": 83
+        "k4h": 0.308,
+        "up4h": 100,
+        "k12h": -0.29,
+        "up12h": 50
       },
       "SOL/USD": {
-        "k4h": 0.477,
-        "up4h": 67,
-        "k12h": 1.016,
+        "k4h": 0.116,
+        "up4h": 50,
+        "k12h": 0.797,
         "up12h": 83
       },
       "PAXG/USD": {
-        "k4h": 0.134,
-        "up4h": 100,
-        "k12h": 0.222,
-        "up12h": 83
-      },
-      "UNI/USD": {
-        "k4h": -0.206,
-        "up4h": 50,
-        "k12h": -1.18,
-        "up12h": 33
+        "k4h": 0.312,
+        "up4h": 83,
+        "k12h": 0.471,
+        "up12h": 100
       },
       "LTC/USD": {
-        "k4h": 0.325,
+        "k4h": 0.225,
         "up4h": 67,
-        "k12h": -0.124,
-        "up12h": 33
-      },
-      "LINK/USD": {
-        "k4h": -0.221,
-        "up4h": 50,
-        "k12h": 0.036,
-        "up12h": 83
-      },
-      "DOGE/USD": {
-        "k4h": 0.674,
-        "up4h": 67,
-        "k12h": 0.782,
-        "up12h": 67
-      },
-      "AAVE/USD": {
-        "k4h": 0.919,
-        "up4h": 50,
-        "k12h": 3.828,
-        "up12h": 100
-      },
-      "DOT/USD": {
-        "k4h": 0.009,
-        "up4h": 33,
-        "k12h": 1.256,
-        "up12h": 83
-      },
-      "ADA/USD": {
-        "k4h": 0.351,
-        "up4h": 67,
-        "k12h": 0.958,
-        "up12h": 67
-      },
-      "SKY/USD": {
-        "k4h": 0.555,
-        "up4h": 67,
-        "k12h": 2.876,
-        "up12h": 100
-      },
-      "HYPE/USD": {
-        "k4h": -0.421,
-        "up4h": 0,
-        "k12h": -0.393,
-        "up12h": 17
-      },
-      "ONDO/USD": {
-        "k4h": 0.891,
-        "up4h": 83,
-        "k12h": 0.718,
+        "k12h": 0.63,
         "up12h": 50
       },
-      "AVAX/USD": {
-        "k4h": -0.065,
-        "up4h": 33,
-        "k12h": 0.101,
+      "UNI/USD": {
+        "k4h": 0.282,
+        "up4h": 67,
+        "k12h": -0.068,
         "up12h": 67
       },
+      "LINK/USD": {
+        "k4h": 0.516,
+        "up4h": 83,
+        "k12h": 0.613,
+        "up12h": 100
+      },
+      "AAVE/USD": {
+        "k4h": 0.396,
+        "up4h": 67,
+        "k12h": 2.537,
+        "up12h": 100
+      },
+      "DOGE/USD": {
+        "k4h": -0.286,
+        "up4h": 33,
+        "k12h": -0.233,
+        "up12h": 50
+      },
+      "DOT/USD": {
+        "k4h": 0.303,
+        "up4h": 67,
+        "k12h": 1.529,
+        "up12h": 100
+      },
+      "ADA/USD": {
+        "k4h": 0.026,
+        "up4h": 67,
+        "k12h": 0.261,
+        "up12h": 50
+      },
+      "SKY/USD": {
+        "k4h": 0.685,
+        "up4h": 100,
+        "k12h": 2.251,
+        "up12h": 100
+      },
+      "ONDO/USD": {
+        "k4h": -0.084,
+        "up4h": 50,
+        "k12h": 0.497,
+        "up12h": 83
+      },
+      "HYPE/USD": {
+        "k4h": -0.259,
+        "up4h": 50,
+        "k12h": -0.658,
+        "up12h": 33
+      },
+      "AVAX/USD": {
+        "k4h": 0.317,
+        "up4h": 67,
+        "k12h": 0.322,
+        "up12h": 83
+      },
       "SHIB/USD": {
-        "k4h": -21.27,
+        "k4h": -9.504,
         "up4h": 17,
-        "k12h": -12.858,
+        "k12h": -21.109,
         "up12h": 17
       },
       "FIL/USD": {
-        "k4h": 0.424,
-        "up4h": 50,
-        "k12h": 1.095,
+        "k4h": 0.041,
+        "up4h": 33,
+        "k12h": 0.778,
         "up12h": 67
       },
       "SUSHI/USD": {
-        "k4h": 0.599,
-        "up4h": 83,
-        "k12h": 1.461,
-        "up12h": 83
-      },
-      "RENDER/USD": {
-        "k4h": 0.306,
-        "up4h": 67,
-        "k12h": 1.053,
-        "up12h": 83
-      },
-      "BAT/USD": {
-        "k4h": -0.721,
-        "up4h": 50,
-        "k12h": -0.123,
-        "up12h": 50
-      },
-      "TRUMP/USD": {
-        "k4h": -0.341,
-        "up4h": 50,
-        "k12h": -0.031,
+        "k4h": 0.119,
+        "up4h": 33,
+        "k12h": 0.886,
         "up12h": 67
       },
+      "RENDER/USD": {
+        "k4h": -0.199,
+        "up4h": 50,
+        "k12h": 1.426,
+        "up12h": 100
+      },
+      "TRUMP/USD": {
+        "k4h": 0.182,
+        "up4h": 67,
+        "k12h": -0.054,
+        "up12h": 50
+      },
+      "BAT/USD": {
+        "k4h": -1.197,
+        "up4h": 17,
+        "k12h": -0.153,
+        "up12h": 50
+      },
       "GRT/USD": {
-        "k4h": 0.556,
-        "up4h": 83,
-        "k12h": 3.142,
+        "k4h": 0.025,
+        "up4h": 33,
+        "k12h": 2.516,
         "up12h": 100
       },
       "CRV/USD": {
-        "k4h": -0.074,
-        "up4h": 17,
-        "k12h": 0.403,
-        "up12h": 50
+        "k4h": 0.568,
+        "up4h": 67,
+        "k12h": 0.136,
+        "up12h": 67
       },
       "XTZ/USD": {
-        "k4h": 0.389,
-        "up4h": 67,
-        "k12h": 2.903,
+        "k4h": 1.042,
+        "up4h": 83,
+        "k12h": 3.755,
         "up12h": 100
       },
       "BONK/USD": {
-        "k4h": 19.94,
+        "k4h": 19.904,
         "up4h": 100,
-        "k12h": 11.4,
-        "up12h": 83
+        "k12h": 11.882,
+        "up12h": 67
       },
       "PEPE/USD": {
-        "k4h": 16.513,
-        "up4h": 83,
-        "k12h": 11.025,
+        "k4h": 16.671,
+        "up4h": 100,
+        "k12h": 1.348,
         "up12h": 67
       },
       "ARB/USD": {
-        "k4h": -0.988,
-        "up4h": 0,
-        "k12h": 0.26,
-        "up12h": 67
-      },
-      "POL/USD": {
-        "k4h": 0.339,
-        "up4h": 50,
-        "k12h": -0.207,
+        "k4h": 0.444,
+        "up4h": 83,
+        "k12h": 0.021,
         "up12h": 33
       },
-      "LDO/USD": {
-        "k4h": 0.391,
+      "POL/USD": {
+        "k4h": 0.311,
         "up4h": 67,
-        "k12h": 1.229,
+        "k12h": 0.666,
+        "up12h": 50
+      },
+      "LDO/USD": {
+        "k4h": 1.101,
+        "up4h": 100,
+        "k12h": 2.461,
         "up12h": 100
       },
       "WIF/USD": {
-        "k4h": 0.727,
-        "up4h": 100,
-        "k12h": 0.893,
-        "up12h": 83
+        "k4h": 0.42,
+        "up4h": 67,
+        "k12h": 1.079,
+        "up12h": 100
       },
       "YFI/USD": {
-        "k4h": 0.511,
-        "up4h": 67,
-        "k12h": 1.212,
-        "up12h": 100
+        "k4h": 0.025,
+        "up4h": 33,
+        "k12h": 1.328,
+        "up12h": 83
       }
     }
   }
