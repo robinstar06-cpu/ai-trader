@@ -1949,3 +1949,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-27T00:31:16.052827+00:00,27-10-2026 01:31,z-ai/glm-5.3,BTC/USD,45.1,45.0,houden,,,"Net terug boven $80k, maar trigger (2-3x breedte >50% + verbeterende 7d-mediaan) nog niet gehaald; handhaven, niet bijpakken op ruis."
 2026-10-27T01:01:32.963540+00:00,27-10-2026 02:01,,BCH/USD,5.0,5.0,houden,,,
 2026-10-27T01:01:32.963540+00:00,27-10-2026 02:01,,BTC/USD,45.2,45.2,houden,,,
+2026-10-27T01:31:04.683341+00:00,27-10-2026 02:31,,BCH/USD,5.0,5.0,houden,,,
+2026-10-27T01:31:04.683341+00:00,27-10-2026 02:31,,BTC/USD,45.1,45.1,houden,,,
