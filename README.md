@@ -1,25 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 27-10-2026 07:31_
+_Laatst bijgewerkt: 27-10-2026 08:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,147.54** |
+| Waarde portefeuille | **$9,142.09** |
 | Cash | $4,575.90 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-8.52%** |
-| Ter vergelijking: gewoon BTC vasthouden | -4.41% |
-| Verschil | -4.11% |
+| Rendement AI sinds 14-10-2026 13:02 | **-8.58%** |
+| Ter vergelijking: gewoon BTC vasthouden | -4.59% |
+| Verschil | -3.99% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-8.52%** |
+| Rendement deze periode | **-8.58%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -8.52% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -8.58% |
+| Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 48 (Neutral) |
-| Kronos-voorspelling | 33 munten (berekend om 07:01); richting op 4u goed: 50% (n=1550, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 181s; richting op 4u goed: 50% (n=1550, 50% = gokken) |
 
-## Strategie van de AI (sinds 27-10-2026 07:01)
+## Marktvisie van de AI
 
-Handhaaf 45% BTC / 5% BCH / 50% cash: geen uurslot boven $80k, pas één breedtemeting >50% (18/33) en de 7d-mediaan nog negatief — de trigger blijft onbevestigd. Ik visch niet op het 7d-laag en houd de alt-cap hard op 5% (BCH, sterkste 7d-munt +1,6%). Kronos (50,3%, muntgooi) negeer ik volledig. Bij een duurzame breuk onder ~$79,5k de-risico ik BTC; zodra BTC boven $80k sluit én de breedte 2-3 metingen >50% groen houdt én de 7d-mediaan verder verbetert, zet ik de eerste helft van stap 2 in — de rest pas na meerdaagse bevestiging.
+BTC balanceert al 12+ uur op het 7d-laag en noteert nu $79,49k — een haar onder mijn de-risico-niveau van ~$79,5k, maar zonder versnelling of duurzame breuk (ch_1h -0,04%, vol laag). Breedte blijft onder de grens (16/33 groen, 24u-mediaan -0,24%) en de 7d-mediaan staat diep rood (-5,34%), dus de stap-2-trigger blijft onbevestigd. Kronos (50,3%, muntgooi) negeer ik volledig.
+
+## Strategie van de AI (sinds 27-10-2026 08:01)
+
+Handhaaf 45% BTC / 5% BCH / 50% cash, conform het plan van dit venster. Eén print op $79,49k is nog geen duurzame breuk onder ~$79,5k: pas bij meerdere uursloten duidelijk onder dat niveau (of een echte flush) trim ik BTC naar ~35%. Stap 2 (alts) wacht op een uurslot boven $80k, 2-3 breedtemetingen >50% groen én een verbeterende 7d-mediaan. Niet kopen op het 7d-laag; BCH blijft de enige alt met de cap hard op 5%.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -38,23 +42,18 @@ _Dit venster was verdediging, geen alpha: -0,63% tegen BTC -0,76% komt puur door
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,112.78 | 45.0% | -2.8% | 45.0% | +0.7% (100% omhoog) |  |
-| BCH/USD | $458.86 | 5.0% | -0.4% | 5.0% | -0.0% (50% omhoog) |  |
+| BTC/USD | $4,107.34 | 44.9% | -2.9% | 45.0% | +0.8% (100% omhoog) | Anker nog niet duurzaam gebroken; geen flush, geen versnelling. Trim naar ~35% pas bij meerdere slots <$79,5k. |
+| BCH/USD | $458.86 | 5.0% | -0.4% | 5.0% | -0.3% (50% omhoog) | Sterkste 7d-munt (+2,2%, midden range7d); alt-cap hard op 5% zolang breedte en 7d-mediaan zwak blijven. |
 
 ## Orders deze run
 
 Geen orders (verdeling blijft gelijk).
 
-## Meldingen
-
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
-- AI-fout: z-ai/glm-5.3: antwoord bevatte geen geldige JSON
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
-
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 27-10-2026 08:01 | $9,142 | -8.58% | -4.59% | 0 |
 | 27-10-2026 07:31 | $9,148 | -8.52% | -4.41% | 0 |
 | 27-10-2026 07:01 | $9,156 | -8.44% | -4.21% | 0 |
 | 27-10-2026 06:31 | $9,147 | -8.53% | -4.45% | 0 |
@@ -66,7 +65,6 @@ Geen orders (verdeling blijft gelijk).
 | 27-10-2026 03:31 | $9,158 | -8.42% | -4.19% | 0 |
 | 27-10-2026 03:01 | $9,160 | -8.40% | -4.06% | 0 |
 | 27-10-2026 02:31 | $9,164 | -8.36% | -3.87% | 0 |
-| 27-10-2026 02:01 | $9,170 | -8.30% | -3.85% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
