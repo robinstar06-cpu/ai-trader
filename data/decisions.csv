@@ -2003,3 +2003,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-27T14:01:33.455324+00:00,27-10-2026 15:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,51.7,45.0,sell,614.44,verkocht 0.007703892,"Valse $80k-reclaim teruggedraaid; anker niet gehouden, mechanisch 45%."
 2026-10-27T14:31:26.315470+00:00,27-10-2026 15:31,z-ai/glm-5.3,BCH/USD,5.1,5.0,houden,,,"Sterkste munt (+3,2% 24u, boven SMA20/50) maar range7d_pos 86 = 7d-hoog: harde cap van 5%, geen top-chasing"
 2026-10-27T14:31:26.315470+00:00,27-10-2026 15:31,z-ai/glm-5.3,BTC/USD,45.1,45.0,houden,,,"Anker met $80,2k marginaal heroverd maar geen versnelling en breedte 7/33: zweef-niveau, niet verhandelen; 45% aanhouden, cash is munitie"
+2026-10-27T15:01:29.749612+00:00,27-10-2026 16:01,z-ai/glm-5.3,BCH/USD,5.1,5.0,houden,,,"Sterkste munt (+3,4% 24u, enige groene 7d); de 5%-alt-cap werkt — houden op max, niet verhogen (7d-hoog)."
+2026-10-27T15:01:29.749612+00:00,27-10-2026 16:01,z-ai/glm-5.3,BTC/USD,45.1,45.0,houden,,,Anker $80k houdt nét stand zonder versnelling: middenpositie 45% in de ladder; geen 52%-herhaling zonder breedtebevestiging.
