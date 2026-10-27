@@ -1959,3 +1959,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-27T03:01:14.002197+00:00,27-10-2026 04:01,,BTC/USD,45.0,45.0,houden,,,
 2026-10-27T03:31:21.455916+00:00,27-10-2026 04:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,5.0,5.0,houden,,,"Sterkste 7d-munt (ch_7d -0,10%, boven 20d-SMA), houdt alt-blootstelling binnen de 5%-cap."
 2026-10-27T03:31:21.455916+00:00,27-10-2026 04:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,45.0,45.0,houden,,,"Anker $80k wordt verdedigd, breedte verbetert; trigger voor uitbreiding nog niet gehaald, dus handhaven."
+2026-10-27T04:01:14.650314+00:00,27-10-2026 05:01,,BCH/USD,5.0,5.0,houden,,,
+2026-10-27T04:01:14.650314+00:00,27-10-2026 05:01,,BTC/USD,45.0,45.0,houden,,,
