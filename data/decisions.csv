@@ -1945,3 +1945,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-26T23:31:16.367155+00:00,27-10-2026 00:31,,BTC/USD,45.0,45.0,houden,,,
 2026-10-27T00:01:14.304058+00:00,27-10-2026 01:01,,BCH/USD,5.0,5.0,houden,,,
 2026-10-27T00:01:14.304058+00:00,27-10-2026 01:01,,BTC/USD,45.1,45.1,houden,,,
+2026-10-27T00:31:16.052827+00:00,27-10-2026 01:31,z-ai/glm-5.3,BCH/USD,5.0,5.0,houden,,,"Sterkste alt op 7d (+0,46%) binnen de harde 5%-cap; houden, geen churn."
+2026-10-27T00:31:16.052827+00:00,27-10-2026 01:31,z-ai/glm-5.3,BTC/USD,45.1,45.0,houden,,,"Net terug boven $80k, maar trigger (2-3x breedte >50% + verbeterende 7d-mediaan) nog niet gehaald; handhaven, niet bijpakken op ruis."
