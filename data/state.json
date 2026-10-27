@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-22T18:01:30.039689+00:00",
-      "time_local": "22-10-2026 20:01",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 6.0,
-        "BCH/USD": 6.0
-      },
-      "summary": "De brede flush houdt aan: 0/33 munten groen over 24u (mediaan -5,8%) en Greed 68 — een gevaarlijke combinatie. BTC verdedigt echter $81,1k ruim boven het $80k-anker met RSI-1u ~26 (diep oversold), dus het anker houdt stand. Ik blijf in speelboek stap 1 en houd het droog kruit klaar voor een bevestig",
-      "equity": 9329.44,
-      "prices": {
-        "SOL/USD": 103.417,
-        "BCH/USD": 273.6765,
-        "BTC/USD": 81103.7855
-      }
-    },
-    {
       "time": "2026-10-22T18:31:12.531043+00:00",
       "time_local": "22-10-2026 20:31",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1838,12 +1821,27 @@
         "BTC/USD": 80632.78,
         "BCH/USD": 291.81
       }
+    },
+    {
+      "time": "2026-10-27T18:31:30.489504+00:00",
+      "time_local": "27-10-2026 19:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 45.0,
+        "BCH/USD": 5.0
+      },
+      "summary": "BTC balanceert al ~20 uur rond het $80k-anker ($80,5k) zonder enige versnelling; de breedte zwiept tussen 15/33 en 24/33 groen, dus de opwaartse voorwaarde (2-3 opeenvolgende metingen >50%) is niet vervuld. Mediaan 7d blijft -6,05% en Fear & Greed zakt naar 48: nog geen bevestigd meerdaags herstel.",
+      "equity": 9202.29,
+      "prices": {
+        "BTC/USD": 80489.465,
+        "BCH/USD": 289.2245
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-27T17:31:10.357829+00:00",
-    "time_local": "27-10-2026 18:31",
-    "text": "Ladder ongewijzigd: 45% BTC + 5% BCH + 50% cash; posities staan op target, dus geen trades (churn kost alleen fees). Opwaartse tranche richting 55-60% pas bij 2-3 opeenvolgende breedtemetingen >50% groen én duurzaam $80k-behoud — de 24/33-meting werd niet bevestigd. Neerwaarts direct 40% bij duurzame sluiting onder $79,5k mét versnelling. Kronos (51,5%, muntgooi) negeren. BCH staat op zijn 7d-hoog: vasthouden op 5%, niet verhogen. Prioriteit: gat versus BTC dichten zonder alt-lek of top-chasing; cash-vloer minimaal 15-30% tot een meerdaags herstel bevestigd is."
+    "time": "2026-10-27T18:31:30.489504+00:00",
+    "time_local": "27-10-2026 19:31",
+    "text": "Ladder ongewijzigd: 45% BTC + 5% BCH + 50% cash; posities staan op target, dus geen trades (churn kost alleen fees). Opwaartse tranche naar 55-60% pas bij 2-3 opeenvolgende breedtemetingen >50% groen én duurzaam $80k-behoud mét versnelling; direct 40% bij duurzame sluiting onder $79,5k. Kronos (51,6%, muntgooi) negeren. BCH staat op zijn 7d-hoog: vasthouden op 5%, niet verhogen. Cash-vloer minimaal 15-30% tot een meerdaags herstel bevestigd is; prioriteit blijft het gat versus BTC dichten zonder alt-lek of top-chasing."
   },
   "lessons": [
     "Speelboek-ladder mechanisch uitvoeren: 55% zolang het $80k-anker houdt, direct 45% bij ankerbreuk — dit venster correct, BTC zakte na de breuk verder naar $79,5k. Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbe",
