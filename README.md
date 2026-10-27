@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 27-10-2026 03:01_
+_Laatst bijgewerkt: 27-10-2026 03:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,160.09** |
+| Waarde portefeuille | **$9,158.44** |
 | Cash | $4,575.90 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-8.40%** |
-| Ter vergelijking: gewoon BTC vasthouden | -4.06% |
-| Verschil | -4.34% |
+| Rendement AI sinds 14-10-2026 13:02 | **-8.42%** |
+| Ter vergelijking: gewoon BTC vasthouden | -4.19% |
+| Verschil | -4.23% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-8.40%** |
+| Rendement deze periode | **-8.42%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -8.40% |
-| Model | z-ai/glm-5.3 |
+| Daling vanaf de top ($10,000) | -8.42% |
+| Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 48 (Neutral) |
-| Kronos-voorspelling | 33 munten in 246s; richting op 4u goed: 50% (n=1551, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 03:01); richting op 4u goed: 50% (n=1551, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-BTC balanceert opnieuw nét onder het $80k-anker ($79,9k, range-positie 9%) terwijl de breedte verder verbetert naar 24/33 groen met een licht positieve 24u-mediaan (+0,77%). De 7d-mediaan blijft echter diep negatief (-5,8%) en verslechtert nog, dus van een meerdaags bevestigd herstel is geen sprake. Kronos (50% accuratesse, slechter dan een muntgooi) wordt conform de lessen volledig genegeerd.
+BTC blijft net onder het $80k-anker hangen ($79,8k, range-positie 7%, RSI-1d 40) terwijl de breedte verbetert naar 23/33 groen met een positieve 24u-mediaan (+0,52%), maar de 7d-mediaan blijft duidelijk negatief (-5,76%). Fear & Greed is neutraal op 48; dit is nog steeds een stabilisatie op het 7d-laag, geen bevestigd herstel.
 
-## Strategie van de AI (sinds 27-10-2026 03:01)
+## Strategie van de AI (sinds 27-10-2026 03:31)
 
-Handhaven: 45% BTC, 5% BCH, 50% cash — geen verkoop midden in de stabilisatie, geen vroegtijdige inkoop op 24u-ruis. Tranche 1 (+10-15pp BTC) pas bij uurslot boven $80k én 2-3 opeenvolgende breedtemetingen >50% groen én een verbeterende 7d-mediaan; nu ontbreekt zowel het slot boven $80k als het 7d-herstel. Geen churn naar 24u-stijgers (UNI, TRUMP, DOT); alt-cap blijft hard op 5% in BCH, de sterkste 7d-munt. Cash blijft een actieve positie; de-risico alleen bij ankerbreuk <$80k.
+Handhaven: 45% BTC, 5% BCH, 50% cash. De trigger voor tranche 1 (+10-15pp BTC) is nog niet gehaald: geen uurslot boven $80k en de 7d-mediaan blijft negatief ondanks de verbeterende breedte (23/33 groen). Ik koop niet op 24u-ruis en chase geen 24u-stijgers (UNI, TRUMP). BCH blijft de sterkste 7d-munt (ch_7d +0,64%) en houdt de alt-cap op 5%. Cash blijft een actieve positie; de-risico alleen bij een duurzame ankerbreuk onder $80k. Zodra BTC met een uurslot boven $80k komt én de breedte 2-3 metingen >50% groen houdt én de 7d-mediaan verbetert, zet ik de eerste helft van stap 2 in.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,17 +42,22 @@ _Dit venster was verdediging, geen alpha: -0,63% tegen BTC -0,76% komt puur door
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,130.24 | 45.1% | -2.4% | 45.0% | +0.1% (67% omhoog) | Anker rond $80k verdedigd; wacht op bevestigd slot boven $80k vóór tranche 1, geen verkoop in de flush |
-| BCH/USD | $453.95 | 5.0% | -1.5% | 5.0% | -0.4% (33% omhoog) | Sterkste 7d-munt (+1,4%); blijft op de harde alt-cap van 5% zolang de 7d-mediaan negatief is |
+| BTC/USD | $4,123.68 | 45.0% | -2.5% | 45.0% | +0.1% (67% omhoog) | Kernpositie; anker $80k nog net niet terugveroverd, geen trigger om te vergroten of te verkopen. |
+| BCH/USD | $458.86 | 5.0% | -0.4% | 5.0% | -0.4% (33% omhoog) | Sterkste 7d-munt (+0,64%), houdt alt-cap hard op 5%. |
 
 ## Orders deze run
 
 Geen orders (verdeling blijft gelijk).
 
+## Meldingen
+
+- AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 27-10-2026 03:31 | $9,158 | -8.42% | -4.19% | 0 |
 | 27-10-2026 03:01 | $9,160 | -8.40% | -4.06% | 0 |
 | 27-10-2026 02:31 | $9,164 | -8.36% | -3.87% | 0 |
 | 27-10-2026 02:01 | $9,170 | -8.30% | -3.85% | 0 |
@@ -64,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 26-10-2026 23:01 | $9,157 | -8.43% | -4.09% | 0 |
 | 26-10-2026 22:31 | $9,156 | -8.44% | -4.08% | 0 |
 | 26-10-2026 22:01 | $9,154 | -8.46% | -4.23% | 0 |
-| 26-10-2026 21:31 | $9,149 | -8.51% | -4.31% | 1 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).

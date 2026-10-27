@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-22T02:01:21.213946+00:00",
-      "time_local": "22-10-2026 04:01",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 12.0,
-        "BCH/USD": 12.0
-      },
-      "summary": "BTC verdedigt $83,3k ruim boven het $80k-anker, maar de breedte koelt verder af naar 11/33 groen en Greed steeg naar 68 — een duidelijk contra-signaal tegen nieuwe adds. De 7d-mediaan blijft positief (+2,66%), dus geen enkele de-risk trigger is gevallen. Kronos wijkt licht negatief af, maar met 48% ",
-      "equity": 9547.0,
-      "prices": {
-        "BTC/USD": 83329.094,
-        "BCH/USD": 283.07,
-        "SOL/USD": 106.14
-      }
-    },
-    {
       "time": "2026-10-22T02:31:19.481908+00:00",
       "time_local": "22-10-2026 04:31",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1884,12 +1867,27 @@
         "BTC/USD": 79937.6735,
         "BCH/USD": 282.261
       }
+    },
+    {
+      "time": "2026-10-27T02:31:22.143374+00:00",
+      "time_local": "27-10-2026 03:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 45.0,
+        "BCH/USD": 5.0
+      },
+      "summary": "BTC blijft net onder het $80k-anker hangen ($79,8k, range-positie 7%, RSI-1d 40) terwijl de breedte verbetert naar 23/33 groen met een positieve 24u-mediaan (+0,52%), maar de 7d-mediaan blijft duidelijk negatief (-5,76%). Fear & Greed is neutraal op 48; dit is nog steeds een stabilisatie op het 7d-l",
+      "equity": 9158.44,
+      "prices": {
+        "BTC/USD": 79827.016,
+        "BCH/USD": 280.225
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-27T02:01:20.659574+00:00",
-    "time_local": "27-10-2026 03:01",
-    "text": "Handhaven: 45% BTC, 5% BCH, 50% cash — geen verkoop midden in de stabilisatie, geen vroegtijdige inkoop op 24u-ruis. Tranche 1 (+10-15pp BTC) pas bij uurslot boven $80k én 2-3 opeenvolgende breedtemetingen >50% groen én een verbeterende 7d-mediaan; nu ontbreekt zowel het slot boven $80k als het 7d-herstel. Geen churn naar 24u-stijgers (UNI, TRUMP, DOT); alt-cap blijft hard op 5% in BCH, de sterkste 7d-munt. Cash blijft een actieve positie; de-risico alleen bij ankerbreuk <$80k."
+    "time": "2026-10-27T02:31:22.143374+00:00",
+    "time_local": "27-10-2026 03:31",
+    "text": "Handhaven: 45% BTC, 5% BCH, 50% cash. De trigger voor tranche 1 (+10-15pp BTC) is nog niet gehaald: geen uurslot boven $80k en de 7d-mediaan blijft negatief ondanks de verbeterende breedte (23/33 groen). Ik koop niet op 24u-ruis en chase geen 24u-stijgers (UNI, TRUMP). BCH blijft de sterkste 7d-munt (ch_7d +0,64%) en houdt de alt-cap op 5%. Cash blijft een actieve positie; de-risico alleen bij een duurzame ankerbreuk onder $80k. Zodra BTC met een uurslot boven $80k komt én de breedte 2-3 metingen >50% groen houdt én de 7d-mediaan verbetert, zet ik de eerste helft van stap 2 in."
   },
   "lessons": [
     "Speelboek-ladder houdt stand: BTC 55-60% zolang het $80k-anker houdt (dit venster correct, anker verdedigd op $80,2-80,8k). Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbeterende 7d-mediaan — de trigger viel di",
