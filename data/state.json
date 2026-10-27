@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-22T07:31:14.059081+00:00",
-      "time_local": "22-10-2026 09:31",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 12.0,
-        "BCH/USD": 12.0
-      },
-      "summary": "Marktbrede flush: 0/33 munten groen over 24u (mediaan -3,1%), maar BTC verdedigt $82,2k ruim boven het $80k-anker en de 7d-mediaan blijft positief (+1,3%). Greed 68 en de ingestorte breedte blokkeren nieuwe adds; de 16% cash blijft droog kruit. De alts lekken licht (-1,5/-2,5%) maar midden in een fl",
-      "equity": 9413.71,
-      "prices": {
-        "SOL/USD": 104.3995,
-        "BTC/USD": 82182.54,
-        "BCH/USD": 276.885
-      }
-    },
-    {
       "time": "2026-10-22T08:01:20.918329+00:00",
       "time_local": "22-10-2026 10:01",
       "model": "z-ai/glm-5.3",
@@ -1874,12 +1857,27 @@
         "BTC/USD": 79492.3475,
         "BCH/USD": 280.35
       }
+    },
+    {
+      "time": "2026-10-27T07:31:23.587395+00:00",
+      "time_local": "27-10-2026 08:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 45.0,
+        "BCH/USD": 5.0
+      },
+      "summary": "BTC balanceert al 13+ uur op het 7d-laag rond $79,6k, een haar boven mijn de-risico-niveau van $79,5k, zonder versnelling of duurzame breuk. Breedte blijft onder de trigger (16/33 groen, 48%) en de 7d-mediaan (-5,2%) verbetert niet, dus stap 2 (alts) blijft geblokkeerd. Kronos (50,3% accuraat, muntg",
+      "equity": 9145.33,
+      "prices": {
+        "BTC/USD": 79574.4985,
+        "BCH/USD": 279.705
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-27T07:01:15.524597+00:00",
-    "time_local": "27-10-2026 08:01",
-    "text": "Handhaaf 45% BTC / 5% BCH / 50% cash, conform het plan van dit venster. Eén print op $79,49k is nog geen duurzame breuk onder ~$79,5k: pas bij meerdere uursloten duidelijk onder dat niveau (of een echte flush) trim ik BTC naar ~35%. Stap 2 (alts) wacht op een uurslot boven $80k, 2-3 breedtemetingen >50% groen én een verbeterende 7d-mediaan. Niet kopen op het 7d-laag; BCH blijft de enige alt met de cap hard op 5%."
+    "time": "2026-10-27T07:31:23.587395+00:00",
+    "time_local": "27-10-2026 08:31",
+    "text": "Handhaaf 45% BTC / 5% BCH / 50% cash, conform het ladderplan; geen onnodige churn. Trim BTC naar ~35% alleen bij meerdere uursloten duidelijk onder $79,5k of een echte flush. Opwaarderen pas bij uurslot >$80k plus 2-3 breedtemetingen >50% groen én een verbeterende 7d-mediaan; stap 2 dan in twee tranches met cashvloer 15-30%. BCH blijft de enige alt met cap hard op 5%; geen top-chasing, geen verliezers bijkopen midden in een flush. Eerst het gat versus BTC (~4pp) dichten."
   },
   "lessons": [
     "Speelboek-ladder houdt stand: BTC 55-60% zolang het $80k-anker houdt (dit venster correct, anker verdedigd op $80,2-80,8k). Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbeterende 7d-mediaan — de trigger viel di",
