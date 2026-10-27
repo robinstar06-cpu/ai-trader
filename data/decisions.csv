@@ -1969,3 +1969,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-27T05:31:07.738886+00:00,27-10-2026 06:31,,BTC/USD,45.0,45.0,houden,,,
 2026-10-27T06:01:14.917469+00:00,27-10-2026 07:01,z-ai/glm-5.3,BCH/USD,5.0,5.0,houden,,,"Sterkste 7d-munt (+1,6%, vs_sma20d +1,6%); alt-cap blijft hard op 5% zolang breedte en 7d-mediaan zwak zijn"
 2026-10-27T06:01:14.917469+00:00,27-10-2026 07:01,z-ai/glm-5.3,BTC/USD,45.0,45.0,houden,,,"Anker $80k nog niet heroverd; houd 45% zolang BTC op het 7d-laag balanceert, cash blijft actieve positie"
+2026-10-27T06:31:12.884682+00:00,27-10-2026 07:31,,BCH/USD,5.0,5.0,houden,,,
+2026-10-27T06:31:12.884682+00:00,27-10-2026 07:31,,BTC/USD,45.0,45.0,houden,,,
