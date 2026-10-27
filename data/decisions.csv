@@ -1977,3 +1977,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-27T07:31:23.587395+00:00,27-10-2026 08:31,z-ai/glm-5.3,BTC/USD,45.0,45.0,houden,,,"Kernpositie op het anker-ladderplan; geen uursloten onder $79,5k, dus 45% gehandhaafd."
 2026-10-27T08:01:22.081903+00:00,27-10-2026 09:01,z-ai/glm-5.3,BCH/USD,5.0,5.0,houden,,,"Sterkste alt (range7d-pos 60%, +2,9% 7d) maar cap hard op 5% zolang breedte <50% groen en 7d-mediaan negatief"
 2026-10-27T08:01:22.081903+00:00,27-10-2026 09:01,z-ai/glm-5.3,BTC/USD,45.0,45.0,houden,,,"Anker $80k nog niet heroverd, maar $79,5k-de-risico houdt stand; 45% conform ladderplan, geen churn"
+2026-10-27T08:31:12.680035+00:00,27-10-2026 09:31,z-ai/glm-5.3,BCH/USD,5.0,5.0,houden,,,"Sterkste munt van het veld (+2,6% 7d), cap hard op 5%"
+2026-10-27T08:31:12.680035+00:00,27-10-2026 09:31,z-ai/glm-5.3,BTC/USD,45.0,45.0,houden,,,"Balanceert op 7d-laag boven $79,5k; geen trim-trigger, ladder handhaven zonder churn"

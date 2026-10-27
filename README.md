@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 27-10-2026 09:01_
+_Laatst bijgewerkt: 27-10-2026 09:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,151.07** |
+| Waarde portefeuille | **$9,151.27** |
 | Cash | $4,575.90 (50%) |
 | Rendement AI sinds 14-10-2026 13:02 | **-8.49%** |
-| Ter vergelijking: gewoon BTC vasthouden | -4.29% |
-| Verschil | -4.20% |
+| Ter vergelijking: gewoon BTC vasthouden | -4.38% |
+| Verschil | -4.10% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
 | Rendement deze periode | **-8.49%** |
 | Gehaalde mijlpalen | nog geen |
 | Daling vanaf de top ($10,000) | -8.49% |
 | Model | z-ai/glm-5.3 |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 48 (Neutral) |
-| Kronos-voorspelling | 33 munten in 254s; richting op 4u goed: 51% (n=1548, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 09:01); richting op 4u goed: 51% (n=1548, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-BTC balanceert al 13+ uur op het 7d-laag rond $79,7k: net boven mijn de-risico-niveau van $79,5k, maar onder het $80k-anker en zonder versnelling of duurzame breuk. Breedte zwakt naar 12/33 groen en de 7d-mediaan blijft negatief (-4,56%), dus noch de trim- noch de opwaardeer-trigger is gevallen. Kronos (50,8% accuraat) is muntgooi-ruis en wordt genegeerd.
+BTC balanceert al 13+ uur op het 7d-laag rond $79,7k: net boven mijn de-risico-niveau van $79,5k maar onder het $80k-anker, zonder versnelling of duurzame breuk. Breedte blijft zeer zwak (7/33 groen, mediaan 24u -0,81%) en de 7d-mediaan (-4,90%) is negatief, dus noch de trim-trigger noch de opwaardeer-trigger is geraakt. Kronos (50,8%) is een muntgooi en wordt genegeerd; discipline boven churn.
 
-## Strategie van de AI (sinds 27-10-2026 09:01)
+## Strategie van de AI (sinds 27-10-2026 09:31)
 
-Handhaaf het ladderplan: 45% BTC / 5% BCH / 50% cash, geen onnodige churn. Trim BTC naar ~35% alleen bij meerdere uursloten duidelijk onder $79,5k of een echte flush. Opwaarderen pas bij uurslot >$80k plus 2-3 opeenvolgende breedtemetingen >50% groen én een verbeterende 7d-mediaan; stap 2 dan in twee tranches met cashvloer 15-30%. BCH-cap hard op 5%, geen top-chasing, geen verliezers bijkopen midden in een flush. Eerst het gat versus BTC (~4pp) dichten; BTC matchen is de realistische basis voordat ik op jacht ga naar het +20%-doel.
+Handhaaf de ladder 45% BTC / 5% BCH / 50% cash zolang BTC tussen $79,5k en $80k balanceert. Trim BTC naar ~35% alleen bij meerdere uursloten duidelijk onder $79,5k of een echte flush. Opwaarderen pas bij uurslot >$80k plus 2-3 opeenvolgende breedtemetingen >50% groen én verbeterende 7d-mediaan; deploy dan in twee tranches met cashvloer 15-30%. BCH-cap hard op 5%, geen top-chasing, geen verliezers bijkopen. Eerst het gat versus BTC (~4pp) dichten; de jacht op +20% start pas bij een meerdaags bevestigd herstel.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,17 +42,22 @@ _Dit venster was verdediging, geen alpha: -0,63% tegen BTC -0,76% komt puur door
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,114.60 | 45.0% | -2.5% | 45.0% | +0.7% (83% omhoog) | Anker $80k nog niet heroverd, maar $79,5k-de-risico houdt stand; 45% conform ladderplan, geen churn |
-| BCH/USD | $460.56 | 5.0% | -0.5% | 5.0% | -0.1% (67% omhoog) | Sterkste alt (range7d-pos 60%, +2,9% 7d) maar cap hard op 5% zolang breedte <50% groen en 7d-mediaan negatief |
+| BTC/USD | $4,114.81 | 45.0% | -2.5% | 45.0% | +0.7% (83% omhoog) | Balanceert op 7d-laag boven $79,5k; geen trim-trigger, ladder handhaven zonder churn |
+| BCH/USD | $460.56 | 5.0% | -0.5% | 5.0% | -0.1% (67% omhoog) | Sterkste munt van het veld (+2,6% 7d), cap hard op 5% |
 
 ## Orders deze run
 
 Geen orders (verdeling blijft gelijk).
 
+## Meldingen
+
+- Dagelijkse evaluatie mislukt: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out; deepseek-ai/deepseek-v4.1-flash: overgeslagen (tijdslimiet)
+
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 27-10-2026 09:31 | $9,151 | -8.49% | -4.38% | 0 |
 | 27-10-2026 09:01 | $9,151 | -8.49% | -4.29% | 0 |
 | 27-10-2026 08:31 | $9,145 | -8.55% | -4.49% | 0 |
 | 27-10-2026 08:01 | $9,142 | -8.58% | -4.59% | 0 |
@@ -64,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 27-10-2026 05:01 | $9,148 | -8.52% | -4.37% | 0 |
 | 27-10-2026 04:31 | $9,146 | -8.54% | -4.37% | 0 |
 | 27-10-2026 04:01 | $9,151 | -8.49% | -4.36% | 0 |
-| 27-10-2026 03:31 | $9,158 | -8.42% | -4.19% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).

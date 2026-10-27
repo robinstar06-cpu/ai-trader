@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-22T08:31:23.441659+00:00",
-      "time_local": "22-10-2026 10:31",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 6.0,
-        "BCH/USD": 6.0
-      },
-      "summary": "Marktbrede flush zet door: 0/33 munten groen over 24u (mediaan -3,4%), maar BTC verdedigt $81,9k ruim boven het $80k-anker en is relatief de sterkste munt. Greed 68 en de ingestorte breedte blokkeren nieuwe buys; de ~28% cash blijft droog kruit tot er structurele bevestiging van een bounce komt.",
-      "equity": 9384.32,
-      "prices": {
-        "BCH/USD": 274.923,
-        "SOL/USD": 103.928,
-        "BTC/USD": 81922.3
-      }
-    },
-    {
       "time": "2026-10-22T09:01:28.675124+00:00",
       "time_local": "22-10-2026 11:01",
       "model": "z-ai/glm-5.3",
@@ -1870,12 +1853,27 @@
         "BCH/USD": 281.789,
         "BTC/USD": 79743.247
       }
+    },
+    {
+      "time": "2026-10-27T08:31:12.680035+00:00",
+      "time_local": "27-10-2026 09:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 45.0,
+        "BCH/USD": 5.0
+      },
+      "summary": "BTC balanceert al 13+ uur op het 7d-laag rond $79,7k: net boven mijn de-risico-niveau van $79,5k maar onder het $80k-anker, zonder versnelling of duurzame breuk. Breedte blijft zeer zwak (7/33 groen, mediaan 24u -0,81%) en de 7d-mediaan (-4,90%) is negatief, dus noch de trim-trigger noch de opwaarde",
+      "equity": 9151.27,
+      "prices": {
+        "BCH/USD": 281.0335,
+        "BTC/USD": 79664.0565
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-27T08:01:22.081903+00:00",
-    "time_local": "27-10-2026 09:01",
-    "text": "Handhaaf het ladderplan: 45% BTC / 5% BCH / 50% cash, geen onnodige churn. Trim BTC naar ~35% alleen bij meerdere uursloten duidelijk onder $79,5k of een echte flush. Opwaarderen pas bij uurslot >$80k plus 2-3 opeenvolgende breedtemetingen >50% groen én een verbeterende 7d-mediaan; stap 2 dan in twee tranches met cashvloer 15-30%. BCH-cap hard op 5%, geen top-chasing, geen verliezers bijkopen midden in een flush. Eerst het gat versus BTC (~4pp) dichten; BTC matchen is de realistische basis voordat ik op jacht ga naar het +20%-doel."
+    "time": "2026-10-27T08:31:12.680035+00:00",
+    "time_local": "27-10-2026 09:31",
+    "text": "Handhaaf de ladder 45% BTC / 5% BCH / 50% cash zolang BTC tussen $79,5k en $80k balanceert. Trim BTC naar ~35% alleen bij meerdere uursloten duidelijk onder $79,5k of een echte flush. Opwaarderen pas bij uurslot >$80k plus 2-3 opeenvolgende breedtemetingen >50% groen én verbeterende 7d-mediaan; deploy dan in twee tranches met cashvloer 15-30%. BCH-cap hard op 5%, geen top-chasing, geen verliezers bijkopen. Eerst het gat versus BTC (~4pp) dichten; de jacht op +20% start pas bij een meerdaags bevestigd herstel."
   },
   "lessons": [
     "Speelboek-ladder houdt stand: BTC 55-60% zolang het $80k-anker houdt (dit venster correct, anker verdedigd op $80,2-80,8k). Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbeterende 7d-mediaan — de trigger viel di",
