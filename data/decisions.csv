@@ -1955,3 +1955,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-27T02:01:20.659574+00:00,27-10-2026 03:01,z-ai/glm-5.3,BTC/USD,45.1,45.0,houden,,,"Anker rond $80k verdedigd; wacht op bevestigd slot boven $80k vóór tranche 1, geen verkoop in de flush"
 2026-10-27T02:31:22.143374+00:00,27-10-2026 03:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,5.0,5.0,houden,,,"Sterkste 7d-munt (+0,64%), houdt alt-cap hard op 5%."
 2026-10-27T02:31:22.143374+00:00,27-10-2026 03:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,45.0,45.0,houden,,,"Kernpositie; anker $80k nog net niet terugveroverd, geen trigger om te vergroten of te verkopen."
+2026-10-27T03:01:14.002197+00:00,27-10-2026 04:01,,BCH/USD,5.0,5.0,houden,,,
+2026-10-27T03:01:14.002197+00:00,27-10-2026 04:01,,BTC/USD,45.0,45.0,houden,,,
