@@ -2023,3 +2023,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-27T19:01:32.725416+00:00,27-10-2026 20:01,z-ai/glm-5.3,BTC/USD,45.2,45.0,houden,,,"Anker $80k houdt stand zonder versnelling; 45% conform ladder, opwaarts pas bij bevestigde breedte + versnelling."
 2026-10-27T19:31:11.435371+00:00,27-10-2026 20:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,5.1,5.0,houden,,,"Sterkste munt op 7d-hoog; harde alt-cap van 5% respecteren, niet verhogen op een top."
 2026-10-27T19:31:11.435371+00:00,27-10-2026 20:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,45.2,45.0,houden,,,"Anker $80k houdt stand, breedte 2e meting >50% groen, maar geen versnelling: kernpositie aanhouden tot bevestiging."
+2026-10-27T20:01:23.760145+00:00,27-10-2026 21:01,,BCH/USD,5.1,5.1,houden,,,
+2026-10-27T20:01:23.760145+00:00,27-10-2026 21:01,,BTC/USD,45.3,45.3,houden,,,
