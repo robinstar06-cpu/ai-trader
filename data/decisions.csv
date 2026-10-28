@@ -2119,3 +2119,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-28T19:01:27.932977+00:00,28-10-2026 20:01,,BTC/USD,55.2,55.2,houden,,,
 2026-10-28T19:31:26.985167+00:00,28-10-2026 20:31,,BCH/USD,3.8,3.8,houden,,,
 2026-10-28T19:31:26.985167+00:00,28-10-2026 20:31,,BTC/USD,55.3,55.3,houden,,,
+2026-10-28T20:01:28.274384+00:00,28-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,3.8,4.0,houden,,,"Kleine positie, geen overstrekte alt-gok; binnen alt-cap van 5%"
+2026-10-28T20:01:28.274384+00:00,28-10-2026 21:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,55.4,58.0,buy,241.12,gekocht $241.12,Ankerherovering bevestigd: BTC >$81k met sterk groene breedte (31/33); cash verlagen omdat dit in herstel rendement kost
