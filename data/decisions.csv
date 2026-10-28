@@ -2049,3 +2049,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-28T01:31:11.951845+00:00,28-10-2026 02:31,z-ai/glm-5.3,BTC/USD,45.2,45.0,houden,,,"Anker $80k houdt stand; geen van beide triggers gevallen — mechanisch wachten op $81k-uitbraak mét volume of $79,5k-breuk."
 2026-10-28T02:01:26.637084+00:00,28-10-2026 03:01,z-ai/glm-5.3,BCH/USD,5.2,5.0,houden,,,"Sterkste munt (+4,3% 24u) maar range7d_pos 92; exact 5%, geen top-chasing."
 2026-10-28T02:01:26.637084+00:00,28-10-2026 03:01,z-ai/glm-5.3,BTC/USD,45.3,45.0,houden,,,"Anker $80k houdt stand, geen versnelling; houd 45% tot uitbraak boven $81k of breuk onder $79,5k."
+2026-10-28T02:31:21.837977+00:00,28-10-2026 03:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,5.2,5.0,houden,,,"Sterkste munt (24u +4,3%, boven SMA's) maar op 7d-hoog; harde alt-cap van 5% handhaven, niet bijkopen."
+2026-10-28T02:31:21.837977+00:00,28-10-2026 03:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,45.3,45.0,houden,,,"Anker $80k houdt al ~24u, maar geen uitbraak boven $81k en geen vol-expansie — trigger niet gevallen, ladder ongewijzigd."
