@@ -2107,3 +2107,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-28T16:01:28.240400+00:00,28-10-2026 17:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,57.9,55.0,sell,270.20,verkocht 0.003358100,"Anker $80k houdt stand maar BTC zakte onder $81k terug; kernpositie aanhouden met lichte trim, geen bevestigde breuk of uitbraak."
 2026-10-28T16:31:24.271231+00:00,28-10-2026 17:31,,BCH/USD,3.9,3.9,houden,,,
 2026-10-28T16:31:24.271231+00:00,28-10-2026 17:31,,BTC/USD,55.0,55.0,houden,,,
+2026-10-28T17:01:30.292451+00:00,28-10-2026 18:01,,BCH/USD,3.8,3.8,houden,,,
+2026-10-28T17:01:30.292451+00:00,28-10-2026 18:01,,BTC/USD,55.1,55.1,houden,,,
