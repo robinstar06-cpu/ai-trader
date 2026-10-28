@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-23T01:31:17.850876+00:00",
-      "time_local": "23-10-2026 03:31",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 6.0,
-        "BCH/USD": 6.0
-      },
-      "summary": "De flush verliest kracht: BTC verdedigt het $80k-anker al uren op $81,3k, de 24u-mediaan herstelt naar -3,5% en Greed zakte in één dag van 68 naar 50 — capitulatie-achtige sentimentverschuiving. Breedte blijft echter 0/33 groen, dus mijn instapcondities voor extra risico zijn nog niet rijp: discipli",
-      "equity": 9349.14,
-      "prices": {
-        "SOL/USD": 103.8455,
-        "BCH/USD": 277.65,
-        "BTC/USD": 81339.789
-      }
-    },
-    {
       "time": "2026-10-23T02:01:20.913768+00:00",
       "time_local": "23-10-2026 04:01",
       "model": "z-ai/glm-5.3",
@@ -1808,12 +1791,27 @@
         "BTC/USD": 80829.7185,
         "BCH/USD": 297.4625
       }
+    },
+    {
+      "time": "2026-10-28T08:31:25.977304+00:00",
+      "time_local": "28-10-2026 09:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 50.0,
+        "BCH/USD": 5.0
+      },
+      "summary": "BTC breekt net boven het $81k-anker ($81,3k) terwijl de breedte voor het eerst volledig groen is (33/33, mediaan +2,65%), maar het volume blijft extreem laag (0,23%/uur) en de 7d-mediaan staat nog op -5,9%. Ik neem een halve stap naar 50% BTC en houd BCH op 5%; cash blijft de actieve buffer tot een ",
+      "equity": 9260.6,
+      "prices": {
+        "BCH/USD": 297.12,
+        "BTC/USD": 81299.4405
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-28T07:31:24.869982+00:00",
-    "time_local": "28-10-2026 08:31",
-    "text": "Ladder ongewijzigd: 45% BTC + 5% BCH + 50% cash. Geen van beide triggers is gevallen: geen uitbraak boven $81k mét vol-expansie, geen ankerbreuk onder $79,5k — dus mechanisch wachten, geen churn. Bij bevestigde uitbraak tranche 1 naar 55% BTC; bij duurzame sluiting onder $79,5k direct naar 40%. BCH blijft exact 5% (7d-hoog, geen top-chasing). Cash is actieve positie tot een meerdaags herstel bevestigd is."
+    "time": "2026-10-28T08:31:25.977304+00:00",
+    "time_local": "28-10-2026 09:31",
+    "text": "Halve stap genomen: BTC van 45% naar 50% omdat de koers boven het $81k-anker sloot en de breedte 100% groen is. Volume-expansie ontbreekt nog (0,23%/uur), dus geen volledige tranche. BCH blijft 5% (7d-hoog, niet bijkopen). Cash ~45% als actieve buffer. Bij duurzame sluiting boven $81,5k met vol-expansie: door naar 55-60% BTC. Bij sluiting onder $79,5k: direct terug naar 40%. Geen alt-uitbreiding zolang de 7d-mediaan negatief blijft."
   },
   "lessons": [
     "Speelboek-ladder mechanisch uitvoeren: 55% zolang het $80k-anker houdt, direct 45% bij ankerbreuk — dit venster correct, BTC zakte na de breuk verder naar $79,5k. Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbe",
