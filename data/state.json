@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-22T22:01:25.863926+00:00",
-      "time_local": "23-10-2026 00:01",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 6.0,
-        "BCH/USD": 6.0
-      },
-      "summary": "De brede flush zet door: 0/33 munten groen over 24u (mediaan -5,4%) en 7d-mediaan -4,5%, terwijl Greed op 68 hangt — complacency bij dalende prijzen. BTC verdedigt echter $81,4k, ruim boven het $80k-anker, en toont relatieve kracht (7d -1,2% vs mediaan -4,5%). Kronos is met 53,5% nauwelijks beter da",
-      "equity": 9345.75,
-      "prices": {
-        "BCH/USD": 274.134,
-        "SOL/USD": 103.625,
-        "BTC/USD": 81362.749
-      }
-    },
-    {
       "time": "2026-10-22T22:31:18.262071+00:00",
       "time_local": "23-10-2026 00:31",
       "model": "z-ai/glm-5.3",
@@ -1822,11 +1805,26 @@
         "BTC/USD": 80603.3,
         "BCH/USD": 294.062
       }
+    },
+    {
+      "time": "2026-10-28T01:31:11.951845+00:00",
+      "time_local": "28-10-2026 02:31",
+      "model": "z-ai/glm-5.3",
+      "targets": {
+        "BTC/USD": 45.0,
+        "BCH/USD": 5.0
+      },
+      "summary": "BTC balanceert al ~24 uur rond het $80k-anker ($80,7k) zonder enige versnelling (vol_1h slechts 0,24%); geen uitbraak boven $81k en geen duurzame sluiting onder $79,5k. Breedte is met 27/33 groen ruim positief, maar de 7d-mediaan staat nog op -7,8%, dus een meerdaags herstel is niet bevestigd. Krono",
+      "equity": 9219.54,
+      "prices": {
+        "BCH/USD": 293.9,
+        "BTC/USD": 80665.95
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-28T01:01:24.554805+00:00",
-    "time_local": "28-10-2026 02:01",
+    "time": "2026-10-28T01:31:11.951845+00:00",
+    "time_local": "28-10-2026 02:31",
     "text": "Ladder ongewijzigd: 45% BTC + 5% BCH + 50% cash. Eerste tranche naar 55% BTC alléén bij bevestigde uitbraak boven $81k mét vol-expansie; tweede tranche naar 60% pas na meerdaagse bevestiging inclusief positieve 7d-mediaan. Bij duurzame sluiting onder $79,5k direct naar 40%. BCH blijft exact 5%: sterkste munt maar op 7d-hoog, geen top-chasing. Cash blijft actieve positie tot een trigger valt; geen churn rond de balansfase."
   },
   "lessons": [
