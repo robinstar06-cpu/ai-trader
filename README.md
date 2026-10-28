@@ -1,25 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 28-10-2026 17:01_
+_Laatst bijgewerkt: 28-10-2026 17:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,192.60** |
+| Waarde portefeuille | **$9,187.66** |
 | Cash | $3,776.60 (41%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-8.07%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.43% |
-| Verschil | -4.64% |
+| Rendement AI sinds 14-10-2026 13:02 | **-8.12%** |
+| Ter vergelijking: gewoon BTC vasthouden | -3.46% |
+| Verschil | -4.66% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-8.07%** |
+| Rendement deze periode | **-8.12%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -8.07% |
-| Model | deepseek-ai/deepseek-v4.1-flash |
+| Daling vanaf de top ($10,000) | -8.12% |
+| Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 51 (Neutral) |
-| Kronos-voorspelling | 33 munten in 239s; richting op 4u goed: 50% (n=1542, 50% = gokken) |
-
-## Marktvisie van de AI
-
-BTC houdt het $80k-anker ($80,46k) net vast maar zakt richting het 7d-laagtepunt (range7d_pos 18,6); de marktbreedte is zwak (14/33 groen), de 7d-mediaan diep negatief (-9,3%) en F&G daalde naar 51. Volatiliteit blijft laag (0,24%/u): geen bevestigde uitbraak boven $81,5k en geen duurzame breuk onder $79,5k.
+| Kronos-voorspelling | 33 munten (berekend om 17:01); richting op 4u goed: 50% (n=1542, 50% = gokken) |
 
 ## Strategie van de AI (sinds 28-10-2026 17:01)
 
@@ -42,23 +38,24 @@ _Dit venster bleef ik met ~50% blootstelling (45% BTC + 5% BCH) achter op BTC: +
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,055.39 | 55.0% | -1.3% | 55.0% | +0.1% (83% omhoog) | Anker $80k houdt stand maar BTC zakte onder $81k terug; kernpositie aanhouden met lichte trim, geen bevestigde breuk of uitbraak. |
-| BCH/USD | $360.61 | 3.9% | +4.0% | 3.0% | -1.9% (0% omhoog) | Overstrekt op 7d-high en Kronos sterk bearish; winst deels verzilveren, kleine restpositie. |
+| BTC/USD | $5,053.00 | 55.0% | -1.3% | 55.0% | +0.1% (83% omhoog) |  |
+| BCH/USD | $358.06 | 3.9% | +3.3% | 3.9% | -1.9% (0% omhoog) |  |
 
 ## Orders deze run
 
-| Munt | Actie | Bedrag | Resultaat |
-|---|---|---|---|
-| BTC/USD | sell | $270.20 | verkocht 0.003358100 |
+Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
+- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 28-10-2026 17:31 | $9,188 | -8.12% | -3.46% | 0 |
 | 28-10-2026 17:01 | $9,193 | -8.07% | -3.43% | 1 |
 | 28-10-2026 16:31 | $9,206 | -7.94% | -3.32% | 0 |
 | 28-10-2026 16:01 | $9,194 | -8.06% | -3.33% | 0 |
@@ -70,7 +67,6 @@ _Dit venster bleef ik met ~50% blootstelling (45% BTC + 5% BCH) achter op BTC: +
 | 28-10-2026 13:01 | $9,250 | -7.50% | -2.53% | 0 |
 | 28-10-2026 12:31 | $9,253 | -7.47% | -2.43% | 0 |
 | 28-10-2026 12:01 | $9,265 | -7.35% | -2.36% | 0 |
-| 28-10-2026 11:31 | $9,265 | -7.35% | -2.30% | 2 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
