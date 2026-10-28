@@ -1,25 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 28-10-2026 03:31_
+_Laatst bijgewerkt: 28-10-2026 04:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,228.22** |
-| Cash | $4,569.65 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-7.72%** |
-| Ter vergelijking: gewoon BTC vasthouden | -2.96% |
-| Verschil | -4.76% |
+| Waarde portefeuille | **$9,232.55** |
+| Cash | $4,569.65 (49%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-7.67%** |
+| Ter vergelijking: gewoon BTC vasthouden | -3.04% |
+| Verschil | -4.64% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-7.72%** |
+| Rendement deze periode | **-7.67%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -7.72% |
-| Model | deepseek-ai/deepseek-v4.1-flash |
+| Daling vanaf de top ($10,000) | -7.67% |
+| Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 51 (Neutral) |
-| Kronos-voorspelling | 33 munten (berekend om 03:01); richting op 4u goed: 52% (n=1547, 50% = gokken) |
-
-## Marktvisie van de AI
-
-BTC balanceert al ~24 uur rond het $80k-anker ($80,85k) met extreem lage volatiliteit (0,23%/uur); geen uitbraak boven $81k en geen duurzame breuk onder $79,5k. De 24u-breedte is sterk (32/33 groen, mediaan +1,96%), maar de 7d-mediaan blijft -7,06% — dit oogt als een bounce binnen een downtrend, niet als bevestigd herstel. Fear & Greed neutraal op 51 (van 48).
+| Kronos-voorspelling | 30 munten in 244s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 52% (n=1545, 50% = gokken) |
 
 ## Strategie van de AI (sinds 28-10-2026 03:31)
 
@@ -42,8 +38,8 @@ _Relatief was dit venster oké: -0,44% versus -0,92% voor BTC, dankzij de correc
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,177.54 | 45.3% | -0.8% | 45.0% | -0.5% (17% omhoog) | Anker $80k houdt al ~24u, maar geen uitbraak boven $81k en geen vol-expansie — trigger niet gevallen, ladder ongewijzigd. |
-| BCH/USD | $481.03 | 5.2% | +3.9% | 5.0% | -2.8% (0% omhoog) | Sterkste munt (24u +4,3%, boven SMA's) maar op 7d-hoog; harde alt-cap van 5% handhaven, niet bijkopen. |
+| BTC/USD | $4,178.78 | 45.3% | -0.8% | 45.3% | -0.4% (17% omhoog) |  |
+| BCH/USD | $484.12 | 5.2% | +4.6% | 5.2% | -4.5% (0% omhoog) |  |
 
 ## Orders deze run
 
@@ -51,12 +47,15 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
+- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 28-10-2026 04:01 | $9,233 | -7.67% | -3.04% | 0 |
 | 28-10-2026 03:31 | $9,228 | -7.72% | -2.96% | 0 |
 | 28-10-2026 03:01 | $9,227 | -7.73% | -3.01% | 0 |
 | 28-10-2026 02:31 | $9,220 | -7.80% | -3.18% | 0 |
@@ -68,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 27-10-2026 23:31 | $9,226 | -7.74% | -3.01% | 0 |
 | 27-10-2026 23:01 | $9,222 | -7.78% | -3.07% | 0 |
 | 27-10-2026 22:31 | $9,207 | -7.93% | -3.19% | 0 |
-| 27-10-2026 22:01 | $9,209 | -7.91% | -3.15% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
