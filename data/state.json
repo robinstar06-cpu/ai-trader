@@ -8,30 +8,13 @@
     "milestones": []
   },
   "peak_equity": 10000.0,
-  "last_review": "2026-10-27T09:31:20.739207+00:00",
+  "last_review": "2026-10-28T10:31:25.261875+00:00",
   "start": {
     "time": "2026-10-14T11:02:53.675394+00:00",
     "equity": 10000.0,
     "btc_price": 83316.4785
   },
   "history": [
-    {
-      "time": "2026-10-23T02:01:20.913768+00:00",
-      "time_local": "23-10-2026 04:01",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "SOL/USD": 6.0,
-        "BCH/USD": 6.0
-      },
-      "summary": "De flush verliest kracht: de 24u-mediaan herstelt naar -2,5% en Greed zakte in één dag van 68 naar 50 (capitulatie-signaal), maar de breedte blijft extreem zwak (1/33 groen) en BTC verdedigt het $80k-anker op $81,2k vlak boven het 7d-laag. Geen enkele cash-trigger is gevuld (Greed <40 of structureel",
-      "equity": 9341.4,
-      "prices": {
-        "BTC/USD": 81188.955,
-        "SOL/USD": 103.7575,
-        "BCH/USD": 278.372
-      }
-    },
     {
       "time": "2026-10-23T03:31:21.516911+00:00",
       "time_local": "23-10-2026 05:31",
@@ -1806,24 +1789,39 @@
         "BCH/USD": 297.12,
         "BTC/USD": 81299.4405
       }
+    },
+    {
+      "time": "2026-10-28T10:31:25.261875+00:00",
+      "time_local": "28-10-2026 11:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 55.0,
+        "BCH/USD": 4.0
+      },
+      "summary": "BTC herstelt en houdt stand boven het $81k-anker met voor het eerst volledig groene breedte (33/33, mediaan +2,9%), maar het volume blijft laag (0,23%/uur) en de 7d-mediaan is nog steeds negatief (-6,5%). Ik schaal voorzichtig verder op in BTC en verzilver een deel van de BCH-winst, met een ruime ca",
+      "equity": 9268.69,
+      "prices": {
+        "BCH/USD": 300.565,
+        "BTC/USD": 81398.985
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-28T08:31:25.977304+00:00",
-    "time_local": "28-10-2026 09:31",
-    "text": "Halve stap genomen: BTC van 45% naar 50% omdat de koers boven het $81k-anker sloot en de breedte 100% groen is. Volume-expansie ontbreekt nog (0,23%/uur), dus geen volledige tranche. BCH blijft 5% (7d-hoog, niet bijkopen). Cash ~45% als actieve buffer. Bij duurzame sluiting boven $81,5k met vol-expansie: door naar 55-60% BTC. Bij sluiting onder $79,5k: direct terug naar 40%. Geen alt-uitbreiding zolang de 7d-mediaan negatief blijft."
+    "time": "2026-10-28T10:31:25.261875+00:00",
+    "time_local": "28-10-2026 11:31",
+    "text": "BTC houdt stand boven het $81k-anker met 33/33 groene breedte; ik zet een volgende tranche naar 55% omdat cashdrag in een herstellende markt rendement kost en ik het gat versus BTC (~-5pp) moet dichten. Volume blijft echter laag (0,23%/uur) en de 7d-mediaan is nog -6,5%, dus ik houd ~41% cash als buffer en wacht op volumebestiging voor 60%. BCH terug naar 4%: +6,9% winst deels verzilverd, want de munt is overstrekt (7d-high) en Kronos is bearish. Geen alt-uitbreiding zolang de 7d-mediaan negatief is. Bij een duurzame 4u-sluiting onder $79,5k: BTC direct terug naar 40%."
   },
   "lessons": [
-    "Speelboek-ladder mechanisch uitvoeren: 55% zolang het $80k-anker houdt, direct 45% bij ankerbreuk — dit venster correct, BTC zakte na de breuk verder naar $79,5k. Stap 2 (alts) pas bij 24u-breedte >50% groen op 2-3 opeenvolgende metingen én een verbe",
-    "De harde alt-cap van 5% werkt: alleen BCH (de sterkste munt) op 5% noteerde +0,3% tot +1,5% terwijl BTC lekte. Houd max 5% in één sterkste munt of nul zolang breedte <50% groen is; vergroot nooit een verliezende positie.",
-    "Zweef niet mee op 24u-breedte-ruis: breedte zwierde van 7/33 naar 24/33 groen zonder koersgevolgen; alleen de ankerbreuk was handelswaardig. Stuur uitsluitend op anker, 7d-mediaan en duurzame breuk.",
-    "Cash is een actieve positie: met ~40-50% cash versloeg het portfolio BTC dit venster (-0,44% vs -0,92%). Houd een cashvloer van minimaal 15-30% tot een meerdaags herstel bevestigd is; gebruik cash nooit voor het kopen van 7d-hoogten.",
-    "Pre-gedefinieerde de-risico-niveaus voorkomen whipsaw: BTC balanceerde 13+ uur nét boven mijn $79,5k-niveau zonder versnelling — niet extra gesneden, terecht. Handel een niveau alleen bij versnelling of duurzame sluiting eronder, niet bij eromheen ha",
-    "Kapitulatie markeert het einde van de daling, niet het begin van de rally: het herstel stagneert urenlang op het laag. Deploy stap 2 in twee tranches: helft bij de bevestigde trigger, rest pas na meerdaagse bevestiging.",
-    "Kronos noteerde 51,8% over 48h — muntgooi-niveau. Negeer zijn richtingvoorspellingen volledig zolang de rolling accuracy niet structureel >55% is; stuur op anker, breedte en 7d-mediaan.",
-    "Doelrekenkunst: -8,54% op dag 13 vraagt ~+31% in 15 dagen. Dicht eerst het gat versus BTC (-4,05pp) door geen alt-lek en geen top-chasing; BTC matchen is de realistische basis, alles daarboven vereist volledige blootstelling tijdens een bevestigde me"
+    "Blootstellingsles: in een herstellende markt kost 50% cash direct rendement (dit venster +1,24% vs BTC +2,09%). Verhoog bij een bevestigde ankerherovering (BTC >$80k met breedte >50% op 2+ opeenvolgende metingen) de BTC-positie naar 55-60% in plaats ",
+    "De-risico alleen op bevestiging, niet op nadering: BTC tikte $79,5k aan maar sloot nooit duurzaam (4u) eronder en steeg daarna naar $81k+. Verlaag de blootstelling alleen bij een 4u-sluiting onder het niveau of duidelijke neerwaartse versnelling, nie",
+    "Alt-cap van 5% blijft, maar met winstdiscipline: BCH liep op tot +7% en gaf alles terug naar +1,2%. Houd max 5% in één sterkste munt en neem winst bij >+5% in plaats van een winnaar te laten teruglopen naar break-even.",
+    "Negeer breedte-ruis: de 24u-breedte zwierde van 7/33 naar 33/33 groen zonder koersgevolg. Stuur uitsluitend op anker ($80k/$81k), 7d-mediaan en volume; breedte alleen als bevestiging, nooit als losse trigger.",
+    "Cash is geen automatische winst: vorig venster won cash, dit venster kostte het rendement. Houd in neutrale/opwaartse markten een cashvloer van 15-25%; ga alleen naar 40-50% cash bij een bevestigde neerwaartse trend (duurzame breuk + negatieve 7d-med",
+    "Uitbraak met extreem laag volume is verdacht: de laatste beslissing zette BTC op 50% bij $81,3k met 33/33 groen maar vol_1h van slechts ~0,2%. Verhoog bij een uitbraak in tranches en wacht op volumebestiging voordat je verder opschaalt.",
+    "Kronos staat op 50,5% over 48h — exact muntgooi-niveau. Negeer zijn richtingvoorspellingen volledig zolang de rolling accuracy niet structureel >55% is; stuur op anker, 7d-mediaan en volume.",
+    "Doelrekenkunst: -7,31% op dag 14 vraagt ~+29% in 14 dagen — onrealistisch. Richt je op BTC matchen/verslaan en het gat versus BTC (~-5pp) dichten; geen grote gokken of volledige alt-blootstelling om een onhaalbaar doel te forceren."
   ],
-  "review_assessment": "Relatief was dit venster oké: -0,44% versus -0,92% voor BTC, dankzij de correct uitgevoerde de-risk bij de ankerbreuk (55%→45%), de cashvloer en de enkele 5%-BCH-positie die als enige alt consistent groen stond. Absoluut blijft het pijnlijk: -8,54% op dag 13 tegen -4,49% voor BTC, dus het +20%-doel vereist ~+31% in 15 dagen — alleen haalbaar bij volledige participatie in een meerdaags bevestigd herstel. BTC hangt 13+ uur op het 7d-laag nét boven mijn de-risico-niveau van $79,5k; geduld is terecht, maar bij een versnelde breuk moet ik mechanisch verder snijden.",
+  "review_assessment": "Dit venster bleef ik met ~50% blootstelling (45% BTC + 5% BCH) achter op BTC: +1,24% versus +2,09%, puur omdat ik de herstelde markt maar half meemaakte. De verlaging naar 45% op de nadering van $79,5k was een whipsaw — BTC sloot nooit duurzaam eronder en steeg juist naar $81k+. Met -7,31% op dag 14 versus BTC -2,30% is het +20%-doel vrijwel onhaalbaar; het realistische doel is nu het gat naar BTC dichten zonder onnodige risico's.",
   "kronos_log": [
     {
       "t": "2026-10-25T22:00:00+00:00",
