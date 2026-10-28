@@ -16,23 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-23T05:01:29.043754+00:00",
-      "time_local": "23-10-2026 07:01",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 60.0,
-        "BCH/USD": 6.0,
-        "SOL/USD": 6.0
-      },
-      "summary": "De flush verliest kracht: BTC verdedigt het $80k-anker al ~24 uur op $81,5k, Greed zakte in één dag van 68 naar 50 (capitulatie-signaal) en de breedte verbetert naar 7/33 groen met een herstellende 24u-mediaan van -1,0%. Het herstel is echter nog niet bevestigd: de 7d-mediaan staat op -3,6% en BTC n",
-      "equity": 9378.83,
-      "prices": {
-        "BCH/USD": 286.443,
-        "SOL/USD": 103.916,
-        "BTC/USD": 81526.9495
-      }
-    },
-    {
       "time": "2026-10-23T05:31:13.028507+00:00",
       "time_local": "23-10-2026 07:31",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1798,12 +1781,27 @@
         "BTC/USD": 81615.298,
         "BCH/USD": 288.701
       }
+    },
+    {
+      "time": "2026-10-28T20:31:26.363392+00:00",
+      "time_local": "28-10-2026 21:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 60.0,
+        "BCH/USD": 4.0
+      },
+      "summary": "BTC houdt het $80k-anker vast rond $81,1k en de marktbreedte is positief (29/33 groen), maar het volume blijft laag (0,30%/u) en de 7d-mediaan is diep negatief (-7,5%): een fragiele bounce binnen een zwakke week. Ik verhoog BTC licht naar 60% (top van de les-range 55-60%) en houd BCH klein op 4%, me",
+      "equity": 9224.26,
+      "prices": {
+        "BCH/USD": 286.44,
+        "BTC/USD": 81131.9
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-28T20:01:28.274384+00:00",
-    "time_local": "28-10-2026 21:01",
-    "text": "Ik verhoog BTC naar 58% omdat de ankerherovering nu bevestigd is (BTC >$81k, breedte >50% over meerdere metingen) — precies de les dat 40% cash in een herstellende markt rendement kost. Ik wacht met 60% op volumebestiging (>0,4%/u). BCH blijft klein op 4% (geen overstrekte alt-gok). Cash ~38% als buffer. Triggers: duurzame 4u-sluiting onder $79,5k -> BTC naar 40%; uitbraak boven $81,5k met volume >0,4%/u -> BTC naar 60%. Geen alt-chases (PEPE overstrekt op 7d-high). Focus: BTC matchen/verslaan en het gat dichten."
+    "time": "2026-10-28T20:31:26.363392+00:00",
+    "time_local": "28-10-2026 21:31",
+    "text": "BTC schommelt al dagen rond het $80-81,5k-anker; de 24u-bounce is breed maar op laag volume en de 7d-mediaan blijft diep negatief. Ik zit op 60% BTC (top van de les-range 55-60%) en 4% BCH, ~36% cash. Triggers: duurzame 4u-sluiting onder $79,5k -> BTC naar 40%; uitbraak boven $81,5k mét volume >0,4%/u -> BTC op 60% bevestigen/opschalen. Geen alt-chases (PEPE overstrekt op 7d-high). Focus: BTC matchen/verslaan en het gat van ~5pp dichten."
   },
   "lessons": [
     "Blootstellingsles: in een herstellende markt kost 50% cash direct rendement (dit venster +1,24% vs BTC +2,09%). Verhoog bij een bevestigde ankerherovering (BTC >$80k met breedte >50% op 2+ opeenvolgende metingen) de BTC-positie naar 55-60% in plaats ",
