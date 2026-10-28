@@ -2129,3 +2129,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-28T21:31:24.945118+00:00,28-10-2026 22:31,,BTC/USD,60.0,60.0,houden,,,
 2026-10-28T22:01:34.371645+00:00,28-10-2026 23:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,3.8,4.0,houden,,,Sterkste alt met positieve 7d en boven SMA20/50; kleine positie binnen 5%-cap.
 2026-10-28T22:01:34.371645+00:00,28-10-2026 23:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,60.0,60.0,houden,,,"Houdt $80k-anker vast, breedte positief; op cap, geen de-risico-trigger geraakt."
+2026-10-28T22:31:22.562506+00:00,28-10-2026 23:31,,BCH/USD,3.8,3.8,houden,,,
+2026-10-28T22:31:22.562506+00:00,28-10-2026 23:31,,BTC/USD,60.0,60.0,houden,,,
