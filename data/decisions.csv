@@ -2071,3 +2071,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-28T07:01:27.811050+00:00,28-10-2026 08:01,z-ai/glm-5.3,BTC/USD,45.2,45.0,houden,,,"Anker $80k houdt stand; noch uitbraak >$81k mét vol-expansie, noch sluiting <$79,5k — 45% vasthouden."
 2026-10-28T07:31:24.869982+00:00,28-10-2026 08:31,z-ai/glm-5.3,BCH/USD,5.3,5.0,houden,,,"Sterkste munt op exact 5%; staat op 7d-hoog, geen top-chasing"
 2026-10-28T07:31:24.869982+00:00,28-10-2026 08:31,z-ai/glm-5.3,BTC/USD,45.2,45.0,houden,,,"Anker $80k houdt stand zonder versnelling; basispositie behouden, wachten op trigger"
+2026-10-28T08:01:38.915782+00:00,28-10-2026 09:01,,BCH/USD,5.3,5.3,houden,,,
+2026-10-28T08:01:38.915782+00:00,28-10-2026 09:01,,BTC/USD,45.3,45.3,houden,,,
