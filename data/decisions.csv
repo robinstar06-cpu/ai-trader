@@ -2053,3 +2053,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-28T02:31:21.837977+00:00,28-10-2026 03:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,45.3,45.0,houden,,,"Anker $80k houdt al ~24u, maar geen uitbraak boven $81k en geen vol-expansie — trigger niet gevallen, ladder ongewijzigd."
 2026-10-28T03:01:28.970838+00:00,28-10-2026 04:01,,BCH/USD,5.2,5.2,houden,,,
 2026-10-28T03:01:28.970838+00:00,28-10-2026 04:01,,BTC/USD,45.3,45.3,houden,,,
+2026-10-28T03:31:05.085142+00:00,28-10-2026 04:31,,BCH/USD,5.3,5.3,houden,,,
+2026-10-28T03:31:05.085142+00:00,28-10-2026 04:31,,BTC/USD,45.3,45.3,houden,,,
