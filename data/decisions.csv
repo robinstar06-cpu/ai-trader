@@ -2085,3 +2085,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-28T10:31:25.261875+00:00,28-10-2026 11:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.9,55.0,buy,473.85,gekocht $473.85,"Houdt stand boven $81k-anker met volledig groene breedte; volgende tranche richting 55-60%, maar volume nog niet bevestigd dus geen volle stap."
 2026-10-28T11:01:18.237097+00:00,28-10-2026 12:01,,BCH/USD,4.0,4.0,houden,,,
 2026-10-28T11:01:18.237097+00:00,28-10-2026 12:01,,BTC/USD,54.9,54.9,houden,,,
+2026-10-28T11:31:18.241982+00:00,28-10-2026 12:31,,BCH/USD,3.9,3.9,houden,,,
+2026-10-28T11:31:18.241982+00:00,28-10-2026 12:31,,BTC/USD,54.9,54.9,houden,,,
