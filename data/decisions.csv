@@ -2215,3 +2215,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-29T19:01:33.541621+00:00,29-10-2026 20:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,58.2,58.0,houden,,,"Enige relatieve sterkte, houdt $80k-anker; kernpositie met cashbuffer tegen zwakke breedte."
 2026-10-29T19:31:18.973866+00:00,29-10-2026 20:31,,BCH/USD,2.1,2.1,houden,,,
 2026-10-29T19:31:18.973866+00:00,29-10-2026 20:31,,BTC/USD,58.2,58.2,houden,,,
+2026-10-29T20:01:29.400046+00:00,29-10-2026 21:01,,BCH/USD,2.0,2.0,houden,,,
+2026-10-29T20:01:29.400046+00:00,29-10-2026 21:01,,BTC/USD,58.1,58.1,houden,,,
