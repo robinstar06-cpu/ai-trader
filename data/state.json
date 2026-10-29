@@ -16,29 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-23T08:01:17.360882+00:00",
-      "time_local": "23-10-2026 10:01",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 58.0,
-        "BCH/USD": 6.0,
-        "SOL/USD": 8.0,
-        "ETH/USD": 6.0,
-        "XRP/USD": 5.0,
-        "LINK/USD": 5.0
-      },
-      "summary": "De flush dooft uit: de breedte is in een uur van 15/33 naar 24/33 groen gesprongen (24u-mediaan +0,6%), Greed blijft neutraal op 50 en BTC verdedigt het $80k-anker al ~24u op $81,5k. Mijn stap-2-trigger (breedte >50% groen én 7d-mediaan > -5%) is daarmee gevuurd, dus ik bouw participatie op in mid-r",
-      "equity": 9373.64,
-      "prices": {
-        "LINK/USD": 12.148,
-        "XRP/USD": 1.323055,
-        "BCH/USD": 285.2,
-        "ETH/USD": 2398.0825,
-        "SOL/USD": 104.185,
-        "BTC/USD": 81460.018
-      }
-    },
-    {
       "time": "2026-10-23T09:01:26.952082+00:00",
       "time_local": "23-10-2026 11:01",
       "model": "z-ai/glm-5.3",
@@ -1790,12 +1767,27 @@
         "BTC/USD": 80094.156,
         "BCH/USD": 279.137
       }
+    },
+    {
+      "time": "2026-10-29T18:31:17.927092+00:00",
+      "time_local": "29-10-2026 19:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 58.0,
+        "BCH/USD": 2.0
+      },
+      "summary": "BTC houdt het $80k-anker vast ($80,7k) en is met -0,75% op 7d duidelijk sterker dan de marktmediaan (-3,31%), maar de breedte is zwak (7/33 groen), het volume blijft laag (0,49%/u) en Fear & Greed is neutraal (51). Dit is een voorzichtige, door BTC gedomineerde markt zonder echte risicobereidheid.",
+      "equity": 9186.19,
+      "prices": {
+        "BTC/USD": 80667.8945,
+        "BCH/USD": 287.2005
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-29T13:31:22.662271+00:00",
-    "time_local": "29-10-2026 14:31",
-    "text": "Ik handhaaf ~58% BTC en verlaag BCH naar ~2% (les: max 2% in één alt zolang BTC in een negatieve 7d-mediaan zit; BCH is structurele drag). Cash ~40% als hedge, passend bij de zwakke 7d-mediaan en lage volumes. Triggers ongewijzigd: 4u-sluiting onder $79,5k -> BTC naar 40-45%; uitbraak boven $81,5k mét volume >0,5%/u -> in tranches opschalen. Geen nieuwe alt-posities; Kronos (52,5%) negeer ik. Doel blijft BTC matchen/verslaan en het gat dichten, geen geforceerde gokken."
+    "time": "2026-10-29T18:31:17.927092+00:00",
+    "time_local": "29-10-2026 19:31",
+    "text": "Ik handhaaf ~58% BTC, ~2% BCH en ~40% cash: BTC is de enige relative-strength asset en de zwakke breedte rechtvaardigt een stevige cashbuffer. Geen nieuwe alt-posities (breedte is ruis, alts zijn structurele drag). Triggers ongewijzigd: 4u-sluiting onder $79,5k -> BTC naar 40-45%; uitbraak boven $81,5k mét volume >0,5%/u -> in tranches opschalen. Kronos (51,3%) negeer ik. Doel blijft BTC matchen/verslaan en het gat dichten, geen geforceerde gokken."
   },
   "lessons": [
     "Regimefilter boven anker: bij een 7d-mediaan dieper dan -5% én volume onder ~0,35%/u is een 'anchor hold' distributie, geen bodem. Houd BTC dan op 40-45% in plaats van 55-60%; schaal pas op bij een 4u-sluiting boven het anker mét volume >0,5%/u.",
