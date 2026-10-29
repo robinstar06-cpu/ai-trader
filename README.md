@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 29-10-2026 08:01_
+_Laatst bijgewerkt: 29-10-2026 08:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,133.97** |
+| Waarde portefeuille | **$9,128.32** |
 | Cash | $3,340.44 (37%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-8.66%** |
-| Ter vergelijking: gewoon BTC vasthouden | -4.15% |
-| Verschil | -4.51% |
+| Rendement AI sinds 14-10-2026 13:02 | **-8.72%** |
+| Ter vergelijking: gewoon BTC vasthouden | -4.24% |
+| Verschil | -4.48% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-8.66%** |
+| Rendement deze periode | **-8.72%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -8.66% |
+| Daling vanaf de top ($10,000) | -8.72% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 51 (Neutral) |
-| Kronos-voorspelling | 30 munten in 242s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 53% (n=1533, 50% = gokken) |
+| Kronos-voorspelling | 30 munten (berekend om 08:01); richting op 4u goed: 53% (n=1533, 50% = gokken) |
 
 ## Strategie van de AI (sinds 29-10-2026 00:01)
 
@@ -38,7 +38,7 @@ _Dit venster bleef ik met ~50% blootstelling (45% BTC + 5% BCH) achter op BTC: +
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,447.44 | 59.6% | -1.9% | 59.6% | +0.3% (83% omhoog) |  |
+| BTC/USD | $5,441.78 | 59.6% | -2.0% | 59.6% | +0.3% (83% omhoog) |  |
 | BCH/USD | $346.10 | 3.8% | -0.2% | 3.8% | +0.0% (67% omhoog) |  |
 
 ## Orders deze run
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 29-10-2026 08:31 | $9,128 | -8.72% | -4.24% | 0 |
 | 29-10-2026 08:01 | $9,134 | -8.66% | -4.15% | 0 |
 | 29-10-2026 07:31 | $9,146 | -8.54% | -4.01% | 0 |
 | 29-10-2026 07:01 | $9,153 | -8.47% | -3.84% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 29-10-2026 04:01 | $9,132 | -8.68% | -4.15% | 0 |
 | 29-10-2026 03:31 | $9,139 | -8.61% | -4.32% | 0 |
 | 29-10-2026 03:01 | $9,140 | -8.60% | -4.15% | 0 |
-| 29-10-2026 02:31 | $9,206 | -7.94% | -3.14% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
