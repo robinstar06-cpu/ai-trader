@@ -2189,3 +2189,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-29T12:31:21.851419+00:00,29-10-2026 13:31,,BTC/USD,59.7,59.7,houden,,,
 2026-10-29T13:01:29.536683+00:00,29-10-2026 14:01,,BCH/USD,3.8,3.8,houden,,,
 2026-10-29T13:01:29.536683+00:00,29-10-2026 14:01,,BTC/USD,59.7,59.7,houden,,,
+2026-10-29T13:31:22.662271+00:00,29-10-2026 14:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,3.7,2.0,sell,159.95,verkocht 0.571859814,Terug naar max 2%: structurele drag en BTC zit in negatieve 7d-mediaan.
+2026-10-29T13:31:22.662271+00:00,29-10-2026 14:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.8,58.0,sell,160.21,verkocht 0.001998514,"Kernpositie; houdt $80k-anker vast en is 7d relatief sterk (-1,85% vs markt -4,5%), geen trigger voor de-risico."

@@ -1,61 +1,67 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 29-10-2026 14:01_
+_Laatst bijgewerkt: 29-10-2026 14:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,141.14** |
-| Cash | $3,340.44 (37%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-8.59%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.99% |
-| Verschil | -4.60% |
+| Waarde portefeuille | **$9,129.57** |
+| Cash | $3,657.78 (40%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-8.70%** |
+| Ter vergelijking: gewoon BTC vasthouden | -3.87% |
+| Verschil | -4.84% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-8.59%** |
+| Rendement deze periode | **-8.70%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -8.59% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -8.70% |
+| Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 51 (Neutral) |
-| Kronos-voorspelling | 30 munten in 242s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 53% (n=1530, 50% = gokken) |
+| Kronos-voorspelling | 30 munten (berekend om 14:01); richting op 4u goed: 53% (n=1530, 50% = gokken) |
 
-## Strategie van de AI (sinds 29-10-2026 00:01)
+## Marktvisie van de AI
 
-Ik handhaaf 60% BTC (top van de les-range), ~4% BCH en ~36% cash. Geen trigger geraakt: BTC sluit niet duurzaam onder $79,5k en breekt niet met volume >0,4%/u boven $81,5k. Bij een 4u-sluiting onder $79,5k -> BTC naar 40%; bij een uitbraak boven $81,5k mét volumebestiging schaal ik in tranches op. Geen alt-chases (PEPE overstrekt, RSI 65, range7d_pos 92). Focus blijft BTC matchen/verslaan en het gat dichten; Kronos staat op coinflip-niveau (50,2%) en negeer ik. Cashvloer 15-25% in neutrale markt, maar de diep negatieve 7d-mediaan rechtvaardigt nu iets meer cash als hedge.
+BTC houdt het $80k-anker vast ($80,1k) op laag volume (0,38%/u) met gemengde breedte (15/33 groen) en een 7d-mediaan van -4,5%; Fear & Greed is neutraal (51). Geen bevestigde uitbraak of breakdown, dus ik blijf defensief met een stevige cashbuffer en BTC als kern. Alts blijven zwak en overstrekt (HYPE RSI 85, range7d_pos 100), dus geen alt-chases.
+
+## Strategie van de AI (sinds 29-10-2026 14:31)
+
+Ik handhaaf ~58% BTC en verlaag BCH naar ~2% (les: max 2% in één alt zolang BTC in een negatieve 7d-mediaan zit; BCH is structurele drag). Cash ~40% als hedge, passend bij de zwakke 7d-mediaan en lage volumes. Triggers ongewijzigd: 4u-sluiting onder $79,5k -> BTC naar 40-45%; uitbraak boven $81,5k mét volume >0,5%/u -> in tranches opschalen. Geen nieuwe alt-posities; Kronos (52,5%) negeer ik. Doel blijft BTC matchen/verslaan en het gat dichten, geen geforceerde gokken.
 
 ## Lessen uit de dagelijkse evaluatie
 
-_Dit venster bleef ik met ~50% blootstelling (45% BTC + 5% BCH) achter op BTC: +1,24% versus +2,09%, puur omdat ik de herstelde markt maar half meemaakte. De verlaging naar 45% op de nadering van $79,5k was een whipsaw — BTC sloot nooit duurzaam eronder en steeg juist naar $81k+. Met -7,31% op dag 14 versus BTC -2,30% is het +20%-doel vrijwel onhaalbaar; het realistische doel is nu het gat naar BTC dichten zonder onnodige risico's._
+_Deze periode staat op -8,48% versus BTC -3,87%: in dit venster verliezen we iets minder dan BTC (-0,55% vs -0,63%) dankzij de cashbuffer, maar over de hele periode lopen we ~4,6pp achter en het doel (+20%) is op dag 16 met -8,48% niet meer realistisch. De 55-60% BTC-blootstelling in een regime met diep negatieve 7d-mediaan (-6 tot -7%) en laag volume was te hoog, en de BCH-sleeve (3-4%) verloor in elke meting 2,5-5,6%._
 
-- Blootstellingsles: in een herstellende markt kost 50% cash direct rendement (dit venster +1,24% vs BTC +2,09%). Verhoog bij een bevestigde ankerherovering (BTC >$80k met breedte >50% op 2+ opeenvolgende metingen) de BTC-positie naar 55-60% in plaats 
-- De-risico alleen op bevestiging, niet op nadering: BTC tikte $79,5k aan maar sloot nooit duurzaam (4u) eronder en steeg daarna naar $81k+. Verlaag de blootstelling alleen bij een 4u-sluiting onder het niveau of duidelijke neerwaartse versnelling, nie
-- Alt-cap van 5% blijft, maar met winstdiscipline: BCH liep op tot +7% en gaf alles terug naar +1,2%. Houd max 5% in één sterkste munt en neem winst bij >+5% in plaats van een winnaar te laten teruglopen naar break-even.
-- Negeer breedte-ruis: de 24u-breedte zwierde van 7/33 naar 33/33 groen zonder koersgevolg. Stuur uitsluitend op anker ($80k/$81k), 7d-mediaan en volume; breedte alleen als bevestiging, nooit als losse trigger.
-- Cash is geen automatische winst: vorig venster won cash, dit venster kostte het rendement. Houd in neutrale/opwaartse markten een cashvloer van 15-25%; ga alleen naar 40-50% cash bij een bevestigde neerwaartse trend (duurzame breuk + negatieve 7d-med
-- Uitbraak met extreem laag volume is verdacht: de laatste beslissing zette BTC op 50% bij $81,3k met 33/33 groen maar vol_1h van slechts ~0,2%. Verhoog bij een uitbraak in tranches en wacht op volumebestiging voordat je verder opschaalt.
-- Kronos staat op 50,5% over 48h — exact muntgooi-niveau. Negeer zijn richtingvoorspellingen volledig zolang de rolling accuracy niet structureel >55% is; stuur op anker, 7d-mediaan en volume.
-- Doelrekenkunst: -7,31% op dag 14 vraagt ~+29% in 14 dagen — onrealistisch. Richt je op BTC matchen/verslaan en het gat versus BTC (~-5pp) dichten; geen grote gokken of volledige alt-blootstelling om een onhaalbaar doel te forceren.
+- Regimefilter boven anker: bij een 7d-mediaan dieper dan -5% én volume onder ~0,35%/u is een 'anchor hold' distributie, geen bodem. Houd BTC dan op 40-45% in plaats van 55-60%; schaal pas op bij een 4u-sluiting boven het anker mét volume >0,5%/u.
+- Cashvloer: in neutrale/opwaartse markten 15-25% cash, in een bevestigde neerwaartse trend (7d-mediaan <-5% + laag volume) 40-50% cash. Dit venster bevestigt dat cash de daling verzachtte (-0,55% vs BTC -0,63%).
+- Alt-sleeve halveren of schrappen: BCH verloor in elke meting van dit venster (-2,5% tot -5,6%) en is over meerdere vensters een structurele drag. Max 2% in één alt, of 0% zolang BTC zelf in een negatieve 7d-mediaan zit.
+- De-risico alleen op bevestiging, niet op nadering: verlaag blootstelling uitsluitend bij een 4u-sluiting onder het anker ($80k) of duidelijke neerwaartse versnelling, niet wanneer de koers het niveau alleen nadert.
+- Breedte is ruis: de 24u-breedte zwiepte van 7/33 naar 33/33 groen zonder koersgevolg. Stuur op anker, 7d-mediaan en volume; gebruik breedte alleen als bevestiging, nooit als losse trigger.
+- Uitbraak op extreem laag volume is verdacht: verhoog in tranches en wacht op volumebestiging (>0,5%/u) voordat je verder opschaalt, ook als de markt breed groen staat.
+- Kronos negeren: 52,5% over 1530 forecasts is muntgooi-niveau. Gebruik zijn richtingvoorspellingen niet zolang de rolling accuracy niet structureel >55% is.
+- Doeldiscipline: -8,48% op dag 16 met 12 dagen te gaan vraagt ~+31% — onrealistisch. Richt je op BTC matchen/verslaan en het gat van ~4,6pp dichten; geen grote gokken of volledige alt-blootstelling om een onhaalbaar doel te forceren.
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,457.64 | 59.7% | -1.7% | 59.7% | -0.1% (33% omhoog) |  |
-| BCH/USD | $343.07 | 3.8% | -0.2% | 3.8% | -0.4% (33% omhoog) |  |
+| BTC/USD | $5,289.10 | 57.9% | -1.9% | 58.0% | -0.1% (33% omhoog) | Kernpositie; houdt $80k-anker vast en is 7d relatief sterk (-1,85% vs markt -4,5%), geen trigger voor de-risico. |
+| BCH/USD | $182.69 | 2.0% | -0.4% | 2.0% | -0.4% (33% omhoog) | Terug naar max 2%: structurele drag en BTC zit in negatieve 7d-mediaan. |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| BCH/USD | sell | $159.95 | verkocht 0.571859814 |
+| BTC/USD | sell | $160.21 | verkocht 0.001998514 |
 
 ## Meldingen
 
-- Dagelijkse evaluatie mislukt: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life o
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
+- Dagelijkse evaluatie gedaan door deepseek-ai/deepseek-v4.1-flash.
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 29-10-2026 14:31 | $9,130 | -8.70% | -3.87% | 2 |
 | 29-10-2026 14:01 | $9,141 | -8.59% | -3.99% | 0 |
 | 29-10-2026 13:31 | $9,141 | -8.59% | -3.92% | 0 |
 | 29-10-2026 13:01 | $9,146 | -8.54% | -3.89% | 0 |
@@ -67,7 +73,6 @@ Geen orders (verdeling blijft gelijk).
 | 29-10-2026 10:01 | $9,143 | -8.57% | -3.98% | 0 |
 | 29-10-2026 09:31 | $9,140 | -8.60% | -4.06% | 0 |
 | 29-10-2026 09:01 | $9,127 | -8.73% | -4.24% | 0 |
-| 29-10-2026 08:31 | $9,128 | -8.72% | -4.24% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
