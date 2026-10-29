@@ -2211,3 +2211,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-29T18:01:30.095139+00:00,29-10-2026 19:01,,BTC/USD,58.2,58.2,houden,,,
 2026-10-29T18:31:17.927092+00:00,29-10-2026 19:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,2.0,2.0,houden,,,"Kleine sleeve, recent +2,9%; binnen max-2%-regel voor alts"
 2026-10-29T18:31:17.927092+00:00,29-10-2026 19:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,58.1,58.0,houden,,,"Enige relative-strength asset, houdt $80k-anker; kernpositie binnen plan"
+2026-10-29T19:01:33.541621+00:00,29-10-2026 20:01,deepseek-ai/deepseek-v4.1-flash,BCH/USD,2.0,2.0,houden,,,"Kleine positie, recent +4,9% op 7d; groter maken niet gerechtvaardigd gezien alt-drag."
+2026-10-29T19:01:33.541621+00:00,29-10-2026 20:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,58.2,58.0,houden,,,"Enige relatieve sterkte, houdt $80k-anker; kernpositie met cashbuffer tegen zwakke breedte."

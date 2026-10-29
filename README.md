@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 29-10-2026 19:31_
+_Laatst bijgewerkt: 29-10-2026 20:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,186.19** |
+| Waarde portefeuille | **$9,195.55** |
 | Cash | $3,657.78 (40%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-8.14%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.18% |
-| Verschil | -4.96% |
+| Rendement AI sinds 14-10-2026 13:02 | **-8.04%** |
+| Ter vergelijking: gewoon BTC vasthouden | -3.12% |
+| Verschil | -4.92% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-8.14%** |
+| Rendement deze periode | **-8.04%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -8.14% |
+| Daling vanaf de top ($10,000) | -8.04% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 51 (Neutral) |
-| Kronos-voorspelling | 30 munten (berekend om 19:01); richting op 4u goed: 51% (n=1519, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 264s; richting op 4u goed: 51% (n=1519, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-BTC houdt het $80k-anker vast ($80,7k) en is met -0,75% op 7d duidelijk sterker dan de marktmediaan (-3,31%), maar de breedte is zwak (7/33 groen), het volume blijft laag (0,49%/u) en Fear & Greed is neutraal (51). Dit is een voorzichtige, door BTC gedomineerde markt zonder echte risicobereidheid.
+BTC houdt het $80k-anker vast ($80,7k) en blijft met -0,8% op 7d duidelijk sterker dan de marktmediaan (-3,3%), maar de breedte is extreem zwak (3/33 groen, mediaan -2,4%) en het volume blijft laag (0,47%/u). Fear & Greed is neutraal (51) maar zakte van 68 een week geleden; dit is een zwakke markt waarin BTC de relatieve sterkte is. Geen bevestigde trigger, dus ik handhaaf de defensieve kern.
 
-## Strategie van de AI (sinds 29-10-2026 19:31)
+## Strategie van de AI (sinds 29-10-2026 20:01)
 
-Ik handhaaf ~58% BTC, ~2% BCH en ~40% cash: BTC is de enige relative-strength asset en de zwakke breedte rechtvaardigt een stevige cashbuffer. Geen nieuwe alt-posities (breedte is ruis, alts zijn structurele drag). Triggers ongewijzigd: 4u-sluiting onder $79,5k -> BTC naar 40-45%; uitbraak boven $81,5k mét volume >0,5%/u -> in tranches opschalen. Kronos (51,3%) negeer ik. Doel blijft BTC matchen/verslaan en het gat dichten, geen geforceerde gokken.
+Ik houd ~58% BTC, ~2% BCH en ~40% cash. BTC is het enige relatieve-sterkte-asset en de zwakke breedte rechtvaardigt een stevige cashbuffer; alts blijven structurele drag. Triggers ongewijzigd: 4u-sluiting onder $79,5k -> BTC naar 40-45%; uitbraak boven $81,5k mét volume >0,5%/u -> in tranches opschalen. Kronos (51,5%, muntgooi) negeer ik, ook zijn bearish BTC-hint. Doel blijft BTC matchen/verslaan en het gat dichten; geen geforceerde gokken richting een onrealistisch +20%.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,8 +42,8 @@ _Deze periode staat op -8,48% versus BTC -3,87%: in dit venster verliezen we iet
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,340.73 | 58.1% | -0.9% | 58.0% | -0.5% (17% omhoog) | Enige relative-strength asset, houdt $80k-anker; kernpositie binnen plan |
-| BCH/USD | $187.68 | 2.0% | +2.3% | 2.0% | -1.3% (17% omhoog) | Kleine sleeve, recent +2,9%; binnen max-2%-regel voor alts |
+| BTC/USD | $5,350.09 | 58.2% | -0.8% | 58.0% | -0.4% (17% omhoog) | Enige relatieve sterkte, houdt $80k-anker; kernpositie met cashbuffer tegen zwakke breedte. |
+| BCH/USD | $187.68 | 2.0% | +2.3% | 2.0% | -1.7% (17% omhoog) | Kleine positie, recent +4,9% op 7d; groter maken niet gerechtvaardigd gezien alt-drag. |
 
 ## Orders deze run
 
@@ -57,6 +57,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 29-10-2026 20:01 | $9,196 | -8.04% | -3.12% | 0 |
 | 29-10-2026 19:31 | $9,186 | -8.14% | -3.18% | 0 |
 | 29-10-2026 19:01 | $9,190 | -8.10% | -3.04% | 0 |
 | 29-10-2026 18:31 | $9,210 | -7.90% | -2.77% | 0 |
@@ -68,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 29-10-2026 15:31 | $9,155 | -8.45% | -3.52% | 0 |
 | 29-10-2026 15:01 | $9,147 | -8.53% | -3.64% | 0 |
 | 29-10-2026 14:31 | $9,130 | -8.70% | -3.87% | 2 |
-| 29-10-2026 14:01 | $9,141 | -8.59% | -3.99% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
