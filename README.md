@@ -1,25 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 30-10-2026 23:01_
+_Laatst bijgewerkt: 30-10-2026 23:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,903.71** |
+| Waarde portefeuille | **$8,911.78** |
 | Cash | $4,465.34 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-10.96%** |
-| Ter vergelijking: gewoon BTC vasthouden | -8.03% |
-| Verschil | -2.93% |
+| Rendement AI sinds 14-10-2026 13:02 | **-10.88%** |
+| Ter vergelijking: gewoon BTC vasthouden | -7.90% |
+| Verschil | -2.98% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-10.96%** |
+| Rendement deze periode | **-10.88%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -10.96% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -10.88% |
+| Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 30 (Fear) |
-| Kronos-voorspelling | 30 munten in 242s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 55% (n=1505, 50% = gokken) |
+| Kronos-voorspelling | 30 munten (berekend om 23:01); richting op 4u goed: 55% (n=1505, 50% = gokken) |
 
-## Strategie van de AI (sinds 30-10-2026 22:31)
+## Marktvisie van de AI
 
-Ik handhaaf BTC op ~50% en cash op ~50% — exact mijn huidige positie, dus geen trade. De markt zit nog in een downtrend (7d-mediaan -7,2%), maar BTC is oversold op het 7d-laagtepunt met herstellende breedte en volume net boven drempel (0,54%/u); een bounce weegt op tegen de trend. Ik schaal pas op bij een 4u-sluiting boven $80k mét volume >0,5%/u; bij een 4u-sluiting onder $76k verlaag ik in tranches van ~10pp. Geen alt-sleeve zolang BTC's 7d-mediaan negatief is. Focus: BTC matchen/verslaan, niet het onhaalbare +20%-doel forceren.
+BTC zit nog in een bevestigde downtrend ($76,7k, -4,9% 7d, onder alle SMA's) maar staat op het 7d-laagtepunt met oversold RSI (33) en een scherp herstellende marktbreedte (23/33 groen, mediaan +1,2%). Fear & Greed zakte naar 30 (angst), terwijl het volume met 0,54%/u net boven de bevestigingsdrempel blijft. Dit is een bounce-setup binnen een dalende trend — asymmetrisch maar nog niet bevestigd.
+
+## Strategie van de AI (sinds 30-10-2026 23:31)
+
+Ik handhaaf BTC op ~50% en cash op ~50% — exact mijn huidige positie, dus geen trade. De markt zit nog in een downtrend (7d-mediaan -5,4%), maar BTC staat op het 7d-laagtepunt met oversold RSI en herstellende breedte; een bounce weegt op tegen de trend. Ik schaal pas op bij een 4u-sluiting boven $80k mét volume >0,5%/u; bij een 4u-sluiting onder $76k verlaag ik in tranches van ~10pp. Geen alt-sleeve zolang BTC's 7d-mediaan negatief is. Focus: BTC matchen/verslaan, niet het onhaalbare +20%-doel forceren.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -38,7 +42,7 @@ _In dit venster deed ik het beter dan BTC (-2,54% vs -4,01%), maar over de hele 
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,438.37 | 49.8% | -5.4% | 49.8% | +2.6% (100% omhoog) |  |
+| BTC/USD | $4,446.44 | 49.9% | -5.2% | 50.0% | +2.6% (100% omhoog) | Oversold op 7d-laagtepunt met herstellende breedte en volume net boven drempel; bounce-kans weegt op tegen de downtrend, dus aanhouden op 50% met cashbuffer. |
 
 ## Orders deze run
 
@@ -46,14 +50,13 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 30-10-2026 23:31 | $8,912 | -10.88% | -7.90% | 0 |
 | 30-10-2026 23:01 | $8,904 | -10.96% | -8.03% | 0 |
 | 30-10-2026 22:31 | $8,911 | -10.89% | -7.99% | 0 |
 | 30-10-2026 22:01 | $8,912 | -10.88% | -7.82% | 0 |
@@ -65,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 30-10-2026 19:01 | $8,928 | -10.72% | -7.55% | 0 |
 | 30-10-2026 18:31 | $8,936 | -10.64% | -7.38% | 0 |
 | 30-10-2026 18:01 | $8,942 | -10.58% | -7.20% | 0 |
-| 30-10-2026 17:31 | $8,953 | -10.47% | -7.07% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
