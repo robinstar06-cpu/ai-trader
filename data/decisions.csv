@@ -2280,3 +2280,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-30T21:31:24.016505+00:00,30-10-2026 22:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.9,50.0,houden,,,"Oversold op 7d-laagtepunt met herstellende breedte en bullish Kronos, maar downtrend intact; 50/50 is de beste risico/rendement-balans. Geen trade."
 2026-10-30T22:01:31.841561+00:00,30-10-2026 23:01,,BTC/USD,49.8,49.8,houden,,,
 2026-10-30T22:31:21.685135+00:00,30-10-2026 23:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.9,50.0,houden,,,"Oversold op 7d-laagtepunt met herstellende breedte en volume net boven drempel; bounce-kans weegt op tegen de downtrend, dus aanhouden op 50% met cashbuffer."
+2026-10-30T23:01:20.108932+00:00,31-10-2026 00:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.9,55.0,buy,452.99,gekocht $452.99,"Oversold op 7d-laagtepunt met herstellende breedte en fear; voorzichtige verhoging om bounce mee te pakken, cash als buffer."
