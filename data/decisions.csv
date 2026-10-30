@@ -2240,3 +2240,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-30T01:31:21.002570+00:00,30-10-2026 02:31,deepseek-ai/deepseek-v4.1-flash,BCH/USD,2.0,0.0,close,175.12,verkocht (alles),
 2026-10-30T01:31:21.002570+00:00,30-10-2026 02:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,57.0,45.0,sell,1069.71,verkocht 0.013939649,"Trigger gevuurd: 4u-sluiting ver onder $80k-anker, breedte 1/33, bevestigde downtrend - blootstelling verlagen naar 45%"
 2026-10-30T02:01:24.935435+00:00,30-10-2026 03:01,,BTC/USD,45.0,45.0,houden,,,
+2026-10-30T02:31:21.496449+00:00,30-10-2026 03:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,45.2,45.0,houden,,,"Sterkste major in een brede selloff; aanhouden op 45% binnen defensief cash-venster, opschalen pas boven anker met volume."
