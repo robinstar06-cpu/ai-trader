@@ -2243,3 +2243,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-30T02:31:21.496449+00:00,30-10-2026 03:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,45.2,45.0,houden,,,"Sterkste major in een brede selloff; aanhouden op 45% binnen defensief cash-venster, opschalen pas boven anker met volume."
 2026-10-30T03:01:19.654852+00:00,30-10-2026 04:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,45.2,45.0,houden,,,"Bevestigde breakdown onder $80k op hoog volume; defensieve kernpositie binnen cash-venster, wacht op 4u-herstel boven anker voor opschaling"
 2026-10-30T03:31:15.268663+00:00,30-10-2026 04:31,,BTC/USD,45.3,45.3,houden,,,
+2026-10-30T04:01:27.550721+00:00,30-10-2026 05:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,45.4,45.0,houden,,,"Binnen mijn 40-45%-venster voor een bevestigde downtrend; BTC houdt zich beter dan de alt-mediaan, dus ik houd de kern aan zonder op te schalen tot een 4u-sluiting boven $80k met volume."
