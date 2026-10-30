@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 30-10-2026 01:01_
+_Laatst bijgewerkt: 30-10-2026 01:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,980.16** |
+| Waarde portefeuille | **$8,919.12** |
 | Cash | $3,657.78 (41%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-10.20%** |
-| Ter vergelijking: gewoon BTC vasthouden | -6.77% |
-| Verschil | -3.42% |
+| Rendement AI sinds 14-10-2026 13:02 | **-10.81%** |
+| Ter vergelijking: gewoon BTC vasthouden | -7.80% |
+| Verschil | -3.01% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-10.20%** |
+| Rendement deze periode | **-10.81%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -10.20% |
+| Daling vanaf de top ($10,000) | -10.81% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 30 (Fear) |
-| Kronos-voorspelling | 33 munten in 191s; richting op 4u goed: 53% (n=1512, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 01:01); richting op 4u goed: 53% (n=1512, 50% = gokken) |
 
 ## Strategie van de AI (sinds 29-10-2026 20:01)
 
@@ -38,8 +38,8 @@ _Deze periode staat op -8,48% versus BTC -3,87%: in dit venster verliezen we iet
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,143.59 | 57.3% | -4.6% | 57.3% | +2.4% (100% omhoog) |  |
-| BCH/USD | $178.78 | 2.0% | -2.6% | 2.0% | +0.5% (67% omhoog) |  |
+| BTC/USD | $5,086.95 | 57.0% | -5.6% | 57.0% | +2.4% (100% omhoog) |  |
+| BCH/USD | $174.39 | 2.0% | -5.0% | 2.0% | +0.5% (67% omhoog) |  |
 
 ## Orders deze run
 
@@ -49,13 +49,13 @@ Geen orders (verdeling blijft gelijk).
 
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: HTTP 502 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Bad Gateway","status":502,"detail":"Upstream request failed."}
-
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 30-10-2026 01:31 | $8,919 | -10.81% | -7.80% | 0 |
 | 30-10-2026 01:01 | $8,980 | -10.20% | -6.77% | 0 |
 | 30-10-2026 00:31 | $9,041 | -9.59% | -5.72% | 0 |
 | 30-10-2026 00:01 | $9,059 | -9.41% | -5.37% | 0 |
@@ -67,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 29-10-2026 21:01 | $9,189 | -8.11% | -3.10% | 0 |
 | 29-10-2026 20:31 | $9,196 | -8.04% | -3.02% | 0 |
 | 29-10-2026 20:01 | $9,196 | -8.04% | -3.12% | 0 |
-| 29-10-2026 19:31 | $9,186 | -8.14% | -3.18% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
