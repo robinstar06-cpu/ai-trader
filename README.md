@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 30-10-2026 13:31_
+_Laatst bijgewerkt: 30-10-2026 14:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,942.26** |
+| Waarde portefeuille | **$8,942.47** |
 | Cash | $4,901.69 (55%) |
 | Rendement AI sinds 14-10-2026 13:02 | **-10.58%** |
-| Ter vergelijking: gewoon BTC vasthouden | -7.24% |
-| Verschil | -3.34% |
+| Ter vergelijking: gewoon BTC vasthouden | -7.27% |
+| Verschil | -3.31% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
 | Rendement deze periode | **-10.58%** |
 | Gehaalde mijlpalen | nog geen |
 | Daling vanaf de top ($10,000) | -10.58% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 30 (Fear) |
-| Kronos-voorspelling | 30 munten (berekend om 13:01); richting op 4u goed: 56% (n=1506, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 263s; richting op 4u goed: 56% (n=1508, 50% = gokken) |
 
 ## Strategie van de AI (sinds 30-10-2026 05:01)
 
@@ -38,7 +38,7 @@ _Deze periode staat op -8,48% versus BTC -3,87%: in dit venster verliezen we iet
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,040.57 | 45.2% | -5.1% | 45.2% | +1.7% (100% omhoog) |  |
+| BTC/USD | $4,040.78 | 45.2% | -5.0% | 45.2% | +1.3% (100% omhoog) |  |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 30-10-2026 14:01 | $8,942 | -10.58% | -7.27% | 0 |
 | 30-10-2026 13:31 | $8,942 | -10.58% | -7.24% | 0 |
 | 30-10-2026 13:01 | $8,938 | -10.62% | -7.35% | 0 |
 | 30-10-2026 12:31 | $8,957 | -10.43% | -6.84% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 30-10-2026 09:31 | $8,972 | -10.28% | -6.54% | 0 |
 | 30-10-2026 09:01 | $8,979 | -10.21% | -6.40% | 0 |
 | 30-10-2026 08:31 | $8,995 | -10.05% | -5.89% | 0 |
-| 30-10-2026 08:01 | $9,004 | -9.96% | -5.83% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
