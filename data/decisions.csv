@@ -2267,3 +2267,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-30T15:01:29.322255+00:00,30-10-2026 16:01,,BTC/USD,45.1,45.1,houden,,,
 2026-10-30T15:31:23.507802+00:00,30-10-2026 16:31,,BTC/USD,45.2,45.2,houden,,,
 2026-10-30T16:01:28.583790+00:00,30-10-2026 17:01,,BTC/USD,45.2,45.2,houden,,,
+2026-10-30T16:31:13.245072+00:00,30-10-2026 17:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,45.2,45.0,houden,,,"Binnen het cashvenster voor een bevestigde downtrend; oversold maar nog geen prijsbevestiging om op te schalen, dus aanhouden zonder churn."

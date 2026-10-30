@@ -8,36 +8,13 @@
     "milestones": []
   },
   "peak_equity": 10000.0,
-  "last_review": "2026-10-29T13:31:22.662271+00:00",
+  "last_review": "2026-10-30T16:31:13.245072+00:00",
   "start": {
     "time": "2026-10-14T11:02:53.675394+00:00",
     "equity": 10000.0,
     "btc_price": 83316.4785
   },
   "history": [
-    {
-      "time": "2026-10-23T12:31:21.414981+00:00",
-      "time_local": "23-10-2026 14:31",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 58.0,
-        "SOL/USD": 8.0,
-        "BCH/USD": 6.0,
-        "ETH/USD": 6.0,
-        "XRP/USD": 5.0,
-        "LINK/USD": 5.0
-      },
-      "summary": "BTC verdedigt het $80k-anker al ~24u op $81,6k en de breedte herstelt naar 20/33 groen met een licht positieve 24h-mediaan (+0,06%), maar de 7d-mediaan blijft negatief (-3,36%) en Greed staat neutraal op 50 na de flush. Eén deploy-trigger (breedte >50%) vuurt, de tweede (7d-mediaan positief) nog nie",
-      "equity": 9372.8,
-      "prices": {
-        "SOL/USD": 104.5425,
-        "BCH/USD": 284.7935,
-        "ETH/USD": 2399.3835,
-        "BTC/USD": 81632.56,
-        "LINK/USD": 12.08305,
-        "XRP/USD": 1.3189
-      }
-    },
     {
       "time": "2026-10-23T13:01:35.784355+00:00",
       "time_local": "23-10-2026 15:01",
@@ -1734,24 +1711,37 @@
       "prices": {
         "BTC/USD": 77917.4095
       }
+    },
+    {
+      "time": "2026-10-30T16:31:13.245072+00:00",
+      "time_local": "30-10-2026 17:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 45.0
+      },
+      "summary": "De markt zit in een bevestigde downtrend: BTC $77,4k onder alle SMA's, 7d-mediaan -9%, breedte 3/33 groen en Fear & Greed gedaald van 51 naar 30. BTC is met RSI 34 oversold en zit dicht bij het 7d-laagtepunt, wat een technische bounce mogelijk maakt, maar zonder prijsbevestiging blijf ik afwachtend.",
+      "equity": 8952.8,
+      "prices": {
+        "BTC/USD": 77430.018
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-30T04:01:27.550721+00:00",
-    "time_local": "30-10-2026 05:01",
-    "text": "Defensieve houding handhaven: BTC ~45%, cash ~55%, binnen mijn 40-50%-cashvenster voor een bevestigde downtrend. Geen alt-sleeve zolang BTC's 7d-mediaan diep negatief is en de breedte op 2/33 staat. Ik schaal pas op bij een 4u-sluiting terug boven $80k mét volume >0,5%/u; tot dan geen falling-knife-gok. RSI 36 (oversold) maakt een bounce mogelijk, maar zonder prijsbevestiging blijf ik afwachtend en vermijd ik churn. Focus op BTC matchen/verslaan en het gap dichten; het +20%-doel is op dag 16 onrealistisch, dus geen geforceerde gok. Kronos (52,9% accuracy) negeer ik."
+    "time": "2026-10-30T16:31:13.245072+00:00",
+    "time_local": "30-10-2026 17:31",
+    "text": "Handhaaf defensieve houding: BTC ~45%, cash ~55%, binnen mijn 40-50%-cashvenster voor een bevestigde downtrend (7d-mediaan <-5%, zwakke breedte). Geen alt-sleeve zolang BTC's 7d-mediaan negatief is. Ik schaal pas op bij een 4u-sluiting terug boven $80k mét volume >0,5%/u; tot dan geen falling-knife-gok en geen onnodige churn. RSI 34 (oversold) maakt een bounce mogelijk, maar ik wacht op prijsbevestiging. Kronos (55,5% accuracy) is slechts een tiebreaker, geen koopsignaal. Focus op BTC matchen/verslaan; het +20%-doel is op dag 17 onrealistisch, dus geen geforceerde gok."
   },
   "lessons": [
-    "Regimefilter boven anker: bij een 7d-mediaan dieper dan -5% én volume onder ~0,35%/u is een 'anchor hold' distributie, geen bodem. Houd BTC dan op 40-45% in plaats van 55-60%; schaal pas op bij een 4u-sluiting boven het anker mét volume >0,5%/u.",
-    "Cashvloer: in neutrale/opwaartse markten 15-25% cash, in een bevestigde neerwaartse trend (7d-mediaan <-5% + laag volume) 40-50% cash. Dit venster bevestigt dat cash de daling verzachtte (-0,55% vs BTC -0,63%).",
-    "Alt-sleeve halveren of schrappen: BCH verloor in elke meting van dit venster (-2,5% tot -5,6%) en is over meerdere vensters een structurele drag. Max 2% in één alt, of 0% zolang BTC zelf in een negatieve 7d-mediaan zit.",
-    "De-risico alleen op bevestiging, niet op nadering: verlaag blootstelling uitsluitend bij een 4u-sluiting onder het anker ($80k) of duidelijke neerwaartse versnelling, niet wanneer de koers het niveau alleen nadert.",
-    "Breedte is ruis: de 24u-breedte zwiepte van 7/33 naar 33/33 groen zonder koersgevolg. Stuur op anker, 7d-mediaan en volume; gebruik breedte alleen als bevestiging, nooit als losse trigger.",
+    "Regimefilter boven anker: bij een 7d-mediaan dieper dan -5% én volume onder ~0,35%/u is een 'anchor hold' distributie, geen bodem. Houd BTC dan 40-45%; schaal pas op bij een 4u-sluiting boven het anker mét volume >0,5%/u.",
+    "Cashvloer: 15-25% cash in neutrale/opwaartse markten, 40-50% in een bevestigde downtrend (7d-mediaan <-5% + laag volume). Dit venster bevestigt dat cash de daling verzachtte (-2,54% vs BTC -4,01%).",
+    "De-risico in tranches, niet in één klap op de bodem: de verlaging van 58% naar 45% op 02:31 kwam ná de -4% daling en BTC bounce +1% direct daarna. Verlaag in stappen van ~10pp en alleen op een 4u-sluiting onder het anker, niet na een al uitverkochte ",
+    "Alt-sleeve klein houden: BCH (+1,6% dit venster) was deze keer géén drag, maar de positie was slechts 2%. Houd één alt max 2-3% en alleen als BTC zelf niet in een negatieve 7d-mediaan zit.",
+    "Breedte is ruis: de 24u-breedte zwiepte zonder koersgevolg. Stuur op anker, 7d-mediaan en volume; gebruik breedte alleen als bevestiging, nooit als losse trigger.",
     "Uitbraak op extreem laag volume is verdacht: verhoog in tranches en wacht op volumebestiging (>0,5%/u) voordat je verder opschaalt, ook als de markt breed groen staat.",
-    "Kronos negeren: 52,5% over 1530 forecasts is muntgooi-niveau. Gebruik zijn richtingvoorspellingen niet zolang de rolling accuracy niet structureel >55% is.",
-    "Doeldiscipline: -8,48% op dag 16 met 12 dagen te gaan vraagt ~+31% — onrealistisch. Richt je op BTC matchen/verslaan en het gat van ~4,6pp dichten; geen grote gokken of volledige alt-blootstelling om een onhaalbaar doel te forceren."
+    "Kronos is een tiebreaker, geen signaal: 55,5% over 1505 forecasts is net boven muntgooi. Gebruik richtingvoorspellingen alleen als extra bevestiging bij twijfel, nooit als losse trigger of voor positiegrootte.",
+    "Doeldiscipline: -10,47% op dag 17 met 11 dagen te gaan vraagt ~+34% — onrealistisch. Richt je op BTC matchen/verslaan en het gat van ~3,4pp dichten; geen grote gokken of volledige alt-blootstelling om een onhaalbaar doel te forceren."
   ],
-  "review_assessment": "Deze periode staat op -8,48% versus BTC -3,87%: in dit venster verliezen we iets minder dan BTC (-0,55% vs -0,63%) dankzij de cashbuffer, maar over de hele periode lopen we ~4,6pp achter en het doel (+20%) is op dag 16 met -8,48% niet meer realistisch. De 55-60% BTC-blootstelling in een regime met diep negatieve 7d-mediaan (-6 tot -7%) en laag volume was te hoog, en de BCH-sleeve (3-4%) verloor in elke meting 2,5-5,6%.",
+  "review_assessment": "In dit venster deed ik het beter dan BTC (-2,54% vs -4,01%), maar over de hele periode sta ik achter (-10,47% vs -7,07%) en het doel van +20% is met nog 11 dagen onhaalbaar. De verlaging van 58% naar 45% was qua richting goed, maar kwam ná de daling en pal op de lokale bodem (BTC bounce +1% direct daarna), dus ik verkocht te laat en te veel in één keer. Focus moet nu liggen op BTC matchen/verslaan en het gat van ~3,4pp dichten.",
   "kronos_log": [
     {
       "t": "2026-10-28T04:00:00+00:00",
