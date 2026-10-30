@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 30-10-2026 14:01_
+_Laatst bijgewerkt: 30-10-2026 14:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,942.47** |
+| Waarde portefeuille | **$8,928.83** |
 | Cash | $4,901.69 (55%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-10.58%** |
-| Ter vergelijking: gewoon BTC vasthouden | -7.27% |
-| Verschil | -3.31% |
+| Rendement AI sinds 14-10-2026 13:02 | **-10.71%** |
+| Ter vergelijking: gewoon BTC vasthouden | -7.52% |
+| Verschil | -3.19% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-10.58%** |
+| Rendement deze periode | **-10.71%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -10.58% |
+| Daling vanaf de top ($10,000) | -10.71% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 30 (Fear) |
-| Kronos-voorspelling | 33 munten in 263s; richting op 4u goed: 56% (n=1508, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 14:01); richting op 4u goed: 56% (n=1508, 50% = gokken) |
 
 ## Strategie van de AI (sinds 30-10-2026 05:01)
 
@@ -38,7 +38,7 @@ _Deze periode staat op -8,48% versus BTC -3,87%: in dit venster verliezen we iet
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,040.78 | 45.2% | -5.0% | 45.2% | +1.3% (100% omhoog) |  |
+| BTC/USD | $4,027.14 | 45.1% | -5.4% | 45.1% | +1.3% (100% omhoog) |  |
 
 ## Orders deze run
 
@@ -46,6 +46,7 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
+- Dagelijkse evaluatie mislukt: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life o
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
 - AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
@@ -54,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 30-10-2026 14:31 | $8,929 | -10.71% | -7.52% | 0 |
 | 30-10-2026 14:01 | $8,942 | -10.58% | -7.27% | 0 |
 | 30-10-2026 13:31 | $8,942 | -10.58% | -7.24% | 0 |
 | 30-10-2026 13:01 | $8,938 | -10.62% | -7.35% | 0 |
@@ -65,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 30-10-2026 10:01 | $8,971 | -10.29% | -6.50% | 0 |
 | 30-10-2026 09:31 | $8,972 | -10.28% | -6.54% | 0 |
 | 30-10-2026 09:01 | $8,979 | -10.21% | -6.40% | 0 |
-| 30-10-2026 08:31 | $8,995 | -10.05% | -5.89% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
