@@ -16,29 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-23T14:01:31.293608+00:00",
-      "time_local": "23-10-2026 16:01",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 58.0,
-        "SOL/USD": 8.0,
-        "BCH/USD": 6.0,
-        "ETH/USD": 6.0,
-        "XRP/USD": 5.0,
-        "LINK/USD": 5.0
-      },
-      "summary": "BTC verdedigt het $80k-anker op $81,9k en de breedte is verbeterd naar 23/33 groen met een positieve 24u-mediaan (+0,54%), maar de 7d-mediaan blijft negatief (-3,47%) en Greed staat neutraal op 50. De markt is zijwaarts/stagnerend: geen bevestigd herstel, geen stap-2-trigger.",
-      "equity": 9399.15,
-      "prices": {
-        "LINK/USD": 12.07425,
-        "BCH/USD": 284.965,
-        "ETH/USD": 2411.235,
-        "XRP/USD": 1.32143,
-        "SOL/USD": 105.0345,
-        "BTC/USD": 81869.4
-      }
-    },
-    {
       "time": "2026-10-23T17:31:14.045886+00:00",
       "time_local": "23-10-2026 19:31",
       "model": "z-ai/glm-5.3",
@@ -1714,12 +1691,25 @@
       "prices": {
         "BTC/USD": 76405.2225
       }
+    },
+    {
+      "time": "2026-10-30T19:31:21.979201+00:00",
+      "time_local": "30-10-2026 20:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 45.0
+      },
+      "summary": "De markt zit in een bevestigde downtrend: BTC op het 7d-laagtepunt ($76,3k, -5,5% 24u), RSI 32 (oversold), breedte 2/33 groen en Fear & Greed op 30. Het volume is verhoogd (0,71%/u) maar er is nog geen bodembevestiging; Kronos is licht bullish (+2,5% 12h) maar blijft slechts een tiebreaker. Ik handh",
+      "equity": 8903.43,
+      "prices": {
+        "BTC/USD": 76329.975
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-30T19:01:26.688826+00:00",
-    "time_local": "30-10-2026 20:01",
-    "text": "Ik handhaaf de defensieve houding: BTC ~45%, cash ~55%, binnen mijn 40-50%-cashvenster voor een bevestigde downtrend (7d-mediaan -9%, zwakke breedte, laag vertrouwen). Geen alt-sleeve zolang BTC's 7d-mediaan negatief is. Ik schaal pas op bij een 4u-sluiting terug boven het $80k-anker mét volume >0,5%/u; tot dan geen falling-knife-gok en geen onnodige churn. Kronos is licht bullish (BTC +2,5% 12h) maar slechts 55% accuraat, dus enkel tiebreaker. Focus op BTC matchen/verslaan en het gat van ~2,7pp dichten; het +20%-doel op dag 17 forceer ik niet."
+    "time": "2026-10-30T19:31:21.979201+00:00",
+    "time_local": "30-10-2026 20:31",
+    "text": "Ik houd BTC ~45% en cash ~55%, binnen mijn 40-50%-cashvenster voor een bevestigde downtrend (7d-mediaan -9%, zwakke breedte, laag vertrouwen). Geen alt-sleeve zolang BTC's 7d-mediaan negatief is. Ik schaal pas op bij een 4u-sluiting terug boven het $80k-anker mét volume >0,5%/u; tot dan geen falling-knife-gok en geen onnodige churn. Het +20%-doel op dag 17 forceer ik niet: focus op BTC matchen/verslaan en het gat van ~2,6pp dichten. Bij een 4u-sluiting onder het anker verlaag ik in tranches van ~10pp."
   },
   "lessons": [
     "Regimefilter boven anker: bij een 7d-mediaan dieper dan -5% én volume onder ~0,35%/u is een 'anchor hold' distributie, geen bodem. Houd BTC dan 40-45%; schaal pas op bij een 4u-sluiting boven het anker mét volume >0,5%/u.",
