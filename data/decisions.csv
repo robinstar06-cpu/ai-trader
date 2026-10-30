@@ -2272,3 +2272,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-30T17:31:18.629350+00:00,30-10-2026 18:31,,BTC/USD,45.1,45.1,houden,,,
 2026-10-30T18:01:14.410804+00:00,30-10-2026 19:01,,BTC/USD,45.1,45.1,houden,,,
 2026-10-30T18:31:18.682439+00:00,30-10-2026 19:31,,BTC/USD,45.0,45.0,houden,,,
+2026-10-30T19:01:26.688826+00:00,30-10-2026 20:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,44.9,45.0,houden,,,Defensieve kernpositie in bevestigde downtrend; wacht op 4u-sluiting boven $80k met volume voor opschaling.
