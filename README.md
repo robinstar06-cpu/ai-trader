@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 30-10-2026 21:01_
+_Laatst bijgewerkt: 30-10-2026 21:31_
 
 | | |
 |---|---|
 | Waarde portefeuille | **$8,916.82** |
 | Cash | $4,465.34 (50%) |
 | Rendement AI sinds 14-10-2026 13:02 | **-10.83%** |
-| Ter vergelijking: gewoon BTC vasthouden | -7.81% |
-| Verschil | -3.03% |
+| Ter vergelijking: gewoon BTC vasthouden | -7.84% |
+| Verschil | -2.99% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
 | Rendement deze periode | **-10.83%** |
 | Gehaalde mijlpalen | nog geen |
 | Daling vanaf de top ($10,000) | -10.83% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 30 (Fear) |
-| Kronos-voorspelling | 33 munten in 236s; richting op 4u goed: 55% (n=1503, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 21:01); richting op 4u goed: 55% (n=1503, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-De markt zit nog in een bevestigde downtrend (7d-mediaan -8,2%, BTC op $76,8k onder alle SMA's en bijna op het 7d-laagtepunt), maar de breedte herstelt scherp (22/33 groen, mediaan +1,1%) en RSI is oversold (33) met Fear & Greed op 30. Dat wijst op een mogelijke bounce, al blijft BTC zelf de zwakke schakel (-2,5% 24u).
+BTC blijft zwak ($76,8k, -2,5% 24u, -5,6% 7d) en zit net boven het 7d-laagtepunt, maar de marktbreedte herstelt scherp (20/33 groen, mediaan +0,6%) en RSI is met 33 oversold. De 7d-mediaan (-8,65%) bevestigt nog steeds een downtrend, terwijl Fear & Greed op 30 staat.
 
-## Strategie van de AI (sinds 30-10-2026 21:01)
+## Strategie van de AI (sinds 30-10-2026 21:31)
 
-Ik verhoog BTC in één tranche van 45% naar 50% en houd ~50% cash, aan de onderkant van mijn 40-50%-cashvenster. Reden: scherp herstel in de breedte, oversold RSI en Kronos die instemt (100% opwaartse paden 4u/12u), terwijl het volume met 0,54%/u net boven mijn 0,5%-drempel zit. Ik forceer het +20%-doel niet; focus op BTC matchen/verslaan en het gat dichten. Geen alt-sleeve zolang BTC's 7d-mediaan negatief is. Bij een 4u-sluiting onder $76k verlaag ik weer in tranches; bij een 4u-sluiting boven $80k mét volume schaal ik verder op.
+Ik handhaaf BTC op ~50% en cash op ~50%, precies mijn huidige positie, dus geen trade nodig. De markt zit nog in een bevestigde downtrend (7d-mediaan -8,65%), maar BTC staat op het 7d-laagtepunt met oversold RSI en herstellende breedte — een bodemopzet, geen reden om nu te de-risico'en na een al uitverkochte beweging. Volume (0,54%/u) zit net boven mijn drempel maar niet overtuigend. Ik schaal pas op bij een 4u-sluiting boven $80k mét volume; bij een 4u-sluiting onder $76k verlaag ik in tranches van ~10pp. Geen alt-sleeve zolang BTC's 7d-mediaan negatief is. Focus: BTC matchen/verslaan, niet het onhaalbare +20%-doel forceren.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,13 +42,11 @@ _In dit venster deed ik het beter dan BTC (-2,54% vs -4,01%), maar over de hele 
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,451.48 | 49.9% | -5.1% | 50.0% | +1.5% (100% omhoog) | Oversold bounce-setup met herstellende breedte en Kronos-bevestiging; tranche-verhoging binnen het downtrendregime, cash blijft ~50%. |
+| BTC/USD | $4,451.48 | 49.9% | -5.1% | 50.0% | +1.5% (100% omhoog) | Handhaaf 50%: oversold op 7d-laagtepunt met herstellende breedte, maar downtrend nog bevestigd; wacht op $80k met volume om op te schalen. |
 
 ## Orders deze run
 
-| Munt | Actie | Bedrag | Resultaat |
-|---|---|---|---|
-| BTC/USD | buy | $444.95 | gekocht $444.95 |
+Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
@@ -58,6 +56,7 @@ _In dit venster deed ik het beter dan BTC (-2,54% vs -4,01%), maar over de hele 
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 30-10-2026 21:31 | $8,917 | -10.83% | -7.84% | 0 |
 | 30-10-2026 21:01 | $8,917 | -10.83% | -7.81% | 1 |
 | 30-10-2026 20:31 | $8,903 | -10.97% | -8.39% | 0 |
 | 30-10-2026 20:01 | $8,901 | -10.99% | -8.30% | 0 |
@@ -69,7 +68,6 @@ _In dit venster deed ik het beter dan BTC (-2,54% vs -4,01%), maar over de hele 
 | 30-10-2026 17:01 | $8,943 | -10.57% | -7.29% | 0 |
 | 30-10-2026 16:31 | $8,951 | -10.49% | -7.02% | 0 |
 | 30-10-2026 16:01 | $8,933 | -10.67% | -7.38% | 0 |
-| 30-10-2026 15:31 | $8,913 | -10.87% | -7.99% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
