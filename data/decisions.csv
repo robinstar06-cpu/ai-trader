@@ -2245,3 +2245,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-30T03:31:15.268663+00:00,30-10-2026 04:31,,BTC/USD,45.3,45.3,houden,,,
 2026-10-30T04:01:27.550721+00:00,30-10-2026 05:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,45.4,45.0,houden,,,"Binnen mijn 40-45%-venster voor een bevestigde downtrend; BTC houdt zich beter dan de alt-mediaan, dus ik houd de kern aan zonder op te schalen tot een 4u-sluiting boven $80k met volume."
 2026-10-30T04:31:16.431111+00:00,30-10-2026 05:31,,BTC/USD,45.5,45.5,houden,,,
+2026-10-30T05:01:29.397457+00:00,30-10-2026 06:01,,BTC/USD,45.4,45.4,houden,,,
