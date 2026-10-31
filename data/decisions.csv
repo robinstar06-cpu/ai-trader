@@ -2324,3 +2324,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-31T19:31:10.116833+00:00,31-10-2026 20:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Handhaven op plafond: 7d-mediaan negatief, onder alle SMA's, volume te laag voor opschaling; wacht op 4u-sluiting boven $80k met volume."
 2026-10-31T20:01:20.492544+00:00,31-10-2026 21:01,,BTC/USD,50.0,50.0,houden,,,
 2026-10-31T20:31:18.830686+00:00,31-10-2026 21:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Downtrend met dood volume, maar dicht bij 7d-laag met oversold RSI; 50% blootstelling conform plafond, geen trigger om te schalen of te verlagen."
+2026-10-31T21:01:15.457753+00:00,31-10-2026 22:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Handhaaf 50% blootstelling in bevestigde downtrend; wacht op 4u-sluiting >$80k met volume >0,5%/u voor opschaling, verlaag onder $76k."
