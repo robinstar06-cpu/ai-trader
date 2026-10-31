@@ -2303,3 +2303,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-31T09:01:11.627737+00:00,31-10-2026 10:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,58.0,58.0,houden,,,"Oversold op 7d-laagtepunt met herstellende breedte; aanhouden, niet de bodem verkopen en niet opschalen op laag volume."
 2026-10-31T09:31:14.331361+00:00,31-10-2026 10:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,58.0,58.0,houden,,,"Op 7d-laagtepunt met oversold RSI en herstellende breedte, maar te weinig volume voor opschaling; aanhouden tot een 4u-trigger."
 2026-10-31T10:01:16.035904+00:00,31-10-2026 11:01,,BTC/USD,58.0,58.0,houden,,,
+2026-10-31T10:31:16.498457+00:00,31-10-2026 11:31,,BTC/USD,58.0,58.0,houden,,,
