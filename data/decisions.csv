@@ -2328,3 +2328,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-31T21:31:19.028825+00:00,31-10-2026 22:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Handhaaf 50% blootstelling in bevestigde downtrend met dood volume; wacht op 4u-close >$80k met volume >0,5%/u om op te schalen."
 2026-10-31T22:01:23.810606+00:00,31-10-2026 23:01,,BTC/USD,50.0,50.0,houden,,,
 2026-10-31T22:31:26.489688+00:00,31-10-2026 23:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,Handhaaf plafond van 50% zolang 7d-mediaan negatief is en volume te laag voor bevestiging; geen wijziging zonder 4u-trigger.
+2026-10-31T23:01:33.990451+00:00,01-11-2026 00:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Handhaaf 50% blootstelling in bevestigde downtrend; geen trigger voor wijziging, volume te laag voor edge"
