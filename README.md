@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 31-10-2026 14:01_
+_Laatst bijgewerkt: 31-10-2026 14:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,950.39** |
+| Waarde portefeuille | **$8,947.74** |
 | Cash | $3,759.11 (42%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-10.50%** |
-| Ter vergelijking: gewoon BTC vasthouden | -7.11% |
-| Verschil | -3.38% |
+| Rendement AI sinds 14-10-2026 13:02 | **-10.52%** |
+| Ter vergelijking: gewoon BTC vasthouden | -7.17% |
+| Verschil | -3.35% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-10.50%** |
+| Rendement deze periode | **-10.52%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -10.50% |
+| Daling vanaf de top ($10,000) | -10.52% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 30 (Fear) |
-| Kronos-voorspelling | 33 munten in 182s; richting op 4u goed: 55% (n=1504, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 14:01); richting op 4u goed: 55% (n=1504, 50% = gokken) |
 
 ## Strategie van de AI (sinds 31-10-2026 10:31)
 
@@ -38,7 +38,7 @@ _In dit venster deed ik het beter dan BTC (-2,54% vs -4,01%), maar over de hele 
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,191.28 | 58.0% | -3.7% | 58.0% | +0.6% (100% omhoog) |  |
+| BTC/USD | $5,188.63 | 58.0% | -3.7% | 58.0% | +0.6% (100% omhoog) |  |
 
 ## Orders deze run
 
@@ -48,12 +48,13 @@ Geen orders (verdeling blijft gelijk).
 
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: HTTP 500 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"message":"Internal server error","type":"Internal Server Error","code":500,"details":{"backend_status":500}}
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 31-10-2026 14:31 | $8,948 | -10.52% | -7.17% | 0 |
 | 31-10-2026 14:01 | $8,950 | -10.50% | -7.11% | 0 |
 | 31-10-2026 13:31 | $8,956 | -10.44% | -7.04% | 0 |
 | 31-10-2026 13:01 | $8,956 | -10.44% | -7.02% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 31-10-2026 10:01 | $8,942 | -10.58% | -7.28% | 0 |
 | 31-10-2026 09:31 | $8,941 | -10.59% | -7.29% | 0 |
 | 31-10-2026 09:01 | $8,937 | -10.63% | -7.32% | 0 |
-| 31-10-2026 08:31 | $8,944 | -10.56% | -7.24% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
