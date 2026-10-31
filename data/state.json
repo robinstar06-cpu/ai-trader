@@ -16,27 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-24T09:31:13.813769+00:00",
-      "time_local": "24-10-2026 11:31",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 48.0,
-        "ETH/USD": 6.0,
-        "SOL/USD": 5.0,
-        "BCH/USD": 4.0,
-        "XRP/USD": 3.0
-      },
-      "summary": "Markt in volledige flush: 0/33 munten groen op 24u (mediaan -3,99%) en de 7d-mediaan verslechterd naar -5,52%. BTC test het $80k-anker op $80,5k, op zijn 7d-laag, terwijl alle alts op 24u vs BTC lekken. De systematische de-risktrigger (duurzaam verslechterende 7d-mediaan) is geraakt; Greed 51 beteke",
-      "equity": 9214.29,
-      "prices": {
-        "BTC/USD": 80517.279,
-        "ETH/USD": 2360.465,
-        "BCH/USD": 275.6505,
-        "XRP/USD": 1.2758,
-        "SOL/USD": 101.3515
-      }
-    },
-    {
       "time": "2026-10-24T10:01:23.267204+00:00",
       "time_local": "24-10-2026 12:01",
       "model": "z-ai/glm-5.3",
@@ -1644,12 +1623,25 @@
       "prices": {
         "BTC/USD": 76770.6605
       }
+    },
+    {
+      "time": "2026-10-31T00:31:24.850566+00:00",
+      "time_local": "31-10-2026 01:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 58.0
+      },
+      "summary": "BTC zit op het 7d-laagtepunt ($77,2k, RSI 34) terwijl de marktbreedte sterk herstelt (30/33 groen, mediaan +5,5%) en Fear & Greed op 30 (Fear) staat. BTC zelf blijft echter achter (+0,1% 24u) en het volume is met 0,45%/u nog net onder mijn bevestigingsdrempel, dus het blijft een voorzichtige bounce,",
+      "equity": 8937.82,
+      "prices": {
+        "BTC/USD": 77153.115
+      }
     }
   ],
   "plan": {
-    "time": "2026-10-30T23:01:20.108932+00:00",
-    "time_local": "31-10-2026 00:01",
-    "text": "Ik verhoog BTC van 50% naar 55% om mee te liften op de oversold bounce met herstellende breedte; cash blijft 45% als buffer. Geen alt-sleeve zolang BTC's 7d-mediaan negatief is. Ik schaal verder op bij een 4u-sluiting boven $80k mét volume >0,5%/u, en verlaag in tranches van ~10pp bij een 4u-sluiting onder $76k. Focus blijft BTC matchen/verslaan en het gat dichten, niet het onhaalbare +20%-doel forceren."
+    "time": "2026-10-31T00:31:24.850566+00:00",
+    "time_local": "31-10-2026 01:31",
+    "text": "Ik verhoog BTC van 55% naar 58% om iets meer mee te liften op de oversold bounce met herstellende breedte, maar houd ~42% cash omdat de 7d-mediaan (-5%) nog steeds een bevestigde downtrend aangeeft en het volume niet bevestigt. Geen alt-sleeve zolang BTC's 7d-mediaan negatief is. Ik schaal verder op bij een 4u-sluiting boven $80k mét volume >0,5%/u, en verlaag in tranches van ~10pp bij een 4u-sluiting onder $76k. Focus blijft BTC matchen/verslaan en het gat dichten, niet het onhaalbare +20%-doel forceren."
   },
   "lessons": [
     "Regimefilter boven anker: bij een 7d-mediaan dieper dan -5% én volume onder ~0,35%/u is een 'anchor hold' distributie, geen bodem. Houd BTC dan 40-45%; schaal pas op bij een 4u-sluiting boven het anker mét volume >0,5%/u.",
