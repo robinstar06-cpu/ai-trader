@@ -2317,3 +2317,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-10-31T16:01:15.794039+00:00,31-10-2026 17:01,,BTC/USD,58.0,58.0,houden,,,
 2026-10-31T16:31:15.541692+00:00,31-10-2026 17:31,,BTC/USD,58.0,58.0,houden,,,
 2026-10-31T17:01:23.738905+00:00,31-10-2026 18:01,,BTC/USD,58.0,58.0,houden,,,
+2026-10-31T17:31:22.012272+00:00,31-10-2026 18:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,58.0,50.0,sell,719.17,verkocht 0.009281701,Terug naar het 50%-plafond in een negatieve 7d-mediaan; dode volume-bounce zonder bevestiging rechtvaardigt geen 58%.
