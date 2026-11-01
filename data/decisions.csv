@@ -2376,3 +2376,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-01T21:31:19.434408+00:00,01-11-2026 22:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.1,50.0,houden,,,Bevestigde downtrend met dood volume: 50% is het plafond zolang de 7d-mediaan negatief is; geen trigger om af te bouwen of op te schalen.
 2026-11-01T22:01:13.723102+00:00,01-11-2026 23:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.1,50.0,houden,,,"Geen trigger geraakt: prijs $77,8k tussen $76k en $80k, dood volume, 7d-mediaan negatief. Handhaaf plafond van 50% als verzekering tegen verdere daling."
 2026-11-01T22:31:20.089104+00:00,01-11-2026 23:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Enige liquide anker in een downtrend; 50%-plafond als verzekering tegen dood volume en negatieve 7d-mediaan, geen trigger om te wijzigen."
+2026-11-01T23:01:24.646976+00:00,02-11-2026 00:01,,BTC/USD,50.1,50.1,houden,,,
