@@ -2333,3 +2333,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-01T00:01:27.743992+00:00,01-11-2026 01:01,,BTC/USD,50.0,50.0,houden,,,
 2026-11-01T00:31:18.015915+00:00,01-11-2026 01:31,,BTC/USD,50.0,50.0,houden,,,
 2026-11-01T01:01:32.831837+00:00,01-11-2026 02:01,,BTC/USD,50.0,50.0,houden,,,
+2026-11-01T01:31:09.925441+00:00,01-11-2026 02:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,Handhaaf 50% binnen het blootstellingsplafond; downtrend + dood volume geven geen trigger om op of af te schalen.
