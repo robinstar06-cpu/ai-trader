@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 01-11-2026 21:01_
+_Laatst bijgewerkt: 01-11-2026 21:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,964.31** |
+| Waarde portefeuille | **$8,967.22** |
 | Cash | $4,476.17 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-10.36%** |
-| Ter vergelijking: gewoon BTC vasthouden | -6.72% |
-| Verschil | -3.63% |
+| Rendement AI sinds 14-10-2026 13:02 | **-10.33%** |
+| Ter vergelijking: gewoon BTC vasthouden | -6.73% |
+| Verschil | -3.60% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-10.36%** |
+| Rendement deze periode | **-10.33%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -10.36% |
+| Daling vanaf de top ($10,000) | -10.33% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 34 (Fear) |
-| Kronos-voorspelling | 33 munten in 259s; richting op 4u goed: 51% (n=1501, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 21:01); richting op 4u goed: 51% (n=1501, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-BTC blijft zwak in een bevestigde downtrend ($77,7k, 7d -3,3%, onder alle SMA's) met extreem dood volume (0,14%/u), Fear & Greed op 34 en zwakke marktbreedte (12/33 groen). Geen enkele bevestiging voor een bodem of uitbraak; de markt zit in een dode range.
+BTC blijft zwak in een bevestigde downtrend ($77,7k, 7d -3,3%, onder alle SMA's) met extreem dood volume (0,14%/u), Fear & Greed op 34 en zwakke marktbreedte (13/33 groen). Er is geen 4u-sluiting door mijn anker ($80k omhoog / $76k omlaag), dus mijn regimefilter zegt: geen actie. Het onhaalbare +20%-doel forceer ik niet met gokken.
 
-## Strategie van de AI (sinds 01-11-2026 21:01)
+## Strategie van de AI (sinds 01-11-2026 21:31)
 
-Geen actie: mijn regels eisen een 4u-sluiting boven ~$80k mét volume >0,5%/u om op te schalen (tranches van ~10pp), of een 4u-sluiting onder ~$76k om af te bouwen. Geen van beide is er. De 7d-mediaan blijft negatief (-3,7%), dus het blootstellingsplafond van 50% BTC en de alt-sleeve-uit blijven gelden. Kronos (+0,4% 12h BTC) is statistische ruis en geen trigger. Het onhaalbare +20%-doel forceer ik niet met gokken; focus is BTC matchen/verslaan en het period-gat niet verder laten groeien. Geen micro-churn.
+Geen actie: mijn regels eisen een 4u-sluiting boven ~$80k mét volume >0,5%/u om op te schalen (tranches van ~10pp), of een 4u-sluiting onder ~$76k om af te bouwen. Geen van beide is er. De 7d-mediaan blijft negatief (-3,75%), dus het blootstellingsplafond van 50% BTC en de alt-sleeve-uit blijven gelden. Kronos (+0,4% 12h BTC) is statistische ruis (50,8% hitrate) en geen trigger. Focus: BTC matchen/verslaan en het period-gat niet verder laten groeien; geen micro-churn.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,7 +42,7 @@ _Dit venster was een non-event: 17 identieke 50%-BTC-beslissingen zonder één w
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,488.14 | 50.1% | -3.3% | 50.0% | +0.4% (100% omhoog) | Geen 4u-trigger door $80k of $76k; 7d-mediaan negatief dus cap op 50% blijft, dode range met 0,14%/u volume. |
+| BTC/USD | $4,491.05 | 50.1% | -3.3% | 50.0% | +0.4% (100% omhoog) | Bevestigde downtrend, dood volume en geen 4u-uitbraak door anker: handhaaf het 50%-plafond als verzekeringspremie, geen churn. |
 
 ## Orders deze run
 
@@ -56,6 +56,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 01-11-2026 21:31 | $8,967 | -10.33% | -6.73% | 0 |
 | 01-11-2026 21:01 | $8,964 | -10.36% | -6.72% | 0 |
 | 01-11-2026 20:31 | $8,957 | -10.43% | -6.75% | 0 |
 | 01-11-2026 20:01 | $8,971 | -10.29% | -6.66% | 0 |
@@ -67,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 01-11-2026 17:01 | $8,979 | -10.21% | -6.52% | 0 |
 | 01-11-2026 16:31 | $8,983 | -10.17% | -6.47% | 0 |
 | 01-11-2026 16:01 | $8,978 | -10.22% | -6.47% | 0 |
-| 01-11-2026 15:31 | $8,979 | -10.21% | -6.50% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
