@@ -2363,3 +2363,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-01T15:01:28.972256+00:00,01-11-2026 16:01,,BTC/USD,50.1,50.1,houden,,,
 2026-11-01T15:31:14.094981+00:00,01-11-2026 16:31,,BTC/USD,50.2,50.2,houden,,,
 2026-11-01T16:01:25.261843+00:00,01-11-2026 17:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.1,50.0,houden,,,"Geen trigger geraakt; 50% blootstelling handhaven in bevestigde downtrend met dood volume, 50% cash als buffer."
+2026-11-01T16:31:16.971813+00:00,01-11-2026 17:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.2,50.0,houden,,,"Blootstellingsplafond in negatieve 7d-mediaan; dicht bij 7d-laagtepunt maar volume te dood voor opschaling, dus aanhouden op 50%."
