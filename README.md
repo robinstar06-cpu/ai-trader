@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 02-11-2026 00:31_
+_Laatst bijgewerkt: 02-11-2026 01:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,983.07** |
+| Waarde portefeuille | **$8,997.54** |
 | Cash | $4,476.17 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-10.17%** |
-| Ter vergelijking: gewoon BTC vasthouden | -6.40% |
-| Verschil | -3.77% |
+| Rendement AI sinds 14-10-2026 13:02 | **-10.02%** |
+| Ter vergelijking: gewoon BTC vasthouden | -6.02% |
+| Verschil | -4.00% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-10.17%** |
+| Rendement deze periode | **-10.02%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -10.17% |
+| Daling vanaf de top ($10,000) | -10.02% |
 | Model | geen (AI niet bereikbaar) |
-| Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 34 (Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 00:01); richting op 4u goed: 49% (n=1500, 50% = gokken) |
+| Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 37 (Fear) |
+| Kronos-voorspelling | 33 munten in 235s; richting op 4u goed: 49% (n=1500, 50% = gokken) |
 
 ## Strategie van de AI (sinds 01-11-2026 23:31)
 
@@ -38,7 +38,7 @@ _Dit venster was een non-event: 17 identieke 50%-BTC-beslissingen zonder één w
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,506.90 | 50.2% | -2.9% | 50.2% | -0.0% (67% omhoog) |  |
+| BTC/USD | $4,521.37 | 50.3% | -2.6% | 50.3% | +0.1% (33% omhoog) |  |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 02-11-2026 01:01 | $8,998 | -10.02% | -6.02% | 0 |
 | 02-11-2026 00:31 | $8,983 | -10.17% | -6.40% | 0 |
 | 02-11-2026 00:01 | $8,972 | -10.28% | -6.59% | 0 |
 | 01-11-2026 23:31 | $8,959 | -10.41% | -6.89% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 01-11-2026 20:31 | $8,957 | -10.43% | -6.75% | 0 |
 | 01-11-2026 20:01 | $8,971 | -10.29% | -6.66% | 0 |
 | 01-11-2026 19:31 | $8,976 | -10.24% | -6.56% | 0 |
-| 01-11-2026 19:01 | $8,979 | -10.21% | -6.56% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
