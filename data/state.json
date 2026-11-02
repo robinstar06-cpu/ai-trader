@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-26T20:31:23.829751+00:00",
-      "time_local": "26-10-2026 21:31",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 45.0,
-        "BCH/USD": 5.0
-      },
-      "summary": "BTC heeft het $80k-anker gebroken ($79,7k, nabij het 7d-laag met range-positie 4,7%) terwijl de breedte zwak blijft (10/33 groen, 7d-mediaan -4,16%) en F&G verder zakt naar 50. Dit is een trage bleeder, geen crash, maar mijn ankerregel is geraakt. Ik verlaag het BTC-gewicht en houd meer cash droog.",
-      "equity": 9148.13,
-      "prices": {
-        "BTC/USD": 79721.85,
-        "BCH/USD": 277.75
-      }
-    },
-    {
       "time": "2026-10-26T21:01:26.500758+00:00",
       "time_local": "26-10-2026 22:01",
       "model": "z-ai/glm-5.3",
@@ -1428,11 +1413,24 @@
       "prices": {
         "BTC/USD": 78000.85
       }
+    },
+    {
+      "time": "2026-11-02T01:31:26.241271+00:00",
+      "time_local": "02-11-2026 02:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 50.0
+      },
+      "summary": "BTC hangt rond $78,3k: 24u licht positief (+0,97%) en net boven de 24u-SMA, maar nog steeds onder de 20d/50d-SMA's met een negatieve 7d-mediaan (-1,66%) en dood volume (0,22%/u). Fear & Greed op 37 (Fear) en marktbreedte neutraal (20/33 groen). Geen uitbraak, geen bodem — een range tussen $76k en $8",
+      "equity": 9005.57,
+      "prices": {
+        "BTC/USD": 78349.585
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-02T00:31:08.057368+00:00",
-    "time_local": "02-11-2026 01:31",
+    "time": "2026-11-02T01:31:26.241271+00:00",
+    "time_local": "02-11-2026 02:31",
     "text": "Ik handhaaf 50% BTC / 50% cash. Regels ongewijzigd: opschalen in tranches van ~10pp pas bij een 4u-sluiting boven ~$80k mét volume >0,5%/u; afbouwen bij een 4u-sluiting onder ~$76k. Geen van beide is geraakt, dus geen actie. De 7d-mediaan blijft negatief, dus het blootstellingsplafond van 50% en de alt-sleeve-uit blijven gelden. Met 9 dagen te gaan is +20% onhaalbaar; succes = BTC matchen/verslaan en het period-gat niet verder laten groeien. Geen micro-churn, geen alt-blootstelling in een downtrend."
   },
   "lessons": [
