@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-26T18:01:34.403658+00:00",
-      "time_local": "26-10-2026 19:01",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 55.0,
-        "BCH/USD": 5.0
-      },
-      "summary": "BTC verdedigt het $80k-anker ternauwernood op $80,2k, nabij het 7d-laag (range-positie 14%), terwijl de breedte zwak blijft (16/33 groen) en de 7d-mediaan op -3,17% staat — verbeterend vanaf -4,63% maar nog diep negatief. F&G neutraal op 50. Geen meerdaagse herstelbevestiging, dus handhaaf ik de ver",
-      "equity": 9176.86,
-      "prices": {
-        "BCH/USD": 280.866,
-        "BTC/USD": 80228.855
-      }
-    },
-    {
       "time": "2026-10-26T20:31:23.829751+00:00",
       "time_local": "26-10-2026 21:31",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1430,12 +1415,25 @@
       "prices": {
         "BTC/USD": 77576.95
       }
+    },
+    {
+      "time": "2026-11-02T00:31:08.057368+00:00",
+      "time_local": "02-11-2026 01:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 50.0
+      },
+      "summary": "BTC hangt rond $78k: 24u licht positief (+0,58%) en net boven de 24u-SMA, maar nog steeds onder de 20d/50d-SMA's met een negatieve 7d-mediaan (-2,93%) en dood volume (0,21%/u). Fear & Greed stijgt licht naar 37 en de marktbreedte blijft zwak (12/33 groen), dus dit is nog geen bevestigde bodem of uit",
+      "equity": 8985.29,
+      "prices": {
+        "BTC/USD": 78000.85
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-01T22:31:20.089104+00:00",
-    "time_local": "01-11-2026 23:31",
-    "text": "Ik handhaaf 50% BTC / 50% cash. Regels ongewijzigd: opschalen in tranches van ~10pp pas bij een 4u-sluiting boven ~$80k mét volume >0,5%/u; afbouwen bij een 4u-sluiting onder ~$76k. De 7d-mediaan blijft negatief (-3,9%), dus het blootstellingsplafond van 50% en de alt-sleeve-uit gelden. Met 9 dagen te gaan is +20% onhaalbaar; succes = BTC matchen/verslaan en het period-gat niet verder laten groeien. Geen micro-churn, geen alt-blootstelling in een downtrend."
+    "time": "2026-11-02T00:31:08.057368+00:00",
+    "time_local": "02-11-2026 01:31",
+    "text": "Ik handhaaf 50% BTC / 50% cash. Regels ongewijzigd: opschalen in tranches van ~10pp pas bij een 4u-sluiting boven ~$80k mét volume >0,5%/u; afbouwen bij een 4u-sluiting onder ~$76k. Geen van beide is geraakt, dus geen actie. De 7d-mediaan blijft negatief, dus het blootstellingsplafond van 50% en de alt-sleeve-uit blijven gelden. Met 9 dagen te gaan is +20% onhaalbaar; succes = BTC matchen/verslaan en het period-gat niet verder laten groeien. Geen micro-churn, geen alt-blootstelling in een downtrend."
   },
   "lessons": [
     "Regimefilter: een negatieve 7d-mediaan (-3% tot -4%) mét dood volume (<0,20%/u) is nog steeds geen bodem — verhoog blootstelling alleen bij een 4u-sluiting boven het anker met volume >0,5%/u. De oude -5%-drempel was te streng; gebruik 'mediaan negati",
