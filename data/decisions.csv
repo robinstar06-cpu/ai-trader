@@ -2408,3 +2408,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-02T13:31:09.132096+00:00,02-11-2026 14:31,,BTC/USD,50.0,50.0,houden,,,
 2026-11-02T14:01:38.471206+00:00,02-11-2026 15:01,,BTC/USD,50.1,50.1,houden,,,
 2026-11-02T14:31:18.362351+00:00,02-11-2026 15:31,,BTC/USD,50.1,50.1,houden,,,
+2026-11-02T15:01:41.571866+00:00,02-11-2026 16:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Enige liquide anker in een downtrend; cap van 50% zolang 7d-mediaan negatief is, geen trigger voor op- of afschalen geraakt."
