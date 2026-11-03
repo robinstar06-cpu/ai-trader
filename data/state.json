@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-27T09:31:20.739207+00:00",
-      "time_local": "27-10-2026 10:31",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 45.0,
-        "BCH/USD": 5.0
-      },
-      "summary": "BTC balanceert al ~14 uur op het 7d-laag rond $79,6k: net boven mijn de-risico-niveau van $79,5k maar onder het $80k-anker, zonder versnelling of duurzame breuk. Breedte is zeer zwak (6/33 groen, 7d-mediaan -5,1%) en vrijwel alles staat op 7d-lows — kapitulatie-achtig, maar nog geen bevestigd herste",
-      "equity": 9146.44,
-      "prices": {
-        "BCH/USD": 281.792,
-        "BTC/USD": 79573.783
-      }
-    },
-    {
       "time": "2026-10-27T10:01:33.687815+00:00",
       "time_local": "27-10-2026 11:01",
       "model": "z-ai/glm-5.3",
@@ -1394,11 +1379,24 @@
       "prices": {
         "BTC/USD": 77638.965
       }
+    },
+    {
+      "time": "2026-11-03T17:31:13.234802+00:00",
+      "time_local": "03-11-2026 18:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 50.0
+      },
+      "summary": "De markt laat een kortetermijn-bounce zien (26/33 coins groen, mediaan 24u +1,31%), maar de 7d-mediaan blijft duidelijk negatief (-4,21%) en Fear & Greed staat op 26 (angst). BTC hangt op $77,6k, net boven het 7d-laagtepunt (range7d_pos 21,5), met dood volume van 0,28%/u — geen bevestiging van een b",
+      "equity": 8959.64,
+      "prices": {
+        "BTC/USD": 77582.4725
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-03T17:01:30.951986+00:00",
-    "time_local": "03-11-2026 18:01",
+    "time": "2026-11-03T17:31:13.234802+00:00",
+    "time_local": "03-11-2026 18:31",
     "text": "Regels ongewijzigd: 50% BTC / 50% cash. Opschalen in tranches van ~10pp pas bij een 4u-sluiting boven ~$80k mét volume >0,5%/u; afbouwen bij een 4u-sluiting onder ~$76k. Geen van beide geraakt (BTC $77,6k, vol 0,28%/u), dus geen actie — geen micro-churn. De 7d-mediaan blijft negatief en het volume bevestigt niets, dus het plafond van 50% en de alt-sleeve-uit blijven gelden. Met 8 dagen te gaan is +20% onhaalbaar; succes = BTC matchen/verslaan en het period-gat niet verder laten groeien. Kronos (48,1%) blijft buiten het proces."
   },
   "lessons": [

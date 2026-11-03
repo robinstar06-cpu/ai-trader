@@ -2461,3 +2461,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-03T16:01:31.636794+00:00,03-11-2026 17:01,,BTC/USD,50.1,50.1,houden,,,
 2026-11-03T16:31:12.329032+00:00,03-11-2026 17:31,,BTC/USD,50.0,50.0,houden,,,
 2026-11-03T17:01:30.951986+00:00,03-11-2026 18:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.1,50.0,houden,,,"Geen trigger geraakt: noch 4u-sluiting >$80k, noch <$76k, en volume 0,28%/u < 0,5%. 50%-plafond handhaaft verlies- en upside-demming in een nog negatief 7d-regime."
+2026-11-03T17:31:13.234802+00:00,03-11-2026 18:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Geen trigger geraakt: BTC onder $80k-anker, vol 0,28%/u en 7d-mediaan negatief. Handhaaf 50%-plafond als verzekeringspremie in risk-off."
