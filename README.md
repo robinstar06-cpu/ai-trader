@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 03-11-2026 06:01_
+_Laatst bijgewerkt: 03-11-2026 06:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,915.43** |
+| Waarde portefeuille | **$8,903.44** |
 | Cash | $4,476.17 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-10.85%** |
-| Ter vergelijking: gewoon BTC vasthouden | -7.83% |
-| Verschil | -3.02% |
+| Rendement AI sinds 14-10-2026 13:02 | **-10.97%** |
+| Ter vergelijking: gewoon BTC vasthouden | -8.06% |
+| Verschil | -2.90% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-10.85%** |
+| Rendement deze periode | **-10.97%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -10.85% |
+| Daling vanaf de top ($10,000) | -10.97% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 26 (Fear) |
-| Kronos-voorspelling | 33 munten in 239s; richting op 4u goed: 47% (n=1507, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 06:01); richting op 4u goed: 47% (n=1507, 50% = gokken) |
 
 ## Strategie van de AI (sinds 03-11-2026 02:31)
 
@@ -38,7 +38,7 @@ _Dit venster deed ik het met -0,72% iets beter dan BTC (-1,44%), maar dat komt u
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,439.26 | 49.8% | -4.4% | 49.8% | +0.5% (83% omhoog) |  |
+| BTC/USD | $4,427.27 | 49.7% | -4.6% | 49.7% | +0.5% (83% omhoog) |  |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 03-11-2026 06:31 | $8,903 | -10.97% | -8.06% | 0 |
 | 03-11-2026 06:01 | $8,915 | -10.85% | -7.83% | 0 |
 | 03-11-2026 05:31 | $8,909 | -10.91% | -7.66% | 0 |
 | 03-11-2026 05:01 | $8,914 | -10.86% | -7.89% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 03-11-2026 02:01 | $8,922 | -10.78% | -7.66% | 0 |
 | 03-11-2026 01:31 | $8,925 | -10.75% | -7.64% | 0 |
 | 03-11-2026 01:01 | $8,909 | -10.91% | -7.96% | 0 |
-| 03-11-2026 00:31 | $8,905 | -10.95% | -8.01% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
