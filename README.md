@@ -1,25 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 04-11-2026 21:31_
+_Laatst bijgewerkt: 04-11-2026 22:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,086.79** |
-| Cash | $2,323.01 (26%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-9.13%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.77% |
-| Verschil | -5.36% |
+| Waarde portefeuille | **$9,095.67** |
+| Cash | $1,847.61 (20%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-9.04%** |
+| Ter vergelijking: gewoon BTC vasthouden | -3.86% |
+| Verschil | -5.18% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-9.13%** |
+| Rendement deze periode | **-9.04%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -9.13% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -9.04% |
+| Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 34 (Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 21:01); richting op 4u goed: 52% (n=1497, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 190s; richting op 4u goed: 53% (n=1497, 50% = gokken) |
 
-## Strategie van de AI (sinds 04-11-2026 21:01)
+## Marktvisie van de AI
 
-Ik houd de kern ongewijzigd: BTC 60% (breakout met volume >0,5%/u bevestigd), ETH 15% als sterkste large-cap en ~25% cash als buffer zolang de 7d-mediaan negatief is. Geen micro-churn: ik wijzig alleen bij een 4u-sluiting door een vooraf bepaald niveau, in stappen van ~10pp. BTC afbouwen pas bij een 4u-sluiting onder ~$76k, ETH eruit bij verlies van momentum. Ik jaag het +20%-doel niet na — met nog 6 dagen is dat onrealistisch; ik mik op het beperken van de achterstand op BTC en het beschermen van kapitaal. Kronos negeer ik (51,7% = muntgooi).
+BTC is met oplopend volume boven $80k gebroken en de breedte is sterk (29/33 groen, Fear & Greed hersteld van 26 naar 34), maar de 7d-mediaan blijft negatief (-4,55%), dus dit is vooralsnog een bounce binnen een downtrend. ETH is de duidelijkste momentumleider (+5,6% 24u, bijna 7d-high, vs_sma20d +3,1%).
+
+## Strategie van de AI (sinds 04-11-2026 22:01)
+
+Ik houd BTC op de cap van 60% zolang de $80k-breakout met volume standhoudt, en verhoog ETH naar 20% als sterkste large-cap met het beste momentum. ~20% cash blijft als buffer omdat de 7d-mediaan nog negatief is. Geen micro-churn: ik wijzig alleen bij een 4u-sluiting door een vooraf bepaald niveau (BTC onder ~$76k afbouwen, ETH eruit bij verlies van momentum). Het +20%-doel jaag ik niet na; ik mik op het beperken van de achterstand op BTC en het beschermen van kapitaal. Kronos negeer ik (52,6% = muntgooi).
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -38,24 +42,25 @@ _Ik sta op -10,42% deze periode tegen -6,92% voor BTC: ik verlies meer dan simpe
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,434.45 | 59.8% | +0.1% | 59.8% | -0.4% (33% omhoog) |  |
-| ETH/USD | $1,329.33 | 14.6% | -0.7% | 14.6% | -1.5% (0% omhoog) |  |
+| BTC/USD | $5,440.13 | 59.8% | +0.2% | 60.0% | +0.3% (67% omhoog) | Breakout boven $80k met volume >0,5%/u bevestigd; op de cap zolang 7d-mediaan negatief blijft. |
+| ETH/USD | $1,807.93 | 19.9% | -0.3% | 20.0% | -2.2% (0% omhoog) | Sterkste large-cap: +5,6% 24u, bijna 7d-high, boven 20d-gemiddelde; momentum-leider. |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| ETH/USD | buy | $484.77 | gekocht $484.77 |
 
 ## Meldingen
 
 - Dagelijkse evaluatie mislukt: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life o
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 04-11-2026 22:01 | $9,096 | -9.04% | -3.86% | 1 |
 | 04-11-2026 21:31 | $9,087 | -9.13% | -3.77% | 0 |
 | 04-11-2026 21:01 | $9,068 | -9.32% | -4.07% | 0 |
 | 04-11-2026 20:31 | $9,096 | -9.04% | -3.72% | 0 |
@@ -67,7 +72,6 @@ Geen orders (verdeling blijft gelijk).
 | 04-11-2026 17:31 | $9,126 | -8.74% | -3.35% | 0 |
 | 04-11-2026 17:01 | $9,126 | -8.74% | -3.48% | 1 |
 | 04-11-2026 16:31 | $9,134 | -8.66% | -3.30% | 0 |
-| 04-11-2026 16:01 | $9,063 | -9.37% | -4.70% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
