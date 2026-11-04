@@ -2475,3 +2475,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-03T23:01:34.835104+00:00,04-11-2026 00:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.1,50.0,houden,,,"Geen trigger geraakt: noch 4u-sluiting >$80k met volume, noch <$76k. 50%-cap blijft zolang 7d-mediaan negatief is; geen churn."
 2026-11-03T23:31:20.986356+00:00,04-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.1,50.0,houden,,,"Enige bevestigde positie; geen trigger voor op- of afschalen, 50%-plafond geldt zolang 7d-mediaan negatief is en volume dood blijft."
 2026-11-04T00:01:24.321016+00:00,04-11-2026 01:01,,BTC/USD,50.0,50.0,houden,,,
+2026-11-04T00:31:19.824262+00:00,04-11-2026 01:31,,BTC/USD,49.9,49.9,houden,,,
