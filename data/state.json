@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-27T18:31:30.489504+00:00",
-      "time_local": "27-10-2026 19:31",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 45.0,
-        "BCH/USD": 5.0
-      },
-      "summary": "BTC balanceert al ~20 uur rond het $80k-anker ($80,5k) zonder enige versnelling; de breedte zwiept tussen 15/33 en 24/33 groen, dus de opwaartse voorwaarde (2-3 opeenvolgende metingen >50%) is niet vervuld. Mediaan 7d blijft -6,05% en Fear & Greed zakt naar 48: nog geen bevestigd meerdaags herstel.",
-      "equity": 9202.29,
-      "prices": {
-        "BTC/USD": 80489.465,
-        "BCH/USD": 289.2245
-      }
-    },
-    {
       "time": "2026-10-27T19:01:32.725416+00:00",
       "time_local": "27-10-2026 20:01",
       "model": "z-ai/glm-5.3",
@@ -1366,12 +1351,25 @@
       "prices": {
         "BTC/USD": 80418.859
       }
+    },
+    {
+      "time": "2026-11-04T16:31:17.147176+00:00",
+      "time_local": "04-11-2026 17:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 60.0
+      },
+      "summary": "BTC is met oplopend volume boven $80k gebroken (24u +3,7%, vol 0,55%/u) en de breedte is sterk (31/33 groen, Fear & Greed hersteld van 26 naar 34). Toch is dit een counter-trend bounce: de 30d-trend blijft negatief (-6,1%) en de 7d-mediaan is met -0,67% nog net niet positief. Ik handhaaf daarom mijn",
+      "equity": 9126.34,
+      "prices": {
+        "BTC/USD": 80524.6
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-04T16:01:23.486597+00:00",
-    "time_local": "04-11-2026 17:01",
-    "text": "Ik stuur op anker, 7d-mediaan en volume. De 4u-sluiting boven ~$80k mét volume >0,5%/u is gehaald, dus ik schaal BTC op in één tranche van 50% naar 60% (maximum per coin). 40% cash blijft als buffer; ik jaag het onhaalbare +20%-doel niet na met extra risico. Afbouwen pas bij een 4u-sluiting onder ~$76k. Geen alt-sleeve zolang de 7d-mediaan niet duidelijk positief is — dat was de bron van het period-gat. Doel: BTC matchen/verslaan en het gat niet verder laten groeien."
+    "time": "2026-11-04T16:31:17.147176+00:00",
+    "time_local": "04-11-2026 17:31",
+    "text": "Ik houd BTC op 60% (maximum per coin) en 40% cash als buffer. De breakout is pas één dag oud en de 7d-mediaan is nog niet duidelijk positief, dus ik voeg geen alt-sleeve toe — dat was de bron van het period-gat. Afbouwen doe ik pas bij een 4u-sluiting onder ~$76k; bijkopen kan pas als de 7d-mediaan positief draait én het volume aanhoudt. Het +20%-doel is met nog 7 dagen niet realistisch; ik bescherm kapitaal en beperk de achterstand op BTC in plaats van de upside te maximaliseren. Geen micro-churn: alleen wijzigen bij een vooraf bepaald niveau."
   },
   "lessons": [
     "Regimefilter: een negatieve 7d-mediaan (-3% tot -5%) mét dood volume (<0,30%/u) is geen bodem. Verhoog blootstelling alleen bij een 4u-sluiting boven het anker met volume >0,5%/u; anders blijft het een range en handel ik niet op richting.",

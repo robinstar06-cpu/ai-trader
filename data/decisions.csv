@@ -2505,3 +2505,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-04T15:01:30.378730+00:00,04-11-2026 16:01,,BTC/USD,50.6,50.6,houden,,,
 2026-11-04T15:31:14.804885+00:00,04-11-2026 16:31,,BTC/USD,51.0,51.0,houden,,,
 2026-11-04T16:01:23.486597+00:00,04-11-2026 17:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.9,60.0,buy,826.78,gekocht $826.78,"4u-sluiting boven $80k met volume 0,54%/u; breedte sterk en 7d-mediaan opgeklaard — plafond vervalt, opschalen volgens plan."
+2026-11-04T16:31:17.147176+00:00,04-11-2026 17:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.8,60.0,houden,,,"Volume-bevestigde 4u-breakout boven $80k; op maximum per coin, cash 40% als verzekering tegen een mislukte counter-trend bounce."
