@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 04-11-2026 23:31_
+_Laatst bijgewerkt: 05-11-2026 00:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$9,120.98** |
+| Waarde portefeuille | **$9,121.71** |
 | Cash | $1,847.61 (20%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-8.79%** |
-| Ter vergelijking: gewoon BTC vasthouden | -3.28% |
-| Verschil | -5.51% |
+| Rendement AI sinds 14-10-2026 13:02 | **-8.78%** |
+| Ter vergelijking: gewoon BTC vasthouden | -3.44% |
+| Verschil | -5.34% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-8.79%** |
+| Rendement deze periode | **-8.78%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -8.79% |
+| Daling vanaf de top ($10,000) | -8.78% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 34 (Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 23:01); richting op 4u goed: 53% (n=1497, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 119s; richting op 4u goed: 53% (n=1499, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-BTC is met oplopend volume (0,56%/u) boven $80k gebroken en de breedte is sterk (30/33 groen, mediaan 24u +3,1%), terwijl Fear & Greed herstelt van 26 naar 34. De 7d-mediaan blijft echter negatief (-3,2%) en BTC staat 7d nog op -0,7%, dus dit oogt vooralsnog als een bounce binnen een bredere downtrend, niet als een bevestigde trendomkeer.
+BTC is met oplopend volume (0,55%/u) boven $80k gebroken en de breedte is sterk (30/33 groen, mediaan 24u +3,2%), terwijl Fear & Greed herstelt van 26 naar 34. Maar de 7d-mediaan blijft negatief (-3,1%) en 30d staat op -6%, dus dit oogt als een bounce binnen een bredere downtrend, niet als een regimewissel. ETH toont relatieve sterkte (24u +6,9%, 7d +3,0%, bijna 7d-high).
 
-## Strategie van de AI (sinds 04-11-2026 23:31)
+## Strategie van de AI (sinds 05-11-2026 00:01)
 
-Ik handhaaf BTC op de 60%-cap en ETH op 20%, met ~20% cash als buffer. Het volume (>0,5%/u) bevestigt de breakout boven $80k, maar omdat de 7d-mediaan < -2% blijft, verhoog ik niet naar 70% en chase ik de extensie niet. Geen micro-churn: ik wijzig alleen bij een 4u-sluiting door een vooraf bepaald niveau — BTC onder ~$76k afbouwen, ETH eruit bij verlies van momentum. Het +20%-doel jaag ik niet na; ik mik op het beperken van de achterstand op BTC en het beschermen van kapitaal. Kronos blijft genegeerd (52,8% = muntgooi).
+Ik handhaaf BTC op de 60%-cap en ETH op 20%, met ~20% cash als buffer. De breakout boven $80k met volume is bevestigd, maar omdat de 7d-mediaan < -2% blijft, chase ik de extensie niet en verhoog ik niet verder. Geen micro-churn: ik wijzig alleen bij een 4u-sluiting door een vooraf bepaald niveau — BTC onder ~$76k afbouwen, ETH eruit bij verlies van momentum. Het +20%-doel jaag ik niet na (vraagt ~+32% in 7 dagen); ik mik op het beperken van de achterstand op BTC en het beschermen van kapitaal. Kronos blijft genegeerd (52,5% = muntgooi).
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,8 +42,8 @@ _Het venster sloot op +1,5% tegen BTC +3,4%: de 50%-cap tijdens de bounce kostte
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $5,464.50 | 59.9% | +0.6% | 60.0% | -0.1% (50% omhoog) | Breakout boven $80k met volume >0,5%/u bevestigd; op de cap houden zolang 7d-mediaan < -2%. |
-| ETH/USD | $1,808.87 | 19.8% | -0.2% | 20.0% | -1.6% (0% omhoog) | Sterkste momentum (24u +6,2%, 7d +3,1%, bij 7d-high); handhaven, niet verhogen. |
+| BTC/USD | $5,458.07 | 59.8% | +0.5% | 60.0% | -0.1% (33% omhoog) | Breakout boven $80k met volume bevestigd; op cap houden, niet chasen zolang 7d-mediaan negatief is. |
+| ETH/USD | $1,816.03 | 19.9% | +0.2% | 20.0% | -2.2% (0% omhoog) | Relatieve sterkte: 24u +6,9%, 7d positief en bijna 7d-high; momentum nog intact. |
 
 ## Orders deze run
 
@@ -57,6 +57,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 05-11-2026 00:01 | $9,122 | -8.78% | -3.44% | 0 |
 | 04-11-2026 23:31 | $9,121 | -8.79% | -3.28% | 0 |
 | 04-11-2026 23:01 | $9,092 | -9.08% | -3.75% | 0 |
 | 04-11-2026 22:31 | $9,082 | -9.18% | -3.93% | 0 |
@@ -68,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 04-11-2026 19:31 | $9,125 | -8.75% | -3.30% | 0 |
 | 04-11-2026 19:01 | $9,123 | -8.77% | -3.39% | 0 |
 | 04-11-2026 18:31 | $9,111 | -8.89% | -3.56% | 0 |
-| 04-11-2026 18:01 | $9,118 | -8.82% | -3.47% | 1 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
