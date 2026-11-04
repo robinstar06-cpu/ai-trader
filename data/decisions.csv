@@ -2512,3 +2512,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-04T17:31:13.684445+00:00,04-11-2026 18:31,,ETH/USD,14.7,14.7,houden,,,
 2026-11-04T18:01:26.324506+00:00,04-11-2026 19:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.9,60.0,houden,,,"Breakout boven $80k met volume >0,5%/u en sterke breedte; kernpositie op het maximum."
 2026-11-04T18:01:26.324506+00:00,04-11-2026 19:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,14.7,15.0,houden,,,"Sterkste large-cap, 7d positief en bijna 7d-high; bescheiden sleeve om mee te liften op de verbreding."
+2026-11-04T18:31:19.458663+00:00,04-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.9,60.0,houden,,,"Breakout boven $80k met oplopend volume (0,54%/u) bevestigt de 4u-trigger; kernpositie op het maximum."
+2026-11-04T18:31:19.458663+00:00,04-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,14.7,15.0,houden,,,"Sterkste large-cap (24u +6,2%, 7d +3,4%, range7d_pos 100); sleeve blijft staan zolang momentum houdt."

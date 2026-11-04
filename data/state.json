@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-27T21:31:08.695286+00:00",
-      "time_local": "27-10-2026 22:31",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 45.0,
-        "BCH/USD": 5.0
-      },
-      "summary": "BTC balanceert al ~21 uur rond het $80k-anker ($80,7k) zonder enige versnelling. De breedte is met 19/33 groen voor de derde meting op rij boven 50%, maar de 7d-mediaan (-6,91%) en Fear & Greed (48, dalend) bevestigen geen herstel. Noch de opwaartse trigger (echte uitbraak) noch de neerwaartse (duur",
-      "equity": 9207.37,
-      "prices": {
-        "BCH/USD": 290.254,
-        "BTC/USD": 80658.21
-      }
-    },
-    {
       "time": "2026-10-27T22:01:25.516050+00:00",
       "time_local": "27-10-2026 23:01",
       "model": "z-ai/glm-5.3",
@@ -1364,12 +1349,27 @@
         "BTC/USD": 80492.8,
         "ETH/USD": 2425.821
       }
+    },
+    {
+      "time": "2026-11-04T18:31:19.458663+00:00",
+      "time_local": "04-11-2026 19:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 60.0,
+        "ETH/USD": 15.0
+      },
+      "summary": "BTC is met oplopend volume (0,54%/u) boven $80k gebroken en de breedte is sterk (30/33 groen, mediaan 24u +3,5%, Fear & Greed hersteld van 26 naar 34). Toch blijft dit een bounce binnen een range: de 7d-mediaan is nog negatief (-2,45%) en ETH staat op de 7d-top (range7d_pos 100).",
+      "equity": 9125.43,
+      "prices": {
+        "ETH/USD": 2432.69,
+        "BTC/USD": 80567.091
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-04T18:01:26.324506+00:00",
-    "time_local": "04-11-2026 19:01",
-    "text": "Ik houd BTC op het maximum van 60% als kern van de breakout en laat de zojuist opgezette ETH-sleeve van 15% staan: ETH is de sterkste large-cap (24u +5,9%, 7d +3,1%, range7d_pos 97) en lift mee op de verbreding. Cash blijft ~25% als buffer omdat de 7d-mediaan nog negatief is. Geen micro-churn: BTC afbouwen pas bij een 4u-sluiting onder ~$76k, ETH eruit bij verlies van momentum of 4u-sluiting onder het anker. Het +20%-doel jaag ik niet na met overdreven omvang — ik mik op het verslaan van BTC en het beschermen van kapitaal."
+    "time": "2026-11-04T18:31:19.458663+00:00",
+    "time_local": "04-11-2026 19:31",
+    "text": "Ik houd de kern ongewijzigd: BTC 60% (breakout met volume >0,5%/u bevestigd), ETH 15% als sterkste large-cap en ~25% cash als buffer zolang de 7d-mediaan negatief is. Geen micro-churn en geen jacht op het +20%-doel — ik mik op het verslaan van BTC en het beschermen van kapitaal. BTC afbouwen pas bij een 4u-sluiting onder ~$76k, ETH eruit bij verlies van momentum of 4u-sluiting onder het anker. Kronos negeer ik (50,8% = muntgooi)."
   },
   "lessons": [
     "Regimefilter: een negatieve 7d-mediaan (-3% tot -5%) mét dood volume (<0,30%/u) is geen bodem. Verhoog blootstelling alleen bij een 4u-sluiting boven het anker met volume >0,5%/u; anders blijft het een range en handel ik niet op richting.",
