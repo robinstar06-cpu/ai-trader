@@ -2608,3 +2608,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-05T17:31:13.984229+00:00,05-11-2026 18:31,,ETH/USD,19.4,19.4,houden,,,
 2026-11-05T18:01:23.756436+00:00,05-11-2026 19:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.3,50.0,sell,805.84,verkocht 0.010638198,"Cap-regel: 7d-mediaan < -2% en BTC onder $76k-anker, dus afbouwen van 59% naar 50%."
 2026-11-05T18:01:23.756436+00:00,05-11-2026 19:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,19.4,5.0,sell,1245.73,verkocht 0.554085568,Momentum verloren en alt-sleeve-regel (max 2-3%); sterk terug naar 5%.
+2026-11-05T18:31:05.532487+00:00,05-11-2026 19:31,,BTC/USD,50.1,50.1,houden,,,
+2026-11-05T18:31:05.532487+00:00,05-11-2026 19:31,,ETH/USD,5.0,5.0,houden,,,
