@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-28T06:01:22.355096+00:00",
-      "time_local": "28-10-2026 07:01",
-      "model": "z-ai/glm-5.3",
-      "targets": {
-        "BTC/USD": 45.0,
-        "BCH/USD": 5.0
-      },
-      "summary": "BTC balanceert al ~25 uur rond het $80k-anker ($80,8k) met extreem lage volatiliteit (0,22%/uur): geen bevestigde uitbraak boven $81k, geen duurzame breuk onder $79,5k. Breedte is nu 33/33 groen en F&G herstelt naar 51, maar de 7d-mediaan staat nog -6,65% — het herstel is nog niet meerdaags bevestig",
-      "equity": 9232.06,
-      "prices": {
-        "BCH/USD": 298.7785,
-        "BTC/USD": 80796.933
-      }
-    },
-    {
       "time": "2026-10-28T06:31:15.618129+00:00",
       "time_local": "28-10-2026 07:31",
       "model": "z-ai/glm-5.3",
@@ -1362,12 +1347,25 @@
       "prices": {
         "BTC/USD": 76161.6695
       }
+    },
+    {
+      "time": "2026-11-05T20:31:11.336788+00:00",
+      "time_local": "05-11-2026 21:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 50.0
+      },
+      "summary": "De markt is breed risk-off: slechts 2/33 coins groen, mediaan 24u -4,85% en BTC hangt op $75,8k net onder het anker van $76k, dicht bij het 7d-laagtepunt (range7d_pos 0,24). De 7d-mediaan is met -1,91% net boven mijn -2%-grens gekomen, maar zonder 4u-sluiting boven het anker met volume >0,5%/u blijf",
+      "equity": 8667.54,
+      "prices": {
+        "BTC/USD": 75828.965
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-05T20:01:29.124103+00:00",
-    "time_local": "05-11-2026 21:01",
-    "text": "Regime blijft negatief (7d-mediaan -1,62%, breedte 3/33). Ik handhaaf de BTC-cap van 50% en verkoop ETH, want de alt-sleeve-regel (max 2-3% per alt, alleen bij niet-negatieve BTC 7d-mediaan) wordt overtreden. Pas naar 70% BTC bij een 4u-sluiting boven het anker $76k mét volume >0,5%/u én 7d-mediaan > -2%; anders blijft dit een neerwaartse range en doe ik niets. Geen micro-churn, geen jacht op het +20%-doel; ik bescherm kapitaal en beperk de achterstand op BTC. Kronos (53%) negeer ik."
+    "time": "2026-11-05T20:31:11.336788+00:00",
+    "time_local": "05-11-2026 21:31",
+    "text": "Ik handhaaf de BTC-cap van 50% en blijf 50% in cash; geen ETH of alts, want de alt-sleeve-regel (alleen bij niet-negatieve BTC 7d-mediaan én max 2-3% per alt) is nog niet veilig en de breedte is te zwak. Pas naar 70% BTC bij een 4u-sluiting boven $76k mét volume >0,5%/u én 7d-mediaan > -2%; anders doe ik niets en laat de range uitzitten. Geen micro-churn: wijzig alleen in stappen van ~10pp bij een vooraf bepaald niveau, max 1-2 keer per dag. Kronos (53%) negeer ik volledig. Het +20%-doel is met 7 dagen en -13,3% niet realistisch; ik bescherm kapitaal en beperk de achterstand op BTC."
   },
   "lessons": [
     "Regimefilter: een negatieve 7d-mediaan (-3% tot -5%) mét dood volume (<0,30%/u) is geen bodem. Verhoog blootstelling alleen bij een 4u-sluiting boven het anker met volume >0,5%/u; anders blijft het een range en handel ik niet op richting.",

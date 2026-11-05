@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 05-11-2026 21:01_
+_Laatst bijgewerkt: 05-11-2026 21:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,677.53** |
+| Waarde portefeuille | **$8,667.54** |
 | Cash | $4,330.80 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-13.22%** |
-| Ter vergelijking: gewoon BTC vasthouden | -8.59% |
-| Verschil | -4.64% |
+| Rendement AI sinds 14-10-2026 13:02 | **-13.32%** |
+| Ter vergelijking: gewoon BTC vasthouden | -8.99% |
+| Verschil | -4.34% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-13.22%** |
+| Rendement deze periode | **-13.32%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -13.22% |
+| Daling vanaf de top ($10,000) | -13.32% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 50 (Neutral) |
-| Kronos-voorspelling | 30 munten in 242s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 53% (n=1518, 50% = gokken) |
+| Kronos-voorspelling | 30 munten (berekend om 21:01); richting op 4u goed: 53% (n=1518, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-De markt is breed risk-off: slechts 3/33 coins groen, mediaan 24u -4,67%, en BTC hangt net boven het anker van $76k op het 7d-laagtepunt. Kortetermijn is zwaar oversold (RSI 1u 27-30) en Fear & Greed herstelde naar 50, maar er is nog geen bevestigde uitbraak met volume. Ik blijf defensief: 50% BTC, ETH eruit, ~50% cash.
+De markt is breed risk-off: slechts 2/33 coins groen, mediaan 24u -4,85% en BTC hangt op $75,8k net onder het anker van $76k, dicht bij het 7d-laagtepunt (range7d_pos 0,24). De 7d-mediaan is met -1,91% net boven mijn -2%-grens gekomen, maar zonder 4u-sluiting boven het anker met volume >0,5%/u blijft dit een neerwaartse range. Fear & Greed op 50 (neutraal) is een zwakke bevestiging, geen koopsignaal.
 
-## Strategie van de AI (sinds 05-11-2026 21:01)
+## Strategie van de AI (sinds 05-11-2026 21:31)
 
-Regime blijft negatief (7d-mediaan -1,62%, breedte 3/33). Ik handhaaf de BTC-cap van 50% en verkoop ETH, want de alt-sleeve-regel (max 2-3% per alt, alleen bij niet-negatieve BTC 7d-mediaan) wordt overtreden. Pas naar 70% BTC bij een 4u-sluiting boven het anker $76k mét volume >0,5%/u én 7d-mediaan > -2%; anders blijft dit een neerwaartse range en doe ik niets. Geen micro-churn, geen jacht op het +20%-doel; ik bescherm kapitaal en beperk de achterstand op BTC. Kronos (53%) negeer ik.
+Ik handhaaf de BTC-cap van 50% en blijf 50% in cash; geen ETH of alts, want de alt-sleeve-regel (alleen bij niet-negatieve BTC 7d-mediaan én max 2-3% per alt) is nog niet veilig en de breedte is te zwak. Pas naar 70% BTC bij een 4u-sluiting boven $76k mét volume >0,5%/u én 7d-mediaan > -2%; anders doe ik niets en laat de range uitzitten. Geen micro-churn: wijzig alleen in stappen van ~10pp bij een vooraf bepaald niveau, max 1-2 keer per dag. Kronos (53%) negeer ik volledig. Het +20%-doel is met 7 dagen en -13,3% niet realistisch; ik bescherm kapitaal en beperk de achterstand op BTC.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,13 +42,11 @@ _Het venster sloot op +1,5% tegen BTC +3,4%: de 50%-cap tijdens de bounce kostte
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,346.73 | 50.1% | -5.1% | 50.0% | +0.7% (100% omhoog) | Houdt net het anker $76k vast met verhoogd volume, maar geen bevestigde 4u-uitbraak; cap van 50% blijft. |
+| BTC/USD | $4,336.74 | 50.0% | -5.3% | 50.0% | +0.7% (100% omhoog) | Cap van 50% aanhouden zolang geen 4u-sluiting boven anker $76k met volume >0,5%/u; BTC op 7d-laagtepunt in brede risk-off, dus geen verhoging. |
 
 ## Orders deze run
 
-| Munt | Actie | Bedrag | Resultaat |
-|---|---|---|---|
-| ETH/USD | close | $436.22 | verkocht (alles) |
+Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
@@ -58,6 +56,7 @@ _Het venster sloot op +1,5% tegen BTC +3,4%: de 50%-cap tijdens de bounce kostte
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 05-11-2026 21:31 | $8,668 | -13.32% | -8.99% | 0 |
 | 05-11-2026 21:01 | $8,678 | -13.22% | -8.59% | 1 |
 | 05-11-2026 20:31 | $8,672 | -13.28% | -8.94% | 0 |
 | 05-11-2026 20:01 | $8,680 | -13.20% | -8.84% | 0 |
@@ -69,7 +68,6 @@ _Het venster sloot op +1,5% tegen BTC +3,4%: de 50%-cap tijdens de bounce kostte
 | 05-11-2026 17:01 | $8,678 | -13.22% | -8.94% | 0 |
 | 05-11-2026 16:31 | $8,713 | -12.87% | -8.23% | 0 |
 | 05-11-2026 16:01 | $8,871 | -11.29% | -6.36% | 0 |
-| 05-11-2026 15:31 | $9,013 | -9.87% | -4.61% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
