@@ -2614,3 +2614,5 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-05T19:01:13.646493+00:00,05-11-2026 20:01,,ETH/USD,5.0,5.0,houden,,,
 2026-11-05T19:31:14.068603+00:00,05-11-2026 20:31,,BTC/USD,50.0,50.0,houden,,,
 2026-11-05T19:31:14.068603+00:00,05-11-2026 20:31,,ETH/USD,5.0,5.0,houden,,,
+2026-11-05T20:01:29.124103+00:00,05-11-2026 21:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.1,50.0,houden,,,"Houdt net het anker $76k vast met verhoogd volume, maar geen bevestigde 4u-uitbraak; cap van 50% blijft."
+2026-11-05T20:01:29.124103+00:00,05-11-2026 21:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.0,0.0,close,436.22,verkocht (alles),
