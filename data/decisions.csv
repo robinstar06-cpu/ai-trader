@@ -2623,3 +2623,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-05T22:31:16.449494+00:00,05-11-2026 23:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Plafond van 50% zolang 7d-mediaan < -2%; BTC op 7d-laagtepunt in breed risk-off, wacht op bevestigde 4u-break boven $76k met volume."
 2026-11-05T23:01:21.817370+00:00,06-11-2026 00:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.9,50.0,houden,,,"Harde cap van 50% zolang 7d-mediaan < -2% en BTC op 7d-laagtepunt; geen bijkopen in breed risk-off, geen churn."
 2026-11-05T23:31:01.907283+00:00,06-11-2026 00:31,,BTC/USD,50.0,50.0,houden,,,
+2026-11-06T00:01:19.924716+00:00,06-11-2026 01:01,,BTC/USD,50.1,50.1,houden,,,
