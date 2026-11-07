@@ -2688,3 +2688,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-07T07:01:04.039379+00:00,07-11-2026 08:01,,BTC/USD,50.1,50.1,houden,,,
 2026-11-07T07:31:10.422688+00:00,07-11-2026 08:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Harde blootstellingscap zolang 7d-mediaan < -2%; BTC net onder anker $76k, geen 4u-doorbraak met volume, dus geen bijkopen en geen churn."
 2026-11-07T08:01:08.221075+00:00,07-11-2026 09:01,,BTC/USD,50.1,50.1,houden,,,
+2026-11-07T08:31:14.916976+00:00,07-11-2026 09:31,,BTC/USD,50.1,50.1,houden,,,
