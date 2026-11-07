@@ -2676,3 +2676,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-07T01:01:19.071207+00:00,07-11-2026 02:01,,BTC/USD,50.0,50.0,houden,,,
 2026-11-07T01:31:12.332315+00:00,07-11-2026 02:31,,BTC/USD,50.0,50.0,houden,,,
 2026-11-07T02:01:18.265072+00:00,07-11-2026 03:01,,BTC/USD,50.1,50.1,houden,,,
+2026-11-07T02:31:27.114262+00:00,07-11-2026 03:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.1,50.0,houden,,,"Huidige positie aanhouden; geen 4u-sluiting boven $76k en 7d-mediaan negatief, dus cap op 50% en geen bijkopen."
