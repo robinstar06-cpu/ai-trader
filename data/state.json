@@ -8,26 +8,13 @@
     "milestones": []
   },
   "peak_equity": 10000.0,
-  "last_review": "2026-11-07T00:31:14.601102+00:00",
+  "last_review": "2026-11-08T08:31:08.661844+00:00",
   "start": {
     "time": "2026-10-14T11:02:53.675394+00:00",
     "equity": 10000.0,
     "btc_price": 83316.4785
   },
   "history": [
-    {
-      "time": "2026-10-30T21:31:24.016505+00:00",
-      "time_local": "30-10-2026 22:31",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 50.0
-      },
-      "summary": "BTC blijft in een bevestigde downtrend ($76,7k, -5,7% 7d, onder alle SMA's) maar staat op het 7d-laagtepunt met oversold RSI (33) en een scherp herstellende marktbreedte (20/33 groen, mediaan +0,9%). Fear & Greed op 30 (angst) en Kronos is uitgesproken bullish voor BTC (+1,9% 12u, 100% opwaartse pad",
-      "equity": 8910.57,
-      "prices": {
-        "BTC/USD": 76663.35
-      }
-    },
     {
       "time": "2026-10-30T22:31:21.685135+00:00",
       "time_local": "30-10-2026 23:31",
@@ -1332,24 +1319,37 @@
       "prices": {
         "BTC/USD": 75711.12
       }
+    },
+    {
+      "time": "2026-11-08T08:31:08.661844+00:00",
+      "time_local": "08-11-2026 09:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 50.0
+      },
+      "summary": "De markt blijft diep risk-off: Fear & Greed 28, slechts 4/33 coins groen, mediane 7d -6,95% en BTC hangt op $75,8k net boven het 7d-laagtepunt (range7d_pos 6,8). Mijn regimefilter is niet getriggerd — geen 4u-sluiting boven $76k en de 7d-mediaan is juist verslechterd. De defensieve 50% BTC / 50% cas",
+      "equity": 8665.54,
+      "prices": {
+        "BTC/USD": 75768.315
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-08T03:01:10.572716+00:00",
-    "time_local": "08-11-2026 04:01",
-    "text": "Geen trade: 50% BTC / 50% cash is exact de huidige positie. Mijn regimefilter blijft leidend — pas bij een 4u-sluiting boven $76k mét volume >0,5%/u én een 7d-mediaan > -2% verhoog ik in één stap naar ~70%. Zolang de 7d-mediaan op -5,75% staat en BTC op het 7d-laagtepunt hangt: harde cap van 50% BTC, geen alt-sleeve. Verkopen op de bodem klikt verliezen vast; bijkopen is niet getriggerd. Het +20%-doel is met 3 dagen en -13,4% niet realistisch — ik bescherm kapitaal en beperk de achterstand op BTC (-9,1% deze periode). Kronos (50,8% hitrate) gebruik ik niet als losse trigger."
+    "time": "2026-11-08T08:31:08.661844+00:00",
+    "time_local": "08-11-2026 09:31",
+    "text": "Geen trade: 50% BTC / 50% cash is exact de huidige positie. Regimefilter blijft leidend — pas bij een 4u-sluiting boven $76k mét volume >0,5%/u én een 7d-mediaan > -2% verhoog ik in één stap naar ~70%. Zolang de 7d-mediaan op -6,95% staat en BTC op het 7d-laagtepunt hangt: harde cap van 50% BTC, geen alt-sleeve. Verkopen op de bodem klikt verliezen vast; bijkopen is niet getriggerd. Het +20%-doel is met 3 dagen en -13,3% niet realistisch — ik bescherm kapitaal en beperk de achterstand op BTC. Geen micro-churn; ik wacht op een niveaudoorbraak."
   },
   "lessons": [
-    "Regimefilter + entry in één regel: een long-trigger geldt alleen bij een 4u-sluiting boven het anker ($76k) met volume >0,5%/u én een 7d-mediaan > -2%. In breed risk-off (mediaan 24u < -4%, BTC op 7d-laagtepunt) niet bijkopen op een vermeende bodem —",
+    "Regimefilter en entry in één regel: een long-trigger geldt alleen bij een 4u-sluiting boven het anker ($76k) mét volume >0,5%/u én een 7d-mediaan > -2%. In breed risk-off (mediaan 24u < -4%, BTC op 7d-laagtepunt) niet bijkopen op een vermeende bodem.",
     "Blootstellingsplafond als harde regel: max 50% BTC zolang de 7d-mediaan < -2%, en tel sleeves er niet bij op om het plafond te omzeilen. De 80% totaal (60% BTC + 20% ETH) op 04-11 blijft de grootste kostenpost van deze periode.",
     "Alt-sleeve: max 2-3% per alt en alleen als de 7d-mediaan van BTC niet negatief is. ETH op 20% was 5-7x de regel en droeg -7,7% bij zonder enige meerwaarde.",
-    "Geen micro-churn: dit venster bevatte acht vrijwel identieke 50%-beslissingen die samen exact 0,0% opleverden. Wijzig alleen bij een 4u-sluiting door een vooraf bepaald niveau, in stappen van ~10pp, max 1-2x per dag.",
-    "Stuur op anker, 7d-mediaan en volume; breedte (aantal groene coins) is ruis — die zwiepte in dit venster van 1/33 naar 29/33 terwijl BTC rond $75,7k bleef hangen. Gebruik breedte alleen als bevestiging, nooit als losse trigger.",
-    "Kronos volledig uit het proces: 55,2% op 1514 forecasts is een muntgooi. Richting en positiegrootte komen alleen uit anker, 7d-mediaan en volume.",
-    "Behandel $76k als aanbodzone, niet als springplank: BTC hing er acht beslissingen op rij net onder zonder doorbraak. Een niveau is pas gebroken na een 4u-sluiting erboven — niet op een intrabar tik of op een 'voorzichtig herstel' in de breedte.",
+    "Geen micro-churn: twaalf vrijwel identieke 50%-beslissingen in dit venster leverden samen exact 0,0% op. Wijzig alleen bij een 4u-sluiting door een vooraf bepaald niveau, in stappen van ~10pp, max 1-2x per dag; een herbevestiging van dezelfde view is",
+    "Defensieve 50% in een bevestigd risk-off regime is de juiste default: dit venster -0,05% vs BTC -0,20%. Niets doen mag, maar herhaal dezelfde afweging niet elke 30 minuten — leg de positie vast en wacht op een niveau-doorbraak.",
+    "Kronos volledig uit het proces: 51,0% op 1457 forecasts is een muntgooi. Richting en positiegrootte komen alleen uit anker, 7d-mediaan en volume.",
+    "Behandel $76k als aanbodzone, niet als springplank: BTC hing er twaalf beslissingen op rij net onder zonder doorbraak. Een niveau is pas gebroken na een 4u-sluiting erboven — niet op een intrabar tik of op een 'voorzichtig herstel' in de breedte.",
     "Doeldiscipline: +20% vraagt met nog 4 dagen ~+38% vanaf -13,3%; dat is niet realistisch. Vergroot de positie niet om het doel te jagen — bescherm kapitaal en beperk de achterstand op BTC (-9,0% deze periode)."
   ],
-  "review_assessment": "Dit venster was met +0,04% vrijwel vlak en nipt beter dan BTC (-0,10%): de acht identieke 50%-beslissingen waren saai maar correct — geen churn, geen nieuwe schade. De echte schade (-13,3% deze periode) is eerder ontstaan met 80% totale blootstelling op 04-11, en het doel van +20% is met nog 4 dagen en ~+38% nodig niet meer realistisch. Prioriteit is nu kapitaalbescherming en de achterstand op BTC (-9,0%) niet verder laten oplopen.",
+  "review_assessment": "Dit venster was vrijwel vlak (-0,05% vs BTC -0,20%): de 50%-blootstelling in een risk-off markt was de juiste defensieve keuze en leverde een kleine outperformance op. Maar de periode staat op -13,34% tegen BTC -9,06%, vooral door de oude 80%-blootstelling, en met nog 4 dagen is +20% (ca. +38% nodig) onhaalbaar. De twaalf vrijwel identieke 50%-beslissingen in 24 uur waren inhoudelijk verdedigbaar maar leverden exact 0,0% en dus alleen ruis en kosten op.",
   "kronos_log": [
     {
       "t": "2026-11-05T19:00:00+00:00",
