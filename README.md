@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 09-11-2026 00:01_
+_Laatst bijgewerkt: 09-11-2026 00:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,586.24** |
+| Waarde portefeuille | **$8,637.49** |
 | Cash | $4,330.80 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-14.14%** |
-| Ter vergelijking: gewoon BTC vasthouden | -10.35% |
-| Verschil | -3.79% |
+| Rendement AI sinds 14-10-2026 13:02 | **-13.63%** |
+| Ter vergelijking: gewoon BTC vasthouden | -9.58% |
+| Verschil | -4.04% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-14.14%** |
+| Rendement deze periode | **-13.63%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -14.14% |
+| Daling vanaf de top ($10,000) | -13.63% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 28 (Fear) |
-| Kronos-voorspelling | 33 munten in 239s; richting op 4u goed: 51% (n=1468, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 00:01); richting op 4u goed: 51% (n=1468, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-De markt blijft diep risk-off: Fear & Greed 28, slechts 1/33 coins groen, mediane 24u -3,65% en 7d -8,41%. BTC hangt op $74,7k nabij het 7d-laagtepunt (range7d_pos 9,7) met RSI 35 en onder alle SMA's. Mijn ankerregel is niet gehaald, dus geen enkele reden om blootstelling te verhogen.
+Markt blijft diep risk-off: Fear & Greed 28, slechts 2/33 coins groen, mediane 24u -3,14% en 7d -7,57%. BTC hangt op $75,3k, nog steeds onder het $76k-anker en ver onder een positieve 7d-mediaan. Mijn regimefilter geeft geen enkele long-trigger.
 
-## Strategie van de AI (sinds 09-11-2026 00:01)
+## Strategie van de AI (sinds 09-11-2026 00:31)
 
-Geen trade: 50% BTC / 50% cash blijft de juiste default in dit bevestigde risk-off regime. Mijn regel staat vast: pas bij een 4u-sluiting boven $76k mét volume >0,5%/u én een 7d-mediaan > -2% verhoog ik in één stap naar ~70%. De 7d-mediaan (-8,4%) is nog ver negatief en BTC hangt op het 7d-laagtepunt — dus harde cap 50% BTC, geen alt-sleeve. Verkopen op het 7d-laagtepunt zou de bodem verkopen; dat doe ik niet. Het +20%-doel is met 3 dagen en -14,1% niet realistisch; ik bescherm kapitaal en beperk de achterstand op BTC. Geen micro-churn — ik wacht op een echte niveaudoorbraak.
+Geen trade: 50% BTC / 50% cash blijft de juiste default in dit bevestigde risk-off regime. Mijn regel staat vast: pas bij een 4u-sluiting boven $76k mét volume >0,5%/u én een 7d-mediaan > -2% verhoog ik in één stap naar ~70%. De 7d-mediaan (-7,6%) is nog ver negatief en BTC zit op range7d_pos 19 — dus harde cap 50% BTC, geen alt-sleeve. Verkopen op het 7d-laagtepunt zou de bodem verkopen; dat doe ik niet. Het +20%-doel is met 3 dagen en -13,6% niet realistisch; ik bescherm kapitaal en beperk de achterstand op BTC. Geen micro-churn — ik wacht op een echte niveaudoorbraak.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,7 +42,7 @@ _Dit venster was vrijwel vlak (-0,05% vs BTC -0,20%): de 50%-blootstelling in ee
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,255.44 | 49.6% | -6.8% | 50.0% | +0.4% (83% omhoog) | Risk-off bevestigd, 7d-mediaan -8,4% en BTC op 7d-laagtepunt: cap 50% aanhouden, niet bijkopen en niet op de bodem verkopen. |
+| BTC/USD | $4,306.69 | 49.9% | -5.7% | 50.0% | +0.4% (83% omhoog) | Risk-off regime, BTC onder $76k-anker en 7d-mediaan -7,6%: cap op 50% blijft, wacht op 4u-sluiting boven anker met volume. |
 
 ## Orders deze run
 
@@ -56,6 +56,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 09-11-2026 00:31 | $8,637 | -13.63% | -9.58% | 0 |
 | 09-11-2026 00:01 | $8,586 | -14.14% | -10.35% | 0 |
 | 08-11-2026 23:31 | $8,578 | -14.22% | -10.89% | 0 |
 | 08-11-2026 23:01 | $8,576 | -14.24% | -10.95% | 0 |
@@ -67,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 08-11-2026 20:01 | $8,667 | -13.33% | -9.02% | 0 |
 | 08-11-2026 19:31 | $8,666 | -13.34% | -8.97% | 0 |
 | 08-11-2026 19:01 | $8,660 | -13.40% | -9.20% | 0 |
-| 08-11-2026 18:31 | $8,654 | -13.46% | -9.29% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).

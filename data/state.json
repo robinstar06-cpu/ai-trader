@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-10-31T21:31:19.028825+00:00",
-      "time_local": "31-10-2026 22:31",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 50.0
-      },
-      "summary": "BTC blijft zwak in een bevestigde downtrend ($77,4k, 7d -3,6%, onder alle SMA's) maar zit dicht bij het 7d-laagtepunt met oversold dag-RSI (35) en extreem laag volume (0,19%/u). Fear & Greed op 30 en marktbreedte gemengd (18/33 groen) geven geen edge; de markt is kort oversold maar mist elke bevesti",
-      "equity": 8947.84,
-      "prices": {
-        "BTC/USD": 77385.6
-      }
-    },
-    {
       "time": "2026-10-31T22:31:26.489688+00:00",
       "time_local": "31-10-2026 23:31",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1332,12 +1319,25 @@
       "prices": {
         "BTC/USD": 74692.8565
       }
+    },
+    {
+      "time": "2026-11-08T23:31:16.417411+00:00",
+      "time_local": "09-11-2026 00:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 50.0
+      },
+      "summary": "Markt blijft diep risk-off: Fear & Greed 28, slechts 2/33 coins groen, mediane 24u -3,14% en 7d -7,57%. BTC hangt op $75,3k, nog steeds onder het $76k-anker en ver onder een positieve 7d-mediaan. Mijn regimefilter geeft geen enkele long-trigger.",
+      "equity": 8637.49,
+      "prices": {
+        "BTC/USD": 75333.8
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-08T23:01:20.780082+00:00",
-    "time_local": "09-11-2026 00:01",
-    "text": "Geen trade: 50% BTC / 50% cash blijft de juiste default in dit bevestigde risk-off regime. Mijn regel staat vast: pas bij een 4u-sluiting boven $76k mét volume >0,5%/u én een 7d-mediaan > -2% verhoog ik in één stap naar ~70%. De 7d-mediaan (-8,4%) is nog ver negatief en BTC hangt op het 7d-laagtepunt — dus harde cap 50% BTC, geen alt-sleeve. Verkopen op het 7d-laagtepunt zou de bodem verkopen; dat doe ik niet. Het +20%-doel is met 3 dagen en -14,1% niet realistisch; ik bescherm kapitaal en beperk de achterstand op BTC. Geen micro-churn — ik wacht op een echte niveaudoorbraak."
+    "time": "2026-11-08T23:31:16.417411+00:00",
+    "time_local": "09-11-2026 00:31",
+    "text": "Geen trade: 50% BTC / 50% cash blijft de juiste default in dit bevestigde risk-off regime. Mijn regel staat vast: pas bij een 4u-sluiting boven $76k mét volume >0,5%/u én een 7d-mediaan > -2% verhoog ik in één stap naar ~70%. De 7d-mediaan (-7,6%) is nog ver negatief en BTC zit op range7d_pos 19 — dus harde cap 50% BTC, geen alt-sleeve. Verkopen op het 7d-laagtepunt zou de bodem verkopen; dat doe ik niet. Het +20%-doel is met 3 dagen en -13,6% niet realistisch; ik bescherm kapitaal en beperk de achterstand op BTC. Geen micro-churn — ik wacht op een echte niveaudoorbraak."
   },
   "lessons": [
     "Regimefilter en entry in één regel: een long-trigger geldt alleen bij een 4u-sluiting boven het anker ($76k) mét volume >0,5%/u én een 7d-mediaan > -2%. In breed risk-off (mediaan 24u < -4%, BTC op 7d-laagtepunt) niet bijkopen op een vermeende bodem.",
