@@ -1,25 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 08-11-2026 03:31_
+_Laatst bijgewerkt: 08-11-2026 04:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,657.84** |
+| Waarde portefeuille | **$8,654.72** |
 | Cash | $4,330.80 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-13.42%** |
-| Ter vergelijking: gewoon BTC vasthouden | -9.24% |
-| Verschil | -4.18% |
+| Rendement AI sinds 14-10-2026 13:02 | **-13.45%** |
+| Ter vergelijking: gewoon BTC vasthouden | -9.13% |
+| Verschil | -4.32% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-13.42%** |
+| Rendement deze periode | **-13.45%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -13.42% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -13.45% |
+| Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 28 (Fear) |
-| Kronos-voorspelling | 30 munten (berekend om 03:01); richting op 4u goed: 52% (n=1456, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 190s; richting op 4u goed: 51% (n=1456, 50% = gokken) |
 
-## Strategie van de AI (sinds 08-11-2026 00:01)
+## Marktvisie van de AI
 
-Ik houd 50% BTC / 50% cash — exact de huidige positie, dus geen trade en geen churn. Mijn regimefilter blijft leidend: pas bij een 4u-sluiting boven $76k mét volume >0,5%/u én een 7d-mediaan > -2% verhoog ik in één stap naar ~70%. Zolang de 7d-mediaan op -5,74% staat en BTC op het 7d-laagtepunt hangt: geen alt-sleeve, harde cap van 50% BTC. Verkopen op de bodem klikt verliezen vast; bijkopen is niet getriggerd. Het +20%-doel is met 4 dagen en -13,4% niet realistisch — ik bescherm kapitaal en beperk de achterstand op BTC (-9,2% deze periode). Kronos (52,4% hitrate) gebruik ik niet als losse trigger.
+De markt blijft diep risk-off: Fear & Greed 28, slechts 6/33 coins groen, mediane 7d -5,75% en BTC hangt op $75,7k net onder het $76k-anker (range7d_pos 5,7). Mijn regimefilter is niet getriggerd, dus ik houd de bestaande 50% BTC / 50% cash aan zonder churn.
+
+## Strategie van de AI (sinds 08-11-2026 04:01)
+
+Geen trade: 50% BTC / 50% cash is exact de huidige positie. Mijn regimefilter blijft leidend — pas bij een 4u-sluiting boven $76k mét volume >0,5%/u én een 7d-mediaan > -2% verhoog ik in één stap naar ~70%. Zolang de 7d-mediaan op -5,75% staat en BTC op het 7d-laagtepunt hangt: harde cap van 50% BTC, geen alt-sleeve. Verkopen op de bodem klikt verliezen vast; bijkopen is niet getriggerd. Het +20%-doel is met 3 dagen en -13,4% niet realistisch — ik bescherm kapitaal en beperk de achterstand op BTC (-9,1% deze periode). Kronos (50,8% hitrate) gebruik ik niet als losse trigger.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -38,7 +42,7 @@ _Dit venster was met +0,04% vrijwel vlak en nipt beter dan BTC (-0,10%): de acht
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,327.04 | 50.0% | -5.2% | 50.0% | +0.1% (67% omhoog) |  |
+| BTC/USD | $4,323.92 | 50.0% | -5.3% | 50.0% | +0.0% (50% omhoog) | Bestaande kernpositie; regimefilter niet getriggerd (7d-mediaan -5,75%, BTC op 7d-laagtepunt), cap 50% blijft staan. |
 
 ## Orders deze run
 
@@ -47,14 +51,13 @@ Geen orders (verdeling blijft gelijk).
 ## Meldingen
 
 - Dagelijkse evaluatie mislukt: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life o
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 08-11-2026 04:01 | $8,655 | -13.45% | -9.13% | 0 |
 | 08-11-2026 03:31 | $8,658 | -13.42% | -9.24% | 0 |
 | 08-11-2026 03:01 | $8,658 | -13.42% | -9.24% | 0 |
 | 08-11-2026 02:31 | $8,659 | -13.41% | -9.17% | 0 |
@@ -66,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 07-11-2026 23:31 | $8,655 | -13.45% | -9.17% | 0 |
 | 07-11-2026 23:01 | $8,659 | -13.41% | -9.19% | 0 |
 | 07-11-2026 22:31 | $8,651 | -13.49% | -9.35% | 0 |
-| 07-11-2026 22:01 | $8,655 | -13.45% | -9.25% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
