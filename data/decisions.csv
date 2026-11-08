@@ -2737,3 +2737,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-08T08:31:08.661844+00:00,08-11-2026 09:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,Harde cap zolang 7d-mediaan < -2% en BTC onder $76k-anker; defensieve default in bevestigd risk-off.
 2026-11-08T09:01:05.101586+00:00,08-11-2026 10:01,,BTC/USD,50.0,50.0,houden,,,
 2026-11-08T09:31:11.368090+00:00,08-11-2026 10:31,,BTC/USD,50.0,50.0,houden,,,
+2026-11-08T10:01:14.049910+00:00,08-11-2026 11:01,,BTC/USD,50.0,50.0,houden,,,
