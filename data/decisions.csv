@@ -2726,3 +2726,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-08T03:01:10.572716+00:00,08-11-2026 04:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,50.0,50.0,houden,,,"Bestaande kernpositie; regimefilter niet getriggerd (7d-mediaan -5,75%, BTC op 7d-laagtepunt), cap 50% blijft staan."
 2026-11-08T03:31:16.816956+00:00,08-11-2026 04:31,,BTC/USD,50.0,50.0,houden,,,
 2026-11-08T04:01:27.521146+00:00,08-11-2026 05:01,,BTC/USD,50.0,50.0,houden,,,
+2026-11-08T04:31:15.610364+00:00,08-11-2026 05:31,,BTC/USD,50.0,50.0,houden,,,
