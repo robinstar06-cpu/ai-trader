@@ -1,25 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 08-11-2026 09:31_
+_Laatst bijgewerkt: 08-11-2026 10:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,665.54** |
+| Waarde portefeuille | **$8,667.96** |
 | Cash | $4,330.80 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-13.34%** |
-| Ter vergelijking: gewoon BTC vasthouden | -9.06% |
-| Verschil | -4.28% |
+| Rendement AI sinds 14-10-2026 13:02 | **-13.32%** |
+| Ter vergelijking: gewoon BTC vasthouden | -8.99% |
+| Verschil | -4.33% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-13.34%** |
+| Rendement deze periode | **-13.32%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -13.34% |
-| Model | deepseek-ai/deepseek-v4.1-flash |
+| Daling vanaf de top ($10,000) | -13.32% |
+| Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 28 (Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 09:01); richting op 4u goed: 51% (n=1457, 50% = gokken) |
-
-## Marktvisie van de AI
-
-De markt blijft diep risk-off: Fear & Greed 28, slechts 4/33 coins groen, mediane 7d -6,95% en BTC hangt op $75,8k net boven het 7d-laagtepunt (range7d_pos 6,8). Mijn regimefilter is niet getriggerd — geen 4u-sluiting boven $76k en de 7d-mediaan is juist verslechterd. De defensieve 50% BTC / 50% cash is de juiste default.
+| Kronos-voorspelling | 33 munten in 194s; richting op 4u goed: 51% (n=1455, 50% = gokken) |
 
 ## Strategie van de AI (sinds 08-11-2026 09:31)
 
@@ -42,7 +38,7 @@ _Dit venster was vrijwel vlak (-0,05% vs BTC -0,20%): de 50%-blootstelling in ee
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,334.74 | 50.0% | -5.1% | 50.0% | -0.0% (33% omhoog) | Harde cap zolang 7d-mediaan < -2% en BTC onder $76k-anker; defensieve default in bevestigd risk-off. |
+| BTC/USD | $4,337.16 | 50.0% | -5.0% | 50.0% | -0.3% (0% omhoog) |  |
 
 ## Orders deze run
 
@@ -50,13 +46,15 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Dagelijkse evaluatie gedaan door deepseek-ai/deepseek-v4.1-flash.
+- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 08-11-2026 10:01 | $8,668 | -13.32% | -8.99% | 0 |
 | 08-11-2026 09:31 | $8,666 | -13.34% | -9.06% | 0 |
 | 08-11-2026 09:01 | $8,669 | -13.31% | -8.97% | 0 |
 | 08-11-2026 08:31 | $8,663 | -13.37% | -9.10% | 0 |
@@ -68,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 08-11-2026 05:31 | $8,668 | -13.32% | -8.98% | 0 |
 | 08-11-2026 05:01 | $8,663 | -13.37% | -9.00% | 0 |
 | 08-11-2026 04:31 | $8,664 | -13.36% | -9.07% | 0 |
-| 08-11-2026 04:01 | $8,655 | -13.45% | -9.13% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
