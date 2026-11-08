@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 08-11-2026 00:31_
+_Laatst bijgewerkt: 08-11-2026 01:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,659.62** |
+| Waarde portefeuille | **$8,663.29** |
 | Cash | $4,330.80 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-13.40%** |
-| Ter vergelijking: gewoon BTC vasthouden | -9.17% |
-| Verschil | -4.23% |
+| Rendement AI sinds 14-10-2026 13:02 | **-13.37%** |
+| Ter vergelijking: gewoon BTC vasthouden | -9.10% |
+| Verschil | -4.27% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-13.40%** |
+| Rendement deze periode | **-13.37%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -13.40% |
+| Daling vanaf de top ($10,000) | -13.37% |
 | Model | geen (AI niet bereikbaar) |
-| Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 25 (Extreme Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 00:01); richting op 4u goed: 52% (n=1458, 50% = gokken) |
+| Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 28 (Fear) |
+| Kronos-voorspelling | 33 munten in 264s; richting op 4u goed: 53% (n=1460, 50% = gokken) |
 
 ## Strategie van de AI (sinds 08-11-2026 00:01)
 
@@ -38,7 +38,7 @@ _Dit venster was met +0,04% vrijwel vlak en nipt beter dan BTC (-0,10%): de acht
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,328.82 | 50.0% | -5.2% | 50.0% | +0.0% (50% omhoog) |  |
+| BTC/USD | $4,332.49 | 50.0% | -5.1% | 50.0% | -0.1% (33% omhoog) |  |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 08-11-2026 01:01 | $8,663 | -13.37% | -9.10% | 0 |
 | 08-11-2026 00:31 | $8,660 | -13.40% | -9.17% | 0 |
 | 08-11-2026 00:01 | $8,655 | -13.45% | -9.23% | 0 |
 | 07-11-2026 23:31 | $8,655 | -13.45% | -9.17% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 07-11-2026 20:31 | $8,658 | -13.42% | -9.15% | 0 |
 | 07-11-2026 20:01 | $8,661 | -13.39% | -9.16% | 0 |
 | 07-11-2026 19:31 | $8,663 | -13.37% | -9.15% | 0 |
-| 07-11-2026 19:01 | $8,664 | -13.36% | -9.09% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
