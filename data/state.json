@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-11-01T19:31:23.145254+00:00",
-      "time_local": "01-11-2026 20:31",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 50.0
-      },
-      "summary": "BTC blijft zwak in een bevestigde downtrend ($77,7k, 7d -3,4%, onder alle SMA's) met extreem dood volume (0,14%/u), Fear & Greed op 34 en marktbreedte zwak (10/33 groen, mediaan 7d -3,9%). Er is geen bevestigde uitbraak boven het anker en geen breakdown onder $76k, dus de range houdt stand. Ik handh",
-      "equity": 8957.13,
-      "prices": {
-        "BTC/USD": 77690.94
-      }
-    },
-    {
       "time": "2026-11-01T20:01:21.681909+00:00",
       "time_local": "01-11-2026 21:01",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1332,12 +1319,25 @@
       "prices": {
         "BTC/USD": 74926.085
       }
+    },
+    {
+      "time": "2026-11-09T22:31:04.698466+00:00",
+      "time_local": "09-11-2026 23:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 50.0
+      },
+      "summary": "De markt laat een brede 24u-bounce zien (28/33 coins groen, mediaan +2,48%), maar BTC blijft met +0,86% achter en de 7d-mediaan is met -3,39% nog diep negatief. Fear & Greed staat op 29 (Fear) en BTC ($75,0k) hangt nog steeds onder mijn anker van $76k. Het regime is dus nog altijd voorzichtig risk-o",
+      "equity": 8620.75,
+      "prices": {
+        "BTC/USD": 75028.8645
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-09T22:01:11.681522+00:00",
-    "time_local": "09-11-2026 23:01",
-    "text": "Ik houd 50% BTC / 50% cash, exact op mijn plafond. Mijn regel staat vast: pas bij een 4u-sluiting boven $76k mét volume >0,5%/u én een 7d-mediaan > -2% verhoog ik in één stap naar ~70%. De 7d-mediaan (-3,82%) is nog negatief en BTC blijft onder het anker, dus geen alt-sleeve en geen bijkopen op deze bounce. Het +20%-doel is met 2 dagen en -14% niet realistisch; ik bescherm kapitaal en beperk de achterstand op BTC. Kronos (54,8%) weegt niet mee. Geen micro-churn: ik wacht op een niveaudoorbraak."
+    "time": "2026-11-09T22:31:04.698466+00:00",
+    "time_local": "09-11-2026 23:31",
+    "text": "Ik houd 50% BTC / 50% cash, exact op mijn plafond. Mijn regel staat vast: pas bij een 4u-sluiting boven $76k mét volume >0,5%/u én een 7d-mediaan > -2% verhoog ik in één stap naar ~70%. De 7d-mediaan (-3,39%) is nog negatief en BTC blijft onder het anker, dus geen alt-sleeve en geen bijkopen op deze brede bounce. Het +20%-doel is met 2 dagen en -13,8% niet realistisch; ik bescherm kapitaal en beperk de achterstand op BTC. Kronos (54,8%) weegt niet mee. Geen micro-churn: ik wacht op een niveaudoorbraak."
   },
   "lessons": [
     "Regimefilter en entry in één regel: een long-trigger geldt alleen bij een 4u-sluiting boven het anker ($76k) mét volume >0,5%/u én een 7d-mediaan > -2%. In breed risk-off (mediaan 24u < -4%, BTC op 7d-laagtepunt) niet bijkopen op een vermeende bodem.",
