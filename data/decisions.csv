@@ -2767,3 +2767,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-08T23:31:16.417411+00:00,09-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.9,50.0,houden,,,"Risk-off regime, BTC onder $76k-anker en 7d-mediaan -7,6%: cap op 50% blijft, wacht op 4u-sluiting boven anker met volume."
 2026-11-09T00:01:11.086395+00:00,09-11-2026 01:01,,BTC/USD,49.6,49.6,houden,,,
 2026-11-09T00:31:22.289806+00:00,09-11-2026 01:31,,BTC/USD,49.7,49.7,houden,,,
+2026-11-09T01:01:12.084681+00:00,09-11-2026 02:01,,BTC/USD,49.8,49.8,houden,,,
