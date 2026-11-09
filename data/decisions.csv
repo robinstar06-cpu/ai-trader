@@ -2803,3 +2803,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-09T17:31:19.623227+00:00,09-11-2026 18:31,,BTC/USD,49.7,49.7,houden,,,
 2026-11-09T18:01:28.498928+00:00,09-11-2026 19:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.7,50.0,houden,,,"Handhaaf defensieve 50% in bevestigd risk-off regime; geen trigger (BTC < $76k, 7d-mediaan -2,89%), dus geen wijziging."
 2026-11-09T18:31:36.407879+00:00,09-11-2026 19:31,,BTC/USD,49.6,49.6,houden,,,
+2026-11-09T19:01:19.063067+00:00,09-11-2026 20:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.6,50.0,houden,,,"Defensieve default in bevestigd risk-off: BTC onder $76k-anker en 7d-mediaan -2,80%, dus plafond van 50% blijft staan zonder bijkopen."
