@@ -2765,3 +2765,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-08T22:31:12.622459+00:00,08-11-2026 23:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.5,50.0,houden,,,"Risk-off bevestigd, BTC op 7d-bodem; cap 50% tot 4u-sluiting boven $76k met volume en 7d-mediaan > -2%"
 2026-11-08T23:01:20.780082+00:00,09-11-2026 00:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.6,50.0,houden,,,"Risk-off bevestigd, 7d-mediaan -8,4% en BTC op 7d-laagtepunt: cap 50% aanhouden, niet bijkopen en niet op de bodem verkopen."
 2026-11-08T23:31:16.417411+00:00,09-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.9,50.0,houden,,,"Risk-off regime, BTC onder $76k-anker en 7d-mediaan -7,6%: cap op 50% blijft, wacht op 4u-sluiting boven anker met volume."
+2026-11-09T00:01:11.086395+00:00,09-11-2026 01:01,,BTC/USD,49.6,49.6,houden,,,
