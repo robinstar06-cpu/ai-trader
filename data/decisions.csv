@@ -2777,3 +2777,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-09T04:31:13.764479+00:00,09-11-2026 05:31,,BTC/USD,49.7,49.7,houden,,,
 2026-11-09T05:01:22.993348+00:00,09-11-2026 06:01,,BTC/USD,49.7,49.7,houden,,,
 2026-11-09T05:31:09.443777+00:00,09-11-2026 06:31,,BTC/USD,49.6,49.6,houden,,,
+2026-11-09T06:01:25.469059+00:00,09-11-2026 07:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.5,50.0,houden,,,Op het plafond van 50% in bevestigd risk-off; wacht op 4u-sluiting boven $76k voor verhoging
