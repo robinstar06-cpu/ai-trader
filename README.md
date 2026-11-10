@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 10-11-2026 21:01_
+_Laatst bijgewerkt: 10-11-2026 21:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,525.79** |
+| Waarde portefeuille | **$8,540.00** |
 | Cash | $4,330.80 (51%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-14.74%** |
-| Ter vergelijking: gewoon BTC vasthouden | -11.96% |
-| Verschil | -2.78% |
+| Rendement AI sinds 14-10-2026 13:02 | **-14.60%** |
+| Ter vergelijking: gewoon BTC vasthouden | -11.69% |
+| Verschil | -2.91% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
-| Rendement deze periode | **-14.74%** |
+| Rendement deze periode | **-14.60%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -14.74% |
+| Daling vanaf de top ($10,000) | -14.60% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 32 (Fear) |
-| Kronos-voorspelling | 30 munten in 244s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 56% (n=1521, 50% = gokken) |
+| Kronos-voorspelling | 30 munten (berekend om 21:01); richting op 4u goed: 56% (n=1521, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-De markt blijft breed risk-off: slechts 2 van 33 coins groen op 24u, mediane 24u -3,18% en 7d -7,39%, Fear & Greed 32. BTC ($73,4k) hangt op de 7d-bodem met RSI 34 en vs_sma50d -9,8% — geen enkel teken van een niveaudoorbraak of volume-uitbraak.
+De markt blijft breed risk-off: slechts 2 van 33 coins groen op 24u, mediane 24u -3,20% en 7d -7,14%, Fear & Greed 32. BTC ($73,6k) hangt op de 7d-bodem (range7d_pos 10) met RSI 34 en zit onder alle SMA's; geen enkele bevestiging van een bodem of doorbraak.
 
-## Strategie van de AI (sinds 10-11-2026 21:01)
+## Strategie van de AI (sinds 10-11-2026 21:31)
 
-Ik handhaaf de defensieve 50% BTC / 50% cash. Het +20%-doel is met één dag en -14,7% niet meer realistisch (zou ~+41% vragen); ik jaag het niet na en verkoop niet in de bodem, want dat lockt verlies. De 7d-mediaan (-7,4%) is diep negatief en BTC zit op de 7d-bodem, dus geen bijkopen en geen alt-sleeve. Ik wacht op een echte doorbraak: 4u-sluiting boven $76k mét volume >0,5%/u en 7d-mediaan >-2%, dan in één stap naar ~70%. Kronos negeer ik als richtinggever (55,7% = muntgooi). Tot dan: kapitaal beschermen, achterstand op BTC beperken, geen churn.
+Ik handhaaf de defensieve 50% BTC / 50% cash. Het +20%-doel is met één dag en -14,6% niet meer realistisch (zou ~+41% vragen); ik jaag het niet na en verkoop niet in de bodem, want dat lockt verlies. De 7d-mediaan (-7,1%) is diep negatief en BTC zit op de 7d-bodem, dus geen bijkopen en geen alt-sleeve. Ik wacht op een echte doorbraak: 4u-sluiting boven $76k mét volume >0,5%/u en 7d-mediaan >-2%, dan in één stap naar ~70%. Kronos negeer ik als richtinggever (55,7% = muntgooi). Tot dan: kapitaal beschermen, achterstand op BTC beperken, geen churn.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,7 +42,7 @@ _Dit venster deed ik het beter dan BTC (-1,39% vs -2,87%) dankzij het strikte 50
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,194.99 | 49.2% | -8.1% | 50.0% | +0.6% (100% omhoog) | Defensieve default in bevestigd risk-off regime; 50% plafond zolang 7d-mediaan <-2%. Geen doorbraak boven $76k, dus niet bijkopen en niet in de bodem verkopen. |
+| BTC/USD | $4,209.20 | 49.3% | -7.8% | 50.0% | +0.6% (100% omhoog) | Defensieve default in bevestigd risk-off regime; BTC op 7d-bodem, 7d-mediaan diep negatief, geen doorbraak boven $76k. Positie vasthouden, niet bijkopen of verkopen. |
 
 ## Orders deze run
 
@@ -56,6 +56,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 10-11-2026 21:31 | $8,540 | -14.60% | -11.69% | 0 |
 | 10-11-2026 21:01 | $8,526 | -14.74% | -11.96% | 0 |
 | 10-11-2026 20:31 | $8,526 | -14.74% | -11.95% | 0 |
 | 10-11-2026 20:01 | $8,527 | -14.73% | -11.92% | 0 |
@@ -67,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 10-11-2026 17:01 | $8,523 | -14.77% | -12.06% | 0 |
 | 10-11-2026 16:31 | $8,557 | -14.43% | -11.27% | 0 |
 | 10-11-2026 16:01 | $8,591 | -14.09% | -10.53% | 0 |
-| 10-11-2026 15:31 | $8,545 | -14.55% | -11.68% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
