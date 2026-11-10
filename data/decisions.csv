@@ -2855,3 +2855,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-10T19:31:14.276950+00:00,10-11-2026 20:31,,BTC/USD,49.2,49.2,houden,,,
 2026-11-10T20:01:21.157729+00:00,10-11-2026 21:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.2,50.0,houden,,,"Defensieve default in bevestigd risk-off regime; 50% plafond zolang 7d-mediaan <-2%. Geen doorbraak boven $76k, dus niet bijkopen en niet in de bodem verkopen."
 2026-11-10T20:31:21.754571+00:00,10-11-2026 21:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.3,50.0,houden,,,"Defensieve default in bevestigd risk-off regime; BTC op 7d-bodem, 7d-mediaan diep negatief, geen doorbraak boven $76k. Positie vasthouden, niet bijkopen of verkopen."
+2026-11-10T21:01:23.570684+00:00,10-11-2026 22:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.3,50.0,houden,,,"Defensieve default in bevestigd risk-off regime; geen doorbraak boven $76k, 7d-mediaan diep negatief, dus niet bijkopen en niet verkopen in de bodem."
