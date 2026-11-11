@@ -1,9 +1,9 @@
 {
   "goal": {
-    "period": 1,
-    "period_start": "2026-10-14T11:02:53.675394+00:00",
-    "start_equity": 10000.0,
-    "btc_start": 83316.4785,
+    "period": 2,
+    "period_start": "2026-11-11T11:31:19.812910+00:00",
+    "start_equity": 8562.4,
+    "btc_start": 73982.83,
     "target_pct": 20.0,
     "milestones": []
   },
@@ -3736,5 +3736,15 @@
         "up12h": 33
       }
     }
-  }
+  },
+  "goal_history": [
+    {
+      "period": 1,
+      "start": "2026-10-14T11:02:53.675394+00:00",
+      "end": "2026-11-11T11:31:19.812910+00:00",
+      "return_pct": -14.38,
+      "btc_pct": -11.2,
+      "milestones": []
+    }
+  ]
 }
