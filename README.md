@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 11-11-2026 05:31_
+_Laatst bijgewerkt: 11-11-2026 06:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,540.54** |
+| Waarde portefeuille | **$8,540.91** |
 | Cash | $4,330.80 (51%) |
 | Rendement AI sinds 14-10-2026 13:02 | **-14.59%** |
-| Ter vergelijking: gewoon BTC vasthouden | -11.66% |
-| Verschil | -2.93% |
+| Ter vergelijking: gewoon BTC vasthouden | -11.67% |
+| Verschil | -2.92% |
 | Doel periode 1 (t/m 11-11-2026) | **+20%** |
 | Rendement deze periode | **-14.59%** |
 | Gehaalde mijlpalen | nog geen |
 | Daling vanaf de top ($10,000) | -14.59% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 29 (Fear) |
-| Kronos-voorspelling | 30 munten (berekend om 05:01); richting op 4u goed: 55% (n=1506, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 200s; richting op 4u goed: 55% (n=1504, 50% = gokken) |
 
 ## Strategie van de AI (sinds 11-11-2026 03:01)
 
@@ -38,7 +38,7 @@ _Dit venster deed ik het beter dan BTC (-1,39% vs -2,87%) dankzij het strikte 50
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,209.74 | 49.3% | -7.8% | 49.3% | +0.3% (67% omhoog) |  |
+| BTC/USD | $4,210.11 | 49.3% | -7.8% | 49.3% | +0.1% (67% omhoog) |  |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 11-11-2026 06:01 | $8,541 | -14.59% | -11.67% | 0 |
 | 11-11-2026 05:31 | $8,541 | -14.59% | -11.66% | 0 |
 | 11-11-2026 05:01 | $8,545 | -14.55% | -11.57% | 0 |
 | 11-11-2026 04:31 | $8,546 | -14.54% | -11.59% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 11-11-2026 01:31 | $8,538 | -14.62% | -11.68% | 0 |
 | 11-11-2026 01:01 | $8,546 | -14.54% | -11.60% | 0 |
 | 11-11-2026 00:31 | $8,542 | -14.58% | -11.65% | 0 |
-| 11-11-2026 00:01 | $8,540 | -14.60% | -11.74% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
