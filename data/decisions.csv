@@ -2900,3 +2900,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-11T18:01:19.842034+00:00,11-11-2026 19:01,,BTC/USD,49.6,49.6,houden,,,
 2026-11-11T18:31:09.880757+00:00,11-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.6,50.0,houden,,,"Defensieve default in bevestigd risk-off regime; geen doorbraak boven $76k, dus plafond van 50% blijft gelden."
 2026-11-11T19:01:21.461951+00:00,11-11-2026 20:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.5,60.0,buy,897.59,gekocht $897.59,"Brede bounce met 66% coins groen rechtvaardigt een stap omhoog; 24u-momentum nog niet bevestigd, dus gedeeltelijk en met cashbuffer."
+2026-11-11T19:31:12.617443+00:00,11-11-2026 20:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,59.7,60.0,houden,,,"Bounce vanaf 7d-bodem met 64% breadth groen, maar mediane 24u +0,93% haalt de +2%-opschaaldrempel niet; 60% aanhouden, 40% cash als munitie."
