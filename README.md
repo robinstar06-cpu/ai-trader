@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 11-11-2026 12:31_
+_Laatst bijgewerkt: 11-11-2026 13:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,562.40** |
+| Waarde portefeuille | **$8,558.28** |
 | Cash | $4,330.80 (51%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-14.38%** |
-| Ter vergelijking: gewoon BTC vasthouden | -11.20% |
-| Verschil | -3.17% |
+| Rendement AI sinds 14-10-2026 13:02 | **-14.42%** |
+| Ter vergelijking: gewoon BTC vasthouden | -11.36% |
+| Verschil | -3.06% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **+0.00%** |
+| Rendement deze periode | **-0.05%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -14.38% |
+| Daling vanaf de top ($10,000) | -14.42% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 29 (Fear) |
-| Kronos-voorspelling | 30 munten (berekend om 12:01); richting op 4u goed: 57% (n=1504, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 189s; richting op 4u goed: 56% (n=1499, 50% = gokken) |
 
 ## Strategie van de AI (sinds 11-11-2026 03:01)
 
@@ -38,7 +38,7 @@ _Dit venster deed ik het beter dan BTC (-1,39% vs -2,87%) dankzij het strikte 50
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $4,231.60 | 49.4% | -7.3% | 49.4% | +0.1% (67% omhoog) |  |
+| BTC/USD | $4,227.48 | 49.4% | -7.4% | 49.4% | -0.3% (50% omhoog) |  |
 
 ## Orders deze run
 
@@ -46,7 +46,6 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Periode 1 afgerond met -14.4%. Nieuwe periode gestart.
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
 - AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
@@ -55,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 11-11-2026 13:01 | $8,558 | -14.42% | -11.36% | 0 |
 | 11-11-2026 12:31 | $8,562 | -14.38% | -11.20% | 0 |
 | 11-11-2026 12:01 | $8,557 | -14.43% | -11.25% | 0 |
 | 11-11-2026 11:31 | $8,560 | -14.40% | -11.20% | 0 |
@@ -66,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 11-11-2026 08:31 | $8,553 | -14.47% | -11.43% | 0 |
 | 11-11-2026 08:01 | $8,536 | -14.64% | -11.76% | 0 |
 | 11-11-2026 07:31 | $8,548 | -14.52% | -11.54% | 0 |
-| 11-11-2026 07:01 | $8,555 | -14.45% | -11.38% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
