@@ -2908,3 +2908,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-11T22:32:15.708740+00:00,11-11-2026 23:32,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.9,50.0,houden,,,"Regelplafond actief: 7d-mediaan diep negatief en breadth 24% groen, dus niet opschalen; BTC boven $73k dus ook niet afbouwen."
 2026-11-11T23:01:23.785836+00:00,12-11-2026 00:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.7,50.0,houden,,,"Plafondregel actief: breadth 15% groen en 7d-mediaan -11,5%, dus geen opbouw; BTC boven $73k dus ook geen afbouw. Wachten op doorbraak $76k of brede omslag."
 2026-11-11T23:31:16.369202+00:00,12-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.7,50.0,houden,,,Relatieve sterkte in risk-off markt; op regelplafond van 50% zolang breadth en 7d-mediaan diep negatief zijn. Geen trigger om af te bouwen ($73k) of op te schalen.
+2026-11-12T00:01:24.110638+00:00,12-11-2026 01:01,,BTC/USD,49.8,49.8,houden,,,
