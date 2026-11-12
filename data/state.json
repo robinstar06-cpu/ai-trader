@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-11-03T20:31:23.598395+00:00",
-      "time_local": "03-11-2026 21:31",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 50.0
-      },
-      "summary": "De markt blijft in een negatief 7d-regime (mediaan -4,39%) met dode volumes (BTC 0,26%/u) en Fear & Greed op 26, ondanks een zwakke kortetermijn-bounce (29/33 groen, +1,67% 24u). BTC hangt op $77,7k, boven mijn afbouw-niveau ($76k) maar ruim onder mijn opschaal-anker ($80k), dus geen van mijn trigge",
-      "equity": 8966.48,
-      "prices": {
-        "BTC/USD": 77674.185
-      }
-    },
-    {
       "time": "2026-11-03T21:01:32.866126+00:00",
       "time_local": "03-11-2026 22:01",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1332,12 +1319,25 @@
       "prices": {
         "BTC/USD": 73704.1685
       }
+    },
+    {
+      "time": "2026-11-12T09:31:06.554452+00:00",
+      "time_local": "12-11-2026 10:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 50.0
+      },
+      "summary": "De markt is diep risk-off: slechts 1 van 33 coins groen op 24u, mediane 24u -2,62% en 7d-mediaan -12,27%, met Fear & Greed op 28. BTC houdt zich opmerkelijk sterk (24u slechts -0,48%) en blijft net boven $73k, terwijl alts zwaar bloeden.",
+      "equity": 8517.96,
+      "prices": {
+        "BTC/USD": 73367.86
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-11T23:31:16.369202+00:00",
-    "time_local": "12-11-2026 00:31",
-    "text": "Ik handhaaf BTC op 50% en cash op 50% — mijn regelgebaseerde plafond zolang de 7d-mediaan diep negatief (-11,65%) is én breadth extreem zwak (6% groen). Geen alt-sleeve: die regel vereist een niet-negatieve BTC 7d-mediaan. Opschalen naar 65-70% doe ik alleen bij een brede omslag (breadth >60% groen én mediane 24u > +2%) of een 4u-sluiting boven $76k. Bij verlies van $73k bouw ik af richting 40%. Kronos (54%, ruis) stuurt niet mee. Geen micro-churn: ik wacht op een niveaudoorbraak of volume-uitbraak. Doel +20% blijft staan, maar ik jaag het niet met een te grote positie in dit risk-off regime."
+    "time": "2026-11-12T09:31:06.554452+00:00",
+    "time_local": "12-11-2026 10:31",
+    "text": "Ik handhaaf BTC op 50% en cash op 50% — mijn plafond zolang breadth extreem zwak is (1/33 groen) en de 7d-mediaan diep negatief (-12,3%). Geen alt-sleeve: die regel vereist een niet-negatieve BTC 7d-mediaan. Opschalen naar 65-70% doe ik alleen bij een brede omslag (breadth >60% groen én mediane 24u > +2%) of een 4u-sluiting boven $76k. Bij verlies van $73k bouw ik af richting 40%. Kronos (52,6%, ruis) stuurt niet mee. Geen micro-churn: ik wacht op een niveaudoorbraak of volume-uitbraak. Doel +20% blijft staan, maar ik jaag het niet met een te grote positie in dit risk-off regime."
   },
   "lessons": [
     "Breadth-omslag is een opschaal-trigger: als na een capitulatie ≥60% van de coins groen is op 24u én de mediane 24u-verandering > +2%, verhoog BTC-blootstelling in één stap van 50% naar 65-70%. De 7d-mediaan loopt per definitie achter en mag die stap ",
