@@ -2949,3 +2949,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-12T19:01:23.637689+00:00,12-11-2026 20:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,39.9,40.0,houden,,,"Houd 40% aan: diep risk-off, geen omslagbevestiging; 60% cash als droog kruit voor een bevestigde bounce."
 2026-11-12T19:31:11.823100+00:00,12-11-2026 20:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,39.9,40.0,houden,,,"Bestaande kernpositie; markt diep risk-off en op 7d-bodem, al afgebouwd vandaag, wacht op bevestiging voor meer of minder."
 2026-11-12T20:01:24.123892+00:00,12-11-2026 21:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,39.9,40.0,houden,,,"Boven $70k-anker, dus geen de-risk; geen dubbele bevestiging voor opschalen. Handhaven op 40%."
+2026-11-12T20:31:19.823636+00:00,12-11-2026 21:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,39.9,40.0,houden,,,"Boven $70k-anker, dus aanhouden; pas afbouwen bij 4u-sluiting onder $70k, opschalen alleen bij bevestigde omslag."

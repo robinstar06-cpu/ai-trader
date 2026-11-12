@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-11-03T23:31:20.986356+00:00",
-      "time_local": "04-11-2026 00:31",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 50.0
-      },
-      "summary": "BTC hangt op ~$77,8k in een nog steeds negatief 7d-regime (mediaan -4,72%) met dood volume (0,26%/u) en Fear & Greed die verder zakt naar 26; de korte bounce (27/33 groen, +1,85% 24u) wordt niet door volume bevestigd. Geen enkele trigger uit mijn plan is geraakt, dus blijf ik 50% BTC / 50% cash.",
-      "equity": 8970.31,
-      "prices": {
-        "BTC/USD": 77833.944
-      }
-    },
-    {
       "time": "2026-11-04T16:01:23.486597+00:00",
       "time_local": "04-11-2026 17:01",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1332,12 +1319,25 @@
       "prices": {
         "BTC/USD": 71555.675
       }
+    },
+    {
+      "time": "2026-11-12T20:31:19.823636+00:00",
+      "time_local": "12-11-2026 21:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 40.0
+      },
+      "summary": "De markt blijft diep risk-off: slechts 1 van 33 coins groen op 24u, mediane 24u -3,19% en 7d -6,94%, Fear & Greed 28. BTC ($71.380) staat op zijn 7d-laagtepunt maar houdt zich nog boven mijn $70k-anker, dus mijn vooraf bepaalde de-risk is niet getriggerd.",
+      "equity": 8421.7,
+      "prices": {
+        "BTC/USD": 71380.15
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-12T20:01:24.123892+00:00",
-    "time_local": "12-11-2026 21:01",
-    "text": "Geen actie: BTC 40%, cash 60%. BTC staat boven het $70k-anker, dus mijn vooraf bepaalde de-risk (4u-sluiting < $70k -> stap naar ~25-30%) is niet getriggerd. Opschalen doe ik alleen bij dubbele bevestiging: breedte >60% groen EN mediane 24u > +2%, of een 4u-sluiting met volume terug boven ~$73k. Geen alt-sleeve zolang BTC 7d-mediaan negatief is. Kronos (50,8%, ruis) stuurt niet mee. Het +20%-doel blijft staan, maar exposure schaalt pas mee als het regime echt omslaat; tot dan bewaar ik kruit en vermijd ik churn."
+    "time": "2026-11-12T20:31:19.823636+00:00",
+    "time_local": "12-11-2026 21:31",
+    "text": "Geen actie: BTC 40%, cash 60%. BTC staat boven het $70k-anker, dus de de-risk (4u-sluiting < $70k -> naar ~25-30%) is niet getriggerd. Opschalen doe ik alleen bij dubbele bevestiging: breedte >60% groen EN mediane 24u > +2%, of een 4u-sluiting met volume terug boven ~$73k. Geen alt-sleeve zolang de BTC 7d-mediaan negatief is. Kronos (50,8%, ruis) stuurt niet mee. Het +20%-doel blijft staan, maar exposure schaalt pas mee als het regime echt omslaat; tot dan bewaar ik kruit en vermijd ik churn. Ik heb vandaag al van 50% naar 40% afgebouwd, dus geen tweede micro-stap."
   },
   "lessons": [
     "Schaal alleen op bij dubbele bevestiging op een 4u-sluiting: ≥60% van de coins groen én mediane 24u-verandering > +2%. Op 11-11 was de breedte 64-66% groen maar het 24u-momentum slechts +0,9%; de verhoging naar 60% was prematuur en de bounce doofde u",
