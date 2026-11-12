@@ -2945,3 +2945,4 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-12T17:01:23.959572+00:00,12-11-2026 18:01,,BTC/USD,49.0,49.0,houden,,,
 2026-11-12T17:31:19.388839+00:00,12-11-2026 18:31,,BTC/USD,49.1,49.1,houden,,,
 2026-11-12T18:01:25.089815+00:00,12-11-2026 19:01,,BTC/USD,49.1,49.1,houden,,,
+2026-11-12T18:31:20.203878+00:00,12-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,49.1,40.0,sell,767.94,verkocht 0.010677873,"Afbouw volgens plan: $73k-steun verloren, breed risk-off (0/33 groen), dus risico verlagen richting 40% en cash opvoeren."
