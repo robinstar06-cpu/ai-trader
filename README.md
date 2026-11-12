@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 12-11-2026 23:31_
+_Laatst bijgewerkt: 13-11-2026 00:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,417.33** |
+| Waarde portefeuille | **$8,414.87** |
 | Cash | $5,063.65 (60%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-15.83%** |
-| Ter vergelijking: gewoon BTC vasthouden | -14.29% |
-| Verschil | -1.54% |
+| Rendement AI sinds 14-10-2026 13:02 | **-15.85%** |
+| Ter vergelijking: gewoon BTC vasthouden | -14.48% |
+| Verschil | -1.38% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-1.69%** |
+| Rendement deze periode | **-1.72%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -15.83% |
+| Daling vanaf de top ($10,000) | -15.85% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 28 (Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 23:01); richting op 4u goed: 50% (n=1479, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 237s; richting op 4u goed: 50% (n=1479, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-De markt blijft diep risk-off: slechts 7 van 33 coins groen op 24u, mediane 24u -1,69% en 7d-mediaan -5,40%, Fear & Greed 28. BTC ($71.411) hangt op zijn 7d-laagtepunt (range7d_pos 1,25) met RSI 30, maar blijft boven mijn de-risk-anker van $70k.
+De markt blijft diep risk-off: BTC op zijn 7d-laagtepunt ($71.256, range7d_pos 0.00), RSI 1d 30, Fear & Greed 28. Breedte verbetert traag (1→7 van 33 groen) en de mediane 24u verscherpt van -3,3% naar -1,1%, maar dat is nog steeds verre van een bevestigde omslag.
 
-## Strategie van de AI (sinds 12-11-2026 23:31)
+## Strategie van de AI (sinds 13-11-2026 00:01)
 
-Geen actie: BTC 40%, cash 60%. De dubbele bevestiging voor opschalen (breedte >60% groen EN mediane 24u > +2%) is er niet — breedte 21%, mediaan -1,69%. De-risk pas bij een 4u-sluiting onder $70k. Het +20%-doel blijft staan, maar exposure schaalt pas mee als het regime echt omslaat; tot dan bewaar ik kruit en vermijd ik micro-churn. Kronos (50,4%, ruis) stuurt niet mee. Breedte verbetert traag (1→7 groen), maar dat is nog geen setup.
+Geen actie: BTC 40%, cash 60%. De dubbele bevestiging om op te schalen (≥60% van de coins groen ÉN mediane 24u > +2%) is er niet — breedte 21%, mediaan -1,07%. Verkopen op het 7d-laagtepunt in extreme angst is de slechtste optie; opbouwen zonder bevestiging evenmin. Ik wacht op een 4u-sluiting met echte breedte- en momentumomslag, dan schaal ik in stappen van 10-15pp op richting 70%. De-risk pas bij een duidelijke 4u-sluiting onder het herijkte anker (~$71.900) mét volume. Kronos (50,2%, ruis) stuurt niet mee. Geen micro-churn.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,7 +42,7 @@ _Het portfolio deed -1,82% tegenover BTC -3,78%: onderwogen blijven in een brede
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $3,353.68 | 39.8% | -9.1% | 40.0% | +1.2% (100% omhoog) | Boven $70k-anker, geen bevestigde omslag; handhaaf 40% en 60% cash, geen churn. |
+| BTC/USD | $3,351.22 | 39.8% | -9.2% | 40.0% | +2.1% (100% omhoog) | Houd 40% aan: diep oversold op 7d-low, maar geen bevestigde omslag; verkopen op de bodem of bijkopen zonder bevestiging zijn beide slecht. Kruit droog houden voor een echte setup. |
 
 ## Orders deze run
 
@@ -56,6 +56,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-11-2026 00:01 | $8,415 | -15.85% | -14.48% | 0 |
 | 12-11-2026 23:31 | $8,417 | -15.83% | -14.29% | 0 |
 | 12-11-2026 23:01 | $8,422 | -15.78% | -14.32% | 0 |
 | 12-11-2026 22:31 | $8,423 | -15.77% | -14.16% | 0 |
@@ -67,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 12-11-2026 19:31 | $8,441 | -15.59% | -13.71% | 1 |
 | 12-11-2026 19:01 | $8,439 | -15.61% | -13.74% | 0 |
 | 12-11-2026 18:31 | $8,445 | -15.55% | -13.65% | 0 |
-| 12-11-2026 18:01 | $8,431 | -15.69% | -13.95% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
