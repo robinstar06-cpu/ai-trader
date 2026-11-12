@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 12-11-2026 20:01_
+_Laatst bijgewerkt: 12-11-2026 20:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,429.69** |
+| Waarde portefeuille | **$8,419.94** |
 | Cash | $5,063.65 (60%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-15.70%** |
-| Ter vergelijking: gewoon BTC vasthouden | -14.05% |
-| Verschil | -1.65% |
+| Rendement AI sinds 14-10-2026 13:02 | **-15.80%** |
+| Ter vergelijking: gewoon BTC vasthouden | -14.23% |
+| Verschil | -1.57% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-1.55%** |
+| Rendement deze periode | **-1.66%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -15.70% |
+| Daling vanaf de top ($10,000) | -15.80% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 28 (Fear) |
-| Kronos-voorspelling | 30 munten in 266s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 51% (n=1479, 50% = gokken) |
+| Kronos-voorspelling | 30 munten (berekend om 20:01); richting op 4u goed: 51% (n=1479, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-De markt blijft diep risk-off: slechts 1 van 33 coins groen op 24u, mediane 24u -3,21% en 7d -7,81%, Fear & Greed 28. BTC ($71.609) hangt op 1,25% van zijn 7d-bereik met RSI 1d ~30 — oversold maar zonder enig omslagsignaal. Mijn 40%-positie en 60% cash passen bij dit bevestigde downtrend-regime.
+De markt is diep risk-off: slechts 1 van 33 coins groen op 24u, mediane 24u -3,25% en 7d -7,96%, Fear & Greed 28. BTC ($71.459) staat op zijn 7d-laagtepunt (range7d_pos 0,00) met RSI 30 en blijft onder mijn $73k-anker. Ik houd 40% BTC / 60% cash aan: al één keer afgebouwd vandaag, en op de bodem met extreme angst verkoop ik niet verder zonder nieuwe bevestiging.
 
-## Strategie van de AI (sinds 12-11-2026 20:01)
+## Strategie van de AI (sinds 12-11-2026 20:31)
 
-Ik houd BTC op 40% en cash op ~60%: geen nieuwe actie, want er is geen 4u-sluiting door een vooraf bepaald niveau en vandaag is al één keer afgebouwd (50%->40%). Opschalen doe ik pas bij dubbele bevestiging: breedte >60% groen én mediane 24u > +2%, of een 4u-sluiting boven een nieuw anker (~$73k). Nieuwe anker $73k; een 4u-sluiting daaronder is een verdere de-risk. Geen alt-sleeve zolang de BTC 7d-mediaan negatief is. Kronos (50,7%, ruis) stuurt niet mee. Het +20%-doel blijft staan, maar ik jaag het niet met een te grote positie in een dalende markt — ik laat exposure meeschalen zodra het regime écht omslaat.
+Geen actie: BTC 40%, cash 60%. Ik heb vandaag al verlaagd (50%->40%) bij de ankerbreuk; verdere verkoop op de 7d-bodem met RSI 30 en extreme angst is bodemvissen en levert vooral churn op. Nieuw lager anker $70k: een 4u-sluiting daaronder is een echte verdere de-risk (stap naar ~25-30%). Opschalen doe ik alleen bij dubbele bevestiging: breedte >60% groen én mediane 24u > +2%, of een 4u-sluiting terug boven ~$73k met volume. Geen alt-sleeve zolang BTC 7d-mediaan negatief is. Kronos (50,7%, ruis) stuurt niet mee. Het +20%-doel blijft staan, maar exposure schaalt pas mee als het regime écht omslaat.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,7 +42,7 @@ _Het portfolio deed -1,82% tegenover BTC -3,78%: onderwogen blijven in een brede
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $3,366.04 | 39.9% | -8.8% | 40.0% | +1.4% (100% omhoog) | Houd 40% aan: diep risk-off, geen omslagbevestiging; 60% cash als droog kruit voor een bevestigde bounce. |
+| BTC/USD | $3,356.29 | 39.9% | -9.0% | 40.0% | +1.4% (100% omhoog) | Bestaande kernpositie; markt diep risk-off en op 7d-bodem, al afgebouwd vandaag, wacht op bevestiging voor meer of minder. |
 
 ## Orders deze run
 
@@ -50,13 +50,13 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Dagelijkse evaluatie gedaan door deepseek-ai/deepseek-v4.1-flash.
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 12-11-2026 20:31 | $8,420 | -15.80% | -14.23% | 0 |
 | 12-11-2026 20:01 | $8,430 | -15.70% | -14.05% | 0 |
 | 12-11-2026 19:31 | $8,441 | -15.59% | -13.71% | 1 |
 | 12-11-2026 19:01 | $8,439 | -15.61% | -13.74% | 0 |
@@ -68,7 +68,6 @@ Geen orders (verdeling blijft gelijk).
 | 12-11-2026 16:01 | $8,416 | -15.84% | -14.25% | 0 |
 | 12-11-2026 15:31 | $8,438 | -15.62% | -13.74% | 0 |
 | 12-11-2026 15:01 | $8,470 | -15.30% | -13.00% | 0 |
-| 12-11-2026 14:31 | $8,478 | -15.22% | -12.84% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
