@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 13-11-2026 02:02_
+_Laatst bijgewerkt: 13-11-2026 02:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,402.07** |
+| Waarde portefeuille | **$8,402.18** |
 | Cash | $5,063.65 (60%) |
 | Rendement AI sinds 14-10-2026 13:02 | **-15.98%** |
-| Ter vergelijking: gewoon BTC vasthouden | -14.85% |
-| Verschil | -1.13% |
+| Ter vergelijking: gewoon BTC vasthouden | -14.71% |
+| Verschil | -1.27% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
 | Rendement deze periode | **-1.87%** |
 | Gehaalde mijlpalen | nog geen |
 | Daling vanaf de top ($10,000) | -15.98% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 20 (Extreme Fear) |
-| Kronos-voorspelling | 33 munten in 236s; richting op 4u goed: 51% (n=1486, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 02:02); richting op 4u goed: 51% (n=1486, 50% = gokken) |
 
 ## Strategie van de AI (sinds 13-11-2026 01:31)
 
@@ -38,7 +38,7 @@ _Het portfolio deed -1,82% tegenover BTC -3,78%: onderwogen blijven in een brede
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $3,338.42 | 39.7% | -9.5% | 39.7% | +2.3% (100% omhoog) |  |
+| BTC/USD | $3,338.53 | 39.7% | -9.5% | 39.7% | +2.3% (100% omhoog) |  |
 
 ## Orders deze run
 
@@ -54,6 +54,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-11-2026 02:31 | $8,402 | -15.98% | -14.71% | 0 |
 | 13-11-2026 02:02 | $8,402 | -15.98% | -14.85% | 0 |
 | 13-11-2026 01:31 | $8,402 | -15.98% | -14.57% | 0 |
 | 13-11-2026 01:01 | $8,413 | -15.87% | -14.31% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 12-11-2026 22:01 | $8,416 | -15.84% | -14.29% | 0 |
 | 12-11-2026 21:31 | $8,422 | -15.78% | -14.33% | 0 |
 | 12-11-2026 21:01 | $8,424 | -15.76% | -14.12% | 0 |
-| 12-11-2026 20:31 | $8,420 | -15.80% | -14.23% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
