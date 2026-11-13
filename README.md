@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 13-11-2026 20:31_
+_Laatst bijgewerkt: 13-11-2026 21:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,303.94** |
+| Waarde portefeuille | **$8,302.95** |
 | Cash | $5,063.65 (61%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-16.96%** |
-| Ter vergelijking: gewoon BTC vasthouden | -17.25% |
-| Verschil | +0.29% |
+| Rendement AI sinds 14-10-2026 13:02 | **-16.97%** |
+| Ter vergelijking: gewoon BTC vasthouden | -17.23% |
+| Verschil | +0.26% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-3.02%** |
+| Rendement deze periode | **-3.03%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -16.96% |
+| Daling vanaf de top ($10,000) | -16.97% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 20 (Extreme Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 20:01); richting op 4u goed: 50% (n=1508, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 246s; richting op 4u goed: 51% (n=1509, 50% = gokken) |
 
 ## Strategie van de AI (sinds 13-11-2026 01:31)
 
@@ -23,22 +23,22 @@ Geen actie: BTC 40%, cash 60%. De dubbele bevestiging om op te schalen (≥60% v
 
 ## Lessen uit de dagelijkse evaluatie
 
-_Het portfolio deed -1,82% tegenover BTC -3,78%: onderwogen blijven in een brede risk-off markt werkte, en de verlaging naar 40% bij de breuk onder het anker op 12-11 was correct. De enige echte fout was de verhoging naar 60% op 11-11 op basis van breedte alleen, terwijl het 24u-momentum (+0,9%) onder de drempel bleef — die bounce doofde uit. Met -1,55% deze periode tegen een doel van +20% loop ik achter, maar dat komt vooral doordat het regime nog niet is omgeslagen; opschalen moet pas bij bevestiging._
+_De afgelopen 24u heb ik met 40% BTC-exposure de schade beperkt: -1,65% versus -4,08% voor buy-and-hold, en periodebreed -3,03% versus -6,78% BTC. Dat is precies wat een defensieve positie in een bevestigd risk-off regime hoort te doen, maar het doel (+20% in 28 dagen) komt zo geen stap dichterbij: daarvoor is een regimeomslag nodig die er nog niet is. Mijn grootste fout was niet de richting maar de herhaling: twaalf vrijwel identieke 40%-beslissingen in zes uur leverden nul extra rendement op enkel aandachtverlies._
 
-- Schaal alleen op bij dubbele bevestiging op een 4u-sluiting: ≥60% van de coins groen én mediane 24u-verandering > +2%. Op 11-11 was de breedte 64-66% groen maar het 24u-momentum slechts +0,9%; de verhoging naar 60% was prematuur en de bounce doofde u
+- Blootstellingsplafond in bevestigd risk-off: 40-50% BTC zolang Fear & Greed ≤30, BTC op of onder zijn 7d-laagtepunt staat en <25% van de coins groen is. Dit leverde -1,65% vs -4,08% BTC. Ga niet onder 30% zonder een 4u-sluiting met volume onder een v
+- Schaal alleen op bij dubbele bevestiging op een 4u-sluiting: ≥60% van de coins groen én mediane 24u-verandering > +2%. Eén van de twee is geen signaal; de verhoging naar 60% op 11-11 was prematuur en de bounce doofde uit.
 - De 7d-mediaan is een lagging filter: gebruik hem om af te bouwen, niet om opbouw te blokkeren. Een 7d-mediaan < -2% is op zichzelf geen reden om onder 50% te blijven wanneer breadth én 24u-momentum al duidelijk omgeslagen zijn.
-- Exposureplafond: max 50% BTC zolang 7d-mediaan < -2% én <50% van de coins groen; pas bij bevestigde omslag (les 1) mag het plafond naar 70%. Herijk het anker — BTC staat nu ~$71.900, het $76k-anker is dood. Een 4u-sluiting onder het anker is een de-r
-- Alt-sleeve: max 2-3% per alt en alleen als de 7d-mediaan van BTC niet negatief is. Geen uitzonderingen — ETH op 20% was 5-7x de regel en kostte -7,7% zonder meerwaarde.
-- Geen micro-churn: de ~15 vrijwel identieke 50%-beslissingen leverden samen ~0,0% extra op. Wijzig alleen bij een 4u-sluiting door een vooraf bepaald niveau, in stappen van ~10-15pp, maximaal 1-2x per dag.
-- Kronos volledig uit het proces: 50,7% op 1479 forecasts is een muntgooi. Richting en positiegrootte komen alleen uit anker, breadth, 7d-mediaan en volume.
-- Een range zonder richting is geen setup: BTC hing 30+ uur in een band van <1% met Fear & Greed 28-32. Lage RSI plus angst is geen koopsignaal zolang er geen niveaudoorbraak of volume-uitbraak is; een neerwaartse niveaudoorbraak is wél een reden om af
-- Doeldiscipline: +20% in 28 dagen vraagt ~0,66% per dag samengesteld; met 50% exposure moet BTC ~1,3% per dag doen. Jaag het doel niet met een te grote positie, maar laat de blootstelling wél meeschalen zodra het regime bevestigd omslaat — anders is h
+- Herijk het anker: BTC staat nu ~$71.300, het $76k-anker is dood. Definieer het anker als de 7d-laag/rangegrens. Een 4u-sluiting met volume onder het anker = -10-15pp; een 4u-sluiting boven de bovenkant van de 30u-range = +10-15pp.
+- Geen micro-churn: twaalf vrijwel identieke 40%-beslissingen in zes uur leverden samen ~0,0% extra op. Wijzig alleen bij een 4u-sluiting door een vooraf bepaald niveau, in stappen van 10-15pp, maximaal 1-2x per dag — en herhaal dezelfde view niet elke
+- Kronos volledig uit het proces: 50,6% op 1509 forecasts is een muntgooi. Richting en positiegrootte komen alleen uit anker, breadth, 7d-mediaan en volume.
+- Een range zonder richting is geen setup: BTC hing 30+ uur in een band van <1% met Fear & Greed 20-28. Lage RSI plus angst is geen koopsignaal zolang er geen niveaudoorbraak of volume-uitbraak is; een neerwaartse niveaudoorbraak is wél een reden om af
+- Doeldiscipline met realisme: +20% in 28 dagen vraagt ~0,66% per dag samengesteld; met 40-50% exposure moet BTC ~1,3-1,6% per dag stijgen. In een bear-regime is dat doel waarschijnlijk niet haalbaar — bescherm kapitaal en laat de blootstelling alleen 
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $3,240.29 | 39.0% | -11.5% | 39.0% | +1.7% (100% omhoog) |  |
+| BTC/USD | $3,239.30 | 39.0% | -11.5% | 39.0% | +2.2% (100% omhoog) |  |
 
 ## Orders deze run
 
@@ -46,7 +46,7 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Dagelijkse evaluatie mislukt: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life o
+- Dagelijkse evaluatie gedaan door deepseek-ai/deepseek-v4.1-flash.
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
 - AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
@@ -55,6 +55,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 13-11-2026 21:01 | $8,303 | -16.97% | -17.23% | 0 |
 | 13-11-2026 20:31 | $8,304 | -16.96% | -17.25% | 0 |
 | 13-11-2026 20:01 | $8,295 | -17.05% | -17.38% | 0 |
 | 13-11-2026 19:31 | $8,297 | -17.03% | -17.38% | 0 |
@@ -66,7 +67,6 @@ Geen orders (verdeling blijft gelijk).
 | 13-11-2026 16:31 | $8,272 | -17.28% | -17.95% | 0 |
 | 13-11-2026 16:01 | $8,300 | -17.00% | -17.35% | 0 |
 | 13-11-2026 15:31 | $8,315 | -16.85% | -16.97% | 0 |
-| 13-11-2026 15:01 | $8,326 | -16.74% | -16.70% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
