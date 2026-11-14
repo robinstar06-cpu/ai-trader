@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-11-04T22:01:15.125978+00:00",
-      "time_local": "04-11-2026 23:01",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 60.0,
-        "ETH/USD": 20.0
-      },
-      "summary": "BTC heeft met oplopend volume (0,56%/u) boven $80k gebroken en de breedte is sterk (30/33 groen, mediaan 24u +2,45%), terwijl Fear & Greed herstelt van 26 naar 34. Toch blijft de 7d-mediaan negatief (-3,7%), dus dit is nog een herstel binnen een breder neerwaarts regime. ETH is de sterkste large-cap",
-      "equity": 9092.22,
-      "prices": {
-        "ETH/USD": 2417.2335,
-        "BTC/USD": 80194.1825
-      }
-    },
-    {
       "time": "2026-11-04T22:31:12.389926+00:00",
       "time_local": "04-11-2026 23:31",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1322,12 +1307,25 @@
       "prices": {
         "BTC/USD": 71179.6875
       }
+    },
+    {
+      "time": "2026-11-14T02:31:13.855174+00:00",
+      "time_local": "14-11-2026 03:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 25.0
+      },
+      "summary": "De markt zit in een versnellende risk-off: slechts 1 van 33 coins groen, mediane 24u -3,93% en 7d -11,89%, Fear & Greed 13 (extreme angst). BTC is door het herijkte anker (~$71.900) gezakt naar $67.070 (-4,42% 24u, RSI 1d 23, range7d_pos 0.00) — een bevestigde neerwaartse niveaudoorbraak.",
+      "equity": 8210.62,
+      "prices": {
+        "BTC/USD": 67070.1695
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-13T00:31:16.989951+00:00",
-    "time_local": "13-11-2026 01:31",
-    "text": "Geen actie: BTC 40%, cash 60%. De dubbele bevestiging om op te schalen (≥60% van de coins groen ÉN mediane 24u > +2%) is er niet — breedte 24%, mediaan -1,11%, 7d-mediaan -6,64%. Zolang de 7d-mediaan < -2% en <50% van de coins groen is, blijft het BTC-plafond 50% en komt er geen alt-sleeve. Ik wacht op een 4u-sluiting met echte breedte- en momentumomslag en schaal dan in stappen van 10-15pp op richting 70%. De-risk pas bij een duidelijke 4u-sluiting onder het herijkte anker (~$71.900) mét volume. Kronos (50,5%, ruis) stuurt niet mee. Geen micro-churn."
+    "time": "2026-11-14T02:31:13.855174+00:00",
+    "time_local": "14-11-2026 03:31",
+    "text": "Mijn plan zei: de-risk 10-15pp bij een 4u-sluiting met volume onder het anker. Dat is nu gebeurd, dus ik verlaag BTC van 38% naar 25% en houd ~75% cash. Dit beschermt het kapitaal (drawdown al -17,9%, harde grens ~-25%) in een regime dat geen bodemsignaal geeft. Ik schaal pas weer op bij dubbele bevestiging op een 4u-sluiting: ≥60% van de coins groen én mediane 24u > +2%. Verdere afbouw alleen bij een nieuwe volumineuze doorbraak omlaag. Kronos (49,5%, ruis) stuurt niet mee. Geen micro-churn."
   },
   "lessons": [
     "Blootstellingsplafond in bevestigd risk-off: 40-50% BTC zolang Fear & Greed ≤30, BTC op of onder zijn 7d-laagtepunt staat en <25% van de coins groen is. Dit leverde -1,65% vs -4,08% BTC. Ga niet onder 30% zonder een 4u-sluiting met volume onder een v",
