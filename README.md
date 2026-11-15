@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 15-11-2026 06:31_
+_Laatst bijgewerkt: 15-11-2026 07:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,146.34** |
+| Waarde portefeuille | **$8,130.86** |
 | Cash | $6,160.91 (76%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-18.54%** |
-| Ter vergelijking: gewoon BTC vasthouden | -22.24% |
-| Verschil | +3.70% |
+| Rendement AI sinds 14-10-2026 13:02 | **-18.69%** |
+| Ter vergelijking: gewoon BTC vasthouden | -22.78% |
+| Verschil | +4.09% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-4.86%** |
+| Rendement deze periode | **-5.04%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -18.54% |
+| Daling vanaf de top ($10,000) | -18.69% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 10 (Extreme Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 06:01); richting op 4u goed: 43% (n=1539, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 114s; richting op 4u goed: 44% (n=1542, 50% = gokken) |
 
 ## Strategie van de AI (sinds 14-11-2026 03:31)
 
@@ -38,7 +38,7 @@ _De afgelopen 24u heb ik met 40% BTC-exposure de schade beperkt: -1,65% versus -
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $1,985.43 | 24.4% | -16.8% | 24.4% | +2.7% (100% omhoog) |  |
+| BTC/USD | $1,969.95 | 24.2% | -17.5% | 24.2% | +2.2% (100% omhoog) |  |
 
 ## Orders deze run
 
@@ -48,12 +48,13 @@ Geen orders (verdeling blijft gelijk).
 
 - Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: HTTP 500 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"message":"Internal server error","type":"Internal Server Error","code":500,"details":{"backend_status":500}}
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 15-11-2026 07:01 | $8,131 | -18.69% | -22.78% | 0 |
 | 15-11-2026 06:31 | $8,146 | -18.54% | -22.24% | 0 |
 | 15-11-2026 06:01 | $8,150 | -18.50% | -22.12% | 0 |
 | 15-11-2026 05:31 | $8,149 | -18.51% | -22.10% | 0 |
@@ -65,7 +66,6 @@ Geen orders (verdeling blijft gelijk).
 | 15-11-2026 02:31 | $8,072 | -19.28% | -25.15% | 0 |
 | 15-11-2026 02:01 | $8,101 | -18.99% | -23.94% | 0 |
 | 15-11-2026 01:31 | $8,115 | -18.85% | -23.48% | 0 |
-| 15-11-2026 01:01 | $8,124 | -18.76% | -23.09% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
