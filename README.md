@@ -1,25 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 15-11-2026 23:01_
+_Laatst bijgewerkt: 15-11-2026 23:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,150.59** |
-| Cash | $6,160.91 (76%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-18.49%** |
-| Ter vergelijking: gewoon BTC vasthouden | -22.04% |
-| Verschil | +3.55% |
+| Waarde portefeuille | **$8,152.55** |
+| Cash | $3,719.30 (46%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-18.47%** |
+| Ter vergelijking: gewoon BTC vasthouden | -21.79% |
+| Verschil | +3.32% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-4.81%** |
+| Rendement deze periode | **-4.79%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -18.49% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -18.47% |
+| Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 10 (Extreme Fear) |
-| Kronos-voorspelling | 33 munten in 115s; richting op 4u goed: 44% (n=1542, 50% = gokken) |
+| Kronos-voorspelling | 33 munten (berekend om 23:01); richting op 4u goed: 44% (n=1542, 50% = gokken) |
 
-## Strategie van de AI (sinds 14-11-2026 03:31)
+## Marktvisie van de AI
 
-Mijn plan zei: de-risk 10-15pp bij een 4u-sluiting met volume onder het anker. Dat is nu gebeurd, dus ik verlaag BTC van 38% naar 25% en houd ~75% cash. Dit beschermt het kapitaal (drawdown al -17,9%, harde grens ~-25%) in een regime dat geen bodemsignaal geeft. Ik schaal pas weer op bij dubbele bevestiging op een 4u-sluiting: ≥60% van de coins groen én mediane 24u > +2%. Verdere afbouw alleen bij een nieuwe volumineuze doorbraak omlaag. Kronos (49,5%, ruis) stuurt niet mee. Geen micro-churn.
+De markt maakt een brede bounce vanuit extreme angst (Fear & Greed 10): 33/33 coins groen op 24u en een mediane 24u van +5,74%, terwijl de 7d-mediaan nog -12,4% is en de 1d-RSI's diep oversold staan. Mijn dubbele bevestiging (≥60% groen én mediaan 24u >+2%) is daarmee gehaald, dus ik schaal op van 24,5% naar ~55% exposure. De 7d-mediaan is een lagging filter en blokkeert de opbouw niet.
+
+## Strategie van de AI (sinds 15-11-2026 23:31)
+
+Ik volg mijn eigen regel: dubbele bevestiging is binnen (100% breadth, mediaan 24u +5,74%), dus ik verhoog de blootstelling in stappen naar ~55% via een liquide mandje BTC/ETH/SOL/XRP. Ik houd ~45% cash als buffer omdat de drawdown al -18,4% is en de harde grens ~-25% ligt. Dit is een bounce in een bear-regime: ik bouw alleen verder op bij een volgende 4u-sluiting boven de bovenkant van de 30u-range, en ik snijd 10-15pp terug bij een 4u-sluiting met volume onder het anker of als breadth weer omslaat. Geen micro-churn; Kronos (44% hitrate) stuurt niet mee.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -38,22 +42,29 @@ _De afgelopen 24u heb ik met 40% BTC-exposure de schade beperkt: -1,65% versus -
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $1,989.68 | 24.4% | -16.7% | 24.4% | +1.3% (67% omhoog) |  |
+| BTC/USD | $2,439.36 | 29.9% | -13.8% | 30.0% | +1.3% (67% omhoog) | Kernpositie; dubbele bevestiging gehaald, 1d-RSI 24 diep oversold, bounce speelt. |
+| ETH/USD | $797.82 | 9.8% | -0.0% | 10.0% | -0.3% (33% omhoog) | Hoge liquiditeit, +4,8% 24u, meebewegend met brede bounce. |
+| SOL/USD | $639.65 | 7.8% | +0.2% | 8.0% | +1.0% (83% omhoog) | Hoge beta voor upside in de bounce, 1d-RSI 21 extreem oversold. |
+| XRP/USD | $556.42 | 6.8% | -0.3% | 7.0% | -0.5% (33% omhoog) | Sterkste 24u-momentum (+7,8%) in het mandje, goede liquiditeit. |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| ETH/USD | buy | $815.68 | gekocht $815.68 |
+| SOL/USD | buy | $652.54 | gekocht $652.54 |
+| XRP/USD | buy | $570.97 | gekocht $570.97 |
+| BTC/USD | buy | $451.14 | gekocht $451.14 |
 
 ## Meldingen
 
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 15-11-2026 23:31 | $8,153 | -18.47% | -21.79% | 4 |
 | 15-11-2026 23:01 | $8,151 | -18.49% | -22.04% | 0 |
 | 15-11-2026 22:31 | $8,151 | -18.49% | -22.04% | 0 |
 | 15-11-2026 22:01 | $8,154 | -18.46% | -21.92% | 0 |
@@ -65,7 +76,6 @@ Geen orders (verdeling blijft gelijk).
 | 15-11-2026 19:01 | $8,136 | -18.64% | -22.62% | 0 |
 | 15-11-2026 18:31 | $8,148 | -18.52% | -22.21% | 0 |
 | 15-11-2026 18:01 | $8,143 | -18.57% | -22.28% | 0 |
-| 15-11-2026 17:31 | $8,146 | -18.54% | -22.26% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).

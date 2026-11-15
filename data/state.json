@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-11-04T22:31:12.389926+00:00",
-      "time_local": "04-11-2026 23:31",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 60.0,
-        "ETH/USD": 20.0
-      },
-      "summary": "BTC is met oplopend volume (0,56%/u) boven $80k gebroken en de breedte is sterk (30/33 groen, mediaan 24u +3,1%), terwijl Fear & Greed herstelt van 26 naar 34. De 7d-mediaan blijft echter negatief (-3,2%) en BTC staat 7d nog op -0,7%, dus dit oogt vooralsnog als een bounce binnen een bredere downtre",
-      "equity": 9120.98,
-      "prices": {
-        "BTC/USD": 80583.6115,
-        "ETH/USD": 2431.415
-      }
-    },
-    {
       "time": "2026-11-04T23:01:15.897254+00:00",
       "time_local": "05-11-2026 00:01",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1320,12 +1305,31 @@
       "prices": {
         "BTC/USD": 67070.1695
       }
+    },
+    {
+      "time": "2026-11-15T22:31:10.567738+00:00",
+      "time_local": "15-11-2026 23:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 30.0,
+        "ETH/USD": 10.0,
+        "SOL/USD": 8.0,
+        "XRP/USD": 7.0
+      },
+      "summary": "De markt maakt een brede bounce vanuit extreme angst (Fear & Greed 10): 33/33 coins groen op 24u en een mediane 24u van +5,74%, terwijl de 7d-mediaan nog -12,4% is en de 1d-RSI's diep oversold staan. Mijn dubbele bevestiging (≥60% groen én mediaan 24u >+2%) is daarmee gehaald, dus ik schaal op van 2",
+      "equity": 8156.8,
+      "prices": {
+        "ETH/USD": 1827.08,
+        "XRP/USD": 0.9680445,
+        "SOL/USD": 72.25575,
+        "BTC/USD": 65157.754
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-14T02:31:13.855174+00:00",
-    "time_local": "14-11-2026 03:31",
-    "text": "Mijn plan zei: de-risk 10-15pp bij een 4u-sluiting met volume onder het anker. Dat is nu gebeurd, dus ik verlaag BTC van 38% naar 25% en houd ~75% cash. Dit beschermt het kapitaal (drawdown al -17,9%, harde grens ~-25%) in een regime dat geen bodemsignaal geeft. Ik schaal pas weer op bij dubbele bevestiging op een 4u-sluiting: ≥60% van de coins groen én mediane 24u > +2%. Verdere afbouw alleen bij een nieuwe volumineuze doorbraak omlaag. Kronos (49,5%, ruis) stuurt niet mee. Geen micro-churn."
+    "time": "2026-11-15T22:31:10.567738+00:00",
+    "time_local": "15-11-2026 23:31",
+    "text": "Ik volg mijn eigen regel: dubbele bevestiging is binnen (100% breadth, mediaan 24u +5,74%), dus ik verhoog de blootstelling in stappen naar ~55% via een liquide mandje BTC/ETH/SOL/XRP. Ik houd ~45% cash als buffer omdat de drawdown al -18,4% is en de harde grens ~-25% ligt. Dit is een bounce in een bear-regime: ik bouw alleen verder op bij een volgende 4u-sluiting boven de bovenkant van de 30u-range, en ik snijd 10-15pp terug bij een 4u-sluiting met volume onder het anker of als breadth weer omslaat. Geen micro-churn; Kronos (44% hitrate) stuurt niet mee."
   },
   "lessons": [
     "Blootstellingsplafond in bevestigd risk-off: 40-50% BTC zolang Fear & Greed ≤30, BTC op of onder zijn 7d-laagtepunt staat en <25% van de coins groen is. Dit leverde -1,65% vs -4,08% BTC. Ga niet onder 30% zonder een 4u-sluiting met volume onder een v",

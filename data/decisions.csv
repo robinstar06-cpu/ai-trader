@@ -3096,3 +3096,7 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-15T21:01:22.374367+00:00,15-11-2026 22:01,,BTC/USD,24.4,24.4,houden,,,
 2026-11-15T21:31:20.120002+00:00,15-11-2026 22:31,,BTC/USD,24.4,24.4,houden,,,
 2026-11-15T22:01:19.030039+00:00,15-11-2026 23:01,,BTC/USD,24.4,24.4,houden,,,
+2026-11-15T22:31:10.567738+00:00,15-11-2026 23:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,24.5,30.0,buy,451.14,gekocht $451.14,"Kernpositie; dubbele bevestiging gehaald, 1d-RSI 24 diep oversold, bounce speelt."
+2026-11-15T22:31:10.567738+00:00,15-11-2026 23:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,0.0,10.0,buy,815.68,gekocht $815.68,"Hoge liquiditeit, +4,8% 24u, meebewegend met brede bounce."
+2026-11-15T22:31:10.567738+00:00,15-11-2026 23:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,0.0,8.0,buy,652.54,gekocht $652.54,"Hoge beta voor upside in de bounce, 1d-RSI 21 extreem oversold."
+2026-11-15T22:31:10.567738+00:00,15-11-2026 23:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,0.0,7.0,buy,570.97,gekocht $570.97,"Sterkste 24u-momentum (+7,8%) in het mandje, goede liquiditeit."
