@@ -16,21 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-11-05T18:01:23.756436+00:00",
-      "time_local": "05-11-2026 19:01",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 50.0,
-        "ETH/USD": 5.0
-      },
-      "summary": "BTC is met verhoogd volume (0,74%/u) onder het anker van $76k gezakt en staat op het 7d-laagtepunt; de markt is breed risk-off (2/33 coins groen, mediaan 24u -6,87%, 7d -9,19%). Mijn vooraf bepaalde regel (BTC < $76k afbouwen) is getriggerd, dus ik verlaag de blootstelling in plaats van de dip te ko",
-      "equity": 8664.85,
-      "prices": {
-        "BTC/USD": 75705.4,
-        "ETH/USD": 2247.681
-      }
-    },
-    {
       "time": "2026-11-05T20:01:29.124103+00:00",
       "time_local": "05-11-2026 21:01",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1328,12 +1313,31 @@
         "ETH/USD": 1835.3975,
         "SOL/USD": 72.73385
       }
+    },
+    {
+      "time": "2026-11-15T23:31:17.188035+00:00",
+      "time_local": "16-11-2026 00:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 30.0,
+        "ETH/USD": 10.0,
+        "SOL/USD": 8.0,
+        "XRP/USD": 7.0
+      },
+      "summary": "De markt maakt een brede bounce vanuit extreme angst (Fear & Greed 10): 31/33 coins groen en een mediane 24u van +3,49%. Toch blijft het een bounce in een bear-regime — de 7d-mediaan is -12,5%, BTC blijft zwak (range7d_pos 19,6, RSI 1d 24) en de niveaudoorbraak ontbreekt.",
+      "equity": 8151.99,
+      "prices": {
+        "ETH/USD": 1828.9235,
+        "BTC/USD": 65101.535,
+        "SOL/USD": 72.3649,
+        "XRP/USD": 0.9722
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-15T23:01:21.430105+00:00",
-    "time_local": "16-11-2026 00:01",
-    "text": "Ik houd mijn mandje BTC/ETH/SOL/XRP op ~55% en ~45% cash: de dubbele bevestiging is nog intact (breadth 97% groen, mediane 24u +4,0% > +2%). Ik bouw alleen verder op bij een volgende 4u-sluiting boven de bovenkant van de 30u-range (+10-15pp), en snijd 10-15pp terug bij een 4u-sluiting met volume onder het anker of als breadth weer omslaat. Met een drawdown van -18,3% en een harde grens rond -25% blijft kapitaalbescherming leidend; geen micro-churn en Kronos (44,8% hitrate) stuurt niet mee."
+    "time": "2026-11-15T23:31:17.188035+00:00",
+    "time_local": "16-11-2026 00:31",
+    "text": "Ik houd mijn mandje BTC/ETH/SOL/XRP op ~55% en ~45% cash. De dubbele bevestiging (breedte 94% groen én mediaan 24u +3,49% > +2%) is aanwezig, maar de vereiste 4u-sluiting boven de bovenkant van de 30u-range ontbreekt, dus ik bouw niet op. Ik wacht op een 4u-sluiting boven de 30u-range (+10-15pp) om te verhogen, of een 4u-sluiting met volume onder het anker (-10-15pp) om af te bouwen. Geen micro-churn: ik heb 30 min geleden al beslist en er is niets materieel veranderd. Drawdown -18,5% blijft binnen de grens, maar ik forceer geen extra risico zonder niveausignaal."
   },
   "lessons": [
     "Blootstellingsplafond in bevestigd risk-off: 40-50% BTC zolang Fear & Greed ≤30, BTC op of onder zijn 7d-laagtepunt staat en <25% van de coins groen is. Dit leverde -1,65% vs -4,08% BTC. Ga niet onder 30% zonder een 4u-sluiting met volume onder een v",

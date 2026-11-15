@@ -3104,3 +3104,7 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-15T23:01:21.430105+00:00,16-11-2026 00:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,9.8,10.0,houden,,,"Hogere beta op de bounce, licht positief sinds aankoop."
 2026-11-15T23:01:21.430105+00:00,16-11-2026 00:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,7.9,8.0,houden,,,"Sterkste 24u-momentum in het mandje, Kronos licht positief."
 2026-11-15T23:01:21.430105+00:00,16-11-2026 00:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,6.9,7.0,houden,,,"Beste 24u-stijging (+6,6%) van de majors, spreiding binnen mandje."
+2026-11-15T23:31:17.188035+00:00,16-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,29.9,30.0,houden,,,"Ankerpositie; BTC blijft zwak in de 7d-range, nog geen doorbraak om op te bouwen."
+2026-11-15T23:31:17.188035+00:00,16-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,9.8,10.0,houden,,,"Bouncet mee (+3,45% 24u) maar 7d nog -13,9%; kleine kernpositie aanhouden."
+2026-11-15T23:31:17.188035+00:00,16-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,7.8,8.0,houden,,,"Sterkere bounce (+3,04% 24u), hoge bèta; positie ongewijzigd laten."
+2026-11-15T23:31:17.188035+00:00,16-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,6.9,7.0,houden,,,"Sterkste 24u-bounce (+6,39%) van het mandje; kleine positie aanhouden."
