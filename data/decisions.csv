@@ -3298,3 +3298,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-16T18:31:14.239399+00:00,16-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,LINK/USD,3.0,3.0,houden,,,"Klein aandeel, houd aan zonder churn."
 2026-11-16T18:31:14.239399+00:00,16-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,5.0,houden,,,"Klein aandeel, zwakke trend maar geen nieuwe niveaudoorbraak."
 2026-11-16T18:31:14.239399+00:00,16-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,4.0,4.0,houden,,,"Klein aandeel, vlakke 24u; wacht op bevestiging."
+2026-11-16T19:01:20.148624+00:00,16-11-2026 20:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,30.0,30.0,houden,,,"Kernpositie; geen trigger om af te bouwen of op te bouwen, range7d_pos 18,5 boven 7d-laag."
+2026-11-16T19:01:20.148624+00:00,16-11-2026 20:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,8.0,8.0,houden,,,"Kleine alt-blootstelling, zijwaarts; geen signaal om te wijzigen."
+2026-11-16T19:01:20.148624+00:00,16-11-2026 20:01,deepseek-ai/deepseek-v4.1-flash,LINK/USD,3.0,3.0,houden,,,"Kleine positie, geen setup; aanhouden."
+2026-11-16T19:01:20.148624+00:00,16-11-2026 20:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,5.0,houden,,,"Kleine positie, RSI oversold maar geen bevestiging; aanhouden."
+2026-11-16T19:01:20.148624+00:00,16-11-2026 20:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,4.0,4.0,houden,,,"Kleine positie, geen setup; aanhouden."

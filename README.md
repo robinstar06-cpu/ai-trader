@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-11-2026 19:31_
+_Laatst bijgewerkt: 16-11-2026 20:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,096.26** |
+| Waarde portefeuille | **$8,107.66** |
 | Cash | $4,059.05 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-19.04%** |
-| Ter vergelijking: gewoon BTC vasthouden | -22.31% |
-| Verschil | +3.28% |
+| Rendement AI sinds 14-10-2026 13:02 | **-18.92%** |
+| Ter vergelijking: gewoon BTC vasthouden | -22.07% |
+| Verschil | +3.15% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-5.44%** |
+| Rendement deze periode | **-5.31%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -19.04% |
+| Daling vanaf de top ($10,000) | -18.92% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 10 (Extreme Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 19:01); richting op 4u goed: 51% (n=1534, 50% = gokken) |
+| Kronos-voorspelling | 30 munten in 243s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 52% (n=1534, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-De markt blijft in diepe risk-off: Fear & Greed 10 (extreme angst), BTC $64.7k in de onderste ~17% van zijn 7d-range met RSI 1d 24 (oversold), breedte 13/33 groen en mediane 24u -0,14%. Het is een vlakke, uitgebloedde consolidatie op lage niveaus zonder richting of volume-uitbraak. Geen bevestiging voor opbouw, dus ik houd mijn blootstelling rond 50% met BTC als kern.
+De markt blijft in diepe risk-off: Fear & Greed 10 (extreme angst), slechts 10/33 coins groen, mediane 24u -0,38% en 7d -15,4%. BTC hangt op ~$64,9k in de onderste ~19% van zijn 7d-range met RSI 1d 24 (oversold), maar er is geen niveaudoorbraak of volume-uitbraak. Mijn ~50% blootstelling houdt stand zonder nieuwe trigger.
 
-## Strategie van de AI (sinds 16-11-2026 19:31)
+## Strategie van de AI (sinds 16-11-2026 20:01)
 
-Ik houd de huidige allocatie aan (~50% blootstelling, BTC 30% kern, kleine alts). Er is geen trigger: geen 4u-sluiting boven de bovenkant van de 30u-range (opbouw +10-15pp) en geen 4u-sluiting met volume onder het 7d-laagtepunt (verdere afbouw -10-15pp). In dit bear-regime gaat kapitaalbescherming voor; het +20%-doel is met 50% exposure niet realistisch. Ik mijd micro-churn en wacht op een bevestigde niveaudoorbraak met breedte én momentum voordat ik weer opbouw. Drawdown -19% blijft binnen de -25% grens.
+Geen setup, dus geen actie: ik handhaaf de huidige allocatie (BTC 30% kern, kleine alts, ~50% cash). Er is geen dubbele bevestiging (breadth 10/33 groen én mediaan 24u -0,38%, ver onder +2%) om op te bouwen, en BTC staat met range7d_pos 18,5 nog boven het 7d-laagtepunt, dus ook geen afbouwtrigger. Ik wacht op een 4u-sluiting met volume onder het anker (-10-15pp) of boven de bovenkant van de 30u-range (+10-15pp). In dit bear-regime gaat kapitaalbescherming voor; drawdown -18,9% blijft binnen de -25% grens. Kronos blijft genegeerd (52% = muntgooi).
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,11 +42,11 @@ _De afgelopen 24u heb ik met 40% BTC-exposure de schade beperkt: -1,65% versus -
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $2,421.18 | 29.9% | -14.4% | 30.0% | +0.2% (67% omhoog) | Kernpositie; sterkste relatieve performer, RSI oversold maar geen bevestiging voor opbouw. |
-| ETH/USD | $644.98 | 8.0% | -0.8% | 8.0% | +0.2% (50% omhoog) | Klein aandeel aangehouden, geen trigger om te trimmen of op te bouwen. |
-| SOL/USD | $403.89 | 5.0% | -1.1% | 5.0% | +1.2% (83% omhoog) | Klein aandeel, zwakke trend maar geen nieuwe niveaudoorbraak. |
-| XRP/USD | $323.79 | 4.0% | -1.5% | 4.0% | +0.4% (83% omhoog) | Klein aandeel, vlakke 24u; wacht op bevestiging. |
-| LINK/USD | $243.37 | 3.0% | -2.8% | 3.0% | +0.4% (67% omhoog) | Klein aandeel, houd aan zonder churn. |
+| BTC/USD | $2,430.64 | 30.0% | -14.1% | 30.0% | +0.3% (50% omhoog) | Kernpositie; geen trigger om af te bouwen of op te bouwen, range7d_pos 18,5 boven 7d-laag. |
+| ETH/USD | $645.60 | 8.0% | -0.7% | 8.0% | -0.4% (50% omhoog) | Kleine alt-blootstelling, zijwaarts; geen signaal om te wijzigen. |
+| SOL/USD | $403.01 | 5.0% | -1.3% | 5.0% | +0.7% (67% omhoog) | Kleine positie, RSI oversold maar geen bevestiging; aanhouden. |
+| XRP/USD | $326.00 | 4.0% | -0.8% | 4.0% | -0.4% (17% omhoog) | Kleine positie, geen setup; aanhouden. |
+| LINK/USD | $243.37 | 3.0% | -2.8% | 3.0% | +0.2% (50% omhoog) | Kleine positie, geen setup; aanhouden. |
 
 ## Orders deze run
 
@@ -54,12 +54,14 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
+- Dagelijkse evaluatie mislukt: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life o
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-11-2026 20:01 | $8,108 | -18.92% | -22.07% | 0 |
 | 16-11-2026 19:31 | $8,096 | -19.04% | -22.31% | 0 |
 | 16-11-2026 19:01 | $8,103 | -18.97% | -22.31% | 4 |
 | 16-11-2026 18:31 | $8,123 | -18.77% | -22.17% | 0 |
@@ -71,7 +73,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-11-2026 15:31 | $8,092 | -19.08% | -22.75% | 0 |
 | 16-11-2026 15:01 | $8,059 | -19.41% | -23.07% | 0 |
 | 16-11-2026 14:31 | $8,066 | -19.34% | -22.87% | 0 |
-| 16-11-2026 14:01 | $8,061 | -19.39% | -22.97% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
