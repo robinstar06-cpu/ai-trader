@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-11-2026 13:31_
+_Laatst bijgewerkt: 16-11-2026 14:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,051.22** |
+| Waarde portefeuille | **$8,061.03** |
 | Cash | $3,052.22 (38%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-19.49%** |
-| Ter vergelijking: gewoon BTC vasthouden | -23.32% |
-| Verschil | +3.83% |
+| Rendement AI sinds 14-10-2026 13:02 | **-19.39%** |
+| Ter vergelijking: gewoon BTC vasthouden | -22.97% |
+| Verschil | +3.58% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-5.97%** |
+| Rendement deze periode | **-5.86%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -19.49% |
+| Daling vanaf de top ($10,000) | -19.39% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 10 (Extreme Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 13:01); richting op 4u goed: 48% (n=1535, 50% = gokken) |
+| Kronos-voorspelling | 30 munten in 244s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 48% (n=1536, 50% = gokken) |
 
 ## Strategie van de AI (sinds 16-11-2026 01:01)
 
@@ -38,11 +38,11 @@ _De afgelopen 24u heb ik met 40% BTC-exposure de schade beperkt: -1,65% versus -
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $2,390.48 | 29.7% | -15.5% | 29.7% | +1.2% (83% omhoog) |  |
-| ETH/USD | $954.39 | 11.9% | -1.9% | 11.9% | +0.5% (50% omhoog) |  |
-| SOL/USD | $714.48 | 8.9% | -2.0% | 8.9% | +2.3% (100% omhoog) |  |
-| XRP/USD | $544.75 | 6.8% | -2.4% | 6.8% | -0.3% (50% omhoog) |  |
-| LINK/USD | $394.91 | 4.9% | -1.1% | 4.9% | +1.6% (67% omhoog) |  |
+| BTC/USD | $2,396.73 | 29.7% | -15.3% | 29.7% | +1.1% (83% omhoog) |  |
+| ETH/USD | $957.47 | 11.9% | -1.6% | 11.9% | -0.7% (33% omhoog) |  |
+| SOL/USD | $713.66 | 8.9% | -2.2% | 8.9% | +2.1% (100% omhoog) |  |
+| XRP/USD | $546.04 | 6.8% | -2.2% | 6.8% | +0.1% (67% omhoog) |  |
+| LINK/USD | $394.91 | 4.9% | -1.1% | 4.9% | +1.1% (67% omhoog) |  |
 
 ## Orders deze run
 
@@ -58,6 +58,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-11-2026 14:01 | $8,061 | -19.39% | -22.97% | 0 |
 | 16-11-2026 13:31 | $8,051 | -19.49% | -23.32% | 0 |
 | 16-11-2026 13:01 | $8,090 | -19.10% | -22.75% | 0 |
 | 16-11-2026 12:31 | $8,107 | -18.93% | -22.43% | 0 |
@@ -69,7 +70,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-11-2026 09:31 | $8,077 | -19.23% | -22.61% | 0 |
 | 16-11-2026 09:01 | $8,114 | -18.86% | -22.15% | 0 |
 | 16-11-2026 08:31 | $8,092 | -19.08% | -22.40% | 0 |
-| 16-11-2026 08:01 | $8,097 | -19.03% | -22.32% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
