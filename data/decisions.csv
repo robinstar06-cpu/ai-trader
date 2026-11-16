@@ -3327,3 +3327,7 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-16T21:31:15.158020+00:00,16-11-2026 22:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.0,5.0,houden,,,Alt-sleeve op plafond; geen opbouw zonder dubbele bevestiging.
 2026-11-16T21:31:15.158020+00:00,16-11-2026 22:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,3.0,3.0,houden,,,"Kleine alt-blootstelling, binnen ≤10% totaal."
 2026-11-16T21:31:15.158020+00:00,16-11-2026 22:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,2.0,2.0,houden,,,"Kleinste positie, binnen alt-plafond."
+2026-11-16T22:01:19.620892+00:00,16-11-2026 23:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,30.0,30.0,houden,,,"Kernpositie; risk-off zonder bevestigde omslag, concentreer beta in BTC."
+2026-11-16T22:01:19.620892+00:00,16-11-2026 23:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.0,5.0,houden,,,"Alt-sleeve op plafond, klein houden in diepe risk-off."
+2026-11-16T22:01:19.620892+00:00,16-11-2026 23:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,3.0,3.0,houden,,,"Alt-sleeve, extra beta zonder beloning zolang breadth zwak is."
+2026-11-16T22:01:19.620892+00:00,16-11-2026 23:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,2.0,2.0,houden,,,"Kleinste sleeve; geen signaal om te wijzigen, churn vermijden."

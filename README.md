@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-11-2026 22:31_
+_Laatst bijgewerkt: 16-11-2026 23:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,119.62** |
+| Waarde portefeuille | **$8,119.27** |
 | Cash | $4,865.65 (60%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-18.80%** |
-| Ter vergelijking: gewoon BTC vasthouden | -21.74% |
-| Verschil | +2.94% |
+| Rendement AI sinds 14-10-2026 13:02 | **-18.81%** |
+| Ter vergelijking: gewoon BTC vasthouden | -21.65% |
+| Verschil | +2.84% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-5.17%** |
+| Rendement deze periode | **-5.18%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -18.80% |
+| Daling vanaf de top ($10,000) | -18.81% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 10 (Extreme Fear) |
-| Kronos-voorspelling | 30 munten (berekend om 22:01); richting op 4u goed: 54% (n=1537, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 112s; richting op 4u goed: 55% (n=1537, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-Diepe risk-off houdt aan: Fear & Greed 10, breedte licht verbeterd naar 14/33 groen maar mediaan 24u nog -0,21% en 7d -14,6%. BTC hangt op ~$65,2k, net boven het anker van ~$64,7k, in de onderste ~21% van zijn 7d-range met RSI 1d 25 (oversold). Geen bevestigde setup: noch de opwaartse (dubbele bevestiging) noch de neerwaartse (4u-close onder anker) trigger is geraakt.
+Diepe risk-off houdt aan: Fear & Greed 10 (extreme angst), breedte 11/33 groen, mediane 24u -0,63% en 7d -14,4%. BTC hangt op ~$65,3k in de onderste ~21% van zijn 7d-range met RSI 1d ~25; er is nog geen niveaudoorbraak of volume-uitbraak die een omslag bevestigt.
 
-## Strategie van de AI (sinds 16-11-2026 22:31)
+## Strategie van de AI (sinds 16-11-2026 23:01)
 
-Defensief en gedisciplineerd: BTC-kern 30%, alt-sleeve op het plafond van 10% (ETH 5, SOL 3, XRP 2), cash ~60%. Geen micro-churn — ik wijzig alleen op een vooraf bepaald niveau. Neerwaarts: 4u-sluiting met volume onder het anker ~$64,7k = -10-15pp afbouw. Opwaarts: 4u-sluiting boven de bovenkant van de 30u-range én dubbele bevestiging (≥60% coins groen + mediane 24u > +2%) = +10-15pp opbouw. Kronos (53,6% = muntgooi) genegeerd. Doel +20% is in dit bear-regime onrealistisch; focus op outperformance versus BTC en het bewaken van de -25% drawdown-grens (nu -18,8%).
+Defensief en gedisciplineerd, geen micro-churn: BTC-kern 30%, alt-sleeve op het plafond van 10% (ETH 5, SOL 3, XRP 2), cash ~60%. Ik wijzig alleen op een vooraf bepaald niveau. Neerwaarts: 4u-sluiting met volume onder het anker ~$64,7k = -10-15pp afbouw. Opwaarts: 4u-sluiting boven de bovenkant van de 30u-range én dubbele bevestiging (≥60% coins groen + mediane 24u > +2%) = +10-15pp opbouw. Kronos (54,7% = muntgooi) genegeerd. Doel +20% is in dit bear-regime onrealistisch; focus op outperformance versus BTC en het bewaken van de -25% drawdown-grens (nu -18,8%).
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,10 +42,10 @@ _De aanpak werkte op periodeniveau: -5,27% tegen -12,16% voor BTC, dus het afbou
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $2,440.20 | 30.1% | -13.7% | 30.0% | +0.9% (83% omhoog) | Kernpositie; boven anker, geen verkooptrigger, concentratie in sterkste asset in risk-off. |
-| ETH/USD | $407.00 | 5.0% | -0.1% | 5.0% | -0.2% (50% omhoog) | Alt-sleeve op plafond; geen opbouw zonder dubbele bevestiging. |
-| SOL/USD | $243.78 | 3.0% | -0.8% | 3.0% | +0.7% (67% omhoog) | Kleine alt-blootstelling, binnen ≤10% totaal. |
-| XRP/USD | $162.99 | 2.0% | -1.1% | 2.0% | -0.2% (33% omhoog) | Kleinste positie, binnen alt-plafond. |
+| BTC/USD | $2,438.32 | 30.0% | -13.8% | 30.0% | +0.2% (67% omhoog) | Kernpositie; risk-off zonder bevestigde omslag, concentreer beta in BTC. |
+| ETH/USD | $407.42 | 5.0% | -0.0% | 5.0% | -0.7% (0% omhoog) | Alt-sleeve op plafond, klein houden in diepe risk-off. |
+| SOL/USD | $244.89 | 3.0% | -0.4% | 3.0% | -0.0% (50% omhoog) | Alt-sleeve, extra beta zonder beloning zolang breadth zwak is. |
+| XRP/USD | $162.99 | 2.0% | -1.1% | 2.0% | -0.8% (17% omhoog) | Kleinste sleeve; geen signaal om te wijzigen, churn vermijden. |
 
 ## Orders deze run
 
@@ -59,6 +59,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-11-2026 23:01 | $8,119 | -18.81% | -21.65% | 0 |
 | 16-11-2026 22:31 | $8,120 | -18.80% | -21.74% | 0 |
 | 16-11-2026 22:01 | $8,105 | -18.95% | -22.00% | 4 |
 | 16-11-2026 21:31 | $8,119 | -18.81% | -21.84% | 0 |
@@ -70,7 +71,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-11-2026 18:31 | $8,123 | -18.77% | -22.17% | 0 |
 | 16-11-2026 18:01 | $8,111 | -18.89% | -22.14% | 0 |
 | 16-11-2026 17:31 | $8,099 | -19.01% | -22.41% | 0 |
-| 16-11-2026 17:01 | $8,079 | -19.21% | -22.74% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
