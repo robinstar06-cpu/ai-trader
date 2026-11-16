@@ -3318,3 +3318,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-16T20:31:12.960092+00:00,16-11-2026 21:31,,LINK/USD,3.1,3.1,houden,,,
 2026-11-16T20:31:12.960092+00:00,16-11-2026 21:31,,SOL/USD,5.0,5.0,houden,,,
 2026-11-16T20:31:12.960092+00:00,16-11-2026 21:31,,XRP/USD,4.0,4.0,houden,,,
+2026-11-16T21:01:28.514230+00:00,16-11-2026 22:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,30.0,30.0,houden,,,"Kernpositie; minst slechte in risk-off, blijft boven anker $64,7k, geen afbouwtrigger."
+2026-11-16T21:01:28.514230+00:00,16-11-2026 22:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,8.0,5.0,sell,241.64,verkocht 0.132822936,Alt-sleeve terug naar ≤10% totaal conform review-les; ETH minst zwak van de alts.
+2026-11-16T21:01:28.514230+00:00,16-11-2026 22:01,deepseek-ai/deepseek-v4.1-flash,LINK/USD,3.1,0.0,close,248.13,verkocht (alles),
+2026-11-16T21:01:28.514230+00:00,16-11-2026 22:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,3.0,sell,160.99,verkocht 2.252665281,"Verlaagd: extra beta zonder beloning in diepe risk-off (-0,9% 24u)."
+2026-11-16T21:01:28.514230+00:00,16-11-2026 22:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,4.0,2.0,sell,161.36,verkocht 168.964688943,"Verlaagd: zwakste 24u (-1,1%), slechts restblootstelling binnen de 10%-alt-limiet."
