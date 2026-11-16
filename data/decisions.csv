@@ -3293,3 +3293,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-16T18:01:20.435785+00:00,16-11-2026 19:01,deepseek-ai/deepseek-v4.1-flash,LINK/USD,4.8,3.0,sell,144.83,verkocht 16.070616941,"Kleine restpositie, verder trimmen."
 2026-11-16T18:01:20.435785+00:00,16-11-2026 19:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,8.9,5.0,sell,318.81,verkocht 4.447085551,"Zwakste van de majors (7d -17,9%), afbouwen in bear-regime."
 2026-11-16T18:01:20.435785+00:00,16-11-2026 19:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,6.8,4.0,sell,226.58,verkocht 236.610536758,"Geen eigen edge, verkleinen mee met de afbouw."
+2026-11-16T18:31:14.239399+00:00,16-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,29.9,30.0,houden,,,"Kernpositie; sterkste relatieve performer, RSI oversold maar geen bevestiging voor opbouw."
+2026-11-16T18:31:14.239399+00:00,16-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,8.0,8.0,houden,,,"Klein aandeel aangehouden, geen trigger om te trimmen of op te bouwen."
+2026-11-16T18:31:14.239399+00:00,16-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,LINK/USD,3.0,3.0,houden,,,"Klein aandeel, houd aan zonder churn."
+2026-11-16T18:31:14.239399+00:00,16-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,5.0,houden,,,"Klein aandeel, zwakke trend maar geen nieuwe niveaudoorbraak."
+2026-11-16T18:31:14.239399+00:00,16-11-2026 19:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,4.0,4.0,houden,,,"Klein aandeel, vlakke 24u; wacht op bevestiging."
