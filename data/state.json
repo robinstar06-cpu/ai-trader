@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-11-06T19:31:22.832563+00:00",
-      "time_local": "06-11-2026 20:31",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 50.0
-      },
-      "summary": "BTC hangt op $75,6k net onder het anker van $76k en dicht bij het 7d-laagtepunt (range7d_pos 3,5), terwijl de 7d-mediaan met -3,37% nog duidelijk negatief is. De markt is in Fear (28) maar stabiliseert: breedte verbeterde naar 15/33 groen en mediaan 24u is vlak (0,00%) na dagen van -5%. Mijn regimef",
-      "equity": 8654.94,
-      "prices": {
-        "BTC/USD": 75596.558
-      }
-    },
-    {
       "time": "2026-11-06T20:31:17.238943+00:00",
       "time_local": "06-11-2026 21:31",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1386,12 +1373,31 @@
         "XRP/USD": 0.95329,
         "SOL/USD": 71.2945
       }
+    },
+    {
+      "time": "2026-11-16T21:31:15.158020+00:00",
+      "time_local": "16-11-2026 22:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 30.0,
+        "ETH/USD": 5.0,
+        "SOL/USD": 3.0,
+        "XRP/USD": 2.0
+      },
+      "summary": "Diepe risk-off houdt aan: Fear & Greed 10, breedte licht verbeterd naar 14/33 groen maar mediaan 24u nog -0,21% en 7d -14,6%. BTC hangt op ~$65,2k, net boven het anker van ~$64,7k, in de onderste ~21% van zijn 7d-range met RSI 1d 25 (oversold). Geen bevestigde setup: noch de opwaartse (dubbele beves",
+      "equity": 8119.62,
+      "prices": {
+        "BTC/USD": 65203.82,
+        "XRP/USD": 0.9572355,
+        "SOL/USD": 71.75,
+        "ETH/USD": 1824.1905
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-16T21:01:28.514230+00:00",
-    "time_local": "16-11-2026 22:01",
-    "text": "Geen setup, dus defensief blijven. Ik pas mijn eigen review-les toe: de alt-sleeve terug naar ≤10% totaal (ETH 5, SOL 3, XRP 2; LINK eruit) en concentreer in de BTC-kern van 30%. Cash naar ~60%. Dit is een structurele correctie, geen micro-churn. Pas bij een 4u-sluiting met volume onder het anker (~$64,7k) schaal ik -10-15pp af; bij een 4u-sluiting boven de bovenkant van de 30u-range schaal ik +10-15pp op. Kronos (53,6% = muntgooi) blijft genegeerd. Doel +20% is in dit bear-regime onrealistisch; focus op outperformance versus BTC en het bewaken van de -25% drawdown-grens."
+    "time": "2026-11-16T21:31:15.158020+00:00",
+    "time_local": "16-11-2026 22:31",
+    "text": "Defensief en gedisciplineerd: BTC-kern 30%, alt-sleeve op het plafond van 10% (ETH 5, SOL 3, XRP 2), cash ~60%. Geen micro-churn — ik wijzig alleen op een vooraf bepaald niveau. Neerwaarts: 4u-sluiting met volume onder het anker ~$64,7k = -10-15pp afbouw. Opwaarts: 4u-sluiting boven de bovenkant van de 30u-range én dubbele bevestiging (≥60% coins groen + mediane 24u > +2%) = +10-15pp opbouw. Kronos (53,6% = muntgooi) genegeerd. Doel +20% is in dit bear-regime onrealistisch; focus op outperformance versus BTC en het bewaken van de -25% drawdown-grens (nu -18,8%)."
   },
   "lessons": [
     "Blootstellingsplafond in bevestigd risk-off: 40-50% totaal, maar concentreer dat in BTC. In dit venster deden SOL -1,1%, XRP -0,9% en LINK -0,9% tegen BTC -0,3%: de alt-sleeve is in diepe risk-off extra beta zonder beloning. Houd alts gezamenlijk ≤10",
