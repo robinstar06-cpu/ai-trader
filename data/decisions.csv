@@ -3303,3 +3303,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-16T19:01:20.148624+00:00,16-11-2026 20:01,deepseek-ai/deepseek-v4.1-flash,LINK/USD,3.0,3.0,houden,,,"Kleine positie, geen setup; aanhouden."
 2026-11-16T19:01:20.148624+00:00,16-11-2026 20:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,5.0,houden,,,"Kleine positie, RSI oversold maar geen bevestiging; aanhouden."
 2026-11-16T19:01:20.148624+00:00,16-11-2026 20:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,4.0,4.0,houden,,,"Kleine positie, geen setup; aanhouden."
+2026-11-16T19:31:03.468799+00:00,16-11-2026 20:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,29.9,30.0,houden,,,"Kernpositie; geen doorbraak of volume-uitbraak, dus handhaven binnen risk-off plafond."
+2026-11-16T19:31:03.468799+00:00,16-11-2026 20:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,8.0,8.0,houden,,,"Kleine alt-blootstelling, geen signaal om te wijzigen."
+2026-11-16T19:31:03.468799+00:00,16-11-2026 20:31,deepseek-ai/deepseek-v4.1-flash,LINK/USD,3.1,3.0,houden,,,"Handhaven; kleine positie, geen trigger."
+2026-11-16T19:31:03.468799+00:00,16-11-2026 20:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,5.0,5.0,houden,,,"Handhaven; geen setup, geen churn."
+2026-11-16T19:31:03.468799+00:00,16-11-2026 20:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,4.0,4.0,houden,,,Handhaven; richtingloze markt.
