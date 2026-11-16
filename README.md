@@ -1,52 +1,52 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-11-2026 20:31_
+_Laatst bijgewerkt: 16-11-2026 21:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,104.52** |
+| Waarde portefeuille | **$8,110.92** |
 | Cash | $4,059.05 (50%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-18.95%** |
-| Ter vergelijking: gewoon BTC vasthouden | -22.13% |
-| Verschil | +3.17% |
+| Rendement AI sinds 14-10-2026 13:02 | **-18.89%** |
+| Ter vergelijking: gewoon BTC vasthouden | -22.00% |
+| Verschil | +3.11% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-5.35%** |
+| Rendement deze periode | **-5.27%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -18.95% |
+| Daling vanaf de top ($10,000) | -18.89% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 10 (Extreme Fear) |
-| Kronos-voorspelling | 30 munten (berekend om 20:01); richting op 4u goed: 52% (n=1534, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 116s; richting op 4u goed: 53% (n=1534, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-De markt blijft in diepe risk-off: Fear & Greed 10 (extreme angst), slechts 9/33 coins groen, mediaan 24u -0,58% en 7d -15,25%. BTC hangt op ~$64,9k in de onderste ~18% van zijn 7d-range met RSI 1d 24 (oversold), maar er is geen niveaudoorbraak of volume-uitbraak — een richtingloze range is geen setup.
+Diepe risk-off houdt aan: Fear & Greed 10, breedte 11/33 groen, mediaan 24u -0,32% en 7d -14,8%. BTC hangt op ~$65k in de onderste ~19% van zijn 7d-range met RSI 1d 24 (oversold), maar zonder niveaudoorbraak of volume-uitbraak. Geen setup, dus ik handhaaf de allocatie.
 
-## Strategie van de AI (sinds 16-11-2026 20:31)
+## Strategie van de AI (sinds 16-11-2026 21:01)
 
-Geen setup, dus geen actie: ik handhaaf de huidige allocatie (BTC 30% kern, kleine alts, ~50% cash). Breedte (9/33) en mediaan 24u (-0,58%) zijn juist iets verslechterd t.o.v. mijn vorige beslissing, dus geen enkele reden om op te bouwen; BTC staat met range7d_pos 18 nog boven het 7d-laagtepunt, dus ook geen afbouwtrigger. Ik wacht op een 4u-sluiting met volume onder het anker (-10-15pp) of boven de bovenkant van de 30u-range (+10-15pp). In dit bear-regime gaat kapitaalbescherming voor; drawdown -18,9% blijft binnen de -25% grens. Kronos (52% = muntgooi) blijft genegeerd.
+Geen setup: ik handhaaf BTC 30% kern + kleine alts (~20%) en ~50% cash. Breedte (11/33) en mediaan 24u (-0,32%) zijn vrijwel onveranderd t.o.v. mijn vorige beslissing; BTC blijft met range7d_pos 19 boven het 7d-laagtepunt, dus geen afbouwtrigger. Ik wacht op een 4u-sluiting met volume onder het anker (~$64,7k) voor -10-15pp, of boven de bovenkant van de 30u-range voor +10-15pp. In dit bear-regime gaat kapitaalbescherming voor; drawdown -18,9% blijft binnen de -25% grens. Kronos (52,7% = muntgooi) genegeerd.
 
 ## Lessen uit de dagelijkse evaluatie
 
-_De afgelopen 24u heb ik met 40% BTC-exposure de schade beperkt: -1,65% versus -4,08% voor buy-and-hold, en periodebreed -3,03% versus -6,78% BTC. Dat is precies wat een defensieve positie in een bevestigd risk-off regime hoort te doen, maar het doel (+20% in 28 dagen) komt zo geen stap dichterbij: daarvoor is een regimeomslag nodig die er nog niet is. Mijn grootste fout was niet de richting maar de herhaling: twaalf vrijwel identieke 40%-beslissingen in zes uur leverden nul extra rendement op enkel aandachtverlies._
+_De aanpak werkte op periodeniveau: -5,27% tegen -12,16% voor BTC, dus het afbouwen naar ~50% blootstelling in bevestigd risk-off heeft echt kapitaal beschermd. In dit specifieke venster deed ik het echter nipt slechter dan BTC (-0,56% vs -0,26%) puur omdat de alt-sleeve (SOL/XRP/LINK) harder zakte dan BTC, terwijl de acht vrijwel identieke beslissingen samen ~0,0% opleverden — geen schade, maar ook geen vooruitgang. Het doel van +20% is in dit bear-regime met deze exposure niet realistisch; outperformance versus BTC vasthouden is het haalbare doel._
 
-- Blootstellingsplafond in bevestigd risk-off: 40-50% BTC zolang Fear & Greed ≤30, BTC op of onder zijn 7d-laagtepunt staat en <25% van de coins groen is. Dit leverde -1,65% vs -4,08% BTC. Ga niet onder 30% zonder een 4u-sluiting met volume onder een v
-- Schaal alleen op bij dubbele bevestiging op een 4u-sluiting: ≥60% van de coins groen én mediane 24u-verandering > +2%. Eén van de twee is geen signaal; de verhoging naar 60% op 11-11 was prematuur en de bounce doofde uit.
+- Blootstellingsplafond in bevestigd risk-off: 40-50% totaal, maar concentreer dat in BTC. In dit venster deden SOL -1,1%, XRP -0,9% en LINK -0,9% tegen BTC -0,3%: de alt-sleeve is in diepe risk-off extra beta zonder beloning. Houd alts gezamenlijk ≤10
+- Schaal alleen op bij dubbele bevestiging op een 4u-sluiting: ≥60% van de coins groen én mediane 24u-verandering > +2%. De breadth-bounce van 33/33 groen op 15-11 doofde binnen enkele uren uit; één van de twee signalen is geen signaal.
 - De 7d-mediaan is een lagging filter: gebruik hem om af te bouwen, niet om opbouw te blokkeren. Een 7d-mediaan < -2% is op zichzelf geen reden om onder 50% te blijven wanneer breadth én 24u-momentum al duidelijk omgeslagen zijn.
-- Herijk het anker: BTC staat nu ~$71.300, het $76k-anker is dood. Definieer het anker als de 7d-laag/rangegrens. Een 4u-sluiting met volume onder het anker = -10-15pp; een 4u-sluiting boven de bovenkant van de 30u-range = +10-15pp.
-- Geen micro-churn: twaalf vrijwel identieke 40%-beslissingen in zes uur leverden samen ~0,0% extra op. Wijzig alleen bij een 4u-sluiting door een vooraf bepaald niveau, in stappen van 10-15pp, maximaal 1-2x per dag — en herhaal dezelfde view niet elke
-- Kronos volledig uit het proces: 50,6% op 1509 forecasts is een muntgooi. Richting en positiegrootte komen alleen uit anker, breadth, 7d-mediaan en volume.
-- Een range zonder richting is geen setup: BTC hing 30+ uur in een band van <1% met Fear & Greed 20-28. Lage RSI plus angst is geen koopsignaal zolang er geen niveaudoorbraak of volume-uitbraak is; een neerwaartse niveaudoorbraak is wél een reden om af
-- Doeldiscipline met realisme: +20% in 28 dagen vraagt ~0,66% per dag samengesteld; met 40-50% exposure moet BTC ~1,3-1,6% per dag stijgen. In een bear-regime is dat doel waarschijnlijk niet haalbaar — bescherm kapitaal en laat de blootstelling alleen 
+- Herijk het anker voortdurend: het anker is de 7d-laag/rangegrens, nu ~$64,7k (BTC hing daar uren in de onderste ~17% van zijn 7d-range). Een 4u-sluiting met volume onder het anker = -10-15pp; een 4u-sluiting boven de bovenkant van de 30u-range = +10-
+- Geen micro-churn: acht vrijwel identieke ~50%-beslissingen in ~21 uur leverden samen ~0,0% extra op. Wijzig alleen bij een 4u-sluiting door een vooraf bepaald niveau, in stappen van 10-15pp, maximaal 1-2x per dag — en herhaal dezelfde view niet elke 
+- Kronos volledig uit het proces: 52,7% op 1534 forecasts is een muntgooi. Richting en positiegrootte komen alleen uit anker, breadth, 7d-mediaan en volume.
+- Een range zonder richting is geen setup: BTC hing 30+ uur in een band van <1% met Fear & Greed 10. Lage RSI plus extreme angst is geen koopsignaal zolang er geen niveaudoorbraak of volume-uitbraak is; een neerwaartse niveaudoorbraak is wél een reden 
+- Doeldiscipline met realisme: +20% in 28 dagen vraagt ~0,66% per dag samengesteld; met 50% exposure moet BTC ~1,3% per dag stijgen — in een bear-regime onhaalbaar. Bescherm kapitaal, houd de blootstelling laag en beschouw outperformance versus BTC (-5
 
 ## Posities
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $2,423.85 | 29.9% | -14.3% | 30.0% | +0.3% (50% omhoog) | Kernpositie; geen doorbraak of volume-uitbraak, dus handhaven binnen risk-off plafond. |
-| ETH/USD | $645.98 | 8.0% | -0.7% | 8.0% | -0.4% (50% omhoog) | Kleine alt-blootstelling, geen signaal om te wijzigen. |
-| SOL/USD | $402.88 | 5.0% | -1.3% | 5.0% | +0.7% (67% omhoog) | Handhaven; geen setup, geen churn. |
-| XRP/USD | $324.64 | 4.0% | -1.2% | 4.0% | -0.4% (17% omhoog) | Handhaven; richtingloze markt. |
-| LINK/USD | $248.13 | 3.1% | -0.9% | 3.0% | +0.2% (50% omhoog) | Handhaven; kleine positie, geen trigger. |
+| BTC/USD | $2,431.06 | 30.0% | -14.0% | 30.0% | +0.0% (67% omhoog) | Kernpositie; geen doorbraak, dus handhaven in de onderste 7d-range. |
+| ETH/USD | $645.69 | 8.0% | -0.7% | 8.0% | -0.5% (33% omhoog) | Kleine alt-sleeve, vrijwel vlak; geen reden tot wijzigen. |
+| SOL/USD | $401.60 | 5.0% | -1.7% | 5.0% | +0.7% (83% omhoog) | Handhaven; geen setup, churn vermijden. |
+| XRP/USD | $325.39 | 4.0% | -1.0% | 4.0% | -0.5% (33% omhoog) | Handhaven; vlakke koers, geen trigger. |
+| LINK/USD | $248.13 | 3.1% | -0.9% | 3.0% | -0.0% (33% omhoog) | Handhaven; kleine positie, geen signaal. |
 
 ## Orders deze run
 
@@ -54,13 +54,14 @@ Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
-- Dagelijkse evaluatie mislukt: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life o
+- Dagelijkse evaluatie gedaan door deepseek-ai/deepseek-v4.1-flash.
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-11-2026 21:01 | $8,111 | -18.89% | -22.00% | 0 |
 | 16-11-2026 20:31 | $8,105 | -18.95% | -22.13% | 0 |
 | 16-11-2026 20:01 | $8,108 | -18.92% | -22.07% | 0 |
 | 16-11-2026 19:31 | $8,096 | -19.04% | -22.31% | 0 |
@@ -72,7 +73,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-11-2026 16:31 | $8,064 | -19.36% | -22.78% | 0 |
 | 16-11-2026 16:01 | $8,140 | -18.60% | -22.07% | 0 |
 | 16-11-2026 15:31 | $8,092 | -19.08% | -22.75% | 0 |
-| 16-11-2026 15:01 | $8,059 | -19.41% | -23.07% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
