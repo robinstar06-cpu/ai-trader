@@ -1,29 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-11-2026 00:31_
+_Laatst bijgewerkt: 16-11-2026 01:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,151.99** |
-| Cash | $3,719.30 (46%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-18.48%** |
-| Ter vergelijking: gewoon BTC vasthouden | -21.86% |
-| Verschil | +3.38% |
+| Waarde portefeuille | **$8,156.64** |
+| Cash | $3,052.22 (37%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-18.43%** |
+| Ter vergelijking: gewoon BTC vasthouden | -21.61% |
+| Verschil | +3.18% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-4.79%** |
+| Rendement deze periode | **-4.74%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -18.48% |
+| Daling vanaf de top ($10,000) | -18.43% |
 | Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 10 (Extreme Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 00:01); richting op 4u goed: 45% (n=1543, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 113s; richting op 4u goed: 45% (n=1543, 50% = gokken) |
 
 ## Marktvisie van de AI
 
-De markt maakt een brede bounce vanuit extreme angst (Fear & Greed 10): 31/33 coins groen en een mediane 24u van +3,49%. Toch blijft het een bounce in een bear-regime — de 7d-mediaan is -12,5%, BTC blijft zwak (range7d_pos 19,6, RSI 1d 24) en de niveaudoorbraak ontbreekt.
+De markt maakt een brede bounce vanuit extreme angst (Fear & Greed 10): 33/33 coins groen en een mediane 24u van +5,09%, terwijl de 7d-mediaan met -13% laat zien dat de downtrend nog intact is. Mijn dubbele bevestiging (breedte ≥60% én mediaan 24u > +2%) is nu volledig aanwezig, dus ik verhoog de blootstelling licht van ~54% naar ~63%.
 
-## Strategie van de AI (sinds 16-11-2026 00:31)
+## Strategie van de AI (sinds 16-11-2026 01:01)
 
-Ik houd mijn mandje BTC/ETH/SOL/XRP op ~55% en ~45% cash. De dubbele bevestiging (breedte 94% groen én mediaan 24u +3,49% > +2%) is aanwezig, maar de vereiste 4u-sluiting boven de bovenkant van de 30u-range ontbreekt, dus ik bouw niet op. Ik wacht op een 4u-sluiting boven de 30u-range (+10-15pp) om te verhogen, of een 4u-sluiting met volume onder het anker (-10-15pp) om af te bouwen. Geen micro-churn: ik heb 30 min geleden al beslist en er is niets materieel veranderd. Drawdown -18,5% blijft binnen de grens, maar ik forceer geen extra risico zonder niveausignaal.
+Ik schaal op naar ~63% op de dubbele bevestiging (100% breadth, mediaan 24u +5,09%), gespreid over liquide majors BTC/ETH/SOL/XRP plus een kleine LINK-positie. Dit blijft een bounce in een bear-regime, dus ik forceer geen agressie: bij een 4u-sluiting met volume onder het 7d-anker bouw ik -10-15pp af, bij een 4u-sluiting boven de bovenkant van de 30u-range bouw ik +10-15pp op. Geen micro-churn; drawdown -18,4% blijft binnen de grens.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -42,14 +42,19 @@ _De afgelopen 24u heb ik met 40% BTC-exposure de schade beperkt: -1,65% versus -
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $2,434.09 | 29.9% | -13.9% | 30.0% | +0.1% (33% omhoog) | Ankerpositie; BTC blijft zwak in de 7d-range, nog geen doorbraak om op te bouwen. |
-| ETH/USD | $798.33 | 9.8% | +0.1% | 10.0% | +0.0% (33% omhoog) | Bouncet mee (+3,45% 24u) maar 7d nog -13,9%; kleine kernpositie aanhouden. |
-| SOL/USD | $639.65 | 7.8% | +0.2% | 8.0% | +1.0% (67% omhoog) | Sterkere bounce (+3,04% 24u), hoge bèta; positie ongewijzigd laten. |
-| XRP/USD | $560.62 | 6.9% | +0.5% | 7.0% | +0.5% (50% omhoog) | Sterkste 24u-bounce (+6,39%) van het mandje; kleine positie aanhouden. |
+| BTC/USD | $2,438.62 | 29.9% | -13.8% | 30.0% | +0.6% (83% omhoog) | Ankerpositie; zwakste bounce (+3%) maar meest liquide, houd op 30%. |
+| ETH/USD | $974.05 | 11.9% | +0.1% | 12.0% | +0.2% (67% omhoog) | Sterke brede bounce (+5,45%), RSI 1d laag met opwaarts momentum; licht verhogen. |
+| SOL/USD | $733.22 | 9.0% | +0.5% | 9.0% | +0.1% (50% omhoog) | Bounce +4,74%, hoge bèta op herstel; kleine verhoging. |
+| XRP/USD | $559.87 | 6.9% | +0.3% | 7.0% | -0.4% (50% omhoog) | Bounce +5,58%, range7d_pos 34,5; behouden. |
+| LINK/USD | $398.66 | 4.9% | -0.2% | 5.0% | +0.4% (67% omhoog) | Nieuwe kleine positie: +5,38% op 24u, redelijke liquiditeit, RSI 1d 33 met herstel. |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| LINK/USD | buy | $408.12 | gekocht $408.12 |
+| ETH/USD | buy | $178.93 | gekocht $178.93 |
+| SOL/USD | buy | $93.11 | gekocht $93.11 |
 
 ## Meldingen
 
@@ -59,6 +64,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-11-2026 01:01 | $8,157 | -18.43% | -21.61% | 3 |
 | 16-11-2026 00:31 | $8,152 | -18.48% | -21.86% | 0 |
 | 16-11-2026 00:01 | $8,167 | -18.33% | -21.53% | 0 |
 | 15-11-2026 23:31 | $8,153 | -18.47% | -21.79% | 4 |
@@ -70,7 +76,6 @@ Geen orders (verdeling blijft gelijk).
 | 15-11-2026 20:31 | $8,148 | -18.52% | -22.03% | 0 |
 | 15-11-2026 20:01 | $8,138 | -18.62% | -22.30% | 0 |
 | 15-11-2026 19:31 | $8,138 | -18.62% | -22.55% | 0 |
-| 15-11-2026 19:01 | $8,136 | -18.64% | -22.62% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).

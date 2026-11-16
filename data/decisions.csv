@@ -3108,3 +3108,8 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-15T23:31:17.188035+00:00,16-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,9.8,10.0,houden,,,"Bouncet mee (+3,45% 24u) maar 7d nog -13,9%; kleine kernpositie aanhouden."
 2026-11-15T23:31:17.188035+00:00,16-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,7.8,8.0,houden,,,"Sterkere bounce (+3,04% 24u), hoge bèta; positie ongewijzigd laten."
 2026-11-15T23:31:17.188035+00:00,16-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,6.9,7.0,houden,,,"Sterkste 24u-bounce (+6,39%) van het mandje; kleine positie aanhouden."
+2026-11-16T00:01:27.024745+00:00,16-11-2026 01:01,deepseek-ai/deepseek-v4.1-flash,BTC/USD,29.9,30.0,houden,,,"Ankerpositie; zwakste bounce (+3%) maar meest liquide, houd op 30%."
+2026-11-16T00:01:27.024745+00:00,16-11-2026 01:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,9.8,12.0,buy,178.93,gekocht $178.93,"Sterke brede bounce (+5,45%), RSI 1d laag met opwaarts momentum; licht verhogen."
+2026-11-16T00:01:27.024745+00:00,16-11-2026 01:01,deepseek-ai/deepseek-v4.1-flash,LINK/USD,0.0,5.0,buy,408.12,gekocht $408.12,"Nieuwe kleine positie: +5,38% op 24u, redelijke liquiditeit, RSI 1d 33 met herstel."
+2026-11-16T00:01:27.024745+00:00,16-11-2026 01:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,7.9,9.0,buy,93.11,gekocht $93.11,"Bounce +4,74%, hoge bèta op herstel; kleine verhoging."
+2026-11-16T00:01:27.024745+00:00,16-11-2026 01:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,6.8,7.0,houden,,,"Bounce +5,58%, range7d_pos 34,5; behouden."
