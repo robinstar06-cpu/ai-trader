@@ -1,25 +1,29 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-11-2026 18:31_
+_Laatst bijgewerkt: 16-11-2026 19:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,123.39** |
-| Cash | $3,052.22 (38%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-18.77%** |
-| Ter vergelijking: gewoon BTC vasthouden | -22.17% |
-| Verschil | +3.41% |
+| Waarde portefeuille | **$8,103.19** |
+| Cash | $4,059.05 (50%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-18.97%** |
+| Ter vergelijking: gewoon BTC vasthouden | -22.31% |
+| Verschil | +3.34% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-5.13%** |
+| Rendement deze periode | **-5.36%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -18.77% |
-| Model | geen (AI niet bereikbaar) |
+| Daling vanaf de top ($10,000) | -18.97% |
+| Model | deepseek-ai/deepseek-v4.1-flash |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 10 (Extreme Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 18:01); richting op 4u goed: 50% (n=1531, 50% = gokken) |
+| Kronos-voorspelling | 33 munten in 239s; richting op 4u goed: 51% (n=1534, 50% = gokken) |
 
-## Strategie van de AI (sinds 16-11-2026 01:01)
+## Marktvisie van de AI
 
-Ik schaal op naar ~63% op de dubbele bevestiging (100% breadth, mediaan 24u +5,09%), gespreid over liquide majors BTC/ETH/SOL/XRP plus een kleine LINK-positie. Dit blijft een bounce in een bear-regime, dus ik forceer geen agressie: bij een 4u-sluiting met volume onder het 7d-anker bouw ik -10-15pp af, bij een 4u-sluiting boven de bovenkant van de 30u-range bouw ik +10-15pp op. Geen micro-churn; drawdown -18,4% blijft binnen de grens.
+De bounce vanuit extreme angst is volledig uitgebloed: breedte viel terug van 33/33 naar 11/33 groen, mediaan 24u -0,38% en BTC zakte door het oude anker naar ~$64.700 (range7d_pos 17, RSI 1d 24). Fear & Greed blijft 10 en de 7d-mediaan is -15,8% — dit is nog steeds een bear-regime, geen bodemformatie. Ik verlaag de blootstelling en houd BTC als kern.
+
+## Strategie van de AI (sinds 16-11-2026 19:01)
+
+De dubbele bevestiging van 15-11 is mislukt: breedte en 24u-momentum zijn omgeslagen, dus ik bouw af van ~62% naar ~50% blootstelling in stappen, zonder paniekverkoop naar cash. BTC blijft de kern (30%), de zwakkere alts (ETH/SOL/XRP/LINK) trim ik. Ik wacht op een 4u-sluiting boven de bovenkant van de 30u-range om weer +10-15pp op te bouwen, of een 4u-sluiting met volume onder het 7d-laagtepunt om verder af te bouwen. Geen micro-churn; drawdown -18,9% blijft binnen de -25% grens. Doel +20% is in dit regime niet realistisch — kapitaalbescherming gaat voor.
 
 ## Lessen uit de dagelijkse evaluatie
 
@@ -38,26 +42,30 @@ _De afgelopen 24u heb ik met 40% BTC-exposure de schade beperkt: -1,65% versus -
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $2,431.04 | 29.9% | -14.0% | 29.9% | +0.3% (83% omhoog) |  |
-| ETH/USD | $971.80 | 12.0% | -0.1% | 12.0% | -0.7% (17% omhoog) |  |
-| SOL/USD | $724.42 | 8.9% | -0.7% | 8.9% | +1.5% (67% omhoog) |  |
-| XRP/USD | $555.71 | 6.8% | -0.4% | 6.8% | -0.7% (17% omhoog) |  |
-| LINK/USD | $388.20 | 4.8% | -2.8% | 4.8% | +0.2% (50% omhoog) |  |
+| BTC/USD | $2,423.73 | 29.9% | -14.3% | 30.0% | +0.2% (67% omhoog) | Kernpositie, meest liquide en minst volatiele exposure in risk-off; houd aan. |
+| ETH/USD | $648.98 | 8.0% | -0.2% | 8.0% | +0.2% (50% omhoog) | Bounce mislukt, breedte omgeslagen; trim van 12% naar 8%. |
+| SOL/USD | $405.61 | 5.0% | -0.7% | 5.0% | +1.2% (83% omhoog) | Zwakste van de majors (7d -17,9%), afbouwen in bear-regime. |
+| XRP/USD | $322.46 | 4.0% | -1.9% | 4.0% | +0.4% (83% omhoog) | Geen eigen edge, verkleinen mee met de afbouw. |
+| LINK/USD | $243.37 | 3.0% | -2.8% | 3.0% | +0.4% (67% omhoog) | Kleine restpositie, verder trimmen. |
 
 ## Orders deze run
 
-Geen orders (verdeling blijft gelijk).
+| Munt | Actie | Bedrag | Resultaat |
+|---|---|---|---|
+| ETH/USD | sell | $321.98 | verkocht 0.176511699 |
+| LINK/USD | sell | $144.83 | verkocht 16.070616941 |
+| SOL/USD | sell | $318.81 | verkocht 4.447085551 |
+| XRP/USD | sell | $226.58 | verkocht 236.610536758 |
 
 ## Meldingen
 
-- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
-- AI-fout: deepseek-ai/deepseek-v4.1-flash: Netwerkfout bij POST https://integrate.api.nvidia.com/v1/chat/completions: The read operation timed out
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-11-2026 19:01 | $8,103 | -18.97% | -22.31% | 4 |
 | 16-11-2026 18:31 | $8,123 | -18.77% | -22.17% | 0 |
 | 16-11-2026 18:01 | $8,111 | -18.89% | -22.14% | 0 |
 | 16-11-2026 17:31 | $8,099 | -19.01% | -22.41% | 0 |
@@ -69,7 +77,6 @@ Geen orders (verdeling blijft gelijk).
 | 16-11-2026 14:31 | $8,066 | -19.34% | -22.87% | 0 |
 | 16-11-2026 14:01 | $8,061 | -19.39% | -22.97% | 0 |
 | 16-11-2026 13:31 | $8,051 | -19.49% | -23.32% | 0 |
-| 16-11-2026 13:01 | $8,090 | -19.10% | -22.75% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
