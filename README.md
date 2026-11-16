@@ -1,25 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 16-11-2026 01:01_
+_Laatst bijgewerkt: 16-11-2026 01:31_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$8,156.64** |
-| Cash | $3,052.22 (37%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-18.43%** |
-| Ter vergelijking: gewoon BTC vasthouden | -21.61% |
-| Verschil | +3.18% |
+| Waarde portefeuille | **$8,132.87** |
+| Cash | $3,052.22 (38%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-18.67%** |
+| Ter vergelijking: gewoon BTC vasthouden | -22.04% |
+| Verschil | +3.37% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-4.74%** |
+| Rendement deze periode | **-5.02%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -18.43% |
-| Model | deepseek-ai/deepseek-v4.1-flash |
+| Daling vanaf de top ($10,000) | -18.67% |
+| Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 10 (Extreme Fear) |
-| Kronos-voorspelling | 33 munten in 113s; richting op 4u goed: 45% (n=1543, 50% = gokken) |
-
-## Marktvisie van de AI
-
-De markt maakt een brede bounce vanuit extreme angst (Fear & Greed 10): 33/33 coins groen en een mediane 24u van +5,09%, terwijl de 7d-mediaan met -13% laat zien dat de downtrend nog intact is. Mijn dubbele bevestiging (breedte ≥60% én mediaan 24u > +2%) is nu volledig aanwezig, dus ik verhoog de blootstelling licht van ~54% naar ~63%.
+| Kronos-voorspelling | 33 munten (berekend om 01:01); richting op 4u goed: 45% (n=1543, 50% = gokken) |
 
 ## Strategie van de AI (sinds 16-11-2026 01:01)
 
@@ -42,28 +38,27 @@ _De afgelopen 24u heb ik met 40% BTC-exposure de schade beperkt: -1,65% versus -
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $2,438.62 | 29.9% | -13.8% | 30.0% | +0.6% (83% omhoog) | Ankerpositie; zwakste bounce (+3%) maar meest liquide, houd op 30%. |
-| ETH/USD | $974.05 | 11.9% | +0.1% | 12.0% | +0.2% (67% omhoog) | Sterke brede bounce (+5,45%), RSI 1d laag met opwaarts momentum; licht verhogen. |
-| SOL/USD | $733.22 | 9.0% | +0.5% | 9.0% | +0.1% (50% omhoog) | Bounce +4,74%, hoge bèta op herstel; kleine verhoging. |
-| XRP/USD | $559.87 | 6.9% | +0.3% | 7.0% | -0.4% (50% omhoog) | Bounce +5,58%, range7d_pos 34,5; behouden. |
-| LINK/USD | $398.66 | 4.9% | -0.2% | 5.0% | +0.4% (67% omhoog) | Nieuwe kleine positie: +5,38% op 24u, redelijke liquiditeit, RSI 1d 33 met herstel. |
+| BTC/USD | $2,428.33 | 29.9% | -14.1% | 29.9% | +0.6% (83% omhoog) |  |
+| ETH/USD | $971.79 | 11.9% | -0.1% | 11.9% | +0.2% (67% omhoog) |  |
+| SOL/USD | $727.75 | 8.9% | -0.2% | 8.9% | +0.1% (50% omhoog) |  |
+| XRP/USD | $555.50 | 6.8% | -0.5% | 6.8% | -0.4% (50% omhoog) |  |
+| LINK/USD | $397.28 | 4.9% | -0.5% | 4.9% | +0.4% (67% omhoog) |  |
 
 ## Orders deze run
 
-| Munt | Actie | Bedrag | Resultaat |
-|---|---|---|---|
-| LINK/USD | buy | $408.12 | gekocht $408.12 |
-| ETH/USD | buy | $178.93 | gekocht $178.93 |
-| SOL/USD | buy | $93.11 | gekocht $93.11 |
+Geen orders (verdeling blijft gelijk).
 
 ## Meldingen
 
+- Geen bruikbaar AI-antwoord: niets gedaan (veilige standaard).
 - AI-fout: z-ai/glm-5.3: HTTP 410 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"type":"about:blank","title":"Gone","status":410,"detail":"The model 'z-ai/glm-5.3' has reached its end of life on 2026-10-28T0
+- AI-fout: deepseek-ai/deepseek-v4.1-flash: HTTP 500 bij POST https://integrate.api.nvidia.com/v1/chat/completions: {"message":"Internal server error","type":"Internal Server Error","code":500,"details":{"backend_status":500}}
 
 ## Laatste runs
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 16-11-2026 01:31 | $8,133 | -18.67% | -22.04% | 0 |
 | 16-11-2026 01:01 | $8,157 | -18.43% | -21.61% | 3 |
 | 16-11-2026 00:31 | $8,152 | -18.48% | -21.86% | 0 |
 | 16-11-2026 00:01 | $8,167 | -18.33% | -21.53% | 0 |
@@ -75,7 +70,6 @@ _De afgelopen 24u heb ik met 40% BTC-exposure de schade beperkt: -1,65% versus -
 | 15-11-2026 21:01 | $8,149 | -18.51% | -22.13% | 0 |
 | 15-11-2026 20:31 | $8,148 | -18.52% | -22.03% | 0 |
 | 15-11-2026 20:01 | $8,138 | -18.62% | -22.30% | 0 |
-| 15-11-2026 19:31 | $8,138 | -18.62% | -22.55% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
