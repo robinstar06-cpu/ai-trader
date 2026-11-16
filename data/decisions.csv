@@ -3339,3 +3339,7 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-16T23:01:18.927969+00:00,17-11-2026 00:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.0,5.0,houden,,,"Alt-sleeve op plafond, klein houden in risk-off"
 2026-11-16T23:01:18.927969+00:00,17-11-2026 00:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,3.0,3.0,houden,,,"Alt-sleeve, extra beta zonder beloning, minimaal"
 2026-11-16T23:01:18.927969+00:00,17-11-2026 00:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,2.0,2.0,houden,,,"Alt-sleeve, zwakste van de vier, minimaal"
+2026-11-16T23:31:14.710735+00:00,17-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,30.0,30.0,houden,,,"Kernpositie; boven anker ~$64,7k, geen neerwaartse trigger, dus aanhouden."
+2026-11-16T23:31:14.710735+00:00,17-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.0,5.0,houden,,,"Alt-sleeve op plafond; geen opbouwsignaal, aanhouden."
+2026-11-16T23:31:14.710735+00:00,17-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,3.0,3.0,houden,,,"Alt-sleeve; zwakke breedte, klein houden."
+2026-11-16T23:31:14.710735+00:00,17-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,2.0,2.0,houden,,,"Alt-sleeve; zwakste van de sleeve, minimaal aanhouden."
