@@ -16,19 +16,6 @@
   },
   "history": [
     {
-      "time": "2026-11-06T21:01:12.851569+00:00",
-      "time_local": "06-11-2026 22:01",
-      "model": "deepseek-ai/deepseek-v4.1-flash",
-      "targets": {
-        "BTC/USD": 50.0
-      },
-      "summary": "De markt toont voorzichtig herstel: 27/33 coins groen en mediaan 24u +1,03%, maar de 7d-mediaan blijft met -3,5% negatief en BTC hangt op $75,8k net onder het anker van $76k, dicht bij het 7d-laagtepunt. Fear & Greed zakte naar 28 (Fear), wat wijst op aanhoudende voorzichtigheid ondanks de groene br",
-      "equity": 8664.5,
-      "prices": {
-        "BTC/USD": 75789.06
-      }
-    },
-    {
       "time": "2026-11-06T21:31:03.633155+00:00",
       "time_local": "06-11-2026 22:31",
       "model": "deepseek-ai/deepseek-v4.1-flash",
@@ -1398,11 +1385,30 @@
         "SOL/USD": 71.8865,
         "ETH/USD": 1829.275
       }
+    },
+    {
+      "time": "2026-11-16T22:31:15.594166+00:00",
+      "time_local": "16-11-2026 23:31",
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "targets": {
+        "BTC/USD": 30.0,
+        "ETH/USD": 5.0,
+        "SOL/USD": 3.0,
+        "XRP/USD": 2.0
+      },
+      "summary": "Diepe risk-off houdt aan: Fear & Greed 10, breedte 12/33 groen, mediane 24u -0,57% en 7d -14,5%. BTC hangt op ~$65,3k in de onderste ~21% van zijn 7d-range met RSI 1d ~25; er is nog geen niveaudoorbraak of volume-uitbraak, dus geen setup.",
+      "equity": 8123.69,
+      "prices": {
+        "ETH/USD": 1831.952,
+        "XRP/USD": 0.960685,
+        "SOL/USD": 71.89585,
+        "BTC/USD": 65304.65
+      }
     }
   ],
   "plan": {
-    "time": "2026-11-16T22:01:19.620892+00:00",
-    "time_local": "16-11-2026 23:01",
+    "time": "2026-11-16T22:31:15.594166+00:00",
+    "time_local": "16-11-2026 23:31",
     "text": "Defensief en gedisciplineerd, geen micro-churn: BTC-kern 30%, alt-sleeve op het plafond van 10% (ETH 5, SOL 3, XRP 2), cash ~60%. Ik wijzig alleen op een vooraf bepaald niveau. Neerwaarts: 4u-sluiting met volume onder het anker ~$64,7k = -10-15pp afbouw. Opwaarts: 4u-sluiting boven de bovenkant van de 30u-range én dubbele bevestiging (≥60% coins groen + mediane 24u > +2%) = +10-15pp opbouw. Kronos (54,7% = muntgooi) genegeerd. Doel +20% is in dit bear-regime onrealistisch; focus op outperformance versus BTC en het bewaken van de -25% drawdown-grens (nu -18,8%)."
   },
   "lessons": [

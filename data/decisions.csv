@@ -3331,3 +3331,7 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-16T22:01:19.620892+00:00,16-11-2026 23:01,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.0,5.0,houden,,,"Alt-sleeve op plafond, klein houden in diepe risk-off."
 2026-11-16T22:01:19.620892+00:00,16-11-2026 23:01,deepseek-ai/deepseek-v4.1-flash,SOL/USD,3.0,3.0,houden,,,"Alt-sleeve, extra beta zonder beloning zolang breadth zwak is."
 2026-11-16T22:01:19.620892+00:00,16-11-2026 23:01,deepseek-ai/deepseek-v4.1-flash,XRP/USD,2.0,2.0,houden,,,"Kleinste sleeve; geen signaal om te wijzigen, churn vermijden."
+2026-11-16T22:31:15.594166+00:00,16-11-2026 23:31,deepseek-ai/deepseek-v4.1-flash,BTC/USD,30.1,30.0,houden,,,"Kernpositie; geen doorbraak door anker of rangegrens, dus ongewijzigd aanhouden."
+2026-11-16T22:31:15.594166+00:00,16-11-2026 23:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.0,5.0,houden,,,"Alt-sleeve op plafond; in risk-off extra beta zonder beloning, dus klein houden."
+2026-11-16T22:31:15.594166+00:00,16-11-2026 23:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,3.0,3.0,houden,,,"Idem; zwakste van de sleeve, minimaal aangehouden."
+2026-11-16T22:31:15.594166+00:00,16-11-2026 23:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,2.0,2.0,houden,,,"Idem; geen eigen signaal, alleen sleeve-vulling."
