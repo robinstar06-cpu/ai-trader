@@ -3343,3 +3343,7 @@ time_utc,time_local,model,symbol,current_pct,target_pct,action,usd,result,reason
 2026-11-16T23:31:14.710735+00:00,17-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,ETH/USD,5.0,5.0,houden,,,"Alt-sleeve op plafond; geen opbouwsignaal, aanhouden."
 2026-11-16T23:31:14.710735+00:00,17-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,SOL/USD,3.0,3.0,houden,,,"Alt-sleeve; zwakke breedte, klein houden."
 2026-11-16T23:31:14.710735+00:00,17-11-2026 00:31,deepseek-ai/deepseek-v4.1-flash,XRP/USD,2.0,2.0,houden,,,"Alt-sleeve; zwakste van de sleeve, minimaal aanhouden."
+2026-11-17T00:01:21.603105+00:00,17-11-2026 01:01,,BTC/USD,29.9,29.9,houden,,,
+2026-11-17T00:01:21.603105+00:00,17-11-2026 01:01,,ETH/USD,5.0,5.0,houden,,,
+2026-11-17T00:01:21.603105+00:00,17-11-2026 01:01,,SOL/USD,3.0,3.0,houden,,,
+2026-11-17T00:01:21.603105+00:00,17-11-2026 01:01,,XRP/USD,2.0,2.0,houden,,,
