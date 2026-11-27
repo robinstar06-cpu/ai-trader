@@ -1,21 +1,21 @@
 # AI Crypto Trader (demogeld)
 
-_Laatst bijgewerkt: 27-11-2026 01:31_
+_Laatst bijgewerkt: 27-11-2026 02:01_
 
 | | |
 |---|---|
-| Waarde portefeuille | **$7,907.35** |
-| Cash | $4,865.65 (62%) |
-| Rendement AI sinds 14-10-2026 13:02 | **-20.93%** |
-| Ter vergelijking: gewoon BTC vasthouden | -27.39% |
-| Verschil | +6.46% |
+| Waarde portefeuille | **$7,914.43** |
+| Cash | $4,865.65 (61%) |
+| Rendement AI sinds 14-10-2026 13:02 | **-20.86%** |
+| Ter vergelijking: gewoon BTC vasthouden | -27.21% |
+| Verschil | +6.36% |
 | Doel periode 2 (t/m 09-12-2026) | **+20%** |
-| Rendement deze periode | **-7.65%** |
+| Rendement deze periode | **-7.57%** |
 | Gehaalde mijlpalen | nog geen |
-| Daling vanaf de top ($10,000) | -20.93% |
+| Daling vanaf de top ($10,000) | -20.86% |
 | Model | geen (AI niet bereikbaar) |
 | Fear & Greed Index ([alternative.me](https://alternative.me/crypto/fear-and-greed-index/)) | 12 (Extreme Fear) |
-| Kronos-voorspelling | 33 munten (berekend om 01:01); richting op 4u goed: 46% (n=1524, 50% = gokken) |
+| Kronos-voorspelling | 30 munten in 243s, 3 overgeslagen (tijdslimiet); richting op 4u goed: 46% (n=1524, 50% = gokken) |
 
 ## Strategie van de AI (sinds 17-11-2026 00:31)
 
@@ -38,10 +38,10 @@ _De aanpak werkte op periodeniveau: -5,27% tegen -12,16% voor BTC, dus het afbou
 
 | Munt | Waarde | % | Winst/verlies | Doel | Kronos 12u | Reden AI |
 |---|---|---|---|---|---|---|
-| BTC/USD | $2,263.80 | 28.6% | -19.2% | 28.6% | -1.4% (0% omhoog) |  |
-| ETH/USD | $376.38 | 4.8% | -7.7% | 4.8% | +0.0% (50% omhoog) |  |
-| SOL/USD | $241.67 | 3.1% | -1.8% | 3.1% | -0.9% (33% omhoog) |  |
-| XRP/USD | $159.85 | 2.0% | -3.0% | 2.0% | -0.1% (50% omhoog) |  |
+| BTC/USD | $2,267.04 | 28.6% | -19.1% | 28.6% | -0.5% (33% omhoog) |  |
+| ETH/USD | $378.35 | 4.8% | -7.2% | 4.8% | -1.1% (17% omhoog) |  |
+| SOL/USD | $242.49 | 3.1% | -1.5% | 3.1% | -1.7% (0% omhoog) |  |
+| XRP/USD | $160.90 | 2.0% | -2.3% | 2.0% | +0.2% (67% omhoog) |  |
 
 ## Orders deze run
 
@@ -57,6 +57,7 @@ Geen orders (verdeling blijft gelijk).
 
 | Tijd | Waarde | Rendement | BTC vasthouden | Orders |
 |---|---|---|---|---|
+| 27-11-2026 02:01 | $7,914 | -20.86% | -27.21% | 0 |
 | 27-11-2026 01:31 | $7,907 | -20.93% | -27.39% | 0 |
 | 27-11-2026 01:01 | $7,907 | -20.93% | -27.34% | 0 |
 | 27-11-2026 00:31 | $7,902 | -20.98% | -27.49% | 0 |
@@ -68,7 +69,6 @@ Geen orders (verdeling blijft gelijk).
 | 26-11-2026 21:31 | $7,919 | -20.81% | -27.23% | 0 |
 | 26-11-2026 21:01 | $7,918 | -20.82% | -27.26% | 0 |
 | 26-11-2026 20:31 | $7,917 | -20.83% | -27.32% | 0 |
-| 26-11-2026 20:01 | $7,907 | -20.93% | -27.50% | 0 |
 
 ---
 Volledig logboek: [`data/equity.csv`](data/equity.csv) en [`data/decisions.csv`](data/decisions.csv).
